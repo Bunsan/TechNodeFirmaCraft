@@ -34,7 +34,7 @@ oreCopper.add(<TabulaRasa:RasaItem0:13>);
 val oreGold = <ore:oreGold>;
 oreGold.add(<TabulaRasa:RasaItem0:1>);
 
-val orePlatinum = <ore: orePlatinum>;
+val orePlatinum = <ore:orePlatinum>;
 orePlatinum.add(<TabulaRasa:RasaItem0:2>);
 
 val oreIron = <ore: oreIron>;
@@ -42,23 +42,59 @@ oreIron.add(<TabulaRasa:RasaItem0:3>);
 oreIron.add(<TabulaRasa:RasaItem0:10>);
 oreIron.add(<TabulaRasa:RasaItem0:11>);
 
-val oreSilver = <ore: oreSilver>;
+val oreSilver = <ore:oreSilver>;
 oreSilver.add(<TabulaRasa:RasaItem0:4>);
 
-val oreTin = <ore: oreTin>;
+val oreTin = <ore:oreTin>;
 oreTin.add(<TabulaRasa:RasaItem0:5>);
 
-val oreLead = <ore: oreLead>;
+val oreLead = <ore:oreLead>;
 oreLead.add(<TabulaRasa:RasaItem0:6>);
 
-val oreBismuth = <ore: oreBismuth>;
+val oreBismuth = <ore:oreBismuth>;
 oreBismuth.add(<TabulaRasa:RasaItem0:7>);
 
-val oreNickel = <ore: oreNickel>;
+val oreNickel = <ore:oreNickel>;
 oreNickel.add(<TabulaRasa:RasaItem0:8>);
 
-val oreZinc = <ore: oreZinc>;
+val oreZinc = <ore:oreZinc>;
 oreZinc.add(<TabulaRasa:RasaItem0:12>);
+
+val dustPlatinum = <ore:dustPlatinum>;
+dustPlatinum.add(<TabulaRasa:RasaItem1:3>);
+val dustBismuth = <ore:dustBismuth>;
+dustBismuth.add(<TabulaRasa:RasaItem1:1>);
+val dustNickel = <ore:dustNickel>;
+dustNickel.add(<TabulaRasa:RasaItem1:2>);
+val dustZinc = <ore:dustZinc>;
+dustZinc.add(<TabulaRasa:RasaItem1>);
+
+val clumpPlatinum = <ore:clumpPlatinum>;
+clumpPlatinum.add(<TabulaRasa:RasaItem3:3>);
+val clumpBismuth = <ore:clumpBismuth>;
+clumpBismuth.add(<TabulaRasa:RasaItem3:1>);
+val clumpNickel = <ore:clumpNickel>;
+clumpNickel.add(<TabulaRasa:RasaItem3:2>);
+val clumpZinc = <ore:clumpZinc>;
+clumpZinc.add(<TabulaRasa:RasaItem3>);
+
+val shardPlatinum = <ore:shardPlatinum>;
+shardPlatinum.add(<TabulaRasa:RasaItem4:3>);
+val shardBismuth = <ore:shardBismuth>;
+shardBismuth.add(<TabulaRasa:RasaItem4:1>);
+val shardNickel = <ore:shardNickel>;
+shardNickel.add(<TabulaRasa:RasaItem4:2>);
+val shardZinc = <ore:shardZinc>;
+shardZinc.add(<TabulaRasa:RasaItem4>);
+
+val crystalPlatinum = <ore:crystalPlatinum>;
+crystalPlatinum.add(<TabulaRasa:RasaItem5:3>);
+val crystalBismuth = <ore:crystalBismuth>;
+crystalBismuth.add(<TabulaRasa:RasaItem5:1>);
+val crystalNickel = <ore:crystalNickel>;
+crystalNickel.add(<TabulaRasa:RasaItem5:2>);
+val crystalZinc = <ore:crystalZinc>;
+crystalZinc.add(<TabulaRasa:RasaItem5>);
 
 val craftingChest = <ore:craftingChest>;
 craftingChest.add(<terrafirmacraft:Chest TFC:*>);
@@ -542,33 +578,33 @@ recipes.addShapeless(<minecraft:iron_bars> * 6, [<ore:plateIron>, item.anyDamage
 recipes.addShapeless(<BuildCraft|Transport:pipeWaterproof>, [<ore:slimeball>]);
 
 //#Add Recipe to Cut Gems with Tools
-for item in <ore:craftingToolHardHammer>.items {
-recipes.addShapeless(<terrafirmacraft:item.Diamond:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessDiamond>]);
-recipes.addShapeless(<terrafirmacraft:item.Diamond:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteDiamond>]);
-recipes.addShapeless(<terrafirmacraft:item.Amethyst:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessAmethyst>]);
-recipes.addShapeless(<terrafirmacraft:item.Amethyst:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteAmethyst>]);
-recipes.addShapeless(<terrafirmacraft:item.Ruby:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessRuby>]);
-recipes.addShapeless(<terrafirmacraft:item.Ruby:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteRuby>]);
-recipes.addShapeless(<terrafirmacraft:item.Emerald:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessEmerald>]);
-recipes.addShapeless(<terrafirmacraft:item.Emerald:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteEmerald>]);
-recipes.addShapeless(<terrafirmacraft:item.Opal:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessOpal>]);
-recipes.addShapeless(<terrafirmacraft:item.Opal:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteOpal>]);
-recipes.addShapeless(<terrafirmacraft:item.Sapphire:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessSapphire>]);
-recipes.addShapeless(<terrafirmacraft:item.Sapphire:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteSapphire>]);
-recipes.addShapeless(<terrafirmacraft:item.Topaz:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessTopaz>]);
-recipes.addShapeless(<terrafirmacraft:item.Topaz:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteTopaz>]);
-recipes.addShapeless(<terrafirmacraft:item.Tourmaline:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessTourmaline>]);
-recipes.addShapeless(<terrafirmacraft:item.Tourmaline:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteTourmaline>]);
-recipes.addShapeless(<terrafirmacraft:item.Jade:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessJade>]);
-recipes.addShapeless(<terrafirmacraft:item.Jade:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteJade>]);
-recipes.addShapeless(<terrafirmacraft:item.Beryl:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessBeryl>]);
-recipes.addShapeless(<terrafirmacraft:item.Beryl:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteBeryl>]);
-recipes.addShapeless(<terrafirmacraft:item.Agate:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessAgate>]);
-recipes.addShapeless(<terrafirmacraft:item.Agate:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteAgate>]);
-recipes.addShapeless(<terrafirmacraft:item.Garnet:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessGarnet>]);
-recipes.addShapeless(<terrafirmacraft:item.Garnet:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteGarnet>]);
-recipes.addShapeless(<terrafirmacraft:item.Jasper:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessJasper>]);
-recipes.addShapeless(<terrafirmacraft:item.Jasper:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteJasper>]);
+for item in <ore:craftingToolMediumChisel>.items {
+recipes.addShapeless(<terrafirmacraft:item.Diamond:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessDiamond>, <ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Diamond:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteDiamond>, <ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Amethyst:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessAmethyst>, <ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Amethyst:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteAmethyst>, <ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Ruby:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessRuby>, <ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Ruby:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteRuby>, <ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Emerald:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessEmerald>, <ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Emerald:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteEmerald>, <ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Opal:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessOpal>, <ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Opal:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteOpal>, <ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Sapphire:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessSapphire>, <ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Sapphire:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteSapphire>, <ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Topaz:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessTopaz>, <ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Topaz:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteTopaz>, <ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Tourmaline:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessTourmaline>, <ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Tourmaline:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteTourmaline>, <ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Jade:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessJade>, <ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Jade:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteJade>, <ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Beryl:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessBeryl>, <ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Beryl:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteBeryl>, <ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Agate:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessAgate>, <ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Agate:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteAgate>, <ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Garnet:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessGarnet>, <ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Garnet:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteGarnet>, <ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Jasper:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessJasper>, <ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraft:item.Jasper:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteJasper>, <ore:itemHammer>.reuse()]);
 }
 
 //# RAILCRAFT ASCETIC BLOCKS
@@ -834,7 +870,7 @@ recipes.addShaped(<Railcraft:brick.nether:1> * 8, [[<ore:stoneBricks>, <ore:ston
 //InputStack, OutputStack
 //mods.mekanism.Combiner.addRecipe(<minecraft:stone> * 4, <minecraft:stonebrick>);
 //OutputStack
-//mods.mekanism.Combiner.removeRecipe(<minecraft:redstone_ore>);
+//mods.mekanism.Combiner.removeRecipe(<*>);
 
 //Compressor
 //InputStack, OutputStack
@@ -900,6 +936,10 @@ furnace.addRecipe(<terrafirmacraft:item.Lead Ingot>, <ore:oreLead>);
 furnace.addRecipe(<terrafirmacraft:item.Bismuth Ingot>, <ore:oreBismuth>);
 furnace.addRecipe(<terrafirmacraft:item.Nickel Ingot>, <ore:oreNickel>);
 furnace.addRecipe(<terrafirmacraft:item.Zinc Ingot>, <ore:oreZinc>);
+furnace.addRecipe(<terrafirmacraft:item.Platinum Ingot>, <ore:dustPlatinum>);
+furnace.addRecipe(<terrafirmacraft:item.Bismuth Ingot>, <ore:dustBismuth>);
+furnace.addRecipe(<terrafirmacraft:item.Nickel Ingot>, <ore:dustNickel>);
+furnace.addRecipe(<terrafirmacraft:item.Zinc Ingot>, <ore:dustZinc>);
 
 //Enrichment Chamber
 mods.mekanism.Enrichment.addRecipe(<terrafirmacraft:item.Ore:25>, <Mekanism:Dust:2> * 2);
@@ -917,6 +957,10 @@ mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0:6>, <Mekanism:Dust:9> *
 mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0:7>, <TabulaRasa:RasaItem1:1> * 2);
 mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0:8>, <TabulaRasa:RasaItem1:2> * 2);
 mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0:12>, <TabulaRasa:RasaItem1> * 2);
+mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem2:3>, <TabulaRasa:RasaItem1:3>);
+mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem2:1>, <TabulaRasa:RasaItem1:1>);
+mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem2:2>, <TabulaRasa:RasaItem1:2>);
+mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem2>, <TabulaRasa:RasaItem1>);
 
 //Purification Chamber
 mods.mekanism.Purification.addRecipe(<terrafirmacraft:item.Ore:25>, <Mekanism:Clump:2> * 3);
@@ -934,6 +978,11 @@ mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem0:6>, <Mekanism:Clump:7
 mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem0:7>, <TabulaRasa:RasaItem3:1> * 3);
 mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem0:8>, <TabulaRasa:RasaItem3:2> * 3);
 mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem0:12>, <TabulaRasa:RasaItem3> * 3);
+mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem4>, <TabulaRasa:RasaItem3>);
+mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem4:1>, <TabulaRasa:RasaItem3:1>);
+mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem4:2>, <TabulaRasa:RasaItem3:2>);
+mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem4:3>, <TabulaRasa:RasaItem3:3>);
+
 
 //Chemical Injection
 mods.mekanism.chemical.Injection.addRecipe(<terrafirmacraft:item.Ore:25>, <gas:hydrogenChloride>, <Mekanism:Shard:2> * 4);
@@ -951,6 +1000,11 @@ mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:6>, <gas:hydrog
 mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:7>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4:1> * 4);
 mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:8>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4:2> * 4);
 mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:12>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4> * 4);
+mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem5>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4>);
+mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem5:1>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4:1>);
+mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem5:2>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4:2>);
+mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem5:3>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem3:3>);
+
 
 //Chemical Dissolution
 //InputStack, GasOutput
@@ -970,23 +1024,40 @@ mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:7>, <gas:Bism
 mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:8>, <gas:Nickel>);
 mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:12>, <gas:Zinc>);
 
+//# Crusher
+//InputStack, OutputStack
+mods.mekanism.Crusher.addRecipe(<TabulaRasa:RasaItem3>, <TabulaRasa:RasaItem2>);
+mods.mekanism.Crusher.addRecipe(<TabulaRasa:RasaItem3:1>, <TabulaRasa:RasaItem2:1>);
+mods.mekanism.Crusher.addRecipe(<TabulaRasa:RasaItem3:2>, <TabulaRasa:RasaItem2:2>);
+mods.mekanism.Crusher.addRecipe(<TabulaRasa:RasaItem3:3>, <TabulaRasa:RasaItem2:3>);
+mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Zinc Ingot>, <TabulaRasa:RasaItem1>);
+mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Bismuth Ingot>, <TabulaRasa:RasaItem1:1>);
+mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Nickel Ingot>, <TabulaRasa:RasaItem1:2>);
+mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Platinum Ingot>, <TabulaRasa:RasaItem1:3>);
 
-mods.mekanism.Crusher.removeRecipe(<minecraft:string>);
-mods.mekanism.Crusher.removeRecipe(<minecraft:string>);
-mods.mekanism.Crusher.removeRecipe(<minecraft:string>);
-mods.mekanism.Crusher.removeRecipe(<minecraft:string>);
-mods.mekanism.Crusher.removeRecipe(<minecraft:string>);
-mods.mekanism.Crusher.removeRecipe(<minecraft:string>);
-mods.mekanism.Crusher.removeRecipe(<minecraft:string>);
-mods.mekanism.Crusher.removeRecipe(<minecraft:string>);
-mods.mekanism.Crusher.removeRecipe(<minecraft:string>);
-mods.mekanism.Crusher.removeRecipe(<minecraft:string>);
-mods.mekanism.Crusher.removeRecipe(<minecraft:string>);
-mods.mekanism.Crusher.removeRecipe(<minecraft:string>);
-mods.mekanism.Crusher.removeRecipe(<minecraft:string>);
-mods.mekanism.Crusher.removeRecipe(<minecraft:string>);
-mods.mekanism.Crusher.removeRecipe(<minecraft:string>);
-mods.mekanism.Crusher.removeRecipe(<minecraft:string>);
+
+//# REMOVE all Combiner Recipes
+//mods.mekanism.Combiner.removeRecipe(<minecraft:iron_ore>);
+mods.mekanism.Combiner.removeRecipe(<minecraft:gold_ore>);
+//mods.mekanism.Combiner.removeRecipe(<minecraft:lapis_ore>);
+mods.mekanism.Combiner.removeRecipe(<minecraft:redstone_ore>);
+mods.mekanism.Combiner.removeRecipe(<Mekanism:OreBlock:1>);
+mods.mekanism.Combiner.removeRecipe(<Mekanism:OreBlock:2>);
+mods.mekanism.Combiner.removeRecipe(<minecraft:obsidian>);
+
+//Chemical Washer
+//InputGas, OutputGas
+mods.mekanism.chemical.Washer.addRecipe(<gas:Zinc>, <gas:cleanZinc>);
+mods.mekanism.chemical.Washer.addRecipe(<gas:Bismuth>, <gas:cleanBismuth>);
+mods.mekanism.chemical.Washer.addRecipe(<gas:Nickel>, <gas:cleanNickel>);
+mods.mekanism.chemical.Washer.addRecipe(<gas:Platinum>, <gas:cleanPlatinum>);
+
+//Chemical Crystallizer
+//GasInput OutputStack
+mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanZinc>, <TabulaRasa:RasaItem5>);
+mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanBismuth>, <TabulaRasa:RasaItem5:1>);
+mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanNickel>, <TabulaRasa:RasaItem5:2>);
+mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanPlatinum>, <TabulaRasa:RasaItem5:3>);
 
 //# Railcraft add/Remove Machine Recipes
 //Rolling machine recipes

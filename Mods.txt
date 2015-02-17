@@ -1,6 +1,7 @@
-
+List of Mods in Current Build
 
 [1.7.10]DamageIndicatorsMod-3.2.3.jar
+[1.7.10]Decorations-1.0.15.jar
 [1.7.10]MineTweaker3-1.7.10-3.0.9C.jar
 [1.7.10]TerraFirmaCraft-0.79.15.538.jar
 AOBD-2.4.0.jar
@@ -10,7 +11,7 @@ binnie-mods-2.0-pre6.jar
 buildcraft-6.3.6.jar
 Carpenter's Blocks v3.3.5 - MC 1.7.10.jar
 CodeChickenCore-1.7.10-1.0.4.29-universal.jar
-Decorations-1.0.11.jar
+[1.7.10]Decorations-1.0.15.jar
 DynamicLights-1.7.10.jar
 fastcraft-1.19.jar
 FlatSigns-1.7.10-universal-2.1.0.19.jar
