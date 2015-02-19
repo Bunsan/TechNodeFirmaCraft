@@ -150,9 +150,9 @@ val stoneNetherrack = <ore:stoneNetherrack>;
 stoneNetherrack.add(<minecraft:netherrack>);
 stoneNetherrack.add(<terrafirmacraft:item.Ore:22>);
 
-//# REPLACEMENT of Glowstone (Renamed White Phosphorus) with Selenite
-val oreWhitephosphorus = <ore:oreWhitephosphorus>;
-oreWhitephosphorus.add(<terrafirmacraft:item.Ore:19>);
+//# REPLACEMENT of Glowstone (Renamed Scapolite) with Selenite
+val oreScapolite = <ore:oreScapolite>;
+oreScapolite.add(<terrafirmacraft:item.Ore:19>);
 val oreSelenite = <ore:oreSelenite>;
 oreSelenite.remove(<terrafirmacraft:item.Ore:19>);
 
@@ -376,6 +376,14 @@ recipes.remove(<Mekanism:RoadPlasticBlock:15>);
 recipes.remove(<Mekanism:EnergyCube:100>);
 recipes.remove(<Mekanism:ElectricBow:100>);
 recipes.remove(<Mekanism:MachineBlock:2>);
+
+//# FURNACE
+furnace.remove(<minecraft:iron_ingot>, <Mekanism:Dust>);
+furnace.remove(<minecraft:gold_ingot>, <Mekanism:Dust:1>);
+furnace.remove(<Mekanism:Ingot:4>, <Mekanism:Dust:5>);
+furnace.remove(<Mekanism:Ingot:5>, <Mekanism:Dust:6>);
+furnace.remove(<Mekanism:Ingot:6>, <Mekanism:Dust:7>);
+furnace.remove(<Railcraft:ingot:3>, <Mekanism:Dust:9>);
 
 //# VANILLA
 recipes.remove(<minecraft:emerald_block>);
@@ -616,6 +624,13 @@ recipes.removeShaped(<Railcraft:lantern.stone:4>, [[<Railcraft:brick.infernal:2>
 // ================================================================================
 //#MARKER ADD
 
+furnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, <Mekanism:Dust>);
+furnace.addRecipe(<terrafirmacraft:item.Gold Ingot>, <Mekanism:Dust:1>);
+furnace.addRecipe(<terrafirmacraft:item.Steel Ingot>, <Mekanism:Dust:5>);
+furnace.addRecipe(<terrafirmacraft:item.Copper Ingot>, <Mekanism:Dust:6>);
+furnace.addRecipe(<terrafirmacraft:item.Tin Ingot>, <Mekanism:Dust:7>);
+furnace.addRecipe(<terrafirmacraft:item.Lead Ingot>, <Mekanism:Dust:9>);
+
 // ================================================================================
 //#MARKER ADD SHAPELESS
 
@@ -641,7 +656,7 @@ for item in <ore:craftingToolMediumHammer>.items {
 recipes.addShapeless(<HopperDuctMod:gratedHopper>, [<minecraft:hopper>, <minecraft:iron_bars>, item.anyDamage().transformDamage()]);
 recipes.addShapeless(<minecraft:blaze_powder> * 2, [item.anyDamage().transformDamage(), <ore:oreStrontium>]);
 recipes.addShapeless(<minecraft:slime_ball>, [item.anyDamage().transformDamage(), <ore:logSappy>]);
-recipes.addShapeless(<minecraft:glowstone_dust>, [item.anyDamage().transformDamage(), <ore:oreWhitephosphorus>]);
+recipes.addShapeless(<minecraft:glowstone_dust>, [item.anyDamage().transformDamage(), <ore:oreScapolite>]);
 }
 
 //# REPLACE recipes using chisel
