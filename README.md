@@ -7,7 +7,6 @@ This pack is a Work in Progress. It is unknown how stable this pack is at this t
 
 Know Issues.
 - Piping into chests ignores item restriction based on size.
-- Ore ten has not been fixed (I just got the unused ores generating again haven't config'd them for location, density or rarity)
 - No vanilla trees for tree breeding
 - Some flowers for bees
 - Food stuff
@@ -19,6 +18,7 @@ To Do's
 - Mob tweaking (AI and stats)
 - Lots more tweaks
 - A few more mods
+- Ore Gen is working, need to tweak balance
 - So much balancing
 - Resourcepack stuff
 
