@@ -14,6 +14,8 @@ Know Issues.
 - 
 
 To Do's
+- Provide links to get mod downloads.
+- List mods as required and optional
 - HQM integration to fix roadblocks more than to guide progression.
 - Mob tweaking (AI and stats)
 - Lots more tweaks
