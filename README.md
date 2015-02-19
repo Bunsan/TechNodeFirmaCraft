@@ -21,5 +21,6 @@ To Do's
 - Ore Gen is working, need to tweak balance
 - So much balancing
 - Resourcepack stuff
+- Can make most recipe.removeShaped/Shapeless just recipe.remove, will clean up scripts a lot.
 
 If you are crazy enough to try please log any issues that you find. Just try and see if I've even integrated that mods item/blocks into the pack by searching the modtweaker script.
