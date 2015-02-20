@@ -344,15 +344,6 @@ plateCopper.add(<Railcraft:part.plate:3>);
 
 // ================================================================================
 //#MARKER REMOVE
-recipes.remove(<Mekanism:PartTransmitter:11>);
-recipes.remove(<Mekanism:PartTransmitter:10>);
-recipes.remove(<Mekanism:PartTransmitter:9>);
-recipes.remove(<Mekanism:PartTransmitter>);
-recipes.remove(<Mekanism:PartTransmitter:4>);
-
-recipes.remove(<Mekanism:EnergyCube:100>);
-recipes.remove(<Mekanism:ElectricBow:100>);
-recipes.remove(<Mekanism:MachineBlock:2>);
 
 //# FURNACE
 furnace.remove(<minecraft:iron_ingot>, <Mekanism:Dust>);
@@ -369,6 +360,11 @@ recipes.remove(<minecraft:torch>);
 recipes.remove(<minecraft:lead>);
 recipes.remove(<minecraft:golden_apple:1>);
 recipes.remove(<minecraft:golden_carrot>);
+recipes.remove(<minecraft:dye:4>);
+recipes.remove(<minecraft:blaze_powder>);
+recipes.remove(<minecraft:carrot_on_a_stick>);
+recipes.remove(<minecraft:iron_bars>);
+recipes.remove(<minecraft:lapis_block>);
 
 
 //# FORESTRY
@@ -381,12 +377,28 @@ recipes.remove(<Forestry:ffarm:4>);
 recipes.remove(<Forestry:ffarm:3>);
 recipes.remove(<Forestry:ffarm:2>);
 recipes.remove(<Forestry:ffarm>);
+recipes.remove(<Forestry:ingotBronze>);
+recipes.remove(<Forestry:ingotCopper>);
+//# Gears
+recipes.remove(<Forestry:gearCopper>);
+recipes.remove(<Forestry:gearBronze>);
+recipes.remove(<Forestry:gearTin>);
+//# Sturdy Machine
+recipes.remove(<Forestry:sturdyMachine>);
+//# Engines
+recipes.remove(<Forestry:engine:4>);
+recipes.remove(<Forestry:engine:1>);
+recipes.remove(<Forestry:engine:2>);
 
 //# MEKANISM
 recipes.remove(<Mekanism:ObsidianTNT>);
-recipes.remove(<Mekanism:MachineBlock2:5>);
 recipes.remove(<Mekanism:BasicBlock:13>);
 recipes.remove(<Mekanism:BasicBlock:12>);
+//# MEKANISM Steel Casing, Dynamic Tank blocks (Removal for Replacement)
+recipes.remove(<Mekanism:BasicBlock:11>);
+recipes.remove(<Mekanism:BasicBlock:10>);
+recipes.remove(<Mekanism:BasicBlock:9>);
+recipes.remove(<Mekanism:BasicBlock:8>);
 recipes.remove(<Mekanism:BasicBlock:5>);
 recipes.remove(<Mekanism:BasicBlock:4>);
 recipes.remove(<Mekanism:BasicBlock:3>);
@@ -406,9 +418,6 @@ recipes.remove(<Mekanism:ScubaTank:100>);
 recipes.remove(<Mekanism:GasMask>);
 recipes.remove(<Mekanism:Configurator:100>);
 recipes.remove(<Mekanism:TeleportationCore>);
-recipes.remove(<Mekanism:MachineBlock:7>);
-recipes.remove(<Mekanism:MachineBlock:6>);
-recipes.remove(<Mekanism:MachineBlock:5>);
 recipes.remove(<Mekanism:RoadPlasticBlock>);
 recipes.remove(<Mekanism:RoadPlasticBlock:1>);
 recipes.remove(<Mekanism:RoadPlasticBlock:2>);
@@ -425,6 +434,38 @@ recipes.remove(<Mekanism:RoadPlasticBlock:12>);
 recipes.remove(<Mekanism:RoadPlasticBlock:13>);
 recipes.remove(<Mekanism:RoadPlasticBlock:14>);
 recipes.remove(<Mekanism:RoadPlasticBlock:15>);
+recipes.remove(<Mekanism:PartTransmitter:11>);
+recipes.remove(<Mekanism:PartTransmitter:10>);
+recipes.remove(<Mekanism:PartTransmitter:9>);
+recipes.remove(<Mekanism:PartTransmitter>);
+recipes.remove(<Mekanism:PartTransmitter:4>);
+recipes.remove(<Mekanism:EnergyCube:100>);
+recipes.remove(<Mekanism:ElectricBow:100>);
+recipes.remove(<Mekanism:SeismicReader:100>);
+recipes.remove(<Mekanism:EnergyTablet:100>);
+recipes.remove(<Mekanism:MachineBlock2:12>);
+recipes.remove(<Mekanism:MachineBlock2:9>);
+recipes.remove(<Mekanism:MachineBlock2:8>);
+recipes.remove(<Mekanism:MachineBlock2:7>);
+recipes.remove(<Mekanism:MachineBlock2:6>);
+recipes.remove(<Mekanism:MachineBlock2:5>);
+recipes.remove(<Mekanism:MachineBlock2:4>);
+recipes.remove(<Mekanism:MachineBlock2:2>);
+recipes.remove(<Mekanism:MachineBlock2:1>);
+recipes.remove(<Mekanism:MachineBlock2:3>);
+recipes.remove(<Mekanism:MachineBlock:13>);
+recipes.remove(<Mekanism:MachineBlock:12>);
+recipes.remove(<Mekanism:MachineBlock:10>);
+recipes.remove(<Mekanism:MachineBlock:9>);
+recipes.remove(<Mekanism:MachineBlock:8>);
+recipes.remove(<Mekanism:MachineBlock:7>);
+recipes.remove(<Mekanism:MachineBlock:6>);
+recipes.remove(<Mekanism:MachineBlock:5>);
+recipes.remove(<Mekanism:MachineBlock:3>);
+recipes.remove(<Mekanism:MachineBlock:2>);
+recipes.remove(<Mekanism:MachineBlock:1>);
+recipes.remove(<Mekanism:MachineBlock>);
+
 
 //# BUILDCRAFT
 recipes.remove(<BuildCraft|Silicon:laserTableBlock:1>);
@@ -439,85 +480,111 @@ recipes.remove(<BuildCraft|Core:diamondGearItem>);
 recipes.remove(<BuildCraft|Core:goldGearItem>);
 recipes.remove(<BuildCraft|Core:stoneGearItem>);
 recipes.remove(<BuildCraft|Core:woodenGearItem>);
+recipes.remove(<BuildCraft|Transport:pipeWaterproof>);
+//# MACHINES
+recipes.remove(<BuildCraft|Factory:blockHopper>);
+recipes.remove(<BuildCraft|Silicon:laserTableBlock>);
+recipes.remove(<BuildCraft|Silicon:laserBlock>);
+recipes.remove(<BuildCraft|Factory:refineryBlock>);
+recipes.remove(<BuildCraft|Factory:tankBlock>);
+recipes.remove(<BuildCraft|Factory:floodGateBlock>);
+recipes.remove(<BuildCraft|Factory:autoWorkbenchBlock>);
+//# Engines
+recipes.remove(<BuildCraft|Energy:engineBlock:2>);
+recipes.remove(<BuildCraft|Energy:engineBlock:1>);
+recipes.remove(<BuildCraft|Energy:engineBlock>);
+
+//# RAILCRAFT
+//# REMOVAL of Non-TFC ingots to nugget recipes to clean up NEI
+recipes.remove(<Railcraft:nugget:4>);
+recipes.remove(<Railcraft:nugget:3>);
+recipes.remove(<Railcraft:nugget:2>);
+recipes.remove(<Railcraft:nugget:1>);
+recipes.remove(<Railcraft:nugget>);
+
+//#Remove Block to Fitted Stone Recipe
+recipes.remove(<Railcraft:brick.infernal:1>);
+recipes.remove(<Railcraft:brick.abyssal:1>);
+recipes.remove(<Railcraft:brick.sandy:1>);
+recipes.remove(<Railcraft:brick.frostbound:1>);
+recipes.remove(<Railcraft:brick.quarried:1>);
+recipes.remove(<Railcraft:brick.bleachedbone:1>);
+recipes.remove(<Railcraft:brick.bloodstained:1>);
+recipes.remove(<Railcraft:brick.nether:1>);
+
+recipes.remove(<Railcraft:cube:9>);
+recipes.remove(<Railcraft:cube:2>);
+//# Smoker
+recipes.remove(<Railcraft:machine.alpha:5>);
+//# FireBoxes
+recipes.remove(<Railcraft:machine.beta:6>);
+recipes.remove(<Railcraft:machine.beta:5>);
+//# Iron/Steel Tank, Gauge and Valve
+recipes.remove(<Railcraft:machine.beta:13>);
+recipes.remove(<Railcraft:machine.beta:0>);
+recipes.remove(<Railcraft:machine.beta:1>);
+recipes.remove(<Railcraft:machine.beta:2>);
+recipes.remove(<Railcraft:machine.beta:14>);
+recipes.remove(<Railcraft:machine.beta:15>);
+//# Rolling Machine
+recipes.remove(<Railcraft:machine.alpha:8>);
+//# Steam Oven
+recipes.remove(<Railcraft:machine.alpha:3>);
+//# RockCrusher
+recipes.remove(<Railcraft:machine.alpha:15>);
+//# Coke Oven Brick
+recipes.remove(<Railcraft:machine.alpha:7>);
+//# Gears
+recipes.remove(<Railcraft:part.gear:2>);
+recipes.remove(<Railcraft:part.gear:1>);
+recipes.remove(<Railcraft:part.gear>);
+recipes.remove(<Railcraft:part.gear:3>);
+//# Engines
+recipes.remove(<Railcraft:machine.beta:9>);
+recipes.remove(<Railcraft:machine.beta:8>);
+recipes.remove(<Railcraft:machine.beta:7>);
+//# Priming and Disposal Tracks, Tank Detector, Circuits and Age and Animal Detector
+recipes.remove(<Railcraft:track:8103>.withTag({track: "railcraft:track.priming"}));
+recipes.remove(<Railcraft:track:2264>.withTag({track: "railcraft:track.disposal"}));
+recipes.remove(<Railcraft:detector:7>);
+recipes.remove(<Railcraft:detector:11>);
+recipes.remove(<Railcraft:detector:8>);
+recipes.remove(<Railcraft:part.circuit:2>);
+recipes.remove(<Railcraft:part.circuit>);
+recipes.remove(<Railcraft:part.circuit:1>);
+//# Engraving Table
+recipes.remove(<Railcraft:machine.alpha:13>);
+//# Blast Furnace Blocks
+recipes.remove(<Railcraft:machine.alpha:12>);
+//# Coke Oven Blocks
+recipes.remove(<Railcraft:machine.alpha:7>);
+//# RC lanterns
+recipes.remove(<Railcraft:lantern.metal:*>);
+recipes.remove(<Railcraft:lantern.stone:*>);
+
+//# HOPPERDUCTS
+recipes.remove(<HopperDuctMod:gratedHopper>);
+recipes.remove(<HopperDuctMod:hopperDuct>);
+
+//# FORGE MICROBLOCK
+recipes.remove(<ForgeMicroblock:sawIron>);
+recipes.remove(<ForgeMicroblock:sawDiamond>);
+recipes.remove(<ForgeMicroblock:stoneRod>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
 
-//# VANILLA
-recipes.removeShapeless(<minecraft:dye:4> * 9, [<minecraft:lapis_block>]);
-recipes.removeShapeless(<minecraft:blaze_powder> * 2, [<ore:oreStrontium>]);
-
-//# HOPPERDUCTS
-recipes.removeShapeless(<HopperDuctMod:gratedHopper>, [<minecraft:hopper>, <minecraft:iron_bars>]);
-
-//# BUILDCRAFT
-recipes.removeShapeless(<BuildCraft|Transport:pipeWaterproof>, [<minecraft:dye:2>]);
-
-//# FORESTRY
-recipes.removeShapeless(<Forestry:ingotBronze> * 9, [<ore:blockBronze>]);
-recipes.removeShapeless(<Forestry:ingotCopper> * 9, [<ore:blockCopper>]);
-
-//# RAILCRAFT
-
-//# REMOVAL of Non-TFC ingots to nugget recipes to clean up NEI
-recipes.removeShapeless(<Railcraft:nugget:4> * 9, [<Railcraft:ingot:3>]);
-recipes.removeShapeless(<Railcraft:nugget:3> * 9, [<Railcraft:ingot:2>]);
-recipes.removeShapeless(<Railcraft:nugget:2> * 9, [<Railcraft:ingot:1>]);
-recipes.removeShapeless(<Railcraft:nugget:1> * 9, [<Railcraft:ingot>]);
-recipes.removeShapeless(<Railcraft:nugget> * 9, [<ore:ingotIron>]);
-
-//#Remove Block to Fitted Stone Recipe
-recipes.removeShapeless(<Railcraft:brick.infernal:1>, [<Railcraft:brick.infernal:2>]);
-recipes.removeShapeless(<Railcraft:brick.abyssal:1>, [<Railcraft:brick.abyssal:2>]);
-recipes.removeShapeless(<Railcraft:brick.sandy:1>, [<Railcraft:brick.sandy:2>]);
-recipes.removeShapeless(<Railcraft:brick.frostbound:1>, [<Railcraft:brick.frostbound:2>]);
-recipes.removeShapeless(<Railcraft:brick.quarried:1>, [<Railcraft:brick.quarried:2>]);
-recipes.removeShapeless(<Railcraft:brick.bleachedbone:1>, [<Railcraft:brick.bleachedbone:2>]);
-recipes.removeShapeless(<Railcraft:brick.bloodstained:1>, [<Railcraft:brick.bloodstained:2>]);
-recipes.removeShapeless(<Railcraft:brick.nether:1>, [<Railcraft:brick.nether:2>]);
-
-
 // ================================================================================
 //#MARKER REMOVE SHAPED
-recipes.removeShaped(<Mekanism:MachineBlock2:12>, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [<ore:circuitBasic>, <Mekanism:MachineBlock:12>, <ore:circuitBasic>], [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]]);
-recipes.removeShaped(<Mekanism:SeismicReader:100>, [[<ore:ingotSteel>, <minecraft:dye:4>, <ore:ingotSteel>], [<ore:ingotSteel>, null, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
-recipes.removeShaped(<Mekanism:MachineBlock2:9>, [[<ore:ingotTin>, <ore:gemLapis>, <ore:ingotTin>], [<ore:circuitBasic>, <Mekanism:BasicBlock:8>, <ore:circuitBasic>], [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]]);
-recipes.removeShaped(<Mekanism:MachineBlock2:4>, [[<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>], [<ore:alloyAdvanced>, <Mekanism:ElectrolyticCore>, <ore:alloyAdvanced>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
-recipes.removeShaped(<Mekanism:EnergyTablet:100>, [[<ore:dustRedstone>, <ore:ingotGold>, <ore:dustRedstone>], [<ore:alloyAdvanced>, <ore:ingotGold>, <ore:alloyAdvanced>], [<ore:dustRedstone>, <ore:ingotGold>, <ore:dustRedstone>]]);
-recipes.removeShaped(<Mekanism:MachineBlock:12>, [[null, <ore:bucketEmpty>, null], [<ore:alloyAdvanced>, <Mekanism:BasicBlock:8>, <ore:alloyAdvanced>], [<ore:ingotOsmium>, <ore:ingotOsmium>, <ore:ingotOsmium>]]);
-recipes.removeShaped(<Mekanism:MachineBlock:8>, [[<ore:ingotIron>, <minecraft:furnace>, <ore:ingotIron>], [<ore:dustRedstone>, <ore:ingotOsmium>, <ore:dustRedstone>], [<ore:ingotIron>, <minecraft:furnace>, <ore:ingotIron>]]);
-recipes.removeShaped(<Mekanism:MachineBlock2:8>, [[<ore:circuitBasic>, <Mekanism:GasTank:100>, <ore:circuitBasic>], [<ore:alloyUltimate>, <Mekanism:BasicBlock:8>, <ore:alloyUltimate>], [<ore:circuitBasic>, <Mekanism:GasTank:100>, <ore:circuitBasic>]]);
-recipes.removeShaped(<Mekanism:MachineBlock2:7>, [[<ore:circuitBasic>, <minecraft:bucket>, <ore:circuitBasic>], [<ore:alloyAdvanced>, <Mekanism:BasicBlock:9>, <ore:alloyAdvanced>], [<ore:circuitBasic>, <Mekanism:GasTank:100>, <ore:circuitBasic>]]);
-recipes.removeShaped(<Mekanism:MachineBlock2:6>, [[<ore:circuitBasic>, <Mekanism:GasTank:100>, <ore:circuitBasic>], [<ore:alloyAdvanced>, <Mekanism:BasicBlock:9>, <ore:alloyAdvanced>], [<ore:circuitBasic>, <Mekanism:GasTank:100>, <ore:circuitBasic>]]);
-recipes.removeShaped(<Mekanism:MachineBlock2:2>, [[<ore:alloyAdvanced>, <ore:circuitBasic>, <ore:alloyAdvanced>], [<Mekanism:GasTank:100>, <Mekanism:BasicBlock:9>, <Mekanism:GasTank:100>], [<ore:alloyAdvanced>, <Mekanism:ControlCircuit>, <ore:alloyAdvanced>]]);
-recipes.removeShaped(<Mekanism:MachineBlock2:1>, [[<ore:alloyAdvanced>, <ore:circuitBasic>, <ore:alloyAdvanced>], [<Mekanism:MachineBlock:13>, <Mekanism:BasicBlock:9>, <Mekanism:GasTank:100>], [<ore:alloyAdvanced>, <ore:circuitBasic>, <ore:alloyAdvanced>]]);
-recipes.removeShaped(<Mekanism:MachineBlock:13>, [[<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>], [<minecraft:chest>, <ore:circuitBasic>, <minecraft:chest>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
-recipes.removeShaped(<Mekanism:MachineBlock2:3>, [[<ore:alloyElite>, <ore:circuitElite>, <ore:alloyElite>], [<ore:ingotGold>, <Mekanism:MachineBlock:9>, <ore:ingotGold>], [<ore:alloyElite>, <ore:circuitElite>, <ore:alloyElite>]]);
-recipes.removeShaped(<Mekanism:MachineBlock:10>, [[<ore:dustRedstone>, <ore:circuitBasic>, <ore:dustRedstone>], [<ore:blockGlassColorless>, <Mekanism:BasicBlock:8>, <ore:blockGlassColorless>], [<ore:dustRedstone>, <ore:circuitBasic>, <ore:dustRedstone>]]);
-recipes.removeShaped(<Mekanism:MachineBlock:9>, [[<ore:alloyAdvanced>, <ore:circuitAdvanced>, <ore:alloyAdvanced>], [<Mekanism:Ingot:1>, <Mekanism:MachineBlock>, <Mekanism:Ingot:1>], [<ore:alloyAdvanced>, <ore:circuitAdvanced>, <ore:alloyAdvanced>]]);
-recipes.removeShaped(<Mekanism:MachineBlock:3>, [[<ore:dustRedstone>, <ore:circuitBasic>, <ore:dustRedstone>], [<ore:bucketLava>, <Mekanism:BasicBlock:8>, <ore:bucketLava>], [<ore:dustRedstone>, <ore:circuitBasic>, <ore:dustRedstone>]]);
-recipes.removeShaped(<Mekanism:MachineBlock:1>, [[<ore:alloyAdvanced>, <ore:circuitAdvanced>, <ore:alloyAdvanced>], [<minecraft:bucket>, <Mekanism:BasicBlock:8>, <minecraft:bucket>], [<ore:alloyAdvanced>, <ore:circuitAdvanced>, <ore:alloyAdvanced>]]);
-recipes.removeShaped(<Mekanism:MachineBlock>, [[<ore:dustRedstone>, <ore:circuitBasic>, <ore:dustRedstone>], [<ore:ingotIron>, <Mekanism:BasicBlock:8>, <ore:ingotIron>], [<ore:dustRedstone>, <ore:circuitBasic>, <ore:dustRedstone>]]);
-
 //# CLEANUP of NEI recipes to avoid any confusion
-recipes.removeShaped(<minecraft:carrot_on_a_stick>, [[<minecraft:fishing_rod>, null], [null, <ore:cropCarrot>]]);
 recipes.removeShaped(<Railcraft:brick.frostbound:2> * 8, [[<minecraft:ice>, <minecraft:ice>, <minecraft:ice>], [<minecraft:ice>, <minecraft:dye:4>, <minecraft:ice>], [<minecraft:ice>, <minecraft:ice>, <minecraft:ice>]]);
 recipes.removeShaped(<minecraft:carpet:*> * 3, [[<minecraft:wool:*>, <minecraft:wool:*>]]);
-
-//# VANILLA (Replaced)
-recipes.removeShaped(<minecraft:iron_bars> * 16, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
-
-//# REMOVAL of Forge Microblock Saws (may replace)
-recipes.removeShaped(<ForgeMicroblock:sawIron>, [[<ore:stickWood>, <ore:rodStone>, <ore:rodStone>], [<ore:stickWood>, <minecraft:iron_ingot>, <ore:rodStone>]]);
-recipes.removeShaped(<ForgeMicroblock:sawDiamond>, [[<ore:stickWood>, <ore:rodStone>, <ore:rodStone>], [<ore:stickWood>, <minecraft:diamond>, <ore:rodStone>]]);
-recipes.removeShaped(<ForgeMicroblock:stoneRod> * 4, [[<minecraft:stone>], [<minecraft:stone>]]);
+//#Wooden tie recipe with bucket, to avoid confusion
+recipes.removeShaped(<Railcraft:part.tie>, [[null, <Railcraft:fluid.creosote.bucket>, null], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
 
 //# REMOVAL of Ore and Mineral Block Recipes (Some ReAdded)
 recipes.removeShaped(<minecraft:iron_ingot> * 9, [[<minecraft:iron_block>]]);
 recipes.removeShaped(<minecraft:gold_ingot> * 9, [[<ore:blockGold>]]);
-recipes.removeShaped(<Railcraft:cube:9>, [[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]]);
-recipes.removeShaped(<Railcraft:cube:2>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
-recipes.removeShaped(<minecraft:lapis_block>, [[<minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>], [<minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>], [<minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>]]);
 
 //# REMOVAL of Ingot to Nugget Recipes (Replaced with Ore Dictionary Compatible Shapeless Recipes)
 recipes.removeShaped(<minecraft:gold_ingot>, [[<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>], [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>], [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>]]);
@@ -527,107 +594,8 @@ recipes.removeShaped(<Railcraft:ingot:2>, [[<Railcraft:nugget:3>, <Railcraft:nug
 recipes.removeShaped(<Railcraft:ingot:1>, [[<Railcraft:nugget:2>, <Railcraft:nugget:2>, <Railcraft:nugget:2>], [<Railcraft:nugget:2>, <Railcraft:nugget:2>, <Railcraft:nugget:2>], [<Railcraft:nugget:2>, <Railcraft:nugget:2>, <Railcraft:nugget:2>]]);
 recipes.removeShaped(<Railcraft:ingot:3>, [[<Railcraft:nugget:4>, <Railcraft:nugget:4>, <Railcraft:nugget:4>], [<Railcraft:nugget:4>, <Railcraft:nugget:4>, <Railcraft:nugget:4>], [<Railcraft:nugget:4>, <Railcraft:nugget:4>, <Railcraft:nugget:4>]]);
 
-//# HOPPERDUCT (Removal for Replacement)
-recipes.removeShaped(<HopperDuctMod:hopperDuct> * 4, [[null, null, null], [<minecraft:iron_ingot>, <ore:plankWood>, <minecraft:iron_ingot>], [null, <minecraft:iron_ingot>, null]]);
-
-//# BUILDCRAFT (Removal for Replacement)
-//# MACHINES
-recipes.removeShaped(<BuildCraft|Factory:blockHopper>, [[<ore:ingotIron>, <minecraft:chest>, <ore:ingotIron>], [<ore:ingotIron>, <ore:gearStone>, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);
-recipes.removeShaped(<BuildCraft|Silicon:laserTableBlock>, [[<minecraft:obsidian>, <ore:dustRedstone>, <minecraft:obsidian>], [<minecraft:obsidian>, <minecraft:diamond>, <minecraft:obsidian>], [<minecraft:obsidian>, <ore:gearDiamond>, <minecraft:obsidian>]]);
-recipes.removeShaped(<BuildCraft|Silicon:laserBlock>, [[<minecraft:obsidian>, <ore:dustRedstone>, <ore:dustRedstone>], [<ore:gemDiamond>, <ore:gemDiamond>, <ore:dustRedstone>], [<minecraft:obsidian>, <ore:dustRedstone>, <ore:dustRedstone>]]);
-recipes.removeShaped(<BuildCraft|Factory:refineryBlock>, [[<minecraft:redstone_torch>, <BuildCraft|Factory:tankBlock>, <minecraft:redstone_torch>], [<BuildCraft|Factory:tankBlock>, <ore:gearDiamond>, <BuildCraft|Factory:tankBlock>]]);
-recipes.removeShaped(<BuildCraft|Factory:tankBlock>, [[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>], [<ore:blockGlass>, null, <ore:blockGlass>], [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]]);
-recipes.removeShaped(<BuildCraft|Factory:floodGateBlock>, [[<ore:ingotIron>, <ore:gearIron>, <ore:ingotIron>], [<minecraft:iron_bars>, <BuildCraft|Factory:tankBlock>, <minecraft:iron_bars>], [<ore:ingotIron>, <minecraft:iron_bars>, <ore:ingotIron>]]);
-recipes.removeShaped(<BuildCraft|Factory:autoWorkbenchBlock>, [[null, <ore:gearWood>, null], [<ore:gearWood>, <minecraft:crafting_table>, <ore:gearWood>], [null, <ore:gearWood>, null]]);
-//# Engines
-recipes.removeShaped(<BuildCraft|Energy:engineBlock:2>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [null, <ore:blockGlassColorless>, null], [<ore:gearIron>, <ore:craftingPiston>, <ore:gearIron>]]);
-recipes.removeShaped(<BuildCraft|Energy:engineBlock:1>, [[<ore:stoneCobble>, <ore:stoneCobble>, <ore:stoneCobble>], [null, <ore:blockGlassColorless>, null], [<ore:gearStone>, <ore:craftingPiston>, <ore:gearStone>]]);
-recipes.removeShaped(<BuildCraft|Energy:engineBlock>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [null, <ore:blockGlassColorless>, null], [<ore:gearWood>, <ore:craftingPiston>, <ore:gearWood>]]);
-
-//# FORESTRY (Removal for Replacement)
-//# Gears
-recipes.removeShaped(<Forestry:gearCopper>, [[null, <ore:ingotCopper>, null], [<ore:ingotCopper>, <BuildCraft|Core:stoneGearItem>, <ore:ingotCopper>], [null, <ore:ingotCopper>, null]]);
-recipes.removeShaped(<Forestry:gearBronze>, [[null, <ore:ingotAnyBronze>, null], [<ore:ingotAnyBronze>, <BuildCraft|Core:stoneGearItem>, <ore:ingotAnyBronze>], [null, <ore:ingotAnyBronze>, null]]);
-recipes.removeShaped(<Forestry:gearTin>, [[null, <ore:ingotTin>, null], [<ore:ingotTin>, <BuildCraft|Core:stoneGearItem>, <ore:ingotTin>], [null, <ore:ingotTin>, null]]);
-//# Sturdy Machine
-recipes.removeShaped(<Forestry:sturdyMachine>, [[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>], [<ore:ingotBronze>, null, <ore:ingotBronze>], [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]]);
-//# Engines
-recipes.removeShaped(<Forestry:engine:4>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [null, <ore:blockGlassColorless>, null], [<ore:gearCopper>, <ore:craftingPiston>, <minecraft:clock>]]);
-recipes.removeShaped(<Forestry:engine:1>, [[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [null, <ore:blockGlassColorless>, null], [<ore:gearCopper>, <ore:craftingPiston>, <ore:gearCopper>]]);
-recipes.removeShaped(<Forestry:engine:2>, [[<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>], [null, <ore:blockGlassColorless>, null], [<ore:gearBronze>, <ore:craftingPiston>, <ore:gearBronze>]]);
-
-//# MEKANISM Steel Casing, Dynamic Tank blocks (Removal for Replacement)
-recipes.removeShaped(<Mekanism:BasicBlock:11>, [[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, <ore:circuitBasic>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
-recipes.removeShaped(<Mekanism:BasicBlock:10>, [[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
-recipes.removeShaped(<Mekanism:BasicBlock:9>, [[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, <minecraft:cobblestone>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
-recipes.removeShaped(<Mekanism:BasicBlock:8>, [[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, <ore:ingotOsmium>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
 
 //# RAILCRAFT (Removal for Replacement)
-//# Smoker
-recipes.removeShaped(<Railcraft:machine.alpha:5>, [[null, <minecraft:netherrack>, null], [<minecraft:redstone>, <minecraft:cauldron>, <minecraft:redstone>]]);
-//# FireBoxes
-recipes.removeShaped(<Railcraft:machine.beta:6>, [[<Railcraft:part.plate:1>, <minecraft:bucket>, <Railcraft:part.plate:1>], [<minecraft:iron_bars>, <minecraft:fire_charge>, <minecraft:iron_bars>], [<Railcraft:part.plate:1>, <minecraft:furnace>, <Railcraft:part.plate:1>]]);
-recipes.removeShaped(<Railcraft:machine.beta:5>, [[<minecraft:brick>, <minecraft:brick>, <minecraft:brick>], [<minecraft:brick>, <minecraft:fire_charge>, <minecraft:brick>], [<minecraft:brick>, <minecraft:furnace>, <minecraft:brick>]]);
-//# Iron/Steel Tank, Gauge and Valve
-recipes.removeShaped(<Railcraft:machine.beta:13> * 8, [[<Railcraft:part.plate:1>, <Railcraft:part.plate:1>], [<Railcraft:part.plate:1>, <Railcraft:part.plate:1>]]);
-recipes.removeShaped(<Railcraft:machine.beta:0> * 8, [[<Railcraft:part.plate>, <Railcraft:part.plate>], [<Railcraft:part.plate>, <Railcraft:part.plate>]]);
-recipes.removeShaped(<Railcraft:machine.beta:1>, [[<minecraft:glass_pane>, <Railcraft:part.plate:0>, <minecraft:glass_pane>], [<Railcraft:part.plate:0>, <minecraft:glass_pane>, <Railcraft:part.plate:0>], [<minecraft:glass_pane>, <Railcraft:part.plate:0>, <minecraft:glass_pane>]]);
-recipes.removeShaped(<Railcraft:machine.beta:2>, [[<minecraft:iron_bars>, <Railcraft:part.plate:0>, <minecraft:iron_bars>], [<Railcraft:part.plate:0>, <minecraft:lever>, <Railcraft:part.plate:0>], [<minecraft:iron_bars>, <Railcraft:part.plate:0>, <minecraft:iron_bars>]]);
-recipes.removeShaped(<Railcraft:machine.beta:14>, [[<minecraft:glass_pane>, <Railcraft:part.plate:1>, <minecraft:glass_pane>], [<Railcraft:part.plate:1>, <minecraft:glass_pane>, <Railcraft:part.plate:1>], [<minecraft:glass_pane>, <Railcraft:part.plate:1>, <minecraft:glass_pane>]]);
-recipes.removeShaped(<Railcraft:machine.beta:15>, [[<minecraft:iron_bars>, <Railcraft:part.plate:1>, <minecraft:iron_bars>], [<Railcraft:part.plate:1>, <minecraft:lever>, <Railcraft:part.plate:1>], [<minecraft:iron_bars>, <Railcraft:part.plate:1>, <minecraft:iron_bars>]]);
-//# Rolling Machine
-recipes.removeShaped(<Railcraft:machine.alpha:8>, [[<ore:ingotIron>, <minecraft:piston>, <ore:ingotIron>], [<minecraft:piston>, <minecraft:crafting_table>, <minecraft:piston>], [<ore:ingotIron>, <minecraft:piston>, <ore:ingotIron>]]);
-//# Steam Oven
-recipes.removeShaped(<Railcraft:machine.alpha:3> * 4, [[<Railcraft:part.plate:1>, <Railcraft:part.plate:1>, <Railcraft:part.plate:1>], [<Railcraft:part.plate:1>, <minecraft:furnace>, <Railcraft:part.plate:1>], [<Railcraft:part.plate:1>, <Railcraft:part.plate:1>, <Railcraft:part.plate:1>]]);
-//# RockCrusher
-recipes.removeShaped(<Railcraft:machine.alpha:15> * 4, [[<minecraft:piston>, <ore:gemDiamond>, <minecraft:piston>], [<ore:gemDiamond>, <ore:blockSteel>, <ore:gemDiamond>], [<minecraft:piston>, <ore:gemDiamond>, <minecraft:piston>]]);
-//# Coke Oven Brick
-recipes.removeShaped(<Railcraft:machine.alpha:7>, [[null, <Railcraft:brick.sandy>, null], [null, <ore:blockSand>, null], [null, <Railcraft:brick.sandy>, null]]);
-//# Gears
-recipes.removeShaped(<Railcraft:part.gear:2>, [[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, <Railcraft:part.gear:3>, <ore:plateSteel>], [null, <ore:ingotsteel>, null]]);
-recipes.removeShaped(<Railcraft:part.gear:1>, [[null, <minecraft:iron_ingot>, null], [<minecraft:iron_ingot>, <Railcraft:part.gear:3>, <minecraft:iron_ingot>], [null, <minecraft:iron_ingot>, null]]);
-recipes.removeShaped(<Railcraft:part.gear>, [[null, <minecraft:gold_nugget>, null], [<minecraft:gold_nugget>, <Railcraft:part.gear:3>, <minecraft:gold_nugget>], [null, <minecraft:gold_nugget>, null]]);
-recipes.removeShaped(<Railcraft:part.gear:3> * 2, [[<ore:ingotTin>, <ore:ingotTin>], [<ore:ingotTin>, <ore:ingotTin>]]);
-//# Engines
-recipes.removeShaped(<Railcraft:machine.beta:9>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [null, <ore:blockGlassColorless>, null], [<Railcraft:part.gear:2>, <ore:craftingPiston>, <Railcraft:part.gear:2>]]);
-recipes.removeShaped(<Railcraft:machine.beta:8>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [null, <ore:blockGlassColorless>, null], [<ore:gearIron>, <ore:craftingPiston>, <ore:gearIron>]]);
-recipes.removeShaped(<Railcraft:machine.beta:7>, [[<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>], [null, <ore:blockGlassColorless>, null], [<Railcraft:part.gear>, <ore:craftingPiston>, <Railcraft:part.gear>]]);
-//#Wooden tie recipe with bucket, to avoid confusion
-recipes.removeShaped(<Railcraft:part.tie>, [[null, <Railcraft:fluid.creosote.bucket>, null], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
-//# Priming and Disposal Tracks, Tank Detector, Circuits and Age and Animal Detector
-recipes.removeShaped(<Railcraft:track:8103>.withTag({track: "railcraft:track.priming"}), [[<Railcraft:part.rail:4>, <minecraft:stone_pressure_plate>, <Railcraft:part.rail:4>], [<Railcraft:part.rail:4>, <Railcraft:part.railbed:1>, <Railcraft:part.rail:4>], [<Railcraft:part.rail:4>, <minecraft:flint_and_steel>, <Railcraft:part.rail:4>]]);
-recipes.removeShaped(<Railcraft:track:2264>.withTag({track: "railcraft:track.disposal"}), [[<Railcraft:part.rail>, <Railcraft:part.tie>, <Railcraft:part.rail>], [<Railcraft:part.rail>, <Railcraft:part.plate:1>, <Railcraft:part.rail>], [<Railcraft:part.rail>, <Railcraft:part.tie>, <Railcraft:part.rail>]]);
-recipes.removeShaped(<Railcraft:detector:7>, [[<minecraft:log>, <minecraft:log>, <minecraft:log>], [<minecraft:log>, <minecraft:stone_pressure_plate>, <minecraft:log>], [<minecraft:log>, <minecraft:log>, <minecraft:log>]]);
-recipes.removeShaped(<Railcraft:detector:11>, [[<minecraft:log:1>, <minecraft:log:1>, <minecraft:log:1>], [<minecraft:log:1>, <minecraft:stone_pressure_plate>, <minecraft:log:1>], [<minecraft:log:1>, <minecraft:log:1>, <minecraft:log:1>]]);
-recipes.removeShaped(<Railcraft:detector:8>, [[<minecraft:brick>, <minecraft:brick>, <minecraft:brick>], [<minecraft:brick>, <minecraft:stone_pressure_plate>, <minecraft:brick>], [<minecraft:brick>, <minecraft:brick>, <minecraft:brick>]]);
-recipes.removeShaped(<Railcraft:part.circuit:2>, [[null, <minecraft:repeater>, <minecraft:wool:4>], [<minecraft:slime_ball>, <minecraft:gold_ingot>, <ore:dustRedstone>], [<minecraft:wool:4>, <ore:dustRedstone>, <minecraft:dye:4>]]);
-recipes.removeShaped(<Railcraft:part.circuit>, [[null, <minecraft:repeater>, <minecraft:wool:14>], [<minecraft:slime_ball>, <minecraft:gold_ingot>, <ore:dustRedstone>], [<minecraft:wool:14>, <ore:dustRedstone>, <minecraft:dye:4>]]);
-recipes.removeShaped(<Railcraft:part.circuit:1>, [[null, <minecraft:repeater>, <minecraft:wool:13>], [<minecraft:slime_ball>, <minecraft:gold_ingot>, <ore:dustRedstone>], [<minecraft:wool:13>, <ore:dustRedstone>, <minecraft:dye:4>]]);
-//# Engraving Table
-recipes.removeShaped(<Railcraft:machine.alpha:13>, [[<minecraft:diamond_pickaxe>, <ore:plateSteel>, <ore:craftingBook>], [<ore:plateSteel>, <ore:craftingWorkBench>, <ore:plateSteel>], [<ore:craftingPiston>, <ore:plateSteel>, <ore:craftingPiston>]]);
-//# Blast Furnace Blocks
-recipes.removeShaped(<Railcraft:machine.alpha:12> * 4, [[<minecraft:soul_sand>, <minecraft:nether_brick>, <minecraft:soul_sand>], [<minecraft:nether_brick>, <minecraft:magma_cream>, <minecraft:nether_brick>], [<minecraft:soul_sand>, <minecraft:nether_brick>, <minecraft:soul_sand>]]);
-recipes.removeShaped(<Railcraft:machine.alpha:12> * 4, [[null, <Railcraft:brick.infernal>, null], [<Railcraft:brick.infernal>, <minecraft:magma_cream>, <Railcraft:brick.infernal>], [null, <Railcraft:brick.infernal>, null]]);
-//# Coke Oven Blocks
-recipes.removeShaped(<Railcraft:machine.alpha:7>, [[<ore:blockSand>, <minecraft:brick>, <ore:blockSand>], [<minecraft:brick>, <ore:blockSand>, <minecraft:brick>], [<ore:blockSand>, <minecraft:brick>, <ore:blockSand>]]);
-recipes.removeShaped(<Railcraft:machine.alpha:7>, [[<Railcraft:brick.sandy>], [<ore:blockSand>], [<Railcraft:brick.sandy>]]);
-//# RC lanterns
-recipes.removeShaped(<Railcraft:lantern.stone:9>, [[<minecraft:stone_slab>], [<minecraft:torch>], [<minecraft:stone_slab>]]);
-recipes.removeShaped(<Railcraft:lantern.metal:3>, [[<Railcraft:slab:40>], [<minecraft:torch>], [<Railcraft:slab:40>]]);
-recipes.removeShaped(<Railcraft:lantern.metal:4>, [[<Railcraft:slab:41>], [<minecraft:torch>], [<Railcraft:slab:41>]]);
-recipes.removeShaped(<Railcraft:lantern.metal:2>, [[<Railcraft:slab:39>], [<minecraft:torch>], [<Railcraft:slab:39>]]);
-recipes.removeShaped(<Railcraft:lantern.metal:1>, [[<Railcraft:slab:6>], [<minecraft:torch>], [<Railcraft:slab:6>]]);
-recipes.removeShaped(<Railcraft:lantern.metal:5>, [[<Railcraft:slab:42>], [<minecraft:torch>], [<Railcraft:slab:42>]]);
-recipes.removeShaped(<Railcraft:lantern.metal>, [[<Railcraft:slab:5>], [<minecraft:torch>], [<Railcraft:slab:5>]]);
-recipes.removeShaped(<Railcraft:lantern.stone:5>, [[<Railcraft:brick.nether:2>], [<minecraft:torch>], [<Railcraft:brick.nether:2>]]);
-recipes.removeShaped(<Railcraft:lantern.stone:8>, [[<minecraft:stone_slab:1>], [<minecraft:torch>], [<minecraft:stone_slab:1>]]);
-recipes.removeShaped(<Railcraft:lantern.stone:2>, [[<Railcraft:brick.bloodstained:2>], [<minecraft:torch>], [<Railcraft:brick.bloodstained:2>]]);
-recipes.removeShaped(<Railcraft:lantern.stone:1>, [[<Railcraft:brick.bleachedbone:2>], [<minecraft:torch>], [<Railcraft:brick.bleachedbone:2>]]);
-recipes.removeShaped(<Railcraft:lantern.stone:3>, [[<Railcraft:brick.frostbound:2>], [<minecraft:torch>], [<Railcraft:brick.frostbound:2>]]);
-recipes.removeShaped(<Railcraft:lantern.stone:6>, [[<Railcraft:brick.quarried:2>], [<minecraft:torch>], [<Railcraft:brick.quarried:2>]]);
-recipes.removeShaped(<Railcraft:lantern.stone:7>, [[<Railcraft:brick.sandy:2>], [<minecraft:torch>], [<Railcraft:brick.sandy:2>]]);
-recipes.removeShaped(<Railcraft:lantern.stone>, [[<Railcraft:brick.abyssal:2>], [<minecraft:torch>], [<Railcraft:brick.abyssal:2>]]);
-recipes.removeShaped(<Railcraft:lantern.stone:4>, [[<Railcraft:brick.infernal:2>], [<minecraft:torch>], [<Railcraft:brick.infernal:2>]]);
 
 // ================================================================================
 //#MARKER ADD
@@ -1235,11 +1203,10 @@ mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Bismuth Ingot>, <TabulaRas
 mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Nickel Ingot>, <TabulaRasa:RasaItem1:2>);
 mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Platinum Ingot>, <TabulaRasa:RasaItem1:3>);
 
-
 //# REMOVE all Combiner Recipes
-//mods.mekanism.Combiner.removeRecipe(<minecraft:iron_ore>);
+mods.mekanism.Combiner.removeRecipe(<minecraft:iron_ore>);
 mods.mekanism.Combiner.removeRecipe(<minecraft:gold_ore>);
-//mods.mekanism.Combiner.removeRecipe(<minecraft:lapis_ore>);
+mods.mekanism.Combiner.removeRecipe(<minecraft:lapis_ore>);
 mods.mekanism.Combiner.removeRecipe(<minecraft:redstone_ore>);
 mods.mekanism.Combiner.removeRecipe(<Mekanism:OreBlock:1>);
 mods.mekanism.Combiner.removeRecipe(<Mekanism:OreBlock:2>);
