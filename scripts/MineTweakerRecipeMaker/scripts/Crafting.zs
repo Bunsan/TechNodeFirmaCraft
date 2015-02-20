@@ -610,6 +610,9 @@ furnace.addRecipe(<terrafirmacraft:item.Lead Ingot>, <Mekanism:Dust:9>);
 // ================================================================================
 //#MARKER ADD SHAPELESS
 
+//# ADD Charcoal Conversion
+recipes.addShapeless(<terrafirmacraft:item.coal:1>, [<minecraft:coal:1>]);
+
 //# ADD Brown Dye Recipe
 recipes.addShapeless(<terrafirmacraft:item.dyePowder:3> * 2, [<ore:dyeGreen>, <ore:dyeRed>]);
 
@@ -1229,34 +1232,98 @@ mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanPlatinum>, <TabulaRasa:R
 //# Railcraft add/Remove Machine Recipes
 //Rolling machine recipes
 //OutputStack, Input ingredients
-//mods.railcraft.Rolling.addShaped(<Railcraft:part.plate> * 2, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
-//mods.railcraft.Rolling.addShaped(<Railcraft:part.plate> * 2, [[<terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>], [<terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>]]);
+//# DOUBLE INGOTS
 
-mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:1> * 2, [[<Railcraft:ingot>, <Railcraft:ingot>], [<Railcraft:ingot>, <Railcraft:ingot>]]);
-mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:1> * 2, [[<terrafirmacraft:item.Steel Ingot>, <terrafirmacraft:item.Steel Ingot>], [<terrafirmacraft:item.Steel Ingot>, <terrafirmacraft:item.Steel Ingot>]]);
-mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:1> * 2, [[<Mekanism:Ingot:4>, <Mekanism:Ingot:4>], [<Mekanism:Ingot:4>, <Mekanism:Ingot:4>]]);
+for item in <ore:ingotIron>.items {
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Wrought Iron Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
+}
+for item in <ore:ingotGold>.items {
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Gold Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
+}
+for item in <ore:ingotCopper>.items {
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Copper Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
+}
+for item in <ore:ingotTin>.items {
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Tin Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
+}
+for item in <ore:ingotBismuth>.items {
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Bismuth Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
+}
+for item in <ore:ingotBronze>.items {
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Bronze Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
+}
+for item in <ore:ingotBismuthBronze>.items {
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Bismuth Bronze Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
+}
+for item in <ore:ingotBlackBronze>.items {
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Black Bronze Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
+}
+for item in <ore:ingotSteel>.items {
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Steel Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
+}
+for item in <ore:ingotBrass>.items {
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Brass Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
+}
+for item in <ore:ingotLead>.items {
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Lead Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
+}
+for item in <ore:ingotNickel>.items {
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Nickel Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
+}
+for item in <ore:ingotPigIron>.items {
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Pig Iron Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
+}
+for item in <ore:ingotPlatinum>.items {
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Platinum Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
+}
+for item in <ore:ingotRoseGold>.items {
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Rose Gold Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
+}
+for item in <ore:ingotSilver>.items {
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Silver Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
+}
+for item in <ore:ingotSterlingSilver>.items {
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Sterling Silver Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
+}
+for item in <ore:ingotZinc>.items {
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Zinc Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
+}
 
-mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:2> * 2, [[<Railcraft:ingot:2>, <Railcraft:ingot:2>], [<Railcraft:ingot:2>, <Railcraft:ingot:2>]]);
-mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:2> * 2, [[<terrafirmacraft:item.Tin Ingot>, <terrafirmacraft:item.Tin Ingot>], [<terrafirmacraft:item.Tin Ingot>, <terrafirmacraft:item.Tin Ingot>]]);
-mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:2> * 2, [[<Mekanism:Ingot:6>, <Mekanism:Ingot:6>], [<Mekanism:Ingot:6>, <Mekanism:Ingot:6>]]);
-mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:2> * 2, [[<Forestry:ingotTin>, <Forestry:ingotTin>], [<Forestry:ingotTin>, <Forestry:ingotTin>]]);
-
-mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:3> * 2, [[<Railcraft:ingot:1>, <Railcraft:ingot:1>], [<Railcraft:ingot:1>, <Railcraft:ingot:1>]]);
-mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:3> * 2, [[<terrafirmacraft:item.Copper Ingot>, <terrafirmacraft:item.Copper Ingot>], [<terrafirmacraft:item.Copper Ingot>, <terrafirmacraft:item.Copper Ingot>]]);
-mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:3> * 2, [[<Mekanism:Ingot:5>, <Mekanism:Ingot:5>], [<Mekanism:Ingot:5>, <Mekanism:Ingot:5>]]);
-mods.railcraft.Rolling.addShaped(<Railcraft:part.plate:3> * 2, [[<Forestry:ingotCopper>, <Forestry:ingotCopper>], [<Forestry:ingotCopper>, <Forestry:ingotCopper>]]);
-
-//OutputStack
+//# REMOVE PLATES
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate> * 4);
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:1> * 4);
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:2> * 4);
 mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:3> * 4);
 
+//# SHEETS/PLATES
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Wrought Iron Sheet>, [[<terrafirmacraft:item.Wrought Iron Double Ingot>]]);
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Gold Sheet>, [[<terrafirmacraft:item.Gold Double Ingot>]]);
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Copper Sheet>, [[<terrafirmacraft:item.Copper Ingot>]]);
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Tin Sheet>, [[<terrafirmacraft:item.Tin Double Ingot>]]);
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Bismuth Sheet>, [[<terrafirmacraft:item.Bismuth Ingot>]]);
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Bronze Sheet>, [[<terrafirmacraft:item.Bronze Double Ingot>]]);
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Bismuth Bronze Sheet>, [[<terrafirmacraft:item.Bismuth Bronze Double Ingot>]]);
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Black Bronze Sheet>, [[<terrafirmacraft:item.Black Bronze Double Ingot>]]);
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Steel Sheet>, [[<terrafirmacraft:item.Steel Double Ingot>]]);
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Brass Sheet>, [[<terrafirmacraft:item.Brass Double Ingot>]]);
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Lead Sheet>, [[<terrafirmacraft:item.Lead Double Ingot>]]);
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Nickel Sheet>, [[<terrafirmacraft:item.Nickel Double Ingot>]]);
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Pig Iron Sheet>, [[<terrafirmacraft:item.Pig Iron Double Ingot>]]);
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Platinum Sheet>, [[<terrafirmacraft:item.Platinum Double Ingot>]]);
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Rose Gold Sheet>, [[<terrafirmacraft:item.Rose Gold Double Ingot>]]);
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Silver Sheet>, [[<terrafirmacraft:item.Silver Double Ingot>]]);
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Sterling Silver Sheet>, [[<terrafirmacraft:item.Sterling Silver Double Ingot>]]);
+mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Zinc Sheet>, [[<terrafirmacraft:item.Zinc Double Ingot>]]);
+
 //RockCrusher recipes
 //InputStack, matchDamage, matchNBT, OutputStacks, Chance  
 mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:19>, true, false, [<minecraft:glowstone_dust>, <minecraft:glowstone_dust>], [1.0, 0.5]);
-//mods.railcraft.RockCrusher.addRecipe(<ore:gemCharcoal>, false, false, [<Railcraft:dust:3>], [1.0]); 
+mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.coal:1>, true, false, [<Railcraft:dust:3>], [1.0]); 
 mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:23>, true, false, [<minecraft:blaze_powder> * 2, <minecraft:blaze_powder>, <minecraft:blaze_powder>, <minecraft:blaze_powder>], [1.0, 0.25, 0.25, 0.25]);
+mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:16>, true, false, [<terrafirmacraft:item.Powder:1> * 4, <Mekanism:DirtyDust>], [1.0, 0.10]);
+mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:20>, true, false, [<terrafirmacraft:item.Powder:2> * 4], [1.0]);
+mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.LooseRock:5>, true, false, [<terrafirmacraft:item.Powder:9> * 4], [1.0]);
+mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:29>, true, false, [<terrafirmacraft:item.Powder:4>, <terrafirmacraft:item.Powder:4>], [1.0, 0.25]);
 
 //Blast Furnace Recipes
 //InputStack, matchDamage, matchNBT, Cook time, OutputStack
@@ -1264,13 +1331,17 @@ mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:23>, true, false,
 //OutputStack
 //mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:tile.railcraft.cube:2>);
 
-//mods.railcraft.CokeOven.addRecipe(<ore:logWood>, false, false, <terrafirmacraft:item.coal:1>, <liquid:creosote> * 100, 100);
+//OutputStack
+//mods.railcraft.CokeOven.removeRecipe(<minecraft:coal:1>);
+//this only removes one of the recipes, not feasible. Adding conversion recipe.
+
+//for item in <ore:logWood>.items {
+//mods.railcraft.CokeOven.addRecipe(item, true, false, <terrafirmacraft:item.coal:1>, <liquid:creosote> * 100, 100);
+//}
 
 //Coke oven recipes
 //InputStack, matchDamage, matchNBT, OutputStack, fluidOutput, Cook time
 //mods.railcraft.CokeOven.addRecipe(<ore:logWood>, false, false, <terrafirmacraft:item.coal:1>, <liquid:creosote> * 100, 100);
-//OutputStack
-//mods.railcraft.CokeOven.removeRecipe(<Railcraft:tile.railcraft.cube>);
 
 //for item in <ore:craftingToolHardHammer>.items {
 //recipes.addShapeless(<minecraft:iron_ingot>, [<minecraft:gold_ingot>, item.anyDamage().transformDamage()]);
