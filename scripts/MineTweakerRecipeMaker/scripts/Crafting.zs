@@ -344,6 +344,40 @@ plateCopper.add(<Railcraft:part.plate:3>);
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<Railcraft:post:6>);
+recipes.remove(<Railcraft:cart.loco.electric>);
+recipes.remove(<Railcraft:machine.epsilon>);
+recipes.remove(<Railcraft:cart.track.remover>);
+recipes.remove(<Railcraft:cart.track.layer>);
+recipes.remove(<Railcraft:cart.undercutter>);
+recipes.remove(<Railcraft:cart.track.relayer>);
+recipes.remove(<Railcraft:cart.work>);
+recipes.remove(<Railcraft:cart.bore>);
+recipes.remove(<Railcraft:borehead.iron>);
+recipes.remove(<Railcraft:borehead.steel>);
+recipes.remove(<Railcraft:borehead.diamond>);
+recipes.remove(<Railcraft:armor.goggles>);
+recipes.remove(<Railcraft:part.bleached.clay>);
+recipes.remove(<Railcraft:part.rail:2>);
+recipes.remove(<Railcraft:tool.crowbar>);
+recipes.remove(<Railcraft:wall.alpha:4>);
+recipes.remove(<Railcraft:slab:5>);
+recipes.remove(<Railcraft:stair:5>);
+recipes.remove(<Railcraft:part.rail>);
+recipes.remove(<minecraft:comparator>);
+recipes.remove(<Railcraft:signal>);
+recipes.remove(<Railcraft:signal:6>);
+recipes.remove(<Railcraft:signal:7>);
+recipes.remove(<Railcraft:signal:10>);
+recipes.remove(<Railcraft:signal:9>);
+recipes.remove(<Railcraft:signal:8>);
+recipes.remove(<Railcraft:signal:13>);
+recipes.remove(<Railcraft:signal:12>);
+recipes.remove(<Railcraft:signal:1>);
+recipes.remove(<Railcraft:signal:11>);
+recipes.remove(<Railcraft:signal:3>);
+recipes.remove(<Railcraft:signal:2>);
+recipes.remove(<Railcraft:signal:4>);
 
 //# FURNACE
 furnace.remove(<minecraft:iron_ingot>, <Mekanism:Dust>);
@@ -609,9 +643,11 @@ furnace.addRecipe(<terrafirmacraft:item.Lead Ingot>, <Mekanism:Dust:9>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<Railcraft:part.bleached.clay>, [<ore:lumpClay>, <ore:dyeWhite>, <ore:dyeWhite>, <ore:dyeWhite>]);
+recipes.addShapeless(<Railcraft:part.rail:2> * 6, [<Railcraft:part.tie>, <ore:ingotIron>]);
 
 //# ADD Charcoal Conversion
-recipes.addShapeless(<terrafirmacraft:item.coal:1>, [<minecraft:coal:1>]);
+recipes.addShapeless(<terrafirmacraft:item.coal:1>, [<minecraft:coal:1>, <minecraft:coal:1>]);
 
 //# ADD Brown Dye Recipe
 recipes.addShapeless(<terrafirmacraft:item.dyePowder:3> * 2, [<ore:dyeGreen>, <ore:dyeRed>]);
@@ -710,12 +746,39 @@ recipes.addShapeless(<Railcraft:brick.nether:1>, [<minecraft:nether_brick>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<Railcraft:post:6> * 4, [[null, <ore:plateDoubleWroughtIron>], [null, <Railcraft:post:2>]]);
+recipes.addShaped(<Railcraft:cart.loco.electric>, [[<minecraft:redstone_lamp>, <ore:plateSteel>, null], [<ore:plateSteel>, <Railcraft:machine.epsilon>, <ore:plateSteel>], [<Railcraft:part.gear:2>, <minecraft:minecart>, <Railcraft:part.gear:2>]]);
+recipes.addShaped(<Railcraft:machine.epsilon>, [[<ore:plateTin>, <ore:ingotCopper>, <ore:plateTin>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<ore:plateTin>, <ore:ingotCopper>, <ore:plateTin>]]);
+recipes.addShaped(<Railcraft:cart.track.remover>, [[<ore:dyeYellow>, <minecraft:redstone_lamp>, <ore:dyeYellow>], [<minecraft:sticky_piston>, <ore:blockSteel>, <minecraft:sticky_piston>], [<Railcraft:tool.crowbar>, <minecraft:minecart>, <Railcraft:tool.crowbar>]]);
+recipes.addShaped(<Railcraft:cart.track.layer>, [[<ore:dyeYellow>, <minecraft:redstone_lamp>, <ore:dyeYellow>], [<terrafirmacraft:Anvil:3>, <ore:blockSteel>, <terrafirmacraft:Anvil:3>], [<minecraft:dispenser>, <minecraft:minecart>, <minecraft:dispenser>]]);
+recipes.addShaped(<Railcraft:cart.undercutter>, [[<ore:dyeYellow>, <minecraft:redstone_lamp>, <ore:dyeYellow>], [<ore:craftingPiston>, <ore:blockSteel>, <ore:craftingPiston>], [<terrafirmacraft:item.Wrought Iron Shovel>, <minecraft:minecart>, <terrafirmacraft:item.Wrought Iron Shovel>]]);
+recipes.addShaped(<Railcraft:cart.track.relayer>, [[<ore:dyeYellow>, <minecraft:redstone_lamp>, <ore:dyeYellow>], [<ore:oreStrontium>, <ore:blockSteel>, <ore:oreStrontium>], [<terrafirmacraft:item.Wrought Iron Pick>, <minecraft:minecart>, <terrafirmacraft:item.Wrought Iron Pick>]]);
+recipes.addShaped(<Railcraft:cart.bore>, [[<ore:plateDoubleSteel>, <minecraft:minecart>, <ore:plateDoubleSteel>], [<Railcraft:machine.beta:5>, <minecraft:minecart>, <Railcraft:machine.beta:5>], [null, <ore:craftingChest>, null]]);
+recipes.addShaped(<Railcraft:borehead.steel>, [[null, <ore:plateSteel>, null], [<ore:plateSteel>, <ore:blockSteel>, <ore:plateSteel>], [null, <ore:plateSteel>, null]]);
+recipes.addShaped(<Railcraft:borehead.diamond>, [[<ore:gemDiamond>, <ore:plateSteel>, <ore:gemDiamond>], [<ore:plateSteel>, <ore:gemDiamond>, <ore:plateSteel>], [<ore:gemDiamond>, <ore:plateSteel>, <ore:gemDiamond>]]);
+recipes.addShaped(<Railcraft:armor.goggles>, [[<ore:paneGlassColorless>, <Railcraft:part.circuit:1>, <ore:paneGlassColorless>], [<ore:ingotSteel>, null, <ore:ingotSteel>], [<ore:materialLeather>, <ore:materialLeather>, <ore:materialLeather>]]);
+recipes.addShaped(<Railcraft:tool.crowbar>, [[null, <ore:dyeRed>, <ore:ingotIron>], [<ore:dyeRed>, <ore:ingotIron>, <ore:dyeRed>], [<ore:ingotIron>, <ore:dyeRed>, null]]);
+
+recipes.addShaped(<Railcraft:signal>, [[null, <Railcraft:part.circuit:1>, null], [<ore:ingotIron>, <Railcraft:part.circuit>, <ore:ingotIron>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
+recipes.addShaped(<Railcraft:signal:6>, [[<ore:ingotIron>, <minecraft:comparator>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]]);
+recipes.addShaped(<Railcraft:signal:7>, [[<ore:ingotIron>, <minecraft:repeater>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]]);
+recipes.addShaped(<Railcraft:signal:10>, [[<ore:ingotIron>, <Railcraft:part.circuit>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:comparator>, <ore:ingotIron>]]);
+recipes.addShaped(<Railcraft:signal:9>, [[<ore:ingotIron>, <Railcraft:part.circuit>, <ore:ingotIron>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
+recipes.addShaped(<Railcraft:signal:8>, [[<ore:ingotIron>, <Railcraft:part.circuit:1>, <ore:ingotIron>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
+recipes.addShaped(<Railcraft:signal:13>, [[<ore:ingotIron>, <Railcraft:part.circuit:2>, <ore:ingotIron>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
+recipes.addShaped(<Railcraft:signal:12>, [[<Railcraft:part.signal.lamp>, <Railcraft:part.circuit:1>, <ore:ingotIron>], [null, <ore:dyeBlack>, <ore:ingotIron>], [<Railcraft:part.signal.lamp>, <Railcraft:part.circuit:1>, <ore:ingotIron>]]);
+recipes.addShaped(<Railcraft:signal:1>, [[<Railcraft:part.signal.lamp>, <Railcraft:part.circuit:2>, <ore:ingotIron>], [null, <ore:dyeBlack>, <ore:ingotIron>], [<Railcraft:part.signal.lamp>, <Railcraft:part.circuit:1>, <ore:ingotIron>]]);
+recipes.addShaped(<Railcraft:signal:11>, [[<Railcraft:part.signal.lamp>, <Railcraft:part.circuit:1>, <ore:ingotIron>], [null, <ore:dyeBlack>, <ore:ingotIron>]]);
+recipes.addShaped(<Railcraft:signal:3>, [[<Railcraft:part.signal.lamp>, <Railcraft:part.circuit:2>, <ore:ingotIron>], [null, <ore:dyeBlack>, <ore:ingotIron>]]);
+recipes.addShaped(<Railcraft:signal:2>, [[<ore:dyeRed>, <ore:dyeBlack>, <ore:dyeWhite>], [<ore:craftingPiston>, <Railcraft:part.circuit:1>, <ore:ingotIron>]]);
+recipes.addShaped(<Railcraft:signal:2>, [[<ore:dyeRed>, <ore:dyeBlack>, <ore:dyeWhite>], [<ore:ingotIron>, <Railcraft:part.circuit:1>, <ore:craftingPiston>]]);
+recipes.addShaped(<Railcraft:signal:4>, [[<ore:dyeRed>, <ore:dyeBlack>, <ore:dyeWhite>], [<ore:ingotIron>, <minecraft:lever>, <ore:craftingPiston>]]);
+recipes.addShaped(<Railcraft:signal:4>, [[<ore:dyeRed>, <ore:dyeBlack>, <ore:dyeWhite>], [<ore:craftingPiston>, <minecraft:lever>, <ore:ingotIron>]]);
 //# ADD recipe for vanilla bottles
 recipes.addShaped(<minecraft:glass_bottle> * 3, [[<ore:blockGlassColorless>, <terrafirmacraft:item.Red Steel Bucket Empty>.giveBack(), <ore:blockGlassColorless>], [null, <ore:blockGlassColorless>, null]]);
 
 //#Add Comparator Recipe with Jet
-recipes.addShaped(<minecraft:comparator>, [[null, <ore:craftingRedstoneTorch>, null], [<ore:craftingRedstoneTorch>, <ore:oreJet>, <ore:craftingRedstoneTorch>], [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>]]);
-
+recipes.addShaped(<minecraft:comparator>, [[null, <minecraft:redstone_torch>, null], [<minecraft:redstone_torch>, <ore:oreJet>, <minecraft:redstone_torch>], [<ore:stone>, <ore:stone>, <ore:stone>]]);
 //# REPLACE Ore and Mineral Blocks
 recipes.addShaped(<minecraft:iron_block>, [[null, <ore:plateIron>, null], [<ore:plateIron>, <ore:craftingToolMediumHammer>, <ore:plateIron>], [null, <ore:plateIron>, null]]);
 recipes.addShaped(<minecraft:gold_block>, [[null, <ore:plateGold>, null], [<ore:plateGold>, <ore:craftingToolMediumHammer>, <ore:plateGold>], [null, <ore:plateGold>, null]]);
@@ -1235,7 +1298,6 @@ mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanPlatinum>, <TabulaRasa:R
 //Rolling machine recipes
 //OutputStack, Input ingredients
 //# DOUBLE INGOTS
-
 for item in <ore:ingotIron>.items {
 mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Wrought Iron Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
 }
@@ -1336,6 +1398,18 @@ mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Rose Gold Double Sheet>, 
 mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Silver Double Sheet>, [[<terrafirmacraft:item.Silver Sheet>, <terrafirmacraft:item.Silver Sheet>], [<terrafirmacraft:item.Powder>, null]]);
 mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Sterling Silver Double Sheet>, [[<terrafirmacraft:item.Sterling Silver Sheet>, <terrafirmacraft:item.Sterling Silver Sheet>], [<terrafirmacraft:item.Powder>, null]]);
 mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Zinc Double Sheet>, [[<terrafirmacraft:item.Zinc Sheet>, <terrafirmacraft:item.Zinc Sheet>], [<terrafirmacraft:item.Powder>, null]]);
+
+//# TRACKS
+mods.railcraft.Rolling.addShaped(<Railcraft:part.rail> * 8, [[<terrafirmacraft:item.Wrought Iron Ingot>, null, <terrafirmacraft:item.Wrought Iron Ingot>], [<terrafirmacraft:item.Wrought Iron Ingot>, null, <terrafirmacraft:item.Wrought Iron Ingot>], [<terrafirmacraft:item.Wrought Iron Ingot>, null, <terrafirmacraft:item.Wrought Iron Ingot>]]);
+mods.railcraft.Rolling.addShaped(<Railcraft:part.rail:1> * 8, [[<Railcraft:part.rail>, <minecraft:redstone>, <terrafirmacraft:item.Gold Ingot>], [<Railcraft:part.rail>, <minecraft:redstone>, <terrafirmacraft:item.Gold Ingot>], [<Railcraft:part.rail>, <minecraft:redstone>, <terrafirmacraft:item.Gold Ingot>]]);
+for item in <ore:ingotSteel>.items {
+mods.railcraft.Rolling.addShaped(<Railcraft:part.rail:3> * 8, [[item, <minecraft:blaze_powder>, <terrafirmacraft:item.Gold Ingot>], [item, <minecraft:blaze_powder>, <terrafirmacraft:item.Gold Ingot>], [item, <minecraft:blaze_powder>, <terrafirmacraft:item.Gold Ingot>]]);
+}
+
+//# REBAR POSTS
+mods.railcraft.Rolling.addShaped(<Railcraft:part.rebar> * 4, [[null, null, <terrafirmacraft:item.Wrought Iron Ingot>], [null,  <terrafirmacraft:item.Wrought Iron Ingot>, null], [<terrafirmacraft:item.Wrought Iron Ingot>, null, null]]);
+mods.railcraft.Rolling.addShaped(<Railcraft:post:2> * 16, [[<terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>], [null,  <terrafirmacraft:item.Wrought Iron Ingot>, null], [<terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>]]);
+mods.railcraft.Rolling.addShaped(<Railcraft:post:2> * 16, [[<terrafirmacraft:item.Wrought Iron Ingot>, null, <terrafirmacraft:item.Wrought Iron Ingot>], [<terrafirmacraft:item.Wrought Iron Ingot>,  <terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>], [<terrafirmacraft:item.Wrought Iron Ingot>, null, <terrafirmacraft:item.Wrought Iron Ingot>]]);
 
 //RockCrusher recipes
 //InputStack, matchDamage, matchNBT, OutputStacks, Chance  
