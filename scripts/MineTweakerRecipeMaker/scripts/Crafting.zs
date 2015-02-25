@@ -689,7 +689,6 @@ furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 	recipes.remove(<RedLogic:redlogic.gates:12>);
 	recipes.remove(<RedLogic:redlogic.gates:3>);
 	recipes.remove(<RedLogic:redlogic.machineBlock:1>);
-	recipes.remove(<RedLogic:redlogic.machineBlock:3>);
 	recipes.remove(<RedLogic:redlogic.machineBlock:2>);
 	recipes.remove(<RedLogic:redlogic.machineBlock>);
 	recipes.remove(<RedLogic:redlogic.plainBlock>);
@@ -1151,7 +1150,6 @@ furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 	recipes.addShaped(<RedLogic:redlogic.gates:12>, [[null, <minecraft:redstone_torch>, null], [<ore:dustRedstone>, <ore:ingotIron>, <ore:dustRedstone>]]);
 	recipes.addShaped(<RedLogic:redlogic.gates:3>, [[<ore:stoneCobble>, <minecraft:redstone_torch>, <ore:dustRedstone>], [<ore:dustRedstone>, null, <ore:dustRedstone>], [<ore:dustRedstone>, <minecraft:redstone_torch>, <ore:stoneCobble>]]);
 	recipes.addShaped(<RedLogic:redlogic.machineBlock:2>, [[<RedLogic:redlogic.machineBlock:1>, <ore:dustRedstone>, <ore:dustRedstone>], [<RedLogic:redlogic.machineBlock:1>, <ore:gemExquisiteDiamond>, <ore:dustRedstone>], [<RedLogic:redlogic.machineBlock:1>, <ore:dyeYellow>, <ore:dustRedstone>]]);
-	recipes.addShaped(<RedLogic:redlogic.machineBlock:3>, [[<RedLogic:redlogic.machineBlock:1>, <ore:dustRedstone>, <ore:dustRedstone>], [<RedLogic:redlogic.machineBlock:1>, <ore:blockIron>, <ore:dustRedstone>], [<RedLogic:redlogic.machineBlock:1>, <ore:dyeWhite>, <ore:dustRedstone>]]);
 	recipes.addShaped(<RedLogic:redlogic.machineBlock:1>, [[<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>], [<ore:plateDoubleGold>, <minecraft:obsidian>, <ore:plateDoubleGold>], [<minecraft:obsidian>, <ore:dustRedstone>, <minecraft:obsidian>]]);
 	recipes.addShaped(<RedLogic:redlogic.machineBlock>, [[<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>], [<ore:dustRedstone>, <RedLogic:redlogic.plainBlock>, <ore:dustRedstone>], [<ore:dustRedstone>, <ore:gemDiamond>, <ore:dustRedstone>]]);
 	recipes.addShaped(<RedLogic:redlogic.plainBlock> * 16, [[<ore:blockSand>, <ore:stoneBricks>, <ore:blockSand>], [<ore:ingotIron>, <ore:blockSand>, <ore:ingotIron>], [<ore:blockSand>, <ore:stoneBricks>, <ore:blockSand>]]);
@@ -1159,7 +1157,6 @@ furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 	recipes.addShaped(<RedLogic:redlogic.arrayCells:1>, [[<ore:stoneRaw>, <RedLogic:redlogic.wire>, <ore:stoneRaw>], [<RedLogic:redlogic.wire>, <minecraft:redstone_torch>, <RedLogic:redlogic.wire>], [<ore:stoneRaw>, <RedLogic:redlogic.wire>, <ore:stoneRaw>]]);
 	recipes.addShaped(<RedLogic:redlogic.arrayCells>, [[<ore:stoneRaw>, <RedLogic:redlogic.wire>, <ore:stoneRaw>], [<RedLogic:redlogic.wire>, <RedLogic:redlogic.wire>, <RedLogic:redlogic.wire>], [<ore:stoneRaw>, <RedLogic:redlogic.wire>, <ore:stoneRaw>]]);
 	recipes.addShaped(<RedLogic:redlogic.screwdriver>, [[null, <ore:dyeYellow>, <ore:ingotIron>], [null, <ore:ingotIron>, <ore:dyeBlack>], [<ore:stickWood>, null, null]]);
-
 
 // ================================================================================
 //# Custom Machine Recipes
