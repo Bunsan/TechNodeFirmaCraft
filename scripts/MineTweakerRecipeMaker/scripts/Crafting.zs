@@ -8,7 +8,7 @@
 //     They indicate where calls should be placed, so that MineTweaker does them in the correct order.
 //     Removes come first, then stuff is added.
 // ================================================================================
-
+import minetweaker.item.IItemStack;
 //# ORE DICTIONARY
 
 //# VANILLA Stuffs
@@ -376,6 +376,7 @@ blockAlveary.add(<Forestry:alveary:7>);
 
 furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 <minecraft:coal:1>.addTooltip(format.red("Half Fuel Value of TFC Charcoal."));
+
 // ================================================================================
 //#MARKER REMOVE
 
@@ -402,6 +403,9 @@ furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 	recipes.remove(<minecraft:comparator>);
 	recipes.remove(<minecraft:clay>);
 	recipes.remove(<minecraft:daylight_detector>);
+	recipes.remove(<minecraft:quartz_block>);
+	recipes.remove(<minecraft:wooden_slab>);
+	recipes.remove(<minecraft:glowstone>);
 
 //# FORESTRY
 //# Metal Blocks
@@ -520,30 +524,30 @@ furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 	recipes.remove(<Mekanism:MachineBlock:1>);
 	recipes.remove(<Mekanism:MachineBlock>);
 
-//# BUILDCRAFT
-	recipes.remove(<BuildCraft|Silicon:laserTableBlock:1>);
-	recipes.remove(<BuildCraft|Builders:blueprintItem>);
-	recipes.remove(<BuildCraft|Builders:templateItem>);
-	recipes.remove(<BuildCraft|Builders:libraryBlock>);
-	recipes.remove(<BuildCraft|Builders:architectBlock>);
-	recipes.remove(<BuildCraft|Builders:builderBlock>);
-	recipes.remove(<BuildCraft|Builders:fillerBlock>);
-	recipes.remove(<BuildCraft|Core:ironGearItem>);
-	recipes.remove(<BuildCraft|Core:diamondGearItem>);
-	recipes.remove(<BuildCraft|Core:goldGearItem>);
-	recipes.remove(<BuildCraft|Core:stoneGearItem>);
-	recipes.remove(<BuildCraft|Core:woodenGearItem>);
-	recipes.remove(<BuildCraft|Transport:pipeWaterproof>);
-	recipes.remove(<BuildCraft|Factory:blockHopper>);
-	recipes.remove(<BuildCraft|Silicon:laserTableBlock>);
-	recipes.remove(<BuildCraft|Silicon:laserBlock>);
-	recipes.remove(<BuildCraft|Factory:refineryBlock>);
-	recipes.remove(<BuildCraft|Factory:tankBlock>);
-	recipes.remove(<BuildCraft|Factory:floodGateBlock>);
-	recipes.remove(<BuildCraft|Factory:autoWorkbenchBlock>);
-	recipes.remove(<BuildCraft|Energy:engineBlock:2>);
-	recipes.remove(<BuildCraft|Energy:engineBlock:1>);
-	recipes.remove(<BuildCraft|Energy:engineBlock>);
+//# BUILDCRAFT (removing BC from pack, keeping these in case I change my mind)
+	//recipes.remove(<BuildCraft|Silicon:laserTableBlock:1>);
+	//recipes.remove(<BuildCraft|Builders:blueprintItem>);
+	//recipes.remove(<BuildCraft|Builders:templateItem>);
+	//recipes.remove(<BuildCraft|Builders:libraryBlock>);
+	//recipes.remove(<BuildCraft|Builders:architectBlock>);
+	//recipes.remove(<BuildCraft|Builders:builderBlock>);
+	//recipes.remove(<BuildCraft|Builders:fillerBlock>);
+	//recipes.remove(<BuildCraft|Core:ironGearItem>);
+	//recipes.remove(<BuildCraft|Core:diamondGearItem>);
+	//recipes.remove(<BuildCraft|Core:goldGearItem>);
+	//recipes.remove(<BuildCraft|Core:stoneGearItem>);
+	//recipes.remove(<BuildCraft|Core:woodenGearItem>);
+	//recipes.remove(<BuildCraft|Transport:pipeWaterproof>);
+	//recipes.remove(<BuildCraft|Factory:blockHopper>);
+	//recipes.remove(<BuildCraft|Silicon:laserTableBlock>);
+	//recipes.remove(<BuildCraft|Silicon:laserBlock>);
+	//recipes.remove(<BuildCraft|Factory:refineryBlock>);
+	//recipes.remove(<BuildCraft|Factory:tankBlock>);
+	//recipes.remove(<BuildCraft|Factory:floodGateBlock>);
+	//recipes.remove(<BuildCraft|Factory:autoWorkbenchBlock>);
+	//recipes.remove(<BuildCraft|Energy:engineBlock:2>);
+	//recipes.remove(<BuildCraft|Energy:engineBlock:1>);
+	//recipes.remove(<BuildCraft|Energy:engineBlock>);
 
 //# RAILCRAFT
 //# REMOVAL of Non-TFC ingots to nugget recipes to clean up NEI
@@ -697,6 +701,30 @@ furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 	recipes.remove(<RedLogic:redlogic.arrayCells>);
 	recipes.remove(<RedLogic:redlogic.screwdriver>);
 
+//# BIBLIOCRAFT
+	recipes.remove(<BiblioCraft:item.BiblioMapTool>);
+	recipes.remove(<BiblioCraft:item.BiblioWayPointCompass>);
+	recipes.remove(<BiblioCraft:BiblioStuffs>);
+	recipes.remove(<BiblioCraft:item.HandDrill>);
+	recipes.remove(<BiblioCraft:BiblioStuffs:2>);
+	recipes.remove(<BiblioCraft:item.tape>);
+	recipes.remove(<BiblioCraft:item.tapeMeasure>);
+	recipes.remove(<BiblioCraft:item.BiblioGlasses>);
+	recipes.remove(<BiblioCraft:item.BiblioDrill>);
+	recipes.remove(<BiblioCraft:item.BiblioClipboard>);
+	recipes.remove(<BiblioCraft:item.BiblioChase>);
+	recipes.remove(<BiblioCraft:Printing Press>);
+	recipes.remove(<BiblioCraft:Typesetting Machine>);
+	recipes.remove(<BiblioCraft:BiblioIronLamp>);
+	recipes.remove(<BiblioCraft:BiblioLamp>);
+	recipes.remove(<BiblioCraft:BiblioIronLantern>);
+	recipes.remove(<BiblioCraft:BiblioLantern>);
+	recipes.remove(<BiblioCraft:BiblioWorkbench:*>);
+	recipes.remove(<BiblioCraft:BiblioBell>);
+	recipes.remove(<BiblioCraft:BiblioPaintPress>);
+	recipes.remove(<BiblioCraft:BiblioClock:*>);
+	recipes.remove(<BiblioCraft:BiblioTypewriter:*>);
+
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
 
@@ -724,6 +752,72 @@ furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+//# ORE PILES
+//# Small ore to Piles
+	recipes.addShapeless(<TabulaRasa:RasaItem0>, [<terrafirmacraft:item.Small Ore>, <terrafirmacraft:item.Small Ore>, <terrafirmacraft:item.Small Ore>, <terrafirmacraft:item.Small Ore>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:1>, [<terrafirmacraft:item.Small Ore:1>, <terrafirmacraft:item.Small Ore:1>, <terrafirmacraft:item.Small Ore:1>, <terrafirmacraft:item.Small Ore:1>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:2>, [<terrafirmacraft:item.Small Ore:2>, <terrafirmacraft:item.Small Ore:2>, <terrafirmacraft:item.Small Ore:2>, <terrafirmacraft:item.Small Ore:2>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:3>, [<terrafirmacraft:item.Small Ore:3>, <terrafirmacraft:item.Small Ore:3>, <terrafirmacraft:item.Small Ore:3>, <terrafirmacraft:item.Small Ore:3>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:4>, [<terrafirmacraft:item.Small Ore:4>, <terrafirmacraft:item.Small Ore:4>, <terrafirmacraft:item.Small Ore:4>, <terrafirmacraft:item.Small Ore:4>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:5>, [<terrafirmacraft:item.Small Ore:5>, <terrafirmacraft:item.Small Ore:5>, <terrafirmacraft:item.Small Ore:5>, <terrafirmacraft:item.Small Ore:5>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:6>, [<terrafirmacraft:item.Small Ore:6>, <terrafirmacraft:item.Small Ore:6>, <terrafirmacraft:item.Small Ore:6>, <terrafirmacraft:item.Small Ore:6>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:7>, [<terrafirmacraft:item.Small Ore:7>, <terrafirmacraft:item.Small Ore:7>, <terrafirmacraft:item.Small Ore:7>, <terrafirmacraft:item.Small Ore:7>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:8>, [<terrafirmacraft:item.Small Ore:8>, <terrafirmacraft:item.Small Ore:8>, <terrafirmacraft:item.Small Ore:8>, <terrafirmacraft:item.Small Ore:8>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:9>, [<terrafirmacraft:item.Small Ore:9>, <terrafirmacraft:item.Small Ore:9>, <terrafirmacraft:item.Small Ore:9>, <terrafirmacraft:item.Small Ore:9>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:10>, [<terrafirmacraft:item.Small Ore:10>, <terrafirmacraft:item.Small Ore:10>, <terrafirmacraft:item.Small Ore:10>, <terrafirmacraft:item.Small Ore:10>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:11>, [<terrafirmacraft:item.Small Ore:11>, <terrafirmacraft:item.Small Ore:11>, <terrafirmacraft:item.Small Ore:11>, <terrafirmacraft:item.Small Ore:11>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:12>, [<terrafirmacraft:item.Small Ore:12>, <terrafirmacraft:item.Small Ore:12>, <terrafirmacraft:item.Small Ore:12>, <terrafirmacraft:item.Small Ore:12>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:13>, [<terrafirmacraft:item.Small Ore:13>, <terrafirmacraft:item.Small Ore:13>, <terrafirmacraft:item.Small Ore:13>, <terrafirmacraft:item.Small Ore:13>]);
+//# Poor Ore to Piles
+	recipes.addShapeless(<TabulaRasa:RasaItem0>, [<terrafirmacraft:item.Ore:49>, <terrafirmacraft:item.Ore:49>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:1>, [<terrafirmacraft:item.Ore:50>, <terrafirmacraft:item.Ore:50>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:2>, [<terrafirmacraft:item.Ore:51>, <terrafirmacraft:item.Ore:51>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:3>, [<terrafirmacraft:item.Ore:52>, <terrafirmacraft:item.Ore:52>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:4>, [<terrafirmacraft:item.Ore:53>, <terrafirmacraft:item.Ore:53>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:5>, [<terrafirmacraft:item.Ore:54>, <terrafirmacraft:item.Ore:54>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:6>, [<terrafirmacraft:item.Ore:55>, <terrafirmacraft:item.Ore:55>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:7>, [<terrafirmacraft:item.Ore:56>, <terrafirmacraft:item.Ore:56>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:8>, [<terrafirmacraft:item.Ore:57>, <terrafirmacraft:item.Ore:57>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:9>, [<terrafirmacraft:item.Ore:58>, <terrafirmacraft:item.Ore:58>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:10>, [<terrafirmacraft:item.Ore:59>, <terrafirmacraft:item.Ore:59>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:11>, [<terrafirmacraft:item.Ore:60>, <terrafirmacraft:item.Ore:60>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:12>, [<terrafirmacraft:item.Ore:61>, <terrafirmacraft:item.Ore:61>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:13>, [<terrafirmacraft:item.Ore:62>, <terrafirmacraft:item.Ore:62>]);
+//# Smash Rich Ore to Poor
+		for item in <ore:craftingToolMediumHammer>.items {
+	recipes.addShapeless(<terrafirmacraft:item.Ore:49> * 3, [<terrafirmacraft:item.Ore:35>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<terrafirmacraft:item.Ore:50> * 3, [<terrafirmacraft:item.Ore:36>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<terrafirmacraft:item.Ore:51> * 3, [<terrafirmacraft:item.Ore:37>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<terrafirmacraft:item.Ore:52> * 3, [<terrafirmacraft:item.Ore:38>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<terrafirmacraft:item.Ore:53> * 3, [<terrafirmacraft:item.Ore:39>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<terrafirmacraft:item.Ore:54> * 3, [<terrafirmacraft:item.Ore:40>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<terrafirmacraft:item.Ore:55> * 3, [<terrafirmacraft:item.Ore:41>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<terrafirmacraft:item.Ore:56> * 3, [<terrafirmacraft:item.Ore:42>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<terrafirmacraft:item.Ore:57> * 3, [<terrafirmacraft:item.Ore:43>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<terrafirmacraft:item.Ore:58> * 3, [<terrafirmacraft:item.Ore:44>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<terrafirmacraft:item.Ore:59> * 3, [<terrafirmacraft:item.Ore:45>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<terrafirmacraft:item.Ore:60> * 3, [<terrafirmacraft:item.Ore:46>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<terrafirmacraft:item.Ore:61> * 3, [<terrafirmacraft:item.Ore:47>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<terrafirmacraft:item.Ore:62> * 3, [<terrafirmacraft:item.Ore:48>, item.anyDamage().transformDamage()]);
+//# Smash Normal Ore to Pile
+	recipes.addShapeless(<TabulaRasa:RasaItem0>, [<terrafirmacraft:item.Ore>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:1>, [<terrafirmacraft:item.Ore:1>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:2>, [<terrafirmacraft:item.Ore:2>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:3>, [<terrafirmacraft:item.Ore:3>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:4>, [<terrafirmacraft:item.Ore:4>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:5>, [<terrafirmacraft:item.Ore:5>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:6>, [<terrafirmacraft:item.Ore:6>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:7>, [<terrafirmacraft:item.Ore:7>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:8>, [<terrafirmacraft:item.Ore:8>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:9>, [<terrafirmacraft:item.Ore:9>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:10>, [<terrafirmacraft:item.Ore:10>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:11>, [<terrafirmacraft:item.Ore:11>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:12>, [<terrafirmacraft:item.Ore:12>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:13>, [<terrafirmacraft:item.Ore:13>, item.anyDamage().transformDamage()]);
+		}
+
+//# Bibliocraft Plate
+	recipes.addShapeless(<BiblioCraft:BiblioStuffs:2>, [<terrafirmacraft:item.GoldPan>]);
 
 //# Mekanism Configurator Charging
 	recipes.addShapeless(<Mekanism:Configurator:1>.withTag({electricity: 60000.0}), [<Mekanism:Configurator:100>.anyDamage()]);
@@ -753,8 +847,8 @@ furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 		for item in <ore:craftingToolMediumChisel>.items {
 	recipes.addShapeless(<minecraft:iron_bars> * 6, [<ore:plateIron>, item.anyDamage().transformDamage()]);
 		}
-//# BUILDCRAFT
-	recipes.addShapeless(<BuildCraft|Transport:pipeWaterproof>, [<ore:slimeball>]);
+//# BUILDCRAFT (removed, kept in case I change my mind)
+	//recipes.addShapeless(<BuildCraft|Transport:pipeWaterproof>, [<ore:slimeball>]);
 //# TFC
 
 //#Add Recipe to Cut Gems with Tools
@@ -825,8 +919,11 @@ furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<minecraft:quartz_block>, [[<ore:oreJet>, <ore:oreJet>], [<ore:oreJet>, <ore:oreJet>]]);
 
 //# GENERAL THINGS
+//# Glowstone/Scapolite block recipe
+recipes.addShaped(<minecraft:glowstone>, [[<ore:dustGlowstone>, <ore:dustGlowstone>], [<ore:dustGlowstone>, <ore:dustGlowstone>], [<terrafirmacraft:item.Red Steel Bucket Water>, null]]);
 //# Replace Ore and Mineral Blocks
 	recipes.addShaped(<minecraft:iron_block>, [[null, <ore:plateIron>, null], [<ore:plateIron>, <ore:craftingToolMediumHammer>, <ore:plateIron>], [null, <ore:plateIron>, null]]);
 	recipes.addShaped(<minecraft:gold_block>, [[null, <ore:plateGold>, null], [<ore:plateGold>, <ore:craftingToolMediumHammer>, <ore:plateGold>], [null, <ore:plateGold>, null]]);
@@ -872,18 +969,18 @@ furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 //# HOPPERDUCTS
 	recipes.addShaped(<HopperDuctMod:hopperDuct> * 4, [[null, <ore:craftingToolMediumHammer>, null], [<ore:plateIron>, <terrafirmacraft:item.SinglePlank>, <ore:plateIron>]]);
 
-//# BUILDCRAFT
-	recipes.addShaped(<BuildCraft|Factory:blockHopper>, [[<ore:plateIron>, <ore:craftingChest>, <ore:plateIron>], [null, <ore:plateIron>, null], [null, <ore:craftingToolMediumHammer>, null]]);
-	recipes.addShaped(<BuildCraft|Silicon:laserTableBlock>, [[<minecraft:obsidian>, <ore:dustRedstone>, <minecraft:obsidian>], [<minecraft:obsidian>, <minecraft:diamond>, <minecraft:obsidian>], [<minecraft:obsidian>, <Railcraft:part.gear:2>, <minecraft:obsidian>]]);
-	recipes.addShaped(<BuildCraft|Silicon:laserBlock>, [[<minecraft:obsidian>, <ore:dustRedstone>, <ore:dustRedstone>], [<ore:gemDiamond>, <terrafirmacraft:item.Red Steel Ingot>, <terrafirmacraft:item.Red Steel Ingot>], [<minecraft:obsidian>, <ore:dustRedstone>, <ore:dustRedstone>]]);
-	recipes.addShaped(<BuildCraft|Factory:refineryBlock>, [[<minecraft:redstone_torch>, <BuildCraft|Factory:tankBlock>, <minecraft:redstone_torch>], [<BuildCraft|Factory:tankBlock>, <Railcraft:part.gear:2>, <BuildCraft|Factory:tankBlock>]]);
-	recipes.addShaped(<BuildCraft|Factory:tankBlock>, [[<ore:blockGlass>, <ore:craftingToolMediumChisel>, <ore:blockGlass>], [<ore:blockGlass>, <ore:plateLead>, <ore:blockGlass>], [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]]);
-	recipes.addShaped(<BuildCraft|Factory:floodGateBlock>, [[<ore:ingotRedSteel>, <Railcraft:part.gear:2>, <ore:ingotBlueSteel>], [<ore:craftingToolMediumHammer>, <BuildCraft|Factory:tankBlock>, <ore:craftingToolMediumChisel>], [<ore:ingotBlueSteel>, <minecraft:iron_bars>, <ore:ingotRedSteel>]]);
-	recipes.addShaped(<BuildCraft|Factory:autoWorkbenchBlock>, [[null, <Railcraft:part.gear:2>, null], [<Railcraft:part.gear:2>, <ore:craftingTableWood>, <Railcraft:part.gear:2>], [null, <Railcraft:part.gear:2>, null]]);
+//# BUILDCRAFT (removed, kept in case I change my mind)
+	//recipes.addShaped(<BuildCraft|Factory:blockHopper>, [[<ore:plateIron>, <ore:craftingChest>, <ore:plateIron>], [null, <ore:plateIron>, null], [null, <ore:craftingToolMediumHammer>, null]]);
+	//recipes.addShaped(<BuildCraft|Silicon:laserTableBlock>, [[<minecraft:obsidian>, <ore:dustRedstone>, <minecraft:obsidian>], [<minecraft:obsidian>, <minecraft:diamond>, <minecraft:obsidian>], [<minecraft:obsidian>, <Railcraft:part.gear:2>, <minecraft:obsidian>]]);
+	//recipes.addShaped(<BuildCraft|Silicon:laserBlock>, [[<minecraft:obsidian>, <ore:dustRedstone>, <ore:dustRedstone>], [<ore:gemDiamond>, <terrafirmacraft:item.Red Steel Ingot>, <terrafirmacraft:item.Red Steel Ingot>], [<minecraft:obsidian>, <ore:dustRedstone>, <ore:dustRedstone>]]);
+	//recipes.addShaped(<BuildCraft|Factory:refineryBlock>, [[<minecraft:redstone_torch>, <BuildCraft|Factory:tankBlock>, <minecraft:redstone_torch>], [<BuildCraft|Factory:tankBlock>, <Railcraft:part.gear:2>, <BuildCraft|Factory:tankBlock>]]);
+	//recipes.addShaped(<BuildCraft|Factory:tankBlock>, [[<ore:blockGlass>, <ore:craftingToolMediumChisel>, <ore:blockGlass>], [<ore:blockGlass>, <ore:plateLead>, <ore:blockGlass>], [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]]);
+	//recipes.addShaped(<BuildCraft|Factory:floodGateBlock>, [[<ore:ingotRedSteel>, <Railcraft:part.gear:2>, <ore:ingotBlueSteel>], [<ore:craftingToolMediumHammer>, <BuildCraft|Factory:tankBlock>, <ore:craftingToolMediumChisel>], [<ore:ingotBlueSteel>, <minecraft:iron_bars>, <ore:ingotRedSteel>]]);
+	//recipes.addShaped(<BuildCraft|Factory:autoWorkbenchBlock>, [[null, <Railcraft:part.gear:2>, null], [<Railcraft:part.gear:2>, <ore:craftingTableWood>, <Railcraft:part.gear:2>], [null, <Railcraft:part.gear:2>, null]]);
 //#Reinstated BC Engines
-	recipes.addShaped(<BuildCraft|Energy:engineBlock>, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [<ore:craftingToolMediumHammer>, <ore:blockGlassColorless>, <ore:craftingToolMediumChisel>], [<ore:gearTin>, <ore:craftingPiston>, <ore:gearTin>]]);
-	recipes.addShaped(<BuildCraft|Energy:engineBlock:1>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:craftingToolMediumHammer>, <ore:blockGlassColorless>, <ore:craftingToolMediumChisel>], [<ore:gearIron>, <ore:craftingPiston>, <ore:gearIron>]]);
-	recipes.addShaped(<BuildCraft|Energy:engineBlock:2>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<ore:craftingToolMediumHammer>, <ore:blockGlassColorless>, <ore:craftingToolMediumChisel>], [<Railcraft:part.gear:2>, <ore:craftingPiston>, <Railcraft:part.gear:2>]]);
+	//recipes.addShaped(<BuildCraft|Energy:engineBlock>, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [<ore:craftingToolMediumHammer>, <ore:blockGlassColorless>, <ore:craftingToolMediumChisel>], [<ore:gearTin>, <ore:craftingPiston>, <ore:gearTin>]]);
+	//recipes.addShaped(<BuildCraft|Energy:engineBlock:1>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:craftingToolMediumHammer>, <ore:blockGlassColorless>, <ore:craftingToolMediumChisel>], [<ore:gearIron>, <ore:craftingPiston>, <ore:gearIron>]]);
+	//recipes.addShaped(<BuildCraft|Energy:engineBlock:2>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<ore:craftingToolMediumHammer>, <ore:blockGlassColorless>, <ore:craftingToolMediumChisel>], [<Railcraft:part.gear:2>, <ore:craftingPiston>, <Railcraft:part.gear:2>]]);
 	
 //# FORESTRY
 //#Reinstated Forestery gears
@@ -1152,11 +1249,64 @@ furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 	recipes.addShaped(<RedLogic:redlogic.machineBlock:2>, [[<RedLogic:redlogic.machineBlock:1>, <ore:dustRedstone>, <ore:dustRedstone>], [<RedLogic:redlogic.machineBlock:1>, <ore:gemExquisiteDiamond>, <ore:dustRedstone>], [<RedLogic:redlogic.machineBlock:1>, <ore:dyeYellow>, <ore:dustRedstone>]]);
 	recipes.addShaped(<RedLogic:redlogic.machineBlock:1>, [[<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>], [<ore:plateDoubleGold>, <minecraft:obsidian>, <ore:plateDoubleGold>], [<minecraft:obsidian>, <ore:dustRedstone>, <minecraft:obsidian>]]);
 	recipes.addShaped(<RedLogic:redlogic.machineBlock>, [[<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>], [<ore:dustRedstone>, <RedLogic:redlogic.plainBlock>, <ore:dustRedstone>], [<ore:dustRedstone>, <ore:gemDiamond>, <ore:dustRedstone>]]);
-	recipes.addShaped(<RedLogic:redlogic.plainBlock> * 16, [[<ore:blockSand>, <ore:stoneBricks>, <ore:blockSand>], [<ore:ingotIron>, <ore:blockSand>, <ore:ingotIron>], [<ore:blockSand>, <ore:stoneBricks>, <ore:blockSand>]]);
+		for item in <ore:craftingToolHardHammer>.items {
+	recipes.addShaped(<RedLogic:redlogic.plainBlock> * 16, [[<ore:blockSand>, <ore:stoneBricks>, <ore:blockSand>], [<ore:ingotIron>, item.anyDamage().transformDamage(), <ore:ingotIron>], [<ore:blockSand>, <ore:stoneBricks>, <ore:blockSand>]]);
+		}
 	recipes.addShaped(<RedLogic:redlogic.arrayCells:2>, [[<ore:stoneRaw>, <RedLogic:redlogic.wire>, <ore:stoneRaw>], [<RedLogic:redlogic.wire>, <minecraft:repeater>, <RedLogic:redlogic.wire>], [<ore:stoneRaw>, <RedLogic:redlogic.wire>, <ore:stoneRaw>]]);
 	recipes.addShaped(<RedLogic:redlogic.arrayCells:1>, [[<ore:stoneRaw>, <RedLogic:redlogic.wire>, <ore:stoneRaw>], [<RedLogic:redlogic.wire>, <minecraft:redstone_torch>, <RedLogic:redlogic.wire>], [<ore:stoneRaw>, <RedLogic:redlogic.wire>, <ore:stoneRaw>]]);
 	recipes.addShaped(<RedLogic:redlogic.arrayCells>, [[<ore:stoneRaw>, <RedLogic:redlogic.wire>, <ore:stoneRaw>], [<RedLogic:redlogic.wire>, <RedLogic:redlogic.wire>, <RedLogic:redlogic.wire>], [<ore:stoneRaw>, <RedLogic:redlogic.wire>, <ore:stoneRaw>]]);
 	recipes.addShaped(<RedLogic:redlogic.screwdriver>, [[null, <ore:dyeYellow>, <ore:ingotIron>], [null, <ore:ingotIron>, <ore:dyeBlack>], [<ore:stickWood>, null, null]]);
+
+//# Bibliocraft
+//# Typewriters
+	var blockHardClay = [<minecraft:stained_hardened_clay:0>, <minecraft:stained_hardened_clay:8>, <minecraft:stained_hardened_clay:7>,<minecraft:stained_hardened_clay:15>,<minecraft:stained_hardened_clay:14>,<minecraft:stained_hardened_clay:1>,<minecraft:stained_hardened_clay:4>,<minecraft:stained_hardened_clay:5>,<minecraft:stained_hardened_clay:13>,<minecraft:stained_hardened_clay:9>,<minecraft:stained_hardened_clay:3>,<minecraft:stained_hardened_clay:11>,<minecraft:stained_hardened_clay:10>,<minecraft:stained_hardened_clay:2>,<minecraft:stained_hardened_clay:6>,<minecraft:stained_hardened_clay:12>] as IItemStack[];
+	var typewriters = [<BiblioCraft:BiblioTypewriter:0>, <BiblioCraft:BiblioTypewriter:1>, <BiblioCraft:BiblioTypewriter:2>, <BiblioCraft:BiblioTypewriter:3>, <BiblioCraft:BiblioTypewriter:4>, <BiblioCraft:BiblioTypewriter:5>, <BiblioCraft:BiblioTypewriter:6>, <BiblioCraft:BiblioTypewriter:7>, <BiblioCraft:BiblioTypewriter:8>, <BiblioCraft:BiblioTypewriter:9>, <BiblioCraft:BiblioTypewriter:10>, <BiblioCraft:BiblioTypewriter:11>, <BiblioCraft:BiblioTypewriter:12>, <BiblioCraft:BiblioTypewriter:13>, <BiblioCraft:BiblioTypewriter:14>, <BiblioCraft:BiblioTypewriter:15>] as IItemStack[];
+		for i, clayHard in blockHardClay {
+	var typewriter = typewriters[i];
+	recipes.addShaped(typewriter, [[<ore:ingotIron>, <minecraft:paper>, <ore:ingotIron>], [<ore:plateWroughtIron>, <ore:dyeBlack>, <ore:plateWroughtIron>], [clayHard, clayHard, clayHard]]);
+		}
+	recipes.addShaped(<BiblioCraft:item.BiblioMapTool>, [[null, <ore:ingotIron>, null], [<ore:ingotIron>, null, <ore:ingotIron>], [<ore:stickWood>, null, <ore:stickWood>]]);
+	recipes.addShaped(<BiblioCraft:item.BiblioWayPointCompass>, [[null, <ore:ingotGold>, null], [<ore:ingotGold>, <minecraft:compass>, <ore:ingotGold>], [null, <ore:ingotGold>, null]]);
+	recipes.addShaped(<BiblioCraft:BiblioStuffs>, [[null, <ore:ingotIron>, null], [<ore:paneGlassColorless>, <terrafirmacraft:item.ClayBowl:1>, <ore:paneGlassColorless>], [<ore:paneGlassColorless>, <ore:dustRedstone>, <ore:paneGlassColorless>]]);
+	recipes.addShaped(<BiblioCraft:item.HandDrill>, [[<ore:ingotIron>, null, <minecraft:wooden_button>], [null, <ore:stickWood>, null]]);
+	recipes.addShaped(<BiblioCraft:item.tapeMeasure>, [[null, <ore:ingotIron>, null], [<ore:ingotIron>, <BiblioCraft:item.tape>, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);
+	recipes.addShaped(<BiblioCraft:item.tape>, [[<ore:materialString>, <ore:materialString>, <ore:materialString>], [<ore:materialString>, <ore:dyeYellow>, <ore:materialString>], [<ore:materialString>, <ore:materialString>, <ore:materialString>]]);
+	recipes.addShaped(<BiblioCraft:item.BiblioGlasses>, [[<ore:paneGlassColorless>, <ore:ingotIron>, <ore:paneGlassColorless>], [<ore:dyeBlack>, null, <ore:dyeBlack>]]);
+	recipes.addShaped(<BiblioCraft:item.BiblioDrill>, [[<ore:ingotIron>, <minecraft:stained_hardened_clay:1>, <minecraft:stained_hardened_clay:1>], [null, <minecraft:stone_button>, <minecraft:stained_hardened_clay:1>], [null, null, <ore:blockRedstone>]]);
+	recipes.addShaped(<BiblioCraft:item.BiblioClipboard>, [[<ore:dyeBlack>, null, <minecraft:feather>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [null, <minecraft:wooden_pressure_plate>, null]]);
+	recipes.addShaped(<BiblioCraft:item.BiblioChase>, [[null, <ore:slabWood>, null], [<ore:slabWood>, <ore:ingotIron>, <ore:slabWood>], [null, <ore:slabWood>, null]]);
+	recipes.addShaped(<BiblioCraft:Printing Press>, [[<ore:ingotIron>, <ore:oreStrontium>, <ore:ingotIron>], [<ore:slabWood>, <minecraft:heavy_weighted_pressure_plate>, <ore:slabWood>], [<ore:blockIron>, <ore:blockIron>, <ore:blockIron>]]);
+	recipes.addShaped(<BiblioCraft:Typesetting Machine>, [[<ore:ingotIron>, <BiblioCraft:item.BiblioChase>, <ore:ingotIron>], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>], [<ore:plankWood>, <ore:dustRedstone>, <ore:plankWood>]]);
+	recipes.addShaped(<BiblioCraft:BiblioIronLamp>, [[<ore:blockGlassColorless>, <ore:ironLanternCore>, <ore:blockGlassColorless>], [null, <ore:nuggetIron>, null], [<ore:nuggetIron>, <minecraft:stone_slab>, <ore:nuggetIron>]]);
+	recipes.addShaped(<BiblioCraft:BiblioLamp>, [[<ore:blockGlassColorless>, <ore:goldLanternCore>, <ore:blockGlassColorless>], [null, <ore:nuggetGold>, null], [<ore:nuggetGold>, <minecraft:stone_slab>, <ore:nuggetGold>]]);
+	recipes.addShaped(<BiblioCraft:BiblioIronLantern>, [[<ore:paneGlassColorless>, <ore:nuggetIron>, <ore:paneGlassColorless>], [<ore:nuggetIron>, <ore:ironLanternCore>, <ore:nuggetIron>], [<ore:paneGlassColorless>, <ore:nuggetIron>, <ore:paneGlassColorless>]]);
+	recipes.addShaped(<BiblioCraft:BiblioLantern>, [[<ore:paneGlassColorless>, <ore:nuggetGold>, <ore:paneGlassColorless>], [<ore:nuggetGold>, <ore:goldLanternCore>, <ore:nuggetGold>], [<ore:paneGlassColorless>, <ore:nuggetGold>, <ore:paneGlassColorless>]]);
+	recipes.addShaped(<BiblioCraft:BiblioDesk:5>, [[<ore:blockTorch>, null, <minecraft:feather>], [<minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>], [<minecraft:planks:5>, null, <minecraft:planks:5>]]);
+	recipes.addShaped(<BiblioCraft:BiblioDesk:4>, [[<ore:blockTorch>, null, <minecraft:feather>], [<minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>], [<minecraft:planks:4>, null, <minecraft:planks:4>]]);
+	recipes.addShaped(<BiblioCraft:BiblioDesk:2>, [[<ore:blockTorch>, null, <minecraft:feather>], [<minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>], [<minecraft:planks:2>, null, <minecraft:planks:2>]]);
+	recipes.addShaped(<BiblioCraft:BiblioDesk:1>, [[<ore:blockTorch>, null, <minecraft:feather>], [<minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>], [<minecraft:planks:1>, null, <minecraft:planks:1>]]);
+	recipes.addShaped(<BiblioCraft:BiblioDesk>, [[<ore:blockTorch>, null, <minecraft:feather>], [<minecraft:wooden_slab>, <minecraft:wooden_slab>, <minecraft:wooden_slab>], [<minecraft:planks>, null, <minecraft:planks>]]);
+	recipes.addShaped(<BiblioCraft:BiblioWorkbench:5>, [[<ore:dyeBlack>, <ore:craftingTableWood>, <minecraft:feather>], [<minecraft:wooden_slab:5>, <BiblioCraft:Bibliotheca:5>, <minecraft:wooden_slab:5>], [<minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>]]);
+	recipes.addShaped(<BiblioCraft:BiblioWorkbench:4>, [[<ore:dyeBlack>, <ore:craftingTableWood>, <minecraft:feather>], [<minecraft:wooden_slab:4>, <BiblioCraft:Bibliotheca:4>, <minecraft:wooden_slab:4>], [<minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>]]);
+	recipes.addShaped(<BiblioCraft:BiblioWorkbench:3>, [[<ore:dyeBlack>, <ore:craftingTableWood>, <minecraft:feather>], [<minecraft:wooden_slab:3>, <BiblioCraft:Bibliotheca:3>, <minecraft:wooden_slab:3>], [<minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>]]);
+	recipes.addShaped(<BiblioCraft:BiblioWorkbench:2>, [[<ore:dyeBlack>, <ore:craftingTableWood>, <minecraft:feather>], [<minecraft:wooden_slab:2>, <BiblioCraft:Bibliotheca:2>, <minecraft:wooden_slab:2>], [<minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>]]);
+	recipes.addShaped(<BiblioCraft:BiblioWorkbench:1>, [[<ore:dyeBlack>, <ore:craftingTableWood>, <minecraft:feather>], [<minecraft:wooden_slab:1>, <BiblioCraft:Bibliotheca:1>, <minecraft:wooden_slab:1>], [<minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>]]);
+	recipes.addShaped(<BiblioCraft:BiblioWorkbench>, [[<ore:dyeBlack>, <ore:craftingTableWood>, <minecraft:feather>], [<minecraft:wooden_slab>, <BiblioCraft:Bibliotheca>, <minecraft:wooden_slab>], [<minecraft:wooden_slab>, <minecraft:wooden_slab>, <minecraft:wooden_slab>]]);
+	recipes.addShaped(<BiblioCraft:BiblioPotionShelf:5>, [[<minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>], [<minecraft:planks:5>, <terrafirmacraft:item.Glass Bottle>, <minecraft:planks:5>], [<minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>, <minecraft:wooden_slab:5>]]);
+	recipes.addShaped(<BiblioCraft:BiblioPotionShelf:4>, [[<minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>], [<minecraft:planks:4>, <terrafirmacraft:item.Glass Bottle>, <minecraft:planks:4>], [<minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>, <minecraft:wooden_slab:4>]]);
+	recipes.addShaped(<BiblioCraft:BiblioPotionShelf:3>, [[<minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>], [<minecraft:planks:3>, <terrafirmacraft:item.Glass Bottle>, <minecraft:planks:3>], [<minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>, <minecraft:wooden_slab:3>]]);
+	recipes.addShaped(<BiblioCraft:BiblioPotionShelf:2>, [[<minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>], [<minecraft:planks:2>, <terrafirmacraft:item.Glass Bottle>, <minecraft:planks:2>], [<minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>, <minecraft:wooden_slab:2>]]);
+	recipes.addShaped(<BiblioCraft:BiblioPotionShelf:1>, [[<minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>], [<minecraft:planks:1>, <terrafirmacraft:item.Glass Bottle>, <minecraft:planks:1>], [<minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>, <minecraft:wooden_slab:1>]]);
+	recipes.addShaped(<BiblioCraft:BiblioPotionShelf>, [[<minecraft:wooden_slab>, <minecraft:wooden_slab>, <minecraft:wooden_slab>], [<minecraft:planks>, <terrafirmacraft:item.Glass Bottle>, <minecraft:planks>], [<minecraft:wooden_slab>, <minecraft:wooden_slab>, <minecraft:wooden_slab>]]);
+	recipes.addShaped(<BiblioCraft:BiblioBell>, [[null, <minecraft:stone_button>, null], [null, <ore:ingotIron>, null], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
+	recipes.addShaped(<BiblioCraft:BiblioPaintPress>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:ingotIron>, <minecraft:painting>, <ore:ingotIron>], [<ore:blockIron>, <ore:blockIron>, <ore:blockIron>]]);
+	recipes.addShaped(<BiblioCraft:BiblioClock:5>, [[<minecraft:wooden_slab:5>, <minecraft:clock>, <minecraft:wooden_slab:5>], [<minecraft:wooden_slab:5>, <ore:stickWood>, <minecraft:wooden_slab:5>], [<minecraft:wooden_slab:5>, <ore:ingotGold>, <minecraft:wooden_slab:5>]]);
+	recipes.addShaped(<BiblioCraft:BiblioClock:4>, [[<minecraft:wooden_slab:4>, <minecraft:clock>, <minecraft:wooden_slab:4>], [<minecraft:wooden_slab:4>, <ore:stickWood>, <minecraft:wooden_slab:4>], [<minecraft:wooden_slab:4>, <ore:ingotGold>, <minecraft:wooden_slab:4>]]);
+	recipes.addShaped(<BiblioCraft:BiblioClock:3>, [[<minecraft:wooden_slab:3>, <minecraft:clock>, <minecraft:wooden_slab:3>], [<minecraft:wooden_slab:3>, <ore:stickWood>, <minecraft:wooden_slab:3>], [<minecraft:wooden_slab:3>, <ore:ingotGold>, <minecraft:wooden_slab:3>]]);
+	recipes.addShaped(<BiblioCraft:BiblioClock:2>, [[<minecraft:wooden_slab:2>, <minecraft:clock>, <minecraft:wooden_slab:2>], [<minecraft:wooden_slab:2>, <ore:stickWood>, <minecraft:wooden_slab:2>], [<minecraft:wooden_slab:2>, <ore:ingotGold>, <minecraft:wooden_slab:2>]]);
+	recipes.addShaped(<BiblioCraft:BiblioClock:1>, [[<minecraft:wooden_slab:1>, <minecraft:clock>, <minecraft:wooden_slab:1>], [<minecraft:wooden_slab:1>, <ore:stickWood>, <minecraft:wooden_slab:1>], [<minecraft:wooden_slab:1>, <ore:ingotGold>, <minecraft:wooden_slab:1>]]);
+	recipes.addShaped(<BiblioCraft:BiblioClock>, [[<minecraft:wooden_slab>, <minecraft:clock>, <minecraft:wooden_slab>], [<minecraft:wooden_slab>, <ore:stickWood>, <minecraft:wooden_slab>], [<minecraft:wooden_slab>, <ore:ingotGold>, <minecraft:wooden_slab>]]);
+	recipes.addShaped(<minecraft:wooden_slab> * 6, [[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]);
 
 // ================================================================================
 //# Custom Machine Recipes
@@ -1431,15 +1581,15 @@ furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 
 //Blast Furnace Recipes
 //InputStack, matchDamage, matchNBT, Cook time, OutputStack
-//mods.railcraft.BlastFurnace.addRecipe(<ore:ingotIron>, false, false, 130, <terrafirmacraft:item.Steel Ingot>);
+	//mods.railcraft.BlastFurnace.addRecipe(<ore:ingotIron>, false, false, 130, <terrafirmacraft:item.Steel Ingot>);
 //OutputStack
-//mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:tile.railcraft.cube:2>);
+	//mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:tile.railcraft.cube:2>);
 
 //Coke oven recipes
 //InputStack, matchDamage, matchNBT, OutputStack, fluidOutput, Cook time
-//mods.railcraft.CokeOven.addRecipe(<ore:logWood>, false, false, <terrafirmacraft:item.coal:1>, <liquid:creosote> * 100, 100);
+	//mods.railcraft.CokeOven.addRecipe(<ore:logWood>, false, false, <terrafirmacraft:item.coal:1>, <liquid:creosote> * 100, 100);
 //OutputStack
-//mods.railcraft.CokeOven.removeRecipe(<minecraft:coal:1>);
+	//mods.railcraft.CokeOven.removeRecipe(<minecraft:coal:1>);
 //this only removes one of the recipes, not feasible. Adding conversion recipe.
 
 //# FORESTRY
