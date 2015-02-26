@@ -1,6 +1,7 @@
 List of Mods in Current Build
 
-[1.7.10]DamageIndicatorsMod-3.2.3.jar http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286538-hit-splat-damage-indicators-v3-3-2-rpg-ui-and
+Required
+
 [1.7.10]Decorations-1.0.15.jar http://darkagecraft.com/showthread.php?tid=215
 [1.7.10]MineTweaker3-1.7.10-3.0.9C.jar http://minetweaker3.powerofbytes.com
 [1.7.10]TerraFirmaCraft-0.79.15.538.jar http://terrafirmacraft.com/download.html
@@ -9,8 +10,6 @@ BiblioCraft[v1.9.2][MC1.7.10].jar http://www.bibliocraftmod.com/?page_id=48#MC17
 BiblioWoods[Forestry][v1.7].jar http://www.bibliocraftmod.com/?page_id=50#bibliowoods
 Carpenter's Blocks v3.3.5 - MC 1.7.10.jar http://www.carpentersblocks.com/downloads.html
 CodeChickenCore-1.7.10-1.0.4.29-universal.jar http://chickenbones.net/Pages/links.html
-DynamicLights-1.7.10.jar http://atomicstryker.net/dynamiclights.php
-fastcraft-1.19.jar http://forum.industrial-craft.net/index.php?page=Thread&threadID=10820
 FlatSigns-1.7.10-universal-2.1.0.19.jar http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/
 forestry_1.7.10-3.4.0.7.jar http://minecraft.curseforge.com/mc-mods/59751-forestry/files?filter-game-version=2020709689%3A4449
 -back-better-than-ever-updated
@@ -19,19 +18,28 @@ immibis-core-59.0.7.jar http://immibis.com/mcmoddl/
 InfernalMobs-1.7.10.jar http://atomicstryker.net/infernalmobs.php
 Mekanism-1.7.10-7.1.2.157.jar http://aidancbrady.com/mekanism/download/
 MekanismGenerators-1.7.10-1.1.0.11.jar http://aidancbrady.com/mekanism/download/
-MobiusCore-1.2.3_1.7.10.jar http://minecraft.curseforge.com/members/ProfMobius/projects
 ModTweaker 2-0.7.b43.jar (umm, now where is that jenkins...)
-NBTEdit_1.7.10.jar https://www.dropbox.com/s/g935gz25ecvbzf2/NBTEdit_1.7.10.jar
-NEIPlugins-MC1.7.10-1.1.0.7-unofficial.jar (just found this in a box somewhere, NEI addons might be good to use as well)
-NotEnoughItems-1.7.10-1.0.4.83.jar http://chickenbones.net/Pages/links.html
 OpenBlocks-1.7.10-1.3.jar http://www.openmods.info
 OpenEye-0.6-1.7.10.jar http://www.openmods.info
 OpenModsLib-1.7.10-0.6.jar http://www.openmods.info
-Opis-1.2.3_1.7.10.jar http://minecraft.curseforge.com/members/ProfMobius/projects
 Railcraft_1.7.10-9.5.0.0.jar http://minecraft.curseforge.com/mc-mods/51195-railcraft/files/2226556
 redlogic-59.1.9.jar http://immibis.com/mcmoddl/
 TabulaRasa-[1.7.10]1.0.1-3.jar http://minecraft.curseforge.com/mc-mods/223682-tabula-rasa/files
 TerraFirmaCraftNEIplugin-1.7.10-1.3.0.11.jar http://terrafirmacraft.com/f/topic/6733-171079v11-terrafirmacraft-nei-plugin/ (make sure you grab the v11 not the newest that is for the current dev build of TFC)
-Waila-1.5.9_1.7.10.jar http://minecraft.curseforge.com/members/ProfMobius/projects
 ZombieAwareness-1.9.6.jar (this gives a zip file that you need to open, coroutil is in this zip as well) http://coros.us/mods/zombieawareness
 CoroUtil-1.1.1.jar http://coros.us/mods/zombieawareness
+
+You Technically don't need, but you'll never know recipes
+NotEnoughItems-1.7.10-1.0.4.83.jar http://chickenbones.net/Pages/links.html
+neiaddons-mc1710-1.12.4.16.jar http://bdew.net/neiaddons/
+NEIIntegration-MC1.7.10-1.0.6.jar http://minecraft.curseforge.com/mc-mods/225251-nei-integration/files
+
+Recommended
+fastcraft-1.19.jar http://forum.industrial-craft.net/index.php?page=Thread&threadID=10820
+
+Optional
+[1.7.10]DamageIndicatorsMod-3.2.3.jar http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286538-hit-splat-damage-indicators-v3-3-2-rpg-ui-and
+DynamicLights-1.7.10.jar http://atomicstryker.net/dynamiclights.php
+Opis-1.2.3_1.7.10.jar Gives MapWriter minimap http://minecraft.curseforge.com/members/ProfMobius/projects
+MobiusCore-1.2.3_1.7.10.jar http://minecraft.curseforge.com/members/ProfMobius/projects
+Waila-1.5.9_1.7.10.jar http://minecraft.curseforge.com/members/ProfMobius/projects
