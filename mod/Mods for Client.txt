@@ -11,13 +11,14 @@ BiblioWoods[Forestry][v1.7].jar http://www.bibliocraftmod.com/?page_id=50#biblio
 Carpenter's Blocks v3.3.5 - MC 1.7.10.jar http://www.carpentersblocks.com/downloads.html
 FlatSigns-1.7.10-universal-2.1.0.19.jar http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/
 forestry_1.7.10-3.4.0.7.jar http://minecraft.curseforge.com/mc-mods/59751-forestry/files?filter-game-version=2020709689%3A4449
--back-better-than-ever-updated
+Forge_GuiLibv1.0.7.2.zip https://dl.dropboxusercontent.com/u/79021930/GUILib.jar
+Forge_MSC2v1.2.0.jar https://dl.dropboxusercontent.com/u/79021930/MSC2.jar
 hopperductmod-1.7.10-1.3.2.jar http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1291075-1-5-x-1-6-x-1-7-x-1-8-hopper-ducts-mod
 immibis-core-59.0.7.jar http://immibis.com/mcmoddl/
 InfernalMobs-1.7.10.jar http://atomicstryker.net/infernalmobs.php
 Mekanism-1.7.10-7.1.2.157.jar http://aidancbrady.com/mekanism/download/
 MekanismGenerators-1.7.10-1.1.0.11.jar http://aidancbrady.com/mekanism/download/
-ModTweaker 2-0.7.b43.jar (umm, now where is that jenkins...)
+ModTweaker 2-0.7.1.jar http://www.curse.com/mc-mods/minecraft/220954-modtweaker
 OpenBlocks-1.7.10-1.3.jar http://www.openmods.info
 OpenEye-0.6-1.7.10.jar http://www.openmods.info
 OpenModsLib-1.7.10-0.6.jar http://www.openmods.info
@@ -26,6 +27,7 @@ redlogic-59.1.9.jar http://immibis.com/mcmoddl/
 TabulaRasa-[1.7.10]1.0.1-3.jar http://minecraft.curseforge.com/mc-mods/223682-tabula-rasa/files
 ZombieAwareness-1.9.6.jar (this gives a zip file that you need to open, coroutil is in this zip as well) http://coros.us/mods/zombieawareness
 CoroUtil-1.1.1.jar http://coros.us/mods/zombieawareness
+PneumaticCraft-1.7.10-1.6.2-64-universal.jar http://minecraft.curseforge.com/mc-mods/224125-pneumaticcraft
 
 You Technically don't need, but you'll never know recipes
 

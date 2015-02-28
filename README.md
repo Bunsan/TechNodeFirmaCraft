@@ -9,7 +9,7 @@ Know Issues.
 - Piping into chests ignores item restriction based on size.
 - No vanilla trees for tree breeding (will be available from HQM)
 - No Nether or End so no Nether or End based bees
-- Some flowers for bees
+- Some flowers for bees (logged issue with Forestry about bug in adding flowers config.)
 - Other dimensions are a no go (Nether is map destroying and the End does not exist)
 - 
 
@@ -22,6 +22,7 @@ To Do's
 - Ore Gen is working, need to tweak balance
 - So much balancing
 - Resourcepack stuff
+- Add a storage mod for late game (Possibly BetterStorage or JABBA)
 
 
 If you are crazy enough to try please log any issues that you find.
