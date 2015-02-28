@@ -467,8 +467,11 @@ pressureChamber.add(<PneumaticCraft:pressureChamberWall>);
 //# ADD Charcoal Conversion
 	recipes.addShapeless(<terrafirmacraft:item.coal:1>, [<minecraft:coal:1>, <minecraft:coal:1>]);
 
-//#Convert Wool/Silk Cloth to Wool Block
+//# Convert Wool/Silk Cloth to Wool Block
 	recipes.addShapeless(<minecraft:wool>, [<ore:materialCloth>]);
+
+//# Convert petrified wood to Netherrack
+	recipes.addShapeless(<minecraft:netherrack>, [<terrafirmacraft:item.Ore:22>]);
 
 //# REPLACE Ingot to Nugget recipe with TFC ingot
 	recipes.addShapeless(<Railcraft:nugget:4> * 9, [<ore:ingotLead>]);
