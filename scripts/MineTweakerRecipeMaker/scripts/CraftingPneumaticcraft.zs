@@ -41,6 +41,13 @@ recipes.remove(<PneumaticCraft:pressureGauge>);
 recipes.remove(<PneumaticCraft:vacuumPump>);
 recipes.remove(<PneumaticCraft:chargingStation>);
 recipes.remove(<PneumaticCraft:airCannon>);
+recipes.remove(<PneumaticCraft:omnidirectionalHopper>);
+recipes.remove(<PneumaticCraft:aerialInterface>);
+recipes.remove(<PneumaticCraft:assemblyLaser>);
+recipes.remove(<PneumaticCraft:pressureChamberWall:6>);
+recipes.remove(<PneumaticCraft:pressureChamberValve>);
+recipes.remove(<PneumaticCraft:pressureChamberWall>);
+recipes.remove(<PneumaticCraft:electrostaticCompressor>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -86,6 +93,16 @@ recipes.addShaped(<PneumaticCraft:chargingStation>, [[null, null, <PneumaticCraf
 recipes.addShaped(<PneumaticCraft:stoneBase>, [[<ore:stoneRaw>, null, <ore:stoneRaw>], [<ore:stoneRaw>, <PneumaticCraft:pressureTube>, <ore:stoneRaw>]]);
 recipes.addShaped(<PneumaticCraft:airCannon>, [[null, <PneumaticCraft:cannonBarrel>, null], [null, <PneumaticCraft:stoneBase>, <PneumaticCraft:pressureTube>], [<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]]);
 recipes.addShaped(<PneumaticCraft:pressureGauge>, [[null, <ore:ingotGold>, null], [<ore:ingotGold>, <ore:ingotIronCompressed>, <ore:ingotGold>], [null, <ore:ingotGold>, null]]);
+recipes.addShaped(<PneumaticCraft:electrostaticCompressor>, [[<minecraft:iron_bars>, <PneumaticCraft:printedCircuitBoard>, <minecraft:iron_bars>], [<ore:gemDiamond>, <PneumaticCraft:turbineRotor>, <PneumaticCraft:advancedPressureTube>], [<minecraft:iron_bars>, <PneumaticCraft:airCompressor>, <minecraft:iron_bars>]]);
+recipes.addShaped(<PneumaticCraft:assemblyLaser>, [[<ore:dyeRed>, <PneumaticCraft:pneumaticCilinder>, <PneumaticCraft:pneumaticCilinder>], [null, null, <PneumaticCraft:pneumaticCilinder>], [<ore:ingotIronCompressed>, <PneumaticCraft:printedCircuitBoard>, <ore:ingotIronCompressed>]]);
+
+		for item in <ore:craftingToolHardHammer>.items {
+recipes.addShaped(<PneumaticCraft:omnidirectionalHopper>, [[<ore:ingotIronCompressed>, item.anyDamage().transformDamage(), <ore:ingotIronCompressed>], [<ore:ingotIronCompressed>, <ore:craftingChest>, <ore:ingotIronCompressed>], [null, <ore:ingotIronCompressed>, null]]);
+recipes.addShaped(<PneumaticCraft:pressureChamberWall> * 4, [[<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>], [<ore:ingotIronCompressed>, item.anyDamage().transformDamage(), <ore:ingotIronCompressed>], [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]]);
+recipes.addShaped(<PneumaticCraft:pressureChamberValve>, [[item.anyDamage().transformDamage(), <PneumaticCraft:pressureChamberWall>, null], [<PneumaticCraft:pressureChamberWall>, <PneumaticCraft:pressureTube>, <PneumaticCraft:pressureChamberWall>], [null, <PneumaticCraft:pressureChamberWall>, null]]);
+recipes.addShaped(<PneumaticCraft:pressureChamberWall:6>, [[item.anyDamage().transformDamage(), <PneumaticCraft:pressureChamberWall>, null], [<PneumaticCraft:pressureChamberWall>, <ore:blockGlass>, <PneumaticCraft:pressureChamberWall>], [null, <PneumaticCraft:pressureChamberWall>, null]]);
+recipes.addShaped(<PneumaticCraft:aerialInterface>, [[<ore:pressureChamber>, <minecraft:hopper>, <ore:pressureChamber>], [<minecraft:ender_pearl>, item.anyDamage().transformDamage(), <minecraft:ender_pearl>], [<ore:pressureChamber>, <PneumaticCraft:advancedPressureTube>, <ore:pressureChamber>]]);
+}
 
 // ================================================================================
 //# MACHINE RECIPES

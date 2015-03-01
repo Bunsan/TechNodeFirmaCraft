@@ -12,7 +12,7 @@ CodeChickenCore-1.7.10-1.0.4.29-universal.jar http://chickenbones.net/Pages/link
 DynamicLights-1.7.10.jar http://atomicstryker.net/dynamiclights.php
 fastcraft-1.19.jar http://forum.industrial-craft.net/index.php?page=Thread&threadID=10820
 FlatSigns-1.7.10-universal-2.1.0.19.jar http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/
-forestry_1.7.10-3.4.0.7.jar http://minecraft.curseforge.com/mc-mods/59751-forestry/files?filter-game-version=2020709689%3A4449
+forestry_1.7.10-3.5.0.479-unstable.jar http://jenkins.ic2.player.to/job/Forestry_Dev/
 Forge_GuiLibv1.0.7.2.zip https://dl.dropboxusercontent.com/u/79021930/GUILib.jar
 Forge_MSC2v1.2.0.jar https://dl.dropboxusercontent.com/u/79021930/MSC2.jar
 hopperductmod-1.7.10-1.3.2.jar http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1291075-1-5-x-1-6-x-1-7-x-1-8-hopper-ducts-mod

@@ -383,6 +383,7 @@ pressureChamber.add(<PneumaticCraft:pressureChamberWall>);
 // ================================================================================
 //#MARKER REMOVE
 
+
 //# FURNACE
 	furnace.remove(<minecraft:iron_ingot>, <Mekanism:Dust>);
 	furnace.remove(<minecraft:gold_ingot>, <Mekanism:Dust:1>);
@@ -399,6 +400,19 @@ pressureChamber.add(<PneumaticCraft:pressureChamberWall>);
 	recipes.remove(<minecraft:golden_apple:1>);
 	recipes.remove(<minecraft:golden_carrot>);
 	recipes.remove(<minecraft:dye:4>);
+	recipes.remove(<minecraft:dye:15>);
+	recipes.remove(<minecraft:dye:3>);
+	recipes.remove(<minecraft:dye:2>);
+	recipes.remove(<minecraft:dye>);
+	recipes.remove(<minecraft:dye:12>);
+	recipes.remove(<minecraft:dye:14>);
+	recipes.remove(<minecraft:dye:13>);
+	recipes.remove(<minecraft:dye:10>);
+	recipes.remove(<minecraft:dye:9>);
+	recipes.remove(<minecraft:dye:8>);
+	recipes.remove(<minecraft:dye:7>);
+	recipes.remove(<minecraft:dye:6>);
+	recipes.remove(<minecraft:dye:5>);
 	recipes.remove(<minecraft:blaze_powder>);
 	recipes.remove(<minecraft:carrot_on_a_stick>);
 	recipes.remove(<minecraft:iron_bars>);
@@ -461,9 +475,6 @@ pressureChamber.add(<PneumaticCraft:pressureChamberWall>);
 
 //# VANILLA+ TO TFC
 
-//# Add Dandelion Conversion for Apiaries (temp fix until config issue is fixed)
-	recipes.addShapeless(<minecraft:yellow_flower>, [<terrafirmacraft:Flowers>]);
-
 //# ADD Charcoal Conversion
 	recipes.addShapeless(<terrafirmacraft:item.coal:1>, [<minecraft:coal:1>, <minecraft:coal:1>]);
 
@@ -491,8 +502,16 @@ pressureChamber.add(<PneumaticCraft:pressureChamberWall>);
 	recipes.addShapeless(<minecraft:iron_bars> * 6, [<ore:plateIron>, item.anyDamage().transformDamage()]);
 		}
 
-//# ADD Brown Dye Recipe
-	recipes.addShapeless(<terrafirmacraft:item.dyePowder:3> * 2, [<ore:dyeGreen>, <ore:dyeRed>]);
+//# ADD Dye Recipes
+	recipes.addShapeless(<terrafirmacraft:item.dyePowder:3>, [<ore:dyeGreen>, <ore:dyeRed>, <ore:blockSand>]);
+	recipes.addShapeless(<terrafirmacraft:item.dyePowder:14>, [<ore:dyeYellow>, <ore:dyeRed>, <ore:blockSand>]);
+	recipes.addShapeless(<terrafirmacraft:item.dyePowder:13>, [<ore:dyePink>, <ore:dyeRed>, <ore:blockSand>]);
+	recipes.addShapeless(<terrafirmacraft:item.dyePowder:10>, [<ore:dyeWhite>, <ore:dyeGreen>, <ore:blockSand>]);
+	recipes.addShapeless(<terrafirmacraft:item.dyePowder:9>, [<ore:dyeWhite>, <ore:dyeRed>, <ore:blockSand>]);
+	recipes.addShapeless(<terrafirmacraft:item.dyePowder:8>, [<ore:dyeWhite>, <ore:dyeBlack>, <ore:blockSand>]);
+	recipes.addShapeless(<terrafirmacraft:item.dyePowder:7>, [<ore:dyeWhite>, <ore:dyeGray>, <ore:blockSand>]);
+	recipes.addShapeless(<terrafirmacraft:item.dyePowder:6>, [<ore:dyeGreen>, <ore:dyeBlue>, <ore:blockSand>]);
+	recipes.addShapeless(<terrafirmacraft:item.dyePowder:5>, [<ore:dyeRed>, <ore:dyeBlue>, <ore:blockSand>]);
 
 //# REPLACE Lapis Block to lapis with TFC lapis
 	recipes.addShapeless(<terrafirmacraft:item.Ore:34> * 9, [<minecraft:lapis_block>]);
