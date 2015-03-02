@@ -448,7 +448,7 @@ pressureChamber.add(<PneumaticCraft:pressureChamberWall>);
 
 	furnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, <Mekanism:Dust>);
 	furnace.addRecipe(<terrafirmacraft:item.Gold Ingot>, <Mekanism:Dust:1>);
-	furnace.addRecipe(<terrafirmacraft:item.Steel Ingot>, <Mekanism:Dust:5>);
+	furnace.addRecipe(<terrafirmacraft:item.HC Steel Ingot>, <Mekanism:Dust:5>);
 	furnace.addRecipe(<terrafirmacraft:item.Copper Ingot>, <Mekanism:Dust:6>);
 	furnace.addRecipe(<terrafirmacraft:item.Tin Ingot>, <Mekanism:Dust:7>);
 	furnace.addRecipe(<terrafirmacraft:item.Lead Ingot>, <Mekanism:Dust:9>);
@@ -472,6 +472,7 @@ pressureChamber.add(<PneumaticCraft:pressureChamberWall>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<terrafirmacraft:item.Bronze Ingot>, [<ore:ingotBronze>]);
 
 //# VANILLA+ TO TFC
 

@@ -226,6 +226,7 @@
 	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem2:1>, <TabulaRasa:RasaItem1:1>);
 	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem2:2>, <TabulaRasa:RasaItem1:2>);
 	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem2>, <TabulaRasa:RasaItem1>);
+	mods.mekanism.Enrichment.addRecipe(<terrafirmacraft:item.coal:1>, <Mekanism:CompressedCarbon> * 2);
 //Purification Chamber
 	mods.mekanism.Purification.addRecipe(<terrafirmacraft:item.Ore:25>, <Mekanism:Clump:2> * 3);
 	mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem0>, <Mekanism:Clump:3> * 3);
@@ -321,3 +322,24 @@
 	mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanNickel>, <TabulaRasa:RasaItem5:2>);
 	mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanPlatinum>, <TabulaRasa:RasaItem5:3>);
 
+//Metallurgic Infuser
+//InfusionTypeString, InfusionAmount, InputStack, OutputStack (ValidInfusionTypes: CARBON, TIN, DIAMOND, REDSTONE, FUNGI, BIO, OBSIDIAN) 
+		for item in <ore:oreIron>.items {
+	mods.mekanism.Infuser.addRecipe("CARBON", 100, item, <terrafirmacraft:item.Pig Iron Ingot>);
+		}
+	mods.mekanism.Infuser.addRecipe("CARBON", 50, <terrafirmacraft:item.Wrought Iron Ingot>, <Mekanism:EnrichedIron>);
+	mods.mekanism.Infuser.addRecipe("REDSTONE", 10, <terrafirmacraft:item.Steel Ingot>, <Mekanism:EnrichedAlloy>);
+//OutputStack
+	//mods.mekanism.Infuser.removeRecipe(<minecraft:mossy_cobblestone>);
+
+//Compressor
+//InputStack, OutputStack
+	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.HC Black Steel Ingot>, <terrafirmacraft:item.Black Steel Ingot>);
+	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.HC Blue Steel Ingot>, <terrafirmacraft:item.Blue Steel Ingot>);
+	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.HC Red Steel Ingot>, <terrafirmacraft:item.Red Steel Ingot>);
+	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <terrafirmacraft:item.Black Steel Double Ingot>);
+	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Blue Steel Ingot>, <terrafirmacraft:item.Blue Steel Double Ingot>);
+	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Red Steel Ingot>, <terrafirmacraft:item.Red Steel Double Ingot>);
+
+//OutputStack
+//mods.mekanism.Compressor.removeRecipe(<Mekanism:Ingot:3>);

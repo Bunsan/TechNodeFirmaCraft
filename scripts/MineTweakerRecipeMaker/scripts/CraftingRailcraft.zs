@@ -300,6 +300,11 @@
 //# Railcraft add/Remove Machine Recipes
 //Rolling machine recipes
 //OutputStack, Input ingredients
+
+//# Steel Processing
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Steel Ingot>, [[<terrafirmacraft:item.HC Steel Ingot>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.HC Steel Ingot>, [[<terrafirmacraft:item.Pig Iron Ingot>]]);
+
 //# DOUBLE INGOTS
 		for item in <ore:ingotIron>.items {
 	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Wrought Iron Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
@@ -426,7 +431,10 @@
 
 //Blast Furnace Recipes
 //InputStack, matchDamage, matchNBT, Cook time, OutputStack
-	//mods.railcraft.BlastFurnace.addRecipe(<ore:ingotIron>, false, false, 130, <terrafirmacraft:item.Steel Ingot>);
+		for item in <ore:oreIron>.items {
+	mods.railcraft.BlastFurnace.addRecipe(item, true, false, 638, <terrafirmacraft:item.Pig Iron Ingot>);
+		}
+	mods.railcraft.BlastFurnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, false, false, 638, <terrafirmacraft:item.Pig Iron Ingot>);
 //OutputStack
 	//mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:tile.railcraft.cube:2>);
 
