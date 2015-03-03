@@ -286,6 +286,16 @@
 	mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:12>, <gas:Zinc>);
 //# Crusher
 //InputStack, OutputStack
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:17>, <DecorationsTFC:item.Powders.Gypsum> * 8);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:16>, <terrafirmacraft:item.Powder:1> * 6);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:20>, <terrafirmacraft:item.Powder:2> * 6);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:31>, <terrafirmacraft:item.Fertilizer> * 6);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:32>, <terrafirmacraft:item.Powder> * 8);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.LooseRock:6>, <terrafirmacraft:item.Powder> * 3);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.LooseRock:8>, <terrafirmacraft:item.Powder> * 3);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.LooseRock:10>, <terrafirmacraft:item.Powder> * 3);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.LooseRock:20>, <terrafirmacraft:item.Powder> * 3);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.LooseRock:5>, <terrafirmacraft:item.Powder:9> * 6);
 	mods.mekanism.Crusher.addRecipe(<TabulaRasa:RasaItem3>, <TabulaRasa:RasaItem2>);
 	mods.mekanism.Crusher.addRecipe(<TabulaRasa:RasaItem3:1>, <TabulaRasa:RasaItem2:1>);
 	mods.mekanism.Crusher.addRecipe(<TabulaRasa:RasaItem3:2>, <TabulaRasa:RasaItem2:2>);

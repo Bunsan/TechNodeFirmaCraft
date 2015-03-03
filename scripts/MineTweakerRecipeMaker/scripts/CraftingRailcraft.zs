@@ -428,6 +428,13 @@
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:20>, true, false, [<terrafirmacraft:item.Powder:2> * 4], [1.0]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.LooseRock:5>, true, false, [<terrafirmacraft:item.Powder:9> * 4], [1.0]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:29>, true, false, [<terrafirmacraft:item.Powder:4>, <terrafirmacraft:item.Powder:4>], [1.0, 0.25]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:32>, true, false, [<terrafirmacraft:item.Powder> * 6], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.LooseRock:6>, true, false, [<terrafirmacraft:item.Powder> * 2], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.LooseRock:8>, true, false, [<terrafirmacraft:item.Powder> * 2], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.LooseRock:10>, true, false, [<terrafirmacraft:item.Powder> * 2], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.LooseRock:20>, true, false, [<terrafirmacraft:item.Powder> * 2], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:31>, true, false, [<terrafirmacraft:item.Fertilizer> * 4, <terrafirmacraft:item.Fertilizer>, <terrafirmacraft:item.Fertilizer>], [1.0, 0.25, 0.10]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:17>, true, false, [<DecorationsTFC:item.Powders.Gypsum> * 6], [1.0]);
 
 //Blast Furnace Recipes
 //InputStack, matchDamage, matchNBT, Cook time, OutputStack

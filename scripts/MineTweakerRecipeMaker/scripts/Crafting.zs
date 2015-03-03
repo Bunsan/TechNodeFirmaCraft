@@ -469,6 +469,25 @@ pressureChamber.add(<PneumaticCraft:pressureChamberWall>);
 	furnace.addRecipe(<terrafirmacraft:item.Zinc Ingot>, <ore:dustZinc>);
 	furnace.addRecipe(<minecraft:coal:1>, <terrafirmacraft:item.Log:*>);
 	furnace.addRecipe(<minecraft:hardened_clay>, <TabulaRasa:RasaItem6>);
+	furnace.addRecipe(<terrafirmacraft:item.Mold:1>, <terrafirmacraft:item.Mold>);
+	furnace.addRecipe(<terrafirmacraft:item.Axe Mold:1>, <terrafirmacraft:item.Axe Mold>);
+	furnace.addRecipe(<terrafirmacraft:item.Chisel Mold:1>, <terrafirmacraft:item.Chisel Mold>);
+	furnace.addRecipe(<terrafirmacraft:item.Hammer Mold:1>, <terrafirmacraft:item.Hammer Mold>);
+	furnace.addRecipe(<terrafirmacraft:item.Hoe Mold:1>, <terrafirmacraft:item.Hoe Mold>);
+	furnace.addRecipe(<terrafirmacraft:item.Knife Mold:1>, <terrafirmacraft:item.Knife Mold>);
+	furnace.addRecipe(<terrafirmacraft:item.Mace Mold:1>, <terrafirmacraft:item.Mace Mold>);
+	furnace.addRecipe(<terrafirmacraft:item.Pick Mold:1>, <terrafirmacraft:item.Pick Mold>);
+	furnace.addRecipe(<terrafirmacraft:item.ProPick Mold:1>, <terrafirmacraft:item.ProPick Mold>);
+	furnace.addRecipe(<terrafirmacraft:item.Saw Mold:1>, <terrafirmacraft:item.Saw Mold>);
+	furnace.addRecipe(<terrafirmacraft:item.Scythe Mold:1>, <terrafirmacraft:item.Scythe Mold>);
+	furnace.addRecipe(<terrafirmacraft:item.Shovel Mold:1>, <terrafirmacraft:item.Shovel Mold>);
+	furnace.addRecipe(<terrafirmacraft:item.Sword Mold:1>, <terrafirmacraft:item.Sword Mold>);
+	furnace.addRecipe(<terrafirmacraft:item.Javelin Mold:1>, <terrafirmacraft:item.Javelin Mold>);
+	furnace.addRecipe(<terrafirmacraft:item.Jug:1>, <terrafirmacraft:item.Jug>);
+	furnace.addRecipe(<terrafirmacraft:item.Small Vessel:1>, <terrafirmacraft:item.Small Vessel>);
+	furnace.addRecipe(<terrafirmacraft:item.ClayBowl:1>, <terrafirmacraft:item.ClayBowl>);
+	furnace.addRecipe(<terrafirmacraft:Vessel:1>, <terrafirmacraft:Vessel>);
+	furnace.addRecipe(<terrafirmacraft:item.Fire Brick:1>, <terrafirmacraft:item.Fire Brick>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
