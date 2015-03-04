@@ -435,13 +435,29 @@
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.LooseRock:20>, true, false, [<terrafirmacraft:item.Powder> * 2], [1.0]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:31>, true, false, [<terrafirmacraft:item.Fertilizer> * 4, <terrafirmacraft:item.Fertilizer>, <terrafirmacraft:item.Fertilizer>], [1.0, 0.25, 0.10]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:17>, true, false, [<DecorationsTFC:item.Powders.Gypsum> * 6], [1.0]);
+//# Ore Grinding
+	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0>, true, false, [<Mekanism:Dust:6>, <Mekanism:Dust:6>], [1.0, 0.50]);
+	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:1> * 1, true, false, [<Mekanism:Dust:1>, <Mekanism:Dust:1>], [1.0, 0.50]);
+	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:2>, true, false, [<TabulaRasa:RasaItem1:3>, <TabulaRasa:RasaItem1:3>, <Mekanism:Dust:2>], [1.0, 0.50, 0.05]);
+	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:3>, true, false, [<Mekanism:DirtyDust>, <Mekanism:DirtyDust>, <terrafirmacraft:item.Powder:5> * 1], [1.0, 0.50, 0.10]);
+	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:4>, true, false, [<Mekanism:Dust:8>, <Mekanism:Dust:8>], [1.0, 0.50]);
+	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:5>, true, false, [<Mekanism:Dust:7>, <Mekanism:Dust:7>], [1.0, 0.50]);
+	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:6>, true, false, [<Mekanism:Dust:9>, <Mekanism:Dust:9>, <Mekanism:Dust:8>], [1.0, 0.50, 0.05]);
+	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:7>, true, false, [<TabulaRasa:RasaItem1:1>, <TabulaRasa:RasaItem1:1>, <terrafirmacraft:item.Powder:3>], [1.0, 0.50, 0.10]);
+	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:8>, true, false, [<TabulaRasa:RasaItem1:2>, <TabulaRasa:RasaItem1:2>], [1.0, 0.50]);
+	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:9>, true, false, [<Mekanism:Dust:6>, <Mekanism:Dust:6>, <terrafirmacraft:item.Powder:8>], [1.0, 0.50, 0.10]);
+	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:10>, true, false, [<Mekanism:DirtyDust>, <Mekanism:DirtyDust>], [1.0, 0.50]);
+	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:11>, true, false, [<Mekanism:DirtyDust>, <Mekanism:DirtyDust>, <terrafirmacraft:item.Powder:7>], [1.0, 0.50, 0.10]);
+	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:12>, true, false, [<TabulaRasa:RasaItem1>, <TabulaRasa:RasaItem1>, <Mekanism:DirtyDust>], [1.0, 0.50, 0.05]);
+	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:13>, true, false, [<Mekanism:Dust:6>, <Mekanism:Dust:6>, <terrafirmacraft:item.Powder:3>], [1.0, 0.50, 0.10]);
 
 //Blast Furnace Recipes
 //InputStack, matchDamage, matchNBT, Cook time, OutputStack
 		for item in <ore:oreIron>.items {
-	mods.railcraft.BlastFurnace.addRecipe(item, true, false, 638, <terrafirmacraft:item.Pig Iron Ingot>);
+	mods.railcraft.BlastFurnace.addRecipe(item, true, false, 1278, <terrafirmacraft:item.Pig Iron Ingot>);
 		}
-	mods.railcraft.BlastFurnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, false, false, 638, <terrafirmacraft:item.Pig Iron Ingot>);
+	mods.railcraft.BlastFurnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, false, false, 1278, <terrafirmacraft:item.Pig Iron Ingot>);
+	mods.railcraft.BlastFurnace.addRecipe(<Mekanism:DirtyDust>, true, false, 638, <terrafirmacraft:item.Wrought Iron Ingot>);
 //OutputStack
 	//mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:tile.railcraft.cube:2>);
 

@@ -542,36 +542,36 @@ recipes.addShapeless(<terrafirmacraft:item.Bronze Ingot>, [<ore:ingotBronze>]);
 //# ORE PILES
 
 //# Small ore to Piles
-	recipes.addShapeless(<TabulaRasa:RasaItem0>, [<terrafirmacraft:item.Small Ore>, <terrafirmacraft:item.Small Ore>, <terrafirmacraft:item.Small Ore>, <terrafirmacraft:item.Small Ore>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:1>, [<terrafirmacraft:item.Small Ore:1>, <terrafirmacraft:item.Small Ore:1>, <terrafirmacraft:item.Small Ore:1>, <terrafirmacraft:item.Small Ore:1>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:2>, [<terrafirmacraft:item.Small Ore:2>, <terrafirmacraft:item.Small Ore:2>, <terrafirmacraft:item.Small Ore:2>, <terrafirmacraft:item.Small Ore:2>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:3>, [<terrafirmacraft:item.Small Ore:3>, <terrafirmacraft:item.Small Ore:3>, <terrafirmacraft:item.Small Ore:3>, <terrafirmacraft:item.Small Ore:3>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:4>, [<terrafirmacraft:item.Small Ore:4>, <terrafirmacraft:item.Small Ore:4>, <terrafirmacraft:item.Small Ore:4>, <terrafirmacraft:item.Small Ore:4>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:5>, [<terrafirmacraft:item.Small Ore:5>, <terrafirmacraft:item.Small Ore:5>, <terrafirmacraft:item.Small Ore:5>, <terrafirmacraft:item.Small Ore:5>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:6>, [<terrafirmacraft:item.Small Ore:6>, <terrafirmacraft:item.Small Ore:6>, <terrafirmacraft:item.Small Ore:6>, <terrafirmacraft:item.Small Ore:6>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:7>, [<terrafirmacraft:item.Small Ore:7>, <terrafirmacraft:item.Small Ore:7>, <terrafirmacraft:item.Small Ore:7>, <terrafirmacraft:item.Small Ore:7>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:8>, [<terrafirmacraft:item.Small Ore:8>, <terrafirmacraft:item.Small Ore:8>, <terrafirmacraft:item.Small Ore:8>, <terrafirmacraft:item.Small Ore:8>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:9>, [<terrafirmacraft:item.Small Ore:9>, <terrafirmacraft:item.Small Ore:9>, <terrafirmacraft:item.Small Ore:9>, <terrafirmacraft:item.Small Ore:9>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:10>, [<terrafirmacraft:item.Small Ore:10>, <terrafirmacraft:item.Small Ore:10>, <terrafirmacraft:item.Small Ore:10>, <terrafirmacraft:item.Small Ore:10>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:11>, [<terrafirmacraft:item.Small Ore:11>, <terrafirmacraft:item.Small Ore:11>, <terrafirmacraft:item.Small Ore:11>, <terrafirmacraft:item.Small Ore:11>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:12>, [<terrafirmacraft:item.Small Ore:12>, <terrafirmacraft:item.Small Ore:12>, <terrafirmacraft:item.Small Ore:12>, <terrafirmacraft:item.Small Ore:12>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:13>, [<terrafirmacraft:item.Small Ore:13>, <terrafirmacraft:item.Small Ore:13>, <terrafirmacraft:item.Small Ore:13>, <terrafirmacraft:item.Small Ore:13>]);
+	//recipes.addShapeless(<TabulaRasa:RasaItem0>, [<terrafirmacraft:item.Small Ore>, <terrafirmacraft:item.Small Ore>, <terrafirmacraft:item.Small Ore>, <terrafirmacraft:item.Small Ore>]);
+	//recipes.addShapeless(<TabulaRasa:RasaItem0:1>, [<terrafirmacraft:item.Small Ore:1>, <terrafirmacraft:item.Small Ore:1>, <terrafirmacraft:item.Small Ore:1>, <terrafirmacraft:item.Small Ore:1>]);
+	//recipes.addShapeless(<TabulaRasa:RasaItem0:2>, [<terrafirmacraft:item.Small Ore:2>, <terrafirmacraft:item.Small Ore:2>, <terrafirmacraft:item.Small Ore:2>, <terrafirmacraft:item.Small Ore:2>]);
+	//recipes.addShapeless(<TabulaRasa:RasaItem0:3>, [<terrafirmacraft:item.Small Ore:3>, <terrafirmacraft:item.Small Ore:3>, <terrafirmacraft:item.Small Ore:3>, <terrafirmacraft:item.Small Ore:3>]);
+	//recipes.addShapeless(<TabulaRasa:RasaItem0:4>, [<terrafirmacraft:item.Small Ore:4>, <terrafirmacraft:item.Small Ore:4>, <terrafirmacraft:item.Small Ore:4>, <terrafirmacraft:item.Small Ore:4>]);
+	//recipes.addShapeless(<TabulaRasa:RasaItem0:5>, [<terrafirmacraft:item.Small Ore:5>, <terrafirmacraft:item.Small Ore:5>, <terrafirmacraft:item.Small Ore:5>, <terrafirmacraft:item.Small Ore:5>]);
+	//recipes.addShapeless(<TabulaRasa:RasaItem0:6>, [<terrafirmacraft:item.Small Ore:6>, <terrafirmacraft:item.Small Ore:6>, <terrafirmacraft:item.Small Ore:6>, <terrafirmacraft:item.Small Ore:6>]);
+	//recipes.addShapeless(<TabulaRasa:RasaItem0:7>, [<terrafirmacraft:item.Small Ore:7>, <terrafirmacraft:item.Small Ore:7>, <terrafirmacraft:item.Small Ore:7>, <terrafirmacraft:item.Small Ore:7>]);
+	//recipes.addShapeless(<TabulaRasa:RasaItem0:8>, [<terrafirmacraft:item.Small Ore:8>, <terrafirmacraft:item.Small Ore:8>, <terrafirmacraft:item.Small Ore:8>, <terrafirmacraft:item.Small Ore:8>]);
+	//recipes.addShapeless(<TabulaRasa:RasaItem0:9>, [<terrafirmacraft:item.Small Ore:9>, <terrafirmacraft:item.Small Ore:9>, <terrafirmacraft:item.Small Ore:9>, <terrafirmacraft:item.Small Ore:9>]);
+	//recipes.addShapeless(<TabulaRasa:RasaItem0:10>, [<terrafirmacraft:item.Small Ore:10>, <terrafirmacraft:item.Small Ore:10>, <terrafirmacraft:item.Small Ore:10>, <terrafirmacraft:item.Small Ore:10>]);
+	//recipes.addShapeless(<TabulaRasa:RasaItem0:11>, [<terrafirmacraft:item.Small Ore:11>, <terrafirmacraft:item.Small Ore:11>, <terrafirmacraft:item.Small Ore:11>, <terrafirmacraft:item.Small Ore:11>]);
+	//recipes.addShapeless(<TabulaRasa:RasaItem0:12>, [<terrafirmacraft:item.Small Ore:12>, <terrafirmacraft:item.Small Ore:12>, <terrafirmacraft:item.Small Ore:12>, <terrafirmacraft:item.Small Ore:12>]);
+	//recipes.addShapeless(<TabulaRasa:RasaItem0:13>, [<terrafirmacraft:item.Small Ore:13>, <terrafirmacraft:item.Small Ore:13>, <terrafirmacraft:item.Small Ore:13>, <terrafirmacraft:item.Small Ore:13>]);
 
 //# Poor Ore to Piles
-	recipes.addShapeless(<TabulaRasa:RasaItem0>, [<terrafirmacraft:item.Ore:49>, <terrafirmacraft:item.Ore:49>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:1>, [<terrafirmacraft:item.Ore:50>, <terrafirmacraft:item.Ore:50>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:2>, [<terrafirmacraft:item.Ore:51>, <terrafirmacraft:item.Ore:51>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:3>, [<terrafirmacraft:item.Ore:52>, <terrafirmacraft:item.Ore:52>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:4>, [<terrafirmacraft:item.Ore:53>, <terrafirmacraft:item.Ore:53>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:5>, [<terrafirmacraft:item.Ore:54>, <terrafirmacraft:item.Ore:54>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:6>, [<terrafirmacraft:item.Ore:55>, <terrafirmacraft:item.Ore:55>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:7>, [<terrafirmacraft:item.Ore:56>, <terrafirmacraft:item.Ore:56>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:8>, [<terrafirmacraft:item.Ore:57>, <terrafirmacraft:item.Ore:57>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:9>, [<terrafirmacraft:item.Ore:58>, <terrafirmacraft:item.Ore:58>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:10>, [<terrafirmacraft:item.Ore:59>, <terrafirmacraft:item.Ore:59>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:11>, [<terrafirmacraft:item.Ore:60>, <terrafirmacraft:item.Ore:60>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:12>, [<terrafirmacraft:item.Ore:61>, <terrafirmacraft:item.Ore:61>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:13>, [<terrafirmacraft:item.Ore:62>, <terrafirmacraft:item.Ore:62>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0>, [<terrafirmacraft:item.Ore:49>, <terrafirmacraft:item.Ore:49>, <terrafirmacraft:item.Ore:49>, <terrafirmacraft:item.Ore:49>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:1>, [<terrafirmacraft:item.Ore:50>, <terrafirmacraft:item.Ore:50>, <terrafirmacraft:item.Ore:50>, <terrafirmacraft:item.Ore:50>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:2>, [<terrafirmacraft:item.Ore:51>, <terrafirmacraft:item.Ore:51>, <terrafirmacraft:item.Ore:51>, <terrafirmacraft:item.Ore:51>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:3>, [<terrafirmacraft:item.Ore:52>, <terrafirmacraft:item.Ore:52>, <terrafirmacraft:item.Ore:52>, <terrafirmacraft:item.Ore:52>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:4>, [<terrafirmacraft:item.Ore:53>, <terrafirmacraft:item.Ore:53>, <terrafirmacraft:item.Ore:53>, <terrafirmacraft:item.Ore:53>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:5>, [<terrafirmacraft:item.Ore:54>, <terrafirmacraft:item.Ore:54>, <terrafirmacraft:item.Ore:54>, <terrafirmacraft:item.Ore:54>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:6>, [<terrafirmacraft:item.Ore:55>, <terrafirmacraft:item.Ore:55>, <terrafirmacraft:item.Ore:55>, <terrafirmacraft:item.Ore:55>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:7>, [<terrafirmacraft:item.Ore:56>, <terrafirmacraft:item.Ore:56>, <terrafirmacraft:item.Ore:56>, <terrafirmacraft:item.Ore:56>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:8>, [<terrafirmacraft:item.Ore:57>, <terrafirmacraft:item.Ore:57>, <terrafirmacraft:item.Ore:57>, <terrafirmacraft:item.Ore:57>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:9>, [<terrafirmacraft:item.Ore:58>, <terrafirmacraft:item.Ore:58>, <terrafirmacraft:item.Ore:58>, <terrafirmacraft:item.Ore:58>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:10>, [<terrafirmacraft:item.Ore:59>, <terrafirmacraft:item.Ore:59>, <terrafirmacraft:item.Ore:59>, <terrafirmacraft:item.Ore:59>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:11>, [<terrafirmacraft:item.Ore:60>, <terrafirmacraft:item.Ore:60>, <terrafirmacraft:item.Ore:60>, <terrafirmacraft:item.Ore:60>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:12>, [<terrafirmacraft:item.Ore:61>, <terrafirmacraft:item.Ore:61>, <terrafirmacraft:item.Ore:61>, <terrafirmacraft:item.Ore:61>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:13>, [<terrafirmacraft:item.Ore:62>, <terrafirmacraft:item.Ore:62>, <terrafirmacraft:item.Ore:62>, <terrafirmacraft:item.Ore:62>]);
 
 //# Smash Rich Ore to Poor
 		for item in <ore:craftingToolMediumHammer>.items {
@@ -591,48 +591,74 @@ recipes.addShapeless(<terrafirmacraft:item.Bronze Ingot>, [<ore:ingotBronze>]);
 	recipes.addShapeless(<terrafirmacraft:item.Ore:62> * 3, [<terrafirmacraft:item.Ore:48>, item.anyDamage().transformDamage()]);
 
 //# Smash Normal Ore to Pile
-	recipes.addShapeless(<TabulaRasa:RasaItem0>, [<terrafirmacraft:item.Ore>, item.anyDamage().transformDamage()]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:1>, [<terrafirmacraft:item.Ore:1>, item.anyDamage().transformDamage()]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:2>, [<terrafirmacraft:item.Ore:2>, item.anyDamage().transformDamage()]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:3>, [<terrafirmacraft:item.Ore:3>, item.anyDamage().transformDamage()]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:4>, [<terrafirmacraft:item.Ore:4>, item.anyDamage().transformDamage()]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:5>, [<terrafirmacraft:item.Ore:5>, item.anyDamage().transformDamage()]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:6>, [<terrafirmacraft:item.Ore:6>, item.anyDamage().transformDamage()]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:7>, [<terrafirmacraft:item.Ore:7>, item.anyDamage().transformDamage()]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:8>, [<terrafirmacraft:item.Ore:8>, item.anyDamage().transformDamage()]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:9>, [<terrafirmacraft:item.Ore:9>, item.anyDamage().transformDamage()]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:10>, [<terrafirmacraft:item.Ore:10>, item.anyDamage().transformDamage()]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:11>, [<terrafirmacraft:item.Ore:11>, item.anyDamage().transformDamage()]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:12>, [<terrafirmacraft:item.Ore:12>, item.anyDamage().transformDamage()]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:13>, [<terrafirmacraft:item.Ore:13>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0>, [<terrafirmacraft:item.Ore>, <terrafirmacraft:item.Ore>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:1>, [<terrafirmacraft:item.Ore:1>, <terrafirmacraft:item.Ore:1>, <terrafirmacraft:item.Ore:1>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:2>, [<terrafirmacraft:item.Ore:2>, <terrafirmacraft:item.Ore:2>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:3>, [<terrafirmacraft:item.Ore:3>, <terrafirmacraft:item.Ore:3>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:4>, [<terrafirmacraft:item.Ore:4>, <terrafirmacraft:item.Ore:4>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:5>, [<terrafirmacraft:item.Ore:5>, <terrafirmacraft:item.Ore:5>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:6>, [<terrafirmacraft:item.Ore:6>, <terrafirmacraft:item.Ore:6>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:7>, [<terrafirmacraft:item.Ore:7>, <terrafirmacraft:item.Ore:7>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:8>, [<terrafirmacraft:item.Ore:8>, <terrafirmacraft:item.Ore:8>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:9>, [<terrafirmacraft:item.Ore:9>, <terrafirmacraft:item.Ore:9>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:10>, [<terrafirmacraft:item.Ore:10>, <terrafirmacraft:item.Ore:10>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:11>, [<terrafirmacraft:item.Ore:11>, <terrafirmacraft:item.Ore:11>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:12>, [<terrafirmacraft:item.Ore:12>, <terrafirmacraft:item.Ore:12>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:13>, [<terrafirmacraft:item.Ore:13>, <terrafirmacraft:item.Ore:13>, item.anyDamage().transformDamage()]);
 		}
 
 //# Cut Gems with Tools
 		for item in <ore:craftingToolMediumChisel>.items {
+	recipes.addShapeless(<terrafirmacraft:item.Diamond> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawedDiamond>, <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<terrafirmacraft:item.Diamond:1> * 2, [item.anyDamage().transformDamage(), <ore:gemDiamond>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Diamond:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessDiamond>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Diamond:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteDiamond>, <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<terrafirmacraft:item.Amethyst> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawedAmethyst>, <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<terrafirmacraft:item.Amethyst> * 2, [item.anyDamage().transformDamage(), <ore:gemAmethyst>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Amethyst:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessAmethyst>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Amethyst:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteAmethyst>, <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<terrafirmacraft:item.Ruby> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawedRuby>, <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<terrafirmacraft:item.Ruby:1> * 2, [item.anyDamage().transformDamage(), <ore:gemRuby>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Ruby:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessRuby>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Ruby:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteRuby>, <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<terrafirmacraft:item.Emerald> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawedEmerald>, <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<terrafirmacraft:item.Emerald:1> * 2, [item.anyDamage().transformDamage(), <ore:gemEmerald>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Emerald:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessEmerald>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Emerald:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteEmerald>, <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<terrafirmacraft:item.Opal> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawedOpal>, <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<terrafirmacraft:item.Opal:1> * 2, [item.anyDamage().transformDamage(), <ore:gemOpal>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Opal:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessOpal>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Opal:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteOpal>, <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<terrafirmacraft:item.Sapphire> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawedSapphire>, <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<terrafirmacraft:item.Sapphire:1> * 2, [item.anyDamage().transformDamage(), <ore:gemSapphire>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Sapphire:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessSapphire>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Sapphire:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteSapphire>, <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<terrafirmacraft:item.Topaz> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawedTopaz>, <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<terrafirmacraft:item.Topaz:1> * 2, [item.anyDamage().transformDamage(), <ore:gemTopaz>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Topaz:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessTopaz>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Topaz:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteTopaz>, <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<terrafirmacraft:item.Tourmaline> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawedTourmaline>, <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<terrafirmacraft:item.Tourmaline:1> * 2, [item.anyDamage().transformDamage(), <ore:gemTourmaline>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Tourmaline:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessTourmaline>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Tourmaline:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteTourmaline>, <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<terrafirmacraft:item.Jade> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawedJade>, <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<terrafirmacraft:item.Jade:1> * 2, [item.anyDamage().transformDamage(), <ore:gemJade>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Jade:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessJade>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Jade:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteJade>, <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<terrafirmacraft:item.Beryl> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawedBeryl>, <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<terrafirmacraft:item.Beryl:1> * 2, [item.anyDamage().transformDamage(), <ore:gemBeryl>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Beryl:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessBeryl>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Beryl:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteBeryl>, <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<terrafirmacraft:item.Agate> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawedAgate>, <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<terrafirmacraft:item.Agate:1> * 2, [item.anyDamage().transformDamage(), <ore:gemAgate>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Agate:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessAgate>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Agate:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteAgate>, <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<terrafirmacraft:item.Garnet> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawedGarnet>, <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<terrafirmacraft:item.Garnet:1> * 2, [item.anyDamage().transformDamage(), <ore:gemGarnet>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Garnet:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessGarnet>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Garnet:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteGarnet>, <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<terrafirmacraft:item.Jasper> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawedJasper>, <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<terrafirmacraft:item.Jasper:1> * 2, [item.anyDamage().transformDamage(), <ore:gemJasper>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Jasper:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessJasper>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Jasper:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteJasper>, <ore:itemHammer>.reuse()]);
 		}
