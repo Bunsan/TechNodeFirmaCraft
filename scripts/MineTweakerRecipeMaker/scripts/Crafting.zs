@@ -383,7 +383,6 @@ pressureChamber.add(<PneumaticCraft:pressureChamberWall>);
 // ================================================================================
 //#MARKER REMOVE
 
-
 //# FURNACE
 	furnace.remove(<minecraft:iron_ingot>, <Mekanism:Dust>);
 	furnace.remove(<minecraft:gold_ingot>, <Mekanism:Dust:1>);
@@ -423,6 +422,9 @@ pressureChamber.add(<PneumaticCraft:pressureChamberWall>);
 	recipes.remove(<minecraft:quartz_block>);
 	recipes.remove(<minecraft:wooden_slab>);
 	recipes.remove(<minecraft:glowstone>);
+//# TFC
+//# Markings (replaced)
+	recipes.remove(<terrafirmacraft:item.Ink>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -491,7 +493,6 @@ pressureChamber.add(<PneumaticCraft:pressureChamberWall>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
-recipes.addShapeless(<terrafirmacraft:item.Bronze Ingot>, [<ore:ingotBronze>]);
 
 //# VANILLA+ TO TFC
 
@@ -522,6 +523,42 @@ recipes.addShapeless(<terrafirmacraft:item.Bronze Ingot>, [<ore:ingotBronze>]);
 	recipes.addShapeless(<minecraft:iron_bars> * 6, [<ore:plateIron>, item.anyDamage().transformDamage()]);
 		}
 
+//# Replace Markings Recipe
+recipes.addShapeless(<terrafirmacraft:item.Ink> * 16, [<ore:dyeBlack>, <ore:itemHammer>.reuse()]);
+
+//# Dye Swaps
+	recipes.addShapeless(<minecraft:dye:14>, [<terrafirmacraft:item.dyePowder:14>]);
+	recipes.addShapeless(<minecraft:dye:13>, [<terrafirmacraft:item.dyePowder:13>]);
+	recipes.addShapeless(<minecraft:dye:12>, [<terrafirmacraft:item.dyePowder:12>]);
+	recipes.addShapeless(<minecraft:dye:11>, [<terrafirmacraft:item.dyePowder:11>]);
+	recipes.addShapeless(<minecraft:dye:10>, [<terrafirmacraft:item.dyePowder:10>]);
+	recipes.addShapeless(<minecraft:dye:9>, [<terrafirmacraft:item.dyePowder:9>]);
+	recipes.addShapeless(<minecraft:dye:8>, [<terrafirmacraft:item.dyePowder:8>]);
+	recipes.addShapeless(<minecraft:dye:7>, [<terrafirmacraft:item.dyePowder:7>]);
+	recipes.addShapeless(<minecraft:dye:6>, [<terrafirmacraft:item.dyePowder:6>]);
+	recipes.addShapeless(<minecraft:dye:5>, [<terrafirmacraft:item.dyePowder:5>]);
+	recipes.addShapeless(<minecraft:dye:4>, [<terrafirmacraft:item.dyePowder:4>]);
+	recipes.addShapeless(<minecraft:dye:3>, [<terrafirmacraft:item.dyePowder:3>]);
+	recipes.addShapeless(<minecraft:dye:2>, [<terrafirmacraft:item.dyePowder:2>]);
+	recipes.addShapeless(<minecraft:dye:1>, [<terrafirmacraft:item.dyePowder:1>]);
+	recipes.addShapeless(<minecraft:dye>, [<terrafirmacraft:item.dyePowder>]);
+	recipes.addShapeless(<terrafirmacraft:item.dyePowder:14>, [<minecraft:dye:14>]);
+	recipes.addShapeless(<terrafirmacraft:item.dyePowder:13>, [<minecraft:dye:13>]);
+	recipes.addShapeless(<terrafirmacraft:item.dyePowder:12>, [<minecraft:dye:12>]);
+	recipes.addShapeless(<terrafirmacraft:item.dyePowder:11>, [<minecraft:dye:11>]);
+	recipes.addShapeless(<terrafirmacraft:item.dyePowder:10>, [<minecraft:dye:10>]);
+	recipes.addShapeless(<terrafirmacraft:item.dyePowder:9>, [<minecraft:dye:9>]);
+	recipes.addShapeless(<terrafirmacraft:item.dyePowder:8>, [<minecraft:dye:8>]);
+	recipes.addShapeless(<terrafirmacraft:item.dyePowder:7>, [<minecraft:dye:7>]);
+	recipes.addShapeless(<terrafirmacraft:item.dyePowder:6>, [<minecraft:dye:6>]);
+	recipes.addShapeless(<terrafirmacraft:item.dyePowder:5>, [<minecraft:dye:5>]);
+	recipes.addShapeless(<terrafirmacraft:item.dyePowder:4>, [<minecraft:dye:4>]);
+	recipes.addShapeless(<terrafirmacraft:item.dyePowder:3>, [<minecraft:dye:3>]);
+	recipes.addShapeless(<terrafirmacraft:item.dyePowder:2>, [<minecraft:dye:2>]);
+	recipes.addShapeless(<terrafirmacraft:item.dyePowder:1>, [<minecraft:dye:1>]);
+	recipes.addShapeless(<terrafirmacraft:item.dyePowder>, [<minecraft:dye>]);
+
+
 //# ADD Dye Recipes
 	recipes.addShapeless(<terrafirmacraft:item.dyePowder:3>, [<ore:dyeGreen>, <ore:dyeRed>, <ore:blockSand>]);
 	recipes.addShapeless(<terrafirmacraft:item.dyePowder:14>, [<ore:dyeYellow>, <ore:dyeRed>, <ore:blockSand>]);
@@ -538,6 +575,8 @@ recipes.addShapeless(<terrafirmacraft:item.Bronze Ingot>, [<ore:ingotBronze>]);
 
 
 //# TFC ADDITIONS
+//# Bronze intermod conversion
+	recipes.addShapeless(<terrafirmacraft:item.Bronze Ingot>, [<ore:ingotBronze>]);
 
 //# ORE PILES
 
