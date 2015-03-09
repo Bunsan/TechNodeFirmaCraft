@@ -10,7 +10,7 @@ BiblioCraft[v1.9.2][MC1.7.10].jar http://www.bibliocraftmod.com/?page_id=48#MC17
 BiblioWoods[Forestry][v1.7].jar http://www.bibliocraftmod.com/?page_id=50#bibliowoods
 Carpenter's Blocks v3.3.5 - MC 1.7.10.jar http://www.carpentersblocks.com/downloads.html
 FlatSigns-1.7.10-universal-2.1.0.19.jar http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/
-forestry_1.7.10-3.5.0.479-unstable.jar http://jenkins.ic2.player.to/job/Forestry_Dev/lastSuccessfulBuild/artifact/build/dist/forestry_1.7.10-3.5.0.479-unstable.jar
+forestry_1.7.10-3.5.0.479-unstable.jar http://jenkins.ic2.player.to/job/Forestry_Dev/479/artifact/build/dist/forestry_1.7.10-3.5.0.479-unstable.jar
 [Removed for now] Forge_GuiLibv1.0.7.2.zip https://dl.dropboxusercontent.com/u/79021930/GUILib.jar
 [Removed for now] Forge_MSC2v1.2.0.jar https://dl.dropboxusercontent.com/u/79021930/MSC2.jar
 hopperductmod-1.7.10-1.3.2.jar http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1291075-1-5-x-1-6-x-1-7-x-1-8-hopper-ducts-mod
