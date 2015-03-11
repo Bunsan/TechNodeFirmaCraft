@@ -337,11 +337,15 @@ craftingToolHardChisel.add(<terrafirmacraft:item.Blue Steel Chisel>);
 craftingToolHardChisel.add(<terrafirmacraft:item.Red Steel Chisel>);
 
 //# SAWS
-val craftingToolSaw = <ore:craftingToolSaw>;
-craftingToolSaw.add(<terrafirmacraft:item.Steel Saw>);
-craftingToolSaw.add(<terrafirmacraft:item.Black Steel Saw>);
-craftingToolSaw.add(<terrafirmacraft:item.Blue Steel Saw>);
-craftingToolSaw.add(<terrafirmacraft:item.Red Steel Saw>);
+val craftingToolMediumSaw = <ore:craftingToolMediumSaw>;
+craftingToolMediumSaw.add(<terrafirmacraft:item.Steel Saw>);
+craftingToolMediumSaw.add(<terrafirmacraft:item.Black Steel Saw>);
+craftingToolMediumSaw.add(<terrafirmacraft:item.Blue Steel Saw>);
+craftingToolMediumSaw.add(<terrafirmacraft:item.Red Steel Saw>);
+
+val craftingToolHardSaw = <ore:craftingToolHardSaw>;
+craftingToolHardSaw.add(<terrafirmacraft:item.Blue Steel Saw>);
+craftingToolHardSaw.add(<terrafirmacraft:item.Red Steel Saw>);
 
 //# MODIFYING Ore Dictionary for RAILCRAFT
 val gearGold = <ore:gearGold>;
