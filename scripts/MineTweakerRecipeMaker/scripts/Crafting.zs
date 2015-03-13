@@ -8,6 +8,8 @@
 //     They indicate where calls should be placed, so that MineTweaker does them in the correct order.
 //     Removes come first, then stuff is added.
 // ================================================================================
+import minetweaker.item.IItemStack;
+
 //# ORE DICTIONARY
 
 //# VANILLA Stuffs
@@ -387,6 +389,8 @@ pressureChamber.add(<PneumaticCraft:pressureChamberWall>);
 // ================================================================================
 //#MARKER REMOVE
 
+
+
 //# FURNACE
 	furnace.remove(<minecraft:iron_ingot>, <Mekanism:Dust>);
 	furnace.remove(<minecraft:gold_ingot>, <Mekanism:Dust:1>);
@@ -396,6 +400,7 @@ pressureChamber.add(<PneumaticCraft:pressureChamberWall>);
 	furnace.remove(<Railcraft:ingot:3>, <Mekanism:Dust:9>);
 
 //# VANILLA
+	recipes.remove(<minecraft:shears>);
 	recipes.remove(<minecraft:emerald_block>);
 	recipes.remove(<minecraft:tnt>);
 	recipes.remove(<minecraft:torch>);
