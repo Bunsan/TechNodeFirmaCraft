@@ -104,6 +104,10 @@ val fenceGate = <ore:fenceGate>;
 fenceGate.add(<minecraft:fence_gate>);
 fenceGate.add(<terrafirmacraft:FenceGate:*>);
 
+val fenceWood = <ore:fenceWood>;
+fenceWood.add(<terrafirmacraft:Fence:*>);
+fenceWood.add(<minecraft:fence>);
+
 <ore:slabWood>.addAll(<ore:woodLumber>);
 
 val blockGravel = <ore:blockGravel>;
@@ -339,6 +343,13 @@ craftingToolHardChisel.add(<terrafirmacraft:item.Blue Steel Chisel>);
 craftingToolHardChisel.add(<terrafirmacraft:item.Red Steel Chisel>);
 
 //# SAWS
+val craftingToolSaw = <ore:craftingToolSaw>;
+craftingToolSaw.add(<terrafirmacraft:item.Wrought Iron Saw>);
+craftingToolSaw.add(<terrafirmacraft:item.Steel Saw>);
+craftingToolSaw.add(<terrafirmacraft:item.Black Steel Saw>);
+craftingToolSaw.add(<terrafirmacraft:item.Blue Steel Saw>);
+craftingToolSaw.add(<terrafirmacraft:item.Red Steel Saw>);
+
 val craftingToolMediumSaw = <ore:craftingToolMediumSaw>;
 craftingToolMediumSaw.add(<terrafirmacraft:item.Steel Saw>);
 craftingToolMediumSaw.add(<terrafirmacraft:item.Black Steel Saw>);
@@ -388,8 +399,6 @@ pressureChamber.add(<PneumaticCraft:pressureChamberWall>);
 
 // ================================================================================
 //#MARKER REMOVE
-
-
 
 //# FURNACE
 	furnace.remove(<minecraft:iron_ingot>, <Mekanism:Dust>);

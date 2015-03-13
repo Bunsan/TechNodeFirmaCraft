@@ -1,5 +1,6 @@
 List of Mods in Current Build
 
+Jabba-1.2.1a_1.7.10.jar
 BetterStorage-1.7.10-0.12.0.124.jar
 [1.7.10]DamageIndicatorsMod-3.2.3.jar http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286538-hit-splat-damage-indicators-v3-3-2-rpg-ui-and
 [1.7.10]Decorations-1.0.15.jar http://darkagecraft.com/showthread.php?tid=215
