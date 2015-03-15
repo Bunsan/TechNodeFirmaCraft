@@ -2,6 +2,7 @@ List of Mods in Current Build
 
 Required
 
+WR-CBE-1.7.10-1.4.1.9-universal.jar
 Ropes+ 1.6.4 (version not MC version)
 RPG Adv Mod 1.0.0
 SoundFilters 0.8

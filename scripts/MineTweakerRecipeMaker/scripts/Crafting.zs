@@ -399,7 +399,6 @@ pressureChamber.add(<PneumaticCraft:pressureChamberWall>);
 
 // ================================================================================
 //#MARKER REMOVE
-
 //# FURNACE
 	furnace.remove(<minecraft:iron_ingot>, <Mekanism:Dust>);
 	furnace.remove(<minecraft:gold_ingot>, <Mekanism:Dust:1>);
@@ -445,6 +444,20 @@ pressureChamber.add(<PneumaticCraft:pressureChamberWall>);
 	recipes.remove(<terrafirmacraft:item.Ink>);
 //# FLAT SIGNS
 	recipes.remove(<FlatSigns:item.sponge.wipe>);
+//# WR-CBE
+	recipes.remove(<WR-CBE|Core:recieverDish>);
+	recipes.remove(<WR-CBE|Core:obsidianStick>);
+	recipes.remove(<WR-CBE|Core:stoneBowl>);
+	recipes.remove(<WR-CBE|Addons:triangulator>);
+	recipes.remove(<WR-CBE|Logic:wirelessLogic:2>);
+	recipes.remove(<WR-CBE|Core:blazeTransceiver>);
+	recipes.remove(<WR-CBE|Core:blazeRecieverDish>);
+	recipes.remove(<WR-CBE|Addons:psniffer>);
+	recipes.remove(<WR-CBE|Addons:empty_map>);
+	recipes.remove(<WR-CBE|Addons:sniffer>);
+	recipes.remove(<WR-CBE|Addons:rep>);
+	recipes.remove(<WR-CBE|Addons:tracker>);
+	recipes.remove(<WR-CBE|Addons:map>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -596,6 +609,10 @@ recipes.addShapeless(<terrafirmacraft:item.Ink> * 16, [<ore:dyeBlack>, <ore:item
 //# FLAT SIGNS
 	recipes.addShapeless(<FlatSigns:item.sponge.wipe>, [<ore:materialCloth>, <terrafirmacraft:item.Wooden Bucket Water>]);
 
+//# WR-CBE
+		for item in <ore:craftingToolHardChisel>.items {
+	recipes.addShapeless(<WR-CBE|Core:obsidianStick> * 4, [<ore:obsidian>, item.anyDamage().transformDamage(3), <ore:itemHammer>.reuse()]);
+		}
 //# TFC ADDITIONS
 //# Bronze intermod conversion
 	recipes.addShapeless(<terrafirmacraft:item.Bronze Ingot>, [<ore:ingotBronze>]);
@@ -766,4 +783,6 @@ recipes.addShapeless(<terrafirmacraft:item.Ink> * 16, [<ore:dyeBlack>, <ore:item
 	recipes.addShaped(<terrafirmacraft:item.Copper Ingot>, [[<Railcraft:nugget:2>, <Railcraft:nugget:2>, <Railcraft:nugget:2>], [<Railcraft:nugget:2>, <Railcraft:nugget:2>, <Railcraft:nugget:2>], [<Railcraft:nugget:2>, <Railcraft:nugget:2>, <Railcraft:nugget:2>]]);
 	recipes.addShaped(<terrafirmacraft:item.Lead Ingot>, [[<Railcraft:nugget:4>, <Railcraft:nugget:4>, <Railcraft:nugget:4>], [<Railcraft:nugget:4>, <Railcraft:nugget:4>, <Railcraft:nugget:4>], [<Railcraft:nugget:4>, <Railcraft:nugget:4>, <Railcraft:nugget:4>]]);
 
+//# WR-CBE
+	recipes.addShaped(<WR-CBE|Core:recieverDish>, [[<WR-CBE|Core:wirelessTransceiver>], [<terrafirmacraft:item.GoldPan>]]);
 // ================================================================================

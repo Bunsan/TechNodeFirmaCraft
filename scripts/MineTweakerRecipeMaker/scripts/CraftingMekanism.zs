@@ -205,7 +205,26 @@
 // ================================================================================
 //# Custom Machine Recipes
 
-//# MEKANISM ADD MACHINE RECIPES
+//# Remove Machine Recipes
+//# Combiner Recipes
+	mods.mekanism.Combiner.removeRecipe(<minecraft:iron_ore>);
+	mods.mekanism.Combiner.removeRecipe(<minecraft:gold_ore>);
+	mods.mekanism.Combiner.removeRecipe(<minecraft:lapis_ore>);
+	mods.mekanism.Combiner.removeRecipe(<minecraft:redstone_ore>);
+	mods.mekanism.Combiner.removeRecipe(<Mekanism:OreBlock:1>);
+	mods.mekanism.Combiner.removeRecipe(<Mekanism:OreBlock:2>);
+	mods.mekanism.Combiner.removeRecipe(<minecraft:obsidian>);
+
+//# Metallurgic Infuser
+//OutputStack
+	//mods.mekanism.Infuser.removeRecipe(<minecraft:mossy_cobblestone>);
+
+//# Compressor
+//OutputStack
+	//mods.mekanism.Compressor.removeRecipe(<Mekanism:Ingot:3>);
+
+//# Add Machine Recipes
+
 //Enrichment Chamber
 	mods.mekanism.Enrichment.addRecipe(<terrafirmacraft:item.Ore:25>, <Mekanism:Dust:2> * 2);
 	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0>, <Mekanism:Dust:6> * 2);
@@ -310,14 +329,6 @@
 		for item in <ore:bagSeed>.items {
 	mods.mekanism.Crusher.addRecipe(item, <Mekanism:BioFuel> * 4);
 		}
-//# REMOVE all Combiner Recipes
-	mods.mekanism.Combiner.removeRecipe(<minecraft:iron_ore>);
-	mods.mekanism.Combiner.removeRecipe(<minecraft:gold_ore>);
-	mods.mekanism.Combiner.removeRecipe(<minecraft:lapis_ore>);
-	mods.mekanism.Combiner.removeRecipe(<minecraft:redstone_ore>);
-	mods.mekanism.Combiner.removeRecipe(<Mekanism:OreBlock:1>);
-	mods.mekanism.Combiner.removeRecipe(<Mekanism:OreBlock:2>);
-	mods.mekanism.Combiner.removeRecipe(<minecraft:obsidian>);
 //Chemical Washer
 //InputGas, OutputGas
 	mods.mekanism.chemical.Washer.addRecipe(<gas:Zinc>, <gas:cleanZinc>);
@@ -339,8 +350,6 @@
 		}
 	mods.mekanism.Infuser.addRecipe("CARBON", 50, <terrafirmacraft:item.Wrought Iron Ingot>, <Mekanism:EnrichedIron>);
 	mods.mekanism.Infuser.addRecipe("REDSTONE", 10, <terrafirmacraft:item.Steel Ingot>, <Mekanism:EnrichedAlloy>);
-//OutputStack
-	//mods.mekanism.Infuser.removeRecipe(<minecraft:mossy_cobblestone>);
 
 //Compressor
 //InputStack, OutputStack
@@ -351,5 +360,3 @@
 	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Blue Steel Ingot>, <terrafirmacraft:item.Blue Steel Double Ingot>);
 	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Red Steel Ingot>, <terrafirmacraft:item.Red Steel Double Ingot>);
 
-//OutputStack
-//mods.mekanism.Compressor.removeRecipe(<Mekanism:Ingot:3>);
