@@ -2,6 +2,9 @@ List of Mods in Current Build
 
 Required
 
+Ropes+ 1.6.4 (version not MC version)
+RPG Adv Mod 1.0.0
+SoundFilters 0.8
 Jabba-1.2.1a_1.7.10.jar
 BetterStorage-1.7.10-0.12.0.124.jar
 [1.7.10]Decorations-1.0.15.jar http://darkagecraft.com/showthread.php?tid=215
