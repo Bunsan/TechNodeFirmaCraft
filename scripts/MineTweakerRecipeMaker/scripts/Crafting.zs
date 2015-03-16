@@ -751,6 +751,9 @@ recipes.addShapeless(<terrafirmacraft:item.Ink> * 16, [<ore:dyeBlack>, <ore:item
 //# Recipe for vanilla bottles
 	recipes.addShaped(<minecraft:glass_bottle> * 3, [[<ore:blockGlassColorless>, <terrafirmacraft:item.Red Steel Bucket Empty>.giveBack(), <ore:blockGlassColorless>], [null, <ore:blockGlassColorless>, null]]);
 
+//# Flower Pot
+	recipes.addShaped(<minecraft:flower_pot>, [[<ore:ingotBrick>, null, <ore:ingotBrick>], [null, <ore:ingotBrick>, null]]);
+
 //# Comparator Recipe with Jet
 	recipes.addShaped(<minecraft:comparator>, [[null, <minecraft:redstone_torch>, null], [<minecraft:redstone_torch>, <ore:oreJet>, <minecraft:redstone_torch>], [<ore:stone>, <ore:stone>, <ore:stone>]]);
 

@@ -223,6 +223,11 @@
 //OutputStack
 	//mods.mekanism.Compressor.removeRecipe(<Mekanism:Ingot:3>);
 
+//# Chemical Oxidizer
+//OutputGas
+	mods.mekanism.chemical.Oxidizer.removeRecipe(<gas:brine>);
+	mods.mekanism.chemical.Oxidizer.removeRecipe(<gas:brine>);
+
 //# Add Machine Recipes
 
 //Enrichment Chamber
@@ -359,4 +364,9 @@
 	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <terrafirmacraft:item.Black Steel Double Ingot>);
 	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Blue Steel Ingot>, <terrafirmacraft:item.Blue Steel Double Ingot>);
 	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Red Steel Ingot>, <terrafirmacraft:item.Red Steel Double Ingot>);
+
+//Chemical Oxidizer
+//InputStack, OutputGas
+//mods.mekanism.chemical.Oxidizer.addRecipe(<minecraft:coal>, <gas:hydrogen>);
+
 
