@@ -13,6 +13,10 @@ import minetweaker.item.IItemStack;
 // ================================================================================
 //#MARKER REMOVE
 
+	recipes.remove(<BiblioCraft:item.FramingSaw>);
+	recipes.remove(<BiblioCraft:item.FramingBoard>);
+	recipes.remove(<BiblioCraft:item.FramingSheet>);
+	recipes.remove(<BiblioCraft:BiblioPaneler:6>);
 	recipes.remove(<BiblioCraft:item.BiblioMapTool>);
 	recipes.remove(<BiblioCraft:item.BiblioWayPointCompass>);
 	recipes.remove(<BiblioCraft:BiblioStuffs>);
@@ -48,11 +52,19 @@ import minetweaker.item.IItemStack;
 // ================================================================================
 //#MARKER ADD SHAPELESS
 
+	recipes.addShapeless(<BiblioCraft:item.FramingSheet> * 4, [<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>, <ore:itemSaw>.transformDamage()]);
+	recipes.addShapeless(<BiblioCraft:item.FramingBoard> * 2, [<BiblioCraft:item.FramingSheet>, <ore:itemSaw>.transformDamage()]);
 //# Plate
 	recipes.addShapeless(<BiblioCraft:BiblioStuffs:2>, [<terrafirmacraft:item.GoldPan>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+
+
+	recipes.addShaped(<BiblioCraft:BiblioPaneler:6>, [[<ore:plateAnyBronze>, <terrafirmacraft:item.Bismuth Bronze Saw>, <ore:plateAnyBronze>], [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>], [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+	recipes.addShaped(<BiblioCraft:BiblioPaneler:6>, [[<ore:plateAnyBronze>, <terrafirmacraft:item.Black Bronze Saw>, <ore:plateAnyBronze>], [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>], [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+	recipes.addShaped(<BiblioCraft:BiblioPaneler:6>, [[<ore:plateAnyBronze>, <terrafirmacraft:item.Bronze Saw>, <ore:plateAnyBronze>], [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>], [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
 
 //# Typewriters
 	var blockHardClay = [<minecraft:stained_hardened_clay:0>, <minecraft:stained_hardened_clay:8>, <minecraft:stained_hardened_clay:7>,<minecraft:stained_hardened_clay:15>,<minecraft:stained_hardened_clay:14>,<minecraft:stained_hardened_clay:1>,<minecraft:stained_hardened_clay:4>,<minecraft:stained_hardened_clay:5>,<minecraft:stained_hardened_clay:13>,<minecraft:stained_hardened_clay:9>,<minecraft:stained_hardened_clay:3>,<minecraft:stained_hardened_clay:11>,<minecraft:stained_hardened_clay:10>,<minecraft:stained_hardened_clay:2>,<minecraft:stained_hardened_clay:6>,<minecraft:stained_hardened_clay:12>] as IItemStack[];
