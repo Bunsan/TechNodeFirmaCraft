@@ -399,6 +399,7 @@ pressureChamber.add(<PneumaticCraft:pressureChamberWall>);
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<HardcoreQuesting:item_barrel>);
 //# FURNACE
 	furnace.remove(<minecraft:iron_ingot>, <Mekanism:Dust>);
 	furnace.remove(<minecraft:gold_ingot>, <Mekanism:Dust:1>);
@@ -523,6 +524,7 @@ pressureChamber.add(<PneumaticCraft:pressureChamberWall>);
 	furnace.addRecipe(<terrafirmacraft:item.ClayBowl:1>, <terrafirmacraft:item.ClayBowl>);
 	furnace.addRecipe(<terrafirmacraft:Vessel:1>, <terrafirmacraft:Vessel>);
 	furnace.addRecipe(<terrafirmacraft:item.Fire Brick:1>, <terrafirmacraft:item.Fire Brick>);
+	furnace.addRecipe(<Forestry:canLava>, <Forestry:canSeedOil>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
@@ -745,6 +747,7 @@ recipes.addShapeless(<terrafirmacraft:item.Ink> * 16, [<ore:dyeBlack>, <ore:item
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<HardcoreQuesting:item_barrel>, [[<ore:plankWood>, <ore:blockGlassColorless>, <ore:plankWood>], [<ore:blockGlassColorless>, <HardcoreQuesting:quest_book>, <ore:blockGlassColorless>], [<ore:plankWood>, <ore:blockGlassColorless>, <ore:plankWood>]]);
 
 //# VANILLA+ TO TFC
 
