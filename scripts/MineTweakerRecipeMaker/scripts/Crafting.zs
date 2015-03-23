@@ -540,6 +540,9 @@ recipes.remove(<HardcoreQuesting:item_barrel>);
 //# Convert petrified wood to Netherrack
 	recipes.addShapeless(<minecraft:netherrack>, [<terrafirmacraft:item.Ore:22>]);
 
+//# Craft End Stone
+	recipes.addShapeless(<minecraft:end_stone>, [<ore:stoneRaw>, <minecraft:ender_pearl>]);
+
 //# REPLACE Ingot to Nugget recipe with TFC ingot
 	recipes.addShapeless(<Railcraft:nugget:4> * 9, [<ore:ingotLead>]);
 	recipes.addShapeless(<Railcraft:nugget:3> * 9, [<ore:ingotTin>]);
