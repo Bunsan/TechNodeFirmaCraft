@@ -750,6 +750,7 @@ recipes.addShapeless(<terrafirmacraft:item.Ink> * 16, [<ore:dyeBlack>, <ore:item
 
 // ================================================================================
 //#MARKER ADD SHAPED
+
 recipes.addShaped(<HardcoreQuesting:item_barrel>, [[<ore:plankWood>, <ore:blockGlassColorless>, <ore:plankWood>], [<ore:blockGlassColorless>, <HardcoreQuesting:quest_book>, <ore:blockGlassColorless>], [<ore:plankWood>, <ore:blockGlassColorless>, <ore:plankWood>]]);
 
 //# VANILLA+ TO TFC
@@ -775,8 +776,12 @@ recipes.addShaped(<HardcoreQuesting:item_barrel>, [[<ore:plankWood>, <ore:blockG
 //# Glowstone/Scapolite block recipe
 	recipes.addShaped(<minecraft:glowstone>, [[<ore:dustGlowstone>, <ore:dustGlowstone>], [<ore:dustGlowstone>, <ore:dustGlowstone>], [<terrafirmacraft:item.Red Steel Bucket Water>, null]]);
 
-//# Changing Quartz to Jet Block
-	recipes.addShaped(<minecraft:quartz_block>, [[<ore:oreJet>, <ore:oreJet>], [<ore:oreJet>, <ore:oreJet>]]);
+//# Adding Jet Block
+	recipes.addShaped(<customitems:block_of_jet>, [[<ore:oreJet>, <ore:oreJet>], [<ore:oreJet>, <ore:oreJet>]]);
+	recipes.addShaped(<customitems:slab_of_jet> * 6, [[<customitems:block_of_jet>, <customitems:block_of_jet>, <customitems:block_of_jet>]]);
+	recipes.addShaped(<customitems:chiseled_block_of_jet>, [[<customitems:slab_of_jet>], [<customitems:slab_of_jet>]]);
+	recipes.addShaped(<customitems:pillar_of_jet> * 2, [[<customitems:block_of_jet>], [<customitems:block_of_jet>]]);
+	recipes.addShaped(<customitems:jet_stairs> * 4, [[<customitems:block_of_jet>, null, null], [<customitems:block_of_jet>, <customitems:block_of_jet>, null], [<customitems:block_of_jet>,<customitems:block_of_jet>,<customitems:block_of_jet>]]);
 
 //# Replace Ore and Mineral Blocks
 	recipes.addShaped(<minecraft:iron_block>, [[null, <ore:plateIron>, null], [<ore:plateIron>, <ore:craftingToolMediumHammer>, <ore:plateIron>], [null, <ore:plateIron>, null]]);
