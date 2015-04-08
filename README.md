@@ -8,7 +8,7 @@ This pack is published on ATLauncher as semi public pack, PackCode: TechNode. Th
 Know Issues.
 - Piping into chests ignores item restriction based on size.
 - No vanilla trees for tree breeding (available from HQM)
-- No Nether or End so no Nether or End worldgen bee hives, the bees can be crafted, check NEI.
+- No Nether or End so no Nether or End worldgen bee hives, the bees can be crafted, check NEI. Some are available via HQM as well.
 - Some flowers for bees (logged issue with Forestry about adding different flower types in flowers config.) These flowers are available as a craft, be aware vanilla cactus must be planted in a vanilla flowerpot.
 - All TFC biomes are Normal/Normal or Normal/Cold (high altitudes). You can craft bees to give them temperature and humidity tolerance to compensate.
 - Other dimensions are a no go (Nether is map destroying and the End does not exist)
