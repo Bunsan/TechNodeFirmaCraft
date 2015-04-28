@@ -9,6 +9,8 @@
 //     Removes come first, then stuff is added.
 // ================================================================================
 //#  FORESTRY SCRIPTS
+import minetweaker.item.IItemStack;
+import minetweaker.data.IData;
 // ================================================================================
 //#MARKER REMOVE
 
@@ -52,6 +54,18 @@
 	recipes.remove(<Forestry:lepidopterology>);
 	recipes.remove(<Forestry:arboriculture>);
 	recipes.remove(<Forestry:apiculture:1>);
+	recipes.remove(<Forestry:planks:*>);
+	recipes.remove(<Forestry:planks2:*>);
+	recipes.remove(<minecraft:planks:*>);
+	recipes.remove(<Forestry:fireproofPlanks1:*>);
+	recipes.remove(<Forestry:fireproofPlanks2:*>);
+	recipes.remove(<minecraft:wooden_slab:*>);
+	recipes.remove(<Forestry:slabs1:*>);
+	recipes.remove(<Forestry:slabs2:*>);
+	recipes.remove(<Forestry:slabs3:*>);
+	recipes.remove(<Forestry:slabs4:*>);
+	recipes.remove(<Forestry:stairs>);
+	
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -134,6 +148,29 @@
 
 	recipes.addShaped(<Forestry:beeDroneGE>.withTag({MaxH: 30, Health: 30, IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesTropical", UID0: "forestry.speciesTropical", Slot: 0 as byte}, {UID1: "forestry.speedSlower", UID0: "forestry.speedSlower", Slot: 1 as byte}, {UID1: "forestry.lifespanShort", UID0: "forestry.lifespanShort", Slot: 2 as byte}, {UID1: "forestry.fertilityNormal", UID0: "forestry.fertilityNormal", Slot: 3 as byte}, {UID1: "forestry.toleranceBoth5", UID0: "forestry.toleranceBoth5", Slot: 4 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 5 as byte}, {UID1: "forestry.toleranceBoth5", UID0: "forestry.toleranceBoth5", Slot: 7 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 8 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 9 as byte}, {UID1: "forestry.flowersJungle", UID0: "forestry.flowersJungle", Slot: 10 as byte}, {UID1: "forestry.floweringSlowest", UID0: "forestry.floweringSlowest", Slot: 11 as byte}, {UID1: "forestry.territoryDefault", UID0: "forestry.territoryDefault", Slot: 12 as byte}, {UID1: "forestry.effectMiasmic", UID0: "forestry.effectMiasmic", Slot: 13 as byte}]}}), [[<ore:oreUranium>, <terrafirmacraft:item.Log:15>, <ore:oreUranium>], [<terrafirmacraft:item.Log:15>, <Forestry:beeDroneGE>, <terrafirmacraft:item.Log:15>], [<ore:oreUranium>, <terrafirmacraft:item.Log:15>, <ore:oreUranium>]]);
 	recipes.addShaped(<Forestry:beePrincessGE>.withTag({MaxH: 30, Health: 30, IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesTropical", UID0: "forestry.speciesTropical", Slot: 0 as byte}, {UID1: "forestry.speedSlower", UID0: "forestry.speedSlower", Slot: 1 as byte}, {UID1: "forestry.lifespanShort", UID0: "forestry.lifespanShort", Slot: 2 as byte}, {UID1: "forestry.fertilityNormal", UID0: "forestry.fertilityNormal", Slot: 3 as byte}, {UID1: "forestry.toleranceBoth5", UID0: "forestry.toleranceBoth5", Slot: 4 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 5 as byte}, {UID1: "forestry.toleranceBoth5", UID0: "forestry.toleranceBoth5", Slot: 7 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 8 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 9 as byte}, {UID1: "forestry.flowersJungle", UID0: "forestry.flowersJungle", Slot: 10 as byte}, {UID1: "forestry.floweringSlowest", UID0: "forestry.floweringSlowest", Slot: 11 as byte}, {UID1: "forestry.territoryDefault", UID0: "forestry.territoryDefault", Slot: 12 as byte}, {UID1: "forestry.effectMiasmic", UID0: "forestry.effectMiasmic", Slot: 13 as byte}]}}), [[<ore:oreUranium>, <terrafirmacraft:item.Log:15>, <ore:oreUranium>], [<terrafirmacraft:item.Log:15>, <Forestry:beePrincessGE>, <terrafirmacraft:item.Log:15>], [<ore:oreUranium>, <terrafirmacraft:item.Log:15>, <ore:oreUranium>]]);
+
+
+	var blockRawLogs = [<minecraft:log>, <minecraft:log:1>, <minecraft:log:2>, <minecraft:log:3>, <minecraft:log2:1>, <minecraft:log2:2>, <Forestry:log1>, <Forestry:log1:1>, <Forestry:log1:2>, <Forestry:log1:3>, <Forestry:log2>, <Forestry:log2:1>, <Forestry:log2:2>, <Forestry:log2:3>, <Forestry:log3>, <Forestry:log3:1>, <Forestry:log3:2>, <Forestry:log3:3>, <Forestry:log4>, <Forestry:log4:1>, <Forestry:log4:2>, <Forestry:log4:3>, <Forestry:log5>, <Forestry:log5:1>, <Forestry:log5:2>, <Forestry:log5:3>, <Forestry:log6>, <Forestry:log6:1>, <Forestry:log6:2>, <Forestry:log6:3>, <Forestry:log7>, <Forestry:log7:1>, <Forestry:log7:2>, <Forestry:log7:3>, <Forestry:log8>, <Forestry:fireproofLog1>, <Forestry:fireproofLog1:1>, <Forestry:fireproofLog1:2>, <Forestry:fireproofLog1:3>, <Forestry:fireproofLog2>, <Forestry:fireproofLog2:1>, <Forestry:fireproofLog2:2>, <Forestry:fireproofLog2:3>, <Forestry:fireproofLog3>, <Forestry:fireproofLog3:1>, <Forestry:fireproofLog3:2>, <Forestry:fireproofLog3:3>, <Forestry:fireproofLog4>, <Forestry:fireproofLog4:1>, <Forestry:fireproofLog4:2>, <Forestry:fireproofLog4:3>, <Forestry:fireproofLog5>, <Forestry:fireproofLog5:1>, <Forestry:fireproofLog5:2>, <Forestry:fireproofLog5:3>, <Forestry:fireproofLog6>, <Forestry:fireproofLog6:1>, <Forestry:fireproofLog6:2>, <Forestry:fireproofLog6:3>, <Forestry:fireproofLog7>, <Forestry:fireproofLog7:1>, <Forestry:fireproofLog7:2>, <Forestry:fireproofLog7:3>, <Forestry:fireproofLog8>] as IItemStack[];
+	var blockWoodPlanks = [<minecraft:planks>, <minecraft:planks:1>, <minecraft:planks:2>, <minecraft:planks:3>, <minecraft:planks:4>, <minecraft:planks:5>, <Forestry:planks>, <Forestry:planks:1>, <Forestry:planks:2>, <Forestry:planks:3>, <Forestry:planks:4>, <Forestry:planks:5>, <Forestry:planks:6>, <Forestry:planks:7>, <Forestry:planks:8>, <Forestry:planks:9>, <Forestry:planks:10>, <Forestry:planks:11>, <Forestry:planks:12>, <Forestry:planks:13>, <Forestry:planks:14>, <Forestry:planks:15>, <Forestry:planks2>, <Forestry:planks2:1>, <Forestry:planks2:2>, <Forestry:planks2:3>, <Forestry:planks2:4>, <Forestry:planks2:5>, <Forestry:planks2:6>, <Forestry:planks2:7>, <Forestry:planks2:8>, <Forestry:planks2:9>, <Forestry:planks2:10>, <Forestry:planks2:11>, <Forestry:planks2:12>, <Forestry:fireproofPlanks1>, <Forestry:fireproofPlanks1:1>, <Forestry:fireproofPlanks1:2>, <Forestry:fireproofPlanks1:3>, <Forestry:fireproofPlanks1:4>, <Forestry:fireproofPlanks1:5>, <Forestry:fireproofPlanks1:6>, <Forestry:fireproofPlanks1:7>, <Forestry:fireproofPlanks1:8>, <Forestry:fireproofPlanks1:9>, <Forestry:fireproofPlanks1:10>, <Forestry:fireproofPlanks1:11>, <Forestry:fireproofPlanks1:12>, <Forestry:fireproofPlanks1:13>, <Forestry:fireproofPlanks1:14>, <Forestry:fireproofPlanks1:15>, <Forestry:fireproofPlanks2>, <Forestry:fireproofPlanks2:1>, <Forestry:fireproofPlanks2:2>, <Forestry:fireproofPlanks2:3>, <Forestry:fireproofPlanks2:4>, <Forestry:fireproofPlanks2:5>, <Forestry:fireproofPlanks2:6>, <Forestry:fireproofPlanks2:7>, <Forestry:fireproofPlanks2:8>, <Forestry:fireproofPlanks2:9>, <Forestry:fireproofPlanks2:10>, <Forestry:fireproofPlanks2:11>, <Forestry:fireproofPlanks2:12>] as IItemStack[];
+		for i, rawLog in blockRawLogs {
+	var woodPlank = blockWoodPlanks[i];
+	recipes.addShapeless(woodPlank * 2, [rawLog, <ore:itemSaw>.transformDamage()]);
+}
+
+	var craftWoodPlanks = [<minecraft:planks>, <minecraft:planks:1>, <minecraft:planks:2>, <minecraft:planks:3>, <minecraft:planks:4>, <minecraft:planks:5>, <Forestry:planks>, <Forestry:planks:1>, <Forestry:planks:2>, <Forestry:planks:3>, <Forestry:planks:4>, <Forestry:planks:5>, <Forestry:planks:6>, <Forestry:planks:7>, <Forestry:planks:8>, <Forestry:planks:9>, <Forestry:planks:10>, <Forestry:planks:11>, <Forestry:planks:12>, <Forestry:planks:13>, <Forestry:planks:14>, <Forestry:planks:15>, <Forestry:planks2>, <Forestry:planks2:1>, <Forestry:planks2:2>, <Forestry:planks2:3>, <Forestry:planks2:4>, <Forestry:planks2:5>, <Forestry:planks2:6>, <Forestry:planks2:7>, <Forestry:planks2:8>, <Forestry:planks2:9>, <Forestry:planks2:10>, <Forestry:planks2:11>, <Forestry:planks2:12>] as IItemStack[];
+
+	var craftForestryWoodPlanks = [<Forestry:planks>, <Forestry:planks:1>, <Forestry:planks:2>, <Forestry:planks:3>, <Forestry:planks:4>, <Forestry:planks:5>, <Forestry:planks:6>, <Forestry:planks:7>, <Forestry:planks:8>, <Forestry:planks:9>, <Forestry:planks:10>, <Forestry:planks:11>, <Forestry:planks:12>, <Forestry:planks:13>, <Forestry:planks:14>, <Forestry:planks:15>, <Forestry:planks2>, <Forestry:planks2:1>, <Forestry:planks2:2>, <Forestry:planks2:3>, <Forestry:planks2:4>, <Forestry:planks2:5>, <Forestry:planks2:6>, <Forestry:planks2:7>, <Forestry:planks2:8>, <Forestry:planks2:9>, <Forestry:planks2:10>, <Forestry:planks2:11>, <Forestry:planks2:12>] as IItemStack[];
+
+	var blockWoodSlab = [<minecraft:wooden_slab>, <minecraft:wooden_slab:1>, <minecraft:wooden_slab:2>, <minecraft:wooden_slab:3>, <minecraft:wooden_slab:4>, <minecraft:wooden_slab:5>, <Forestry:slabs1>, <Forestry:slabs1:1>, <Forestry:slabs1:2>, <Forestry:slabs1:3>, <Forestry:slabs1:4>, <Forestry:slabs1:5>, <Forestry:slabs1:6>, <Forestry:slabs1:7>, <Forestry:slabs2>, <Forestry:slabs2:1>, <Forestry:slabs2:2>, <Forestry:slabs2:3>, <Forestry:slabs2:4>, <Forestry:slabs2:5>, <Forestry:slabs2:6>, <Forestry:slabs2:7>, <Forestry:slabs3>, <Forestry:slabs3:1>, <Forestry:slabs3:2>, <Forestry:slabs3:3>, <Forestry:slabs3:4>, <Forestry:slabs3:5>, <Forestry:slabs3:6>, <Forestry:slabs3:7>, <Forestry:slabs4>, <Forestry:slabs4:1>, <Forestry:slabs4:2>, <Forestry:slabs4:3>, <Forestry:slabs4:4>] as IItemStack[];
+	val blockWoodStair = [{WoodType: 0}, {WoodType: 1}, {WoodType: 2}, {WoodType: 3}, {WoodType: 4}, {WoodType: 5}, {WoodType: 6}, {WoodType: 7}, {WoodType: 8}, {WoodType: 9}, {WoodType: 10}, {WoodType: 11}, {WoodType: 12}, {WoodType: 13}, {WoodType: 14}, {WoodType: 15}, {WoodType: 16}, {WoodType: 17}, {WoodType: 18}, {WoodType: 19}, {WoodType: 20}, {WoodType: 21}, {WoodType: 22}, {WoodType: 23}, {WoodType: 24}, {WoodType: 25}, {WoodType: 26}, {WoodType: 27}, {WoodType: 28}] as IData[];
+		for i, craftPlank in craftWoodPlanks {
+	var woodSlab = blockWoodSlab[i];
+	recipes.addShaped(woodSlab * 6, [[null, <ore:itemSaw>.transformDamage(12), null], [craftPlank, craftPlank, craftPlank]]);
+}
+		for j, craftForestryPlank in craftForestryWoodPlanks {
+	var woodStair = <Forestry:stairs>.withTag(blockWoodStair[j]);
+	recipes.addShaped(woodStair * 6, [[craftForestryPlank, null, <ore:itemSaw>.transformDamage(12)], [craftForestryPlank, craftForestryPlank, null], [craftForestryPlank, craftForestryPlank, craftForestryPlank]]);
+}
 
 // ================================================================================
 //# Custom Machine Recipes

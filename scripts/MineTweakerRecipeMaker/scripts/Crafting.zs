@@ -399,7 +399,10 @@ pressureChamber.add(<PneumaticCraft:pressureChamberWall>);
 
 // ================================================================================
 //#MARKER REMOVE
-recipes.remove(<HardcoreQuesting:item_barrel>);
+recipes.remove(<ForgeMicroblock:sawDiamond>);
+recipes.remove(<ForgeMicroblock:sawIron>);
+recipes.remove(<ForgeMicroblock:sawStone>);
+
 //# FURNACE
 	furnace.remove(<minecraft:iron_ingot>, <Mekanism:Dust>);
 	furnace.remove(<minecraft:gold_ingot>, <Mekanism:Dust:1>);
@@ -528,6 +531,8 @@ recipes.remove(<HardcoreQuesting:item_barrel>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<ForgeMicroblock:sawDiamond>, [<terrafirmacraft:item.Black Steel Saw>]);
+recipes.addShapeless(<ForgeMicroblock:sawIron>, [<terrafirmacraft:item.Steel Saw>]);
 
 //# VANILLA+ TO TFC
 
@@ -750,7 +755,6 @@ recipes.addShapeless(<terrafirmacraft:item.Ink> * 16, [<ore:dyeBlack>, <ore:item
 
 // ================================================================================
 //#MARKER ADD SHAPED
-
 recipes.addShaped(<HardcoreQuesting:item_barrel>, [[<ore:plankWood>, <ore:blockGlassColorless>, <ore:plankWood>], [<ore:blockGlassColorless>, <HardcoreQuesting:quest_book>, <ore:blockGlassColorless>], [<ore:plankWood>, <ore:blockGlassColorless>, <ore:plankWood>]]);
 
 //# VANILLA+ TO TFC
@@ -770,18 +774,15 @@ recipes.addShaped(<HardcoreQuesting:item_barrel>, [[<ore:plankWood>, <ore:blockG
 //# Clay Block (not placeable) for Hardened Clay
 	recipes.addShaped(<TabulaRasa:RasaItem6>, [[<ore:lumpClay>, <ore:lumpClay>], [<ore:lumpClay>, <ore:lumpClay>]]);
 
+//# Stone Slabs
+
+	recipes.addShaped(<minecraft:stone_slab> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<ore:stone>, <ore:stone>, <ore:stone>]]);
+
 //# Hopper
 	recipes.addShaped(<minecraft:hopper>, [[null, <ore:craftingToolMediumHammer>, null], [<ore:plateIron>, <ore:craftingChest>, <ore:plateIron>], [null, <ore:plateIron>, null]]);
 
 //# Glowstone/Scapolite block recipe
 	recipes.addShaped(<minecraft:glowstone>, [[<ore:dustGlowstone>, <ore:dustGlowstone>], [<ore:dustGlowstone>, <ore:dustGlowstone>], [<terrafirmacraft:item.Red Steel Bucket Water>, null]]);
-
-//# Adding Jet Block
-	recipes.addShaped(<customitems:block_of_jet>, [[<ore:oreJet>, <ore:oreJet>], [<ore:oreJet>, <ore:oreJet>]]);
-	recipes.addShaped(<customitems:slab_of_jet> * 6, [[<customitems:block_of_jet>, <customitems:block_of_jet>, <customitems:block_of_jet>]]);
-	recipes.addShaped(<customitems:chiseled_block_of_jet>, [[<customitems:slab_of_jet>], [<customitems:slab_of_jet>]]);
-	recipes.addShaped(<customitems:pillar_of_jet> * 2, [[<customitems:block_of_jet>], [<customitems:block_of_jet>]]);
-	recipes.addShaped(<customitems:jet_stairs> * 4, [[<customitems:block_of_jet>, null, null], [<customitems:block_of_jet>, <customitems:block_of_jet>, null], [<customitems:block_of_jet>,<customitems:block_of_jet>,<customitems:block_of_jet>]]);
 
 //# Replace Ore and Mineral Blocks
 	recipes.addShaped(<minecraft:iron_block>, [[null, <ore:plateIron>, null], [<ore:plateIron>, <ore:craftingToolMediumHammer>, <ore:plateIron>], [null, <ore:plateIron>, null]]);

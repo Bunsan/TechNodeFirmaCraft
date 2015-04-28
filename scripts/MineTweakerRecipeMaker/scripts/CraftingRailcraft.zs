@@ -13,6 +13,14 @@
 // ================================================================================
 //#MARKER REMOVE
 
+//# Stairs
+	recipes.remove(<Railcraft:stair:*>);
+	recipes.remove(<minecraft:nether_brick_stairs>);
+
+//# Slab
+	recipes.remove(<Railcraft:slab:*>);
+	recipes.remove(<minecraft:stone_slab:6>);
+
 //# REMOVAL of Non-TFC ingots to nugget recipes to clean up NEI
 	recipes.remove(<Railcraft:nugget:4>);
 	recipes.remove(<Railcraft:nugget:3>);
@@ -29,6 +37,29 @@
 	recipes.remove(<Railcraft:brick.bleachedbone:1>);
 	recipes.remove(<Railcraft:brick.bloodstained:1>);
 	recipes.remove(<Railcraft:brick.nether:1>);
+
+//#Remove Ornate (circles) Recipe
+	recipes.remove(<Railcraft:brick.infernal:3>);
+	recipes.remove(<Railcraft:brick.abyssal:3>);
+	recipes.remove(<Railcraft:brick.sandy:3>);
+	recipes.remove(<Railcraft:brick.frostbound:3>);
+	recipes.remove(<Railcraft:brick.quarried:3>);
+	recipes.remove(<Railcraft:brick.bleachedbone:3>);
+	recipes.remove(<Railcraft:brick.bloodstained:3>);
+	recipes.remove(<Railcraft:brick.nether:3>);
+
+//#Remove Extra Brick Recipes
+	recipes.remove(<minecraft:nether_brick>);
+	recipes.remove(<Railcraft:brick.bloodstained>);
+	recipes.remove(<Railcraft:brick.bleachedbone>);
+	recipes.remove(<Railcraft:brick.quarried>);
+	recipes.remove(<Railcraft:brick.frostbound>);
+	recipes.remove(<Railcraft:brick.sandy>);
+	recipes.remove(<Railcraft:brick.abyssal>);
+	recipes.remove(<Railcraft:brick.infernal>);
+	recipes.remove(<minecraft:stone_slab>);
+	recipes.remove(<HardcoreQuesting:item_barrel>);
+
 //# Metal Blocks
 	recipes.remove(<Railcraft:cube:9>);
 	recipes.remove(<Railcraft:cube:2>);
@@ -143,35 +174,44 @@
 	recipes.addShapeless(<Railcraft:part.rail:2> * 6, [<Railcraft:part.tie>, <ore:ingotIron>]);
 //# Aesthetic Blocks
 //# Convert Cobble to Block
-	recipes.addShapeless(<Railcraft:brick.infernal:2>, [<Railcraft:brick.infernal:5>]);
-	recipes.addShapeless(<Railcraft:brick.abyssal:2>, [<Railcraft:brick.abyssal:5>]);
-	recipes.addShapeless(<Railcraft:brick.sandy:2>, [<Railcraft:brick.sandy:5>]);
-	recipes.addShapeless(<Railcraft:brick.frostbound:2>, [<Railcraft:brick.frostbound:5>]);
-	recipes.addShapeless(<Railcraft:brick.quarried:2>, [<Railcraft:brick.quarried:5>]);
-	recipes.addShapeless(<Railcraft:brick.bleachedbone:2>, [<Railcraft:brick.bleachedbone:5>]);
-	recipes.addShapeless(<Railcraft:brick.bloodstained:2>, [<Railcraft:brick.bloodstained:5>]);
-	recipes.addShapeless(<Railcraft:brick.nether:2>, [<Railcraft:brick.nether:5>]);
+	recipes.addShapeless(<Railcraft:brick.infernal:2>, [<terrafirmacraft:item.Mortar>, <Railcraft:brick.infernal:5>]);
+	recipes.addShapeless(<Railcraft:brick.abyssal:2>, [<terrafirmacraft:item.Mortar>, <Railcraft:brick.abyssal:5>]);
+	recipes.addShapeless(<Railcraft:brick.sandy:2>, [<terrafirmacraft:item.Mortar>, <Railcraft:brick.sandy:5>]);
+	recipes.addShapeless(<Railcraft:brick.frostbound:2>, [<terrafirmacraft:item.Mortar>, <Railcraft:brick.frostbound:5>]);
+	recipes.addShapeless(<Railcraft:brick.quarried:2>, [<terrafirmacraft:item.Mortar>, <Railcraft:brick.quarried:5>]);
+	recipes.addShapeless(<Railcraft:brick.bleachedbone:2>, [<terrafirmacraft:item.Mortar>, <Railcraft:brick.bleachedbone:5>]);
+	recipes.addShapeless(<Railcraft:brick.bloodstained:2>, [<terrafirmacraft:item.Mortar>, <Railcraft:brick.bloodstained:5>]);
+	recipes.addShapeless(<Railcraft:brick.nether:2>, [<terrafirmacraft:item.Mortar>, <Railcraft:brick.nether:5>]);
 //# Convert Block to Cobble
-	recipes.addShapeless(<Railcraft:brick.infernal:5>, [<Railcraft:brick.infernal:2>]);
-	recipes.addShapeless(<Railcraft:brick.abyssal:5>, [<Railcraft:brick.abyssal:2>]);
-	recipes.addShapeless(<Railcraft:brick.sandy:5>, [<Railcraft:brick.sandy:2>]);
-	recipes.addShapeless(<Railcraft:brick.frostbound:5>, [<Railcraft:brick.frostbound:2>]);
-	recipes.addShapeless(<Railcraft:brick.quarried:5>, [<Railcraft:brick.quarried:2>]);
-	recipes.addShapeless(<Railcraft:brick.bleachedbone:5>, [<Railcraft:brick.bleachedbone:2>]);
-	recipes.addShapeless(<Railcraft:brick.bloodstained:5>, [<Railcraft:brick.bloodstained:2>]);
-	recipes.addShapeless(<Railcraft:brick.nether:5>, [<Railcraft:brick.nether:2>]);
+	recipes.addShapeless(<Railcraft:brick.infernal:5>, [<ore:itemHammer>.transformDamage(), <Railcraft:brick.infernal:2>]);
+	recipes.addShapeless(<Railcraft:brick.abyssal:5>, [<ore:itemHammer>.transformDamage(), <Railcraft:brick.abyssal:2>]);
+	recipes.addShapeless(<Railcraft:brick.sandy:5>, [<ore:itemHammer>.transformDamage(), <Railcraft:brick.sandy:2>]);
+	recipes.addShapeless(<Railcraft:brick.frostbound:5>, [<ore:itemHammer>.transformDamage(), <Railcraft:brick.frostbound:2>]);
+	recipes.addShapeless(<Railcraft:brick.quarried:5>, [<ore:itemHammer>.transformDamage(), <Railcraft:brick.quarried:2>]);
+	recipes.addShapeless(<Railcraft:brick.bleachedbone:5>, [<ore:itemHammer>.transformDamage(), <Railcraft:brick.bleachedbone:2>]);
+	recipes.addShapeless(<Railcraft:brick.bloodstained:5>, [<ore:itemHammer>.transformDamage(), <Railcraft:brick.bloodstained:2>]);
+	recipes.addShapeless(<Railcraft:brick.nether:5>, [<ore:itemHammer>.transformDamage(), <Railcraft:brick.nether:2>]);
 //# Convert Raw to Cobble
-	recipes.addShapeless(<Railcraft:brick.abyssal:5>, [<Railcraft:cube:6>]);
-	recipes.addShapeless(<Railcraft:brick.quarried:5>, [<Railcraft:cube:7>]);
-//# Convert RC Brick to Fitted
-	recipes.addShapeless(<Railcraft:brick.infernal:1>, [<Railcraft:brick.infernal>]);
-	recipes.addShapeless(<Railcraft:brick.abyssal:1>, [<Railcraft:brick.abyssal>]);
-	recipes.addShapeless(<Railcraft:brick.sandy:1>, [<Railcraft:brick.sandy>]);
-	recipes.addShapeless(<Railcraft:brick.frostbound:1>, [<Railcraft:brick.frostbound>]);
-	recipes.addShapeless(<Railcraft:brick.quarried:1>, [<Railcraft:brick.quarried>]);
-	recipes.addShapeless(<Railcraft:brick.bleachedbone:1>, [<Railcraft:brick.bleachedbone>]);
-	recipes.addShapeless(<Railcraft:brick.bloodstained:1>, [<Railcraft:brick.bloodstained>]);
-	recipes.addShapeless(<Railcraft:brick.nether:1>, [<minecraft:nether_brick>]);
+	recipes.addShapeless(<Railcraft:brick.abyssal:5>, [<ore:itemHammer>.transformDamage(), <Railcraft:cube:6>]);
+	recipes.addShapeless(<Railcraft:brick.quarried:5>, [<ore:itemHammer>.transformDamage(), <Railcraft:cube:7>]);
+//# Convert RC Fitted to Brick
+	recipes.addShapeless(<Railcraft:brick.infernal>, [<Railcraft:brick.infernal:1>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<Railcraft:brick.abyssal>, [<Railcraft:brick.abyssal:1>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<Railcraft:brick.sandy>, [<Railcraft:brick.sandy:1>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<Railcraft:brick.frostbound>, [<Railcraft:brick.frostbound:1>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<Railcraft:brick.quarried>, [<Railcraft:brick.quarried:1>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<Railcraft:brick.bleachedbone>, [<Railcraft:brick.bleachedbone:1>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<Railcraft:brick.bloodstained>, [<Railcraft:brick.bloodstained:1>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<minecraft:nether_brick>, [<Railcraft:brick.nether:1>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
+//# Convert RC Pavers to Circles
+	recipes.addShapeless(<Railcraft:brick.infernal:3>, [<Railcraft:brick.infernal:2>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<Railcraft:brick.abyssal:3>, [<Railcraft:brick.abyssal:2>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<Railcraft:brick.sandy:3>, [<Railcraft:brick.sandy:2>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<Railcraft:brick.frostbound:3>, [<Railcraft:brick.frostbound:2>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<Railcraft:brick.quarried:3>, [<Railcraft:brick.quarried:2>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<Railcraft:brick.bleachedbone:3>, [<Railcraft:brick.bleachedbone:2>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<Railcraft:brick.bloodstained:3>, [<Railcraft:brick.bloodstained:2>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<minecraft:nether_brick:3>, [<Railcraft:brick.nether:2>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
@@ -247,24 +287,8 @@
 	recipes.addShaped(<Railcraft:lantern.stone:5>, [[null, <Railcraft:brick.nether:2>, null], [<ore:paneGlassColorless>, <ore:basicLanternCore>, <ore:paneGlassColorless>], [null, <Railcraft:brick.nether:2>, null]]);
 	recipes.addShaped(<Railcraft:lantern.stone:8>, [[null, <terrafirmacraft:StoneSedSmooth:3>, null], [<ore:paneGlassColorless>, <ore:basicLanternCore>, <ore:paneGlassColorless>], [null, <terrafirmacraft:StoneSedSmooth:3>, null]]);
 	recipes.addShaped(<Railcraft:lantern.stone:9>, [[null, <minecraft:stone_slab>, null], [<ore:paneGlassColorless>, <ore:basicLanternCore>, <ore:paneGlassColorless>], [null, <minecraft:stone_slab>, null]]);
-//# Raw/Smooth Stone to Railcraft cobble/raw stone
-	recipes.addShaped(<Railcraft:brick.infernal:5> * 8, [[<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:dyeGray>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>]]);
-	recipes.addShaped(<Railcraft:cube:6> * 8, [[<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:dyeBlack>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>]]);
-	recipes.addShaped(<Railcraft:brick.sandy:5> * 8, [[<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:blockSand>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>]]);
-	recipes.addShaped(<Railcraft:brick.frostbound:5> * 8, [[<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:dyeBlue>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>]]);
-	recipes.addShaped(<Railcraft:cube:7> * 8, [[<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:dyeWhite>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>]]);
-	recipes.addShaped(<Railcraft:brick.bleachedbone:5> * 8, [[<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>], [<ore:stoneRaw>, <Railcraft:part.bleached.clay>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>]]);
-	recipes.addShaped(<Railcraft:brick.bloodstained:5> * 8, [[<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>], [<ore:stoneRaw>, <minecraft:rotten_flesh>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>]]);
-	recipes.addShaped(<Railcraft:brick.nether:5> * 8, [[<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneNetherrack>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>]]);
-//# Bricks to Railcraft Bricks
-	recipes.addShaped(<Railcraft:brick.infernal:1> * 8, [[<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:dyeGray>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);
-	recipes.addShaped(<Railcraft:brick.abyssal:1> * 8, [[<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:dyeBlack>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);
-	recipes.addShaped(<Railcraft:brick.sandy:1> * 8, [[<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:blockSand>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);
-	recipes.addShaped(<Railcraft:brick.frostbound:1> * 8, [[<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:dyeBlue>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);
-	recipes.addShaped(<Railcraft:brick.quarried:1> * 8, [[<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:dyeWhite>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);
-	recipes.addShaped(<Railcraft:brick.bleachedbone:1> * 8, [[<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<ore:stoneBricks>, <Railcraft:part.bleached.clay>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);
-	recipes.addShaped(<Railcraft:brick.bloodstained:1> * 8, [[<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<ore:stoneBricks>, <minecraft:rotten_flesh>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);
-	recipes.addShaped(<Railcraft:brick.nether:1> * 8, [[<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneNetherrack>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);
+
+
 //# Carts, Locomotive and Tunnel Bore Stuff
 	recipes.addShaped(<Railcraft:cart.loco.electric>, [[<minecraft:redstone_lamp>, <ore:plateSteel>, null], [<ore:plateSteel>, <Railcraft:machine.epsilon>, <ore:plateSteel>], [<Railcraft:part.gear:2>, <minecraft:minecart>, <Railcraft:part.gear:2>]]);
 	recipes.addShaped(<Railcraft:machine.epsilon>, [[<ore:plateTin>, <ore:ingotCopper>, <ore:plateTin>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<ore:plateTin>, <ore:ingotCopper>, <ore:plateTin>]]);
@@ -294,6 +318,135 @@
 	recipes.addShaped(<Railcraft:signal:2>, [[<ore:dyeRed>, <ore:dyeBlack>, <ore:dyeWhite>], [<ore:ingotIron>, <Railcraft:part.circuit:1>, <ore:craftingPiston>]]);
 	recipes.addShaped(<Railcraft:signal:4>, [[<ore:dyeRed>, <ore:dyeBlack>, <ore:dyeWhite>], [<ore:ingotIron>, <minecraft:lever>, <ore:craftingPiston>]]);
 	recipes.addShaped(<Railcraft:signal:4>, [[<ore:dyeRed>, <ore:dyeBlack>, <ore:dyeWhite>], [<ore:craftingPiston>, <minecraft:lever>, <ore:ingotIron>]]);
+
+//# ACETHETIC BLOCKS
+
+//# Raw/Smooth Stone to Railcraft cobble/raw stone
+	recipes.addShaped(<Railcraft:brick.infernal:5> * 8, [[<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:dyeGray>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>]]);
+	recipes.addShaped(<Railcraft:cube:6> * 8, [[<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:dyeBlack>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>]]);
+	recipes.addShaped(<Railcraft:brick.sandy:5> * 8, [[<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:blockSand>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>]]);
+	recipes.addShaped(<Railcraft:brick.frostbound:5> * 8, [[<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:dyeBlue>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>]]);
+	recipes.addShaped(<Railcraft:cube:7> * 8, [[<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:dyeWhite>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>]]);
+	recipes.addShaped(<Railcraft:brick.bleachedbone:5> * 8, [[<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>], [<ore:stoneRaw>, <Railcraft:part.bleached.clay>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>]]);
+	recipes.addShaped(<Railcraft:brick.bloodstained:5> * 8, [[<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>], [<ore:stoneRaw>, <minecraft:rotten_flesh>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>]]);
+	recipes.addShaped(<Railcraft:brick.nether:5> * 8, [[<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneNetherrack>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>]]);
+
+//# Readd nether brick recipe
+
+recipes.addShaped(<Railcraft:brick.nether:1>, [[<minecraft:netherbrick>, <terrafirmacraft:item.Mortar>, <minecraft:netherbrick>], [<terrafirmacraft:item.Mortar>, <minecraft:netherbrick>, <terrafirmacraft:item.Mortar>], [<minecraft:netherbrick>, <terrafirmacraft:item.Mortar>, <minecraft:netherbrick>]]);
+
+
+//# Bricks to Railcraft Bricks
+	recipes.addShaped(<Railcraft:brick.infernal:1> * 8, [[<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:dyeGray>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);
+	recipes.addShaped(<Railcraft:brick.abyssal:1> * 8, [[<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:dyeBlack>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);
+	recipes.addShaped(<Railcraft:brick.sandy:1> * 8, [[<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:blockSand>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);
+	recipes.addShaped(<Railcraft:brick.frostbound:1> * 8, [[<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:dyeBlue>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);
+	recipes.addShaped(<Railcraft:brick.quarried:1> * 8, [[<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:dyeWhite>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);
+	recipes.addShaped(<Railcraft:brick.bleachedbone:1> * 8, [[<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<ore:stoneBricks>, <Railcraft:part.bleached.clay>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);
+	recipes.addShaped(<Railcraft:brick.bloodstained:1> * 8, [[<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<ore:stoneBricks>, <minecraft:rotten_flesh>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);
+	recipes.addShaped(<Railcraft:brick.nether:1> * 8, [[<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneNetherrack>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);
+
+//# STAIRS
+
+	recipes.addShaped(<Railcraft:stair:1> * 6, [[<Railcraft:brick.infernal>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.infernal>, <Railcraft:brick.infernal>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.infernal>, <Railcraft:brick.infernal>, <Railcraft:brick.infernal>]]);
+	recipes.addShaped(<Railcraft:stair:15> * 6, [[<Railcraft:brick.infernal:1>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.infernal:1>, <Railcraft:brick.infernal:1>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.infernal:1>, <Railcraft:brick.infernal:1>, <Railcraft:brick.infernal:1>]]);
+	recipes.addShaped(<Railcraft:stair:23> * 6, [[<Railcraft:brick.infernal:2>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.infernal:2>, <Railcraft:brick.infernal:2>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.infernal:2>, <Railcraft:brick.infernal:2>, <Railcraft:brick.infernal:2>]]);
+	recipes.addShaped(<Railcraft:stair:31> * 6, [[<Railcraft:brick.infernal:5>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.infernal:5>, <Railcraft:brick.infernal:5>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.infernal:5>, <Railcraft:brick.infernal:5>, <Railcraft:brick.infernal:5>]]);
+
+	recipes.addShaped(<Railcraft:stair:13> * 6, [[<Railcraft:brick.abyssal>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.abyssal>, <Railcraft:brick.abyssal>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.abyssal>, <Railcraft:brick.abyssal>, <Railcraft:brick.abyssal>]]);
+	recipes.addShaped(<Railcraft:stair:20> * 6, [[<Railcraft:brick.abyssal:1>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.abyssal:1>, <Railcraft:brick.abyssal:1>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.abyssal:1>, <Railcraft:brick.abyssal:1>, <Railcraft:brick.abyssal:1>]]);
+	recipes.addShaped(<Railcraft:stair:28> * 6, [[<Railcraft:brick.abyssal:2>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.abyssal:2>, <Railcraft:brick.abyssal:2>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.abyssal:2>, <Railcraft:brick.abyssal:2>, <Railcraft:brick.abyssal:2>]]);
+	recipes.addShaped(<Railcraft:stair:36> * 6, [[<Railcraft:brick.abyssal:5>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.abyssal:5>, <Railcraft:brick.abyssal:5>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.abyssal:5>, <Railcraft:brick.abyssal:5>, <Railcraft:brick.abyssal:5>]]);
+
+	recipes.addShaped(<Railcraft:stair> * 6, [[<Railcraft:brick.sandy>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.sandy>, <Railcraft:brick.sandy>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.sandy>, <Railcraft:brick.sandy>, <Railcraft:brick.sandy>]]);
+	recipes.addShaped(<Railcraft:stair:14> * 6, [[<Railcraft:brick.sandy:1>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.sandy:1>, <Railcraft:brick.sandy:1>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.sandy:1>, <Railcraft:brick.sandy:1>, <Railcraft:brick.sandy:1>]]);
+	recipes.addShaped(<Railcraft:stair:22> * 6, [[<Railcraft:brick.sandy:2>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.sandy:2>, <Railcraft:brick.sandy:2>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.sandy:2>, <Railcraft:brick.sandy:2>, <Railcraft:brick.sandy:2>]]);
+	recipes.addShaped(<Railcraft:stair:30> * 6, [[<Railcraft:brick.sandy:5>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.sandy:5>, <Railcraft:brick.sandy:5>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.sandy:5>, <Railcraft:brick.sandy:5>, <Railcraft:brick.sandy:5>]]);
+
+	recipes.addShaped(<Railcraft:stair:9> * 6, [[<Railcraft:brick.frostbound>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.frostbound>, <Railcraft:brick.frostbound>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.frostbound>, <Railcraft:brick.frostbound>, <Railcraft:brick.frostbound>]]);
+	recipes.addShaped(<Railcraft:stair:16> * 6, [[<Railcraft:brick.frostbound:1>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.frostbound:1>, <Railcraft:brick.frostbound:1>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.frostbound:1>, <Railcraft:brick.frostbound:1>, <Railcraft:brick.frostbound:1>]]);
+	recipes.addShaped(<Railcraft:stair:24> * 6, [[<Railcraft:brick.frostbound:2>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.frostbound:2>, <Railcraft:brick.frostbound:2>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.frostbound:2>, <Railcraft:brick.frostbound:2>, <Railcraft:brick.frostbound:2>]]);
+	recipes.addShaped(<Railcraft:stair:32> * 6, [[<Railcraft:brick.frostbound:5>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.frostbound:5>, <Railcraft:brick.frostbound:5>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.frostbound:5>, <Railcraft:brick.frostbound:5>, <Railcraft:brick.frostbound:5>]]);
+
+	recipes.addShaped(<Railcraft:stair:10> * 6, [[<Railcraft:brick.quarried>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.quarried>, <Railcraft:brick.quarried>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.quarried>, <Railcraft:brick.quarried>, <Railcraft:brick.quarried>]]);
+	recipes.addShaped(<Railcraft:stair:17> * 6, [[<Railcraft:brick.quarried:1>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.quarried:1>, <Railcraft:brick.quarried:1>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.quarried:1>, <Railcraft:brick.quarried:1>, <Railcraft:brick.quarried:1>]]);
+	recipes.addShaped(<Railcraft:stair:25> * 6, [[<Railcraft:brick.quarried:2>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.quarried:2>, <Railcraft:brick.quarried:2>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.quarried:2>, <Railcraft:brick.quarried:2>, <Railcraft:brick.quarried:2>]]);
+	recipes.addShaped(<Railcraft:stair:33> * 6, [[<Railcraft:brick.quarried:5>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.quarried:5>, <Railcraft:brick.quarried:5>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.quarried:5>, <Railcraft:brick.quarried:5>, <Railcraft:brick.quarried:5>]]);
+
+	recipes.addShaped(<Railcraft:stair:11> * 6, [[<Railcraft:brick.bleachedbone>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.bleachedbone>, <Railcraft:brick.bleachedbone>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.bleachedbone>, <Railcraft:brick.bleachedbone>, <Railcraft:brick.bleachedbone>]]);
+	recipes.addShaped(<Railcraft:stair:18> * 6, [[<Railcraft:brick.bleachedbone:1>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.bleachedbone:1>, <Railcraft:brick.bleachedbone:1>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.bleachedbone:1>, <Railcraft:brick.bleachedbone:1>, <Railcraft:brick.bleachedbone:1>]]);
+	recipes.addShaped(<Railcraft:stair:26> * 6, [[<Railcraft:brick.bleachedbone:2>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.bleachedbone:2>, <Railcraft:brick.bleachedbone:2>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.bleachedbone:2>, <Railcraft:brick.bleachedbone:2>, <Railcraft:brick.bleachedbone:2>]]);
+	recipes.addShaped(<Railcraft:stair:34> * 6, [[<Railcraft:brick.bleachedbone:5>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.bleachedbone:5>, <Railcraft:brick.bleachedbone:5>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.bleachedbone:5>, <Railcraft:brick.bleachedbone:5>, <Railcraft:brick.bleachedbone:5>]]);
+
+	recipes.addShaped(<Railcraft:stair:12> * 6, [[<Railcraft:brick.bloodstained>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.bloodstained>, <Railcraft:brick.bloodstained>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.bloodstained>, <Railcraft:brick.bloodstained>, <Railcraft:brick.bloodstained>]]);
+	recipes.addShaped(<Railcraft:stair:19> * 6, [[<Railcraft:brick.bloodstained:1>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.bloodstained:1>, <Railcraft:brick.bloodstained:1>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.bloodstained:1>, <Railcraft:brick.bloodstained:1>, <Railcraft:brick.bloodstained:1>]]);
+	recipes.addShaped(<Railcraft:stair:27> * 6, [[<Railcraft:brick.bloodstained:2>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.bloodstained:2>, <Railcraft:brick.bloodstained:2>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.bloodstained:2>, <Railcraft:brick.bloodstained:2>, <Railcraft:brick.bloodstained:2>]]);
+	recipes.addShaped(<Railcraft:stair:35> * 6, [[<Railcraft:brick.bloodstained:5>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.bloodstained:5>, <Railcraft:brick.bloodstained:5>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.bloodstained:5>, <Railcraft:brick.bloodstained:5>, <Railcraft:brick.bloodstained:5>]]);
+
+	recipes.addShaped(<minecraft:nether_brick_stairs> * 6, [[<minecraft:nether_brick>, <ore:itemChisel>.transformDamage(12), null], [<minecraft:nether_brick>, <minecraft:nether_brick>, <ore:itemHammer>.reuse(), null], [<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>]]);
+	recipes.addShaped(<Railcraft:stair:21> * 6, [[<Railcraft:brick.nether:1>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.nether:1>, <Railcraft:brick.nether:1>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.nether:1>, <Railcraft:brick.nether:1>, <Railcraft:brick.nether:1>]]);
+	recipes.addShaped(<Railcraft:stair:29> * 6, [[<Railcraft:brick.nether:2>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.nether:2>, <Railcraft:brick.nether:2>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.nether:2>, <Railcraft:brick.nether:2>, <Railcraft:brick.nether:2>]]);
+	recipes.addShaped(<Railcraft:stair:37> * 6, [[<Railcraft:brick.nether:5>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:brick.nether:5>, <Railcraft:brick.nether:5>, <ore:itemHammer>.reuse(), null], [<Railcraft:brick.nether:5>, <Railcraft:brick.nether:5>, <Railcraft:brick.nether:5>]]);
+
+	recipes.addShaped(<Railcraft:stair:3> * 6, [[<minecraft:snow>, <ore:itemChisel>.transformDamage(12), null], [<minecraft:snow>, <minecraft:snow>, <ore:itemHammer>.reuse(), null], [<minecraft:snow>, <minecraft:snow>, <minecraft:snow>]]);
+
+	recipes.addShaped(<Railcraft:stair:39> * 6, [[<minecraft:obsidian>, <ore:itemChisel>.transformDamage(12), null], [<minecraft:obsidian>, <minecraft:obsidian>, <ore:itemHammer>.reuse(), null], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
+
+	recipes.addShaped(<Railcraft:stair:2> * 6, [[<Railcraft:cube:1>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:cube:1>, <Railcraft:cube:1>, <ore:itemHammer>.reuse(), null], [<Railcraft:cube:1>, <Railcraft:cube:1>, <Railcraft:cube:1>]]);
+
+	recipes.addShaped(<Railcraft:stair:38> * 6, [[<Railcraft:cube:8>, <ore:itemChisel>.transformDamage(12), null], [<Railcraft:cube:8>, <Railcraft:cube:8>, <ore:itemHammer>.reuse(), null], [<Railcraft:cube:8>, <Railcraft:cube:8>, <Railcraft:cube:8>]]);
+
+//# Slab
+
+	recipes.addShaped(<Railcraft:slab:1> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.infernal>, <Railcraft:brick.infernal>, <Railcraft:brick.infernal>]]);
+	recipes.addShaped(<Railcraft:slab:15> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.infernal:1>, <Railcraft:brick.infernal:1>, <Railcraft:brick.infernal:1>]]);
+	recipes.addShaped(<Railcraft:slab:23> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.infernal:2>, <Railcraft:brick.infernal:2>, <Railcraft:brick.infernal:2>]]);
+	recipes.addShaped(<Railcraft:slab:31> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.infernal:5>, <Railcraft:brick.infernal:5>, <Railcraft:brick.infernal:5>]]);
+
+	recipes.addShaped(<Railcraft:slab:13> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.abyssal>, <Railcraft:brick.abyssal>, <Railcraft:brick.abyssal>]]);
+	recipes.addShaped(<Railcraft:slab:20> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.abyssal:1>, <Railcraft:brick.abyssal:1>, <Railcraft:brick.abyssal:1>]]);
+	recipes.addShaped(<Railcraft:slab:28> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.abyssal:2>, <Railcraft:brick.abyssal:2>, <Railcraft:brick.abyssal:2>]]);
+	recipes.addShaped(<Railcraft:slab:36> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.abyssal:5>, <Railcraft:brick.abyssal:5>, <Railcraft:brick.abyssal:5>]]);
+
+	recipes.addShaped(<Railcraft:slab> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.sandy>, <Railcraft:brick.sandy>, <Railcraft:brick.sandy>]]);
+	recipes.addShaped(<Railcraft:slab:14> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.sandy:1>, <Railcraft:brick.sandy:1>, <Railcraft:brick.sandy:1>]]);
+	recipes.addShaped(<Railcraft:slab:22> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.sandy:2>, <Railcraft:brick.sandy:2>, <Railcraft:brick.sandy:2>]]);
+	recipes.addShaped(<Railcraft:slab:30> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.sandy:5>, <Railcraft:brick.sandy:5>, <Railcraft:brick.sandy:5>]]);
+
+	recipes.addShaped(<Railcraft:slab:9> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.frostbound>, <Railcraft:brick.frostbound>, <Railcraft:brick.frostbound>]]);
+	recipes.addShaped(<Railcraft:slab:16> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.frostbound:1>, <Railcraft:brick.frostbound:1>, <Railcraft:brick.frostbound:1>]]);
+	recipes.addShaped(<Railcraft:slab:24> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.frostbound:2>, <Railcraft:brick.frostbound:2>, <Railcraft:brick.frostbound:2>]]);
+	recipes.addShaped(<Railcraft:slab:32> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.frostbound:5>, <Railcraft:brick.frostbound:5>, <Railcraft:brick.frostbound:5>]]);
+
+	recipes.addShaped(<Railcraft:slab:10> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.quarried>, <Railcraft:brick.quarried>, <Railcraft:brick.quarried>]]);
+	recipes.addShaped(<Railcraft:slab:17> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.quarried:1>, <Railcraft:brick.quarried:1>, <Railcraft:brick.quarried:1>]]);
+	recipes.addShaped(<Railcraft:slab:25> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.quarried:2>, <Railcraft:brick.quarried:2>, <Railcraft:brick.quarried:2>]]);
+	recipes.addShaped(<Railcraft:slab:33> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.quarried:5>, <Railcraft:brick.quarried:5>, <Railcraft:brick.quarried:5>]]);
+
+	recipes.addShaped(<Railcraft:slab:11> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.bleachedbone>, <Railcraft:brick.bleachedbone>, <Railcraft:brick.bleachedbone>]]);
+	recipes.addShaped(<Railcraft:slab:18> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.bleachedbone:1>, <Railcraft:brick.bleachedbone:1>, <Railcraft:brick.bleachedbone:1>]]);
+	recipes.addShaped(<Railcraft:slab:26> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.bleachedbone:2>, <Railcraft:brick.bleachedbone:2>, <Railcraft:brick.bleachedbone:2>]]);
+	recipes.addShaped(<Railcraft:slab:34> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.bleachedbone:5>, <Railcraft:brick.bleachedbone:5>, <Railcraft:brick.bleachedbone:5>]]);
+
+	recipes.addShaped(<Railcraft:slab:12> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.bloodstained>, <Railcraft:brick.bloodstained>, <Railcraft:brick.bloodstained>]]);
+	recipes.addShaped(<Railcraft:slab:19> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.bloodstained:1>, <Railcraft:brick.bloodstained:1>, <Railcraft:brick.bloodstained:1>]]);
+	recipes.addShaped(<Railcraft:slab:27> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.bloodstained:2>, <Railcraft:brick.bloodstained:2>, <Railcraft:brick.bloodstained:2>]]);
+	recipes.addShaped(<Railcraft:slab:35> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.bloodstained:5>, <Railcraft:brick.bloodstained:5>, <Railcraft:brick.bloodstained:5>]]);
+
+	recipes.addShaped(<minecraft:stone_slab:6> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>]]);
+	recipes.addShaped(<Railcraft:slab:21> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.nether:1>, <Railcraft:brick.nether:1>, <Railcraft:brick.nether:1>]]);
+	recipes.addShaped(<Railcraft:slab:29> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.nether:2>, <Railcraft:brick.nether:2>, <Railcraft:brick.nether:2>]]);
+	recipes.addShaped(<Railcraft:slab:37> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:brick.nether:5>, <Railcraft:brick.nether:5>, <Railcraft:brick.nether:5>]]);
+
+	recipes.addShaped(<Railcraft:slab:3> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<minecraft:snow>, <minecraft:snow>, <minecraft:snow>]]);
+
+	recipes.addShaped(<Railcraft:slab:39> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]]);
+
+	recipes.addShaped(<Railcraft:slab:2> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:cube:1>, <Railcraft:cube:1>, <Railcraft:cube:1>]]);
+
+	recipes.addShaped(<Railcraft:slab:38> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:cube:8>, <Railcraft:cube:8>, <Railcraft:cube:8>]]);
+
+
 
 // ================================================================================
 

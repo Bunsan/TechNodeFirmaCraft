@@ -1,50 +1,6 @@
 List of Mods in Current Build
 
-WR-CBE-1.7.10-1.4.1.9-universal.jar
-Ropes+ 1.6.4 (version not MC version)
-RPG Adv Mod 1.0.0
-SoundFilters 0.8
-Jabba-1.2.1a_1.7.10.jar
-BetterStorage-1.7.10-0.12.0.124.jar
-[1.7.10]DamageIndicatorsMod-3.2.3.jar http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1286538-hit-splat-damage-indicators-v3-3-2-rpg-ui-and
-[1.7.10]Decorations-1.0.15.jar http://darkagecraft.com/showthread.php?tid=215
-[1.7.10]MineTweaker3-1.7.10-3.0.9C.jar http://minetweaker3.powerofbytes.com
-[1.7.10]TerraFirmaCraft-0.79.15.538.jar http://terrafirmacraft.com/download.html
-AOBD-2.4.0.jar http://www.curse.com/mc-mods/minecraft/221863-another-one-bites-the-dust
-BiblioCraft[v1.9.2][MC1.7.10].jar http://www.bibliocraftmod.com/?page_id=48#MC1710
-BiblioWoods[Forestry][v1.7].jar http://www.bibliocraftmod.com/?page_id=50#bibliowoods
-Carpenter's Blocks v3.3.5 - MC 1.7.10.jar http://www.carpentersblocks.com/downloads.html
-CodeChickenCore-1.7.10-1.0.4.29-universal.jar http://chickenbones.net/Pages/links.html
-DynamicLights-1.7.10.jar http://atomicstryker.net/dynamiclights.php
-fastcraft-1.19.jar http://forum.industrial-craft.net/index.php?page=Thread&threadID=10820
-FlatSigns-1.7.10-universal-2.1.0.19.jar http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/
-forestry_1.7.10-3.5.0.479-unstable.jar http://jenkins.ic2.player.to/job/Forestry_Dev/479/artifact/build/dist/forestry_1.7.10-3.5.0.479-unstable.jar
-Forge_GuiLibv1.0.7.2.zip https://dl.dropboxusercontent.com/u/79021930/GUILib.jar
-Forge_MSC2v1.2.0.jar https://dl.dropboxusercontent.com/u/79021930/MSC2.jar
-hopperductmod-1.7.10-1.3.2.jar http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1291075-1-5-x-1-6-x-1-7-x-1-8-hopper-ducts-mod
-immibis-core-59.0.7.jar http://immibis.com/mcmoddl/
-InfernalMobs-1.7.10.jar http://atomicstryker.net/infernalmobs.php
-Mekanism-1.7.10-7.1.2.157.jar http://aidancbrady.com/mekanism/download/
-MekanismGenerators-1.7.10-1.1.0.11.jar http://aidancbrady.com/mekanism/download/
-MobiusCore-1.2.3_1.7.10.jar http://minecraft.curseforge.com/members/ProfMobius/projects
-MobProperties-1.7.10-0.3.4.jar http://www.curse.com/mc-mods/minecraft/224298-mob-properties#t1:other-downloads
-ModTweaker 2-0.7.1.jar http://www.curse.com/mc-mods/minecraft/220954-modtweaker
+Mods listed at http://www.atlauncher.com/pack/TechNodefirmacraft
 NBTEdit_1.7.10.jar https://www.dropbox.com/s/g935gz25ecvbzf2/NBTEdit_1.7.10.jar
 neiaddons-mc1710-1.12.4.16.jar http://bdew.net/neiaddons/
-NEIIntegration-MC1.7.10-1.0.6.jar http://minecraft.curseforge.com/mc-mods/225251-nei-integration/files
-NotEnoughItems-1.7.10-1.0.4.83.jar http://chickenbones.net/Pages/links.html
-OpenBlocks-1.7.10-1.3.jar http://www.openmods.info
-OpenEye-0.6-1.7.10.jar http://www.openmods.info
-OpenModsLib-1.7.10-0.6.jar http://www.openmods.info
-Opis-1.2.3_1.7.10.jar http://minecraft.curseforge.com/members/ProfMobius/projects
-Railcraft_1.7.10-9.5.0.0.jar http://minecraft.curseforge.com/mc-mods/51195-railcraft/files/2226556
-redlogic-59.1.9.jar http://immibis.com/mcmoddl/
-SpecialAI-1.7.10-1.1.1.jar http://minecraft.curseforge.com/mc-mods/224301-special-ai/files
-TabulaRasa-[1.7.10]1.0.1-3.jar http://minecraft.curseforge.com/mc-mods/223682-tabula-rasa/files
-TerraFirmaCraftNEIplugin-1.7.10-1.3.0.11.jar http://terrafirmacraft.com/f/topic/6733-171079v11-terrafirmacraft-nei-plugin/ (make sure you grab the v11 not the newest that is for the current dev build of TFC)
-Waila-1.5.9_1.7.10.jar http://minecraft.curseforge.com/members/ProfMobius/projects
 worldedit-forge-mc1.7.10-6.0-beta-01.jar http://minecraft.curseforge.com/mc-mods/225608-worldedit/files
-ZombieAwareness-1.9.6.jar (this gives a zip file that you need to open, coroutil is in this zip as well) http://coros.us/mods/zombieawareness
-CoroUtil-1.1.1.jar http://coros.us/mods/zombieawareness
-PneumaticCraft-1.7.10-1.6.2-64-universal.jar http://minecraft.curseforge.com/mc-mods/224125-pneumaticcraft
-

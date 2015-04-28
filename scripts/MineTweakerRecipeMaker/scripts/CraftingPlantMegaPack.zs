@@ -10,6 +10,7 @@
 // ================================================================================
 //
 // PLANT MEGA PACK
+import minetweaker.item.IItemStack;
 // ================================================================================
 //#MARKER REMOVE
 
@@ -100,6 +101,25 @@
 	recipes.remove(<plantmegapack:foodHuckleberryTart>);
 	recipes.remove(<plantmegapack:foodGooseberryCobbler>);
 	recipes.remove(<plantmegapack:foodBlueberryMuffin>);
+	recipes.remove(<plantmegapack:bambooWetForestStairs>);
+	recipes.remove(<plantmegapack:bambooTropicalBlueStairs>);
+	recipes.remove(<plantmegapack:bambooTimorBlackStairs>);
+	recipes.remove(<plantmegapack:bambooShortTassledStairs>);
+	recipes.remove(<plantmegapack:bambooMosoStairs>);
+	recipes.remove(<plantmegapack:bambooGoldenStairs>);
+	recipes.remove(<plantmegapack:bambooGiantTimberStairs>);
+	recipes.remove(<plantmegapack:bambooFargesiaRobustaStairs>);
+	recipes.remove(<plantmegapack:bambooAsperStairs>);
+	recipes.remove(<plantmegapack:bambooWetForestSlab>);
+	recipes.remove(<plantmegapack:bambooTropicalBlueSlab>);
+	recipes.remove(<plantmegapack:bambooTimorBlackSlab>);
+	recipes.remove(<plantmegapack:bambooShortTassledSlab>);
+	recipes.remove(<plantmegapack:bambooMosoSlab>);
+	recipes.remove(<plantmegapack:bambooGoldenSlab>);
+	recipes.remove(<plantmegapack:bambooGiantTimberSlab>);
+	recipes.remove(<plantmegapack:bambooFargesiaRobustaSlab>);
+	recipes.remove(<plantmegapack:bambooAsperSlab>);
+
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -348,3 +368,18 @@ recipes.addShaped(<plantmegapack:hangingFlowersMIX>, [[<minecraft:iron_bars>], [
 recipes.addShaped(<plantmegapack:hangingFlowersMIX>, [[<minecraft:iron_bars>], [<plantmegapack:flowerBegonia>], [<terrafirmacraft:item.ClayBowl:1>]]);
 recipes.addShaped(<plantmegapack:hangingFlowersMIX>, [[<minecraft:iron_bars>], [<plantmegapack:flowerAzalea>], [<terrafirmacraft:item.ClayBowl:1>]]);
 recipes.addShaped(<plantmegapack:hangingFlowersMIX>, [[<minecraft:iron_bars>], [<plantmegapack:flowerAchillea>], [<terrafirmacraft:item.ClayBowl:1>]]);
+
+	var blockBamboo = [<plantmegapack:bambooAsperBlock>, <plantmegapack:bambooFargesiaRobustaBlock>, <plantmegapack:bambooGiantTimberBlock>, <plantmegapack:bambooGoldenBlock>, <plantmegapack:bambooMosoBlock>, <plantmegapack:bambooShortTassledBlock>, <plantmegapack:bambooTimorBlackBlock>, <plantmegapack:bambooTropicalBlueBlock>, <plantmegapack:bambooWetForestBlock>] as IItemStack[];
+
+	var slabBamboo = [<plantmegapack:bambooAsperSlab>, <plantmegapack:bambooFargesiaRobustaSlab>, <plantmegapack:bambooGiantTimberSlab>, <plantmegapack:bambooGoldenSlab>, <plantmegapack:bambooMosoSlab>, <plantmegapack:bambooShortTassledSlab>, <plantmegapack:bambooTimorBlackSlab>, <plantmegapack:bambooTropicalBlueSlab>, <plantmegapack:bambooWetForestSlab>] as IItemStack[];
+
+	var stairsBamboo = [<plantmegapack:bambooAsperStairs>, <plantmegapack:bambooFargesiaRobustaStairs>, <plantmegapack:bambooGiantTimberStairs>, <plantmegapack:bambooGoldenStairs>, <plantmegapack:bambooMosoStairs>, <plantmegapack:bambooShortTassledStairs>, <plantmegapack:bambooTimorBlackStairs>, <plantmegapack:bambooTropicalBlueStairs>, <plantmegapack:bambooWetForestStairs>] as IItemStack[];
+
+		for i, bambooPlank in blockBamboo {
+	var bambooSlab = slabBamboo[i];
+	recipes.addShaped(bambooSlab * 6, [[null, <ore:itemSaw>.transformDamage(12), null], [bambooPlank, bambooPlank, bambooPlank]]);
+}
+		for j, bambooPlank in blockBamboo {
+	var bambooStair = stairsBamboo[j];
+	recipes.addShaped(bambooStair * 6, [[bambooPlank, null, <ore:itemSaw>.transformDamage(12)], [bambooPlank, bambooPlank, null], [bambooPlank, bambooPlank, bambooPlank]]);
+}
