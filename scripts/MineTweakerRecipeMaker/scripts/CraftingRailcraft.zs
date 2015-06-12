@@ -19,7 +19,6 @@
 
 //# Slab
 	recipes.remove(<Railcraft:slab:*>);
-	recipes.remove(<minecraft:stone_slab:6>);
 
 //# REMOVAL of Non-TFC ingots to nugget recipes to clean up NEI
 	recipes.remove(<Railcraft:nugget:4>);
@@ -57,7 +56,6 @@
 	recipes.remove(<Railcraft:brick.sandy>);
 	recipes.remove(<Railcraft:brick.abyssal>);
 	recipes.remove(<Railcraft:brick.infernal>);
-	recipes.remove(<minecraft:stone_slab>);
 	recipes.remove(<HardcoreQuesting:item_barrel>);
 
 //# Metal Blocks
@@ -68,6 +66,9 @@
 //# FireBoxes
 	recipes.remove(<Railcraft:machine.beta:6>);
 	recipes.remove(<Railcraft:machine.beta:5>);
+//# Boiler Blocks
+	recipes.remove(<Railcraft:machine.beta:3>);
+	recipes.remove(<Railcraft:machine.beta:4>);
 //# Iron/Steel Tank, Gauge and Valve
 	recipes.remove(<Railcraft:machine.beta:13>);
 	recipes.remove(<Railcraft:machine.beta:0>);
@@ -211,7 +212,7 @@
 	recipes.addShapeless(<Railcraft:brick.quarried:3>, [<Railcraft:brick.quarried:2>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<Railcraft:brick.bleachedbone:3>, [<Railcraft:brick.bleachedbone:2>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<Railcraft:brick.bloodstained:3>, [<Railcraft:brick.bloodstained:2>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
-	recipes.addShapeless(<minecraft:nether_brick:3>, [<Railcraft:brick.nether:2>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<Railcraft:brick.nether:3>, [<Railcraft:brick.nether:2>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
@@ -220,7 +221,7 @@
 //# MEDIUM HAMMER
 		for item in <ore:craftingToolMediumHammer>.items {
 //# Liquid Fire Box
-	recipes.addShaped(<Railcraft:machine.beta:6>, [[<ore:plateSteel>, <terrafirmacraft:item.Red Steel Ingot>, <ore:plateSteel>], [<minecraft:iron_bars>, item.anyDamage().transformDamage(), <minecraft:iron_bars>], [<ore:plateSteel>, <terrafirmacraft:EarlyBloomery>, <ore:plateSteel>]]);
+	recipes.addShaped(<Railcraft:machine.beta:6>, [[<ore:plateSteel>, <terrafirmacraft:EarlyBloomery>, <ore:plateSteel>], [<minecraft:iron_bars>, item.anyDamage().transformDamage(), <minecraft:iron_bars>], [<ore:plateSteel>, <terrafirmacraft:EarlyBloomery>, <ore:plateSteel>]]);
 //# Solid Fire Box
 	recipes.addShaped(<Railcraft:machine.beta:5>, [[<terrafirmacraft:item.Fire Brick:1>, <ore:plateSteel>, <terrafirmacraft:item.Fire Brick:1>], [<ore:plateSteel>, item.anyDamage().transformDamage(), <ore:plateSteel>], [<terrafirmacraft:item.Fire Brick:1>, <terrafirmacraft:EarlyBloomery>, <terrafirmacraft:item.Fire Brick:1>]]);
 //# Water Tank
@@ -238,16 +239,16 @@
 //# MEDIUM CHISEL
 		for item in <ore:craftingToolMediumChisel>.items {
 //# Iron/Steel Tank blocks and LP/HP Boiler Block
-	recipes.addShaped(<Railcraft:machine.beta:3>, [[item.anyDamage().transformDamage(), <ore:plateIron>], [<ore:craftingToolMediumHammer>.reuse(), <ore:plateIron>]]);
-	recipes.addShaped(<Railcraft:machine.beta:4>, [[item.anyDamage().transformDamage(), <ore:plateSteel>], [<ore:craftingToolMediumHammer>.reuse(), <ore:plateSteel>]]);
-	recipes.addShaped(<Railcraft:machine.beta:13> * 8, [[item.anyDamage().transformDamage(), <ore:plateSteel>, <ore:plateSteel>], [<ore:craftingToolMediumHammer>.reuse(), <ore:plateSteel>, <ore:plateSteel>]]);
-	recipes.addShaped(<Railcraft:machine.beta> * 8, [[item.anyDamage().transformDamage(), <ore:plateIron>, <ore:plateIron>], [<ore:craftingToolMediumHammer>.reuse(), <ore:plateIron>, <ore:plateIron>]]);
+	recipes.addShaped(<Railcraft:machine.beta:3>, [[item.anyDamage().transformDamage(), <ore:plateIron>], [<ore:itemHammer>.reuse(), <ore:plateIron>]]);
+	recipes.addShaped(<Railcraft:machine.beta:4>, [[item.anyDamage().transformDamage(), <ore:plateSteel>], [<ore:itemHammer>.reuse(), <ore:plateSteel>]]);
+	recipes.addShaped(<Railcraft:machine.beta:13> * 8, [[item.anyDamage().transformDamage(), <ore:plateSteel>, <ore:plateSteel>], [<ore:itemHammer>.reuse(), <ore:plateSteel>, <ore:plateSteel>]]);
+	recipes.addShaped(<Railcraft:machine.beta> * 8, [[item.anyDamage().transformDamage(), <ore:plateIron>, <ore:plateIron>], [<ore:itemHammer>.reuse(), <ore:plateIron>, <ore:plateIron>]]);
 //# Engines
-	recipes.addShaped(<Railcraft:machine.beta:9>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:craftingToolMediumHammer>.reuse(), <ore:blockGlassColorless>, item.anyDamage().transformDamage()], [<Railcraft:part.gear:2>, <ore:craftingPiston>, <Railcraft:part.gear:2>]]);
-	recipes.addShaped(<Railcraft:machine.beta:8>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:craftingToolMediumHammer>.reuse(), <ore:blockGlassColorless>, item.anyDamage().transformDamage()], [<ore:gearIron>, <ore:craftingPiston>, <ore:gearIron>]]);
-	recipes.addShaped(<Railcraft:machine.beta:7>, [[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>], [<ore:craftingToolMediumHammer>.reuse(), <ore:blockGlassColorless>, item.anyDamage().transformDamage()], [<Railcraft:part.gear>, <ore:craftingPiston>, <Railcraft:part.gear>]]);
+	recipes.addShaped(<Railcraft:machine.beta:9>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:itemHammer>.reuse(), <ore:blockGlassColorless>, item.anyDamage().transformDamage()], [<Railcraft:part.gear:2>, <ore:craftingPiston>, <Railcraft:part.gear:2>]]);
+	recipes.addShaped(<Railcraft:machine.beta:8>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:itemHammer>.reuse(), <ore:blockGlassColorless>, item.anyDamage().transformDamage()], [<ore:gearIron>, <ore:craftingPiston>, <ore:gearIron>]]);
+	recipes.addShaped(<Railcraft:machine.beta:7>, [[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>], [<ore:itemHammer>.reuse(), <ore:blockGlassColorless>, item.anyDamage().transformDamage()], [<Railcraft:part.gear>, <ore:craftingPiston>, <Railcraft:part.gear>]]);
 //# Gear Brushings
-	recipes.addShaped(<Railcraft:part.gear:3> * 2, [[<ore:craftingToolMediumHammer>.reuse(), item.anyDamage().transformDamage()], [<ore:plateTin>, <ore:plateTin>]]);
+	recipes.addShaped(<Railcraft:part.gear:3> * 2, [[<ore:itemHammer>.reuse(), item.anyDamage().transformDamage()], [<ore:plateTin>, <ore:plateTin>]]);
 		}
 //#RC Smoker Recipe
 	recipes.addShaped(<Railcraft:machine.alpha:5>, [[null, <ore:stoneNetherrack>, null], [<ore:dustRedstone>, <minecraft:cauldron>, <ore:dustRedstone>]]);

@@ -27,12 +27,13 @@
 // ================================================================================
 //#MARKER ADD SHAPELESS
 
-		for item in <ore:craftingToolMediumHammer>.items {
+		for item in <ore:craftingToolLowHammer>.items {
 	recipes.addShapeless(<HopperDuctMod:gratedHopper>, [<minecraft:hopper>, <minecraft:iron_bars>, item.anyDamage().transformDamage()]);
-		}
+
 
 // ================================================================================
 //#MARKER ADD SHAPED
 
 //# HOPPERDUCTS
-	recipes.addShaped(<HopperDuctMod:hopperDuct> * 4, [[null, <ore:craftingToolMediumHammer>, null], [<ore:plateIron>, <terrafirmacraft:item.SinglePlank>, <ore:plateIron>]]);
+	recipes.addShaped(<HopperDuctMod:hopperDuct> * 4, [[null, item.anyDamage().transformDamage(), null], [<ore:plateIron>, <terrafirmacraft:item.SinglePlank>, <ore:plateIron>]]);
+	}

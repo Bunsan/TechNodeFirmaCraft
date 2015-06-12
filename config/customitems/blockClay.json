@@ -1,0 +1,21 @@
+{
+"blocks": [         
+        {
+            "textureName": "clay",
+            "name": "Block of Clay",
+            "maxStackSize": 32,
+            "isOpaque": true,
+            "toolClass": "shovel",
+            "stepSound": "gravel",
+            "material": "clay",
+            "breaks": false,
+            "resistance": 2.5,            
+            "hardness": 0.5,
+            "dropItemName": "terrafirmacraft:item.Clay",
+            "minItemDrop": 1,
+            "maxItemDrop": 4,                
+            "eachExtraItemDropChance": 75,
+            "type": "falling"
+        }
+     ]
+}

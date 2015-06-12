@@ -321,6 +321,14 @@ ironLanternCore.add(<DecorationsTFC:item.LanternCore.WroughtIron:8>);
 //# CREATION of Crafting Tool Ore Dictionary Entries
 
 //# HAMMERS
+
+val craftingToolLowHammer = <ore:craftingToolLowHammer>;
+craftingToolLowHammer.add(<terrafirmacraft:item.Wrought Iron Hammer>);
+craftingToolLowHammer.add(<terrafirmacraft:item.Steel Hammer>);
+craftingToolLowHammer.add(<terrafirmacraft:item.Black Steel Hammer>);
+craftingToolLowHammer.add(<terrafirmacraft:item.Blue Steel Hammer>);
+craftingToolLowHammer.add(<terrafirmacraft:item.Red Steel Hammer>);
+
 val craftingToolMediumHammer = <ore:craftingToolMediumHammer>;
 craftingToolMediumHammer.add(<terrafirmacraft:item.Steel Hammer>);
 craftingToolMediumHammer.add(<terrafirmacraft:item.Black Steel Hammer>);
@@ -443,6 +451,8 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 	recipes.remove(<minecraft:quartz_block>);
 	recipes.remove(<minecraft:wooden_slab>);
 	recipes.remove(<minecraft:glowstone>);
+	recipes.remove(<minecraft:stone_slab:*>);
+
 //# TFC
 //# Markings (replaced)
 	recipes.remove(<terrafirmacraft:item.Ink>);
@@ -507,7 +517,7 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 	furnace.addRecipe(<terrafirmacraft:item.Nickel Ingot>, <ore:dustNickel>);
 	furnace.addRecipe(<terrafirmacraft:item.Zinc Ingot>, <ore:dustZinc>);
 	furnace.addRecipe(<minecraft:coal:1>, <terrafirmacraft:item.Log:*>);
-	furnace.addRecipe(<minecraft:hardened_clay>, <TabulaRasa:RasaItem6>);
+	furnace.addRecipe(<minecraft:hardened_clay>, <customitems:block_of_clay>);
 	furnace.addRecipe(<terrafirmacraft:item.Mold:1>, <terrafirmacraft:item.Mold>);
 	furnace.addRecipe(<terrafirmacraft:item.Axe Mold:1>, <terrafirmacraft:item.Axe Mold>);
 	furnace.addRecipe(<terrafirmacraft:item.Chisel Mold:1>, <terrafirmacraft:item.Chisel Mold>);
@@ -771,23 +781,34 @@ recipes.addShaped(<HardcoreQuesting:item_barrel>, [[<ore:plankWood>, <ore:blockG
 //# Daylight Sensor
 	recipes.addShaped(<minecraft:daylight_detector>, [[<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>], [<ore:oreJet>, <ore:dustRedstone>, <ore:oreJet>], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
 
-//# Clay Block (not placeable) for Hardened Clay
-	recipes.addShaped(<TabulaRasa:RasaItem6>, [[<ore:lumpClay>, <ore:lumpClay>], [<ore:lumpClay>, <ore:lumpClay>]]);
+//# Clay Block (placeable, but falls) for Hardened Clay
+	recipes.addShaped(<customitems:block_of_clay>, [[<ore:lumpClay>, <ore:lumpClay>], [<ore:lumpClay>, <ore:lumpClay>]]);
+
+recipes.addShapeless(<customitems:block_of_clay>, [<TabulaRasa:RasaItem6>]);
+
+//# Furnace
+	for item in <ore:craftingToolMediumChisel>.items {
+	recipes.addShaped(<minecraft:furnace>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [item.anyDamage().transformDamage(), <terrafirmacraft:Crucible>, <ore:itemHammer>.reuse()], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+	}
 
 //# Stone Slabs
 
 	recipes.addShaped(<minecraft:stone_slab> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<ore:stone>, <ore:stone>, <ore:stone>]]);
 
 //# Hopper
-	recipes.addShaped(<minecraft:hopper>, [[null, <ore:craftingToolMediumHammer>, null], [<ore:plateIron>, <ore:craftingChest>, <ore:plateIron>], [null, <ore:plateIron>, null]]);
+	for item in <ore:craftingToolLowHammer>.items {
+	recipes.addShaped(<minecraft:hopper>, [[null, item.anyDamage().transformDamage(), null], [<ore:plateIron>, <ore:craftingChest>, <ore:plateIron>], [null, <ore:plateIron>, null]]);
+	}
 
 //# Glowstone/Scapolite block recipe
 	recipes.addShaped(<minecraft:glowstone>, [[<ore:dustGlowstone>, <ore:dustGlowstone>], [<ore:dustGlowstone>, <ore:dustGlowstone>], [<terrafirmacraft:item.Red Steel Bucket Water>, null]]);
 
 //# Replace Ore and Mineral Blocks
-	recipes.addShaped(<minecraft:iron_block>, [[null, <ore:plateIron>, null], [<ore:plateIron>, <ore:craftingToolMediumHammer>, <ore:plateIron>], [null, <ore:plateIron>, null]]);
-	recipes.addShaped(<minecraft:gold_block>, [[null, <ore:plateGold>, null], [<ore:plateGold>, <ore:craftingToolMediumHammer>, <ore:plateGold>], [null, <ore:plateGold>, null]]);
-	recipes.addShaped(<Railcraft:cube:9>, [[null, <ore:plateCopper>, null], [<ore:plateCopper>, <ore:craftingToolMediumHammer>, <ore:plateCopper>], [null, <ore:plateCopper>, null]]);
+	for item in <ore:craftingToolMediumHammer>.items {
+	recipes.addShaped(<minecraft:iron_block>, [[null, <ore:plateIron>, null], [<ore:plateIron>, item.anyDamage().transformDamage(), <ore:plateIron>], [null, <ore:plateIron>, null]]);
+	recipes.addShaped(<minecraft:gold_block>, [[null, <ore:plateGold>, null], [<ore:plateGold>, item.anyDamage().transformDamage(), <ore:plateGold>], [null, <ore:plateGold>, null]]);
+	recipes.addShaped(<Railcraft:cube:9>, [[null, <ore:plateCopper>, null], [<ore:plateCopper>, item.anyDamage().transformDamage(), <ore:plateCopper>], [null, <ore:plateCopper>, null]]);
+	}
 	recipes.addShaped(<minecraft:lapis_block>, [[<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>], [<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>], [<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>]]);
 
 //# Replace Nugget to Ingot Recipes with TFC Ingots

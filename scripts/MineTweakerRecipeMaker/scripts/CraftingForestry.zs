@@ -103,9 +103,9 @@ import minetweaker.data.IData;
 	recipes.addShaped(<Forestry:stamps:3> * 9, [[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<ore:dropHoney>, <ore:dropHoney>, <ore:dropHoney>]]);
 //#Reinstating Forestry Engine Recipes
 		for item in <ore:craftingToolMediumChisel>.items {
-	recipes.addShaped(<Forestry:engine:4>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:craftingToolMediumHammer>, <ore:blockGlassColorless>, item.anyDamage().transformDamage()], [<ore:gearCopper>, <ore:craftingPiston>, <minecraft:clock>]]);
-	recipes.addShaped(<Forestry:engine:1>, [[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>], [<ore:craftingToolMediumHammer>, <ore:blockGlassColorless>, item.anyDamage().transformDamage()], [<ore:gearCopper>, <ore:craftingPiston>, <ore:gearCopper>]]);
-	recipes.addShaped(<Forestry:engine:2>, [[<ore:plateAnyBronze>, <ore:plateAnyBronze>, <ore:plateAnyBronze>], [<ore:craftingToolMediumHammer>, <ore:blockGlassColorless>, item.anyDamage().transformDamage()], [<ore:gearBronze>, <ore:craftingPiston>, <ore:gearBronze>]]);
+	recipes.addShaped(<Forestry:engine:4>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:itemHammer>.reuse(), <ore:blockGlassColorless>, item.anyDamage().transformDamage()], [<ore:gearCopper>, <ore:craftingPiston>, <minecraft:clock>]]);
+	recipes.addShaped(<Forestry:engine:1>, [[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>], [<ore:itemHammer>.reuse(), <ore:blockGlassColorless>, item.anyDamage().transformDamage()], [<ore:gearCopper>, <ore:craftingPiston>, <ore:gearCopper>]]);
+	recipes.addShaped(<Forestry:engine:2>, [[<ore:plateAnyBronze>, <ore:plateAnyBronze>, <ore:plateAnyBronze>], [<ore:itemHammer>.reuse(), <ore:blockGlassColorless>, item.anyDamage().transformDamage()], [<ore:gearBronze>, <ore:craftingPiston>, <ore:gearBronze>]]);
 		}
 //#Worktable
 	recipes.addShaped(<Forestry:factory2:2>, [[<minecraft:book>], [<ore:craftingTableWood>], [<ore:craftingChest>]]);
