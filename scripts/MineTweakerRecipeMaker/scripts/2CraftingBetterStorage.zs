@@ -16,6 +16,7 @@ recipes.remove(<betterstorage:craftingStation>);
 recipes.remove(<betterstorage:reinforcedLocker>);
 recipes.remove(<betterstorage:reinforcedChest>);
 recipes.remove(<betterstorage:crate>);
+recipes.remove(<betterstorage:locker>);
 
 
 // ================================================================================

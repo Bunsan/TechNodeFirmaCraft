@@ -555,6 +555,10 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 
 //# ADD Charcoal Conversion
 	recipes.addShapeless(<terrafirmacraft:item.coal:1>, [<minecraft:coal:1>, <minecraft:coal:1>]);
+	recipes.addShapeless(<minecraft:coal:1> * 2, [<terrafirmacraft:item.coal:1>]);
+//# ADD Peat Conversion
+	recipes.addShapeless(<terrafirmacraft:Peat>, [<Forestry:peat>, <Forestry:peat>, <Forestry:peat>, <Forestry:peat>]);
+		recipes.addShapeless(<Forestry:peat> * 4, [<terrafirmacraft:Peat>]);
 
 //# Convert Wool/Silk Cloth to Wool Block
 	recipes.addShapeless(<minecraft:wool>, [<ore:materialCloth>]);
@@ -790,6 +794,7 @@ recipes.addShaped(<HardcoreQuesting:item_barrel>, [[<ore:plankWood>, <ore:blockG
 
 //# Clay Block (placeable, but falls) for Hardened Clay
 	recipes.addShaped(<customitems:block_of_clay>, [[<ore:lumpClay>, <ore:lumpClay>], [<ore:lumpClay>, <ore:lumpClay>]]);
+	recipes.addShaped(<terrafirmacraft:item.Clay> * 4, [[<customitems:block_of_clay>]]);
 
 recipes.addShapeless(<customitems:block_of_clay>, [<TabulaRasa:RasaItem6>]);
 
@@ -804,7 +809,7 @@ recipes.addShapeless(<customitems:block_of_clay>, [<TabulaRasa:RasaItem6>]);
 
 //# Hopper
 	for item in <ore:craftingToolLowHammer>.items {
-	recipes.addShaped(<minecraft:hopper>, [[null, item.anyDamage().transformDamage(), null], [<ore:plateIron>, <ore:craftingChest>, <ore:plateIron>], [null, <ore:plateIron>, null]]);
+	recipes.addShaped(<minecraft:hopper>, [[null, item.anyDamage().transformDamage(), null], [null, <ore:craftingChest>, null], [null, <terrafirmacraft:Hopper>, null]]);
 	}
 
 //# Glowstone/Scapolite block recipe

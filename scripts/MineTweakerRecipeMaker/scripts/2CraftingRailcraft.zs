@@ -230,9 +230,9 @@
 //# Rolling Machine
 	recipes.addShaped(<Railcraft:machine.alpha:8>, [[<ore:plateSteel>, <minecraft:piston>, <ore:plateSteel>], [<minecraft:piston>, item.anyDamage().transformDamage(), <minecraft:piston>], [<ore:plateSteel>, <minecraft:piston>, <ore:plateSteel>]]);
 //# Gears
-	recipes.addShaped(<Railcraft:part.gear:2>, [[null, item.anyDamage().transformDamage(), null], [<ore:plateSteel>, <Railcraft:part.gear:3>, <ore:plateSteel>]]);
-	recipes.addShaped(<Railcraft:part.gear:1>, [[null, item.anyDamage().transformDamage(), null], [<ore:plateIron>, <Railcraft:part.gear:3>, <ore:plateIron>]]);
-	recipes.addShaped(<Railcraft:part.gear> * 2, [[null, item.anyDamage().transformDamage(), null], [<Railcraft:part.gear:3>, <ore:plateGold>, <Railcraft:part.gear:3>]]);
+	recipes.addShaped(<Railcraft:part.gear:2> * 2, [[null, item.anyDamage().transformDamage(), null], [<Railcraft:part.gear:3>, <ore:plateDoubleSteel>, <Railcraft:part.gear:3>]]);
+	recipes.addShaped(<Railcraft:part.gear:1> * 2, [[null, item.anyDamage().transformDamage(), null], [<Railcraft:part.gear:3>, <ore:plateDoubleWroughtIron>, <Railcraft:part.gear:3>]]);
+	recipes.addShaped(<Railcraft:part.gear> * 2, [[null, item.anyDamage().transformDamage(), null], [<Railcraft:part.gear:3>, <ore:plateDoubleGold>, <Railcraft:part.gear:3>]]);
 //# Blast Furnace
 	recipes.addShaped(<Railcraft:machine.alpha:12> * 34, [[<Railcraft:brick.infernal>, item.anyDamage().transformDamage(34), <Railcraft:brick.infernal>], [<Railcraft:brick.infernal>, <terrafirmacraft:Bloomery>, <Railcraft:brick.infernal>], [<Railcraft:brick.infernal>, <terrafirmacraft:Bloomery>, <Railcraft:brick.infernal>]]);
 		}
@@ -258,7 +258,7 @@
 	recipes.addShaped(<Railcraft:machine.beta:15>, [[<minecraft:iron_bars>, <ore:plateSteel>, <minecraft:iron_bars>], [<ore:plateSteel>, <minecraft:lever>, <ore:plateSteel>], [<minecraft:iron_bars>, <ore:plateSteel>, <minecraft:iron_bars>]]);
 	recipes.addShaped(<Railcraft:machine.beta:2>, [[<minecraft:iron_bars>, <ore:plateIron>, <minecraft:iron_bars>], [<ore:plateIron>, <minecraft:lever>, <ore:plateIron>], [<minecraft:iron_bars>, <Railcraft:part.plate>, <minecraft:iron_bars>]]);
 //# Steam Furnace
-	recipes.addShaped(<Railcraft:machine.alpha:3> * 4, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, <terrafirmacraft:EarlyBloomery>, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+	recipes.addShaped(<Railcraft:machine.alpha:3> * 8, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, <terrafirmacraft:EarlyBloomery>, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 //# Rock Crusher
 	recipes.addShaped(<Railcraft:machine.alpha:15> * 4, [[<minecraft:piston>, <ore:gemDiamond>, <minecraft:piston>], [<ore:gemDiamond>, <terrafirmacraft:item.Steel Double Sheet>, <ore:gemDiamond>], [<minecraft:piston>, <ore:gemDiamond>, <minecraft:piston>]]);
 //# Priming and Disposal tracks Tank Detector, Circuits and age and animal detectors

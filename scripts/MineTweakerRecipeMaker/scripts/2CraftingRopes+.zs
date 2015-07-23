@@ -38,7 +38,7 @@
 // ================================================================================
 //#MARKER ADD SHAPED
 
-	recipes.addShaped(<RopesPlus:blockRopeCentral> * 3, [[<terrafirmacraft:item.Rope>], [<terrafirmacraft:item.Rope>], [<terrafirmacraft:item.Rope>]]);
-	recipes.addShaped(<RopesPlus:itemHookshot>, [[<ore:plateBlackSteel>, <RopesPlus:itemGrapplingHook>, <ore:plateBlackSteel>], [<ore:plateBlackSteel>, <RopesPlus:blockRopeCentral>, <ore:plateBlackSteel>], [<ore:plateBlackSteel>, <ore:craftingPiston>, <ore:plateBlackSteel>]]);
-	recipes.addShaped(<RopesPlus:itemGrapplingHook>, [[<terrafirmacraft:item.Wrought Iron Pick Head>], [<RopesPlus:blockRopeCentral>], [<RopesPlus:blockRopeCentral>]]);
-	recipes.addShaped(<RopesPlus:blockZiplineAnchor>, [[<RopesPlus:blockRopeCentral>], [<RopesPlus:blockRopeCentral>], [<terrafirmacraft:item.Steel Pick Head>]]);
+	recipes.addShaped(<RopesPlus:blockRopeCentral> * 3, [[<terrafirmacraft:item.Jute Fibre>], [<terrafirmacraft:item.Jute Fibre>]]);
+	recipes.addShaped(<RopesPlus:itemHookshot>, [[<ore:plateSteel>, <RopesPlus:itemGrapplingHook>, <ore:plateSteel>], [<ore:plateSteel>, <RopesPlus:blockRopeCentral>, <ore:plateSteel>], [<ore:plateSteel>, <ore:craftingPiston>, <ore:plateSteel>]]);
+	recipes.addShaped(<RopesPlus:itemGrapplingHook>, [[<terrafirmacraft:item.Wrought Iron Pick Head>], [<terrafirmacraft:item.Rope>]]);
+	recipes.addShaped(<RopesPlus:blockZiplineAnchor>, [[<terrafirmacraft:item.Rope>], [<terrafirmacraft:item.Steel Pick Head>]]);

@@ -90,11 +90,11 @@ import minetweaker.data.IData;
 
 //#Reinstated Forestery gears
 		for item in <ore:craftingToolMediumHammer>.items {
-	recipes.addShaped(<Forestry:gearTin>, [[null, item.anyDamage().transformDamage(), null], [<ore:plateTin>, <Railcraft:part.gear:3>, <ore:plateTin>]]);
-	recipes.addShaped(<Forestry:gearCopper>, [[null, item.anyDamage().transformDamage(), null], [<ore:plateCopper>, <Railcraft:part.gear:3>, <ore:plateCopper>]]);
-	recipes.addShaped(<Forestry:gearBronze>, [[null, item.anyDamage().transformDamage(), null], [<ore:plateAnyBronze>, <Railcraft:part.gear:3>, <ore:plateAnyBronze>]]);
+	recipes.addShaped(<Forestry:gearTin> * 2, [[null, item.anyDamage().transformDamage(), null], [<Railcraft:part.gear:3>, <ore:plateDoubleTin>, <Railcraft:part.gear:3>]]);
+	recipes.addShaped(<Forestry:gearCopper>, [[null, item.anyDamage().transformDamage(), null], [<Railcraft:part.gear:3>, <ore:plateDoubleCopper>, <Railcraft:part.gear:3>]]);
+	recipes.addShaped(<Forestry:gearBronze>, [[null, item.anyDamage().transformDamage(), null], [<Railcraft:part.gear:3>, <ore:plateDoubleAnyBronze>, <Railcraft:part.gear:3>]]);
 //#Reinstating a Forestry Sturdy Machine Recipe
-	recipes.addShaped(<Forestry:sturdyMachine>, [[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>], [<ore:ingotBronze>, item.anyDamage().transformDamage(), <ore:ingotBronze>], [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>]]);
+	recipes.addShaped(<Forestry:sturdyMachine>, [[null, <ore:plateAnyBronze>, null], [<ore:plateAnyBronze>, item.anyDamage().transformDamage(), <ore:plateAnyBronze>], [null, <ore:plateAnyBronze>, null]]);
 		}
 //#Reinstating Forestry Mailbox/Trade Station/Stamps
 	recipes.addShaped(<Forestry:mail:1>, [[<Forestry:thermionicTubes:5>, <Forestry:thermionicTubes:4>, <Forestry:thermionicTubes:5>], [<Forestry:thermionicTubes:4>, <Forestry:sturdyMachine>, <Forestry:thermionicTubes:4>], [<ore:craftingChest>, <Forestry:chipsets:1>, <ore:craftingChest>]]);
