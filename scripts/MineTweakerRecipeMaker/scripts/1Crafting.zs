@@ -454,6 +454,8 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 	recipes.remove(<minecraft:wooden_slab>);
 	recipes.remove(<minecraft:glowstone>);
 	recipes.remove(<minecraft:stone_slab:*>);
+	recipes.remove(<minecraft:arrow>);
+	recipes.remove(<minecraft:magma_cream>);
 
 //# TFC
 //# Markings (replaced)
@@ -580,7 +582,7 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 		for item in <ore:craftingToolMediumHammer>.items {
 	recipes.addShapeless(<minecraft:blaze_powder> * 2, [item.anyDamage().transformDamage(), <ore:oreStrontium>]);
 	recipes.addShapeless(<minecraft:slime_ball>, [item.anyDamage().transformDamage(), <ore:logSappy>]);
-	recipes.addShapeless(<minecraft:glowstone_dust>, [item.anyDamage().transformDamage(), <ore:oreScapolite>]);
+	recipes.addShapeless(<minecraft:glowstone_dust> * 4, [item.anyDamage().transformDamage(), <ore:oreScapolite>]);
 		}
 //# REPLACE recipes using chisel
 		for item in <ore:craftingToolMediumChisel>.items {

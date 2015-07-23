@@ -21,7 +21,7 @@ recipes.remove(<RPGAdvMod:pole:1>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
-
+recipes.addShapeless(<RPGAdvMod:glowcrumb> * 16, [<ore:blockGravel>, <ore:dustGlowstone>]);
 // ================================================================================
 //#MARKER REMOVE SHAPED
 
