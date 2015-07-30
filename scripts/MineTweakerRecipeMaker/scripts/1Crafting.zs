@@ -788,8 +788,6 @@ recipes.addShaped(<HardcoreQuesting:item_barrel>, [[<ore:plankWood>, <ore:blockG
 	recipes.addShaped(<customitems:block_of_clay>, [[<ore:lumpClay>, <ore:lumpClay>], [<ore:lumpClay>, <ore:lumpClay>]]);
 	recipes.addShaped(<terrafirmacraft:item.Clay> * 4, [[<customitems:block_of_clay>]]);
 
-recipes.addShapeless(<customitems:block_of_clay>, [<TabulaRasa:RasaItem6>]);
-
 //# Furnace
 	for item in <ore:craftingToolMediumChisel>.items {
 	recipes.addShaped(<minecraft:furnace>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [item.anyDamage().transformDamage(), <terrafirmacraft:Crucible>, <ore:itemHammer>.reuse()], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
