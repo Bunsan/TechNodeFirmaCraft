@@ -17,14 +17,6 @@ val craftingPiston = <ore:craftingPiston>;
 craftingPiston.add(<minecraft:piston>);
 craftingPiston.add(<minecraft:sticky_piston>);
 
-//# REMOVE dust ore dictionary registration for TFC ores ground in Quern due to balance issues
-val dustIron = <ore:dustIron>;
-dustIron.remove(<terrafirmacraft:item.Powder:5>);
-dustIron.remove(<terrafirmacraft:item.Powder:7>);
-
-val dustCopper = <ore:dustCopper>;
-dustCopper.remove(<terrafirmacraft:item.Powder:8>);
-
 //# ADDITION or Modification of Ore Dictionary for compatibility
 
 val oreCopper = <ore:oreCopper>;
@@ -206,6 +198,7 @@ val logSappy = <ore:logSappy>;
 logSappy.add(<terrafirmacraft:item.Log:8>);
 logSappy.add(<terrafirmacraft:item.Log:10>);
 logSappy.add(<terrafirmacraft:item.Log:9>);
+logSappy.add(<terrafirmacraft:item.Log:4>);
 
 //# CREATE stoneRaw Ore Dictionary entry to allow creation of Railcraft and interchangeability of ascetic blocks
 val stoneRaw = <ore:stoneRaw>;
@@ -416,10 +409,10 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 //# FURNACE
 	furnace.remove(<minecraft:iron_ingot>, <Mekanism:Dust>);
 	furnace.remove(<minecraft:gold_ingot>, <Mekanism:Dust:1>);
-	furnace.remove(<Mekanism:Ingot:4>, <Mekanism:Dust:5>);
-	furnace.remove(<Mekanism:Ingot:5>, <Mekanism:Dust:6>);
-	furnace.remove(<Mekanism:Ingot:6>, <Mekanism:Dust:7>);
-	furnace.remove(<Railcraft:ingot:3>, <Mekanism:Dust:9>);
+	furnace.remove(<Mekanism:Ingot:4>);
+	furnace.remove(<Mekanism:Ingot:5>);
+	furnace.remove(<Mekanism:Ingot:6>);
+	furnace.remove(<Railcraft:ingot:3>);
 
 //# VANILLA
 	recipes.remove(<minecraft:shears>);
@@ -456,6 +449,7 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 	recipes.remove(<minecraft:stone_slab:*>);
 	recipes.remove(<minecraft:arrow>);
 	recipes.remove(<minecraft:magma_cream>);
+	recipes.remove(<minecraft:sponge>);
 
 //# TFC
 //# Markings (replaced)
@@ -499,6 +493,7 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 
 //# FURNACE RECIPES
 
+	furnace.addRecipe(<minecraft:glass>, <ore:blockSand>);
 	furnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, <Mekanism:Dust>);
 	furnace.addRecipe(<terrafirmacraft:item.Gold Ingot>, <Mekanism:Dust:1>);
 	furnace.addRecipe(<terrafirmacraft:item.HC Steel Ingot>, <Mekanism:Dust:5>);
@@ -578,12 +573,7 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 	recipes.addShapeless(<Railcraft:nugget:1> * 9, [<ore:ingotSteel>]);
 	recipes.addShapeless(<minecraft:gold_nugget> * 9, [<ore:ingotGold>]);
 	recipes.addShapeless(<Railcraft:nugget> * 9, [<ore:ingotIron>]);
-//# REPLACE recipes using hammer
-		for item in <ore:craftingToolMediumHammer>.items {
-	recipes.addShapeless(<minecraft:blaze_powder> * 2, [item.anyDamage().transformDamage(), <ore:oreStrontium>]);
-	recipes.addShapeless(<minecraft:slime_ball>, [item.anyDamage().transformDamage(), <ore:logSappy>]);
-	recipes.addShapeless(<minecraft:glowstone_dust> * 4, [item.anyDamage().transformDamage(), <ore:oreScapolite>]);
-		}
+
 //# REPLACE recipes using chisel
 		for item in <ore:craftingToolMediumChisel>.items {
 	recipes.addShapeless(<minecraft:iron_bars> * 6, [<ore:plateIron>, item.anyDamage().transformDamage()]);
@@ -775,15 +765,15 @@ recipes.addShapeless(<terrafirmacraft:item.Ink> * 16, [<ore:dyeBlack>, <ore:item
 	recipes.addShapeless(<terrafirmacraft:item.Jasper:2> * 2, [item.anyDamage().transformDamage(), <ore:gemFlawlessJasper>, <ore:itemHammer>.reuse()]);
 	recipes.addShapeless(<terrafirmacraft:item.Jasper:3> * 2, [item.anyDamage().transformDamage(), <ore:gemExquisiteJasper>, <ore:itemHammer>.reuse()]);
 		}
+//# Recipe for vanilla bottles
+	recipes.addShapeless(<minecraft:glass_bottle>, [<terrafirmacraft:item.Glass Bottle>]);
+	recipes.addShapeless(<terrafirmacraft:item.Glass Bottle>, [<minecraft:glass_bottle>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
 recipes.addShaped(<HardcoreQuesting:item_barrel>, [[<ore:plankWood>, <ore:blockGlassColorless>, <ore:plankWood>], [<ore:blockGlassColorless>, <HardcoreQuesting:quest_book>, <ore:blockGlassColorless>], [<ore:plankWood>, <ore:blockGlassColorless>, <ore:plankWood>]]);
 
 //# VANILLA+ TO TFC
-
-//# Recipe for vanilla bottles
-	recipes.addShaped(<minecraft:glass_bottle> * 3, [[<ore:blockGlassColorless>, <terrafirmacraft:item.Red Steel Bucket Empty>.giveBack(), <ore:blockGlassColorless>], [null, <ore:blockGlassColorless>, null]]);
 
 //# Flower Pot
 	recipes.addShaped(<minecraft:flower_pot>, [[<ore:ingotBrick>, null, <ore:ingotBrick>], [null, <ore:ingotBrick>, null]]);

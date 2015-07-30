@@ -28,11 +28,12 @@
 	recipes.remove(<Mekanism:BasicBlock:6>);
 	recipes.remove(<MekanismGenerators:Generator:6>);
 	recipes.remove(<MekanismGenerators:Generator:5>);
+	recipes.remove(<MekanismGenerators:Generator:4>);
 	recipes.remove(<MekanismGenerators:Generator:3>);
 	recipes.remove(<MekanismGenerators:Generator:1>);
 	recipes.remove(<MekanismGenerators:Generator>);
 	recipes.remove(<Mekanism:ArmoredJetpack:100>);
-	recipes.remove(<Mekanism:FrictionBoots:100>);
+	recipes.remove(<Mekanism:FreeRunners:100>);
 	recipes.remove(<Mekanism:Jetpack:100>);
 	recipes.remove(<Mekanism:ScubaTank:100>);
 	recipes.remove(<Mekanism:GasMask>);
@@ -85,6 +86,9 @@
 	recipes.remove(<Mekanism:MachineBlock:2>);
 	recipes.remove(<Mekanism:MachineBlock:1>);
 	recipes.remove(<Mekanism:MachineBlock>);
+	recipes.remove(<Mekanism:MachineBlock3:3>);
+	recipes.remove(<Mekanism:AtomicDisassembler:100>);
+	recipes.remove(<Mekanism:Flamethrower:100>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -103,6 +107,12 @@
 
 // ================================================================================
 //#MARKER ADD SHAPED
+
+//#Atomic Disassembler
+	recipes.addShaped(<Mekanism:AtomicDisassembler:100>, [[<ore:alloyElite>, <ore:battery>, <ore:alloyElite>], [<ore:alloyElite>, <ore:alloyUltimate>, <ore:alloyElite>], [<terrafirmacraft:item.Blue Steel Double Sheet>, <ore:ingotRefinedObsidian>, <terrafirmacraft:item.Red Steel Double Sheet>]]);
+
+//#Flamethrower
+	recipes.addShaped(<Mekanism:Flamethrower:100>, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [<ore:ingotTin>, <Mekanism:GasTank:100>, <ore:toolFlintSteel>], [<ore:ingotBronze>, <ore:circuitAdvanced>, <ore:ingotBronze>]]);
 
 		for item in <ore:craftingToolHardHammer>.items {
 //#Mek Dynamic Valve
@@ -124,7 +134,7 @@
 		}
 //# RE-ADD Armour stuff
 	//(Offers no extra protection)recipes.addShaped(<Mekanism:ArmoredJetpack:100>.withTag({ench: [{id: 0 as short, lvl: 5 as short}, {id: 1 as short, lvl: 5 as short}, {id: 3 as short, lvl: 5 as short}, {id: 4 as short, lvl: 5 as short}]}), [[<ore:dustDiamond>, <ore:circuitUltimate>, <ore:dustDiamond>], [<ore:plateDoubleBlueSteel>, <ore:blockSteel>, <ore:plateDoubleRedSteel>], [null, <Mekanism:Jetpack:100>, null]]);
-	recipes.addShaped(<Mekanism:FrictionBoots:100>, [[<ore:circuitAdvanced>, <ore:plateBlackSteel>, <ore:circuitAdvanced>], [<ore:alloyAdvanced>, null, <ore:alloyAdvanced>], [<ore:battery>, null, <ore:battery>]]);
+	recipes.addShaped(<Mekanism:FreeRunners:100>, [[<ore:circuitAdvanced>, <ore:plateBlackSteel>, <ore:circuitAdvanced>], [<ore:alloyAdvanced>, null, <ore:alloyAdvanced>], [<ore:battery>, null, <ore:battery>]]);
 	recipes.addShaped(<Mekanism:Jetpack:100>, [[<ore:ingotBlackSteel>, <ore:circuitElite>, <ore:ingotBlackSteel>], [<ore:plateBlackSteel>, <Mekanism:GasTank:100>, <ore:plateBlackSteel>], [<ore:plateBlackSteel>, null, <ore:plateBlackSteel>]]);
 	recipes.addShaped(<Mekanism:ScubaTank:100>, [[<ore:plateSteel>, <ore:circuitAdvanced>, <ore:plateSteel>], [<ore:alloyAdvanced>, <Mekanism:GasTank:100>, <ore:alloyAdvanced>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 	recipes.addShaped(<Mekanism:GasMask>, [[null, <ore:plateSteel>, null], [<ore:blockGlass>, <ore:circuitAdvanced>, <ore:blockGlass>], [<ore:plateSteel>, null, <ore:plateSteel>]]);
@@ -202,6 +212,8 @@
 	recipes.addShaped(<Mekanism:MachineBlock:1>, [[<ore:alloyAdvanced>, <ore:circuitAdvanced>, <ore:alloyAdvanced>], [<terrafirmacraft:item.Black Steel Double Ingot>, <Mekanism:BasicBlock:8>, <terrafirmacraft:item.Black Steel Double Ingot>], [<ore:alloyAdvanced>, <ore:circuitAdvanced>, <ore:alloyAdvanced>]]);
 	recipes.addShaped(<Mekanism:MachineBlock>, [[<ore:dustRedstone>, <ore:circuitBasic>, <ore:dustRedstone>], [<terrafirmacraft:item.Red Steel Double Ingot>, <Mekanism:BasicBlock:8>, <terrafirmacraft:item.Red Steel Double Ingot>], [<ore:dustRedstone>, <terrafirmacraft:item.Red Steel Double Ingot>, <ore:dustRedstone>]]);
 
+	recipes.addShaped(<MekanismGenerators:Generator:3>, [[<ore:ingotOsmium>, <ore:alloyElite>, <ore:ingotOsmium>], [<Mekanism:BasicBlock:8>, <Mekanism:ElectrolyticCore>, <Mekanism:BasicBlock:8>], [<terrafirmacraft:item.Black Steel Sheet> * 1, <ore:alloyElite>,<terrafirmacraft:item.Black Steel Sheet> * 1]]);
+	recipes.addShaped(<MekanismGenerators:Generator:4>, [[<minecraft:redstone>, <ore:alloyElite>, <minecraft:redstone>], [<ore:itemBioFuel>, <ore:circuitBasic>, <ore:itemBioFuel>], [<terrafirmacraft:item.Black Steel Sheet>, <ore:alloyElite>,<terrafirmacraft:item.Black Steel Sheet> * 1]]);
 // ================================================================================
 //# Custom Machine Recipes
 
@@ -211,8 +223,10 @@
 	mods.mekanism.Combiner.removeRecipe(<minecraft:gold_ore>);
 	mods.mekanism.Combiner.removeRecipe(<minecraft:lapis_ore>);
 	mods.mekanism.Combiner.removeRecipe(<minecraft:redstone_ore>);
-	mods.mekanism.Combiner.removeRecipe(<Mekanism:OreBlock:1>);
-	mods.mekanism.Combiner.removeRecipe(<Mekanism:OreBlock:2>);
+	mods.mekanism.Combiner.removeRecipe(<Mekanism:OreBlock>);
+	mods.mekanism.Combiner.removeRecipe(<minecraft:gravel>);
+	mods.mekanism.Combiner.removeRecipe(<Forestry:resources:1>);
+	mods.mekanism.Combiner.removeRecipe(<Forestry:resources:2>);
 	mods.mekanism.Combiner.removeRecipe(<minecraft:obsidian>);
 
 //# Metallurgic Infuser
@@ -226,23 +240,23 @@
 //# Chemical Oxidizer
 //OutputGas
 	mods.mekanism.chemical.Oxidizer.removeRecipe(<gas:brine>);
-	mods.mekanism.chemical.Oxidizer.removeRecipe(<gas:brine>);
+	//mods.mekanism.chemical.Oxidizer.removeRecipe(<gas:brine>);
 
 //# Add Machine Recipes
 
 //Enrichment Chamber
 	mods.mekanism.Enrichment.addRecipe(<terrafirmacraft:item.Ore:25>, <Mekanism:Dust:2> * 2);
-	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0>, <Mekanism:Dust:6> * 2);
-	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0:9>, <Mekanism:Dust:6> * 2);
-	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0:13>, <Mekanism:Dust:6> * 2);
+	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0>, <Mekanism:Dust:3> * 2);
+	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0:9>, <Mekanism:Dust:3> * 2);
+	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0:13>, <Mekanism:Dust:3> * 2);
 	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0:1>, <Mekanism:Dust:1> * 2);
 	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0:2>, <TabulaRasa:RasaItem1:3> * 2);
 	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0:3>, <Mekanism:Dust> * 2);
 	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0:10>, <Mekanism:Dust> * 2);
 	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0:11>, <Mekanism:Dust> * 2);
-	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0:4>, <Mekanism:Dust:8> * 2);
-	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0:5>, <Mekanism:Dust:7> * 2);
-	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0:6>, <Mekanism:Dust:9> * 2);
+	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0:4>, <Mekanism:Dust:5> * 2);
+	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0:5>, <Mekanism:Dust:4> * 2);
+	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0:6>, <Mekanism:Dust:6> * 2);
 	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0:7>, <TabulaRasa:RasaItem1:1> * 2);
 	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0:8>, <TabulaRasa:RasaItem1:2> * 2);
 	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0:12>, <TabulaRasa:RasaItem1> * 2);
@@ -310,7 +324,10 @@
 	mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:12>, <gas:Zinc>);
 //# Crusher
 //InputStack, OutputStack
-	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:17>, <DecorationsTFC:item.Powders.Gypsum> * 8);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:17>, <DecorationsTFC:item.Powders.Gypsum> * 6);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:33>, <Forestry:fertilizerCompound> * 8);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:19>, <minecraft:glowstone_dust> * 5);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:23>, <minecraft:blaze_powder> * 4);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:16>, <terrafirmacraft:item.Powder:1> * 6);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:20>, <terrafirmacraft:item.Powder:2> * 6);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:31>, <terrafirmacraft:item.Fertilizer> * 6);

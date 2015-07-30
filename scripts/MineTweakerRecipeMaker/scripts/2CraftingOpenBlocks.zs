@@ -25,6 +25,8 @@
 	recipes.remove(<OpenBlocks:generic:1>);
 	recipes.remove(<OpenBlocks:hangglider>);
 	recipes.remove(<OpenBlocks:generic>);
+	recipes.remove(<OpenBlocks:beartrap>);
+	recipes.remove(<OpenBlocks:itemDropper>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -42,6 +44,9 @@
 //#MARKER ADD SHAPED
 
 //# OPEN BLOCKS
+	recipes.addShaped(<OpenBlocks:itemDropper>, [[<ore:ingotIron>, <ore:stoneCobble>, <ore:stoneCobble>], [<minecraft:hopper>, <minecraft:redstone>, <ore:stoneCobble>], [<ore:ingotIron>, <ore:stoneCobble>, <ore:stoneCobble>]]);
+	recipes.addShaped(<OpenBlocks:beartrap>, [[<minecraft:iron_bars>, <ore:ingotIron>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <ore:ingotIron>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <ore:ingotIron>, <minecraft:iron_bars>]]);
+
 	recipes.addShaped(<OpenBlocks:hangglider>, [[<OpenBlocks:generic>, <Mekanism:Polyethene:3>, <OpenBlocks:generic>]]);
 	recipes.addShaped(<OpenBlocks:generic>, [[null, <Mekanism:Polyethene:3>, <ore:materialLeather>], [<Mekanism:Polyethene:3>, <ore:materialLeather>, <ore:materialLeather>], [<ore:materialLeather>, <ore:materialLeather>, <ore:materialLeather>]]);
 	recipes.addShaped(<Railcraft:post:6> * 4, [[null, <ore:plateDoubleWroughtIron>], [null, <Railcraft:post:2>]]);

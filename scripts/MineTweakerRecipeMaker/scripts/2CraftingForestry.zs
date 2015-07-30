@@ -65,7 +65,7 @@ import minetweaker.data.IData;
 	recipes.remove(<Forestry:slabs3:*>);
 	recipes.remove(<Forestry:slabs4:*>);
 	recipes.remove(<Forestry:stairs>);
-	
+	recipes.remove(<Forestry:fertilizerCompound>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS

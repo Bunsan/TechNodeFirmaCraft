@@ -36,12 +36,14 @@ recipes.remove(<PneumaticCraft:advancedLiquidCompressor>);
 recipes.remove(<PneumaticCraft:assemblyDrill>);
 recipes.remove(<PneumaticCraft:liquidCompressor>);
 recipes.remove(<PneumaticCraft:airCompressor>);
+recipes.remove(<PneumaticCraft:advancedAirCompressor>);
 recipes.remove(<PneumaticCraft:stoneBase>);
 recipes.remove(<PneumaticCraft:pressureGauge>);
 recipes.remove(<PneumaticCraft:vacuumPump>);
 recipes.remove(<PneumaticCraft:chargingStation>);
 recipes.remove(<PneumaticCraft:airCannon>);
 recipes.remove(<PneumaticCraft:omnidirectionalHopper>);
+recipes.remove(<PneumaticCraft:liquidHopper>);
 recipes.remove(<PneumaticCraft:aerialInterface>);
 recipes.remove(<PneumaticCraft:assemblyLaser>);
 recipes.remove(<PneumaticCraft:pressureChamberWall:6>);
@@ -89,6 +91,7 @@ recipes.addShaped(<PneumaticCraft:machineUpgrade:1>, [[<ore:oreLapis>, <ore:oreJ
 	recipes.addShaped(<PneumaticCraft:liquidCompressor>, [[<PneumaticCraft:plastic:1>, <PneumaticCraft:plastic:1>, <PneumaticCraft:plastic:1>], [<PneumaticCraft:plastic:1>, <terrafirmacraft:item.Blue Steel Bucket Empty>, <PneumaticCraft:plastic:1>], [<PneumaticCraft:plastic:1>, <PneumaticCraft:airCompressor>, <PneumaticCraft:plastic:1>]]);
 	for item in <ore:craftingToolHardHammer>.items {
 		recipes.addShaped(<PneumaticCraft:airCompressor>, [[<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>], [<ore:ingotIronCompressed>, item.anyDamage().transformDamage(), <PneumaticCraft:pressureTube>], [<ore:ingotIronCompressed>, <Railcraft:machine.beta:5>, <ore:ingotIronCompressed>]]);
+		recipes.addShaped(<PneumaticCraft:advancedAirCompressor>, [[<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>], [<ore:ingotIronCompressed>, item.anyDamage().transformDamage(), <PneumaticCraft:advancedPressureTube>], [<ore:ingotIronCompressed>, <PneumaticCraft:airCompressor>, <ore:ingotIronCompressed>]]);
 	}
 	recipes.addShaped(<PneumaticCraft:vacuumPump>, [[<PneumaticCraft:pressureGauge>, <PneumaticCraft:turbineRotor>, <PneumaticCraft:pressureGauge>], [<PneumaticCraft:pressureTube>, <PneumaticCraft:turbineRotor>, <PneumaticCraft:pressureTube>], [<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]]);
 	recipes.addShaped(<PneumaticCraft:chargingStation>, [[null, null, <PneumaticCraft:pressureTube>], [<PneumaticCraft:plastic:1>, <PneumaticCraft:plastic:1>, <PneumaticCraft:plastic:1>], [<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]]);
@@ -100,6 +103,7 @@ recipes.addShaped(<PneumaticCraft:assemblyLaser>, [[<ore:dyeRed>, <PneumaticCraf
 
 		for item in <ore:craftingToolHardHammer>.items {
 	recipes.addShaped(<PneumaticCraft:omnidirectionalHopper>, [[<ore:ingotIronCompressed>, item.anyDamage().transformDamage(), <ore:ingotIronCompressed>], [<ore:ingotIronCompressed>, <ore:craftingChest>, <ore:ingotIronCompressed>], [null, <ore:ingotIronCompressed>, null]]);
+	recipes.addShaped(<PneumaticCraft:liquidHopper>, [[<ore:blockGlass>, item.anyDamage().transformDamage(), <ore:blockGlass>], [<ore:blockGlass>, <minecraft:hopper>, <ore:blockGlass>], [null, <ore:blockGlass>, null]]);
 	recipes.addShaped(<PneumaticCraft:pressureChamberWall> * 4, [[<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>], [<ore:ingotIronCompressed>, item.anyDamage().transformDamage(), <ore:ingotIronCompressed>], [<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>]]);
 	recipes.addShaped(<PneumaticCraft:pressureChamberValve>, [[item.anyDamage().transformDamage(), <PneumaticCraft:pressureChamberWall>, null], [<PneumaticCraft:pressureChamberWall>, <PneumaticCraft:pressureTube>, <PneumaticCraft:pressureChamberWall>], [null, <PneumaticCraft:pressureChamberWall>, null]]);
 	recipes.addShaped(<PneumaticCraft:pressureChamberWall:6>, [[item.anyDamage().transformDamage(), <PneumaticCraft:pressureChamberWall>, null], [<PneumaticCraft:pressureChamberWall>, <ore:blockGlass>, <PneumaticCraft:pressureChamberWall>], [null, <PneumaticCraft:pressureChamberWall>, null]]);
@@ -111,9 +115,8 @@ recipes.addShaped(<PneumaticCraft:assemblyLaser>, [[<ore:dyeRed>, <PneumaticCraf
 
 //Pressure chamber recipes
 //InputStack, Pressure needed ,OutputStack, asBlock
-	mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Vinegar>, <PneumaticCraft:plastic:2> * 2, <minecraft:rotten_flesh> * 2, <minecraft:gunpowder> * 2, <terrafirmacraft:item.Powder:5>], 1, [<PneumaticCraft:etchingAcid>], false);
+	//mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Vinegar>, <PneumaticCraft:plastic:2> * 2, <minecraft:rotten_flesh> * 2, <minecraft:gunpowder> * 2, <terrafirmacraft:item.Powder:5>], 1, [<PneumaticCraft:etchingAcid>], false);
 //OutputStack
-	//mods.pneumaticcraft.Pressure.removeRecipe([<PneumaticCraft:etchacidBucket>]);
 
 //Assembly Drill Recipes
 //InputStack, OutputStack

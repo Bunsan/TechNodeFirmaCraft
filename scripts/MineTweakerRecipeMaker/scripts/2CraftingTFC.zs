@@ -9,12 +9,10 @@
 //     Removes come first, then stuff is added.
 // ================================================================================
 //
-//# HOPPERDUCTS
+//TFC
 // ================================================================================
 //#MARKER REMOVE
-
-	recipes.remove(<HopperDuctMod:gratedHopper>);
-	recipes.remove(<HopperDuctMod:hopperDuct>);
+ recipes.remove(<DecorationsTFC:item.Powders.Gypsum>);
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
 
@@ -27,13 +25,29 @@
 // ================================================================================
 //#MARKER ADD SHAPELESS
 
-		for item in <ore:craftingToolLowHammer>.items {
-	recipes.addShapeless(<HopperDuctMod:gratedHopper>, [<minecraft:hopper>, <minecraft:iron_bars>, item.anyDamage().transformDamage()]);
-
-
 // ================================================================================
 //#MARKER ADD SHAPED
 
-//# HOPPERDUCTS
-	recipes.addShaped(<HopperDuctMod:hopperDuct> * 4, [[null, item.anyDamage().transformDamage(), null], [<ore:plateIron>, <ore:woodLumber>, <ore:plateIron>]]);
-	}
+// ================================================================================
+//#TFC Custom Machine Recipes
+
+//# Barrel
+
+//mods.tfcraft.Barrel.addSealed(Input Item, Input Fluid, Output Item, Output Fluid, Time, Tier, Remove Fluid true/false, allow any stack true/false);
+		for item in <ore:logSappy>.items {
+	mods.tfcraft.Barrel.addSealed(item, <liquid:vinegar> * 625, <minecraft:slime_ball> * 4, <liquid:vinegar> * 625, 8, 1, true, true);
+		}
+
+//mods.tfcraft.Barrel.addUnsealed(Input Item, Input Fluid, Output Item, Output Fluid, Time, techLv, Remove Fluid true/false, allow any stack true/false);
+//mods.tfcraft.Barrel.addFluidtoFluid(Fluid in Barrel, Input Fluid, Output Fluid);
+
+//# Quern
+
+mods.tfcraft.Quern.add(<terrafirmacraft:item.Ore:17>, <DecorationsTFC:item.Powders.Gypsum> * 4);
+mods.tfcraft.Quern.add(<terrafirmacraft:item.Ore:23>, <minecraft:blaze_powder> * 2);
+mods.tfcraft.Quern.add(<terrafirmacraft:item.Ore:19>, <minecraft:glowstone_dust> * 3);
+mods.tfcraft.Quern.add(<terrafirmacraft:item.Ore:33>, <Forestry:fertilizerCompound> * 4);
+
+//# Heating
+
+mods.tfcraft.Heat.add(<customitems:block_of_clay>, 1, 1250, <minecraft:hardened_clay>);

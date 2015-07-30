@@ -44,16 +44,16 @@
 // ================================================================================
 //#MARKER ADD SHAPED
 
-		for item in <ore:craftingToolHardHammer>.items {
-	recipes.addShaped(<JABBA:upgradeStructural:5>, [[<ore:fenceWood>, <ore:ingotBlueSteel>, <ore:fenceWood>], [<ore:ingotBlueSteel>, item.anyDamage().transformDamage(), <ore:ingotBlueSteel>], [<ore:fenceWood>, <ore:ingotBlueSteel>, <ore:fenceWood>]]);
-	recipes.addShaped(<JABBA:upgradeStructural:4>, [[<ore:fenceWood>, <ore:ingotRedSteel>, <ore:fenceWood>], [<ore:ingotRedSteel>, item.anyDamage().transformDamage(), <ore:ingotRedSteel>], [<ore:fenceWood>, <ore:ingotRedSteel>, <ore:fenceWood>]]);
-	recipes.addShaped(<JABBA:upgradeStructural:3>, [[<ore:fenceWood>, <ore:ingotBlackSteel>, <ore:fenceWood>], [<ore:ingotBlackSteel>, item.anyDamage().transformDamage(), <ore:ingotBlackSteel>], [<ore:fenceWood>, <ore:ingotBlackSteel>, <ore:fenceWood>]]);
-	recipes.addShaped(<JABBA:upgradeStructural:2>, [[<ore:fenceWood>, <ore:ingotSteel>, <ore:fenceWood>], [<ore:ingotSteel>, item.anyDamage().transformDamage(), <ore:ingotSteel>], [<ore:fenceWood>, <ore:ingotSteel>, <ore:fenceWood>]]);
-		}
+	recipes.addShaped(<JABBA:upgradeStructural:6>, [[<ore:fenceWood>, <ore:plankWood>, <ore:fenceWood>], [<ore:plankWood>, <ore:ingotBlueSteel>, <ore:plankWood>], [<ore:fenceWood>, <ore:plankWood>, <ore:fenceWood>]]);
+	recipes.addShaped(<JABBA:upgradeStructural:5>, [[<ore:fenceWood>, <ore:plankWood>, <ore:fenceWood>], [<ore:plankWood>, <ore:ingotRedSteel>, <ore:plankWood>], [<ore:fenceWood>, <ore:plankWood>, <ore:fenceWood>]]);
+	recipes.addShaped(<JABBA:upgradeStructural:4>, [[<ore:fenceWood>, <ore:plankWood>, <ore:fenceWood>], [<ore:plankWood>, <ore:ingotBlackSteel>, <ore:plankWood>], [<ore:fenceWood>, <ore:plankWood>, <ore:fenceWood>]]);
+	recipes.addShaped(<JABBA:upgradeStructural:3>, [[<ore:fenceWood>, <ore:plankWood>, <ore:fenceWood>], [<ore:plankWood>, <ore:ingotSteel>, <ore:plankWood>], [<ore:fenceWood>, <ore:plankWood>, <ore:fenceWood>]]);
+	recipes.addShaped(<JABBA:upgradeStructural:2>, [[<ore:fenceWood>, <ore:plankWood>, <ore:fenceWood>], [<ore:plankWood>, <ore:ingotIron>, <ore:plankWood>], [<ore:fenceWood>, <ore:plankWood>, <ore:fenceWood>]]);
+	recipes.addShaped(<JABBA:upgradeStructural:1>, [[<ore:fenceWood>, <ore:plankWood>, <ore:fenceWood>], [<ore:plankWood>, <ore:ingotGold>, <ore:plankWood>], [<ore:fenceWood>, <ore:plankWood>, <ore:fenceWood>]]);
+	recipes.addShaped(<JABBA:upgradeStructural>, [[<ore:fenceWood>, <ore:plankWood>, <ore:fenceWood>], [<ore:plankWood>, <ore:ingotBronze>, <ore:plankWood>], [<ore:fenceWood>, <ore:plankWood>, <ore:fenceWood>]]);
+
 
 		for item in <ore:craftingToolMediumHammer>.items {
-	recipes.addShaped(<JABBA:upgradeStructural:1>, [[<ore:fenceWood>, <ore:ingotIron>, <ore:fenceWood>], [<ore:ingotIron>, item.anyDamage().transformDamage(), <ore:ingotIron>], [<ore:fenceWood>, <ore:ingotIron>, <ore:fenceWood>]]);
-	recipes.addShaped(<JABBA:upgradeStructural>, [[<ore:fenceWood>, <ore:ingotBronze>, <ore:fenceWood>], [<ore:ingotBronze>, item.anyDamage().transformDamage(), <ore:ingotBronze>], [<ore:fenceWood>, <ore:ingotBronze>, <ore:fenceWood>]]);
 	recipes.addShaped(<JABBA:upgradeCore:7>, [[null, item.anyDamage().transformDamage(), null], [null, <ore:obsidian>, null], [null, <ore:craftingPiston>, null]]);
 	recipes.addShaped(<JABBA:upgradeCore:2>, [[null, item.anyDamage().transformDamage(), null], [null, <minecraft:redstone_block>, null], [null, <ore:craftingPiston>, null]]);
 	recipes.addShaped(<JABBA:upgradeCore:3>, [[null, item.anyDamage().transformDamage(), null], [null, <minecraft:hopper>, null], [null, <ore:craftingPiston>, null]]);
