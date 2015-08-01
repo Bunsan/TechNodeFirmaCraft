@@ -85,82 +85,82 @@ val ruralDrone = <Forestry:beeDroneGE>.withTag({MaxH: 20, Health: 20, IsAnalyzed
 
 //# Drones
 
-recipes.addShapeless(forestDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesForest", UID0: "forestry.speciesForest", Slot: 0 as byte}]}})]);
+recipes.addShapeless(forestDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesForest", UID0: "forestry.speciesForest", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(meadowsDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesMeadows", UID0: "forestry.speciesMeadows", Slot: 0 as byte}]}})]);
+recipes.addShapeless(meadowsDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesMeadows", UID0: "forestry.speciesMeadows", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(meadowsDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesCommon", UID0: "forestry.speciesCommon", Slot: 0 as byte}]}})]);
+recipes.addShapeless(meadowsDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesCommon", UID0: "forestry.speciesCommon", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(cultivatedDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesCultivated", UID0: "forestry.speciesCultivated", Slot: 0 as byte}]}})]);
+recipes.addShapeless(cultivatedDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesCultivated", UID0: "forestry.speciesCultivated", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(nobleDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesNoble", UID0: "forestry.speciesNoble", Slot: 0 as byte}]}})]);
+recipes.addShapeless(nobleDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesNoble", UID0: "forestry.speciesNoble", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(majesticDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesMajestic", UID0: "forestry.speciesMajestic", Slot: 0 as byte}]}})]);
+recipes.addShapeless(majesticDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesMajestic", UID0: "forestry.speciesMajestic", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(imperialDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesImperial", UID0: "forestry.speciesImperial", Slot: 0 as byte}]}})]);
+recipes.addShapeless(imperialDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesImperial", UID0: "forestry.speciesImperial", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(diligentDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesDiligent", UID0: "forestry.speciesDiligent", Slot: 0 as byte}]}})]);
+recipes.addShapeless(diligentDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesDiligent", UID0: "forestry.speciesDiligent", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(unwearyDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesUnweary", UID0: "forestry.speciesUnweary", Slot: 0 as byte}]}})]);
+recipes.addShapeless(unwearyDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesUnweary", UID0: "forestry.speciesUnweary", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(industriousDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesIndustrious", UID0: "forestry.speciesIndustrious", Slot: 0 as byte}]}})]);
+recipes.addShapeless(industriousDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesIndustrious", UID0: "forestry.speciesIndustrious", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(exoticDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesExotic", UID0: "forestry.speciesExotic", Slot: 0 as byte}]}})]);
+recipes.addShapeless(exoticDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesExotic", UID0: "forestry.speciesExotic", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(austereDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesAustere", UID0: "forestry.speciesAustere", Slot: 0 as byte}]}})]);
+recipes.addShapeless(austereDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesAustere", UID0: "forestry.speciesAustere", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(endedDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesEnded", UID0: "forestry.speciesEnded", Slot: 0 as byte}]}})]);
+recipes.addShapeless(endedDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesEnded", UID0: "forestry.speciesEnded", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(wintryDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesWintry", UID0: "forestry.speciesWintry", Slot: 0 as byte}]}})]);
+recipes.addShapeless(wintryDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesWintry", UID0: "forestry.speciesWintry", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(tropicalDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesTropical", UID0: "forestry.speciesTropical", Slot: 0 as byte}]}})]);
+recipes.addShapeless(tropicalDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesTropical", UID0: "forestry.speciesTropical", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(steadfastDrone,[<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesSteadfast", UID0: "forestry.speciesSteadfast", Slot: 0 as byte}]}})]);
+recipes.addShapeless(steadfastDrone,[<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesSteadfast", UID0: "forestry.speciesSteadfast", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(phantasmalDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesPhantasmal", UID0: "forestry.speciesPhantasmal", Slot: 0 as byte}]}})]);
+recipes.addShapeless(phantasmalDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesPhantasmal", UID0: "forestry.speciesPhantasmal", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(glacialDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesGlacial", UID0: "forestry.speciesGlacial", Slot: 0 as byte}]}})]);
+recipes.addShapeless(glacialDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesGlacial", UID0: "forestry.speciesGlacial", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(sinisterDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesSinister", UID0: "forestry.speciesSinister", Slot: 0 as byte}]}})]);
+recipes.addShapeless(sinisterDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesSinister", UID0: "forestry.speciesSinister", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(icyDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesIcy", UID0: "forestry.speciesIcy", Slot: 0 as byte}]}})]);
+recipes.addShapeless(icyDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesIcy", UID0: "forestry.speciesIcy", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(heroicDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesHeroic", UID0: "forestry.speciesHeroic", Slot: 0 as byte}]}})]);
+recipes.addShapeless(heroicDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesHeroic", UID0: "forestry.speciesHeroic", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(edenicDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesEdenic", UID0: "forestry.speciesEdenic", Slot: 0 as byte}]}})]);
+recipes.addShapeless(edenicDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesEdenic", UID0: "forestry.speciesEdenic", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(spectralDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesSpectral", UID0: "forestry.speciesSpectral", Slot: 0 as byte}]}})]);
+recipes.addShapeless(spectralDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesSpectral", UID0: "forestry.speciesSpectral", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(frugalDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesFrugal", UID0: "forestry.speciesFrugal", Slot: 0 as byte}]}})]);
+recipes.addShapeless(frugalDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesFrugal", UID0: "forestry.speciesFrugal", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(demonicDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesDemonic", UID0: "forestry.speciesDemonic", Slot: 0 as byte}]}})]);
+recipes.addShapeless(demonicDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesDemonic", UID0: "forestry.speciesDemonic", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(fiendishDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesFiendish", UID0: "forestry.speciesFiendish", Slot: 0 as byte}]}})]);
+recipes.addShapeless(fiendishDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesFiendish", UID0: "forestry.speciesFiendish", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(modestDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesModest", UID0: "forestry.speciesModest", Slot: 0 as byte}]}})]);
+recipes.addShapeless(modestDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesModest", UID0: "forestry.speciesModest", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(boggyDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesBoggy", UID0: "forestry.speciesBoggy", Slot: 0 as byte}]}})]);
+recipes.addShapeless(boggyDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesBoggy", UID0: "forestry.speciesBoggy", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(leporineDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesLeporine", UID0: "forestry.speciesLeporine", Slot: 0 as byte}]}})]);
+recipes.addShapeless(leporineDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesLeporine", UID0: "forestry.speciesLeporine", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(miryDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesMiry", UID0: "forestry.speciesMiry", Slot: 0 as byte}]}})]);
+recipes.addShapeless(miryDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesMiry", UID0: "forestry.speciesMiry", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(marshyDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesMarshy", UID0: "forestry.speciesMarshy", Slot: 0 as byte}]}})]);
+recipes.addShapeless(marshyDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesMarshy", UID0: "forestry.speciesMarshy", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(agrarianDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesAgrarian", UID0: "forestry.speciesAgrarian", Slot: 0 as byte}]}})]);
+recipes.addShapeless(agrarianDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesAgrarian", UID0: "forestry.speciesAgrarian", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(farmerlyDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesFarmerly", UID0: "forestry.speciesFarmerly", Slot: 0 as byte}]}})]);
+recipes.addShapeless(farmerlyDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesFarmerly", UID0: "forestry.speciesFarmerly", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(monasticDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesMonastic", UID0: "forestry.speciesMonastic", Slot: 0 as byte}]}})]);
+recipes.addShapeless(monasticDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesMonastic", UID0: "forestry.speciesMonastic", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(merryDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesMerry", UID0: "forestry.speciesMerry", Slot: 0 as byte}]}})]);
+recipes.addShapeless(merryDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesMerry", UID0: "forestry.speciesMerry", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(tipsyDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesTipsy", UID0: "forestry.speciesTipsy", Slot: 0 as byte}]}})]);
+recipes.addShapeless(tipsyDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesTipsy", UID0: "forestry.speciesTipsy", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(secludedDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesSecluded", UID0: "forestry.speciesSecluded", Slot: 0 as byte}]}})]);
+recipes.addShapeless(secludedDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesSecluded", UID0: "forestry.speciesSecluded", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(hermiticDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesHermitic", UID0: "forestry.speciesHermitic", Slot: 0 as byte}]}})]);
+recipes.addShapeless(hermiticDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesHermitic", UID0: "forestry.speciesHermitic", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(trickyDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesTricky", UID0: "forestry.speciesTricky", Slot: 0 as byte}]}})]);
+recipes.addShapeless(trickyDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesTricky", UID0: "forestry.speciesTricky", Slot: 0 as byte}]}})]);
 
-recipes.addShapeless(ruralDrone, [<Forestry:beeDroneGE>.onlyWithTag({IsAnalyzed: 1 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesRural", UID0: "forestry.speciesRural", Slot: 0 as byte}]}})]);
+recipes.addShapeless(ruralDrone, [<Forestry:beeDroneGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesRural", UID0: "forestry.speciesRural", Slot: 0 as byte}]}})]);
