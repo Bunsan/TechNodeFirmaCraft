@@ -26,7 +26,6 @@
 	recipes.remove(<RedLogic:redlogic.arrayCells:1>);
 	recipes.remove(<RedLogic:redlogic.arrayCells>);
 	recipes.remove(<RedLogic:redlogic.screwdriver>);
-	recipes.remove(<RedLogic:redlogic.wire>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -43,7 +42,6 @@
 // ================================================================================
 //#MARKER ADD SHAPED
 
-	recipes.addShaped(<RedLogic:redlogic.wire> * 16, [[<minecraft:redstone>, null, <minecraft:redstone>], [<minecraft:redstone>, <ore:ironIngot>, <minecraft:redstone>], [<minecraft:redstone>, null, <minecraft:redstone>]]);
 	recipes.addShaped(<RedLogic:redlogic.gates:17>, [[null, <minecraft:redstone>, <minecraft:redstone_torch>], [<minecraft:redstone>, <RedLogic:redlogic.gates:3>, <ore:ingotIron>], [null, <minecraft:redstone>, null]]);
 	recipes.addShaped(<RedLogic:redlogic.gates:14>, [[null, <minecraft:redstone_torch>, null], [<minecraft:redstone_torch>, <ore:ingotIron>, <minecraft:redstone_torch>], [null, <minecraft:redstone_torch>, null]]);
 	recipes.addShaped(<RedLogic:redlogic.gates:13>, [[<minecraft:redstone_torch>, null, null], [<ore:ingotIron>, <ore:dustRedstone>, <ore:dustRedstone>], [<minecraft:redstone_torch>, null, null]]);
