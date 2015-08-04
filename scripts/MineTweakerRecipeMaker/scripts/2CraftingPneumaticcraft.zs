@@ -125,10 +125,11 @@ recipes.addShaped(<PneumaticCraft:assemblyLaser>, [[<ore:dyeRed>, <PneumaticCraf
 	//mods.pneumaticcraft.Assembly.removeDrillRecipe(<minecraft:diamond>);
  
 //Assembly Laser Recipes
-//InputStack, OutputStack
-	//mods.pneumaticcraft.Assembly.addLaserRecipe(<minecraft:cobblestone>, <minecraft:diamond>);
 //OutputStack
-	//mods.pneumaticcraft.Assembly.removeLaserRecipe(<minecraft:bucket>);
+	mods.pneumaticcraft.Assembly.removeLaserRecipe(<PneumaticCraft:aphorismTile> * 4);
+//InputStack, OutputStack
+	mods.pneumaticcraft.Assembly.addLaserRecipe(<customitems:block_of_jet>, <PneumaticCraft:aphorismTile> * 4);
+
 
 //Assembly Laser Drill Recipes
 //InputStack, OutputStack

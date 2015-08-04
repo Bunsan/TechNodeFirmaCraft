@@ -182,14 +182,19 @@
 	recipes.addShaped(<Mekanism:RoadPlasticBlock:13> * 3, [[<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>], [<Mekanism:SlickPlasticBlock:13>, <Mekanism:SlickPlasticBlock:13>, <Mekanism:SlickPlasticBlock:13>], [<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>]]);
 	recipes.addShaped(<Mekanism:RoadPlasticBlock:14> * 3, [[<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>], [<Mekanism:SlickPlasticBlock:14>, <Mekanism:SlickPlasticBlock:14>, <Mekanism:SlickPlasticBlock:14>], [<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>]]);
 	recipes.addShaped(<Mekanism:RoadPlasticBlock:15> * 3, [[<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>], [<Mekanism:SlickPlasticBlock:15>, <Mekanism:SlickPlasticBlock:15>, <Mekanism:SlickPlasticBlock:15>], [<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>]]);
+
 //# RE-ADD Energy Cubes
-	recipes.addShaped(<Mekanism:EnergyCube:100>.withTag({tier: "Basic"}), [[<ore:dustRedstone>, <ore:battery>, <ore:dustRedstone>], [<ore:ingotIron>, <Mekanism:BasicBlock:8>, <ore:ingotIron>], [<ore:dustRedstone>, <ore:battery>, <ore:dustRedstone>]]);
-	recipes.addShaped(<Mekanism:EnergyCube:100>.withTag({tier: "Advanced"}), [[<ore:alloyAdvanced>, <ore:battery>, <ore:alloyAdvanced>], [<terrafirmacraft:item.Steel Ingot>, <Mekanism:EnergyCube:100>.withTag({tier: "Basic"}), <terrafirmacraft:item.Steel Ingot>], [<ore:alloyAdvanced>, <ore:battery>, <ore:alloyAdvanced>]]);
-	recipes.addShaped(<Mekanism:EnergyCube:100>.withTag({tier: "Elite"}), [[<ore:alloyElite>, <ore:battery>, <ore:alloyElite>], [<ore:ingotBlackSteel>, <Mekanism:EnergyCube:100>.withTag({tier: "Advanced"}), <ore:ingotBlackSteel>], [<ore:alloyElite>, <ore:battery>, <ore:alloyElite>]]);
-	recipes.addShaped(<Mekanism:EnergyCube:100>.withTag({tier: "Ultimate"}), [[<ore:alloyElite>, <ore:battery>, <ore:alloyElite>], [<terrafirmacraft:item.Blue Steel Ingot>, <Mekanism:EnergyCube:100>.withTag({tier: "Elite"}), <terrafirmacraft:item.Red Steel Ingot>], [<ore:alloyElite>, <ore:battery>, <ore:alloyElite>]]);
+	recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Basic"}), [[<ore:dustRedstone>, <ore:battery>, <ore:dustRedstone>], [<ore:ingotIron>, <Mekanism:BasicBlock:8>, <ore:ingotIron>], [<ore:dustRedstone>, <ore:battery>, <ore:dustRedstone>]]);
+
+	recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Advanced"}), [[<ore:alloyAdvanced>, <ore:battery>, <ore:alloyAdvanced>], [<terrafirmacraft:item.Steel Ingot>, <Mekanism:EnergyCube:*>.onlyWithTag({tier: "Basic"}), <terrafirmacraft:item.Steel Ingot>], [<ore:alloyAdvanced>, <ore:battery>, <ore:alloyAdvanced>]]);
+
+	recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Elite"}), [[<ore:alloyElite>, <ore:battery>, <ore:alloyElite>], [<ore:ingotBlackSteel>, <Mekanism:EnergyCube:*>.onlyWithTag({tier: "Advanced"}), <ore:ingotBlackSteel>], [<ore:alloyElite>, <ore:battery>, <ore:alloyElite>]]);
+
+	recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Ultimate"}), [[<ore:alloyElite>, <ore:battery>, <ore:alloyElite>], [<terrafirmacraft:item.Blue Steel Ingot>, <Mekanism:EnergyCube:*>.onlyWithTag({tier: "Elite"}), <terrafirmacraft:item.Red Steel Ingot>], [<ore:alloyElite>, <ore:battery>, <ore:alloyElite>]]);
+
 //# RE-ADD Generators
-	recipes.addShaped(<MekanismGenerators:Generator:6>, [[null, <ore:ingotSteel>, null], [<terrafirmacraft:item.Steel Ingot>, <ore:circuitElite>, <terrafirmacraft:item.Steel Ingot>], [<ore:plateBlackSteel>, <Mekanism:EnergyCube:100>.withTag({tier: "Basic"}), <ore:plateBlackSteel>]]);
-	recipes.addShaped(<MekanismGenerators:Generator:5>, [[<MekanismGenerators:Generator:1>, <ore:alloyUltimate>, <MekanismGenerators:Generator:1>], [<MekanismGenerators:Generator:1>, <ore:ingotBlueSteel>, <MekanismGenerators:Generator:1>], [<ore:plateBlackSteel>, <Mekanism:EnergyCube:100>.withTag({tier: "Basic"}), <ore:plateBlackSteel>]]);
+	recipes.addShaped(<MekanismGenerators:Generator:6>, [[null, <ore:ingotSteel>, null], [<terrafirmacraft:item.Steel Ingot>, <ore:circuitElite>, <terrafirmacraft:item.Steel Ingot>], [<ore:plateBlackSteel>, <Mekanism:EnergyCube:*>.onlyWithTag({tier: "Basic"}), <ore:plateBlackSteel>]]);
+	recipes.addShaped(<MekanismGenerators:Generator:5>, [[<MekanismGenerators:Generator:1>, <ore:alloyUltimate>, <MekanismGenerators:Generator:1>], [<MekanismGenerators:Generator:1>, <ore:ingotBlueSteel>, <MekanismGenerators:Generator:1>], [<ore:plateBlackSteel>, <Mekanism:EnergyCube:*>.onlyWithTag({tier: "Basic"}), <ore:plateBlackSteel>]]);
 	recipes.addShaped(<MekanismGenerators:Generator:1>, [[<MekanismGenerators:SolarPanel>, <MekanismGenerators:SolarPanel>, <MekanismGenerators:SolarPanel>], [<ore:alloyElite>, <ore:ingotBlackSteel>, <ore:alloyElite>], [<ore:plateBlackSteel>, <Mekanism:EnergyTablet:100>, <ore:plateBlackSteel>]]);
 	recipes.addShaped(<MekanismGenerators:Generator>, [[<ore:plateSteel>, <ore:ingotSteel>, <ore:plateSteel>], [<ore:alloyAdvanced>, <ore:ingotOsmium>, <ore:alloyAdvanced>], [<ore:plateBlackSteel>, <terrafirmacraft:Crucible>, <ore:plateBlackSteel>]]);
 //# RE-ADD Machines
@@ -231,8 +236,15 @@
 
 //# Metallurgic Infuser
 //OutputStack
-	//mods.mekanism.Infuser.removeRecipe(<minecraft:mossy_cobblestone>);
+	mods.mekanism.Infuser.removeRecipe(<minecraft:mossy_cobblestone>);
+	mods.mekanism.Infuser.removeRecipe(<Mekanism:Ingot:2>);
+	mods.mekanism.Infuser.removeRecipe(<minecraft:stonebrick:1>);
+	mods.mekanism.Infuser.removeRecipe(<minecraft:dirt>);
+	mods.mekanism.Infuser.removeRecipe(<minecraft:dirt:2>);
+	mods.mekanism.Infuser.removeRecipe(<minecraft:mycelium>);
 
+//# Crusher
+	mods.mekanism.Crusher.removeRecipe(<ImmersiveEngineering:metal:14>);
 //# Compressor
 //OutputStack
 	//mods.mekanism.Compressor.removeRecipe(<Mekanism:Ingot:3>);
@@ -372,6 +384,7 @@
 		}
 	mods.mekanism.Infuser.addRecipe("CARBON", 50, <terrafirmacraft:item.Wrought Iron Ingot>, <Mekanism:EnrichedIron>);
 	mods.mekanism.Infuser.addRecipe("REDSTONE", 10, <terrafirmacraft:item.Steel Ingot>, <Mekanism:EnrichedAlloy>);
+	mods.mekanism.Infuser.addRecipe("TIN", 10, <terrafirmacraft:item.Copper Ingot>, <terrafirmacraft:item.Bronze Ingot>);
 
 //Compressor
 //InputStack, OutputStack

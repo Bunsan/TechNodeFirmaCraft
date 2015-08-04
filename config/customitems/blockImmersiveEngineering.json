@@ -1,0 +1,40 @@
+{
+    "blocks": [         
+        {
+            "name": "Blast Furnace Casing",
+            "multipleTextures": {
+                "xpos": "blockIEBlastSide",
+                "xneg": "blockIEBlastSide",
+                "zpos": "blockIEBlastSide",
+                "zneg": "blockIEBlastSide",
+                "ypos": "blockIEBlastTop",
+                "yneg": "blockIEBlastTop"
+            },          
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "maxStackSize": 32,
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        },
+	{
+
+            "name": "Blast Furnace Core",
+            "multipleTextures": {
+                "xpos": "blockIEBlastCoreSide",
+                "xneg": "blockIEBlastCoreSide",
+                "zpos": "blockIEBlastCoreSide",
+                "zneg": "blockIEBlastCoreSide",
+                "ypos": "blockIEBlastTop",
+                "yneg": "blockIEBlastTop"
+            },          
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "maxStackSize": 32,
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        }
+
+  ]
+}
