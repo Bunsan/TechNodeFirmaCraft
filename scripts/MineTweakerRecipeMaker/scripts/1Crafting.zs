@@ -53,6 +53,11 @@ oreNickel.add(<TabulaRasa:RasaItem0:8>);
 val oreZinc = <ore:oreZinc>;
 oreZinc.add(<TabulaRasa:RasaItem0:12>);
 
+val oreAluminum = <ore:oreAluminum>;
+oreAluminum.add(<terrafirmacraft:item.Ore:30>);
+val oreSerpentine = <ore:oreSerpentine>;
+oreSerpentine.remove(<terrafirmacraft:item.Ore:30>);
+
 val dustPlatinum = <ore:dustPlatinum>;
 dustPlatinum.add(<TabulaRasa:RasaItem1:3>);
 val dustBismuth = <ore:dustBismuth>;

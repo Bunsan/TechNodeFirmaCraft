@@ -50,6 +50,7 @@ recipes.remove(<PneumaticCraft:pressureChamberWall:6>);
 recipes.remove(<PneumaticCraft:pressureChamberValve>);
 recipes.remove(<PneumaticCraft:pressureChamberWall>);
 recipes.remove(<PneumaticCraft:electrostaticCompressor>);
+recipes.remove(<PneumaticCraft:seismicSensor>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -65,7 +66,10 @@ recipes.remove(<PneumaticCraft:electrostaticCompressor>);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+	recipes.addShaped(<PneumaticCraft:seismicSensor>, [[null, <minecraft:redstone_torch>, null], [<ore:blockGlass>, <minecraft:repeater>, <ore:blockGlass>], [<ore:blockGlass>, <ore:gemCoal>, <ore:blockGlass>]]);
+
 	recipes.addShaped(<PneumaticCraft:machineUpgrade:9>, [[<ore:oreLapis>, <minecraft:obsidian>, <ore:oreLapis>], [<minecraft:obsidian>, <PneumaticCraft:safetyTubeModule>, <minecraft:obsidian>], [<ore:oreLapis>, <minecraft:obsidian>, <ore:oreLapis>]]);
+
 	recipes.addShaped(<PneumaticCraft:pcbBlueprint>, [[<ore:gemSapphire>, <ore:gemSapphire>, <ore:gemSapphire>], [<ore:gemSapphire>, <ore:ingotIronCompressed>, <ore:gemSapphire>], [<ore:gemSapphire>, <ore:gemSapphire>, <ore:gemSapphire>]]);
 
 	recipes.addShaped(<PneumaticCraft:assemblyProgram:1>, [[<terrafirmacraft:item.Emerald:2>, <terrafirmacraft:item.Emerald:2>, <terrafirmacraft:item.Emerald:2>], [<terrafirmacraft:item.Emerald:2>, <ore:dyeRed>, <terrafirmacraft:item.Emerald:2>], [<terrafirmacraft:item.Emerald:2>, <terrafirmacraft:item.Emerald:2>, <terrafirmacraft:item.Emerald:2>]]);
