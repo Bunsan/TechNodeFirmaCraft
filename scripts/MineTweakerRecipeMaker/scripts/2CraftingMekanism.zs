@@ -297,6 +297,10 @@
 	mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem4:1>, <TabulaRasa:RasaItem3:1>);
 	mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem4:2>, <TabulaRasa:RasaItem3:2>);
 	mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem4:3>, <TabulaRasa:RasaItem3:3>);
+	mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem1:10>, <TabulaRasa:RasaItem1:13>);
+	mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem1:11>, <TabulaRasa:RasaItem1:14>);
+	mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem1:12>, <TabulaRasa:RasaItem1:15>);
+
 //Chemical Injection
 	mods.mekanism.chemical.Injection.addRecipe(<terrafirmacraft:item.Ore:25>, <gas:hydrogenChloride>, <Mekanism:Shard:2> * 4);
 	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0>, <gas:hydrogenChloride>, <Mekanism:Shard:3> * 4);

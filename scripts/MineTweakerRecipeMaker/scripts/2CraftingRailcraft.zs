@@ -630,8 +630,12 @@ recipes.addShaped(<Railcraft:brick.nether:1>, [[<minecraft:netherbrick>, <terraf
 		}
 	mods.railcraft.BlastFurnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, false, false, 1278, <terrafirmacraft:item.Pig Iron Ingot>);
 	mods.railcraft.BlastFurnace.addRecipe(<Mekanism:DirtyDust>, true, false, 638, <terrafirmacraft:item.Wrought Iron Ingot>);
+	mods.railcraft.BlastFurnace.addRecipe(<TabulaRasa:RasaItem1:13>, true, false, 638, <terrafirmacraft:item.Weak Steel Ingot>);
+	mods.railcraft.BlastFurnace.addRecipe(<TabulaRasa:RasaItem1:14>, true, false, 638, <terrafirmacraft:item.Weak Blue Steel Ingot>);
+	mods.railcraft.BlastFurnace.addRecipe(<TabulaRasa:RasaItem1:15>, true, false, 638, <terrafirmacraft:item.Weak Red Steel Ingot>);
+
 //OutputStack
-	//mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:tile.railcraft.cube:2>);
+	mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:ingot>);
 
 //Coke oven recipes
 //InputStack, matchDamage, matchNBT, OutputStack, fluidOutput, Cook time

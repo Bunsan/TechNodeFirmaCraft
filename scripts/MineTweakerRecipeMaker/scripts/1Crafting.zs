@@ -542,6 +542,13 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 	furnace.addRecipe(<terrafirmacraft:Vessel:1>, <terrafirmacraft:Vessel>);
 	furnace.addRecipe(<terrafirmacraft:item.Fire Brick:1>, <terrafirmacraft:item.Fire Brick>);
 	furnace.addRecipe(<Forestry:canLava>, <Forestry:canSeedOil>);
+	furnace.addRecipe(<terrafirmacraft:item.Bronze Ingot>, <TabulaRasa:RasaItem1:4>);
+	furnace.addRecipe(<terrafirmacraft:item.Bismuth Bronze Ingot>, <TabulaRasa:RasaItem1:5>);
+	furnace.addRecipe(<terrafirmacraft:item.Black Bronze Ingot>, <TabulaRasa:RasaItem1:6>);
+	furnace.addRecipe(<terrafirmacraft:item.Brass Ingot>, <TabulaRasa:RasaItem1:7>);
+	furnace.addRecipe(<terrafirmacraft:item.Rose Gold Ingot>, <TabulaRasa:RasaItem1:8>);
+	furnace.addRecipe(<terrafirmacraft:item.Sterling Silver Ingot>, <TabulaRasa:RasaItem1:9>);
+
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
@@ -828,4 +835,27 @@ recipes.addShaped(<HardcoreQuesting:item_barrel>, [[<ore:plankWood>, <ore:blockG
 
 //# WR-CBE
 	recipes.addShaped(<WR-CBE|Core:recieverDish>, [[<WR-CBE|Core:wirelessTransceiver>], [<terrafirmacraft:item.GoldPan>]]);
+
+//# Alloy Dusts
+
+	recipes.addShaped(<TabulaRasa:RasaItem1:4>, [[<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>], [<ore:dustCopper>, <ore:dustTin>, <ore:dustCopper>], [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>]]);
+
+	recipes.addShaped(<TabulaRasa:RasaItem1:5>, [[<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>], [<ore:dustZinc>, <ore:dustBismuth>, <ore:dustZinc>], [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>]]);
+
+	recipes.addShaped(<TabulaRasa:RasaItem1:6>, [[<ore:dustCopper>, <ore:dustGold>, <ore:dustCopper>], [<ore:dustSilver>, <ore:dustCopper>, <ore:dustSilver>], [<ore:dustCopper>, <ore:dustGold>, <ore:dustCopper>]]);
+
+	recipes.addShaped(<TabulaRasa:RasaItem1:7>, [[<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>], [<ore:dustCopper>, <ore:dustZinc>, <ore:dustCopper>], [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>]]);
+
+	recipes.addShaped(<TabulaRasa:RasaItem1:8>, [[<ore:dustGold>, <ore:dustGold>, <ore:dustGold>], [<ore:dustCopper>, <ore:dustGold>, <ore:dustCopper>], [<ore:dustGold>, <ore:dustGold>, <ore:dustGold>]]);
+
+	recipes.addShaped(<TabulaRasa:RasaItem1:9>, [[<ore:dustSilver>, <ore:dustSilver>, <ore:dustSilver>], [<ore:dustCopper>, <ore:dustSilver>, <ore:dustCopper>], [<ore:dustSilver>, <ore:dustSilver>, <ore:dustSilver>]]);
+
+	recipes.addShaped(<TabulaRasa:RasaItem1:9>, [[<ore:dustSilver>, <ore:dustSilver>, <ore:dustSilver>], [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>], [<ore:dustSilver>, <ore:dustSilver>, <ore:dustSilver>]]);
+
+	recipes.addShaped(<TabulaRasa:RasaItem1:10>, [[<ore:dustSteel>, <ore:dustNickel>, <ore:dustSteel>], [<TabulaRasa:RasaItem1:6>, <ore:dustSteel>, <TabulaRasa:RasaItem1:6>], [<ore:dustSteel>, <ore:dustNickel>, <ore:dustSteel>]]);
+
+	recipes.addShaped(<TabulaRasa:RasaItem1:11>, [[<TabulaRasa:RasaItem1:10>, <TabulaRasa:RasaItem1:5>, <TabulaRasa:RasaItem1:10>], [<ore:dustSteel>, <TabulaRasa:RasaItem1:10>, <ore:dustSteel>], [<TabulaRasa:RasaItem1:10>, <TabulaRasa:RasaItem1:9>, <TabulaRasa:RasaItem1:10>]]);
+
+	recipes.addShaped(<TabulaRasa:RasaItem1:12>, [[<TabulaRasa:RasaItem1:10>, <TabulaRasa:RasaItem1:7>, <TabulaRasa:RasaItem1:10>], [<ore:dustSteel>, <TabulaRasa:RasaItem1:10>, <ore:dustSteel>], [<TabulaRasa:RasaItem1:10>, <TabulaRasa:RasaItem1:8>, <TabulaRasa:RasaItem1:10>]]);
+
 // ================================================================================
