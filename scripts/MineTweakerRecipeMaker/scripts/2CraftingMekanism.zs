@@ -13,19 +13,12 @@
 //#MARKER REMOVE
 
 	recipes.remove(<Mekanism:ObsidianTNT>);
-	recipes.remove(<Mekanism:BasicBlock:13>);
-	recipes.remove(<Mekanism:BasicBlock:12>);
 	recipes.remove(<Mekanism:BasicBlock:11>);
 	recipes.remove(<Mekanism:BasicBlock:10>);
 	recipes.remove(<Mekanism:BasicBlock:9>);
 	recipes.remove(<Mekanism:BasicBlock:8>);
-	recipes.remove(<Mekanism:BasicBlock:5>);
-	recipes.remove(<Mekanism:BasicBlock:4>);
-	recipes.remove(<Mekanism:BasicBlock:3>);
-	recipes.remove(<Mekanism:BasicBlock:2>);
-	recipes.remove(<Mekanism:BasicBlock:1>);
-	recipes.remove(<Mekanism:BasicBlock>);
 	recipes.remove(<Mekanism:BasicBlock:6>);
+	recipes.remove(<Mekanism:BasicBlock:3>);
 	recipes.remove(<MekanismGenerators:Generator:6>);
 	recipes.remove(<MekanismGenerators:Generator:5>);
 	recipes.remove(<MekanismGenerators:Generator:4>);
@@ -133,7 +126,6 @@
 	recipes.addShaped(<Mekanism:PartTransmitter:4> * 8, [[null, item.anyDamage().transformDamage(), null], [<ore:ingotSteel>, <terrafirmacraft:Vessel:1>, <ore:ingotSteel>]]);
 		}
 //# RE-ADD Armour stuff
-	//(Offers no extra protection)recipes.addShaped(<Mekanism:ArmoredJetpack:100>.withTag({ench: [{id: 0 as short, lvl: 5 as short}, {id: 1 as short, lvl: 5 as short}, {id: 3 as short, lvl: 5 as short}, {id: 4 as short, lvl: 5 as short}]}), [[<ore:dustDiamond>, <ore:circuitUltimate>, <ore:dustDiamond>], [<ore:plateDoubleBlueSteel>, <ore:blockSteel>, <ore:plateDoubleRedSteel>], [null, <Mekanism:Jetpack:100>, null]]);
 	recipes.addShaped(<Mekanism:FreeRunners:100>, [[<ore:circuitAdvanced>, <ore:plateBlackSteel>, <ore:circuitAdvanced>], [<ore:alloyAdvanced>, null, <ore:alloyAdvanced>], [<ore:battery>, null, <ore:battery>]]);
 	recipes.addShaped(<Mekanism:Jetpack:100>, [[<ore:ingotBlackSteel>, <ore:circuitElite>, <ore:ingotBlackSteel>], [<ore:plateBlackSteel>, <Mekanism:GasTank:100>, <ore:plateBlackSteel>], [<ore:plateBlackSteel>, null, <ore:plateBlackSteel>]]);
 	recipes.addShaped(<Mekanism:ScubaTank:100>, [[<ore:plateSteel>, <ore:circuitAdvanced>, <ore:plateSteel>], [<ore:alloyAdvanced>, <Mekanism:GasTank:100>, <ore:alloyAdvanced>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
@@ -218,7 +210,10 @@
 	recipes.addShaped(<Mekanism:MachineBlock>, [[<ore:dustRedstone>, <ore:circuitBasic>, <ore:dustRedstone>], [<terrafirmacraft:item.Red Steel Double Ingot>, <Mekanism:BasicBlock:8>, <terrafirmacraft:item.Red Steel Double Ingot>], [<ore:dustRedstone>, <terrafirmacraft:item.Red Steel Double Ingot>, <ore:dustRedstone>]]);
 
 	recipes.addShaped(<MekanismGenerators:Generator:3>, [[<ore:ingotOsmium>, <ore:alloyElite>, <ore:ingotOsmium>], [<Mekanism:BasicBlock:8>, <Mekanism:ElectrolyticCore>, <Mekanism:BasicBlock:8>], [<terrafirmacraft:item.Black Steel Sheet> * 1, <ore:alloyElite>,<terrafirmacraft:item.Black Steel Sheet> * 1]]);
-	recipes.addShaped(<MekanismGenerators:Generator:4>, [[<minecraft:redstone>, <ore:alloyElite>, <minecraft:redstone>], [<ore:itemBioFuel>, <ore:circuitBasic>, <ore:itemBioFuel>], [<terrafirmacraft:item.Black Steel Sheet>, <ore:alloyElite>,<terrafirmacraft:item.Black Steel Sheet> * 1]]);
+	recipes.addShaped(<MekanismGenerators:Generator:4>, [[<minecraft:redstone>, <ore:alloyElite>, <minecraft:redstone>], [<ore:itemBioFuel>, <ore:circuitBasic>, <ore:itemBioFuel>], [<terrafirmacraft:item.Black Steel Sheet>, <ore:alloyElite>,<terrafirmacraft:item.Black Steel Sheet>]]);
+
+//# Bins
+	recipes.addShaped(<Mekanism:BasicBlock:6>, [[<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>], [<ore:stoneSmooth>, <ore:circuitBasic>, <ore:stoneSmooth>], [<ore:stoneSmooth>, <ore:stoneSmooth>,<ore:stoneSmooth>]]);
 // ================================================================================
 //# Custom Machine Recipes
 
@@ -289,7 +284,7 @@
 	mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem0:11>, <Mekanism:Clump> * 3);
 	mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem0:4>, <Mekanism:Clump:5> * 3);
 	mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem0:5>, <Mekanism:Clump:4> * 3);
-	mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem0:6>, <Mekanism:Clump:7> * 3);
+	mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem0:6>, <Mekanism:Clump:6> * 3);
 	mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem0:7>, <TabulaRasa:RasaItem3:1> * 3);
 	mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem0:8>, <TabulaRasa:RasaItem3:2> * 3);
 	mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem0:12>, <TabulaRasa:RasaItem3> * 3);
@@ -313,7 +308,7 @@
 	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:11>, <gas:hydrogenChloride>, <Mekanism:Shard> * 4);
 	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:4>, <gas:hydrogenChloride>, <Mekanism:Shard:5> * 4);
 	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:5>, <gas:hydrogenChloride>, <Mekanism:Shard:4> * 4);
-	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:6>, <gas:hydrogenChloride>, <Mekanism:Shard:7> * 4);
+	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:6>, <gas:hydrogenChloride>, <Mekanism:Shard:6> * 4);
 	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:7>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4:1> * 4);
 	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:8>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4:2> * 4);
 	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:12>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4> * 4);

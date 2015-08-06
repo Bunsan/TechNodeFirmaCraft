@@ -178,6 +178,10 @@ oreScapolite.add(<terrafirmacraft:item.Ore:19>);
 val oreSelenite = <ore:oreSelenite>;
 oreSelenite.remove(<terrafirmacraft:item.Ore:19>);
 
+//# REMOVE IE Steel Block
+val blockSteel = <ore: blockSteel>;
+blockSteel.remove(<ImmersiveEngineering:storage:7>);
+
 //# REPLACEMENT of Osmium with TFC Microcline
 val oreOsmium = <ore:oreOsmium>;
 oreOsmium.add(<terrafirmacraft:item.Ore:25>);
@@ -455,6 +459,36 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 	recipes.remove(<minecraft:arrow>);
 	recipes.remove(<minecraft:magma_cream>);
 	recipes.remove(<minecraft:sponge>);
+//# Metal Block Recipes
+	recipes.remove(<Railcraft:cube:9>);
+	recipes.remove(<Railcraft:cube:2>);
+	recipes.remove(<minecraft:iron_ingot>);
+	recipes.remove(<minecraft:gold_ingot>);
+	recipes.remove(<ImmersiveEngineering:storage>);
+	recipes.remove(<ImmersiveEngineering:storage:1>);
+	recipes.remove(<ImmersiveEngineering:storage:2>);
+	recipes.remove(<ImmersiveEngineering:storage:3>);
+	recipes.remove(<ImmersiveEngineering:storage:4>);
+	recipes.remove(<ImmersiveEngineering:storage:5>);
+	recipes.remove(<ImmersiveEngineering:storage:6>);
+	recipes.remove(<Forestry:resourceStorage:3>);
+	recipes.remove(<Forestry:resourceStorage:2>);
+	recipes.remove(<Forestry:resourceStorage:1>);
+	recipes.remove(<Forestry:resourceStorage>);
+	recipes.remove(<Mekanism:BasicBlock:0>);
+	recipes.remove(<Mekanism:BasicBlock:1>);
+	recipes.remove(<Mekanism:BasicBlock:5>);
+	recipes.remove(<Mekanism:BasicBlock:12>);
+	recipes.remove(<Mekanism:BasicBlock:13>);
+
+
+//# REMOVAL of Ingot to Nugget Recipes (Replaced with Ore Dictionary Compatible Shapeless Recipes)
+	recipes.remove(<minecraft:gold_ingot>);
+	recipes.remove(<minecraft:iron_ingot>);
+	recipes.remove(<Railcraft:ingot>);
+	recipes.remove(<Railcraft:ingot:2>);
+	recipes.remove(<Railcraft:ingot:1>);
+	recipes.remove(<Railcraft:ingot:3>);
 
 //# TFC
 //# Markings (replaced)
@@ -481,17 +515,6 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
-
-//# REMOVAL of Ore and Mineral Block Recipes (Some ReAdded)
-	recipes.removeShaped(<minecraft:iron_ingot> * 9, [[<minecraft:iron_block>]]);
-	recipes.removeShaped(<minecraft:gold_ingot> * 9, [[<ore:blockGold>]]);
-//# REMOVAL of Ingot to Nugget Recipes (Replaced with Ore Dictionary Compatible Shapeless Recipes)
-	recipes.removeShaped(<minecraft:gold_ingot>, [[<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>], [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>], [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>]]);
-	recipes.removeShaped(<minecraft:iron_ingot>, [[<Railcraft:nugget>, <Railcraft:nugget>, <Railcraft:nugget>], [<Railcraft:nugget>, <Railcraft:nugget>, <Railcraft:nugget>], [<Railcraft:nugget>, <Railcraft:nugget>, <Railcraft:nugget>]]);
-	recipes.removeShaped(<Railcraft:ingot>, [[<Railcraft:nugget:1>, <Railcraft:nugget:1>, <Railcraft:nugget:1>], [<Railcraft:nugget:1>, <Railcraft:nugget:1>, <Railcraft:nugget:1>], [<Railcraft:nugget:1>, <Railcraft:nugget:1>, <Railcraft:nugget:1>]]);
-	recipes.removeShaped(<Railcraft:ingot:2>, [[<Railcraft:nugget:3>, <Railcraft:nugget:3>, <Railcraft:nugget:3>], [<Railcraft:nugget:3>, <Railcraft:nugget:3>, <Railcraft:nugget:3>], [<Railcraft:nugget:3>, <Railcraft:nugget:3>, <Railcraft:nugget:3>]]);
-	recipes.removeShaped(<Railcraft:ingot:1>, [[<Railcraft:nugget:2>, <Railcraft:nugget:2>, <Railcraft:nugget:2>], [<Railcraft:nugget:2>, <Railcraft:nugget:2>, <Railcraft:nugget:2>], [<Railcraft:nugget:2>, <Railcraft:nugget:2>, <Railcraft:nugget:2>]]);
-	recipes.removeShaped(<Railcraft:ingot:3>, [[<Railcraft:nugget:4>, <Railcraft:nugget:4>, <Railcraft:nugget:4>], [<Railcraft:nugget:4>, <Railcraft:nugget:4>, <Railcraft:nugget:4>], [<Railcraft:nugget:4>, <Railcraft:nugget:4>, <Railcraft:nugget:4>]]);
 
 // ================================================================================
 //#MARKER ADD
@@ -820,8 +843,10 @@ recipes.addShaped(<HardcoreQuesting:item_barrel>, [[<ore:plankWood>, <ore:blockG
 //# Replace Ore and Mineral Blocks
 	for item in <ore:craftingToolMediumHammer>.items {
 	recipes.addShaped(<minecraft:iron_block>, [[null, <ore:plateIron>, null], [<ore:plateIron>, item.anyDamage().transformDamage(), <ore:plateIron>], [null, <ore:plateIron>, null]]);
+	recipes.addShaped(<Railcraft:cube:2>, [[null, <ore:plateSteel>, null], [<ore:plateSteel>, item.anyDamage().transformDamage(), <ore:plateSteel>], [null, <ore:plateSteel>, null]]);
 	recipes.addShaped(<minecraft:gold_block>, [[null, <ore:plateGold>, null], [<ore:plateGold>, item.anyDamage().transformDamage(), <ore:plateGold>], [null, <ore:plateGold>, null]]);
 	recipes.addShaped(<Railcraft:cube:9>, [[null, <ore:plateCopper>, null], [<ore:plateCopper>, item.anyDamage().transformDamage(), <ore:plateCopper>], [null, <ore:plateCopper>, null]]);
+	recipes.addShaped(<ImmersiveEngineering:storage:2>, [[null, <ore:plateLead>, null], [<ore:plateLead>, item.anyDamage().transformDamage(), <ore:plateLead>], [null, <ore:plateLead>, null]]);
 	}
 	recipes.addShaped(<minecraft:lapis_block>, [[<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>], [<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>], [<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>]]);
 

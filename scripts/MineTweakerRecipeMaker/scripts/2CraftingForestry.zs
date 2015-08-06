@@ -14,11 +14,6 @@ import minetweaker.data.IData;
 // ================================================================================
 //#MARKER REMOVE
 
-//# Metal Blocks
-	recipes.remove(<Forestry:resourceStorage:3>);
-	recipes.remove(<Forestry:resourceStorage:2>);
-	recipes.remove(<Forestry:resourceStorage:1>);
-	recipes.remove(<Forestry:resourceStorage>);
 //# Farm Blocks (removed because they won't work)
 	recipes.remove(<Forestry:ffarm:5>);
 	recipes.remove(<Forestry:ffarm:4>);

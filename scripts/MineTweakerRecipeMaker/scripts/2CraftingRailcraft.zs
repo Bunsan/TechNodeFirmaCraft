@@ -58,9 +58,6 @@
 	recipes.remove(<Railcraft:brick.infernal>);
 	recipes.remove(<HardcoreQuesting:item_barrel>);
 
-//# Metal Blocks
-	recipes.remove(<Railcraft:cube:9>);
-	recipes.remove(<Railcraft:cube:2>);
 //# Smoker
 	recipes.remove(<Railcraft:machine.alpha:5>);
 //# FireBoxes
@@ -165,8 +162,10 @@
 //# CLEANUP of NEI recipes to avoid any confusion
 	recipes.removeShaped(<Railcraft:brick.frostbound:2> * 8, [[<minecraft:ice>, <minecraft:ice>, <minecraft:ice>], [<minecraft:ice>, <minecraft:dye:4>, <minecraft:ice>], [<minecraft:ice>, <minecraft:ice>, <minecraft:ice>]]);
 	recipes.removeShaped(<minecraft:carpet:*> * 3, [[<minecraft:wool:*>, <minecraft:wool:*>]]);
-//#Wooden tie recipe with bucket, to avoid confusion
+
+//#Wooden tie recipe with RC cresote containers, to avoid confusion
 	recipes.removeShaped(<Railcraft:part.tie>, [[null, <Railcraft:fluid.creosote.bucket>, null], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
+	recipes.removeShaped(<Railcraft:part.tie>, [[null, <Railcraft:fluid.creosote.bottle>, null], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
 
 // ================================================================================
 //#MARKER ADD
@@ -464,7 +463,9 @@ recipes.addShaped(<Railcraft:brick.nether:1>, [[<minecraft:netherbrick>, <terraf
 
 	recipes.addShaped(<Railcraft:slab:38> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<Railcraft:cube:8>, <Railcraft:cube:8>, <Railcraft:cube:8>]]);
 
-
+//#Wooden tie recipe with Immersive Engineering
+	recipes.addShaped(<Railcraft:part.tie>, [[null, <ImmersiveEngineering:fluidContainers>, null], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
+	recipes.addShaped(<Railcraft:part.tie>, [[null, <ImmersiveEngineering:fluidContainers:1>, null], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
 
 // ================================================================================
 
@@ -608,22 +609,27 @@ recipes.addShaped(<Railcraft:brick.nether:1>, [[<minecraft:netherbrick>, <terraf
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:31>, true, false, [<terrafirmacraft:item.Fertilizer> * 4, <terrafirmacraft:item.Fertilizer>, <terrafirmacraft:item.Fertilizer>], [1.0, 0.25, 0.10]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:17>, true, false, [<DecorationsTFC:item.Powders.Gypsum> * 4, <DecorationsTFC:item.Powders.Gypsum> * 1], [1.0, 0.5]);
 //# Ore Grinding
-	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0>, true, false, [<Mekanism:Dust:6>, <Mekanism:Dust:6>], [1.0, 0.50]);
+	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0>, true, false, [<Mekanism:Dust:3>, <Mekanism:Dust:3>], [1.0, 0.50]);
 	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:1> * 1, true, false, [<Mekanism:Dust:1>, <Mekanism:Dust:1>], [1.0, 0.50]);
 	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:2>, true, false, [<TabulaRasa:RasaItem1:3>, <TabulaRasa:RasaItem1:3>, <Mekanism:Dust:2>], [1.0, 0.50, 0.05]);
 	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:3>, true, false, [<Mekanism:DirtyDust>, <Mekanism:DirtyDust>, <terrafirmacraft:item.Powder:5> * 1], [1.0, 0.50, 0.10]);
-	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:4>, true, false, [<Mekanism:Dust:8>, <Mekanism:Dust:8>], [1.0, 0.50]);
-	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:5>, true, false, [<Mekanism:Dust:7>, <Mekanism:Dust:7>], [1.0, 0.50]);
-	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:6>, true, false, [<Mekanism:Dust:9>, <Mekanism:Dust:9>, <Mekanism:Dust:8>], [1.0, 0.50, 0.05]);
+	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:4>, true, false, [<Mekanism:Dust:5>, <Mekanism:Dust:5>], [1.0, 0.50]);
+	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:5>, true, false, [<Mekanism:Dust:4>, <Mekanism:Dust:4>], [1.0, 0.50]);
+	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:6>, true, false, [<Mekanism:Dust:6>, <Mekanism:Dust:6>, <Mekanism:Dust:5>], [1.0, 0.50, 0.05]);
 	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:7>, true, false, [<TabulaRasa:RasaItem1:1>, <TabulaRasa:RasaItem1:1>, <terrafirmacraft:item.Powder:3>], [1.0, 0.50, 0.10]);
 	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:8>, true, false, [<TabulaRasa:RasaItem1:2>, <TabulaRasa:RasaItem1:2>], [1.0, 0.50]);
-	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:9>, true, false, [<Mekanism:Dust:6>, <Mekanism:Dust:6>, <terrafirmacraft:item.Powder:8>], [1.0, 0.50, 0.10]);
+	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:9>, true, false, [<Mekanism:Dust:3>, <Mekanism:Dust:3>, <terrafirmacraft:item.Powder:8>], [1.0, 0.50, 0.10]);
 	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:10>, true, false, [<Mekanism:DirtyDust>, <Mekanism:DirtyDust>], [1.0, 0.50]);
 	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:11>, true, false, [<Mekanism:DirtyDust>, <Mekanism:DirtyDust>, <terrafirmacraft:item.Powder:7>], [1.0, 0.50, 0.10]);
 	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:12>, true, false, [<TabulaRasa:RasaItem1>, <TabulaRasa:RasaItem1>, <Mekanism:DirtyDust>], [1.0, 0.50, 0.05]);
-	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:13>, true, false, [<Mekanism:Dust:6>, <Mekanism:Dust:6>, <terrafirmacraft:item.Powder:3>], [1.0, 0.50, 0.10]);
+	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:13>, true, false, [<Mekanism:Dust:3>, <Mekanism:Dust:3>, <terrafirmacraft:item.Powder:3>], [1.0, 0.50, 0.10]);
 
 //Blast Furnace Recipes
+//OutputStack
+	mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:ingot>);
+	mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:cube:2>);
+	mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:nugget:1>);
+
 //InputStack, matchDamage, matchNBT, Cook time, OutputStack
 		for item in <ore:oreIron>.items {
 	mods.railcraft.BlastFurnace.addRecipe(item, true, false, 1278, <terrafirmacraft:item.Pig Iron Ingot>);
@@ -634,13 +640,14 @@ recipes.addShaped(<Railcraft:brick.nether:1>, [[<minecraft:netherbrick>, <terraf
 	mods.railcraft.BlastFurnace.addRecipe(<TabulaRasa:RasaItem1:14>, true, false, 638, <terrafirmacraft:item.Weak Blue Steel Ingot>);
 	mods.railcraft.BlastFurnace.addRecipe(<TabulaRasa:RasaItem1:15>, true, false, 638, <terrafirmacraft:item.Weak Red Steel Ingot>);
 
-//OutputStack
-	mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:ingot>);
+
 
 //Coke oven recipes
-//InputStack, matchDamage, matchNBT, OutputStack, fluidOutput, Cook time
-	//mods.railcraft.CokeOven.addRecipe(<ore:logWood>, false, false, <terrafirmacraft:item.coal:1>, <liquid:creosote> * 100, 100);
 //OutputStack
-	//mods.railcraft.CokeOven.removeRecipe(<minecraft:coal:1>);
-//this only removes one of the recipes, not feasible. Adding conversion recipe.
+	mods.railcraft.CokeOven.removeRecipe(<Railcraft:fuel.coke>);
+	mods.railcraft.CokeOven.removeRecipe(<Railcraft:cube>);
+//InputStack, matchDamage, matchNBT, OutputStack, fluidOutput, Cook time
+	mods.railcraft.CokeOven.addRecipe(<minecraft:coal:0>, true, false, <ImmersiveEngineering:material:6>, <liquid:creosote> * 500, 1800);
+	mods.railcraft.CokeOven.addRecipe(<minecraft:coal_block>, true, false, <ImmersiveEngineering:stoneDevice:3>, <liquid:creosote> * 5000, 16200);
+
 

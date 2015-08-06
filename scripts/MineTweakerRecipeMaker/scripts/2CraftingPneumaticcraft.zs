@@ -51,10 +51,13 @@ recipes.remove(<PneumaticCraft:pressureChamberValve>);
 recipes.remove(<PneumaticCraft:pressureChamberWall>);
 recipes.remove(<PneumaticCraft:electrostaticCompressor>);
 recipes.remove(<PneumaticCraft:seismicSensor>);
+recipes.remove(<PneumaticCraft:compressedIronBlock>);
+recipes.remove(<PneumaticCraft:ingotIronCompressed>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
-
+	recipes.addShapeless(<PneumaticCraft:ingotIronCompressed> *8,[<PneumaticCraft:compressedIronBlock>]);
+	recipes.addShapeless(<PneumaticCraft:compressedIronBlock>, [<PneumaticCraft:ingotIronCompressed>,<PneumaticCraft:ingotIronCompressed>, <PneumaticCraft:ingotIronCompressed>, <PneumaticCraft:ingotIronCompressed>, <PneumaticCraft:ingotIronCompressed>, <PneumaticCraft:ingotIronCompressed>, <PneumaticCraft:ingotIronCompressed>, <PneumaticCraft:ingotIronCompressed>]);
 // ================================================================================
 //#MARKER REMOVE SHAPED
 
@@ -70,10 +73,10 @@ recipes.remove(<PneumaticCraft:seismicSensor>);
 
 	recipes.addShaped(<PneumaticCraft:machineUpgrade:9>, [[<ore:oreLapis>, <minecraft:obsidian>, <ore:oreLapis>], [<minecraft:obsidian>, <PneumaticCraft:safetyTubeModule>, <minecraft:obsidian>], [<ore:oreLapis>, <minecraft:obsidian>, <ore:oreLapis>]]);
 
-	recipes.addShaped(<PneumaticCraft:pcbBlueprint>, [[<ore:gemSapphire>, <ore:gemSapphire>, <ore:gemSapphire>], [<ore:gemSapphire>, <ore:ingotIronCompressed>, <ore:gemSapphire>], [<ore:gemSapphire>, <ore:gemSapphire>, <ore:gemSapphire>]]);
+	recipes.addShaped(<PneumaticCraft:pcbBlueprint>, [[<ore:gemChippedSapphire>, <ore:gemChippedSapphire>, <ore:gemChippedSapphire>], [<ore:gemChippedSapphire>, <ore:ingotIronCompressed>, <ore:gemChippedSapphire>], [<ore:gemChippedSapphire>, <ore:gemChippedSapphire>, <ore:gemChippedSapphire>]]);
 
-	recipes.addShaped(<PneumaticCraft:assemblyProgram:1>, [[<terrafirmacraft:item.Emerald:2>, <terrafirmacraft:item.Emerald:2>, <terrafirmacraft:item.Emerald:2>], [<terrafirmacraft:item.Emerald:2>, <ore:dyeRed>, <terrafirmacraft:item.Emerald:2>], [<terrafirmacraft:item.Emerald:2>, <terrafirmacraft:item.Emerald:2>, <terrafirmacraft:item.Emerald:2>]]);
-	recipes.addShaped(<PneumaticCraft:assemblyProgram>, [[<terrafirmacraft:item.Emerald:2>, <terrafirmacraft:item.Emerald:2>, <terrafirmacraft:item.Emerald:2>], [<terrafirmacraft:item.Emerald:2>, <ore:gemDiamond>, <terrafirmacraft:item.Emerald:2>], [<terrafirmacraft:item.Emerald:2>, <terrafirmacraft:item.Emerald:2>, <terrafirmacraft:item.Emerald:2>]]);
+	recipes.addShaped(<PneumaticCraft:assemblyProgram:1>, [[<terrafirmacraft:item.Emerald>, <terrafirmacraft:item.Emerald>, <terrafirmacraft:item.Emerald>], [<terrafirmacraft:item.Emerald>, <ore:dyeRed>, <terrafirmacraft:item.Emerald>], [<terrafirmacraft:item.Emerald>, <terrafirmacraft:item.Emerald>, <terrafirmacraft:item.Emerald>]]);
+	recipes.addShaped(<PneumaticCraft:assemblyProgram>, [[<terrafirmacraft:item.Emerald>, <terrafirmacraft:item.Emerald>, <terrafirmacraft:item.Emerald>], [<terrafirmacraft:item.Emerald>, <ore:gemDiamond>, <terrafirmacraft:item.Emerald>], [<terrafirmacraft:item.Emerald>, <terrafirmacraft:item.Emerald>, <terrafirmacraft:item.Emerald>]]);
 	recipes.addShaped(<PneumaticCraft:networkComponent:5>, [[<PneumaticCraft:transistor>, <PneumaticCraft:transistor>, <PneumaticCraft:transistor>], [<PneumaticCraft:transistor>, <ore:craftingChest>, <PneumaticCraft:transistor>], [<PneumaticCraft:transistor>, <PneumaticCraft:transistor>, <PneumaticCraft:transistor>]]);
 	recipes.addShaped(<PneumaticCraft:networkComponent:4>, [[<PneumaticCraft:plastic:10>, <PneumaticCraft:plastic:10>, <PneumaticCraft:plastic:10>], [<PneumaticCraft:plastic:10>, <ore:craftingChest>, <PneumaticCraft:plastic:10>], [<PneumaticCraft:plastic:10>, <PneumaticCraft:plastic:10>, <PneumaticCraft:plastic:10>]]);
 	recipes.addShaped(<PneumaticCraft:networkComponent:3>, [[<PneumaticCraft:capacitor>, <PneumaticCraft:capacitor>, <PneumaticCraft:capacitor>], [<PneumaticCraft:capacitor>, <ore:craftingChest>, <PneumaticCraft:capacitor>], [<PneumaticCraft:capacitor>, <PneumaticCraft:capacitor>, <PneumaticCraft:capacitor>]]);
@@ -88,7 +91,7 @@ recipes.remove(<PneumaticCraft:seismicSensor>);
 	recipes.addShaped(<PneumaticCraft:machineUpgrade:2>, [[<ore:oreLapis>, <ore:treeSapling>, <ore:oreLapis>], [<ore:treeSapling>, <minecraft:clock>, <ore:treeSapling>], [<ore:oreLapis>, <ore:treeSapling>, <ore:oreLapis>]]);
 recipes.addShaped(<PneumaticCraft:machineUpgrade:1>, [[<ore:oreLapis>, <ore:oreJet>, <ore:oreLapis>], [<ore:oreJet>, <minecraft:dispenser:*>, <ore:oreJet>], [<ore:oreLapis>, <ore:oreJet>, <ore:oreLapis>]]);
 	recipes.addShaped(<PneumaticCraft:machineUpgrade>, [[<ore:oreLapis>, <ore:ingotIronCompressed>, <ore:oreLapis>], [<ore:ingotIronCompressed>, <PneumaticCraft:airCanister:*>, <ore:ingotIronCompressed>], [<ore:oreLapis>, <ore:ingotIronCompressed>, <ore:oreLapis>]]);
-	recipes.addShaped(<PneumaticCraft:machineUpgrade:5>, [[<ore:oreLapis>, <PneumaticCraft:plasticPlant:14>, <ore:oreLapis>], [<PneumaticCraft:plasticPlant:14>, <terrafirmacraft:item.Sugar>.withTag({foodWeight: 40.0 as float}), <PneumaticCraft:plasticPlant:14>], [<ore:oreLapis>, <PneumaticCraft:plasticPlant:14>, <ore:oreLapis>]]);
+	recipes.addShaped(<PneumaticCraft:machineUpgrade:5>, [[<ore:oreLapis>, <terrafirmacraft:item.Vodka>, <ore:oreLapis>], [<terrafirmacraft:item.Vodka>, <PneumaticCraft:lubricantBucket>, <terrafirmacraft:item.Vodka>], [<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Vodka>, <ore:oreLapis>]]);
 	recipes.addShaped(<PneumaticCraft:gpsTool>, [[null, <minecraft:redstone_torch>, null], [<PneumaticCraft:plastic:1>, <ore:paneGlassColorless>, <PneumaticCraft:plastic:1>], [<PneumaticCraft:plastic:1>, <ore:gemDiamond>, <PneumaticCraft:plastic:1>]]);
 	recipes.addShaped(<PneumaticCraft:advancedLiquidCompressor>, [[<PneumaticCraft:plastic:4>, <PneumaticCraft:plastic:4>, <PneumaticCraft:plastic:4>], [<PneumaticCraft:plastic:4>, <terrafirmacraft:item.Blue Steel Bucket Empty>, <PneumaticCraft:advancedPressureTube>], [<PneumaticCraft:plastic:4>, <PneumaticCraft:liquidCompressor>, <PneumaticCraft:plastic:4>]]);
 	recipes.addShaped(<PneumaticCraft:assemblyDrill>, [[<ore:gemDiamond>, <PneumaticCraft:pneumaticCilinder>, <PneumaticCraft:pneumaticCilinder>], [null, null, <PneumaticCraft:pneumaticCilinder>], [<ore:ingotIronCompressed>, <PneumaticCraft:printedCircuitBoard>, <ore:ingotIronCompressed>]]);
