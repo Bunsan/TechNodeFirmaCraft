@@ -3,9 +3,14 @@ Things to Do
 version 2.0
 Immersive Engineering
 -Fix Gun ammo and bayonet recipes
--Adjust Damage
--Add Mob Properties Scripts to drop Hemp Seeds
+-Adjust Damage 
 -Balance Crusher Recipes (output Dusts)
+
+General
+-Fix diamond block to gem recipe.
+-Fix Quartz Block recipe (copy jet block recipe).
+-Rename and possibly retexture vanilla sugar. 
+
 
 Future
 
