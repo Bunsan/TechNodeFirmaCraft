@@ -34,6 +34,21 @@
             "material": "rock",
             "resistance": 4,            
             "hardness": 0.8
+        },
+        {
+
+            "name": "Uncured Hempcrete",
+            "textureName": "rawHempcrete",          
+            "toolClass": "pickaxe",
+            "stepSound": "gravel",
+            "dropItemName": "customitems:uncured_hempcrete",
+            "minItemDrop": 1,
+            "maxItemDrop": 1,                
+            "eachExtraItemDropChance": 75,
+            "maxStackSize": 32,
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
         }
 
   ]

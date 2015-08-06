@@ -1,0 +1,14 @@
+Things to Do
+
+version 2.0
+Immersive Engineering
+-Fix Gun ammo and bayonet recipes
+-Adjust Damage
+-Add Mob Properties Scripts to drop Hemp Seeds
+-Balance Crusher Recipes (output Dusts)
+
+Future
+
+-HQM quest integration
+-IGWiki integration (ongoing)
+-Remove unwanted items from NEI

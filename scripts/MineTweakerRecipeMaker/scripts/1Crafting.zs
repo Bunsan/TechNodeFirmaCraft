@@ -105,6 +105,24 @@ val fenceWood = <ore:fenceWood>;
 fenceWood.add(<terrafirmacraft:Fence:*>);
 fenceWood.add(<minecraft:fence>);
 
+val craftingBlueGem = <ore:craftingBlueGem>;
+craftingBlueGem.add(<terrafirmacraft:item.Sapphire>);
+craftingBlueGem.add(<terrafirmacraft:item.Jasper>);
+craftingBlueGem.add(<terrafirmacraft:item.Opal>);
+craftingBlueGem.add(<terrafirmacraft:item.Amethyst>);
+
+val craftingGreenGem = <ore:craftingGreenGem>;
+craftingGreenGem.add(<terrafirmacraft:item.Emerald>);
+craftingGreenGem.add(<terrafirmacraft:item.Beryl>);
+craftingGreenGem.add(<terrafirmacraft:item.Jade>);
+craftingGreenGem.add(<terrafirmacraft:item.Tourmaline>);
+
+val craftingRedGem = <ore:craftingRedGem>;
+craftingRedGem.add(<terrafirmacraft:item.Ruby>);
+craftingRedGem.add(<terrafirmacraft:item.Garnet>);
+craftingRedGem.add(<terrafirmacraft:item.Agate>);
+craftingRedGem.add(<terrafirmacraft:item.Topaz>);
+
 <ore:slabWood>.addAll(<ore:woodLumber>);
 
 val blockGravel = <ore:blockGravel>;

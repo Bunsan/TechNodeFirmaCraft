@@ -158,6 +158,9 @@
         <mod 
         name="INpureCore" version="1.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/INpureCore-[1.7.10]1.0.0B9-62.jar" file="INpureCore-[1.7.10]1.0.0B9-62.jar" md5="89c7b3835cd2bdba7d8d054d75c7460c" download="server" type="mods" website="http://www.curseforge.com/projects/223792/" authors="INpureProjects,denoflions" description="Core mod for all INpure mods" client="yes" optional="no" server="yes" serveroptional="no"
          />
+        <mod 
+        name="Mob Properties" version="1.7.10-0.4.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/MobProperties-1.7.10-0.4.0.jar" file="MobProperties-1.7.10-0.4.0.jar" md5="fb4f036d9cdb636ac4e055429c36f787" download="server" type="mods" website="http://www.minecraftforum.net/topic/1153874-/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/mc-mods/224298-mob-properties&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=father.toast%40hotmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_return=" authors="FatherToast" description="Allows advanced customization options for all mobs&apos; drops, attributes, and NBT data." client="yes" optional="no" server="yes" serveroptional="no"
+        />
         <!-- Required Mods Browser -->
         <mod
         name="Hopper Ducts" version="1.7.10-1.3.2" url="http://adf.ly/4832822/hopper-ducts-1710-132" file="hopperductmod-1.7.10-1.3.2.jar" md5="ce2fccc34724fd91e12a80ba91989fbd" download="browser" type="mods" website="http://www.fybertech.net/minecraft" authors="FyberOptic" description="Adds hopper ducts, which are item transport blocks functionally similar to hoppers, but capable of sending items in any direction." client="yes" server="yes" serveroptional="no"
@@ -239,7 +242,7 @@
         />
         <!-- Scripts -->
         <mod
-        name="MineTweaker 3 Scripts" version="2.0" url="packs/TechNodefirmacraft/files/extract/scripts_v2.0.zip" file="scripts_v2.0.zip" md5="df6c659388975df4581471118330cea9" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="The Scripts" client="yes" server="yes" serveroptional="no"
+        name="MineTweaker 3 Scripts" version="2.0" url="packs/TechNodefirmacraft/files/extract/scripts_v2.0.zip" file="scripts_v2.0.zip" md5="7ac33ba4e1333ab47ad2fa6e4f76c2f4" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="The Scripts" client="yes" server="yes" serveroptional="no"
         />        
         <!-- ResourcePack-->
         <mod
