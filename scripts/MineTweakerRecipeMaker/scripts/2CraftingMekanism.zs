@@ -214,6 +214,10 @@
 
 //# Bins
 	recipes.addShaped(<Mekanism:BasicBlock:6>, [[<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>], [<ore:stoneSmooth>, <ore:circuitBasic>, <ore:stoneSmooth>], [<ore:stoneSmooth>, <ore:stoneSmooth>,<ore:stoneSmooth>]]);
+
+//# Diamond Dust Piles
+	recipes.addShaped(<Mekanism:OtherDust>, [[<TabulaRasa:RasaItem2:4>, <TabulaRasa:RasaItem2:4>], [<TabulaRasa:RasaItem2:4>, <TabulaRasa:RasaItem2:4>]]);
+
 // ================================================================================
 //# Custom Machine Recipes
 
@@ -252,6 +256,11 @@
 //# Add Machine Recipes
 
 //Enrichment Chamber
+//# Fixing Diamonds
+	mods.mekanism.Enrichment.removeRecipe(<Mekanism:OtherDust>);
+	mods.mekanism.Enrichment.addRecipe(<Mekanism:OtherDust>, <Mekanism:CompressedDiamond>);
+	mods.mekanism.Enrichment.addRecipe(<terrafirmacraft:item.Diamond:2>, <Mekanism:CompressedDiamond>);
+
 	mods.mekanism.Enrichment.addRecipe(<terrafirmacraft:item.Ore:25>, <Mekanism:Dust:2> * 2);
 	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0>, <Mekanism:Dust:3> * 2);
 	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0:9>, <Mekanism:Dust:3> * 2);
@@ -335,6 +344,11 @@
 	mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:12>, <gas:Zinc>);
 //# Crusher
 //InputStack, OutputStack
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Diamond:0>, <TabulaRasa:RasaItem2:4>);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Diamond:1>, <TabulaRasa:RasaItem2:4> * 2);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Diamond:2>, <Mekanism:OtherDust>);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Diamond:3>, <Mekanism:OtherDust> * 2);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Diamond:4>, <Mekanism:OtherDust> * 4);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:17>, <DecorationsTFC:item.Powders.Gypsum> * 6);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:33>, <Forestry:fertilizerCompound> * 8);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:19>, <minecraft:glowstone_dust> * 5);

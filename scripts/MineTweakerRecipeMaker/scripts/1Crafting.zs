@@ -477,6 +477,11 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 	recipes.remove(<minecraft:arrow>);
 	recipes.remove(<minecraft:magma_cream>);
 	recipes.remove(<minecraft:sponge>);
+	recipes.remove(<minecraft:diamond>);
+	recipes.remove(<minecraft:quartz_block:1>);
+	recipes.remove(<minecraft:quartz_block:2>);
+	recipes.remove(<minecraft:quartz_stairs>);
+
 //# Metal Block Recipes
 	recipes.remove(<Railcraft:cube:9>);
 	recipes.remove(<Railcraft:cube:2>);
@@ -822,11 +827,21 @@ recipes.addShapeless(<terrafirmacraft:item.Ink> * 16, [<ore:dyeBlack>, <ore:item
 	recipes.addShapeless(<minecraft:glass_bottle>, [<terrafirmacraft:item.Glass Bottle>]);
 	recipes.addShapeless(<terrafirmacraft:item.Glass Bottle>, [<minecraft:glass_bottle>]);
 
+	recipes.addShapeless(<terrafirmacraft:item.Diamond:2> * 9, [<ore:blockDiamond>]);
+
 // ================================================================================
 //#MARKER ADD SHAPED
 recipes.addShaped(<HardcoreQuesting:item_barrel>, [[<ore:plankWood>, <ore:blockGlassColorless>, <ore:plankWood>], [<ore:blockGlassColorless>, <HardcoreQuesting:quest_book>, <ore:blockGlassColorless>], [<ore:plankWood>, <ore:blockGlassColorless>, <ore:plankWood>]]);
 
 //# VANILLA+ TO TFC
+
+//# Quartz Blocks
+
+	recipes.addShaped(<minecraft:quartz_block>, [[<ore:gemQuartz>, <terrafirmacraft:item.Mortar>, <ore:gemQuartz>], [<terrafirmacraft:item.Mortar>, <terrafirmacraft:item.dyePowder:15>, <terrafirmacraft:item.Mortar>], [<ore:gemQuartz>, <terrafirmacraft:item.Mortar>, <ore:gemQuartz>]]);
+	recipes.addShaped(<minecraft:stone_slab:7> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<minecraft:quartz_block>, <minecraft:quartz_block>, <minecraft:quartz_block>]]);
+	recipes.addShaped(<minecraft:quartz_block:1>, [[<minecraft:stone_slab:7>, <ore:itemChisel>.transformDamage()], [<minecraft:stone_slab:7>, <ore:itemHammer>.reuse()]]);
+	recipes.addShaped(<minecraft:quartz_block:2> * 2, [[<minecraft:quartz_block>, <ore:itemChisel>.transformDamage()], [<minecraft:quartz_block>, <ore:itemHammer>.reuse()]]);
+	recipes.addShaped(<minecraft:quartz_stairs> * 6, [[<minecraft:quartz_block>, <ore:itemChisel>.transformDamage(12), null], [<minecraft:quartz_block>, <minecraft:quartz_block>, <ore:itemHammer>.reuse()], [<minecraft:quartz_block>,<minecraft:quartz_block>,<minecraft:quartz_block>]]);
 
 //# Flower Pot
 	recipes.addShaped(<minecraft:flower_pot>, [[<ore:ingotBrick>, null, <ore:ingotBrick>], [null, <ore:ingotBrick>, null]]);
@@ -867,6 +882,7 @@ recipes.addShaped(<HardcoreQuesting:item_barrel>, [[<ore:plankWood>, <ore:blockG
 	recipes.addShaped(<ImmersiveEngineering:storage:2>, [[null, <ore:plateLead>, null], [<ore:plateLead>, item.anyDamage().transformDamage(), <ore:plateLead>], [null, <ore:plateLead>, null]]);
 	}
 	recipes.addShaped(<minecraft:lapis_block>, [[<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>], [<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>], [<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>]]);
+	recipes.addShaped(<minecraft:diamond_block>, [[<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>], [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>], [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>]]);
 
 //# Replace Nugget to Ingot Recipes with TFC Ingots
 	recipes.addShaped(<terrafirmacraft:item.Wrought Iron Ingot>, [[<Railcraft:nugget>, <Railcraft:nugget>, <Railcraft:nugget>], [<Railcraft:nugget>, <Railcraft:nugget>, <Railcraft:nugget>], [<Railcraft:nugget>, <Railcraft:nugget>, <Railcraft:nugget>]]);
