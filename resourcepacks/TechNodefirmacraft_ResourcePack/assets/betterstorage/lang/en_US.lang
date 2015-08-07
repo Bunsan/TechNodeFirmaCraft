@@ -55,8 +55,8 @@ key.betterstorage.drinkingHelmet=[BetterStorage] Use Drinking Helmet
 # Container materials
 material.betterstorage.iron=Iron
 material.betterstorage.gold=Gold
-material.betterstorage.diamond=Sapphire
-material.betterstorage.emerald=Jade
+material.betterstorage.diamond=Blue Gem
+material.betterstorage.emerald=Green Gem
 material.betterstorage.copper=Copper
 material.betterstorage.tin=Tin
 material.betterstorage.silver=Silver

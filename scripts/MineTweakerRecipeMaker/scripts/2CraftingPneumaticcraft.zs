@@ -122,7 +122,8 @@ recipes.addShaped(<PneumaticCraft:assemblyLaser>, [[<ore:dyeRed>, <PneumaticCraf
 
 //Pressure chamber recipes
 //InputStack, Pressure needed ,OutputStack, asBlock
-	//mods.pneumaticcraft.Pressure.addRecipe([<terrafirmacraft:item.Vinegar>, <PneumaticCraft:plastic:2> * 2, <minecraft:rotten_flesh> * 2, <minecraft:gunpowder> * 2, <terrafirmacraft:item.Powder:5>], 1, [<PneumaticCraft:etchingAcid>], false);
+	mods.pneumaticcraft.Pressure.removeRecipe([<minecraft:diamond>]);
+	mods.pneumaticcraft.Pressure.addRecipe([<minecraft:coal_block> * 8], 4, [<terrafirmacraft:item.Diamond:2>], false);
 //OutputStack
 
 //Assembly Drill Recipes

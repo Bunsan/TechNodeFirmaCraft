@@ -47,6 +47,9 @@
         name="TerraFirmaCraft" version="0.79.21.749" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]terrafirmacraft-0.79.21.749.jar" file="[1.7.10]terrafirmacraft-0.79.21.749.jar" md5="940060605b013bff6ce996e140058c17" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod 
+        name="TechNodefirmacraft" version="0.01.01" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TechNodefirmacraft-0.01.01.jar" file="[1.7.10]TechNodefirmacraft-0.01.01.jar" md5="6e721122a6dcaa790450b7de8af646d0" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="�6AnodeCathode�r" description="�bProvides ore names and textures for custom items." client="yes" optional="no" server="no"
+        />
+        <mod 
         name="CoFH Core" version="3.0.3-303" url="packs/TechNodefirmacraft/files/1.7.10Mods/CoFHCore-[1.7.10]3.0.3-303.jar" file="CoFHCore-[1.7.10]3.0.3-303.jar" md5="2ffdab52f8536f02f34a9d9230ca24dd" download="server" type="mods" website="http://www.teamcofh.com" authors="Team CoFH" description="Required for all CoFH Mods. Also provides some customization options for Minecraft." client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod
@@ -242,11 +245,11 @@
         />
         <!-- Scripts -->
         <mod
-        name="MineTweaker 3 Scripts" version="2.0" url="packs/TechNodefirmacraft/files/extract/scripts_v2.0.zip" file="scripts_v2.0.zip" md5="7ac33ba4e1333ab47ad2fa6e4f76c2f4" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="The Scripts" client="yes" server="yes" serveroptional="no"
+        name="MineTweaker 3 Scripts" version="2.0" url="packs/TechNodefirmacraft/files/extract/scripts_v2.0.zip" file="scripts_v2.0.zip" md5="2eaf3d36b826543540650874a94f4578" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="The Scripts" client="yes" server="yes" serveroptional="no"
         />        
         <!-- ResourcePack-->
         <mod
-        name="TechNodefirmacraft ResourcePack" version="2.0" url="packs/TechNodefirmacraft/files/extract/TechNodefirmacraft_ResourcePackv2.0.zip" file="TechNodefirmacraft_ResourcePackv2.0.zip" md5="78f2f26649de62ccdab7ae8050cb20f8" download="server" type="resourcepack" client="yes" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="The Resourcepack. Names changed, items added and blocks changed."
+        name="TechNodefirmacraft ResourcePack" version="2.0" url="packs/TechNodefirmacraft/files/extract/TechNodefirmacraft_ResourcePackv2.0.zip" file="TechNodefirmacraft_ResourcePackv2.0.zip" md5="c67827489cbda0f725d76af88f3fb998" download="server" type="resourcepack" client="yes" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="The Resourcepack. Names changed, items added and blocks changed."
         />
     </mods>
 </version>
