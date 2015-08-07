@@ -265,7 +265,7 @@
 //# Steam Furnace
 	recipes.addShaped(<Railcraft:machine.alpha:3> * 8, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, <terrafirmacraft:EarlyBloomery>, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 //# Rock Crusher
-	recipes.addShaped(<Railcraft:machine.alpha:15> * 4, [[<minecraft:piston>, <ore:gemDiamond>, <minecraft:piston>], [<ore:gemDiamond>, <terrafirmacraft:item.Steel Double Sheet>, <ore:gemDiamond>], [<minecraft:piston>, <ore:gemDiamond>, <minecraft:piston>]]);
+	recipes.addShaped(<Railcraft:machine.alpha:15> * 4, [[<minecraft:piston>, <ore:plateSteel>, <minecraft:piston>], [<ore:plateSteel>, <ore:gemDiamond>, <ore:plateSteel>], [<minecraft:piston>, <ore:plateSteel>, <minecraft:piston>]]);
 
 //# Priming and Disposal tracks Tank Detector, Circuits and age and animal detectors
 	recipes.addShaped(<Railcraft:track:2264>.withTag({track: "railcraft:track.disposal"}) * 1, [[<Railcraft:part.rail>, <Railcraft:part.tie>, <Railcraft:part.rail>], [<Railcraft:part.rail>, <ore:plateSteel>, <Railcraft:part.rail>], [<Railcraft:part.rail>, <Railcraft:part.tie>, <Railcraft:part.rail>]]);
@@ -592,7 +592,11 @@ recipes.addShaped(<Railcraft:brick.nether:1>, [[<minecraft:netherbrick>, <terraf
 	mods.railcraft.Rolling.addShaped(<Railcraft:post:2> * 16, [[<terrafirmacraft:item.Wrought Iron Ingot>, null, <terrafirmacraft:item.Wrought Iron Ingot>], [<terrafirmacraft:item.Wrought Iron Ingot>,  <terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>], [<terrafirmacraft:item.Wrought Iron Ingot>, null, <terrafirmacraft:item.Wrought Iron Ingot>]]);
 
 //RockCrusher recipes
+
+mods.railcraft.RockCrusher.removeRecipe(<minecraft:bone>);
+
 //InputStack, matchDamage, matchNBT, OutputStacks, Chance  
+	mods.railcraft.RockCrusher.addRecipe(<minecraft:bone>, true, false, [<terrafirmacraft:item.dyePowder:15> * 3, <terrafirmacraft:item.dyePowder:15>], [1.0, 0.5]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:33>, true, false, [<Forestry:fertilizerCompound> * 6], [1.0]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:19>, true, false, [<minecraft:glowstone_dust> * 4, <minecraft:glowstone_dust>], [1.0, 0.5]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.coal:1>, true, false, [<Railcraft:dust:3>], [1.0]); 
