@@ -7,8 +7,6 @@ Immersive Engineering
 -Balance Crusher Recipes (output Dusts)
 
 General
--Fix diamond block to gem recipe.
--Fix Quartz Block recipe (copy jet block recipe).
 -Rename and possibly retexture vanilla sugar. 
 
 
