@@ -2,10 +2,14 @@ Things to Do
 
 version 2.0
 Immersive Engineering
--Fix Gun ammo and bayonet recipes
+-Fix Gun ammo and remove bayonet recipes
+-Remove drill dmg modifier recipe. 
 -Adjust Damage 
 -Balance Crusher Recipes (output Dusts)
 
+Mekanism
+-Add night vision to scuba tank and Aqua affinity to helmet. Add debuffs, weakness?
+-Make flippers. Swiftness and a debuff. 
 General
 -Rename and possibly retexture vanilla sugar. 
 
