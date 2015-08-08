@@ -1,0 +1,231 @@
+	
+
+    {
+        "images":
+        {
+            "title":
+            {
+                "image" : "tnfc:textures/gui/technodefirmacraft.png",
+                "posX" : -250,
+                "posY" : 50,
+                "width" : 500,
+                "height" : 50,
+                "alignment" : "top_center"
+            }
+        },
+       
+        "buttons":
+        {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 48,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "Mods",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 2,
+            "posY" : 132,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -124,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+           
+           "refresh":
+          {
+              "text" : "",
+              "posX" : -154,
+              "posY" : 132,
+              "width" : 20,
+              "height" : 20,
+              "texture" : "custommainmenu:textures/gui/buttons.png",
+              "action" : 
+              {
+                  "type" : "refresh"
+              }
+          },
+     
+            "openeye":
+            {
+                "text" : "",
+                            "texture" : "openeye:textures/gui/buttons.png",
+                "posX" : 104,
+                "posY" : 112,
+                "width" : 20,
+                "height" : 20,
+                            "wrappedButton" : 666
+            },
+                   
+                    "Github":
+            {
+                "text" : "",
+                            "texture" : "tnfc:textures/gui/github.png",
+                            "hoverText" : "Issue Track",
+                            "alignment" : "top_right",
+                "posX" : -55,
+                "posY" : 2,
+                "width" : 45,
+                "height" : 45,
+                            "action" :
+                            {
+                    "type" : "openLink",
+                                    "link" : "https://github.com/Bunsan/TechNodeFirmaCraft/issues"
+                }
+            },
+     
+                    "Changelogs":
+            {
+                "text" : "",
+                            "texture" : "tnfc:textures/gui/atlauncher.png",
+                            "alignment" : "top_center",
+                            "hoverText" : "Change Log",
+                "posX" : -26,
+                "posY" : 2,
+                "width" : 45,
+                "height" : 45,
+                            "action" :
+                            {
+                    "type" : "openLink",
+                                    "link" : "http://www.atlauncher.com/pack/Technodefirmacraft"
+                }  
+            },
+     
+                    "Subreddit":
+            {
+                "text" : "",
+                            "texture" : "tnfc:textures/gui/reddit2.png",
+                            "hoverText" : "Discussion",
+                            "alignment" : "top_left",
+                "posX" : 12,
+                "posY" : 1,
+                "width" : 49,
+                "height" : 49,
+                            "action" :
+                            {
+                    "type" : "openLink",
+                                    "link" : "http://www.reddit.com/r/Technode"
+                }  
+            }
+        },
+       
+        "texts":
+        {
+         "mojang":{
+              "text" : "Copyright Mojang AB",
+              "posX" : -108,
+              "posY" : -20,
+              "color" : -1,
+              "alignment" : "bottom_right"
+          },
+        "fml":
+        {
+            "text" : "",
+            "posX" : 5,
+            "posY" : -50,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+
+        "modpack":{
+                "text" : "TechNodefirmacraft 2.0 Beta",
+                "posX" : 5,
+                "posY" : -70,
+                "color" : -1,
+                "alignment" : "bottom_left"
+        }
+        },
+        "other":
+        {
+          
+            "background":
+            {
+                "image" : "",
+                "slideshow":
+                {
+                    "images" : [
+                                            "tnfc:textures/gui/show7.png",
+                                            "tnfc:textures/gui/show1.png",
+                                            "tnfc:textures/gui/show2.png",
+                                            "tnfc:textures/gui/show3.png",
+                                            "tnfc:textures/gui/show4.png",
+                                            "tnfc:textures/gui/show5.png",
+                                            "tnfc:textures/gui/show6.png"
+                                            
+
+                                                            ],
+                                    "displayDuration" : 150,
+                                    "fadeDuration" : 40,
+                                    "shuffle" : false
+                }
+            }
+        }
+    }
+

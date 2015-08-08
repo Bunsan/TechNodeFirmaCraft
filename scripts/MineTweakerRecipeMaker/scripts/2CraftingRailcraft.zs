@@ -594,13 +594,16 @@ recipes.addShaped(<Railcraft:brick.nether:1>, [[<minecraft:netherbrick>, <terraf
 //RockCrusher recipes
 
 mods.railcraft.RockCrusher.removeRecipe(<minecraft:bone>);
+mods.railcraft.RockCrusher.removeRecipe(<minecraft:stone_slab>);
+mods.railcraft.RockCrusher.removeRecipe(<Railcraft:machine.alpha:7>);
+mods.railcraft.RockCrusher.removeRecipe(<Railcraft:machine.alpha:12>);
 
 //InputStack, matchDamage, matchNBT, OutputStacks, Chance  
-	mods.railcraft.RockCrusher.addRecipe(<minecraft:bone>, true, false, [<terrafirmacraft:item.dyePowder:15> * 3, <terrafirmacraft:item.dyePowder:15>], [1.0, 0.5]);
+
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:33>, true, false, [<Forestry:fertilizerCompound> * 6], [1.0]);
-	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:19>, true, false, [<minecraft:glowstone_dust> * 4, <minecraft:glowstone_dust>], [1.0, 0.5]);
-	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.coal:1>, true, false, [<Railcraft:dust:3>], [1.0]); 
-	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:23>, true, false, [<minecraft:blaze_powder> * 2, <minecraft:blaze_powder>, <minecraft:blaze_powder>, <minecraft:blaze_powder>], [1.0, 0.25, 0.25, 0.25]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:19>, true, false, [<minecraft:glowstone_dust> * 2, <minecraft:glowstone_dust>], [1.0, 0.5]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.coal:1>, true, false, [<Railcraft:dust:3> * 2], [1.0]); 
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:23>, true, false, [<minecraft:blaze_powder> * 2, <minecraft:blaze_powder>], [1.0, 0.25]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:16>, true, false, [<terrafirmacraft:item.Powder:1> * 4, <Mekanism:DirtyDust>], [1.0, 0.10]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:20>, true, false, [<terrafirmacraft:item.Powder:2> * 4], [1.0]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.LooseRock:5>, true, false, [<terrafirmacraft:item.Powder:9> * 4], [1.0]);
@@ -627,6 +630,8 @@ mods.railcraft.RockCrusher.removeRecipe(<minecraft:bone>);
 	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:11>, true, false, [<Mekanism:DirtyDust>, <Mekanism:DirtyDust>, <terrafirmacraft:item.Powder:7>], [1.0, 0.50, 0.10]);
 	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:12>, true, false, [<TabulaRasa:RasaItem1>, <TabulaRasa:RasaItem1>, <Mekanism:DirtyDust>], [1.0, 0.50, 0.05]);
 	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:13>, true, false, [<Mekanism:Dust:3>, <Mekanism:Dust:3>, <terrafirmacraft:item.Powder:3>], [1.0, 0.50, 0.10]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:25>, true, false, [<Mekanism:Dust:2>, <Mekanism:Dust:2>], [1.0, 0.50]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:30>, true, false, [<ImmersiveEngineering:metal:11>, <ImmersiveEngineering:metal:11>], [1.0, 0.50]);
 
 //Blast Furnace Recipes
 //OutputStack

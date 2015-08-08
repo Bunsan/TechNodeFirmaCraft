@@ -129,7 +129,11 @@
 	recipes.addShaped(<Mekanism:FreeRunners:100>, [[<ore:circuitAdvanced>, <ore:plateBlackSteel>, <ore:circuitAdvanced>], [<ore:alloyAdvanced>, null, <ore:alloyAdvanced>], [<ore:battery>, null, <ore:battery>]]);
 	recipes.addShaped(<Mekanism:Jetpack:100>, [[<ore:ingotBlackSteel>, <ore:circuitElite>, <ore:ingotBlackSteel>], [<ore:plateBlackSteel>, <Mekanism:GasTank:100>, <ore:plateBlackSteel>], [<ore:plateBlackSteel>, null, <ore:plateBlackSteel>]]);
 	recipes.addShaped(<Mekanism:ScubaTank:100>, [[<ore:plateSteel>, <ore:circuitAdvanced>, <ore:plateSteel>], [<ore:alloyAdvanced>, <Mekanism:GasTank:100>, <ore:alloyAdvanced>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+//# Gas Mask
 	recipes.addShaped(<Mekanism:GasMask>, [[null, <ore:plateSteel>, null], [<ore:blockGlass>, <ore:circuitAdvanced>, <ore:blockGlass>], [<ore:plateSteel>, null, <ore:plateSteel>]]);
+//# Upgrading Gas Mask
+	recipes.addShapeless(<Mekanism:GasMask>.withTag({ench: [{lvl: 3 as short, id: 5 as short}, {lvl: 1 as short, id: 6 as short}]}), [<Mekanism:GasMask>, <Mekanism:GasUpgrade>, <Mekanism:SpeedUpgrade>]);	
+
 //# RE-ADD Energy Tablet
 	recipes.addShaped(<Mekanism:EnergyTablet:100>, [[<ore:dustRedstone>, <ore:ingotCopper>, <ore:dustRedstone>], [<ore:alloyAdvanced>, <ore:ingotGold>, <ore:alloyAdvanced>], [<ore:dustRedstone>, <ore:ingotZinc>, <ore:dustRedstone>]]);
 //# RE-ADD Tools
