@@ -1,0 +1,14 @@
+To Do
+
+Immersive Engineering
+-fix ammo recipes and remove bayonet
+-remove drill damage upgrade
+-test galena, uranium and quartzite viens
+
+General
+-rename retexture vanilla sugar
+
+Future
+
+-HQM quest that are proper quest lines
+-IGW integration
