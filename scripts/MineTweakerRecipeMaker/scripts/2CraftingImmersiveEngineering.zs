@@ -214,7 +214,7 @@ mods.immersiveengineering.Crusher.addRecipe(<minecraft:glowstone> * 4, <ore:oreS
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:glowstone> * 4, <ore:glowstone>, 1000, null, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<Railcraft:dust:3>, <minecraft:coal:1>, 2000, null, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<Railcraft:dust:3> * 2, <terrafirmacraft:item.coal:1>, 2000, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<Forestry:fertilizerCompound> * 6, <gemApatite>, 2000, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<Forestry:fertilizerCompound> * 6, <ore:gemApatite>, 2000, null, 0.1);
 
 //Fermenter
 //OutputStack, OutputFluid, InputStack, Time in Ticks

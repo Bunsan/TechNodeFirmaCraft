@@ -47,7 +47,13 @@
         name="TerraFirmaCraft" version="0.79.21.749" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]terrafirmacraft-0.79.21.749.jar" file="[1.7.10]terrafirmacraft-0.79.21.749.jar" md5="940060605b013bff6ce996e140058c17" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod 
-        name="TechNodefirmacraft" version="0.01.01" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TechNodefirmacraft-0.01.01.jar" file="[1.7.10]TechNodefirmacraft-0.01.01.jar" md5="6e721122a6dcaa790450b7de8af646d0" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="�6AnodeCathode�r" description="�bProvides ore names and textures for custom items." client="yes" optional="no" server="no"
+        name="TechNodefirmacraft" version="00.01.01" url="packs/TechNodefirmacraft/files/1.7.10Mods/zzz-1.7.10-TechNodefirmacraft-0.01.02.jar" file="zzz-1.7.10-TechNodefirmacraft-0.01.02.jar" md5="948c1bae5aa9c35b2f06474f3e726c8f" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="�6AnodeCathode�r" description="�bProvides ore names and textures for custom items." client="yes" optional="no" server="yes" serveroptional="no"
+        />
+        <mod 
+        name="Custom Main Menu" version="1.6" url="packs/TechNodefirmacraft/files/1.7.10Mods/CustomMainMenu-MC1.7.10-1.6.jar" file="CustomMainMenu-MC1.7.10-1.6.jar" md5="03f59a27288bf7ddb3c711959a482883" download="server" type="mods" website="http://www.curseforge.com/projects/226406/" authors="lumien" description="Allows you to edit the mainmenu using json" client="yes" optional="no" server="no"
+        />
+        <mod 
+        name="Resource Loader" version="1.2" url="packs/TechNodefirmacraft/files/1.7.10Mods/ResourceLoader-1.2.jar" file="ResourceLoader-1.2.jar" md5="39facaa73da49b026ee2009dbdfcdccc" download="server" type="mods" website="http://www.curseforge.com/projects/226447/" authors="lumien" description="Allows mod pack creators / users to add their own custom textures to minecrafts resources without making a resource pack." client="yes" optional="no" server="no"
         />
         <mod 
         name="CoFH Core" version="3.0.3-303" url="packs/TechNodefirmacraft/files/1.7.10Mods/CoFHCore-[1.7.10]3.0.3-303.jar" file="CoFHCore-[1.7.10]3.0.3-303.jar" md5="2ffdab52f8536f02f34a9d9230ca24dd" download="server" type="mods" website="http://www.teamcofh.com" authors="Team CoFH" description="Required for all CoFH Mods. Also provides some customization options for Minecraft." client="yes" optional="no" server="yes" serveroptional="no"
@@ -156,7 +162,7 @@
         name="FMPIntegration" version="1.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/fmpintegration-1.2.2-1.7.10.jar" file="fmpintegration-1.2.2-1.7.10.jar" md5="8601c5bf59ae977688bd75471b379edd" download="server" type="mods" website="http://www.curseforge.com/projects/220567/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/mc-mods/220567-forge-multipart-integration-fmpi&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=wasliebob%40live.nl&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;can" authors="Wasliebob" description="A mod adding FMP integration" client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod 
-        name="Immersive Engineering" version="0.4.4" url="packs/TechNodefirmacraft/files/1.7.10Mods/immersiveengineering-0.4.4.jar" file="immersiveengineering-0.4.4.jar" md5="df7a901f222f27a2cbb6262f7ff5150a" download="server" type="mods" website="http://www.curseforge.com/projects/231951/" authors="BluSunrize,Damien A.W. Hazard" description="A retro-futuristic tech mod!"  client="yes" optional="no" server="yes" serveroptional="no"
+        name="Immersive Engineering" version="0.5.2" url="packs/TechNodefirmacraft/files/1.7.10Mods/ImmersiveEngineering-0.5.2.jar" file="ImmersiveEngineering-0.5.2.jar" md5="b2084a57690cc95a7fd5be757f3fe68f" download="server" type="mods" website="http://www.curseforge.com/projects/231951/" authors="BluSunrize,Damien A.W. Hazard" description="A retro-futuristic tech mod!"  client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod 
         name="INpureCore" version="1.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/INpureCore-[1.7.10]1.0.0B9-62.jar" file="INpureCore-[1.7.10]1.0.0B9-62.jar" md5="89c7b3835cd2bdba7d8d054d75c7460c" download="server" type="mods" website="http://www.curseforge.com/projects/223792/" authors="INpureProjects,denoflions" description="Core mod for all INpure mods" client="yes" optional="no" server="yes" serveroptional="no"
@@ -192,7 +198,7 @@
         name="Waila" version="1.5.10_1.7.10" url="packs/TechNodefirmacraft/files/1.7.10Mods/Waila-1.5.10_1.7.10.jar" file="Waila-1.5.10_1.7.10.jar" md5="eeb36775188e70faa1c5ecd84f80076c" download="server" type="mods" website="http://minecraft.curseforge.com/members/ProfMobius/projects" authors="ProfMobius" description="All your data are belong to us." client="yes" optional="yes" colour="blue" server="yes" serveroptional="yes"
         />
         <mod 
-        name="In-Game wiki Mod" version="1.1.8-28" url="packs/TechNodefirmacraft/files/1.7.10Mods/IGW-Mod-1.7.10-1.1.8-28-universal.jar" file="IGW-Mod-1.7.10-1.1.8-28-universal.jar" md5="9b54128be5692e2d91950d8f9d9efc70" download="server" type="mods" website="https://www.minemaarten.com" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/mc-mods/223815-in-game-wiki-mod&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=loopycoaster_8%40hotmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_ret" authors="MineMaarten" description="Mod that allows for mods to add in-game documentation." client="yes" optional="yes" colour="blue" server="no"
+        name="In-Game wiki Mod" version="1.1.8 - err" url="packs/TechNodefirmacraft/files/1.7.10Mods/IGW-Mod-1.7.10-1.1.8 - err-universal.jar" file="IGW-Mod-1.7.10-1.1.8 - err-universal.jar" md5="7600b5f8cff0359ccd143b79ed279e18" download="server" type="mods" website="https://www.minemaarten.com" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/mc-mods/223815-in-game-wiki-mod&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=loopycoaster_8%40hotmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_ret" authors="MineMaarten" description="Mod that allows for mods to add in-game documentation." client="yes" optional="yes" colour="blue" server="no"
         />
         <mod 
         name="Inventory Tweaks" version="1.58-147-645ca10" url="packs/TechNodefirmacraft/files/1.7.10Mods/InventoryTweaks-1.58-147.jar" file="InventoryTweaks-1.58-147.jar" md5="c5d9271ea4afb47deae8c71f8bae61a1" download="server" type="mods" website="https://github.com/Kobata/inventory-tweaks" authors="Jimeo Wan,Kobata" description="Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items." client="yes" optional="yes" colour="blue" server="no"
@@ -245,8 +251,11 @@
         />
         <!-- Scripts -->
         <mod
-        name="MineTweaker 3 Scripts" version="2.0" url="packs/TechNodefirmacraft/files/extract/scripts_v2.0.zip" file="scripts_v2.0.zip" md5="2eaf3d36b826543540650874a94f4578" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="The Scripts" client="yes" server="yes" serveroptional="no"
-        />        
+        name="MineTweaker 3 Scripts" version="2.0" url="packs/TechNodefirmacraft/files/extract/scripts_v2.0.zip" file="scripts_v2.0.zip" md5="1f3938e89839d5e4ccc60975be66719f" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="The Scripts" client="yes" server="yes" serveroptional="no"
+        />
+         <mod 
+         name="Resource Loaders Folder" version="2.0" url="packs/TechNodefirmacraft/files/extract/resources_v2.0.zip" file="resources_v2.0.zip" md5="296a148eb8b94f9622feea67d8608d67" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes"
+        />     
         <!-- ResourcePack-->
         <mod
         name="TechNodefirmacraft ResourcePack" version="2.0" url="packs/TechNodefirmacraft/files/extract/TechNodefirmacraft_ResourcePackv2.0.zip" file="TechNodefirmacraft_ResourcePackv2.0.zip" md5="c67827489cbda0f725d76af88f3fb998" download="server" type="resourcepack" client="yes" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="The Resourcepack. Names changed, items added and blocks changed."
