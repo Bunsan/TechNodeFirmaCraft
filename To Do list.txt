@@ -4,7 +4,10 @@ Immersive Engineering
 -test galena, uranium and quartzite viens
 
 Mek
--retest digital miner
+-log issue about digital miner silk touch issue.
+
+Immersive Engineering
+-figure out how to control which mods ore excavator outputs
 
 General
 -think about renaming retexture vanilla sugar
