@@ -15,7 +15,7 @@
                 "function": "add",
                 "id": "ImmersiveEngineering:blueprint",
                 "damage": 1,
-                "count": 1
+                "count": 0.05
               }
               ]
             }  
