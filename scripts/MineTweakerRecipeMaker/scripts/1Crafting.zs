@@ -605,6 +605,7 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 	furnace.addRecipe(<terrafirmacraft:item.Brass Ingot>, <TabulaRasa:RasaItem1:7>);
 	furnace.addRecipe(<terrafirmacraft:item.Rose Gold Ingot>, <TabulaRasa:RasaItem1:8>);
 	furnace.addRecipe(<terrafirmacraft:item.Sterling Silver Ingot>, <TabulaRasa:RasaItem1:9>);
+	furnace.addRecipe(<terrafirmacraft:item.Pig Iron Ingot>, <TabulaRasa:RasaItem2:5>);
 
 
 // ================================================================================
@@ -924,8 +925,13 @@ recipes.addShaped(<HardcoreQuesting:item_barrel>, [[<ore:plankWood>, <ore:blockG
 
 	recipes.addShaped(<TabulaRasa:RasaItem1:10>, [[<ore:dustSteel>, <ore:dustNickel>, <ore:dustSteel>], [<TabulaRasa:RasaItem1:6>, <ore:dustSteel>, <TabulaRasa:RasaItem1:6>], [<ore:dustSteel>, <ore:dustNickel>, <ore:dustSteel>]]);
 
-	recipes.addShaped(<TabulaRasa:RasaItem1:11>, [[<TabulaRasa:RasaItem1:10>, <TabulaRasa:RasaItem1:5>, <TabulaRasa:RasaItem1:10>], [<ore:dustSteel>, <TabulaRasa:RasaItem1:10>, <ore:dustSteel>], [<TabulaRasa:RasaItem1:10>, <TabulaRasa:RasaItem1:9>, <TabulaRasa:RasaItem1:10>]]);
+	recipes.addShaped(<TabulaRasa:RasaItem1:11>, [[<TabulaRasa:RasaItem2:6>, <TabulaRasa:RasaItem1:5>, <TabulaRasa:RasaItem2:6>], [<ore:dustSteel>, <TabulaRasa:RasaItem2:6>, <ore:dustSteel>], [<TabulaRasa:RasaItem2:6>, <TabulaRasa:RasaItem1:9>, <TabulaRasa:RasaItem2:6>]]);
 
-	recipes.addShaped(<TabulaRasa:RasaItem1:12>, [[<TabulaRasa:RasaItem1:10>, <TabulaRasa:RasaItem1:7>, <TabulaRasa:RasaItem1:10>], [<ore:dustSteel>, <TabulaRasa:RasaItem1:10>, <ore:dustSteel>], [<TabulaRasa:RasaItem1:10>, <TabulaRasa:RasaItem1:8>, <TabulaRasa:RasaItem1:10>]]);
+	recipes.addShaped(<TabulaRasa:RasaItem1:12>, [[<TabulaRasa:RasaItem2:6>, <TabulaRasa:RasaItem1:7>, <TabulaRasa:RasaItem2:6>], [<ore:dustSteel>, <TabulaRasa:RasaItem2:6>, <ore:dustSteel>], [<TabulaRasa:RasaItem2:6>, <TabulaRasa:RasaItem1:8>, <TabulaRasa:RasaItem2:6>]]);
+
+	recipes.addShapeless(<TabulaRasa:RasaItem2:6>, [<TabulaRasa:RasaItem1:10>, <TabulaRasa:RasaItem2:5>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem2:7>, [<TabulaRasa:RasaItem1:11>, <TabulaRasa:RasaItem2:6>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem2:8>, [<TabulaRasa:RasaItem1:12>, <TabulaRasa:RasaItem2:6>]);
+
 
 // ================================================================================

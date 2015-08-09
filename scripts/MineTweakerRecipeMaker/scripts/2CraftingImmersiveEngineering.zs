@@ -39,6 +39,9 @@
 	recipes.remove(<ImmersiveEngineering:toolupgrade:3>);
 	recipes.remove(<ImmersiveEngineering:drillhead>);
 	recipes.remove(<ImmersiveEngineering:drillhead:1>);
+	recipes.remove(<ImmersiveEngineering:toolupgrade:4>);
+	recipes.remove(<ImmersiveEngineering:toolupgrade:2>);
+	recipes.remove(<ImmersiveEngineering:storageSlab:*>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -125,6 +128,8 @@ recipes.addShaped(<ImmersiveEngineering:metalDecoration:4> * 4, [[<ore:ingotStee
 
 	recipes.addShaped(<ImmersiveEngineering:stoneDevice:2> * 27, [[null, <customitems:blast_furnace_casing>, null], [<customitems:blast_furnace_casing>, <customitems:blast_furnace_core>, <customitems:blast_furnace_casing>], [null, <customitems:blast_furnace_casing>, null]]);
 
+//# Electrode BluePrint
+	recipes.addShaped(<ImmersiveEngineering:blueprint:2>, [[<ore:dustHOPGraphite>, <ore:ingotBlackSteel>, <ore:dustHOPGraphite>], [<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
 
 // ================================================================================
 
@@ -140,9 +145,9 @@ mods.immersiveengineering.BlastFurnace.removeRecipe(<ImmersiveEngineering:storag
 		}
 	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Steel Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>, 1198);
 	mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:storage:7>, <minecraft:iron_block>, 9598);
-	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Weak Steel Ingot>, <TabulaRasa:RasaItem1:13>, 298);
-	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Weak Blue Steel Ingot>, <TabulaRasa:RasaItem1:14>, 298);
-	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Weak Red Steel Ingot>, <TabulaRasa:RasaItem1:15>, 298);
+	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <TabulaRasa:RasaItem1:13>, 1198);
+	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Blue Steel Ingot>, <TabulaRasa:RasaItem1:14>, 1198);
+	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Red Steel Ingot>, <TabulaRasa:RasaItem1:15>, 1198);
 
 //Fuel
 //InputStack, Time in Ticks
@@ -174,47 +179,53 @@ mods.immersiveengineering.Crusher.removeRecipe(<minecraft:redstone>);
 mods.immersiveengineering.Crusher.removeRecipe(<minecraft:coal>);
 mods.immersiveengineering.Crusher.removeRecipe(<minecraft:dye:4>);
 mods.immersiveengineering.Crusher.removeRecipe(<minecraft:quartz>);
-
+mods.immersiveengineering.Crusher.removeRecipe(<Railcraft:firestone.raw>);
+mods.immersiveengineering.Crusher.removeRecipe(<terrafirmacraft:item.Powder:2>);
+mods.immersiveengineering.Crusher.removeRecipe(<terrafirmacraft:item.Powder:1>);
+mods.immersiveengineering.Crusher.removeRecipe(<Forestry:apatite>);
+mods.immersiveengineering.Crusher.removeRecipe(<Railcraft:dust:1>);
+mods.immersiveengineering.Crusher.removeRecipe(<Railcraft:dust:2>);
 
 //OutputStack, InputStack, Energy, OutputStack2, Chance //Chance in Decimals
-mods.immersiveengineering.Crusher.addRecipe(<Mekanism:Dust:0> * 2, <ore:oreIron>, 4000, <TabulaRasa:RasaItem1:2>, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<Mekanism:Dust:1> * 2, <ore:oreGold>, 4000, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<Mekanism:Dust:2> * 2, <ore:oreOsmium>, 4000, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<Mekanism:Dust:3> * 2, <ore:oreCopper>, 4000, <Mekanism:Dust:1>, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<Mekanism:Dust:4> * 2, <ore:oreTin>, 4000, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<Mekanism:Dust:5> * 2, <ore:oreSilver>, 4000, <Mekanism:Dust:6>, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<Mekanism:Dust:6> * 2, <ore:oreLead>, 4000, <Mekanism:Dust:5>, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:0> * 2, <ore:oreZinc>, 4000, <Mekanism:Dust:0>, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:1> * 2, <ore:oreBismuth>, 4000, <terrafirmacraft:item.Powder:3>, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:2> * 2, <ore:oreNickel>, 4000, <Mekanism:Dust:0>, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:3> * 2, <ore:orePlatinum>, 4000, <Mekanism:Dust:2>, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:4>, <terrafirmacraft:item.Bronze Ingot>, 2400, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:5>, <terrafirmacraft:item.Bismuth Bronze Ingot>, 2400, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:6>, <terrafirmacraft:item.Black Bronze Ingot>, 2400, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:7>, <terrafirmacraft:item.Brass Ingot>, 2400, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:8>, <terrafirmacraft:item.Rose Gold Ingot>, 2400, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:9>, <terrafirmacraft:item.Sterling Silver Ingot>, 2400, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone> * 10, <ore:oreRedstone>, 4000, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:coal> * 1, <ore:oreCoal>, 4000, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:34> * 1, <minecraft:lapis_ore>, 4000, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:quartz> * 4, <ore:oreQuartz>, 4000, <minecraft:gunpowder>, 0.25);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder> * 2, <terrafirmacraft:item.LooseRock:6>, 500, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder> * 2, <terrafirmacraft:item.LooseRock:8>, 500, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder> * 2, <terrafirmacraft:item.LooseRock:10>, 500, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder> * 2, <terrafirmacraft:item.LooseRock:20>, 500, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder> * 6, <ore:oreBorax>, 2000, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:9> * 4, <terrafirmacraft:item.LooseRock:5>, 500, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<DecorationsTFC:item.Powders.Gypsum> * 4, <ore:oreGypsum>, 1000, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Fertilizer> * 4, <ore:oreSylvite>, 1000, <terrafirmacraft:item.Fertilizer>, 0.5);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:4>, <ore:oreSaltpeter>, 2000, <terrafirmacraft:item.Powder:4>, 0.25);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:2> * 4, <ore:oreGraphite>, 1000, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:1> * 6, <ore:oreKaolinite>, 1000, <Mekanism:Dust:0>, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:blaze_powder> * 3, <ore:oreStrontium>, 2000, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:glowstone> * 4, <ore:oreScapolite>, 1000, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:glowstone> * 4, <ore:glowstone>, 1000, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<Railcraft:dust:3>, <minecraft:coal:1>, 2000, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<Railcraft:dust:3> * 2, <terrafirmacraft:item.coal:1>, 2000, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<Forestry:fertilizerCompound> * 6, <ore:gemApatite>, 2000, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<Mekanism:Dust:0> * 2, <ore:oreIron>, 6000, <TabulaRasa:RasaItem1:2>, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<Mekanism:Dust:1> * 2, <ore:oreGold>, 6000, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<Mekanism:Dust:3> * 2, <ore:oreCopper>, 6000, <Mekanism:Dust:1>, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<Mekanism:Dust:4> * 2, <ore:oreTin>, 6000, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<Mekanism:Dust:5> * 2, <ore:oreSilver>, 6000, <Mekanism:Dust:6>, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<Mekanism:Dust:6> * 2, <ore:oreLead>, 6000, <Mekanism:Dust:5>, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:0> * 2, <ore:oreZinc>, 6000, <Mekanism:Dust:0>, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:1> * 2, <ore:oreBismuth>, 6000, <terrafirmacraft:item.Powder:3>, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:2> * 2, <ore:oreNickel>, 6000, <Mekanism:Dust:0>, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:3> * 2, <ore:orePlatinum>, 6000, <Mekanism:Dust:2>, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:4>, <terrafirmacraft:item.Bronze Ingot>, 3600, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:5>, <terrafirmacraft:item.Bismuth Bronze Ingot>, 3600, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:6>, <terrafirmacraft:item.Black Bronze Ingot>, 3600, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:7>, <terrafirmacraft:item.Brass Ingot>, 3600, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:8>, <terrafirmacraft:item.Rose Gold Ingot>, 3600, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:9>, <terrafirmacraft:item.Sterling Silver Ingot>, 3600, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem2:5>, <terrafirmacraft:item.Pig Iron Ingot>, 3600, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem2:6>, <terrafirmacraft:item.Black Steel Ingot>, 3600, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone> * 10, <ore:oreRedstone>, 6000, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:coal> * 2, <ore:oreCoal>, 6000, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:34> * 2, <minecraft:lapis_ore>, 6000, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:quartz> * 4, <ore:oreQuartz>, 6000, <minecraft:gunpowder>, 0.25);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder> * 2, <terrafirmacraft:item.LooseRock:6>, 1000, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder> * 2, <terrafirmacraft:item.LooseRock:8>, 1000, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder> * 2, <terrafirmacraft:item.LooseRock:10>, 1000, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder> * 2, <terrafirmacraft:item.LooseRock:20>, 1000, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder> * 6, <ore:oreBorax>, 3600, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:9> * 4, <terrafirmacraft:item.LooseRock:5>, 1000, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<DecorationsTFC:item.Powders.Gypsum> * 4, <ore:oreGypsum>, 3600, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Fertilizer> * 4, <ore:oreSylvite>, 3600, <terrafirmacraft:item.Fertilizer>, 0.5);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:4>, <ore:oreSaltpeter>, 3600, <terrafirmacraft:item.Powder:4>, 0.25);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:2> * 6, <ore:oreGraphite>, 3600, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:1> * 6, <ore:oreKaolinite>, 3600, <Mekanism:Dust:0>, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:blaze_powder> * 3, <ore:oreStrontium>, 3600, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:glowstone> * 4, <ore:oreScapolite>, 3600, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:glowstone> * 4, <ore:glowstone>, 3600, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<Railcraft:dust:3>, <minecraft:coal:1>, 3600, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<Railcraft:dust:3> * 2, <terrafirmacraft:item.coal:1>, 3600, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<Forestry:fertilizerCompound> * 6, <ore:gemApatite>, 3600, null, 0.1);
 
 //Fermenter
 //OutputStack, OutputFluid, InputStack, Time in Ticks
