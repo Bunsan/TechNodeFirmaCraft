@@ -1,12 +1,13 @@
 To Do
 
 Immersive Engineering
--fix ammo recipes and remove bayonet
--remove drill damage upgrade
 -test galena, uranium and quartzite viens
 
+Mek
+-retest digital miner
+
 General
--rename retexture vanilla sugar
+-think about renaming retexture vanilla sugar
 
 Future
 
