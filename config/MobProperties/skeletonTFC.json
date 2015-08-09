@@ -1,6 +1,29 @@
 {
   "_name": "skeletonTFC",
-  "drops": [],
+  "drops": [
+        {
+        "function": "if_past_world_time_4319910",
+        "functions": [
+          {
+            "_comment": "add blueprint drop",
+            "function": "if_moon_phase_1",
+            "functions": [
+            {
+              "function": "if_recently_hit",
+              "functions": [
+              {
+                "function": "add",
+                "id": "ImmersiveEngineering:blueprint:1",
+                "count": 0.05
+              }
+              ]
+            }  
+            ]
+          }
+          
+        ]
+        }
+  ],
   "pre_stats": [],
   "stats": []
 }
