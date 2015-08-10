@@ -1,0 +1,4 @@
+server_name=TechNodeFirmaCraft Modpack 2.0
+optional=true
+
+[prefix{l}]server_name [prefix{}]

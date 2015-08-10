@@ -1,0 +1,9 @@
+Welcome to the TechNodefirmacraft Modpack 2.0
+
+TechNodefirmacraft is a progression mod pack built on the Terrafirmacraft conversion mod. Terrafirmacraft focuses on progression from the Stone Age up until the Steel Age. It makes the game more challenging and aims for a realistic feel, but not at the expense of gameplay. We've extended the gameplay of TFC by integrating other mods into its world. This provides you with an greatly extended world and experience.
+
+Progression through the pack will require you to achieve to specific goals to gain access to the additional mods. We've added numerous mods to give options to what each player wants to explore, the only required progression is through the TFC tech ladder. Players will want to explore the additional mods to take advantage automation and better efficiency.
+
+The integration and rebalancing of mods for this pack means that it offers a unique experience of all mods included in the pack. The limited mods available also encourages you to explore portions of known mods you previously ignored. Like TFC this pack is designed and balanced around SMP, although it is fully functional in SSP. Cooperation and division of labour are greatly encouraged. The server pack contains additional mods and configs to support player economies and cooperation.
+
+Be aware that recipes have been largely rewritten; as such you will need to include NEI and the various plugins as the recipes are not documented anywhere else. Hardcore Questing Mod is used sparingly to provide items to players, at appropriate point in progression, that would not be obtainable otherwise. 

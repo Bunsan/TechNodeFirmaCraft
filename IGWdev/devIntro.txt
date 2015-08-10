@@ -1,0 +1,7 @@
+[image{190,110,0.28,igwmod:textures/DevConcepts.png}]
+Welcome to the development section of the mod. This will give you a complete documentation about how to add your own pages, and so on. What is an IGW-Mod without having documentation about the mod itself right?
+
+To begin, we need to clarify some concepts we'll use throughout this tutorial. Here's an image to explain the most used:
+[color{FF0000}]-Wiki Tabs: Tabs like the creative tabs, that can be used to switch between sections of info (and different mods on most occasions).
+[color{0000FF}]-Page Links: List of all the pages of this Wiki Tab. These are filtered by the search bar.
+[color{00AA00}]-Wiki Page: The actual content. This can be text, images, (crafting and Furnace) recipes, items or links to other pages. [color{000000}]

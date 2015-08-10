@@ -1,0 +1,8 @@
+NOTE: Currently, there's not much content available in this mod that is useful for players that don't have PneumaticCraft installed as well. Have fun taking a look around though :). If you're modder/wikipage writer please keep reading :).
+
+Welcome to the In-Game Wiki Mod. As you have this user interface open, this means that you've found the 'i' key on your keyboard :). This mod will give you as much as possible information about blocks/items/entities/mechanics/.... in the game, modded or not modded. The mod is designed to give other mods the opportunity to easily add info about their own mods via this mod.
+
+If you are a modder or a wiki page writer and you want to know how to add content, make sure 'debug mode' is enabled in the config of this mod. Then you'll notice wikipages beginning with 'dev:' become available. These will guide you further.
+
+[prefix{l}]Future direction [prefix{}]
+The idea is that slowly but surely about everything about Vanilla blocks/items/entities can be found in this mod. It would be cool if the community could help with that, on a voluntary basis of course ;). For info about how to, enable 'debug mode' in the config.

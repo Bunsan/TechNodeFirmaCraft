@@ -1,0 +1,94 @@
+Ver 2.0:
+Update 2.0 We're Getting the Band Back Together
+
+Blurb Goes Here
+
+Mods Added:
+ImmersiveEngineering
+BetterFoliage
+IGW-Mod
+TechNodefirmaCraftMod
+ModProperties
+InPureCore
+FMPIntegration
+ResourceLoader
+
+
+Mods Changed:
+Merchants
+TerraFirmaCraft
+AOBD
+CodeChickenCore
+NEIIntegration
+OpenBlocks
+OpenModsLib
+Optifine
+PlantMegaPack
+Pneumaticraft
+Railcraft
+
+Mods Removed: The TechNodefirmacraft resourcepack has been removed. All name changes/custom textures moved to the new TechNodefirmacraft mod. This allows the use of other TerraFirmaCraft compatible resourcepacks. Your mileage with this may vary.
+
+Important Configuration Changes:
+- ImmersiveEngineering added and integrated into progression. Adds bauxite resource for aluminum. Impressive multiblock machines with impressive requirements.
+- Pneumaticraft oil processing to replace seed processing. Oil can be pumped from reservoirs found deep underground.
+- TerraFirmaCraft recommended year length changed to 360 (192 year length deprecated)
+- New Custom Menu with Slideshow loader. User picture can replace images show1.png - show6.png in Resources\Slideshow
+- Custom Menu provides direct links to TechNode subreddit, ATLauncher changelog and Github Issues tracker.
+- PlantMegaPack - All crop and berry plants removed. Served no purpose in TechNodefirmacraft.
+- FMP Integration automatically creates microblocks for all available blocks in the modpack.
+- InPureCore added to cull duplicated recipes (ie: Bibliocraft bookshelf recipes for every wood type), non-craftable items and microblocks. This causes a brief delay during world load.
+- IGWMod provides an In-game Wiki. Primarily for Pneumaticraft but also includes some TechNodefirmacraft information. By default, press I to access the wiki.
+- MobProperties allow custom settings for mobs in-game. Used to provide ImmersiveEngineering Hemp seeds from zombies after some time in the world. Possibly other drops are available.
+- Many changes to MineTweaker scripts to support ImmersiveEngineering. Change some recipes for balance.
+
+
+Ver 1.6a:
+Update 1.6a Silly Dependencies and Undocumented changes.
+
+So first something changed with bee data that meant some scripts didn't work. Those are fixed, however do not press R for recipes when hovering over a bee, this will crash your game.
+
+Secondly Mek8 has a CofHCore dependency now. So I've put that in the pack so that Mek8 can interact with other mods power systems.
+
+Ver 1.6:
+Version 1.6 Oh the Changes, Updates and Rebalancing
+
+This update brings a lot of changes. First my actual playthrough of the pack with a friend has helped bring some more balance to the pack. Many recipes are now cheaper and more in line with others for resources and effort. In particular for Railcraft, Jabba and Ropes+ mod. Zombie Awareness has been greatly toned down so you won't have the dance parties every night at your door.
+
+There have been a number of Mods that updated. Most importantly ModTweaker Updated its Mek Module. This has allowed me to update Mekanism to version 8. This brings a lot of new content at the highest tier including a crazy nuclear reactor. This modtweaker update also allowed me to use TFC machines for some crafts. New craft for slime balls, a number of quern recipes and hardened clay can now be made in the forge (sadly it won't display the heat tooltip).
+
+Lots of other mods updated, such as Pneumaticcraft, Forestry, Merchants, Decorations and more.
+
+Worldgen
+
+Pneumaticcraft has added oil into worldgen. This will not retrogen so you will have to search out new area. The tool for locating the oil does work with TFC higher sea level. The oil will replace the seeds for producing plastics, so be warned the seeds will be vanishing soon.
+
+I've also added in a new ore to the worldgen. Bauxite ore. This has been added with the expectation to add Immersive Engineering in a coming update.
+
+You may possibly get a warning about some recipes overwriting when you load up your world, these are log messages and can be ignored.
+
+Some tips. Although it may just be observer bias, our play through seemed to show that crops behaved with more variability with year length of 192 days (default is 96 and I have set it to 192 in pack). We have moved our world to 360 days (don't do this unless you know what you are doing) and would suggest if you like longer year to alter your TFCConfig.cfg to the longer year.
+
+As always feedback is very welcome.
+
+Cheers,
+Bunsan
+
+
+Ver 1.5:
+The I haven't done this for a bit I hope I don't screw this update up Update.
+
+Updating to TFC 0.79.20.710
+Forge Updated to 10.13.4.1448
+Updated many mods and I'm too tired to list atm.
+Big Changes are
+New flowers/flowertypes added to Forestry Bees
+-TFC Vines, ferns, mushrooms, flowers, cactus and tall grass(wheat) work as appropriate flowers
+-Plant Mega Pack fungi, ferns and most fines and cacti work as appropriate flowers.
+
+Pneumaticcraft
+-transition to using oil, instead of seeds for plastic. Seed HQM quest is still included during transition. Oil will spawn in world and seismic sensor does work properly, even at surface.
+
+Other mod updates are mostly bug fixes etc.
+
+Added Kitty's Ultimate Bucket. 

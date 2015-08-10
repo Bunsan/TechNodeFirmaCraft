@@ -1,0 +1,50 @@
+Note: The following explanation is as low level as possible, to make it understandable for (almost) everyone.
+
+To get started codewise, download the source of this mod and put it into your workspace. Make sure your mod can access the source of IGW-Mod (by having the source in the same project as your mod, or by adding IGW-Mod as requirement for your mod's project). Don't worry, your mod won't be a dependancy if you follow the next steps properly.
+
+Now, to make sure that the code that has to do with IGW-Mod only runs when IGW-Mod is installed, you'll have to create a class in which you add all your IGW-Mod related stuff. Add one public static method in there that is void and doesn't take any arguments. So something like this:
+
+package xx.yy.zz;
+public class IGWHandler{
+   public static void init(){
+      System.out.println("Hello world!");
+   }
+}
+
+Now this method won't be called on its own. To invoke this method, you'll have to put one line of code preferably in your ClientProxy, in a method that is called in the PreInit or Init phase of mod loading. The line is:
+
+FMLInterModComms.sendMessage("IGWMod", "xx.yy.zz.IGWHandler", "init");
+
+So with context, it'll look like this in total:
+
+@Mod blablabla
+public class ModExample{
+   @SidedProxy(clientSide = "xxx", serverSide = "yyy")
+   public static CommonProxy proxy;
+
+   @EventHandler
+   public void preInit(FMLPreInitializationEvent event){
+      proxy.registerHandlers();
+   }
+}
+
+public class ClientProxy extends CommonProxy{
+   public void registerHandlers(){
+       FMLInterModComms.sendMessage("IGWMod", "xx.yy.zz.IGWHandler", "init");
+   }
+}
+
+When IGW-Mod is installed, IGW-Mod will invoke the init() method in IGWHandler for you.
+
+[prefix{l}]Adding a tab [prefix{}]
+To add a tab you'll first have to decide how you want it to look. It's designed to be fully customizable. If you want to customize your own tab, make a class that implements IWikiTab, and register it by calling WikiRegistry.registerWikiTab(new CustomTab()). However, if you don't feel like spending the time creating your own customized tab, you can use a standard template which looks like the page you see now.
+
+[prefix{l}]BaseWikiTab [prefix{}]
+The base template is the BaseWikiTab. Create a class which extends BaseWikiTab. You'll have to give some information to this tab. In this class there's info about this required info. Look at IGWWikiTab for an example. To add page links you'll have to call pageEntries.add("<page name>"). Then, when the player opens the tab, it will display the String that gets returned by BaseWikiTab#getPageName(String pageEntry) with pageEntry being the same String you've used to add a page link. When the player clicks a page link, it will open the wiki page that is at the location returned from BaseWikiTab#getPageLocation(String pageEntry).
+
+[prefix{l}]Notifying IGW support[prefix{}]
+When players don't have IGW-Mod installed, but they do have your mod installed, you can add a notifier to notify players that there is support available.
+
+[image{200,900,0.42,igwmod:textures/notifier.png}]
+
+To do this, you can copy the whole igwmod.api.IGWSupportNotifier.java class over to your mod. Then, somewhere in your mod loading, create a new instance of IGWSupportNotifier. That's all there's to it! When IGW is not installed, it will give above chat message. Then players can click on the green text to download the mod into the mods folder. If they find the notifier to be annoying they can turn it off in the IGWMod.cfg.

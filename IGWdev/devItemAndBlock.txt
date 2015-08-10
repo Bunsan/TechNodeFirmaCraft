@@ -1,0 +1,22 @@
+ [prefix{n}]Adding content to the Item & Block or Entity tab [prefix{}]
+ To add content to the Item & Block tab or Entity tab you don't have to add any code. This can be done by adding .txt files in the right places. If you look at the tooltip of any item/block you'll notice an extra line has appeared with "IGW-Mod_DEBUG IGW name: x". Let's break down an example, using Minecraft's Piston:
+ 
+ IGW name: minecraft:block/pistonBase
+ 
+ So in general: 
+ <mod>:<block/item>/<block name / item name>
+ 
+ A txt file names after the block or item name (so pistonBase.txt in this example), should be placed in:
+ assets/minecraft/wiki/en_US/block/pistonBase.txt .
+ 
+ So in general: 
+ assets/<mod>/wiki/en_US/<block/item>/<block name/ item name>.txt
+ 
+ That is of for English pages. Pages in other languages can be put in the same structure, but with the language code en_US replaced by another. When a page can't be found for a certain language, it will try to fall back onto the en_US page.
+ 
+ [prefix{n}]Exceptions [prefix{}]
+ There are mods where the unlocalized name of the item/block is prefixed with '<modid>:'. So something like 'igwmod:testItem'. In that case, the colon needs to be replaced by a '/', meaning it needs another folder. An item named as such will have the following path:
+ assets/igwmod/wiki/en_US/item/igwmod/testItem.txt
+ 
+ There are blocks/items where this system doesn't work that great with. For example, take a look at the Enchanted Book. If you look at the name, you'll see it tells "minecraft:item/enchantedBook". And it does that for every enchanted book, regardless of the enchant. So you could only write a wikipage about Enchanted Books in general. To distinguish each of the enchants, code is needed. If you're a mod developer, take a look at the BlockWikiEvent.java and ItemWikiEvent.java. Note that you then also need to register the item/block page with WikiRegistry.registerBlockAndItemPageEntry() method.
+ 

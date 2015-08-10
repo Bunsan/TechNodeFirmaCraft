@@ -1,0 +1,84 @@
+[prefix{l}]There are several commands you can use to enhance the wikipage. All commands need to go between '[ ]'. Then there's the following list of commands that can be put between these brackets:
+
+[prefix{n}]image{x,y,imageLocation} [prefix{}]
+[prefix{n}]image{x,y,scale,imageLocation} [prefix{}]
+Allows inclusion of images. It doesn't matter where in the .txt file you put this command, it will be placed at the given x and y. The imageLocation is a location that would be familiar to mod devs as being a ResourceLocation. This means that you need to put the image in "assets/modName/" folder. for example, you've created an image and put it in "assets/igwmod/wiki/test.png". To access it with the image command, use "igwmod:wiki/test.png" as imageLocation. So basically "assets/" stripped off, the modname first and then a ':'. 
+
+[prefix{n}]crafting{x,y,key=keyName} [prefix{}]
+Allows the inclusion of crafting recipes. It automatically places down an image and fills in the recipe items. To do this it needs a key. Keys can be handled in two ways:
+ 
+You can use an IGW item name as key (for instance 'block/pistonBase'), and IGW-Mod will use the first recipe registered that has the specified item as output. This works for every normal crafting recipe (shaped, shapeless, Vanilla, modded). There is a problem though with items that have multiple crafting recipes. If you look at wool for example, you'll see that you can create wool of a certain color by combining either 8 blocks of wool with a dye to get 8, or 1 wool combined with a dye to get 1. Only the first recipe added can be displayed by using "block/cloth.gray" as key.
+
+For this problem you'll need a little bit of code. For modders: Look at the CraftingRetrievalEvent.java. This will allow you to use any key for a specific recipe.
+
+If there's no way of adding the recipe in with this command, you can use the next command to 'hard code' a recipe in.
+
+[prefix{n}]crafting{x,y,block/pistonBase,www,cic,crc,
+w=block/wood.oak,c=block/stonebrick,i=item/ingotIron,
+r=item/redstone} [prefix{}]
+Allows the inclusion of a custom crafting recipe.
+x,y = x,y location of the recipe (like with the image command). The following three parameters are the crafting pattern. In this example the recipe of a Piston is drawn, and the following crafting pattern was chosen:
+
+www
+cic
+crc
+
+If we replace everywhere where there is a 'w' by Wooden Plank, 'c' by Cobblestone, 'i' by Iron Ingot and 'r' by Redstone Dust, we have the recipe of a piston. And that's specified by the next parameters:
+
+w=block/wood.oak
+c=block/stonebrick
+i=item/ingotIron
+r=item/redstone
+
+Then, last but not least, after the '}' you can specify the recipe output, which is a Piston in this case (block/pistonBase). If the output amount is more than 1, you can add a '#4' if the amount is 4 for example.
+
+[prefix{n}]furnace{x,y,key=keyName} [prefix{}]
+Likewise with the crafting recipe variant of this command, you can embed Furnace recipes into the wikipage. It uses a similar key system as with the crafting variant: When you using an IGW-Mod item/block name, it includes the first furnace recipe it can find that has the specified block/item as output. If multiple furnace recipes with the same output exist, a modder could use the FurnaceRetrievalEvent.java.
+
+[prefix{n}]furnace{x,y,inputItem,outputItem} [prefix{}]
+A manual variant of the furnace recipe inclusion. inputItem and outputItem need to be IGW-Mod names (block/sand and block/glass).
+
+[prefix{n}]color{hexColor} [prefix{}]
+The text after this command will be in the color specified. The value is in hexnotation: RRGGBB, so the first two (hex) number represent red, second two green and last two blue. Some examples:
+
+color{FFFFFF}  --> white
+color{FF0000}  --> red
+color{000000}  --> black
+color{AAFFAA}  --> very light greenish
+
+So to make a piece of text blue, you do a color{0000FF}, write the text that needs to be blue, and then turn the text back to its original by color{000000}.
+
+[prefix{n}]prefix{pref} [prefix{}]
+With this command you can do some text formatting. You could override the previous mentioned color command, but you could also do some other stuff like bold or underlined text. Here's a full list, this list is used by Minecraft itself and can be found by going to http://minecraft.gamepedia.com/Color_Codes.
+
+prefix{0} --> Black
+prefix{1} --> Dark Blue
+prefix{2} --> Dark Green
+prefix{3} --> Dark Aqua
+prefix{4} --> Dark Red
+prefix{5} --> Dark Purple
+prefix{6} --> Gold
+prefix{7} --> Gray
+prefix{8} --> Dark Gray
+prefix{9} --> Blue
+prefix{a} --> Green
+prefix{b} --> Aqua
+prefix{c} --> Red
+prefix{d} --> Light Purple
+prefix{e} --> Yellow
+prefix{f} --> White
+
+prefix{k} --> Obfuscated (Random)
+prefix{l} --> Bold
+prefix{m} --> Strikethrough
+prefix{n} --> Underline
+prefix{o} --> Italic
+prefix{} --> Reset
+
+[prefix{n}]link{linkAddress} [prefix{}]
+This command is used to link to other pages or urls by adding in clickable text. If you want to give a group of words a link, do a link command with the link in front of this group, and do a link{} (yes an empty link) afterwards.
+
+You can simply do link{block/pistonBase} to refer to the Piston's wikipage. When the link is another page, the link address is relative to assets/igwmod/wiki/<language>/
+
+[prefix{n}]variable{<variableName>} [prefix{}]
+This is a command is used as a bridge between a page and code. It allows you to mention values on a wikipage that can change, like config options, or values prone to change. When using this command, a VariableRetrievalEvent is fired with the <variableName>. See this class for more information.

@@ -1,0 +1,24 @@
+You can use the IGW-Mod to add information of the server like house rules and general information. For this no code is needed. What is needed though is that IGW-Mod is installed on the server.
+
+To add a wikitab for your server, add a folder called 'igwmod' in the folder where also the 'server.properties' file and the 'mods' folder is located. As soon as you have done this, any client trying to log into the server needs IGW-Mod to be installed. This requirement can be turned of, this will be explained later.
+
+Another thing that happens is that as soon as a client logs in with IGW-Mod installed, the server will send over the 'igwmod' folder including its contents to the client. Also, a 'Server Wikitab' is added when the client opens the wiki GUI. It will always be the first tab. You will notice that the tab icon is emtpy. You will also notice that the tooltip of the tab is not set.
+
+Create a 'properties.txt' inside the 'igwmod' folder. The lay-out of this file is equivalent to the 'server.properties' file. The following is an example of the contents of the file. Every entry is optional, it's valid to leave entries out (or don't even include the properties.txt at all).
+
+server_name=Server Name
+icon_item=minecraft:piston
+optional=true
+
+[prefix{l}]server_name [prefix{}]
+The text that is displayed in the tooltip of the wikitab. Usually the server name.
+
+[prefix{l}]icon_item [prefix{}]
+The Minecraft name of any item/block (including modded) in the game. This item/block will displayed in the tab as icon. When an invalid item/block is given, or when no item/block is given, IGW-Mod will look for a 'tab_icon.png' in the 'igwmod' folder. This image can be of any size, it will be scaled appropriately.
+
+[prefix{l}]optional [prefix{}]
+When false, clients can only connect if they have IGW-Mod installed. When true, IGW-Mod is optional. This is useful for when you want to be sure players have access to the rules of the server. When optional is not added in this file, it will be defaulting to false, meaning that clients will need IGW-Mod.
+
+
+[prefix{l}]Adding Pages[prefix{}]
+Any .txt file added in the 'igwmod' folder will be used as a page, and will be added to the server wikitab. wikipages can be created like any other wikipage, set 'debug mode' to true in the config to see how. This also means that including images will work. You can include .png's in the 'igwmod' folder. To access an image located as following: 'igwmod/test.png', access it by using 'server/test.png' as image string.
