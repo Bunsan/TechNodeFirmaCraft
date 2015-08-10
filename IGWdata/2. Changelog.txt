@@ -1,8 +1,6 @@
 Ver 2.0:
 Update 2.0 We're Getting the Band Back Together
 
-Blurb Goes Here
-
 Mods Added:
 ImmersiveEngineering
 BetterFoliage
