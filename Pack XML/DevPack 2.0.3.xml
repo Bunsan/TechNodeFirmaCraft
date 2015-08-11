@@ -164,6 +164,9 @@
         name="NotEnoughItems" version="1.0.5.111" url="packs/TechNodefirmacraft/files/1.7.10Mods/NotEnoughItems-1.7.10-1.0.5.111-universal.jar" file="NotEnoughItems-1.7.10-1.0.5.111-universal.jar" md5="2a1ad0bb450ad389ba515bf95d24a1d9" download="server" type="mods" website="http://www.minecraftforum.net/topic/909223-" donation="http://www.chickenbones.craftsaddle.org/Pages/donate.php" authors="ChickenBones" description="Allows you to quickly and easily look up recipes and uses for any item in Minecraft included modded items. Also allows easy spawning of items and a range of one click utilities." client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod 
+        name="In-Game wiki Mod" version="1.1.9 - tnfc" url="packs/TechNodefirmacraft/files/1.7.10Mods/IGW-Mod-1.7.10-1.1.9 -tnfc-universal.jar" file="IGW-Mod-1.7.10-1.1.9 -tnfc-universal.jar" md5="fbe453469841bae81b12354aa0a24479" download="server" type="mods" website="https://www.minemaarten.com" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/mc-mods/223815-in-game-wiki-mod&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=loopycoaster_8%40hotmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_ret" authors="MineMaarten" description="Mod that allows for mods to add in-game documentation." client="yes" optional="no" server="no"
+        />
+        <mod 
         name="Immersive Engineering" version="0.5.2" url="packs/TechNodefirmacraft/files/1.7.10Mods/ImmersiveEngineering-0.5.2.jar" file="ImmersiveEngineering-0.5.2.jar" md5="b2084a57690cc95a7fd5be757f3fe68f" download="server" type="mods" website="http://www.curseforge.com/projects/231951/" authors="BluSunrize,Damien A.W. Hazard" description="A retro-futuristic tech mod!"  client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod 
@@ -225,9 +228,6 @@
         name="Damage Indicators" version="3.2.3" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]DamageIndicatorsMod-3.2.3.jar" file="[1.7.10]DamageIndicatorsMod-3.2.3.jar" md5="4d7172534ef2348a5aa2c4f130d9f57b" download="server" type="mods" website="http://www.minecraftforum.net/topic/1536685-" donation="https://dl.dropbox.com/u/74770478/donate.html" authors="rich1051414" description="Displays the damage you inflict on creatures, as well as current health, name and potion effects." client="yes" optional="yes" server="no" colour="gold" 
         />
         <mod 
-        name="In-Game wiki Mod" version="1.1.9 - tnfc" url="packs/TechNodefirmacraft/files/1.7.10Mods/igw-mod-1.7.10-1.1.9 - tnfc-universal.jar" file="igw-mod-1.7.10-1.1.9 - tnfc-universal.jar" md5="a9828e4f8f1234f6442098fd60695445" download="server" type="mods" website="https://www.minemaarten.com" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/mc-mods/223815-in-game-wiki-mod&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=loopycoaster_8%40hotmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_ret" authors="MineMaarten" description="Mod that allows for mods to add in-game documentation." client="yes" optional="yes" colour="gold" server="no"
-        />
-        <mod 
         name="Inventory Tweaks" version="1.58-147-645ca10" url="packs/TechNodefirmacraft/files/1.7.10Mods/InventoryTweaks-1.58-147.jar" file="InventoryTweaks-1.58-147.jar" md5="c5d9271ea4afb47deae8c71f8bae61a1" download="server" type="mods" website="https://github.com/Kobata/inventory-tweaks" authors="Jimeo Wan,Kobata" description="Tweaks to inventory handling for ease of use and sorting of items." client="yes" optional="yes" colour="blue" server="no"
         />
         <mod
@@ -268,11 +268,11 @@
         />
         <!-- Scripts -->
         <mod
-        name="MineTweaker 3 Scripts" version="2.0.3" url="packs/TechNodefirmacraft/files/extract/scripts_v2.0.3.zip" file="scripts_v2.0.3.zip" md5="4c67516422e4698d503e66773e6f0464" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="The Scripts" client="yes" server="yes" serveroptional="no"
+        name="MineTweaker 3 Scripts" version="2.0.3" url="packs/TechNodefirmacraft/files/extract/scripts_v2.0.3.zip" file="scripts_v2.0.3.zip" md5="0c7298b59718f7fcbd675496419b5b30" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="The Scripts" client="yes" server="yes" serveroptional="no"
         />
          <mod 
          name="Resource Loaders Folder" version="2.0.3" url="packs/TechNodefirmacraft/files/extract/resources_v2.0.3.zip" file="resources_v2.0.3.zip" md5="bdcd69e939a45e6468ba159383e69109" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="no"
         /> 
-        <mod name="IGWModData" version="2.0.3" url="packs/TechNodefirmacraft/files/extract/igwmod.zip" file="igwmod.zip" md5="2db80198c0662a832b4a111c1d59ac59" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="yes" serveroptional="no"/>
+        <mod name="IGWModData" version="2.0.3" url="packs/TechNodefirmacraft/files/extract/igwmod_2.0.zip" file="igwmod_2.0.zip" md5="729d7b3ac26b6871b948a589a582768a" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no" />
     </mods>
 </version>
