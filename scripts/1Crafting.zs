@@ -847,6 +847,15 @@ recipes.addShaped(<HardcoreQuesting:item_barrel>, [[<ore:plankWood>, <ore:blockG
 
 //# VANILLA+ TO TFC
 
+	var planksVanilla = [<minecraft:planks>, <minecraft:planks:1>, <minecraft:planks:2>, <minecraft:planks:3>, <minecraft:planks:4>, <minecraft:planks:5>] as IItemStack[];
+	var stairsVanilla = [<minecraft:oak_stairs>, <minecraft:spruce_stairs>, <minecraft:birch_stairs>, <minecraft:jungle_stairs>, <minecraft:acacia_stairs>, <minecraft:dark_oak_stairs>] as IItemStack[];
+
+//# Stair
+		for i, planks in planksVanilla {
+	var stair = stairsVanilla[i];
+	recipes.addShaped(stair * 6, [[planks, null, <ore:itemSaw>.transformDamage(12)], [planks, planks, null], [planks, planks, planks]]);
+		}
+
 //# Quartz Blocks
 
 	recipes.addShaped(<minecraft:quartz_block>, [[<ore:gemQuartz>, <terrafirmacraft:item.Mortar>, <ore:gemQuartz>], [<terrafirmacraft:item.Mortar>, <terrafirmacraft:item.dyePowder:15>, <terrafirmacraft:item.Mortar>], [<ore:gemQuartz>, <terrafirmacraft:item.Mortar>, <ore:gemQuartz>]]);
