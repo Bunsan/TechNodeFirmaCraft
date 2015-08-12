@@ -2,14 +2,11 @@ To Do
 
 
 Immersive Engineering
--test galena, uranium and quartzite veins
+-Make recipe to process Railcraft sulfur ore from excavator
 
 Mek
 -Fix Sawmill Recipe
 -Script recipes for sawmill if and when we can sort out error.
-
-Immersive Engineering
--figure out how to control which mods ore excavator outputs (likely can't)
 
 General
 -General run through looking for missing/forgotten things.
