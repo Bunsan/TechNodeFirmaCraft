@@ -9,6 +9,8 @@
 //     Removes come first, then stuff is added.
 // ================================================================================
 //#  MEKANISM SCRIPTS
+
+<Mekanism:MachineBlock:4>.addTooltip(format.red("DO NOT Silktouch Ores may corrupt world."));
 // ================================================================================
 //#MARKER REMOVE
 
@@ -82,6 +84,7 @@
 	recipes.remove(<Mekanism:MachineBlock3:3>);
 	recipes.remove(<Mekanism:AtomicDisassembler:100>);
 	recipes.remove(<Mekanism:Flamethrower:100>);
+
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS

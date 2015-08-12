@@ -1,15 +1,18 @@
 To Do
 
+
 Immersive Engineering
--test galena, uranium and quartzite viens
+-test galena, uranium and quartzite veins
 
 Mek
--log issue about digital miner silk touch issue.
+-Fix Sawmill Recipe
+-Script recipes for sawmill if and when we can sort out error.
 
 Immersive Engineering
--figure out how to control which mods ore excavator outputs
+-figure out how to control which mods ore excavator outputs (likely can't)
 
 General
+-General run through looking for missing/forgotten things.
 -think about renaming retexture vanilla sugar
 
 Future

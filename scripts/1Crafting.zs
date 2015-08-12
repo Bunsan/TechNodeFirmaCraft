@@ -216,6 +216,13 @@ oreStrontium.add(<minecraft:blaze_rod>);
 val oreSulfur = <ore:oreSulfur>;
 oreSulfur.remove(<terrafirmacraft:item.Ore:23>);
 
+//# Source of Tungsten (Scheelite)
+
+val oreTungsten = <ore:oreTungsten>;
+oreTungsten.add(<terrafirmacraft:item.Ore:18>);
+val oreSatinspar = <ore:oreSatinspar>;
+oreSatinspar.remove(<terrafirmacraft:item.Ore:18>);
+
 //# CREATION of logSappy Ore Dictionary entry for providing slimeballs
 val logSappy = <ore:logSappy>;
 logSappy.add(<terrafirmacraft:item.Log:8>);
@@ -417,8 +424,11 @@ blockAlveary.add(<Forestry:alveary:7>);
 furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 <minecraft:coal:1>.addTooltip(format.red("Half Fuel Value of TFC Charcoal."));
 
+<terrafirmacraft:item.Ore:18>.addTooltip(format.red("Eloraam's Glory"));
+
 <minecraft:bucket>.addTooltip(format.lightPurple("For when you've had a bit too much liquid."));
 
+//<terrafirmacraft
 val pressureChamber = <ore:pressureChamber>;
 pressureChamber.add(<PneumaticCraft:pressureChamberWall:6>);
 pressureChamber.add(<PneumaticCraft:pressureChamberWall>);
