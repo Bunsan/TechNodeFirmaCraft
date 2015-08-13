@@ -2,5 +2,26 @@
   "_name": "bearTFC",
   "drops": [],
   "pre_stats": [],
-  "stats": []
+  "stats": [
+    {
+      "_comment": "Stat Changes",
+      "functions": "all",
+      "functions": [
+        {
+          "_comment": "Speed",
+          "function": "modifier",
+          "attribute": "generic.movementSpeed",
+          "value": "1.25~1.75",
+          "override": true
+        },
+        {
+          "_comment": "Range",
+          "function": "modifier",
+          "attribute": "generic.followRange",
+          "value": "32",
+          "override": true
+        }
+      ]
+    }
+  ]
 }
