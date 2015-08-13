@@ -28,6 +28,7 @@
 	recipes.remove(<JABBA:upgradeCore>);
 	recipes.remove(<JABBA:barrel>);
 	recipes.remove(<JABBA:mover>);
+	
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -62,4 +63,3 @@
 		for item in <ore:craftingToolSaw>.items {
 	recipes.addShaped(<JABBA:barrel>, [[<ore:logWood>, item.anyDamage().transformDamage(), <ore:logWood>], [<ore:logWood>, <ore:craftingChest>, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
 		}
-recipes.addShaped(<JABBA:mover>, [[null, null, <Railcraft:part.rebar>], [null, <ore:plankWood>, <Railcraft:part.rebar>], [<ore:plateDoubleWroughtIron>, <ore:plateDoubleWroughtIron>, <Railcraft:part.rebar>]]);

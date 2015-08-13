@@ -9,6 +9,11 @@
 //     Removes come first, then stuff is added.
 // ================================================================================
 import minetweaker.item.IItemStack;
+import mods.nei.NEI;
+
+NEI.hide(<terrafirmacraft:Ore1>);
+NEI.hide(<terrafirmacraft:Ore2>);
+NEI.hide(<terrafirmacraft:Ore3>);
 
 //# ORE DICTIONARY
 
@@ -884,7 +889,7 @@ recipes.addShaped(<HardcoreQuesting:item_barrel>, [[<ore:plankWood>, <ore:blockG
 	recipes.addShaped(<minecraft:daylight_detector>, [[<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>], [<ore:oreJet>, <ore:dustRedstone>, <ore:oreJet>], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
 
 //# Clay Block (placeable, but falls) for Hardened Clay
-	recipes.addShaped(<customitems:block_of_clay>, [[<ore:lumpClay>, <ore:lumpClay>], [<ore:lumpClay>, <ore:lumpClay>]]);
+	recipes.addShaped(<customitems:block_of_clay>, [[<ore:lumpClay>, <terrafirmacraft:item.Straw>, <ore:lumpClay>], [<terrafirmacraft:item.Straw>, <ore:lumpClay>, <terrafirmacraft:item.Straw>], [<ore:lumpClay>, <terrafirmacraft:item.Straw>, <ore:lumpClay>]]);
 	recipes.addShaped(<terrafirmacraft:item.Clay> * 4, [[<customitems:block_of_clay>]]);
 
 //# Furnace
