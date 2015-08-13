@@ -1,0 +1,11 @@
+With all scripts in unarchived format in scripts\
+
+Create scripts.zip archive of scripts\
+Delete all unarchived script files 
+Move scripts.zip to scripts\
+
+Create scripts_%version%_pmp.zip archive of scripts\
+
+Open scripts\scripts.zip and remove 2CraftingPlantMegaPack.zs
+
+Create scripts_%version_base.zip archive of scripts\
