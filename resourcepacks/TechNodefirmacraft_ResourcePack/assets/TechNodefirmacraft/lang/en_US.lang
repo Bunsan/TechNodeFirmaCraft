@@ -1,0 +1,42 @@
+#en_US
+#This is the Main language configuration file
+#
+#If you want to color code the text then I recommend you visit http://www.minecraftwiki.net/wiki/Formatting_codes#Color_codes
+#To create the § symbol which is used for assigning a color to the following text press Alt + 21 on Windows. For other OSes, view the above link.
+#This file needs to be UTF-8 encoded to work with MC 1.7+
+
+#==========
+#= Blocks =
+#==========
+
+
+#=========
+#= Items =
+#=========
+
+
+#=======
+#= GUI =
+#=======
+
+
+#===========
+#= Strings =
+#===========
+
+
+#========
+#= Misc =
+#========
+
+#== Creative Tabs ==
+
+
+#=========
+#= WAILA =
+#=========
+
+#== Tooltips ==
+
+
+#== Options ==

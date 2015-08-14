@@ -2,17 +2,12 @@ To Do
 
 
 Immersive Engineering
--Make recipe to process Railcraft sulfur ore from excavator
-
-Mek
--Fix Sawmill Recipe
--Script recipes for sawmill if and when we can sort out error.
+-Can we do all the Ore Dictionary registration via TNFCmod during loading instead of with MT?
 
 General
 -General run through looking for missing/forgotten things.
--think about renaming retexture vanilla sugar
 
 Future
 
 -HQM quest that are proper quest lines
--IGW integration
+-Further IGW integration
