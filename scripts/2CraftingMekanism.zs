@@ -471,5 +471,3 @@ import minetweaker.item.IItemStack;
 	var woodPlank = blockSawTFCPlanks[i];
 	mods.mekanism.Sawmill.addRecipe(rawLog, woodPlank * 4, <Forestry:woodPulp>, 1.0);
 		}
-
-//mods.mekanism.Sawmill.addRecipe(<terrafirmacraft:item.Log:7>, <terrafirmacraft:planks:7>, <Forestry:woodPulp>, 1.0);
