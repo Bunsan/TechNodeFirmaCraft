@@ -51,7 +51,7 @@
         
 <!-- Base Scripts -->
         <mod
-        name="Scripts" version="2.0release" url="packs/TechNodefirmacraft/files/extract/scripts_v2.0release_base.zip" file="scripts_v2.0release_base.zip" md5="08edcdc6f9417ddddb7c94822d88f4ae" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="The Scripts" client="yes" optional="no" server="yes" serveroptional="no" 
+        name="Scripts" version="2.0release" url="packs/TechNodefirmacraft/files/extract/scripts_v2.0release_base.zip" file="scripts_v2.0release_base.zip" md5="b416cf282d2406630e6703112bb67ee4" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="The Scripts" client="yes" optional="no" server="yes" serveroptional="no" 
         />
         
         <mod 
@@ -279,7 +279,7 @@
         />
         <!-- Scripts -->
         <mod
-        name="ScriptPMP" version="2.0release" url="packs/TechNodefirmacraft/files/extract/scripts_v2.0release_pmp.zip" file="scripts_v2.0release_pmp.zip" md5="c29ab978bca90dcdfbb0279701046c26" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Script for PlantMegaPack" client="yes" server="yes" library="yes"
+        name="ScriptPMP" version="2.0" url="packs/TechNodefirmacraft/files/extract/scripts_v2.0release_pmp.zip" file="scripts_v2.0release_pmp.zip" md5="8b9a88476d774d75ac2f59affeeee7da" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Script for PlantMegaPack" client="yes" server="yes" library="yes"
         />
 
          <mod 
