@@ -34,63 +34,63 @@ var stairsHardClayBrick = [<customitems:hardened_clay_brick_stairs>, <customitem
 var stairsHardClayTile = [<customitems:hardened_clay_tile_stairs>, <customitems:white_stained_clay_tile_stairs>, <customitems:orange_stained_clay_tile_stairs>, <customitems:magenta_stained_clay_tile_stairs>, <customitems:light_blue_stained_clay_tile_stairs>, <customitems:yellow_stained_clay_tile_stairs>, <customitems:lime_stained_clay_tile_stairs>, <customitems:pink_stained_clay_tile_stairs>, <customitems:gray_stained_clay_tile_stairs>, <customitems:light_gray_stained_clay_tile_stairs>, <customitems:cyan_stained_clay_tile_stairs>, <customitems:purple_stained_clay_tile_stairs>, <customitems:blue_stained_clay_tile_stairs>, <customitems:brown_stained_clay_tile_stairs>, <customitems:green_stained_clay_tile_stairs>, <customitems:red_stained_clay_tile_stairs>, <customitems:black_stained_clay_tile_stairs>] as IItemStack[];
 
 		for i, clayHardRaw in blockHardClayRaw {
-	var blockHardClayPaver = blockHardClayPaver[i];
-	recipes.addShapeless(blockHardClayPaver, [clayHardRaw, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
+	var hardClayPaver = blockHardClayPaver[i];
+	recipes.addShapeless(hardClayPaver, [clayHardRaw, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
 		}
 
 		for i, clayHardPaver in blockHardClayPaver {
-	var blockHardClayCircle = blockHardClayCircle[i];
-	recipes.addShapeless(blockHardClayCircle, [clayHardPaver, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
+	var hardClayCircle = blockHardClayCircle[i];
+	recipes.addShapeless(hardClayCircle, [clayHardPaver, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
 		}
 
 		for i, clayHardRaw in blockHardClayRaw {
-	var blockHardClayBrick = blockHardClayBrick[i];
-	recipes.addShaped(blockHardClayBrick, [[clayHardRaw, <terrafirmacraft:item.Mortar>, clayHardRaw], [<terrafirmacraft:item.Mortar>, clayHardRaw, <terrafirmacraft:item.Mortar>], [clayHardRaw, <terrafirmacraft:item.Mortar>, clayHardRaw]]);
+	var hardClayBrick = blockHardClayBrick[i];
+	recipes.addShaped(hardClayBrick, [[clayHardRaw, <terrafirmacraft:item.Mortar>, clayHardRaw], [<terrafirmacraft:item.Mortar>, clayHardRaw, <terrafirmacraft:item.Mortar>], [clayHardRaw, <terrafirmacraft:item.Mortar>, clayHardRaw]]);
 		}
 
 		for i, clayHardBrick in blockHardClayBrick {
-	var blockHardClayTile = blockHardClayTile[i];
-	recipes.addShapeless(blockHardClayTile, [clayHardBrick, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
+	var hardClayTile = blockHardClayTile[i];
+	recipes.addShapeless(hardClayTile, [clayHardBrick, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
 		}
 
 		for i, clayHardPaver in blockHardClayPaver {
-	var slabHardClayPaver = slabHardClayPaver[i];
-	recipes.addShaped(slabHardClayPaver * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [clayHardPaver, clayHardPaver, clayHardPaver]]);
+	var hardClayPaverSlab = slabHardClayPaver[i];
+	recipes.addShaped(hardClayPaverSlab * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [clayHardPaver, clayHardPaver, clayHardPaver]]);
 		}
 
 		for i, clayHardBrick in blockHardClayBrick {
-	var slabHardClayBrick = slabHardClayBrick[i];
-	recipes.addShaped(slabHardClayBrick * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [clayHardBrick, clayHardBrick, clayHardBrick]]);
+	var hardClayBrickStairs = slabHardClayBrick[i];
+	recipes.addShaped(hardClayBrickStairs * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [clayHardBrick, clayHardBrick, clayHardBrick]]);
 		}
 
 		for i, clayHardTile in blockHardClayTile {
-	var slabHardClayTile = slabHardClayTile[i];
-	recipes.addShaped(slabHardClayTile * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [clayHardTile, clayHardTile, clayHardTile]]);
+	var hardClayTileStairs = slabHardClayTile[i];
+	recipes.addShaped(hardClayTileStairs * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [clayHardTile, clayHardTile, clayHardTile]]);
 		}
 
 		for i, clayHardPaver in blockHardClayPaver {
-	var stairsHardClayPaver = stairsHardClayPaver[i];
-	recipes.addShaped(stairsHardClayPaver * 6, [[clayHardPaver, <ore:itemChisel>.transformDamage(12), null], [clayHardPaver, clayHardPaver, <ore:itemHammer>.reuse()], [clayHardPaver, clayHardPaver, clayHardPaver]]);
+	var hardClayPaverStairs = stairsHardClayPaver[i];
+	recipes.addShaped(hardClayPaverStairs * 6, [[clayHardPaver, <ore:itemChisel>.transformDamage(12), null], [clayHardPaver, clayHardPaver, <ore:itemHammer>.reuse()], [clayHardPaver, clayHardPaver, clayHardPaver]]);
 		}
 
 		for i, clayHardBrick in blockHardClayBrick {
-	var stairsHardClayBrick = stairsHardClayBrick[i];
-	recipes.addShaped(stairsHardClayBrick * 6, [[clayHardBrick, <ore:itemChisel>.transformDamage(12), null], [clayHardBrick, clayHardBrick, <ore:itemHammer>.reuse()], [clayHardBrick, clayHardBrick, clayHardBrick]]);
+	var hardClayBrickStairs = stairsHardClayBrick[i];
+	recipes.addShaped(hardClayBrickStairs * 6, [[clayHardBrick, <ore:itemChisel>.transformDamage(12), null], [clayHardBrick, clayHardBrick, <ore:itemHammer>.reuse()], [clayHardBrick, clayHardBrick, clayHardBrick]]);
 		}
 
 		for i, clayHardTile in blockHardClayTile {
-	var stairsHardClayTile = stairsHardClayTile[i];
-	recipes.addShaped(stairsHardClayTile * 6, [[clayHardTile, <ore:itemChisel>.transformDamage(12), null], [clayHardTile, clayHardTile, <ore:itemHammer>.reuse()], [clayHardTile, clayHardTile, clayHardTile]]);
+	var hardClayTileStairs = stairsHardClayTile[i];
+	recipes.addShaped(hardClayTileStairs * 6, [[clayHardTile, <ore:itemChisel>.transformDamage(12), null], [clayHardTile, clayHardTile, <ore:itemHammer>.reuse()], [clayHardTile, clayHardTile, clayHardTile]]);
 		}
 
 		for i, clayHardPaverSlab in slabHardClayPaver {
-	var blockHardClayChiseled = blockHardClayChiseled[i];
-	recipes.addShaped(blockHardClayChiseled, [[<ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()], [clayHardPaverSlab], [clayHardPaverSlab]]);
+	var hardClayChiseled = blockHardClayChiseled[i];
+	recipes.addShaped(hardClayChiseled, [[<ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()], [clayHardPaverSlab], [clayHardPaverSlab]]);
 		}
 
 		for i, clayHardPaver in blockHardClayPaver {
-	var blockHardClayPillar = blockHardClayPillar[i];
-	recipes.addShaped(blockHardClayPillar * 2, [[<ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()], [clayHardPaver], [clayHardPaver]]);
+	var hardClayPillar = blockHardClayPillar[i];
+	recipes.addShaped(hardClayPillar * 2, [[<ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()], [clayHardPaver], [clayHardPaver]]);
 		}
 var blockStoneSmooth = [<terrafirmacraft:StoneIgInSmooth:0>, <terrafirmacraft:StoneIgInSmooth:1>, <terrafirmacraft:StoneIgInSmooth:2>, <terrafirmacraft:StoneIgExSmooth:0>, <terrafirmacraft:StoneIgExSmooth:1>, <terrafirmacraft:StoneIgExSmooth:2>, <terrafirmacraft:StoneIgExSmooth:3>, <terrafirmacraft:StoneSedSmooth:0>, <terrafirmacraft:StoneSedSmooth:1>, <terrafirmacraft:StoneSedSmooth:2>, <terrafirmacraft:StoneSedSmooth:3>, <terrafirmacraft:StoneSedSmooth:4>, <terrafirmacraft:StoneSedSmooth:5>, <terrafirmacraft:StoneSedSmooth:6>, <terrafirmacraft:StoneSedSmooth:7>, <terrafirmacraft:StoneMMSmooth:0>, <terrafirmacraft:StoneMMSmooth:1>, <terrafirmacraft:StoneMMSmooth:2>, <terrafirmacraft:StoneMMSmooth:3>, <terrafirmacraft:StoneMMSmooth:4>, <terrafirmacraft:StoneMMSmooth:5>] as IItemStack[];
 
@@ -111,23 +111,28 @@ var slabStoneTile = [<customitems:granite_tile_slab>, <customitems:diorite_tile_
 var stairsStoneTile = [<customitems:granite_tile_stairs>, <customitems:diorite_tile_stairs>, <customitems:gabbro_tile_stairs>, <customitems:rhyolite_tile_stairs>, <customitems:basalt_tile_stairs>, <customitems:andesite_tile_stairs>, <customitems:dacite_tile_stairs>, <customitems:shale_tile_stairs>, <customitems:claystone_tile_stairs>, <customitems:rock_salt_tile_stairs>, <customitems:limestone_tile_stairs>, <customitems:conglomerate_tile_stairs>, <customitems:dolomite_tile_stairs>, <customitems:chert_tile_stairs>, <customitems:chalk_tile_stairs>, <customitems:quartzite_tile_stairs>, <customitems:slate_tile_stairs>, <customitems:phyllite_tile_stairs>, <customitems:schist_tile_stairs>, <customitems:gneiss_tile_stairs>, <customitems:marble_tile_stairs>] as IItemStack[];
 
 		for i, stoneSmooth in blockStoneSmooth {
-	var blockStoneCircle = blockStoneCircle[i];
-	recipes.addShapeless(blockStoneCircle, [stoneSmooth, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
+	var stoneCircle = blockStoneCircle[i];
+	recipes.addShapeless(stoneCircle, [stoneSmooth, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
 		}
 
 		for i, stoneBrick in blockStoneBrick {
-	var blockStoneTile = blockStoneTile[i];
-	recipes.addShapeless(blockStoneTile, [stoneBrick, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
+	var stoneTile = blockStoneTile[i];
+	recipes.addShapeless(stoneTile, [stoneBrick, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
 		}
 
 		for i, stoneTile in blockStoneTile {
-	var stairsStoneTile = stairsStoneTile[i];
-	recipes.addShaped(stairsStoneTile * 6, [[stoneTile, <ore:itemChisel>.transformDamage(12), null], [stoneTile, stoneTile, <ore:itemHammer>.reuse()], [stoneTile, stoneTile, stoneTile]]);
+	var stoneTileStairs = stairsStoneTile[i];
+	recipes.addShaped(stoneTileStairs * 6, [[stoneTile, <ore:itemChisel>.transformDamage(12), null], [stoneTile, stoneTile, <ore:itemHammer>.reuse()], [stoneTile, stoneTile, stoneTile]]);
 		}
 
 		for i, stoneTile in blockStoneTile {
-	var slabStoneTile = slabStoneTile[i];
-	recipes.addShaped(slabStoneTile * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [stoneTile, stoneTile, stoneTile]]);
+	var stoneTileSlab = slabStoneTile[i];
+	recipes.addShaped(stoneTileSlab * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [stoneTile, stoneTile, stoneTile]]);
+		}
+
+		for i, stoneSmooth in blockStoneSmooth {
+	var stonePillar = blockStonePillar[i];
+	recipes.addShaped(stonePillar * 2, [[<ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()], [stoneSmooth], [stoneSmooth]]);
 		}
 
 recipes.addShaped(<customitems:oak_plank_fence>*2, [[<terrafirmacraft:item.SinglePlank:0>, null , <terrafirmacraft:item.SinglePlank:0>], [<terrafirmacraft:item.SinglePlank:0>, <terrafirmacraft:item.stick>, <terrafirmacraft:item.SinglePlank:0>], [<terrafirmacraft:item.SinglePlank:0>, <terrafirmacraft:item.stick>, <terrafirmacraft:item.SinglePlank:0>]]);
