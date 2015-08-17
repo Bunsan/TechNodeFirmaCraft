@@ -45,7 +45,7 @@
 
 mods.tfcraft.Quern.add(<terrafirmacraft:item.Ore:17>, <DecorationsTFC:item.Powders.Gypsum> * 4);
 mods.tfcraft.Quern.add(<terrafirmacraft:item.Ore:23>, <minecraft:blaze_powder> * 2);
-mods.tfcraft.Quern.add(<terrafirmacraft:item.Ore:19>, <minecraft:glowstone_dust> * 3);
+mods.tfcraft.Quern.add(<terrafirmacraft:item.Ore:19>, <minecraft:glowstone_dust> * 2);
 mods.tfcraft.Quern.add(<terrafirmacraft:item.Ore:33>, <Forestry:fertilizerCompound> * 4);
 
 //# Heating
