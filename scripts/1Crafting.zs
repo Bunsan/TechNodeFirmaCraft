@@ -262,12 +262,17 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 	recipes.addShapeless(<minecraft:end_stone>, [<ore:stoneRaw>, <minecraft:ender_pearl>]);
 
 //# REPLACE Ingot to Nugget recipe with TFC ingot
-	recipes.addShapeless(<Railcraft:nugget:4> * 9, [<ore:ingotLead>]);
-	recipes.addShapeless(<Railcraft:nugget:3> * 9, [<ore:ingotTin>]);
+	recipes.addShapeless(<Railcraft:nugget> * 9, [<ore:ingotIron>]);
 	recipes.addShapeless(<Railcraft:nugget:2> * 9, [<ore:ingotCopper>]);
+	recipes.addShapeless(<Railcraft:nugget:3> * 9, [<ore:ingotTin>]);
+	recipes.addShapeless(<ImmersiveEngineering:metal:23> * 9, [<ore:ingotAluminum>]);
+	recipes.addShapeless(<Railcraft:nugget:4> * 9, [<ore:ingotLead>]);
+	recipes.addShapeless(<ImmersiveEngineering:metal:25> * 9, [<ore:ingotSilver>]);
+	recipes.addShapeless(<ImmersiveEngineering:metal:26> * 9, [<ore:ingotNickel>]);
+	recipes.addShapeless(<ImmersiveEngineering:metal:27> * 9, [<ore:ingotConstantan>]);
+	recipes.addShapeless(<ImmersiveEngineering:metal:28> * 9, [<ore:ingotElectrum>]);
 	recipes.addShapeless(<Railcraft:nugget:1> * 9, [<ore:ingotSteel>]);
 	recipes.addShapeless(<minecraft:gold_nugget> * 9, [<ore:ingotGold>]);
-	recipes.addShapeless(<Railcraft:nugget> * 9, [<ore:ingotIron>]);
 
 //# REPLACE recipes using chisel
 		for item in <ore:craftingToolMediumChisel>.items {
@@ -537,6 +542,12 @@ recipes.addShaped(<HardcoreQuesting:item_barrel>, [[<ore:plankWood>, <ore:blockG
 	recipes.addShaped(<terrafirmacraft:item.Tin Ingot>, [[<Railcraft:nugget:3>, <Railcraft:nugget:3>, <Railcraft:nugget:3>], [<Railcraft:nugget:3>, <Railcraft:nugget:3>, <Railcraft:nugget:3>], [<Railcraft:nugget:3>, <Railcraft:nugget:3>, <Railcraft:nugget:3>]]);
 	recipes.addShaped(<terrafirmacraft:item.Copper Ingot>, [[<Railcraft:nugget:2>, <Railcraft:nugget:2>, <Railcraft:nugget:2>], [<Railcraft:nugget:2>, <Railcraft:nugget:2>, <Railcraft:nugget:2>], [<Railcraft:nugget:2>, <Railcraft:nugget:2>, <Railcraft:nugget:2>]]);
 	recipes.addShaped(<terrafirmacraft:item.Lead Ingot>, [[<Railcraft:nugget:4>, <Railcraft:nugget:4>, <Railcraft:nugget:4>], [<Railcraft:nugget:4>, <Railcraft:nugget:4>, <Railcraft:nugget:4>], [<Railcraft:nugget:4>, <Railcraft:nugget:4>, <Railcraft:nugget:4>]]);
+	recipes.addShaped(<terrafirmacraft:item.Silver Ingot>, [[<ImmersiveEngineering:metal:25>, <ImmersiveEngineering:metal:25>, <ImmersiveEngineering:metal:25>], [<ImmersiveEngineering:metal:25>, <ImmersiveEngineering:metal:25>, <ImmersiveEngineering:metal:25>], [<ImmersiveEngineering:metal:25>, <ImmersiveEngineering:metal:25>, <ImmersiveEngineering:metal:25>]]);
+	recipes.addShaped(<terrafirmacraft:item.Nickel Ingot>, [[<ImmersiveEngineering:metal:26>, <ImmersiveEngineering:metal:26>, <ImmersiveEngineering:metal:26>], [<ImmersiveEngineering:metal:26>, <ImmersiveEngineering:metal:26>, <ImmersiveEngineering:metal:26>], [<ImmersiveEngineering:metal:26>, <ImmersiveEngineering:metal:26>, <ImmersiveEngineering:metal:26>]]);
+	recipes.addShaped(<ImmersiveEngineering:metal:1>, [[<ImmersiveEngineering:metal:23>, <ImmersiveEngineering:metal:23>, <ImmersiveEngineering:metal:23>], [<ImmersiveEngineering:metal:23>, <ImmersiveEngineering:metal:23>, <ImmersiveEngineering:metal:23>], [<ImmersiveEngineering:metal:23>, <ImmersiveEngineering:metal:23>, <ImmersiveEngineering:metal:23>]]);
+	recipes.addShaped(<ImmersiveEngineering:metal:5>, [[<ImmersiveEngineering:metal:27>, <ImmersiveEngineering:metal:27>, <ImmersiveEngineering:metal:27>], [<ImmersiveEngineering:metal:27>, <ImmersiveEngineering:metal:27>, <ImmersiveEngineering:metal:27>], [<ImmersiveEngineering:metal:27>, <ImmersiveEngineering:metal:27>, <ImmersiveEngineering:metal:27>]]);
+	recipes.addShaped(<ImmersiveEngineering:metal:6>, [[<ImmersiveEngineering:metal:28>, <ImmersiveEngineering:metal:28>, <ImmersiveEngineering:metal:28>], [<ImmersiveEngineering:metal:28>, <ImmersiveEngineering:metal:28>, <ImmersiveEngineering:metal:28>], [<ImmersiveEngineering:metal:28>, <ImmersiveEngineering:metal:28>, <ImmersiveEngineering:metal:28>]]);
+
 
 //# WR-CBE
 	recipes.addShaped(<WR-CBE|Core:recieverDish>, [[<WR-CBE|Core:wirelessTransceiver>], [<terrafirmacraft:item.GoldPan>]]);
