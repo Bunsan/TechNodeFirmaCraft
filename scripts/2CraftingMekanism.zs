@@ -276,7 +276,7 @@ import minetweaker.item.IItemStack;
 	mods.mekanism.Enrichment.addRecipe(<Mekanism:OtherDust>, <Mekanism:CompressedDiamond>);
 	mods.mekanism.Enrichment.addRecipe(<terrafirmacraft:item.Diamond:2>, <Mekanism:CompressedDiamond>);
 
-	mods.mekanism.Enrichment.addRecipe(<terrafirmacraft:item.Ore:25>, <Mekanism:Dust:2> * 2);
+	//mods.mekanism.Enrichment.addRecipe(<terrafirmacraft:item.Ore:25>, <Mekanism:Dust:2> * 2);
 	//mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0>, <Mekanism:Dust:3> * 2);
 	//mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0:9>, <Mekanism:Dust:3> * 2);
 	//mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0:13>, <Mekanism:Dust:3> * 2);
@@ -297,7 +297,7 @@ import minetweaker.item.IItemStack;
 	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem2>, <TabulaRasa:RasaItem1>);
 	mods.mekanism.Enrichment.addRecipe(<terrafirmacraft:item.coal:1>, <Mekanism:CompressedCarbon> * 2);
 //Purification Chamber
-	mods.mekanism.Purification.addRecipe(<terrafirmacraft:item.Ore:25>, <Mekanism:Clump:2> * 3);
+	//mods.mekanism.Purification.addRecipe(<terrafirmacraft:item.Ore:25>, <Mekanism:Clump:2> * 3);
 	//mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem0>, <Mekanism:Clump:3> * 3);
 	//mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem0:9>, <Mekanism:Clump:3> * 3);
 	//mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem0:13>, <Mekanism:Clump:3> * 3);
@@ -321,7 +321,7 @@ import minetweaker.item.IItemStack;
 	mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem2:8>, <TabulaRasa:RasaItem1:15>);
 
 //Chemical Injection
-	mods.mekanism.chemical.Injection.addRecipe(<terrafirmacraft:item.Ore:25>, <gas:hydrogenChloride>, <Mekanism:Shard:2> * 4);
+	//mods.mekanism.chemical.Injection.addRecipe(<terrafirmacraft:item.Ore:25>, <gas:hydrogenChloride>, <Mekanism:Shard:2> * 4);
 	//mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0>, <gas:hydrogenChloride>, <Mekanism:Shard:3> * 4);
 	//mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:9>, <gas:hydrogenChloride>, <Mekanism:Shard:3> * 4);
 	//mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:13>, <gas:hydrogenChloride>, <Mekanism:Shard:3> * 4);
@@ -342,7 +342,7 @@ import minetweaker.item.IItemStack;
 	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem5:3>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem3:3>);
 //Chemical Dissolution
 //InputStack, GasOutput
-	mods.mekanism.chemical.Dissolution.addRecipe(<terrafirmacraft:item.Ore:25>, <gas:osmium>);
+	//mods.mekanism.chemical.Dissolution.addRecipe(<terrafirmacraft:item.Ore:25>, <gas:osmium>);
 	//mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0>, <gas:copper>);
 	//mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:9>, <gas:copper>);
 	//mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:13>, <gas:copper>);
