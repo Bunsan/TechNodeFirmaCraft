@@ -226,8 +226,8 @@ mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:4>, <or
 mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:2> * 6, <ore:oreGraphite>, 3600, null, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:1> * 6, <ore:oreKaolinite>, 3600, <Mekanism:Dust:0>, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:blaze_powder> * 3, <ore:oreStrontium>, 3600, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:glowstone> * 4, <ore:oreScapolite>, 3600, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<minecraft:glowstone> * 4, <ore:glowstone>, 3600, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:glowstone_dust> * 4, <ore:oreScapolite>, 3600, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:glowstone_dust> * 4, <ore:glowstone>, 3600, null, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<Railcraft:dust:3>, <minecraft:coal:1>, 3600, null, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<Railcraft:dust:3> * 2, <terrafirmacraft:item.coal:1>, 3600, null, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<Forestry:fertilizerCompound> * 6, <ore:gemApatite>, 3600, null, 0.1);
