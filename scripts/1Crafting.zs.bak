@@ -223,7 +223,6 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 	furnace.addRecipe(<terrafirmacraft:item.Rose Gold Ingot>, <TabulaRasa:RasaItem1:8>);
 	furnace.addRecipe(<terrafirmacraft:item.Sterling Silver Ingot>, <TabulaRasa:RasaItem1:9>);
 	furnace.addRecipe(<terrafirmacraft:item.Pig Iron Ingot>, <TabulaRasa:RasaItem2:5>);
-	furnace.addRecipe(<ore:ingotElectrum>, <ore:dustElectrum>);
 
 
 // ================================================================================
