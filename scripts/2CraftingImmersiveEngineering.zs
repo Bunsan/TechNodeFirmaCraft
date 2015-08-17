@@ -33,8 +33,8 @@
 	recipes.remove(<ImmersiveEngineering:stoneDevice>);
 	recipes.remove(<ImmersiveEngineering:metalDevice:11>);
 	recipes.remove(<ImmersiveEngineering:stoneDevice:4>);
-	recipes.remove(<ImmersiveEngineering:metal:11>);
-	recipes.remove(<ImmersiveEngineering:metal:14>);
+	//recipes.remove(<ImmersiveEngineering:metal:11>);
+	//recipes.remove(<ImmersiveEngineering:metal:14>);
 	recipes.remove(<ImmersiveEngineering:toolupgrade>);
 	recipes.remove(<ImmersiveEngineering:toolupgrade:3>);
 	recipes.remove(<ImmersiveEngineering:drillhead>);
@@ -174,6 +174,7 @@ mods.immersiveengineering.Crusher.removeRecipe(<ImmersiveEngineering:metal:10>);
 mods.immersiveengineering.Crusher.removeRecipe(<ImmersiveEngineering:metal:12>);
 mods.immersiveengineering.Crusher.removeRecipe(<ImmersiveEngineering:metal:13>);
 mods.immersiveengineering.Crusher.removeRecipe(<ImmersiveEngineering:metal:14>);
+mods.immersiveengineering.Crusher.removeRecipe(<TabulaRasa:RasaItem1:3>);
 mods.immersiveengineering.Crusher.removeRecipe(<minecraft:diamond>);
 mods.immersiveengineering.Crusher.removeRecipe(<minecraft:sand>);
 mods.immersiveengineering.Crusher.removeRecipe(<minecraft:emerald>);
@@ -188,6 +189,7 @@ mods.immersiveengineering.Crusher.removeRecipe(<terrafirmacraft:item.Powder:1>);
 mods.immersiveengineering.Crusher.removeRecipe(<Forestry:apatite>);
 mods.immersiveengineering.Crusher.removeRecipe(<Railcraft:dust:1>);
 mods.immersiveengineering.Crusher.removeRecipe(<Railcraft:dust:2>);
+
 
 //OutputStack, InputStack, Energy, OutputStack2, Chance //Chance in Decimals
 mods.immersiveengineering.Crusher.addRecipe(<Mekanism:Dust:0> * 2, <ore:oreIron>, 6000, <TabulaRasa:RasaItem1:2>, 0.1);

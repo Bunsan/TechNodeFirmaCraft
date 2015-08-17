@@ -272,6 +272,9 @@ import minetweaker.item.IItemStack;
 
 //Enrichment Chamber
 //# Fixing Diamonds
+	mods.mekanism.Enrichment.removeRecipe(<ImmersiveEngineering:ore:4>, <ImmersiveEngineering:metal:14>);
+	mods.mekanism.Enrichment.removeRecipe(<TabulaRasa:RasaItem0:8>, <ImmersiveEngineering:metal:14>);
+
 	mods.mekanism.Enrichment.removeRecipe(<Mekanism:OtherDust>);
 	mods.mekanism.Enrichment.addRecipe(<Mekanism:OtherDust>, <Mekanism:CompressedDiamond>);
 	mods.mekanism.Enrichment.addRecipe(<terrafirmacraft:item.Diamond:2>, <Mekanism:CompressedDiamond>);
