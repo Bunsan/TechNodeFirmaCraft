@@ -58,6 +58,7 @@
 //#MARKER ADD SHAPELESS
 
 	recipes.addShapeless(<ImmersiveEngineering:metal:16> * 2, [<ore:dustGold>, <ore:dustSilver>]);
+	recipes.addShapeless(<ImmersiveEngineering:metal:15> * 2, [<ore:dustCopper>, <ore:dustNickel>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED

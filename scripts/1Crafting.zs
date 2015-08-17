@@ -122,6 +122,12 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 	recipes.remove(<Mekanism:BasicBlock:12>);
 	recipes.remove(<Mekanism:BasicBlock:13>);
 
+//# REMOVAL of Non-TFC ingots to nugget recipes to clean up NEI
+	recipes.remove(<Railcraft:nugget:4>);
+	recipes.remove(<Railcraft:nugget:3>);
+	recipes.remove(<Railcraft:nugget:2>);
+	recipes.remove(<Railcraft:nugget:1>);
+	recipes.remove(<Railcraft:nugget>);
 
 //# REMOVAL of Ingot to Nugget and Ingot to Block Recipes (Replaced with Ore Dictionary Compatible Shapeless Recipes)
 	recipes.remove(<minecraft:gold_ingot>);
@@ -223,7 +229,8 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 	furnace.addRecipe(<terrafirmacraft:item.Rose Gold Ingot>, <TabulaRasa:RasaItem1:8>);
 	furnace.addRecipe(<terrafirmacraft:item.Sterling Silver Ingot>, <TabulaRasa:RasaItem1:9>);
 	furnace.addRecipe(<terrafirmacraft:item.Pig Iron Ingot>, <TabulaRasa:RasaItem2:5>);
-	furnace.addRecipe(<ore:ingotElectrum>, <ore:dustElectrum>);
+	furnace.addRecipe(<ImmersiveEngineering:metal:5>, <ImmersiveEngineering:metal:15>);
+	furnace.addRecipe(<ImmersiveEngineering:metal:6>, <ImmersiveEngineering:metal:16>);
 
 
 // ================================================================================

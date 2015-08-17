@@ -20,13 +20,6 @@
 //# Slab
 	recipes.remove(<Railcraft:slab:*>);
 
-//# REMOVAL of Non-TFC ingots to nugget recipes to clean up NEI
-	recipes.remove(<Railcraft:nugget:4>);
-	recipes.remove(<Railcraft:nugget:3>);
-	recipes.remove(<Railcraft:nugget:2>);
-	recipes.remove(<Railcraft:nugget:1>);
-	recipes.remove(<Railcraft:nugget>);
-
 //#Remove Block to Fitted Stone Recipe
 	recipes.remove(<Railcraft:brick.infernal:1>);
 	recipes.remove(<Railcraft:brick.abyssal:1>);
