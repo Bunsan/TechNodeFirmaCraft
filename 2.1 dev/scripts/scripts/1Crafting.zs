@@ -555,25 +555,25 @@ recipes.addShaped(<HardcoreQuesting:item_barrel>, [[<ore:plankWood>, <ore:blockG
 
 //# Alloy Dusts
 
-	recipes.addShaped(<TabulaRasa:RasaItem1:4>, [[<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>], [<ore:dustCopper>, <ore:dustTin>, <ore:dustCopper>], [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>]]);
+	recipes.addShaped(<TabulaRasa:RasaItem1:4> * 9, [[<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>], [<ore:dustCopper>, <ore:dustTin>, <ore:dustCopper>], [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>]]);
 
-	recipes.addShaped(<TabulaRasa:RasaItem1:5>, [[<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>], [<ore:dustZinc>, <ore:dustBismuth>, <ore:dustZinc>], [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>]]);
+	recipes.addShaped(<TabulaRasa:RasaItem1:5> * 9, [[<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>], [<ore:dustZinc>, <ore:dustBismuth>, <ore:dustZinc>], [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>]]);
 
-	recipes.addShaped(<TabulaRasa:RasaItem1:6>, [[<ore:dustCopper>, <ore:dustGold>, <ore:dustCopper>], [<ore:dustSilver>, <ore:dustCopper>, <ore:dustSilver>], [<ore:dustCopper>, <ore:dustGold>, <ore:dustCopper>]]);
+	recipes.addShaped(<TabulaRasa:RasaItem1:6> * 9, [[<ore:dustCopper>, <ore:dustGold>, <ore:dustCopper>], [<ore:dustSilver>, <ore:dustCopper>, <ore:dustSilver>], [<ore:dustCopper>, <ore:dustGold>, <ore:dustCopper>]]);
 
-	recipes.addShaped(<TabulaRasa:RasaItem1:7>, [[<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>], [<ore:dustCopper>, <ore:dustZinc>, <ore:dustCopper>], [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>]]);
+	recipes.addShaped(<TabulaRasa:RasaItem1:7> * 9, [[<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>], [<ore:dustCopper>, <ore:dustZinc>, <ore:dustCopper>], [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>]]);
 
-	recipes.addShaped(<TabulaRasa:RasaItem1:8>, [[<ore:dustGold>, <ore:dustGold>, <ore:dustGold>], [<ore:dustCopper>, <ore:dustGold>, <ore:dustCopper>], [<ore:dustGold>, <ore:dustGold>, <ore:dustGold>]]);
+	recipes.addShaped(<TabulaRasa:RasaItem1:8> * 9, [[<ore:dustGold>, <ore:dustGold>, <ore:dustGold>], [<ore:dustCopper>, <ore:dustGold>, <ore:dustCopper>], [<ore:dustGold>, <ore:dustGold>, <ore:dustGold>]]);
 
-	recipes.addShaped(<TabulaRasa:RasaItem1:9>, [[<ore:dustSilver>, <ore:dustSilver>, <ore:dustSilver>], [<ore:dustCopper>, <ore:dustSilver>, <ore:dustCopper>], [<ore:dustSilver>, <ore:dustSilver>, <ore:dustSilver>]]);
+	recipes.addShaped(<TabulaRasa:RasaItem1:9> * 9, [[<ore:dustSilver>, <ore:dustSilver>, <ore:dustSilver>], [<ore:dustCopper>, <ore:dustSilver>, <ore:dustCopper>], [<ore:dustSilver>, <ore:dustSilver>, <ore:dustSilver>]]);
 
-	recipes.addShaped(<TabulaRasa:RasaItem1:9>, [[<ore:dustSilver>, <ore:dustSilver>, <ore:dustSilver>], [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>], [<ore:dustSilver>, <ore:dustSilver>, <ore:dustSilver>]]);
+	recipes.addShaped(<TabulaRasa:RasaItem1:9> * 9, [[<ore:dustSilver>, <ore:dustSilver>, <ore:dustSilver>], [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>], [<ore:dustSilver>, <ore:dustSilver>, <ore:dustSilver>]]);
 
-	recipes.addShaped(<TabulaRasa:RasaItem1:10>, [[<ore:dustSteel>, <ore:dustNickel>, <ore:dustSteel>], [<TabulaRasa:RasaItem1:6>, <ore:dustSteel>, <TabulaRasa:RasaItem1:6>], [<ore:dustSteel>, <ore:dustNickel>, <ore:dustSteel>]]);
+	recipes.addShaped(<TabulaRasa:RasaItem1:10> * 9, [[<ore:dustSteel>, <ore:dustNickel>, <ore:dustSteel>], [<TabulaRasa:RasaItem1:6>, <ore:dustSteel>, <TabulaRasa:RasaItem1:6>], [<ore:dustSteel>, <ore:dustNickel>, <ore:dustSteel>]]);
 
-	recipes.addShaped(<TabulaRasa:RasaItem1:11>, [[<TabulaRasa:RasaItem2:6>, <TabulaRasa:RasaItem1:5>, <TabulaRasa:RasaItem2:6>], [<ore:dustSteel>, <TabulaRasa:RasaItem2:6>, <ore:dustSteel>], [<TabulaRasa:RasaItem2:6>, <TabulaRasa:RasaItem1:9>, <TabulaRasa:RasaItem2:6>]]);
+	recipes.addShaped(<TabulaRasa:RasaItem1:11> * 9, [[<TabulaRasa:RasaItem2:6>, <TabulaRasa:RasaItem1:5>, <TabulaRasa:RasaItem2:6>], [<ore:dustSteel>, <TabulaRasa:RasaItem2:6>, <ore:dustSteel>], [<TabulaRasa:RasaItem2:6>, <TabulaRasa:RasaItem1:9>, <TabulaRasa:RasaItem2:6>]]);
 
-	recipes.addShaped(<TabulaRasa:RasaItem1:12>, [[<TabulaRasa:RasaItem2:6>, <TabulaRasa:RasaItem1:7>, <TabulaRasa:RasaItem2:6>], [<ore:dustSteel>, <TabulaRasa:RasaItem2:6>, <ore:dustSteel>], [<TabulaRasa:RasaItem2:6>, <TabulaRasa:RasaItem1:8>, <TabulaRasa:RasaItem2:6>]]);
+	recipes.addShaped(<TabulaRasa:RasaItem1:12> * 9, [[<TabulaRasa:RasaItem2:6>, <TabulaRasa:RasaItem1:7>, <TabulaRasa:RasaItem2:6>], [<ore:dustSteel>, <TabulaRasa:RasaItem2:6>, <ore:dustSteel>], [<TabulaRasa:RasaItem2:6>, <TabulaRasa:RasaItem1:8>, <TabulaRasa:RasaItem2:6>]]);
 
 	recipes.addShapeless(<TabulaRasa:RasaItem2:6>, [<TabulaRasa:RasaItem1:10>, <TabulaRasa:RasaItem2:5>]);
 	recipes.addShapeless(<TabulaRasa:RasaItem2:7>, [<TabulaRasa:RasaItem1:11>, <TabulaRasa:RasaItem2:6>]);
