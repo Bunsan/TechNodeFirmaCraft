@@ -2,10 +2,20 @@ To Do
 
 
 Immersive Engineering
--Can we do all the Ore Dictionary registration via TNFCmod during loading instead of with MT?
+- add recipes for squeezer and fermenter. - done need to push from my dev
+
+Forestry
+- add fermenter recipes
+- determine if we can make trees unpunchable. 
+- reduce stack size of logs
+- reduce stack size of planks
+- determine if we can do a treecapa style chop to trees
+- add recipe to generate base trees, remove from HQM. (Black Steel shears, produce item + water barrel = fluid + oak sapling = apple oak sapling.)
+- recipe to get missing bees to remove from HQM
 
 General
--General run through looking for missing/forgotten things.
+- organize dev XML and create module of dev tools that can be copy pasted into dev builds
+- clean up and better organize scripts
 
 Future
 
