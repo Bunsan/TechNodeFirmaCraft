@@ -59,6 +59,7 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 	furnace.remove(<Railcraft:ingot:3>);
 
 //# VANILLA
+	recipes.remove(<minecraft:flower_pot>);
 	recipes.remove(<minecraft:shears>);
 	recipes.remove(<minecraft:emerald_block>);
 	recipes.remove(<minecraft:tnt>);
@@ -495,7 +496,7 @@ recipes.addShaped(<HardcoreQuesting:item_barrel>, [[<ore:plankWood>, <ore:blockG
 	recipes.addShaped(<minecraft:quartz_stairs> * 6, [[<minecraft:quartz_block>, <ore:itemChisel>.transformDamage(12), null], [<minecraft:quartz_block>, <minecraft:quartz_block>, <ore:itemHammer>.reuse()], [<minecraft:quartz_block>,<minecraft:quartz_block>,<minecraft:quartz_block>]]);
 
 //# Flower Pot
-	recipes.addShaped(<minecraft:flower_pot>, [[<ore:ingotBrick>, null, <ore:ingotBrick>], [null, <ore:ingotBrick>, null]]);
+	recipes.addShaped(<minecraft:flower_pot>, [[<ore:ingotStoneBrick>, <terrafirmacraft:item.Mortar>, <ore:ingotStoneBrick>], [null, <ore:ingotStoneBrick>, null]]);
 
 //# Comparator Recipe with Jet
 	recipes.addShaped(<minecraft:comparator>, [[null, <minecraft:redstone_torch>, null], [<minecraft:redstone_torch>, <ore:oreJet>, <minecraft:redstone_torch>], [<ore:stone>, <ore:stone>, <ore:stone>]]);

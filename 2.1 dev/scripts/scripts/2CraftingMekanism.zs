@@ -258,6 +258,7 @@ import minetweaker.item.IItemStack;
 
 //# Crusher
 	mods.mekanism.Crusher.removeRecipe(<ImmersiveEngineering:metal:14>);
+	mods.mekanism.Crusher.removeRecipe(<minecraft:gravel>);
 //# Compressor
 //OutputStack
 	//mods.mekanism.Compressor.removeRecipe(<Mekanism:Ingot:3>);
