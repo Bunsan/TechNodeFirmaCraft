@@ -1,0 +1,77 @@
+Liquids:
+<liquid:beer> -- Beer
+<liquid:biodiesel> -- Biodiesel
+<liquid:bioethanol> -- Ethanol
+<liquid:biomass> -- Biomass
+<liquid:brine> -- Brine
+<liquid:chlorine> -- Liquid Chlorine
+<liquid:cider> -- Cider
+<liquid:cornwhiskey> -- Corn Whiskey
+<liquid:creosote> -- Creosote Oil
+<liquid:deuterium> -- Liquid Deuterium
+<liquid:diesel> -- Diesel
+<liquid:etchacid> -- Etching Acid
+<liquid:ethanol> -- Ethanol
+<liquid:ethene> -- Liquid Ethylene
+<liquid:for.honey> -- Honey
+<liquid:freshwater> -- Fresh Water
+<liquid:fuel> -- Gasoline
+<liquid:fusionfueldt> -- Liquid D-T Fuel
+<liquid:glass> -- Liquid Glass
+<liquid:heavywater> -- Heavy Water
+<liquid:honey> -- fluid.honey
+<liquid:hotwater> -- Hot Springs
+<liquid:hydrogen> -- Liquid Hydrogen
+<liquid:hydrogenchloride> -- Liquid Hydrogen Chloride
+<liquid:ice> -- Crushed Ice
+<liquid:juice> -- Fruit Juice
+<liquid:kerosene> -- Kerosene
+<liquid:lava> -- Hot Engine Lubricant
+<liquid:lavatfc> -- Lava
+<liquid:limewater> -- Limewater
+<liquid:liquid_dye.black> -- Black Dye
+<liquid:liquid_dye.blue> -- Blue Dye
+<liquid:liquid_dye.brown> -- Brown Dye
+<liquid:liquid_dye.cyan> -- Cyan Dye
+<liquid:liquid_dye.gray> -- Gray Dye
+<liquid:liquid_dye.green> -- Green Dye
+<liquid:liquid_dye.lightblue> -- Light Blue Dye
+<liquid:liquid_dye.lime> -- Lime Dye
+<liquid:liquid_dye.magenta> -- Magenta Dye
+<liquid:liquid_dye.orange> -- Orange Dye
+<liquid:liquid_dye.pink> -- Pink Dye
+<liquid:liquid_dye.purple> -- Purple Dye
+<liquid:liquid_dye.red> -- Red Dye
+<liquid:liquid_dye.silver> -- Light Gray Dye
+<liquid:liquid_dye.white> -- White Dye
+<liquid:liquid_dye.yellow> -- Yellow Dye
+<liquid:lithium> -- Liquid Lithium
+<liquid:lpg> -- LPG
+<liquid:lubricant> -- Lubricant
+<liquid:milk> -- Milk
+<liquid:milkcurdled> -- Curdled Milk
+<liquid:milkvinegar> -- Milk + Vinegar Mix
+<liquid:oil> -- Oil
+<liquid:oliveoil> -- Olive Oil
+<liquid:oxygen> -- Liquid Oxygen
+<liquid:plantoil> -- Plant Oil
+<liquid:plaster> -- Gypsum Plaster
+<liquid:plastic> -- Liquid Plastic
+<liquid:rum> -- Rum
+<liquid:ryewhiskey> -- Rye Whiskey
+<liquid:sake> -- Sake
+<liquid:saltwater> -- Salt Water
+<liquid:seedoil> -- Seed Oil
+<liquid:short.mead> -- Short Mead
+<liquid:sodium> -- Liquid Sodium
+<liquid:steam> -- Steam
+<liquid:sulfurdioxidegas> -- Liquid Sulfur Dioxide
+<liquid:sulfuricacid> -- Liquid Sulfuric Acid
+<liquid:sulfurtrioxidegas> -- Liquid Sulfur Trioxide
+<liquid:tannin> -- Tannin
+<liquid:tritium> -- Liquid Tritium
+<liquid:vinegar> -- Vinegar
+<liquid:vodka> -- Vodka
+<liquid:water> -- Deionized Water
+<liquid:whiskey> -- Whiskey
+<liquid:xpjuice> -- Liquid XP
