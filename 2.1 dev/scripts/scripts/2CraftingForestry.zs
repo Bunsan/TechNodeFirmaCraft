@@ -251,8 +251,11 @@ var fruitTreeTFC =[<terrafirmacraft:item.FruitSapling:0>, <terrafirmacraft:item.
 
 
 // Squeezer Recipes
+//	mods.forestry.Squeezer.removeRecipe(<liquid:seedoil>, [<ImmersiveEngineering:seed>]);
 //Time recipe requires (Ticks), InputArray, OutputFluid, OutputStack, Chance for OutputStack //The last two are optional
-	mods.forestry.Squeezer.addRecipe(4000, [<ImmersiveEngineering:seed>], <liquid:seedoil> * 120, <Forestry:mulch> * 1, 50);
+//	mods.forestry.Squeezer.addRecipe(4000, [<ImmersiveEngineering:seed>], <liquid:seedoil> * 120, <Forestry:mulch> * 1, 50);
+//	mods.forestry.Squeezer.addRecipe(<liquid:seedoil> * 100, 4000, [<ImmersiveEngineering:seed>]);
+	
 //InputStack #ATTENTION : OutputFluid, currently
 	//mods.forestry.Squeezer.removeRecipe(<Forestry:crate>);
 
