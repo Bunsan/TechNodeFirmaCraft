@@ -1,0 +1,5 @@
+## Title: custom_nei_filters
+## Author: anodecathode
+## Version: 1.0
+## Removal for BibliocraftTFC, DecorationsMod for TFC and Red Logic repeated gack.
+TNFC.js

@@ -1,0 +1,312 @@
+{
+  "blocks":
+  [
+    {
+    "name": "White Stained Clay Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "clay",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 1.25,
+    "resistance": 30,
+    "harvestLevel": 0,
+    "multipleTextures":{
+       "ypos":"blockHardenedClayPillarTopWhite",
+      "xpos":"blockHardenedClayPillarSideWhite"
+    }
+    },
+    {
+    "name": "Orange Stained Clay Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "clay",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 1.25,
+    "resistance": 30,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockHardenedClayPillarTopOrange",
+      "xpos":"blockHardenedClayPillarSideOrange"
+    }
+    },
+      {
+    "name": "Magenta Stained Clay Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "clay",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 1.25,
+    "resistance": 30,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockHardenedClayPillarTopMagenta",
+      "xpos":"blockHardenedClayPillarSideMagenta"
+    }
+    },
+    {
+    "name": "Light Blue Stained Clay Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "clay",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 1.25,
+    "resistance": 30,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockHardenedClayPillarTopLightBlue",
+      "xpos":"blockHardenedClayPillarSideLightBlue"
+    }
+    },
+      {
+    "name": "Yellow Stained Clay Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "clay",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 1.25,
+    "resistance": 30,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockHardenedClayPillarTopYellow",
+      "xpos":"blockHardenedClayPillarSideYellow"
+    }
+    },
+    {
+    "name": "Lime Stained Clay Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "clay",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 1.25,
+    "resistance": 30,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockHardenedClayPillarTopLime",
+      "xpos":"blockHardenedClayPillarSideLime"
+    }
+    },
+      {
+    "name": "Pink Stained Clay Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "clay",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 1.25,
+    "resistance": 30,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockHardenedClayPillarTopPink",
+      "xpos":"blockHardenedClayPillarSidePink"
+    }
+    },
+    {
+    "name": "Gray Stained Clay Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "clay",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 1.25,
+    "resistance": 30,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockHardenedClayPillarTopGray",
+      "xpos":"blockHardenedClayPillarSideGray"
+    }
+    },
+      {
+    "name": "Light Gray Stained Clay Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "clay",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 1.25,
+    "resistance": 30,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockHardenedClayPillarTopSilver",
+      "xpos":"blockHardenedClayPillarSideSilver"
+    }
+    },
+    {
+    "name": "Cyan Stained Clay Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "clay",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 1.25,
+    "resistance": 30,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockHardenedClayPillarTopCyan",
+      "xpos":"blockHardenedClayPillarSideCyan"
+    }
+    },
+      {
+    "name": "Purple Stained Clay Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "clay",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 1.25,
+    "resistance": 30,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockHardenedClayPillarTopPurple",
+      "xpos":"blockHardenedClayPillarSidePurple"
+    }
+    },
+    {
+    "name": "Blue Stained Clay Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "clay",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 1.25,
+    "resistance": 30,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockHardenedClayPillarTopBlue",
+      "xpos":"blockHardenedClayPillarSideBlue"
+    }
+    },
+      {
+    "name": "Brown Stained Clay Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "clay",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 1.25,
+    "resistance": 30,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockHardenedClayPillarTopBrown",
+      "xpos":"blockHardenedClayPillarSideBrown"
+    }
+    },
+    {
+    "name": "Green Stained Clay Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "clay",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 1.25,
+    "resistance": 30,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockHardenedClayPillarTopGreen",
+      "xpos":"blockHardenedClayPillarSideGreen"
+    }
+    },
+      {
+    "name": "Red Stained Clay Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "clay",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 1.25,
+    "resistance": 30,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockHardenedClayPillarTopRed",
+      "xpos":"blockHardenedClayPillarSideRed"
+    }
+    },
+    {
+    "name": "Black Stained Clay Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "clay",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 1.25,
+    "resistance": 30,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockHardenedClayPillarTopBlack",
+      "xpos":"blockHardenedClayPillarSideBlack"
+    }
+    },
+    {
+    "name": "Hardened Clay Pillar",
+    "creativeTab": "CustomItems",
+    "textureName": "blockHardenedClayPillar",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "clay",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 1.25,
+    "resistance": 30,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockHardenedClayPillarTop",
+      "xpos":"blockHardenedClayPillarSide"
+    }
+    }
+  ]
+}

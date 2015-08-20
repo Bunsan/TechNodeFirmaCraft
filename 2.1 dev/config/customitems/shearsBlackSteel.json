@@ -1,0 +1,13 @@
+{    
+    "hoes":
+    [
+        {
+            "name":"Black Steel Shears",
+            "textureName":"shearsBlackSteel",
+            "maxUses":1500,
+            "efficiencyOnProperMaterial":1,
+            "damageVsEntity":0,
+            "enchantability":1
+        }
+    ]    
+}

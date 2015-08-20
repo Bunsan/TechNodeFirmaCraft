@@ -1,0 +1,32 @@
+# Use this file to tell Mekanism which blocks should not be picked up by a cardboard box.
+# Proper syntax is "NAME:META". Example (for stone):
+# stone:0
+terrafirmacraft:Barrel:0
+terrafirmacraft:Barrel:1
+terrafirmacraft:Barrel:2
+terrafirmacraft:Barrel:3
+terrafirmacraft:Barrel:4
+terrafirmacraft:Barrel:5
+terrafirmacraft:Barrel:6
+terrafirmacraft:Barrel:7
+terrafirmacraft:Barrel:8
+terrafirmacraft:Barrel:9
+terrafirmacraft:Barrel:10
+terrafirmacraft:Barrel:11
+terrafirmacraft:Barrel:12
+terrafirmacraft:Barrel:13
+terrafirmacraft:Barrel:14
+terrafirmacraft:Barrel:15
+terrafirmacraft:Barrel:16
+terrafirmacraft:Vessel:1
+terrafirmacraft:Anvil:0
+terrafirmacraft:Anvil:1
+terrafirmacraft:Anvil:2
+terrafirmacraft:Anvil:3
+terrafirmacraft:Anvil:4
+terrafirmacraft:Anvil:5
+terrafirmacraft:Anvil:6
+terrafirmacraft:Anvil:7
+terrafirmacraft:Anvil2:0
+terrafirmacraft:Anvil2:1
+terrafirmacraft:Anvil2:2
