@@ -1,5 +1,7 @@
 To Do
 
+Vanilla
+- disable Enderchest crafting
 
 Immersive Engineering
 - add recipes for squeezer and fermenter. - done need to push from my dev
