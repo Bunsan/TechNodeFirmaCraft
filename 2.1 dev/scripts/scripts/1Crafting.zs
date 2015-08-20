@@ -90,6 +90,7 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 	recipes.remove(<minecraft:daylight_detector>);
 	recipes.remove(<minecraft:quartz_block>);
 	recipes.remove(<minecraft:wooden_slab>);
+	recipes.remove(<minecraft:planks:*>);
 	recipes.remove(<minecraft:glowstone>);
 	recipes.remove(<minecraft:stone_slab:*>);
 	recipes.remove(<minecraft:arrow>);
@@ -478,13 +479,27 @@ recipes.addShaped(<HardcoreQuesting:item_barrel>, [[<ore:plankWood>, <ore:blockG
 
 //# VANILLA+ TO TFC
 
+//# Chest Cart
+
+	recipes.addShaped(<minecraft:chest_minecart>, [[<ore:craftingChest>], [<minecraft:minecart>]]);
+
+	var logsVanilla = [<minecraft:log>, <minecraft:log:1>, <minecraft:log:2>, <minecraft:log:3>, <minecraft:log2>, <minecraft:log2:1>] as IItemStack[];
 	var planksVanilla = [<minecraft:planks>, <minecraft:planks:1>, <minecraft:planks:2>, <minecraft:planks:3>, <minecraft:planks:4>, <minecraft:planks:5>] as IItemStack[];
 	var stairsVanilla = [<minecraft:oak_stairs>, <minecraft:spruce_stairs>, <minecraft:birch_stairs>, <minecraft:jungle_stairs>, <minecraft:acacia_stairs>, <minecraft:dark_oak_stairs>] as IItemStack[];
+	var slabsVanilla = [<minecraft:wooden_slab>, <minecraft:wooden_slab:1>, <minecraft:wooden_slab:2>, <minecraft:wooden_slab:3>, <minecraft:wooden_slab:4>, <minecraft:wooden_slab:5>] as IItemStack[];
 
-//# Stair
+//# Planks
+		for i, logs in logsVanilla {
+	var plank = planksVanilla[i];
+	recipes.addShapeless(plank * 2, [logs, <ore:itemSaw>.transformDamage()]);
+		}
+
+//# Stair and slabs
 		for i, planks in planksVanilla {
 	var stair = stairsVanilla[i];
+	var slab = slabsVanilla[i];
 	recipes.addShaped(stair * 6, [[planks, null, <ore:itemSaw>.transformDamage(12)], [planks, planks, null], [planks, planks, planks]]);
+	recipes.addShaped(slab * 6, [[null, <ore:itemSaw>.transformDamage(3), null], [planks, planks, planks]]);
 		}
 
 //# Quartz Blocks
