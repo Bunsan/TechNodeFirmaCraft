@@ -1,13 +1,16 @@
 Liquids:
+<liquid:acaciamix> -- Acacia Mixture
 <liquid:beer> -- Beer
 <liquid:biodiesel> -- Biodiesel
 <liquid:bioethanol> -- Ethanol
 <liquid:biomass> -- Biomass
+<liquid:birchmix> -- Birch Mixture
 <liquid:brine> -- Brine
 <liquid:chlorine> -- Liquid Chlorine
 <liquid:cider> -- Cider
 <liquid:cornwhiskey> -- Corn Whiskey
 <liquid:creosote> -- Creosote Oil
+<liquid:darkoakmix> -- Dark Oak Mixture
 <liquid:deuterium> -- Liquid Deuterium
 <liquid:diesel> -- Diesel
 <liquid:etchacid> -- Etching Acid
@@ -25,6 +28,7 @@ Liquids:
 <liquid:hydrogenchloride> -- Liquid Hydrogen Chloride
 <liquid:ice> -- Crushed Ice
 <liquid:juice> -- Fruit Juice
+<liquid:junglemix> -- Jungle Mixture
 <liquid:kerosene> -- Kerosene
 <liquid:lava> -- Hot Engine Lubricant
 <liquid:lavatfc> -- Lava
@@ -51,6 +55,7 @@ Liquids:
 <liquid:milk> -- Milk
 <liquid:milkcurdled> -- Curdled Milk
 <liquid:milkvinegar> -- Milk + Vinegar Mix
+<liquid:oakmix> -- Oak Mixture
 <liquid:oil> -- Oil
 <liquid:oliveoil> -- Olive Oil
 <liquid:oxygen> -- Liquid Oxygen
@@ -64,6 +69,7 @@ Liquids:
 <liquid:seedoil> -- Seed Oil
 <liquid:short.mead> -- Short Mead
 <liquid:sodium> -- Liquid Sodium
+<liquid:sprucemix> -- Spruce Mixture
 <liquid:steam> -- Steam
 <liquid:sulfurdioxidegas> -- Liquid Sulfur Dioxide
 <liquid:sulfuricacid> -- Liquid Sulfuric Acid
