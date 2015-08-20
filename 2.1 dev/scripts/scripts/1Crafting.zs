@@ -59,6 +59,7 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 	furnace.remove(<Railcraft:ingot:3>);
 
 //# VANILLA
+	recipes.remove(<minecraft:ender_chest>);
 	recipes.remove(<minecraft:flower_pot>);
 	recipes.remove(<minecraft:shears>);
 	recipes.remove(<minecraft:emerald_block>);
