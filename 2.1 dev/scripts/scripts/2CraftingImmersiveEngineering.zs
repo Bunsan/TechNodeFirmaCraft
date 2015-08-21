@@ -42,6 +42,8 @@
 	recipes.remove(<ImmersiveEngineering:toolupgrade:4>);
 	recipes.remove(<ImmersiveEngineering:toolupgrade:2>);
 	recipes.remove(<ImmersiveEngineering:storageSlab:*>);
+	recipes.remove(<ImmersiveEngineering:stoneDecoration:4>);
+	recipes.remove(<ImmersiveEngineering:stoneDecoration:5>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -59,6 +61,9 @@
 
 	recipes.addShapeless(<ImmersiveEngineering:metal:16> * 2, [<ore:dustGold>, <ore:dustSilver>]);
 	recipes.addShapeless(<ImmersiveEngineering:metal:15> * 2, [<ore:dustCopper>, <ore:dustNickel>]);
+
+//# Concrete Tile
+	recipes.addShapeless(<ImmersiveEngineering:stoneDecoration:5>, [<ImmersiveEngineering:stoneDecoration:4>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
@@ -133,6 +138,10 @@ recipes.addShaped(<ImmersiveEngineering:metalDecoration:4> * 4, [[<ore:ingotStee
 
 //# Electrode BluePrint
 	recipes.addShaped(<ImmersiveEngineering:blueprint:2>, [[<ore:dustHOPGraphite>, <ore:ingotBlackSteel>, <ore:dustHOPGraphite>], [<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
+
+//# Concrete
+
+	recipes.addShaped(<ImmersiveEngineering:stoneDecoration:4> * 4, [[<ore:itemSlag>, <ore:lumpClay>, <ore:itemSlag>], [<ore:blockGravel>, <ore:itemSlag>, <ore:blockGravel>], [<ore:itemSlag>, <ore:lumpClay>, <ore:itemSlag>]]);
 
 // ================================================================================
 
