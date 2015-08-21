@@ -1,0 +1,41 @@
+{
+    "items":
+    [
+        {
+            "name": "Oak Mulch",
+            "textureName": "mulchOak",
+            "creativeTab": "Custom Items",
+            "maxstackSize": 8
+        },
+        {
+            "name": "Dark Oak Mulch",
+            "textureName": "mulchDarkOak",
+            "creativeTab": "Custom Items",
+            "maxstackSize": 8
+        },
+        {
+            "name": "Birch Mulch",
+            "textureName": "mulchBirch",
+            "creativeTab": "Custom Items",
+            "maxstackSize": 8
+        },
+        {
+            "name": "Spruce Mulch",
+            "textureName": "mulchSpruce",
+            "creativeTab": "Custom Items",
+            "maxstackSize": 8
+        },
+        {
+            "name": "Jungle Mulch",
+            "textureName": "mulchJungle",
+            "creativeTab": "Custom Items",
+            "maxstackSize": 8
+        },
+        {
+            "name": "Acacia Mulch",
+            "textureName": "mulchAcacia",
+            "creativeTab": "Custom Items",
+            "maxstackSize": 8
+        }
+    ]
+}

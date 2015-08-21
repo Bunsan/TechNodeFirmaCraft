@@ -1,0 +1,89 @@
+{
+    "blocks": [         
+        {
+            "name": "Pillar of Jet",
+            "multipleTextures": {
+                "xpos": "blockJetPillarSide",               
+                "ypos": "blockJetPillarTop"              
+            },            
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "maxStackSize": 32,
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8,
+            "type": "pillars"
+        },
+        {
+            "name": "Block of Jet",
+            "multipleTextures": {
+                "xpos": "blockJetSide",
+                "xneg": "blockJetSide",
+                "zpos": "blockJetSide",
+                "zneg": "blockJetSide",
+                "ypos": "blockJetTop",
+                "yneg": "blockJetBottom"
+            },          
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "maxStackSize": 32,
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        },
+{
+            "name": "Jet Stairs",
+            "multipleTextures": {
+                "xpos": "blockJetSide",
+                "xneg": "blockJetSide",
+                "zpos": "blockJetSide",
+                "zneg": "blockJetSide",
+                "ypos": "blockJetTop",
+                "yneg": "blockJetBottom"
+            },          
+            "toolClass": "pickaxe",
+            "type": "Stairs",
+            "stepSound": "stone",
+            "maxStackSize": 32,
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        },
+{
+            "name": "Slab of Jet",
+            "multipleTextures": {
+                "xpos": "blockJetSide",
+                "xneg": "blockJetSide",
+                "zpos": "blockJetSide",
+                "zneg": "blockJetSide",
+                "ypos": "blockJetTop",
+                "yneg": "blockJetBottom"
+            },          
+            "toolClass": "pickaxe",
+            "type": "Slab",
+            "stepSound": "stone",
+            "maxStackSize": 32,
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        },
+        {
+            "name": "Chiseled Block of Jet",
+            "multipleTextures": {
+                "xpos": "blockJetChiseledSide",
+                "xneg": "blockJetChiseledSide",
+                "zpos": "blockJetChiseledSide",
+                "zneg": "blockJetChiseledSide",
+                "ypos": "blockJetChiseledTop",
+                "yneg": "blockJetChiseledTop"
+            },            
+            "toolClass": "pickaxe",
+            "stepSound": "stone",
+            "maxStackSize": 32,
+            "material": "rock",
+            "resistance": 4,            
+            "hardness": 0.8
+        }
+
+  ]
+}

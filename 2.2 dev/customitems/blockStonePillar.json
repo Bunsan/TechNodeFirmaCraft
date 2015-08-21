@@ -1,0 +1,383 @@
+{
+  "blocks":
+  [
+    {
+    "name": "Andesite Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "rock",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 6,
+    "resistance": 40,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockAndesitePillarTop",
+      "xpos":"blockAndesitePillarSide"
+    }
+    },
+      {
+    "name": "Basalt Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "rock",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 6,
+    "resistance": 40,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockBasaltPillarTop",
+      "xpos":"blockBasaltPillarSide"
+    }
+    },
+    {
+    "name": "Chalk Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "rock",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 6,
+    "resistance": 40,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockChalkPillarTop",
+      "xpos":"blockChalkPillarSide"
+    }
+    },
+      {
+    "name": "Chert Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "rock",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 6,
+    "resistance": 40,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockChertPillarTop",
+      "xpos":"blockChertPillarSide"
+    }
+    },
+    {
+    "name": "Claystone Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "rock",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 6,
+    "resistance": 40,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockClaystonePillarTop",
+      "xpos":"blockClaystonePillarSide"
+    }
+    },
+      {
+    "name": "Conglomerate Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "rock",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 6,
+    "resistance": 40,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockConglomeratePillarTop",
+      "xpos":"blockConglomeratePillarSide"
+    }
+    },
+    {
+    "name": "Dacite Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "rock",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 6,
+    "resistance": 40,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockDacitePillarTop",
+      "xpos":"blockDacitePillarSide"
+    }
+    },
+      {
+    "name": "Diorite Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "rock",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 6,
+    "resistance": 40,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockDioritePillarTop",
+      "xpos":"blockDioritePillarSide"
+    }
+    },
+    {
+    "name": "Dolomite Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "rock",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 6,
+    "resistance": 40,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockDolomitePillarTop",
+      "xpos":"blockDolomitePillarSide"
+    }
+    },
+      {
+    "name": "Gabbro Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "rock",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 6,
+    "resistance": 40,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockGabbroPillarTop",
+      "xpos":"blockGabbroPillarSide"
+    }
+    },
+    {
+    "name": "Gneiss Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "rock",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 6,
+    "resistance": 40,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockGneissPillarTop",
+      "xpos":"blockGneissPillarSide"
+    }
+    },
+    {
+    "name": "Granite Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "rock",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 6,
+    "resistance": 40,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockGranitePillarTop",
+      "xpos":"blockGranitePillarSide"
+    }
+    },
+      {
+    "name": "Limestone Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "rock",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 6,
+    "resistance": 40,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockLimestonePillarTop",
+      "xpos":"blockLimestonePillarSide"
+    }
+    },
+    {
+    "name": "Marble Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "rock",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 6,
+    "resistance": 40,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockMarblePillarTop",
+      "xpos":"blockMarblePillarSide"
+    }
+    },
+    {
+    "name": "Phyllite Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "rock",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 6,
+    "resistance": 40,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockPhyllitePillarTop",
+      "xpos":"blockPhyllitePillarSide"
+    }
+    },
+{
+    "name": "Quartzite Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "rock",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 6,
+    "resistance": 40,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockQuartzitePillarTop",
+      "xpos":"blockQuartzitePillarSide"
+    }
+    },
+{
+    "name": "Rhyolite Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "rock",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 6,
+    "resistance": 40,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockRhyolitePillarTop",
+      "xpos":"blockRhyolitePillarSide"
+    }
+    },
+{
+    "name": "Rock Salt Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "rock",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 6,
+    "resistance": 40,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockRockSaltPillarTop",
+      "xpos":"blockRockSaltPillarSide"
+    }
+    },
+{
+    "name": "Schist Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "rock",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 6,
+    "resistance": 40,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockSchistPillarTop",
+      "xpos":"blockSchistPillarSide"
+    }
+    },
+{
+    "name": "Shale Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "rock",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 6,
+    "resistance": 40,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockShalePillarTop",
+      "xpos":"blockShalePillarSide"
+    }
+    },
+{
+    "name": "Slate Pillar",
+    "creativeTab": "CustomItems",
+    "maxStackSize": 32,
+    "isOpaque": true,
+    "toolClass": "pickaxe",
+    "material": "rock",
+    "breaks": false,
+    "type": "pillars",
+    "stepSound": "stone",
+    "hardness": 6,
+    "resistance": 40,
+    "harvestLevel": 0,
+    "multipleTextures":{
+      "ypos":"blockSlatePillarTop",
+      "xpos":"blockSlatePillarSide"
+    }
+    }
+  ]
+}
