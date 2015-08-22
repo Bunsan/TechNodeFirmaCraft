@@ -1,0 +1,8 @@
+## Title: custom_nei_filters
+## Author: denoflionsx
+## Version: 1.0
+## Bootstrap: Bootstrap.js
+## Saved Variables: vanilla_enabled, ThermalExpansion_enabled, Mekanism_enabled, ForgeMicroblock_enabled, ExtraUtilities_enabled, BuildCraft_enabled, Bibliocraft_enabled, AE2_enabled, Tcon_enabled, MFR_enabled
+Mekanism.js
+ForgeMicroblock.js
+Bibliocraft.js

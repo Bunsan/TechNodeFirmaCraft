@@ -1,0 +1,35 @@
+{
+  "_name": "spiderTFC",
+  "drops": [ 
+    {
+      "_comment": "makes drop redstone",
+      
+      "function": "if_past_world_time_4319910",
+      "functions": [
+        {
+          "_comment": "add redstone drop",
+          "function": "if_can_see_sky",
+          "functions": [
+          {
+            "function": "if_recently_hit",
+            "functions": [
+            {
+              "function": "add",
+              "id": "minecraft:redstone",
+              "count": 0.1
+            },
+            { "function": "add",
+              "id": "minecraft:redstone",
+              "count": 0.03
+            }
+            ]
+          }  
+          ]
+        }
+        
+      ]
+    }
+  ],
+  "pre_stats": [],
+  "stats": []
+}

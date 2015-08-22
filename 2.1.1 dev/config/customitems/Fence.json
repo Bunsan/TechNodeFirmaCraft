@@ -1,0 +1,212 @@
+{
+    "blocks":
+    [
+{
+	"name":"Acacia Plank Fence";
+	"type":"fence"; 
+	"material": "wood",              
+	"hardness": 4,
+	"creativeTab":"Therighthon's TFC addon",
+	"resistance": 20,
+	"harvestLevel": 0,
+	"textureName": "Acacia Plank",
+	"toolClass":"axe"     
+},
+
+{
+	"name":"Ash Plank Fence";
+	"type":"fence"; 
+	"material": "wood",              
+	"hardness": 4,
+	"creativeTab":"Therighthon's TFC addon",
+	"resistance": 20,
+	"harvestLevel": 0,
+	"textureName": "Ash Plank",
+	"toolClass":"axe"     
+},
+
+{
+	"name":"Aspen Plank Fence";
+	"type":"fence"; 
+	"material": "wood",              
+	"hardness": 4,
+	"creativeTab":"Therighthon's TFC addon",
+	"resistance": 20,
+	"harvestLevel": 0,
+	"textureName": "Aspen Plank",
+	"toolClass":"axe"     
+},
+
+{
+	"name":"Birch Plank Fence";
+	"type":"fence"; 
+	"material": "wood",              
+	"hardness": 4,
+	"creativeTab":"Therighthon's TFC addon",
+	"resistance": 20,
+	"harvestLevel": 0,
+	"textureName": "Birch Plank",
+	"toolClass":"axe"     
+},
+
+{
+	"name":"Chestnut Plank Fence";
+	"type":"fence"; 
+	"material": "wood",              
+	"hardness": 4,
+	"creativeTab":"Therighthon's TFC addon",
+	"resistance": 20,
+	"harvestLevel": 0,
+	"textureName": "Chestnut Plank",
+	"toolClass":"axe"     
+},
+
+{
+	"name":"Douglas Fir Plank Fence";
+	"type":"fence"; 
+	"material": "wood",              
+	"hardness": 4,
+	"creativeTab":"Therighthon's TFC addon",
+	"resistance": 20,
+	"harvestLevel": 0,
+	"textureName": "Douglas Fir Plank",
+	"toolClass":"axe"     
+},
+
+
+{
+	"name":"Hickory Plank Fence";
+	"type":"fence"; 
+	"material": "wood",              
+	"hardness": 4,
+	"creativeTab":"Therighthon's TFC addon",
+	"resistance": 20,
+	"harvestLevel": 0,
+	"textureName": "Hickory Plank",
+	"toolClass":"axe"     
+},
+
+{
+	"name":"Kapok Plank Fence";
+	"type":"fence"; 
+	"material": "wood",              
+	"hardness": 4,
+	"creativeTab":"Therighthon's TFC addon",
+	"resistance": 20,
+	"harvestLevel": 0,
+	"textureName": "Kapok Plank",
+	"toolClass":"axe"     
+},
+
+{
+	"name":"Maple Plank Fence";
+	"type":"fence"; 
+	"material": "wood",              
+	"hardness": 4,
+	"creativeTab":"Therighthon's TFC addon",
+	"resistance": 20,
+	"harvestLevel": 0,
+	"textureName": "Maple Plank",
+	"toolClass":"axe"     
+},
+
+{
+	"name":"Oak Plank Fence";
+	"type":"fence"; 
+	"material": "wood",              
+	"hardness": 4,
+	"creativeTab":"Therighthon's TFC addon",
+	"resistance": 20,
+	"harvestLevel": 0,
+	"textureName": "Oak Plank",
+	"toolClass":"axe"     
+},
+
+{
+	"name":"Pine Plank Fence";
+	"type":"fence"; 
+	"material": "wood",              
+	"hardness": 4,
+	"creativeTab":"Therighthon's TFC addon",
+	"resistance": 20,
+	"harvestLevel": 0,
+	"textureName": "Pine Plank",
+	"toolClass":"axe"     
+},
+
+{
+	"name":"Sequoia Plank Fence";
+	"type":"fence"; 
+	"material": "wood",              
+	"hardness": 4,
+	"creativeTab":"Therighthon's TFC addon",
+	"resistance": 20,
+	"harvestLevel": 0,
+	"textureName": "Sequoia Plank",
+	"toolClass":"axe"     
+},
+
+{
+	"name":"Spruce Plank Fence";
+	"type":"fence"; 
+	"material": "wood",              
+	"hardness": 4,
+	"creativeTab":"Therighthon's TFC addon",
+	"resistance": 20,
+	"harvestLevel": 0,
+	"textureName": "Spruce Plank",
+	"toolClass":"axe"     
+},
+
+{
+	"name":"Sycamore Plank Fence";
+	"type":"fence"; 
+	"material": "wood",              
+	"hardness": 4,
+	"creativeTab":"Therighthon's TFC addon",
+	"resistance": 20,
+	"harvestLevel": 0,
+	"textureName": "Sycamore Plank",
+	"toolClass":"axe"     
+},
+
+{
+	"name":"White Cedar Plank Fence";
+	"type":"fence"; 
+	"material": "wood",              
+	"hardness": 4,
+	"creativeTab":"Therighthon's TFC addon",
+	"resistance": 20,
+	"harvestLevel": 0,
+	"textureName": "White Cedar Plank",
+	"toolClass":"axe"     
+},
+
+{
+	"name":"White Elm Plank Fence";
+	"type":"fence"; 
+	"material": "wood",              
+	"hardness": 4,
+	"creativeTab":"Therighthon's TFC addon",
+	"resistance": 20,
+	"harvestLevel": 0,
+	"textureName": "White Elm Plank",
+	"toolClass":"axe"     
+},
+
+{
+	"name":"Willow Plank Fence";
+	"type":"fence"; 
+	"material": "wood",              
+	"hardness": 4,
+	"creativeTab":"Therighthon's TFC addon",
+	"resistance": 20,
+	"harvestLevel": 0,
+	"textureName": "Willow Plank",
+	"toolClass":"axe"     
+}
+
+
+
+]
+}
