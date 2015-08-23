@@ -34,7 +34,7 @@ recipes.remove(<betterstorage:locker>);
 // ================================================================================
 //#MARKER ADD SHAPED
 
-//	recipes.addShaped(<betterstorage:craftingStation>, [[<ore:plateDoubleBlackSteel>, <minecraft:light_weighted_pressure_plate>, <ore:plateDoubleBlackSteel>], [<ore:craftingPiston>, <ore:craftingTableWood>, <ore:craftingPiston>], [<ore:plankWood>, <betterstorage:crate>, <ore:plankWood>]]);
+	recipes.addShaped(<betterstorage:craftingStation>, [[<ore:plateDoubleBlackSteel>, <minecraft:light_weighted_pressure_plate>, <ore:plateDoubleBlackSteel>], [<ore:craftingPiston>, <ore:craftingTableWood>, <ore:craftingPiston>], [<ore:plankWood>, <betterstorage:crate>, <ore:plankWood>]]);
 
 		for item in <ore:craftingToolHardSaw>.items {
 //# Chests
