@@ -4,8 +4,6 @@ Engine: JAVASCRIPT
 ----------------------------------
 Dumping GameRegistry to debug log.
 ----------------------------------
-Aroma1997Core:wrench
-Aroma1997Core:wrenched
 BiblioCraft:BiblioBell
 BiblioCraft:BiblioBorderlessPainting
 BiblioCraft:BiblioCase
@@ -237,20 +235,10 @@ Forestry:engine
 Forestry:factory
 Forestry:factory2
 Forestry:fences
-Forestry:fences2
+Forestry:fencesFireproof
 Forestry:fertilizerBio
 Forestry:fertilizerCompound
 Forestry:ffarm
-Forestry:fireproofLog1
-Forestry:fireproofLog2
-Forestry:fireproofLog3
-Forestry:fireproofLog4
-Forestry:fireproofLog5
-Forestry:fireproofLog6
-Forestry:fireproofLog7
-Forestry:fireproofLog8
-Forestry:fireproofPlanks1
-Forestry:fireproofPlanks2
 Forestry:fluid.bioethanol
 Forestry:fluid.biomass
 Forestry:fluid.glass
@@ -287,14 +275,8 @@ Forestry:kitShovel
 Forestry:leaves
 Forestry:lepidopterology
 Forestry:letters
-Forestry:log1
-Forestry:log2
-Forestry:log3
-Forestry:log4
-Forestry:log5
-Forestry:log6
-Forestry:log7
-Forestry:log8
+Forestry:logs
+Forestry:logsFireproof
 Forestry:mail
 Forestry:mouldyWheat
 Forestry:mulch
@@ -305,7 +287,7 @@ Forestry:peat
 Forestry:phosphor
 Forestry:pipette
 Forestry:planks
-Forestry:planks2
+Forestry:planksFireproof
 Forestry:pods
 Forestry:pollen
 Forestry:pollenFertile
@@ -330,14 +312,13 @@ Forestry:sapling
 Forestry:saplingGE
 Forestry:scoop
 Forestry:serumGE
-Forestry:slabs1
-Forestry:slabs2
-Forestry:slabs3
-Forestry:slabs4
+Forestry:slabs
+Forestry:slabsFireproof
 Forestry:soil
 Forestry:solderingIron
 Forestry:stained
 Forestry:stairs
+Forestry:stairsFireproof
 Forestry:stamps
 Forestry:stump
 Forestry:sturdyMachine
@@ -389,6 +370,7 @@ ImmersiveEngineering:ore
 ImmersiveEngineering:revolver
 ImmersiveEngineering:seed
 ImmersiveEngineering:skyhook
+ImmersiveEngineering:stoneDecoration
 ImmersiveEngineering:stoneDevice
 ImmersiveEngineering:storage
 ImmersiveEngineering:storageSlab
@@ -559,6 +541,45 @@ OpenBlocks:slimalyzer
 OpenBlocks:tank
 OpenBlocks:target
 OpenBlocks:trophy
+OpenComputers:accessPoint
+OpenComputers:adapter
+OpenComputers:assembler
+OpenComputers:cable
+OpenComputers:capacitor
+OpenComputers:case1
+OpenComputers:case2
+OpenComputers:case3
+OpenComputers:caseCreative
+OpenComputers:chameliumBlock
+OpenComputers:charger
+OpenComputers:disassembler
+OpenComputers:diskDrive
+OpenComputers:eeprom
+OpenComputers:endstone
+OpenComputers:geolyzer
+OpenComputers:hologram1
+OpenComputers:hologram2
+OpenComputers:hoverBoots
+OpenComputers:item
+OpenComputers:keyboard
+OpenComputers:microcontroller
+OpenComputers:motionSensor
+OpenComputers:netSplitter
+OpenComputers:powerConverter
+OpenComputers:powerDistributor
+OpenComputers:print
+OpenComputers:printer
+OpenComputers:raid
+OpenComputers:redstone
+OpenComputers:robot
+OpenComputers:robotAfterimage
+OpenComputers:screen1
+OpenComputers:screen2
+OpenComputers:screen3
+OpenComputers:serverRack
+OpenComputers:switch
+OpenComputers:waypoint
+OpenComputers:wrench
 PneumaticCraft:advancedAirCompressor
 PneumaticCraft:advancedLiquidCompressor
 PneumaticCraft:advancedPCB
@@ -568,6 +589,7 @@ PneumaticCraft:airCanister
 PneumaticCraft:airCannon
 PneumaticCraft:airCompressor
 PneumaticCraft:airGrateModule
+PneumaticCraft:amadronTablet
 PneumaticCraft:aphorismTile
 PneumaticCraft:assemblyController
 PneumaticCraft:assemblyDrill
@@ -588,6 +610,7 @@ PneumaticCraft:creeperPlant
 PneumaticCraft:diesel
 PneumaticCraft:dieselBucket
 PneumaticCraft:drone
+PneumaticCraft:droneInterface
 PneumaticCraft:droneRedstoneEmitter
 PneumaticCraft:electrostaticCompressor
 PneumaticCraft:elevatorBase
@@ -607,6 +630,7 @@ PneumaticCraft:fuelBucket
 PneumaticCraft:gasLift
 PneumaticCraft:gpsTool
 PneumaticCraft:gunAmmo
+PneumaticCraft:heatFrame
 PneumaticCraft:heatSink
 PneumaticCraft:heliumPlant
 PneumaticCraft:ingotIronCompressed
@@ -617,10 +641,12 @@ PneumaticCraft:liquidCompressor
 PneumaticCraft:liquidHopper
 PneumaticCraft:logisticDrone
 PneumaticCraft:logisticFrameActiveProvider
+PneumaticCraft:logisticFrameDefaultStorage
 PneumaticCraft:logisticFramePassiveProvider
 PneumaticCraft:logisticFrameRequester
 PneumaticCraft:logisticFrameStorage
 PneumaticCraft:logisticsConfigurator
+PneumaticCraft:logisticsModule
 PneumaticCraft:lpg
 PneumaticCraft:lpgBucket
 PneumaticCraft:lubricant
@@ -811,6 +837,8 @@ StevesFactoryManager:BlockCableOutputName
 StevesFactoryManager:BlockCableRelayName
 StevesFactoryManager:BlockCableSignName
 StevesFactoryManager:BlockMachineManagerName
+StevesWorkshop:production_table
+StevesWorkshop:production_table_upgrade
 TabulaRasa:RasaItem0
 TabulaRasa:RasaItem1
 TabulaRasa:RasaItem2
@@ -3142,7 +3170,6 @@ Setting up Java Library...
 Setting up FML Library...
 Setting up NEI Library...
 Setting up CreativeTab library...
-Found creative tab: aroma1997core:creativetab
 Found creative tab: BiblioCraft
 Found creative tab: BiblioCraftLights
 Found creative tab: BiblioWoodsTFC
@@ -3162,6 +3189,7 @@ Found creative tab: jabba
 Found creative tab: tabMekanism
 Found creative tab: Merchants
 Found creative tab: tabOpenBlocks
+Found creative tab: OpenComputers
 Found creative tab: tabPneumaticCraft
 Found creative tab: RPGAdvMod
 Found creative tab: railcraft
@@ -3170,6 +3198,7 @@ Found creative tab: decorations
 Found creative tab: buildingBlocks
 Found creative tab: combat
 Found creative tab: sfm
+Found creative tab: steves_production
 Found creative tab: misc
 Found creative tab: materials
 Found creative tab: betterstorage
@@ -3190,32 +3219,6 @@ Found creative tab: TFCWeapons
 Setting up ForgeMicroblock Library...
 Loading table of contents for module: custom_nei_filters, 1.0, Author: denoflionsx
 Bootstrap setting found. Loading: Bootstrap.js
-Loading: vanilla.js
-hide called. Params: minecraft, portal
-Regex match found! minecraft:portal matches minecraft:portal.
-Found ItemStack minecraft:portal. 64xtile.portal@0
-hide called. Params: minecraft, end_portal
-Regex match found! minecraft:end_portal matches minecraft:end_portal.
-Found ItemStack minecraft:end_portal. 64xtile.null@0
-hide called. Params: minecraft, fire
-Regex match found! minecraft:fire matches minecraft:fire.
-Found ItemStack minecraft:fire. 64xtile.fire@0
-hide called. Params: minecraft, water
-Regex match found! minecraft:water matches minecraft:water.
-Found ItemStack minecraft:water. 64xtile.water@0
-hide called. Params: minecraft, lava
-Regex match found! minecraft:lava matches minecraft:lava.
-Found ItemStack minecraft:lava. 64xtile.lava@0
-hide called. Params: minecraft, mob_spawner
-Regex match found! minecraft:mob_spawner matches minecraft:mob_spawner.
-Found ItemStack minecraft:mob_spawner. 64xtile.mobSpawner@0
-override called. Params: minecraft, potion, 0
-Regex match found! minecraft:potion matches minecraft:potion.
-Found ItemStack minecraft:potion. 1xitem.potion@0
-override called. Params: minecraft, spawn_egg, 0
-Regex match found! minecraft:spawn_egg matches minecraft:spawn_egg.
-Found ItemStack minecraft:spawn_egg. 64xitem.monsterPlacer@0
-Loading: ThermalExpansion.js
 Loading: Mekanism.js
 override called. Params: Mekanism, MachineBlock2, 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
 Regex match found! Mekanism:MachineBlock2 matches Mekanism:MachineBlock2.
@@ -3244,10 +3247,8 @@ override called. Params: Mekanism, PlasticFence, 0
 Regex match found! Mekanism:PlasticFence matches Mekanism:PlasticFence.
 Found ItemStack Mekanism:PlasticFence. 64xtile.PlasticFence@0
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: Mekanism:BasicBlock_9
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, Mekanism:BasicBlock_9
-Loading: ExtraUtilities.js
-Loading: BuildCraft.js
+getRandomMaterial called. Returned: ImmersiveEngineering:storage_10
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ImmersiveEngineering:storage_10
 Loading: Bibliocraft.js
 override called. Params: BiblioCraft, *, 0
 Regex match found! BiblioCraft:* matches BiblioCraft:BiblioBell.
@@ -3372,9 +3373,6 @@ Found ItemStack BiblioCraft:item.seatBack4. 64xitem.seatBack@0
 Found ItemStack BiblioCraft:item.seatBack5. 64xitem.seatBack@0
 Found ItemStack BiblioCraft:item.tape. 64xitem.tape@0
 Found ItemStack BiblioCraft:item.tapeMeasure. 1xitem.tapeMeasure@0
-Loading: AppliedEnergistics2.js
-Loading: Tcon.js
-Loading: MFR.js
 Loading table of contents for module: custom_nei_filters, 1.0, Author: anodecathode
 Loading: TNFC.js
 override called. Params: BiblioWoodsTFC, BiblioBismuthBronzeLamp, 0,1
