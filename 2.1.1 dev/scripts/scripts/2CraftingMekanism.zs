@@ -438,10 +438,15 @@ import minetweaker.data.IData;
 	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.HC Black Steel Ingot>, <terrafirmacraft:item.Black Steel Ingot>);
 	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.HC Blue Steel Ingot>, <terrafirmacraft:item.Blue Steel Ingot>);
 	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.HC Red Steel Ingot>, <terrafirmacraft:item.Red Steel Ingot>);
-	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <terrafirmacraft:item.Black Steel Double Ingot>);
-	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Blue Steel Ingot>, <terrafirmacraft:item.Blue Steel Double Ingot>);
-	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Red Steel Ingot>, <terrafirmacraft:item.Red Steel Double Ingot>);
-
+	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Black Steel Ingot> * 2, <terrafirmacraft:item.Black Steel Double Ingot>);
+	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Blue Steel Ingot> * 2, <terrafirmacraft:item.Blue Steel Double Ingot>);
+	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Red Steel Ingot> * 2, <terrafirmacraft:item.Red Steel Double Ingot>);
+	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Black Steel Double Ingot>, <terrafirmacraft:item.Black Steel Sheet>);
+	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Blue Steel Double Ingot>, <terrafirmacraft:item.Blue Steel Sheet>);
+	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Red Steel Double Ingot>, <terrafirmacraft:item.Red Steel Sheet>);
+	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Black Steel Sheet> * 2, <terrafirmacraft:item.Black Steel Double Sheet>);
+	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Blue Steel Sheet> * 2, <terrafirmacraft:item.Blue Steel Double Sheet>);
+	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Red Steel Sheet> * 2, <terrafirmacraft:item.Red Steel Double Sheet>);
 //Chemical Oxidizer
 //InputStack, OutputGas
 //mods.mekanism.chemical.Oxidizer.addRecipe(<minecraft:coal>, <gas:hydrogen>);
