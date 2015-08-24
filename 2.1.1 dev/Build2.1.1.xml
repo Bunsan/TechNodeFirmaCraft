@@ -96,7 +96,7 @@
         name="JABBA" version="1.2.1a" url="packs/TechNodefirmacraft/files/1.7.10Mods/Jabba-1.2.1a_1.7.10.jar" file="Jabba-1.2.1a_1.7.10.jar" md5="4f5a214a8a0d1cc88420bd9eba0dec4d" download="server" type="mods" website="http://www.curse.com/mc-mods/minecraft/jabba" description="Barrels of fun" client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod
-        name="BetterStorage" version="0.13.1.126homebrew" url="packs/TechNodefirmacraft/files/1.7.10Mods/BetterStorage-1.7.10-0.13.1.126Homebrew.jar" file="BetterStorage-1.7.10-0.13.1.126Homebrew.jar" md5="0ad4b176b310876d7fc3cf2120770c07" download="server" type="mods" website="http://copy.mcft.net/mc/BetterStorage/" authors="copygirl,Vic Nightfall" description="Adds more storage related blocks and items to the game." client="yes" optional="no" server="yes" serveroptional="no"
+        name="BetterStorage" version="0.13.1.126-TNCF" url="packs/TechNodefirmacraft/files/1.7.10Mods/BetterStorage-1.7.10-0.13.1.126-TNCF.jar" file="BetterStorage-1.7.10-0.13.1.126-TNCF.jar" md5="0ad4b176b310876d7fc3cf2120770c07" download="server" type="mods" website="http://copy.mcft.net/mc/BetterStorage/" authors="copygirl,Vic Nightfall" description="Adds more storage related blocks and items to the game." client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod
         name="Ropes+" version="1.6.4" url="packs/TechNodefirmacraft/files/1.7.10Mods/RopePlus-1.7.10.jar" file="RopePlus-1.7.10.jar" md5="1d85928dc82725089316f39e87f0330f" download="server" type="mods" website="http://www.minecraftforum.net/topic/461879-" authors="AtomicStryker" description="Ropes! Grappling Hook! Various new Arrows to shoot about! Rope Arrows!" client="yes" optional="no" server="yes" serveroptional="no"
@@ -127,7 +127,7 @@
         />
         <!-- Pack Customization Mods -->
         <mod
-        name="Scripts" version="2.1.1release" url="packs/TechNodefirmacraft/files/extract/scripts_v2.1.1release_base.zip" file="scripts_v2.1.1release_base.zip" md5="7b2560881522834f50061e039f136775" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="Scripts" version="2.1.1release" url="packs/TechNodefirmacraft/files/extract/scripts_v2.1.1release_base.zip" file="scripts_v2.1.1release_base.zip" md5="8ab8338de2d22c74f6e2a007abefef4f" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod
         name="MineTweaker 3" version="1.7.10-3.0.9C" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]MineTweaker3-1.7.10-3.0.9C.jar" file="[1.7.10]MineTweaker3-1.7.10-3.0.9C.jar" md5="fa05f1671f4cce65c9497c81e9212cca" download="server" type="mods" website="http://minetweaker3.powerofbytes.com" authors="Stan Hebben" description="Customize your minecraft experience!" client="yes" optional="no" server="yes" serveroptional="no"
@@ -297,7 +297,7 @@
         />
         <!-- Scripts -->
         <mod
-        name="ScriptPMP" version="2.1.1release" url="packs/TechNodefirmacraft/files/extract/scripts_v2.1.1release_pmp.zip" file="scripts_v2.1.1release_pmp.zip" md5="de503e1f39ec8b0cc96133ea4d4f34b0" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Script for PlantMegaPack" client="yes" optional="yes" server="yes" serveroptional="yes" library="yes"
+        name="ScriptPMP" version="2.1.1release" url="packs/TechNodefirmacraft/files/extract/scripts_v2.1.1release_pmp.zip" file="scripts_v2.1.1release_pmp.zip" md5="017c60bb7a48fd4e525355cf1625ff02" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Script for PlantMegaPack" client="yes" optional="yes" server="yes" serveroptional="yes" library="yes"
         />
         <mod 
         name="Resource Loaders Folder" version="2.0.3" url="packs/TechNodefirmacraft/files/extract/resources_v2.0.3.zip" file="resources_v2.0.3.zip" md5="bdcd69e939a45e6468ba159383e69109" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="no"
