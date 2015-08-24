@@ -124,6 +124,8 @@
 	recipes.remove(<Railcraft:armor.goggles>);
 	recipes.remove(<Railcraft:part.bleached.clay>);
 	recipes.remove(<Railcraft:tool.crowbar>);
+//# Concrete
+	recipes.remove(<Railcraft:cube:1>);
 //# Ice Aesthetic blocks
 	recipes.remove(<Railcraft:wall.alpha:4>);
 	recipes.remove(<Railcraft:slab:5>);
@@ -263,7 +265,7 @@
 //# Priming and Disposal tracks Tank Detector, Circuits and age and animal detectors
 	recipes.addShaped(<Railcraft:track:2264>.withTag({track: "railcraft:track.disposal"}) * 1, [[<Railcraft:part.rail>, <Railcraft:part.tie>, <Railcraft:part.rail>], [<Railcraft:part.rail>, <ore:plateSteel>, <Railcraft:part.rail>], [<Railcraft:part.rail>, <Railcraft:part.tie>, <Railcraft:part.rail>]]);
 	recipes.addShaped(<Railcraft:track:8103>.withTag({track: "railcraft:track.priming"}), [[<Railcraft:part.rail:4>, <minecraft:stone_pressure_plate>, <Railcraft:part.rail:4>], [<Railcraft:part.rail:4>, <Railcraft:part.railbed:1>, <Railcraft:part.rail:4>], [<Railcraft:part.rail:4>, <ore:toolFlintSteel>, <Railcraft:part.rail:4>]]);
-	recipes.addShaped(<Railcraft:detector:8>, [[<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>], [<ore:ingotBrick>, <minecraft:stone_pressure_plate>, <ore:ingotBrick>], [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>]]);
+	recipes.addShaped(<Railcraft:detector:8>, [[<ore:ingotStoneBrick>, <ore:ingotStoneBrick>, <ore:ingotStoneBrick>], [<ore:ingotStoneBrick>, <minecraft:stone_pressure_plate>, <ore:ingotStoneBrick>], [<ore:ingotStoneBrick>, <ore:ingotStoneBrick>, <ore:ingotStoneBrick>]]);
 	recipes.addShaped(<Railcraft:part.circuit>, [[null, <minecraft:repeater>, <minecraft:wool:14>], [<ore:slimeball>, <ore:ingotGold>, <ore:dustRedstone>], [<minecraft:wool:14>, <ore:dustRedstone>, <ore:dyeBlue>]]);
 	recipes.addShaped(<Railcraft:part.circuit:2>, [[null, <minecraft:repeater>, <minecraft:wool:4>], [<ore:slimeball>, <ore:ingotGold>, <ore:dustRedstone>], [<minecraft:wool:4>, <ore:dustRedstone>, <ore:dyeBlue>]]);
 	recipes.addShaped(<Railcraft:part.circuit:1>, [[null, <minecraft:repeater>, <minecraft:wool:13>], [<ore:slimeball>, <ore:ingotGold>, <ore:dustRedstone>], [<minecraft:wool:13>, <ore:dustRedstone>, <ore:dyeBlue>]]);
@@ -330,6 +332,9 @@
 	recipes.addShaped(<Railcraft:signal:4>, [[<ore:dyeRed>, <ore:dyeBlack>, <ore:dyeWhite>], [<ore:craftingPiston>, <minecraft:lever>, <ore:ingotIron>]]);
 
 //# ACETHETIC BLOCKS
+
+//# Concrete
+	recipes.addShaped(<Railcraft:cube:1> * 8, [[<ore:stoneRaw>, <Railcraft:part.rebar>, <ore:stoneRaw>], [<Railcraft:part.rebar>, <ore:stoneRaw>, <Railcraft:part.rebar>], [<ore:stoneRaw>, <Railcraft:part.rebar>, <ore:stoneRaw>]]);
 
 //# Raw/Smooth Stone to Railcraft cobble/raw stone
 	recipes.addShaped(<Railcraft:brick.infernal:5> * 8, [[<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:dyeGray>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>]]);
@@ -531,6 +536,8 @@ recipes.addShaped(<Railcraft:brick.nether:1>, [[<minecraft:netherbrick>, <terraf
 	mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:1> * 4);
 	mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:2> * 4);
 	mods.railcraft.Rolling.removeRecipe(<Railcraft:part.plate:3> * 4);
+//# Remove Rebar
+	mods.railcraft.Rolling.removeRecipe(<Railcraft:part.rebar>);
 
 //# SHEETS/PLATES
 	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Wrought Iron Sheet>, [[<terrafirmacraft:item.Wrought Iron Double Ingot>]]);
@@ -580,7 +587,8 @@ recipes.addShaped(<Railcraft:brick.nether:1>, [[<minecraft:netherbrick>, <terraf
 		}
 
 //# REBAR POSTS
-	mods.railcraft.Rolling.addShaped(<Railcraft:part.rebar> * 4, [[null, null, <terrafirmacraft:item.Wrought Iron Ingot>], [null,  <terrafirmacraft:item.Wrought Iron Ingot>, null], [<terrafirmacraft:item.Wrought Iron Ingot>, null, null]]);
+	mods.railcraft.Rolling.addShaped(<Railcraft:part.rebar> * 16, [[null, null, <terrafirmacraft:item.Wrought Iron Ingot>], [null,  <terrafirmacraft:item.Wrought Iron Ingot>, null], [<terrafirmacraft:item.Wrought Iron Ingot>, null, null]]);
+	mods.railcraft.Rolling.addShaped(<Railcraft:part.rebar> * 8, [[null, null, <ore:ingotBronze>], [null,  <ore:ingotBronze>, null], [<ore:ingotBronze>, null, null]]);
 	mods.railcraft.Rolling.addShaped(<Railcraft:post:2> * 16, [[<terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>], [null,  <terrafirmacraft:item.Wrought Iron Ingot>, null], [<terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>]]);
 	mods.railcraft.Rolling.addShaped(<Railcraft:post:2> * 16, [[<terrafirmacraft:item.Wrought Iron Ingot>, null, <terrafirmacraft:item.Wrought Iron Ingot>], [<terrafirmacraft:item.Wrought Iron Ingot>,  <terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>], [<terrafirmacraft:item.Wrought Iron Ingot>, null, <terrafirmacraft:item.Wrought Iron Ingot>]]);
 
@@ -590,6 +598,8 @@ mods.railcraft.RockCrusher.removeRecipe(<minecraft:bone>);
 mods.railcraft.RockCrusher.removeRecipe(<minecraft:stone_slab>);
 mods.railcraft.RockCrusher.removeRecipe(<Railcraft:machine.alpha:7>);
 mods.railcraft.RockCrusher.removeRecipe(<Railcraft:machine.alpha:12>);
+mods.railcraft.RockCrusher.removeRecipe(<minecraft:cobblestone>);
+mods.railcraft.RockCrusher.removeRecipe(<minecraft:mossy_cobblestone>);
 
 //InputStack, matchDamage, matchNBT, OutputStacks, Chance  
 

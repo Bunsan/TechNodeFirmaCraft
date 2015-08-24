@@ -42,6 +42,8 @@
 	recipes.remove(<ImmersiveEngineering:toolupgrade:4>);
 	recipes.remove(<ImmersiveEngineering:toolupgrade:2>);
 	recipes.remove(<ImmersiveEngineering:storageSlab:*>);
+	recipes.remove(<ImmersiveEngineering:stoneDecoration:4>);
+	recipes.remove(<ImmersiveEngineering:stoneDecoration:5>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -59,6 +61,9 @@
 
 	recipes.addShapeless(<ImmersiveEngineering:metal:16> * 2, [<ore:dustGold>, <ore:dustSilver>]);
 	recipes.addShapeless(<ImmersiveEngineering:metal:15> * 2, [<ore:dustCopper>, <ore:dustNickel>]);
+
+//# Concrete Tile
+	recipes.addShapeless(<ImmersiveEngineering:stoneDecoration:5>, [<ImmersiveEngineering:stoneDecoration:4>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
@@ -134,6 +139,10 @@ recipes.addShaped(<ImmersiveEngineering:metalDecoration:4> * 4, [[<ore:ingotStee
 //# Electrode BluePrint
 	recipes.addShaped(<ImmersiveEngineering:blueprint:2>, [[<ore:dustHOPGraphite>, <ore:ingotBlackSteel>, <ore:dustHOPGraphite>], [<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
 
+//# Concrete
+
+	recipes.addShaped(<ImmersiveEngineering:stoneDecoration:4> * 4, [[<ore:itemSlag>, <ore:lumpClay>, <ore:itemSlag>], [<ore:blockGravel>, <ore:itemSlag>, <ore:blockGravel>], [<ore:itemSlag>, <ore:lumpClay>, <ore:itemSlag>]]);
+
 // ================================================================================
 
 //Blast Furnace
@@ -144,13 +153,16 @@ mods.immersiveengineering.BlastFurnace.removeRecipe(<ImmersiveEngineering:storag
 
 //OutputStack, InputStack, Time in Ticks
 		for item in <ore:oreIron>.items {
-	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Steel Ingot>, item, 1198);
+	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Pig Iron Ingot>, item, 598);
 		}
-	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Steel Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>, 1198);
+	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Steel Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>, 598);
+	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Pig Iron Ingot>, <Mekanism:Dust>, 298);
+	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, <Mekanism:DirtyDust>, 298);
 	mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:storage:7>, <minecraft:iron_block>, 9598);
 	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <TabulaRasa:RasaItem1:13>, 1198);
 	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Blue Steel Ingot>, <TabulaRasa:RasaItem1:14>, 1198);
 	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Red Steel Ingot>, <TabulaRasa:RasaItem1:15>, 1198);
+
 
 //Fuel
 //InputStack, Time in Ticks
@@ -237,7 +249,11 @@ mods.immersiveengineering.Crusher.addRecipe(<Forestry:fertilizerCompound> * 6, <
 
 //Fermenter
 //OutputStack, OutputFluid, InputStack, Time in Ticks
-//mods.immersiveengineering.Fermenter.addRecipe(<minecraft:blaze_powder>, <liquid:lava> * 80, <minecraft:nether_wart>, 80);
+mods.immersiveengineering.Fermenter.addRecipe(<Forestry:mulch>, <liquid:ethanol> * 80, <terrafirmacraft:item.Reeds> * 9, 80);
+mods.immersiveengineering.Fermenter.addRecipe(<Forestry:mulch>, <liquid:ethanol> * 40, <Forestry:fruits:3>, 80);
+mods.immersiveengineering.Fermenter.addRecipe(<Forestry:mulch>, <liquid:ethanol> * 40, <Forestry:fruits:4>, 120);
+mods.immersiveengineering.Fermenter.addRecipe(<Forestry:mulch>, <liquid:ethanol> * 40, <Forestry:fruits:5>, 120);
+
 //OutputStack
 //mods.immersiveengineering.Fermenter.removeItemRecipe(<minecraft:blaze_powder>);
 //OutputFluid
@@ -245,13 +261,16 @@ mods.immersiveengineering.Crusher.addRecipe(<Forestry:fertilizerCompound> * 6, <
 
 //Refinery
 //OutputFluid, InputFluid, InputFluid1
-//mods.immersiveengineering.Refinery.addRecipe(<liquid:lava> * 16, <liquid:plantoil> * 8, <liquid:biodiesel> * 8);
+mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 16, <liquid:seedoil> * 8, <liquid:bioethanol> * 8);
 //OutputStack
 //mods.immersiveengineering.Refinery.removeRecipe(<liquid:biodiesel>);
 
 //Squeezer
 //OutputStack, OutputFluid, InputStack, Time in Ticks
-//mods.immersiveengineering.Squeezer.addRecipe(<minecraft:melon_seeds> * 4, <liquid:water> * 500, <minecraft:melon_block>, 240);
+mods.immersiveengineering.Squeezer.addRecipe(<Forestry:mulch>, <liquid:plantoil> * 120, <Forestry:fruits>, 80);
+mods.immersiveengineering.Squeezer.addRecipe(<Forestry:mulch>, <liquid:plantoil> * 180, <Forestry:fruits:1>, 80);
+mods.immersiveengineering.Squeezer.addRecipe(<Forestry:mulch>, <liquid:plantoil> * 240, <Forestry:fruits:2>, 80);
+
 //OutputStack
 //mods.immersiveengineering.Squeezer.removeItemRecipe(<minecraft:melon_seeds>);
 //OutputFluid

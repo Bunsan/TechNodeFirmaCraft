@@ -168,3 +168,5 @@ recipes.addShaped(<customitems:willow_plank_fence>*2, [[<terrafirmacraft:item.Si
 recipes.addShaped(<customitems:kapok_plank_fence>*2, [[<terrafirmacraft:item.SinglePlank:15>, null, <terrafirmacraft:item.SinglePlank:15>],  [<terrafirmacraft:item.SinglePlank:15>, <terrafirmacraft:item.stick>, <terrafirmacraft:item.SinglePlank:15>],  [<terrafirmacraft:item.SinglePlank:15>, <terrafirmacraft:item.stick>, <terrafirmacraft:item.SinglePlank:15>]]);
 
 recipes.addShaped(<customitems:acacia_plank_fence>*2, [[<terrafirmacraft:item.SinglePlank:16>, null, <terrafirmacraft:item.SinglePlank:16>],  [<terrafirmacraft:item.SinglePlank:16>, <terrafirmacraft:item.stick>, <terrafirmacraft:item.SinglePlank:16>],  [<terrafirmacraft:item.SinglePlank:16>, <terrafirmacraft:item.stick>, <terrafirmacraft:item.SinglePlank:16>]]);
+
+//# For Tree Production

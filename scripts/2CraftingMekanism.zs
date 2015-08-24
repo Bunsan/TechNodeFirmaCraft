@@ -10,6 +10,9 @@
 // ================================================================================
 //#  MEKANISM SCRIPTS
 import minetweaker.item.IItemStack;
+import minetweaker.data.IData;
+
+
 <Mekanism:MachineBlock:4>.addTooltip(format.red("DO NOT Silktouch Ores may corrupt world."));
 <Mekanism:CardboardBox>.addTooltip(format.green("Mek Cardboard Box."));
 // ================================================================================
@@ -258,6 +261,7 @@ import minetweaker.item.IItemStack;
 
 //# Crusher
 	mods.mekanism.Crusher.removeRecipe(<ImmersiveEngineering:metal:14>);
+	mods.mekanism.Crusher.removeRecipe(<minecraft:gravel>);
 //# Compressor
 //OutputStack
 	//mods.mekanism.Compressor.removeRecipe(<Mekanism:Ingot:3>);
@@ -443,12 +447,6 @@ import minetweaker.item.IItemStack;
 
 //# Sawmill
 
-	var blockSawLogs = [<minecraft:log>, <minecraft:log:1>, <minecraft:log:2>, <minecraft:log:3>, <minecraft:log2>, <minecraft:log2:1>, <Forestry:log1>, <Forestry:log1:1>, <Forestry:log1:2>, <Forestry:log1:3>, <Forestry:log2>, <Forestry:log2:1>, <Forestry:log2:2>, <Forestry:log2:3>, <Forestry:log3>, <Forestry:log3:1>, <Forestry:log3:2>, <Forestry:log3:3>, <Forestry:log4>, <Forestry:log4:1>, <Forestry:log4:2>, <Forestry:log4:3>, <Forestry:log5>, <Forestry:log5:1>, <Forestry:log5:2>, <Forestry:log5:3>, <Forestry:log6>, <Forestry:log6:1>, <Forestry:log6:2>, <Forestry:log6:3>, <Forestry:log7>, <Forestry:log7:1>, <Forestry:log7:2>, <Forestry:log7:3>, <Forestry:log8>, <Forestry:fireproofLog1>, <Forestry:fireproofLog1:1>, <Forestry:fireproofLog1:2>, <Forestry:fireproofLog1:3>, <Forestry:fireproofLog2>, <Forestry:fireproofLog2:1>, <Forestry:fireproofLog2:2>, <Forestry:fireproofLog2:3>, <Forestry:fireproofLog3>, <Forestry:fireproofLog3:1>, <Forestry:fireproofLog3:2>, <Forestry:fireproofLog3:3>, <Forestry:fireproofLog4>, <Forestry:fireproofLog4:1>, <Forestry:fireproofLog4:2>, <Forestry:fireproofLog4:3>, <Forestry:fireproofLog5>, <Forestry:fireproofLog5:1>, <Forestry:fireproofLog5:2>, <Forestry:fireproofLog5:3>, <Forestry:fireproofLog6>, <Forestry:fireproofLog6:1>, <Forestry:fireproofLog6:2>, <Forestry:fireproofLog6:3>, <Forestry:fireproofLog7>, <Forestry:fireproofLog7:1>, <Forestry:fireproofLog7:2>, <Forestry:fireproofLog7:3>, <Forestry:fireproofLog8>] as IItemStack[];
-
-
-		for item in blockSawLogs {
-	mods.mekanism.Sawmill.removeRecipe(item);
-		}
 	mods.mekanism.Sawmill.removeRecipe(<minecraft:bookshelf>);
 	mods.mekanism.Sawmill.removeRecipe(<minecraft:crafting_table>);
 	mods.mekanism.Sawmill.removeRecipe(<minecraft:wooden_door>);
@@ -465,14 +463,36 @@ import minetweaker.item.IItemStack;
 	mods.mekanism.Sawmill.removeRecipe(<minecraft:jukebox>);
 	mods.mekanism.Sawmill.removeRecipe(<minecraft:noteblock>);
 
+	var pulp = [<Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>] as IItemStack[];
 
-	var blockSawTFCLogs = [<minecraft:log>, <minecraft:log:1>, <minecraft:log:2>, <minecraft:log:3>, <minecraft:log2>, <minecraft:log2:1>, <Forestry:log1>, <Forestry:log1:1>, <Forestry:log1:2>, <Forestry:log1:3>, <Forestry:log2>, <Forestry:log2:1>, <Forestry:log2:2>, <Forestry:log2:3>, <Forestry:log3>, <Forestry:log3:1>, <Forestry:log3:2>, <Forestry:log3:3>, <Forestry:log4>, <Forestry:log4:1>, <Forestry:log4:2>, <Forestry:log4:3>, <Forestry:log5>, <Forestry:log5:1>, <Forestry:log5:2>, <Forestry:log5:3>, <Forestry:log6>, <Forestry:log6:1>, <Forestry:log6:2>, <Forestry:log6:3>, <Forestry:log7>, <Forestry:log7:1>, <Forestry:log7:2>, <Forestry:log7:3>, <Forestry:log8>, <Forestry:fireproofLog1>, <Forestry:fireproofLog1:1>, <Forestry:fireproofLog1:2>, <Forestry:fireproofLog1:3>, <Forestry:fireproofLog2>, <Forestry:fireproofLog2:1>, <Forestry:fireproofLog2:2>, <Forestry:fireproofLog2:3>, <Forestry:fireproofLog3>, <Forestry:fireproofLog3:1>, <Forestry:fireproofLog3:2>, <Forestry:fireproofLog3:3>, <Forestry:fireproofLog4>, <Forestry:fireproofLog4:1>, <Forestry:fireproofLog4:2>, <Forestry:fireproofLog4:3>, <Forestry:fireproofLog5>, <Forestry:fireproofLog5:1>, <Forestry:fireproofLog5:2>, <Forestry:fireproofLog5:3>, <Forestry:fireproofLog6>, <Forestry:fireproofLog6:1>, <Forestry:fireproofLog6:2>, <Forestry:fireproofLog6:3>, <Forestry:fireproofLog7>, <Forestry:fireproofLog7:1>, <Forestry:fireproofLog7:2>, <Forestry:fireproofLog7:3>, <Forestry:fireproofLog8>, <terrafirmacraft:item.Log:0>, <terrafirmacraft:item.Log:1>, <terrafirmacraft:item.Log:2>, <terrafirmacraft:item.Log:3>, <terrafirmacraft:item.Log:4>, <terrafirmacraft:item.Log:5>, <terrafirmacraft:item.Log:6>, <terrafirmacraft:item.Log:7>, <terrafirmacraft:item.Log:8>, <terrafirmacraft:item.Log:9>, <terrafirmacraft:item.Log:10>, <terrafirmacraft:item.Log:11>, <terrafirmacraft:item.Log:12>, <terrafirmacraft:item.Log:13>, <terrafirmacraft:item.Log:14>, <terrafirmacraft:item.Log:15>, <terrafirmacraft:item.Log:16>] as IItemStack[];
+	var nbtForestry = [{WoodType: 0}, {WoodType: 1}, {WoodType: 2}, {WoodType: 3}, {WoodType: 4}, {WoodType: 5}, {WoodType: 6}, {WoodType: 7}, {WoodType: 8}, {WoodType: 9}, {WoodType: 10}, {WoodType: 11}, {WoodType: 12}, {WoodType: 13}, {WoodType: 14}, {WoodType: 15}, {WoodType: 16}, {WoodType: 17}, {WoodType: 18}, {WoodType: 19}, {WoodType: 20}, {WoodType: 21}, {WoodType: 22}, {WoodType: 23}, {WoodType: 24}, {WoodType: 25}, {WoodType: 26}, {WoodType: 27}, {WoodType: 28}] as IData[];
 
-	var blockSawTFCPlanks = [<minecraft:planks>, <minecraft:planks:1>, <minecraft:planks:2>, <minecraft:planks:3>, <minecraft:planks:4>, <minecraft:planks:5>, <Forestry:planks>, <Forestry:planks:1>, <Forestry:planks:2>, <Forestry:planks:3>, <Forestry:planks:4>, <Forestry:planks:5>, <Forestry:planks:6>, <Forestry:planks:7>, <Forestry:planks:8>, <Forestry:planks:9>, <Forestry:planks:10>, <Forestry:planks:11>, <Forestry:planks:12>, <Forestry:planks:13>, <Forestry:planks:14>, <Forestry:planks:15>, <Forestry:planks2>, <Forestry:planks2:1>, <Forestry:planks2:2>, <Forestry:planks2:3>, <Forestry:planks2:4>, <Forestry:planks2:5>, <Forestry:planks2:6>, <Forestry:planks2:7>, <Forestry:planks2:8>, <Forestry:planks2:9>, <Forestry:planks2:10>, <Forestry:planks2:11>, <Forestry:planks2:12>, <Forestry:fireproofPlanks1>, <Forestry:fireproofPlanks1:1>, <Forestry:fireproofPlanks1:2>, <Forestry:fireproofPlanks1:3>, <Forestry:fireproofPlanks1:4>, <Forestry:fireproofPlanks1:5>, <Forestry:fireproofPlanks1:6>, <Forestry:fireproofPlanks1:7>, <Forestry:fireproofPlanks1:8>, <Forestry:fireproofPlanks1:9>, <Forestry:fireproofPlanks1:10>, <Forestry:fireproofPlanks1:11>, <Forestry:fireproofPlanks1:12>, <Forestry:fireproofPlanks1:13>, <Forestry:fireproofPlanks1:14>, <Forestry:fireproofPlanks1:15>, <Forestry:fireproofPlanks2>, <Forestry:fireproofPlanks2:1>, <Forestry:fireproofPlanks2:2>, <Forestry:fireproofPlanks2:3>, <Forestry:fireproofPlanks2:4>, <Forestry:fireproofPlanks2:5>, <Forestry:fireproofPlanks2:6>, <Forestry:fireproofPlanks2:7>, <Forestry:fireproofPlanks2:8>, <Forestry:fireproofPlanks2:9>, <Forestry:fireproofPlanks2:10>, <Forestry:fireproofPlanks2:11>, <Forestry:fireproofPlanks2:12>, <terrafirmacraft:planks:0>, <terrafirmacraft:planks:1>, <terrafirmacraft:planks:2>, <terrafirmacraft:planks:3>, <terrafirmacraft:planks:4>, <terrafirmacraft:planks:5>, <terrafirmacraft:planks:6>, <terrafirmacraft:planks:7>, <terrafirmacraft:planks:8>, <terrafirmacraft:planks:9>, <terrafirmacraft:planks:10>, <terrafirmacraft:planks:11>, <terrafirmacraft:planks:12>, <terrafirmacraft:planks:13>, <terrafirmacraft:planks:14>, <terrafirmacraft:planks:15>, <terrafirmacraft:planks2:0>] as IItemStack[];
+		//for item in nbtForestry {
+//	mods.mekanism.Sawmill.removeRecipe(<Forestry:logs>);
+	//	}
+
+		for i, pulpitem in pulp {
+	var woodLog = <Forestry:logs>.withTag(nbtForestry[i]);
+	var woodPlank = <Forestry:planks>.withTag(nbtForestry[i]);
+	var woodFireproofLog = <Forestry:logsFireproof>.withTag(nbtForestry[i]);
+	var woodFireproofPlank = <Forestry:planksFireproof>.withTag(nbtForestry[i]);
+
+	mods.mekanism.Sawmill.addRecipe(woodLog, woodPlank * 4, pulpitem, 1.0);
+	mods.mekanism.Sawmill.addRecipe(woodFireproofLog, woodFireproofPlank * 4, pulpitem, 1.0);
+
+		}	
+
+	var removeLogs = [<minecraft:log>, <minecraft:log:1>, <minecraft:log:2>, <minecraft:log:3>, <minecraft:log2>, <minecraft:log2:1>] as IItemStack[];
+	var blockSawTFCLogs = [<minecraft:log>, <minecraft:log:1>, <minecraft:log:2>, <minecraft:log:3>, <minecraft:log2>, <minecraft:log2:1>, <terrafirmacraft:item.Log:0>, <terrafirmacraft:item.Log:1>, <terrafirmacraft:item.Log:2>, <terrafirmacraft:item.Log:3>, <terrafirmacraft:item.Log:4>, <terrafirmacraft:item.Log:5>, <terrafirmacraft:item.Log:6>, <terrafirmacraft:item.Log:7>, <terrafirmacraft:item.Log:8>, <terrafirmacraft:item.Log:9>, <terrafirmacraft:item.Log:10>, <terrafirmacraft:item.Log:11>, <terrafirmacraft:item.Log:12>, <terrafirmacraft:item.Log:13>, <terrafirmacraft:item.Log:14>, <terrafirmacraft:item.Log:15>, <terrafirmacraft:item.Log:16>] as IItemStack[];
+
+	var blockSawTFCPlanks = [<minecraft:planks>, <minecraft:planks:1>, <minecraft:planks:2>, <minecraft:planks:3>, <minecraft:planks:4>, <minecraft:planks:5>, <terrafirmacraft:planks:0>, <terrafirmacraft:planks:1>, <terrafirmacraft:planks:2>, <terrafirmacraft:planks:3>, <terrafirmacraft:planks:4>, <terrafirmacraft:planks:5>, <terrafirmacraft:planks:6>, <terrafirmacraft:planks:7>, <terrafirmacraft:planks:8>, <terrafirmacraft:planks:9>, <terrafirmacraft:planks:10>, <terrafirmacraft:planks:11>, <terrafirmacraft:planks:12>, <terrafirmacraft:planks:13>, <terrafirmacraft:planks:14>, <terrafirmacraft:planks:15>, <terrafirmacraft:planks2:0>] as IItemStack[];
+
+		for item in removeLogs {
+	mods.mekanism.Sawmill.removeRecipe(item);
+		}
 
 		for i, rawLog in blockSawTFCLogs {
 	var woodPlank = blockSawTFCPlanks[i];
 	mods.mekanism.Sawmill.addRecipe(rawLog, woodPlank * 4, <Forestry:woodPulp>, 1.0);
 		}
-
 //mods.mekanism.Sawmill.addRecipe(<terrafirmacraft:item.Log:7>, <terrafirmacraft:planks:7>, <Forestry:woodPulp>, 1.0);
