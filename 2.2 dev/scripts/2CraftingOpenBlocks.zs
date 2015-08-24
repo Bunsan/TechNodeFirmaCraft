@@ -27,6 +27,7 @@
 	recipes.remove(<OpenBlocks:generic>);
 	recipes.remove(<OpenBlocks:beartrap>);
 	recipes.remove(<OpenBlocks:itemDropper>);
+	recipes.remove(<OpenBlocks:scaffolding>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -44,6 +45,8 @@
 //#MARKER ADD SHAPED
 
 //# OPEN BLOCKS
+
+	recipes.addShaped(<OpenBlocks:scaffolding> * 2, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, null, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]); 
 	recipes.addShaped(<OpenBlocks:itemDropper>, [[<ore:ingotIron>, <ore:stoneCobble>, <ore:stoneCobble>], [<minecraft:hopper>, <minecraft:redstone>, <ore:stoneCobble>], [<ore:ingotIron>, <ore:stoneCobble>, <ore:stoneCobble>]]);
 	recipes.addShaped(<OpenBlocks:beartrap>, [[<minecraft:iron_bars>, <ore:ingotIron>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <ore:ingotIron>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <ore:ingotIron>, <minecraft:iron_bars>]]);
 

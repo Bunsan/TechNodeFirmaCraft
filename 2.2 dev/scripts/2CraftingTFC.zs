@@ -10,6 +10,11 @@
 // ================================================================================
 //
 //TFC
+import mods.nei.NEI;
+
+NEI.hide(<terrafirmacraft:Ore1>);
+NEI.hide(<terrafirmacraft:Ore2>);
+NEI.hide(<terrafirmacraft:Ore3>);
 // ================================================================================
 //#MARKER REMOVE
  recipes.remove(<DecorationsTFC:item.Powders.Gypsum>);
@@ -84,7 +89,7 @@ mods.tfcraft.Quern.add(<terrafirmacraft:item.Ore:33>, <Forestry:fertilizerCompou
 //# Heating
 
 mods.tfcraft.Heat.add(<customitems:block_of_clay>, 1, 1250, <minecraft:hardened_clay>);
-mods.tfcraft.Heat.add(<customitems:uncured_hempcrete>, 1, 1250, <ImmersiveEngineering:stoneDevice>);
+mods.tfcraft.Heat.add(<customitems:uncured_hempcrete>, 1, 1250, <ImmersiveEngineering:stoneDecoration>);
 
 //# Loom
 
