@@ -35,7 +35,12 @@ NEI.hide(<terrafirmacraft:Ore3>);
 
 //#Recipes for Mulches
 
-
+	recipes.addShaped(<TabulaRasa:RasaItem6>, [[<terrafirmacraft:sapling:14>, <terrafirmacraft:item.FruitSapling:1>, <terrafirmacraft:sapling:14>], [<terrafirmacraft:sapling:13>, <customitems:black_steel_shears>, <terrafirmacraft:sapling:13>], [<terrafirmacraft:sapling:11>, <terrafirmacraft:item.FruitSapling:1>, <terrafirmacraft:sapling:11>]]);
+	recipes.addShaped(<TabulaRasa:RasaItem6:1>, [[<terrafirmacraft:sapling:2>, <terrafirmacraft:item.FruitSapling:8>, <terrafirmacraft:sapling:2>], [<terrafirmacraft:item.FruitSapling:7>, <customitems:black_steel_shears>, <terrafirmacraft:item.FruitSapling:7>], [<terrafirmacraft:sapling:1>, <terrafirmacraft:item.FruitSapling:8>, <terrafirmacraft:sapling:1>]]);
+	recipes.addShaped(<TabulaRasa:RasaItem6:2>, [[<terrafirmacraft:sapling:3>, <terrafirmacraft:item.FruitSapling:4>, <terrafirmacraft:sapling:3>], [<terrafirmacraft:item.FruitSapling:2>, <customitems:black_steel_shears>, <terrafirmacraft:item.FruitSapling:2>], [<terrafirmacraft:sapling:5>, <terrafirmacraft:item.FruitSapling:4>, <terrafirmacraft:sapling:5>]]);
+	recipes.addShaped(<TabulaRasa:RasaItem6:3>, [[<terrafirmacraft:sapling:4>, <terrafirmacraft:item.FruitSapling:6>, <terrafirmacraft:sapling:4>], [<terrafirmacraft:sapling:9>, <customitems:black_steel_shears>, <terrafirmacraft:sapling:9>], [<terrafirmacraft:sapling:7>, <terrafirmacraft:item.FruitSapling:6>, <terrafirmacraft:sapling:7>]]);
+	recipes.addShaped(<TabulaRasa:RasaItem6:4>, [[<terrafirmacraft:sapling>, <terrafirmacraft:item.FruitSapling>, <terrafirmacraft:sapling>], [<terrafirmacraft:item.FruitSapling:3>, <customitems:black_steel_shears>, <terrafirmacraft:item.FruitSapling:3>], [<terrafirmacraft:sapling:6>, <terrafirmacraft:item.FruitSapling>, <terrafirmacraft:sapling:6>]]);
+	recipes.addShaped(<TabulaRasa:RasaItem6:5>, [[<terrafirmacraft:sapling:10>, <terrafirmacraft:sapling:12>, <terrafirmacraft:sapling:10>], [<terrafirmacraft:item.FruitSapling:5>, <customitems:black_steel_shears>, <terrafirmacraft:item.FruitSapling:5>], [<terrafirmacraft:sapling:8>, <terrafirmacraft:sapling:12>, <terrafirmacraft:sapling:8>]]);
 
 // ================================================================================
 //#TFC Custom Machine Recipes
@@ -52,7 +57,7 @@ NEI.hide(<terrafirmacraft:Ore3>);
 	//# Acacia
 	mods.tfcraft.Barrel.addSealed(<TabulaRasa:RasaItem6>, <liquid:freshwater> * 1250, <Forestry:mulch>, <liquid:acaciamix>, 24, 1, false, false);
 
-	mods.tfcraft.Barrel.addSealed(<terrafirmacraft:sapling:13>, <liquid:acaciamix> * 2500, <minecraft:sapling:4>,  <liquid:acaciamix> * 2500, 24, 1, true, false);
+	mods.tfcraft.Barrel.addSealed(<terrafirmacraft:item.FruitSapling:1>, <liquid:acaciamix> * 2500, <minecraft:sapling:4>,  <liquid:acaciamix> * 2500, 24, 1, true, false);
 
 	//# Birch
 	mods.tfcraft.Barrel.addSealed(<TabulaRasa:RasaItem6:1>, <liquid:freshwater> * 1250, <Forestry:mulch>,  <liquid:birchmix>, 24, 1, false, false);
@@ -67,7 +72,7 @@ mods.tfcraft.Barrel.addSealed(<terrafirmacraft:sapling:3>, <liquid:darkoakmix> *
 	//# Jungle
 	mods.tfcraft.Barrel.addSealed(<TabulaRasa:RasaItem6:3>, <liquid:freshwater> * 1250, <Forestry:mulch>,  <liquid:junglemix>, 24, 1, false, false);
 
-mods.tfcraft.Barrel.addSealed(<terrafirmacraft:sapling:9>, <liquid:junglemix> * 2500, <minecraft:sapling:3>,  <liquid:junglemix> * 2500, 24, 1, true, false);
+mods.tfcraft.Barrel.addSealed(<terrafirmacraft:sapling:4>, <liquid:junglemix> * 2500, <minecraft:sapling:3>,  <liquid:junglemix> * 2500, 24, 1, true, false);
 
 	//# Oak
 	mods.tfcraft.Barrel.addSealed(<TabulaRasa:RasaItem6:4>, <liquid:freshwater> * 1250, <Forestry:mulch>,  <liquid:oakmix>, 24, 1, false, false);
