@@ -32,6 +32,9 @@ oreSulfur.remove(<terrafirmacraft:item.Ore:23>);
 val oreSatinspar = <ore:oreSatinspar>;
 oreSatinspar.remove(<terrafirmacraft:item.Ore:18>);
 
+val materialCloth = <ore: materialCloth>;
+materialCloth.remove(<terrafirmacraft:item.BurlapCloth>);
+
 <Mekanism:Configurator:*>.addTooltip(format.green("Place in crafting grid to recharge."));
 
 
