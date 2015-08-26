@@ -12,6 +12,12 @@ import minetweaker.item.IItemStack;
 
 //# ORE DICTIONARY
 
+val stone = <ore:stone>;
+stone.remove(<minecraft:stone>);
+
+val cobblestone = <ore:cobblestone>;
+cobblestone.remove(<minecraft:cobblestone>);
+
 val oreSerpentine = <ore:oreSerpentine>;
 oreSerpentine.remove(<terrafirmacraft:item.Ore:30>);
 
@@ -43,6 +49,8 @@ furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 
 <minecraft:bucket>.addTooltip(format.lightPurple("For when you've had a bit too much liquid."));
 
+<terrafirmacraft:item.Firestarter>.addTooltip(format.red("Fire pits and Forges must be properly sheltered."));
+
 // ================================================================================
 //#MARKER REMOVE
 recipes.remove(<ForgeMicroblock:sawDiamond>);
@@ -55,6 +63,7 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 	furnace.remove(<Forestry:ingotTin>);
 	furnace.remove(<Forestry:ingotCopper>);
 	furnace.remove(<ImmersiveEngineering:metal:*>);
+	furnace.remove(<minecraft:stone>);
 
 	furnace.remove(<Mekanism:Ingot:4>);
 	furnace.remove(<Mekanism:Ingot:5>);
@@ -104,6 +113,9 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 	recipes.remove(<minecraft:quartz_block:1>);
 	recipes.remove(<minecraft:quartz_block:2>);
 	recipes.remove(<minecraft:quartz_stairs>);
+	recipes.remove(<minecraft:mossy_cobblestone>);
+	recipes.remove(<minecraft:cobblestone_wall>);
+	recipes.remove(<minecraft:stonebrick>);
 
 //# Metal Block Recipes
 	recipes.remove(<Railcraft:cube:9>);

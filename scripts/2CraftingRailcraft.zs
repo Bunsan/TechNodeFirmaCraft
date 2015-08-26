@@ -148,6 +148,11 @@
 	recipes.remove(<Railcraft:signal:3>);
 	recipes.remove(<Railcraft:signal:2>);
 	recipes.remove(<Railcraft:signal:4>);
+//# Loader/Unloader
+	recipes.remove(<Railcraft:machine.gamma>);
+	recipes.remove(<Railcraft:machine.gamma:1>);
+//# Post
+	recipes.remove(<Railcraft:post:1>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -300,6 +305,9 @@
 	recipes.addShaped(<Railcraft:lantern.stone:8>, [[null, <terrafirmacraft:StoneSedSmooth:3>, null], [<ore:paneGlassColorless>, <ore:basicLanternCore>, <ore:paneGlassColorless>], [null, <terrafirmacraft:StoneSedSmooth:3>, null]]);
 	recipes.addShaped(<Railcraft:lantern.stone:9>, [[null, <minecraft:stone_slab>, null], [<ore:paneGlassColorless>, <ore:basicLanternCore>, <ore:paneGlassColorless>], [null, <minecraft:stone_slab>, null]]);
 
+//# Loader/Unloader
+	recipes.addShaped(<Railcraft:machine.gamma>, [[<ore:stoneCobble>, <ore:stoneCobble>, <ore:stoneCobble>], [<ore:stoneCobble>, <minecraft:hopper>, <ore:stoneCobble>], [<ore:stoneCobble>, <Railcraft:detector>, <ore:stoneCobble>]]);
+	recipes.addShaped(<Railcraft:machine.gamma:1>, [[<ore:stoneCobble>, <ore:stoneCobble>, <ore:stoneCobble>], [<ore:stoneCobble>, <Railcraft:detector>, <ore:stoneCobble>], [<ore:stoneCobble>, <minecraft:hopper>, <ore:stoneCobble>]]);
 
 //# Carts, Locomotive and Tunnel Bore Stuff
 	recipes.addShaped(<Railcraft:cart.loco.electric>, [[<minecraft:redstone_lamp>, <ore:plateSteel>, null], [<ore:plateSteel>, <Railcraft:machine.epsilon>, <ore:plateSteel>], [<Railcraft:part.gear:2>, <minecraft:minecart>, <Railcraft:part.gear:2>]]);

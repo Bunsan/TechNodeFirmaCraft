@@ -103,3 +103,8 @@ mods.tfcraft.Heat.add(<customitems:uncured_hempcrete>, 1, 1250, <ImmersiveEngine
 //# Loom
 
 mods.tfcraft.Loom.add(<ImmersiveEngineering:material:3> * 16, <terrafirmacraft:item.BurlapCloth>, "terrafirmacraft:textures/blocks/Rope.png");
+
+//# Anvil
+
+mods.tfcraft.Anvil.add(<terrafirmacraft:item.Black Steel Sheet>, null, "shears", 67, false, 5, <customitems:black_steel_shears>);
+<customitems:black_steel_shears>.addTooltip(format.gray("Fine Fragile Blade for Delicate Work."));
