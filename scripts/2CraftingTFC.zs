@@ -80,7 +80,7 @@ mods.tfcraft.Barrel.addSealed(<terrafirmacraft:sapling:4>, <liquid:junglemix> * 
 	mods.tfcraft.Barrel.addSealed(<terrafirmacraft:sapling>, <liquid:oakmix> * 2500, <minecraft:sapling>,  <liquid:oakmix> * 2500, 24, 1, true, true);
 
 	//# Spruce
-	mods.tfcraft.Barrel.addSealed(<TabulaRasa:RasaItem6:4>, <liquid:freshwater> * 1250, <Forestry:mulch>,  <liquid:sprucemix>, 24, 1, false, false);
+	mods.tfcraft.Barrel.addSealed(<TabulaRasa:RasaItem6:5>, <liquid:freshwater> * 1250, <Forestry:mulch>,  <liquid:sprucemix>, 24, 1, false, false);
 
 mods.tfcraft.Barrel.addSealed(<terrafirmacraft:sapling:10>, <liquid:sprucemix> * 2500, <minecraft:sapling:1>,  <liquid:sprucemix> * 2500, 24, 1, true, false);
 

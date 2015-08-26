@@ -618,6 +618,29 @@ mods.railcraft.RockCrusher.removeRecipe(<minecraft:mossy_cobblestone>);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.LooseRock:20>, true, false, [<terrafirmacraft:item.Powder> * 2], [1.0]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:31>, true, false, [<terrafirmacraft:item.Fertilizer> * 4, <terrafirmacraft:item.Fertilizer>, <terrafirmacraft:item.Fertilizer>], [1.0, 0.25, 0.10]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:17>, true, false, [<DecorationsTFC:item.Powders.Gypsum> * 4, <DecorationsTFC:item.Powders.Gypsum> * 1], [1.0, 0.5]);
+
+//# Dye Grinding
+	//# Hematite
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Small Ore:3>, true, false, [<terrafirmacraft:item.Powder:5>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:52>, true, false, [<terrafirmacraft:item.Powder:5> * 2], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:3>, true, false, [<terrafirmacraft:item.Powder:5> * 4], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:38>, true, false, [<terrafirmacraft:item.Powder:5> * 6], [1.0]);
+	//# Limonite
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Small Ore:11>, true, false, [<terrafirmacraft:item.Powder:7>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:60>, true, false, [<terrafirmacraft:item.Powder:7> * 2], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:11>, true, false, [<terrafirmacraft:item.Powder:7> * 4], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:46>, true, false, [<terrafirmacraft:item.Powder:7> * 6], [1.0]);
+	//# Malacite
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Small Ore:9>, true, false, [<terrafirmacraft:item.Powder:8>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:58>, true, false, [<terrafirmacraft:item.Powder:8> * 2], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:9>, true, false, [<terrafirmacraft:item.Powder:8> * 4], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:44>, true, false, [<terrafirmacraft:item.Powder:8> * 6], [1.0]);
+	//# Lapis
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:34>, true, false, [<terrafirmacraft:item.Powder:6> * 4], [1.0]);
+	//# Bones
+	mods.railcraft.RockCrusher.addRecipe(<minecraft:bone>, false, false, [<terrafirmacraft:item.Powder:15> * 2], [1.0]);
+
+	
 //# Ore Grinding
 	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0>, true, false, [<Mekanism:Dust:3>, <Mekanism:Dust:3>], [1.0, 0.50]);
 	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:1> * 1, true, false, [<Mekanism:Dust:1>, <Mekanism:Dust:1>], [1.0, 0.50]);

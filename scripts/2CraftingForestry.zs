@@ -12,6 +12,8 @@
 import minetweaker.item.IItemStack;
 import minetweaker.data.IData;
 // ================================================================================
+<Forestry:factory2>.addTooltip(format.red("MT broken for fixing scripts. No tubes."));
+
 //#MARKER REMOVE
 
 //# Farm Blocks (removed because they won't work)
@@ -105,7 +107,7 @@ import minetweaker.data.IData;
 //#Worktable
 	recipes.addShaped(<Forestry:factory2:2>, [[<minecraft:book>], [<ore:craftingTableWood>], [<ore:craftingChest>]]);
 //#Themionic Fabricator
-	recipes.addShaped(<Forestry:factory2>, [[<ore:ingotGold>, <ore:blockGlassColorless>, <minecraft:gold_ingot>], [<ore:blockGlassColorless>, <Forestry:sturdyMachine>, <ore:blockGlassColorless>], [<ore:ingotGold>, <ore:craftingChest>, <ore:ingotGold>]]);
+	recipes.addShaped(<Forestry:factory2>, [[<ore:ingotGold>, <ore:blockGlassColorless>, <ore:ingotGold>], [<ore:blockGlassColorless>, <Forestry:sturdyMachine>, <ore:blockGlassColorless>], [<ore:ingotGold>, <ore:craftingChest>, <ore:ingotGold>]]);
 //#RainTank
 	recipes.addShaped(<Forestry:factory2:1>, [[<ore:ingotIron>, <ore:blockGlassColorless>, <ore:ingotIron>], [<ore:ingotIron>, <Forestry:sturdyMachine>, <ore:ingotIron>], [<ore:ingotIron>, <ore:blockGlassColorless>, <ore:ingotIron>]]);
 //# Infuser
@@ -285,4 +287,3 @@ var fruitTreeTFC =[<terrafirmacraft:item.FruitSapling:0>, <terrafirmacraft:item.
 	//mods.forestry.ThermionicFabricator.addCast(<liquid:glass> * 1000, [[null, <terrafirmacraft:item.Ore:34>, null], [<minecraft:redstone>, <terrafirmacraft:item.Ore:34>, <minecraft:redstone>], [<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>]], null, <Forestry:thermionicTubes:11> * 4);
 //OutputStack
 	//mods.forestry.ThermionicFabricator.removeCasts(<Forestry:stained>);
-

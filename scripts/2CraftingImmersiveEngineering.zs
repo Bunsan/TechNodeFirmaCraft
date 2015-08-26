@@ -247,6 +247,28 @@ mods.immersiveengineering.Crusher.addRecipe(<Railcraft:dust:3>, <minecraft:coal:
 mods.immersiveengineering.Crusher.addRecipe(<Railcraft:dust:3> * 2, <terrafirmacraft:item.coal:1>, 3600, null, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<Forestry:fertilizerCompound> * 6, <ore:gemApatite>, 3600, null, 0.1);
 
+//# Dyes
+	//# Hematite
+	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:5>, <terrafirmacraft:item.Small Ore:3>, 1000, null, 0.1);
+	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:5> * 2, <terrafirmacraft:item.Ore:52>, 1000, null, 0.1);
+	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:5> * 4, <terrafirmacraft:item.Ore:3>, 1000, null, 0.1);
+	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:5> * 6, <terrafirmacraft:item.Ore:38>, 1000, null, 0.1);
+	//# Limonite
+	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:7>, <terrafirmacraft:item.Small Ore:11>, 1000, null, 0.1);
+	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:7> * 2, <terrafirmacraft:item.Ore:60>, 1000, null, 0.1);
+	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:7> * 4, <terrafirmacraft:item.Ore:11>, 1000, null, 0.1);
+	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:7> * 6, <terrafirmacraft:item.Ore:46>, 1000, null, 0.1);
+	//# Malacite
+	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:8>, <terrafirmacraft:item.Small Ore:9>, 1000, null, 0.1);
+	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:8> * 2, <terrafirmacraft:item.Ore:58>, 1000, null, 0.1);
+	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:8> * 4, <terrafirmacraft:item.Ore:9>, 1000, null, 0.1);
+	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:8> * 6, <terrafirmacraft:item.Ore:44>, 1000, null, 0.1);
+	//# Lapis
+	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:6> * 4, <terrafirmacraft:item.Ore:34>, 1000, null, 0.1);
+	//# Bones
+	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:15> * 2, <minecraft:bone>, 1000, null, 0.1);
+
+
 //Fermenter
 //OutputStack, OutputFluid, InputStack, Time in Ticks
 mods.immersiveengineering.Fermenter.addRecipe(<Forestry:mulch>, <liquid:ethanol> * 80, <terrafirmacraft:item.Reeds> * 9, 80);
