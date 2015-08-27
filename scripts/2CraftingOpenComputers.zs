@@ -56,23 +56,22 @@ recipes.remove(<OpenComputers:screen3>);
 recipes.remove(<OpenComputers:serverRack>);
 recipes.remove(<OpenComputers:switch>);
 recipes.remove(<OpenComputers:waypoint>);
+recipes.remove(<OpenComputers:item:30>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
-// Didn't work
-//recipes.removeShaped(<OpenComputers:screen3>, [[<ore:obsidian>, <ore:oc:materialCircuitBoardPrinted>, <ore:oc:circuitChip3>], [<ore:oreStrontium>, <terrafirmacraft:item.Ore:24>, <ore:oc:screen2>], [<ore:obsidian>, <ore:oc:materialCircuitBoardPrinted>, <ore:oc:circuitChip3>]]);
 // ================================================================================
 //#MARKER ADD
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+	recipes.addShapeless(<OpenComputers:item:30>, [<OpenComputers:item:17>, <customitems:block_of_clay>, <ore:dyeGreen>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
-
 
 
 	recipes.addShaped(<OpenComputers:accessPoint>, [[<ore:plateIron>, <ore:oc:wlanCard>, <ore:plateIron>], [<ore:oc:cable>, <ore:oc:lanCard>, <ore:oc:cable>], [<ore:craftingToolHardHammer>.reuse(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);

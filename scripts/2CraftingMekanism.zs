@@ -282,6 +282,8 @@ import minetweaker.data.IData;
 	mods.mekanism.Enrichment.removeRecipe(<Mekanism:OtherDust>);
 	mods.mekanism.Enrichment.addRecipe(<Mekanism:OtherDust>, <Mekanism:CompressedDiamond>);
 	mods.mekanism.Enrichment.addRecipe(<terrafirmacraft:item.Diamond:2>, <Mekanism:CompressedDiamond>);
+	mods.mekanism.Enrichment.addRecipe(<terrafirmacraft:item.Ore:27>, <minecraft:redstone> * 12);
+	mods.mekanism.Enrichment.addRecipe(<terrafirmacraft:item.Ore:28>, <minecraft:redstone> * 12);
 
 	//mods.mekanism.Enrichment.addRecipe(<terrafirmacraft:item.Ore:25>, <Mekanism:Dust:2> * 2);
 	//mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0>, <Mekanism:Dust:3> * 2);
