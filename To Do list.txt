@@ -1,19 +1,6 @@
 To Do
 
-Vanilla
-- disable Enderchest crafting
-
-Forestry
-- add fermenter recipes
-- determine if we can make trees unpunchable. 
-- reduce stack size of logs
-- reduce stack size of planks
-- determine if we can do a treecapa style chop to trees
-- add recipe to generate base trees, remove from HQM. (Black Steel shears, produce item + water barrel = fluid + oak sapling = apple oak sapling.) - Partly done.
-- recipe to get missing bees to remove from HQM
-
 General
-- organize dev XML and create module of dev tools that can be copy pasted into dev builds
 - clean up and better organize scripts
 
 Future
