@@ -148,6 +148,11 @@
 	recipes.remove(<Railcraft:signal:3>);
 	recipes.remove(<Railcraft:signal:2>);
 	recipes.remove(<Railcraft:signal:4>);
+//# Loader/Unloader
+	recipes.remove(<Railcraft:machine.gamma>);
+	recipes.remove(<Railcraft:machine.gamma:1>);
+//# Post
+	recipes.remove(<Railcraft:post:1>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -300,6 +305,9 @@
 	recipes.addShaped(<Railcraft:lantern.stone:8>, [[null, <terrafirmacraft:StoneSedSmooth:3>, null], [<ore:paneGlassColorless>, <ore:basicLanternCore>, <ore:paneGlassColorless>], [null, <terrafirmacraft:StoneSedSmooth:3>, null]]);
 	recipes.addShaped(<Railcraft:lantern.stone:9>, [[null, <minecraft:stone_slab>, null], [<ore:paneGlassColorless>, <ore:basicLanternCore>, <ore:paneGlassColorless>], [null, <minecraft:stone_slab>, null]]);
 
+//# Loader/Unloader
+	recipes.addShaped(<Railcraft:machine.gamma>, [[<ore:stoneCobble>, <ore:stoneCobble>, <ore:stoneCobble>], [<ore:stoneCobble>, <minecraft:hopper>, <ore:stoneCobble>], [<ore:stoneCobble>, <Railcraft:detector>, <ore:stoneCobble>]]);
+	recipes.addShaped(<Railcraft:machine.gamma:1>, [[<ore:stoneCobble>, <ore:stoneCobble>, <ore:stoneCobble>], [<ore:stoneCobble>, <Railcraft:detector>, <ore:stoneCobble>], [<ore:stoneCobble>, <minecraft:hopper>, <ore:stoneCobble>]]);
 
 //# Carts, Locomotive and Tunnel Bore Stuff
 	recipes.addShaped(<Railcraft:cart.loco.electric>, [[<minecraft:redstone_lamp>, <ore:plateSteel>, null], [<ore:plateSteel>, <Railcraft:machine.epsilon>, <ore:plateSteel>], [<Railcraft:part.gear:2>, <minecraft:minecart>, <Railcraft:part.gear:2>]]);
@@ -618,6 +626,31 @@ mods.railcraft.RockCrusher.removeRecipe(<minecraft:mossy_cobblestone>);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.LooseRock:20>, true, false, [<terrafirmacraft:item.Powder> * 2], [1.0]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:31>, true, false, [<terrafirmacraft:item.Fertilizer> * 4, <terrafirmacraft:item.Fertilizer>, <terrafirmacraft:item.Fertilizer>], [1.0, 0.25, 0.10]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:17>, true, false, [<DecorationsTFC:item.Powders.Gypsum> * 4, <DecorationsTFC:item.Powders.Gypsum> * 1], [1.0, 0.5]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:27>, true, false, [<minecraft:redstone> * 8, <minecraft:redstone> * 1], [1.0, 0.5]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:28>, true, false, [<minecraft:redstone> * 8, <minecraft:redstone> * 1], [1.0, 0.5]);
+
+//# Dye Grinding
+	//# Hematite
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Small Ore:3>, true, false, [<terrafirmacraft:item.Powder:5>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:52>, true, false, [<terrafirmacraft:item.Powder:5> * 2], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:3>, true, false, [<terrafirmacraft:item.Powder:5> * 4], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:38>, true, false, [<terrafirmacraft:item.Powder:5> * 6], [1.0]);
+	//# Limonite
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Small Ore:11>, true, false, [<terrafirmacraft:item.Powder:7>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:60>, true, false, [<terrafirmacraft:item.Powder:7> * 2], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:11>, true, false, [<terrafirmacraft:item.Powder:7> * 4], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:46>, true, false, [<terrafirmacraft:item.Powder:7> * 6], [1.0]);
+	//# Malacite
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Small Ore:9>, true, false, [<terrafirmacraft:item.Powder:8>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:58>, true, false, [<terrafirmacraft:item.Powder:8> * 2], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:9>, true, false, [<terrafirmacraft:item.Powder:8> * 4], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:44>, true, false, [<terrafirmacraft:item.Powder:8> * 6], [1.0]);
+	//# Lapis
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:34>, true, false, [<terrafirmacraft:item.Powder:6> * 4], [1.0]);
+	//# Bones
+	mods.railcraft.RockCrusher.addRecipe(<minecraft:bone>, false, false, [<terrafirmacraft:item.Powder:15> * 2], [1.0]);
+
+	
 //# Ore Grinding
 	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0>, true, false, [<Mekanism:Dust:3>, <Mekanism:Dust:3>], [1.0, 0.50]);
 	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:1> * 1, true, false, [<Mekanism:Dust:1>, <Mekanism:Dust:1>], [1.0, 0.50]);
@@ -635,6 +668,18 @@ mods.railcraft.RockCrusher.removeRecipe(<minecraft:mossy_cobblestone>);
 	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:13>, true, false, [<Mekanism:Dust:3>, <Mekanism:Dust:3>, <terrafirmacraft:item.Powder:3>], [1.0, 0.50, 0.10]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:25>, true, false, [<Mekanism:Dust:2>, <Mekanism:Dust:2>], [1.0, 0.50]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:30>, true, false, [<ImmersiveEngineering:metal:11>, <ImmersiveEngineering:metal:11>], [1.0, 0.50]);
+//# Ingots
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Bismuth Ingot>,true, false, [<TabulaRasa:RasaItem1:1>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Copper Ingot>,true, false, [<Mekanism:Dust:3>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Gold Ingot>,true, false, [<Mekanism:Dust:1>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>,true, false, [<Mekanism:Dust>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Lead Ingot>,true, false, [<Mekanism:Dust:6>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Nickel Ingot>,true, false, [<TabulaRasa:RasaItem1:2>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Platinum Ingot>,true, false, [<TabulaRasa:RasaItem1:3>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Silver Ingot>,true, false, [<Mekanism:Dust:5>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Tin Ingot>,true, false, [<Mekanism:Dust:4>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Zinc Ingot>,true, false, [<TabulaRasa:RasaItem1>], [1.0]);
+//# Alloy Ingots
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Bronze Ingot>,true, false, [<TabulaRasa:RasaItem1:4>], [1.0]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Bismuth Bronze Ingot> ,true, false, [<TabulaRasa:RasaItem1:5>], [1.0]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Black Bronze Ingot> ,true, false, [<TabulaRasa:RasaItem1:6>], [1.0]);

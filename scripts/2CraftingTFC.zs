@@ -10,6 +10,11 @@
 // ================================================================================
 //
 //TFC
+import mods.nei.NEI;
+
+NEI.hide(<terrafirmacraft:Ore1>);
+NEI.hide(<terrafirmacraft:Ore2>);
+NEI.hide(<terrafirmacraft:Ore3>);
 // ================================================================================
 //#MARKER REMOVE
  recipes.remove(<DecorationsTFC:item.Powders.Gypsum>);
@@ -28,6 +33,15 @@
 // ================================================================================
 //#MARKER ADD SHAPED
 
+//#Recipes for Mulches
+
+	recipes.addShaped(<TabulaRasa:RasaItem6>, [[<terrafirmacraft:sapling:14>, <terrafirmacraft:item.FruitSapling:1>, <terrafirmacraft:sapling:14>], [<terrafirmacraft:sapling:13>, <customitems:black_steel_shears>, <terrafirmacraft:sapling:13>], [<terrafirmacraft:sapling:11>, <terrafirmacraft:item.FruitSapling:1>, <terrafirmacraft:sapling:11>]]);
+	recipes.addShaped(<TabulaRasa:RasaItem6:1>, [[<terrafirmacraft:sapling:2>, <terrafirmacraft:item.FruitSapling:8>, <terrafirmacraft:sapling:2>], [<terrafirmacraft:item.FruitSapling:7>, <customitems:black_steel_shears>, <terrafirmacraft:item.FruitSapling:7>], [<terrafirmacraft:sapling:1>, <terrafirmacraft:item.FruitSapling:8>, <terrafirmacraft:sapling:1>]]);
+	recipes.addShaped(<TabulaRasa:RasaItem6:2>, [[<terrafirmacraft:sapling:3>, <terrafirmacraft:item.FruitSapling:4>, <terrafirmacraft:sapling:3>], [<terrafirmacraft:item.FruitSapling:2>, <customitems:black_steel_shears>, <terrafirmacraft:item.FruitSapling:2>], [<terrafirmacraft:sapling:5>, <terrafirmacraft:item.FruitSapling:4>, <terrafirmacraft:sapling:5>]]);
+	recipes.addShaped(<TabulaRasa:RasaItem6:3>, [[<terrafirmacraft:sapling:4>, <terrafirmacraft:item.FruitSapling:6>, <terrafirmacraft:sapling:4>], [<terrafirmacraft:sapling:9>, <customitems:black_steel_shears>, <terrafirmacraft:sapling:9>], [<terrafirmacraft:sapling:7>, <terrafirmacraft:item.FruitSapling:6>, <terrafirmacraft:sapling:7>]]);
+	recipes.addShaped(<TabulaRasa:RasaItem6:4>, [[<terrafirmacraft:sapling>, <terrafirmacraft:item.FruitSapling>, <terrafirmacraft:sapling>], [<terrafirmacraft:item.FruitSapling:3>, <customitems:black_steel_shears>, <terrafirmacraft:item.FruitSapling:3>], [<terrafirmacraft:sapling:6>, <terrafirmacraft:item.FruitSapling>, <terrafirmacraft:sapling:6>]]);
+	recipes.addShaped(<TabulaRasa:RasaItem6:5>, [[<terrafirmacraft:sapling:10>, <terrafirmacraft:sapling:12>, <terrafirmacraft:sapling:10>], [<terrafirmacraft:item.FruitSapling:5>, <customitems:black_steel_shears>, <terrafirmacraft:item.FruitSapling:5>], [<terrafirmacraft:sapling:8>, <terrafirmacraft:sapling:12>, <terrafirmacraft:sapling:8>]]);
+
 // ================================================================================
 //#TFC Custom Machine Recipes
 
@@ -37,6 +51,39 @@
 		for item in <ore:logSappy>.items {
 	mods.tfcraft.Barrel.addSealed(item, <liquid:vinegar> * 625, <minecraft:slime_ball> * 4, <liquid:vinegar> * 625, 8, 1, true, true);
 		}
+
+	//# Recipes for making tree mix and Forestry Sapling
+
+	//# Acacia
+	mods.tfcraft.Barrel.addSealed(<TabulaRasa:RasaItem6>, <liquid:freshwater> * 1250, <Forestry:mulch>, <liquid:acaciamix>, 24, 1, false, false);
+
+	mods.tfcraft.Barrel.addSealed(<terrafirmacraft:item.FruitSapling:1>, <liquid:acaciamix> * 2500, <minecraft:sapling:4>,  <liquid:acaciamix> * 2500, 24, 1, true, false);
+
+	//# Birch
+	mods.tfcraft.Barrel.addSealed(<TabulaRasa:RasaItem6:1>, <liquid:freshwater> * 1250, <Forestry:mulch>,  <liquid:birchmix>, 24, 1, false, false);
+
+mods.tfcraft.Barrel.addSealed(<terrafirmacraft:sapling:2>, <liquid:birchmix> * 2500, <minecraft:sapling:2>,  <liquid:birchmix> * 2500, 24, 1, true, false);
+
+	//# Dark Oak
+	mods.tfcraft.Barrel.addSealed(<TabulaRasa:RasaItem6:2>, <liquid:freshwater> * 1250, <Forestry:mulch>,  <liquid:darkoakmix>, 24, 1, false, false);
+
+mods.tfcraft.Barrel.addSealed(<terrafirmacraft:sapling:3>, <liquid:darkoakmix> * 2500, <minecraft:sapling:5>,  <liquid:darkoakmix> * 2500, 24, 1, true, false);
+
+	//# Jungle
+	mods.tfcraft.Barrel.addSealed(<TabulaRasa:RasaItem6:3>, <liquid:freshwater> * 1250, <Forestry:mulch>,  <liquid:junglemix>, 24, 1, false, false);
+
+mods.tfcraft.Barrel.addSealed(<terrafirmacraft:sapling:4>, <liquid:junglemix> * 2500, <minecraft:sapling:3>,  <liquid:junglemix> * 2500, 24, 1, true, false);
+
+	//# Oak
+	mods.tfcraft.Barrel.addSealed(<TabulaRasa:RasaItem6:4>, <liquid:freshwater> * 1250, <Forestry:mulch>,  <liquid:oakmix>, 24, 1, false, false);
+
+	mods.tfcraft.Barrel.addSealed(<terrafirmacraft:sapling>, <liquid:oakmix> * 2500, <minecraft:sapling>,  <liquid:oakmix> * 2500, 24, 1, true, true);
+
+	//# Spruce
+	mods.tfcraft.Barrel.addSealed(<TabulaRasa:RasaItem6:5>, <liquid:freshwater> * 1250, <Forestry:mulch>,  <liquid:sprucemix>, 24, 1, false, false);
+
+mods.tfcraft.Barrel.addSealed(<terrafirmacraft:sapling:10>, <liquid:sprucemix> * 2500, <minecraft:sapling:1>,  <liquid:sprucemix> * 2500, 24, 1, true, false);
+
 
 //mods.tfcraft.Barrel.addUnsealed(Input Item, Input Fluid, Output Item, Output Fluid, Time, techLv, Remove Fluid true/false, allow any stack true/false);
 //mods.tfcraft.Barrel.addFluidtoFluid(Fluid in Barrel, Input Fluid, Output Fluid);
@@ -51,8 +98,13 @@ mods.tfcraft.Quern.add(<terrafirmacraft:item.Ore:33>, <Forestry:fertilizerCompou
 //# Heating
 
 mods.tfcraft.Heat.add(<customitems:block_of_clay>, 1, 1250, <minecraft:hardened_clay>);
-mods.tfcraft.Heat.add(<customitems:uncured_hempcrete>, 1, 1250, <ImmersiveEngineering:stoneDevice>);
+mods.tfcraft.Heat.add(<customitems:uncured_hempcrete>, 1, 1250, <ImmersiveEngineering:stoneDecoration>);
 
 //# Loom
 
 mods.tfcraft.Loom.add(<ImmersiveEngineering:material:3> * 16, <terrafirmacraft:item.BurlapCloth>, "terrafirmacraft:textures/blocks/Rope.png");
+
+//# Anvil
+
+mods.tfcraft.Anvil.add(<terrafirmacraft:item.Black Steel Sheet>, null, "shears", 67, false, 5, <customitems:black_steel_shears>);
+<customitems:black_steel_shears>.addTooltip(format.gray("Fine Fragile Blade for Delicate Work."));

@@ -12,6 +12,12 @@ import minetweaker.item.IItemStack;
 
 //# ORE DICTIONARY
 
+val stone = <ore:stone>;
+stone.remove(<minecraft:stone>);
+
+val cobblestone = <ore:cobblestone>;
+cobblestone.remove(<minecraft:cobblestone>);
+
 val oreSerpentine = <ore:oreSerpentine>;
 oreSerpentine.remove(<terrafirmacraft:item.Ore:30>);
 
@@ -32,6 +38,9 @@ oreSulfur.remove(<terrafirmacraft:item.Ore:23>);
 val oreSatinspar = <ore:oreSatinspar>;
 oreSatinspar.remove(<terrafirmacraft:item.Ore:18>);
 
+val materialCloth = <ore: materialCloth>;
+materialCloth.remove(<terrafirmacraft:item.BurlapCloth>);
+
 <Mekanism:Configurator:*>.addTooltip(format.green("Place in crafting grid to recharge."));
 
 
@@ -39,6 +48,8 @@ furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 <minecraft:coal:1>.addTooltip(format.red("Half Fuel Value of TFC Charcoal."));
 
 <minecraft:bucket>.addTooltip(format.lightPurple("For when you've had a bit too much liquid."));
+
+<terrafirmacraft:item.Firestarter>.addTooltip(format.red("Fire pits and Forges must be properly sheltered."));
 
 // ================================================================================
 //#MARKER REMOVE
@@ -52,6 +63,7 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 	furnace.remove(<Forestry:ingotTin>);
 	furnace.remove(<Forestry:ingotCopper>);
 	furnace.remove(<ImmersiveEngineering:metal:*>);
+	furnace.remove(<minecraft:stone>);
 
 	furnace.remove(<Mekanism:Ingot:4>);
 	furnace.remove(<Mekanism:Ingot:5>);
@@ -101,6 +113,9 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 	recipes.remove(<minecraft:quartz_block:1>);
 	recipes.remove(<minecraft:quartz_block:2>);
 	recipes.remove(<minecraft:quartz_stairs>);
+	recipes.remove(<minecraft:mossy_cobblestone>);
+	recipes.remove(<minecraft:cobblestone_wall>);
+	recipes.remove(<minecraft:stonebrick>);
 
 //# Metal Block Recipes
 	recipes.remove(<Railcraft:cube:9>);
@@ -184,10 +199,11 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 	furnace.addRecipe(<minecraft:glass>, <ore:blockSand>);
 	furnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, <Mekanism:Dust>);
 	furnace.addRecipe(<terrafirmacraft:item.Gold Ingot>, <Mekanism:Dust:1>);
-	furnace.addRecipe(<terrafirmacraft:item.HC Steel Ingot>, <Mekanism:Dust:5>);
 	furnace.addRecipe(<terrafirmacraft:item.Copper Ingot>, <Mekanism:Dust:3>);
 	furnace.addRecipe(<terrafirmacraft:item.Tin Ingot>, <Mekanism:Dust:4>);
+	furnace.addRecipe(<terrafirmacraft:item.Silver Ingot>, <Mekanism:Dust:5>);
 	furnace.addRecipe(<terrafirmacraft:item.Lead Ingot>, <Mekanism:Dust:6>);
+	furnace.addRecipe(<terrafirmacraft:item.Pig Iron Ingot>, <Mekanism:OtherDust:1>);
 	furnace.addRecipe(<Mekanism:Ingot:1>, <ore:oreOsmium>);
 	furnace.addRecipe(<terrafirmacraft:item.Copper Ingot>, <ore:oreCopper>);
 	furnace.addRecipe(<terrafirmacraft:item.Gold Ingot>, <ore:oreGold>);
@@ -398,7 +414,7 @@ recipes.addShapeless(<terrafirmacraft:item.Ink> * 16, [<ore:dyeBlack>, <ore:item
 
 //# Smash Normal Ore to Pile
 	recipes.addShapeless(<TabulaRasa:RasaItem0>, [<terrafirmacraft:item.Ore>, <terrafirmacraft:item.Ore>, item.anyDamage().transformDamage()]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:1>, [<terrafirmacraft:item.Ore:1>, <terrafirmacraft:item.Ore:1>, <terrafirmacraft:item.Ore:1>, item.anyDamage().transformDamage()]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:1>, [<terrafirmacraft:item.Ore:1>, <terrafirmacraft:item.Ore:1>, item.anyDamage().transformDamage()]);
 	recipes.addShapeless(<TabulaRasa:RasaItem0:2>, [<terrafirmacraft:item.Ore:2>, <terrafirmacraft:item.Ore:2>, item.anyDamage().transformDamage()]);
 	recipes.addShapeless(<TabulaRasa:RasaItem0:3>, [<terrafirmacraft:item.Ore:3>, <terrafirmacraft:item.Ore:3>, item.anyDamage().transformDamage()]);
 	recipes.addShapeless(<TabulaRasa:RasaItem0:4>, [<terrafirmacraft:item.Ore:4>, <terrafirmacraft:item.Ore:4>, item.anyDamage().transformDamage()]);

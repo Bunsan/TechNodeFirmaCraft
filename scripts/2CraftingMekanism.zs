@@ -214,7 +214,7 @@ import minetweaker.data.IData;
 	recipes.addShaped(<Mekanism:MachineBlock:8>, [[<ore:ingotSteel>, <terrafirmacraft:Bloomery>, <ore:ingotSteel>], [<ore:dustRedstone>, <ore:ingotOsmium>, <ore:dustRedstone>], [<ore:ingotSteel>, <terrafirmacraft:Bloomery>, <ore:ingotSteel>]]);
 	recipes.addShaped(<Mekanism:MachineBlock2:8>, [[<ore:circuitAdvanced>, <Mekanism:GasTank:100>, <ore:circuitAdvanced>], [<ore:alloyUltimate>, <Mekanism:BasicBlock:8>, <ore:alloyUltimate>], [<ore:plateBlackSteel>, <Mekanism:GasTank:100>, <ore:plateBlackSteel>]]);
 	recipes.addShaped(<Mekanism:MachineBlock2:7>, [[<ore:circuitAdvanced>, <terrafirmacraft:item.Red Steel Bucket Empty>, <ore:circuitAdvanced>], [<ore:alloyAdvanced>, <Mekanism:BasicBlock:9>, <ore:alloyAdvanced>], [<terrafirmacraft:item.Black Steel Sheet>, <Mekanism:GasTank:100>, <terrafirmacraft:item.Black Steel Sheet>]]);
-	recipes.addShaped(<Mekanism:MachineBlock2:5>, [[<terrafirmacraft:item.Black Steel Saw>, <ore:circuitAdvanced>, <terrafirmacraft:item.Black Steel Saw>], [<ore:alloyAdvanced>, <Mekanism:BasicBlock:9>, <ore:alloyAdvanced>], [<ore:plateBlackSteel>, <ore:circuitAdvanced>, <ore:plateBlackSteel>]]);
+	recipes.addShaped(<Mekanism:MachineBlock2:5>, [[<terrafirmacraft:item.Black Steel Saw>, <ore:circuitAdvanced>, <terrafirmacraft:item.Black Steel Saw>], [<ore:alloyAdvanced>, <Mekanism:BasicBlock:8>, <ore:alloyAdvanced>], [<ore:plateBlackSteel>, <ore:circuitAdvanced>, <ore:plateBlackSteel>]]);
 	recipes.addShaped(<Mekanism:MachineBlock2:6>, [[<ore:circuitAdvanced>, <Mekanism:GasTank:100>, <ore:circuitAdvanced>], [<ore:alloyAdvanced>, <Mekanism:BasicBlock:9>, <ore:alloyAdvanced>], [<ore:plateBlackSteel>, <Mekanism:GasTank:100>, <ore:plateBlackSteel>]]);
 	recipes.addShaped(<Mekanism:MachineBlock2:2>, [[<ore:alloyAdvanced>, <ore:circuitAdvanced>, <ore:alloyAdvanced>], [<Mekanism:GasTank:100>, <Mekanism:BasicBlock:9>, <Mekanism:GasTank:100>], [<ore:alloyAdvanced>, <terrafirmacraft:item.Black Steel Double Sheet>, <ore:alloyAdvanced>]]);
 	recipes.addShaped(<Mekanism:MachineBlock2:1>, [[<ore:alloyAdvanced>, <ore:circuitAdvanced>, <ore:alloyAdvanced>], [<Mekanism:MachineBlock:13>, <Mekanism:BasicBlock:9>, <Mekanism:GasTank:100>], [<ore:alloyAdvanced>, <terrafirmacraft:item.Black Steel Double Sheet>, <ore:alloyAdvanced>]]);
@@ -282,6 +282,8 @@ import minetweaker.data.IData;
 	mods.mekanism.Enrichment.removeRecipe(<Mekanism:OtherDust>);
 	mods.mekanism.Enrichment.addRecipe(<Mekanism:OtherDust>, <Mekanism:CompressedDiamond>);
 	mods.mekanism.Enrichment.addRecipe(<terrafirmacraft:item.Diamond:2>, <Mekanism:CompressedDiamond>);
+	mods.mekanism.Enrichment.addRecipe(<terrafirmacraft:item.Ore:27>, <minecraft:redstone> * 12);
+	mods.mekanism.Enrichment.addRecipe(<terrafirmacraft:item.Ore:28>, <minecraft:redstone> * 12);
 
 	//mods.mekanism.Enrichment.addRecipe(<terrafirmacraft:item.Ore:25>, <Mekanism:Dust:2> * 2);
 	//mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem0>, <Mekanism:Dust:3> * 2);
@@ -328,6 +330,7 @@ import minetweaker.data.IData;
 	mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem2:8>, <TabulaRasa:RasaItem1:15>);
 
 //Chemical Injection
+	mods.mekanism.chemical.Injection.removeRecipe(<minecraft:clay>);
 	//mods.mekanism.chemical.Injection.addRecipe(<terrafirmacraft:item.Ore:25>, <gas:hydrogenChloride>, <Mekanism:Shard:2> * 4);
 	//mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0>, <gas:hydrogenChloride>, <Mekanism:Shard:3> * 4);
 	//mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:9>, <gas:hydrogenChloride>, <Mekanism:Shard:3> * 4);
@@ -406,6 +409,28 @@ import minetweaker.data.IData;
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Weak Steel Ingot>, <TabulaRasa:RasaItem1:10>);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Weak Blue Steel Ingot>, <TabulaRasa:RasaItem1:11>);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Weak Red Steel Ingot>, <TabulaRasa:RasaItem1:12>);
+//# Dyes
+	//# Hematite
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:3>, <terrafirmacraft:item.Powder:5>);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:52>, <terrafirmacraft:item.Powder:5> * 2);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:3>, <terrafirmacraft:item.Powder:5> * 4);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:38>, <terrafirmacraft:item.Powder:5> * 6);
+	//# Limonite
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:11>, <terrafirmacraft:item.Powder:7>);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:60>, <terrafirmacraft:item.Powder:7> * 2);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:11>, <terrafirmacraft:item.Powder:7> * 4);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:46>, <terrafirmacraft:item.Powder:7> * 6);
+	//# Malacite
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:9>, <terrafirmacraft:item.Powder:8>);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:58>, <terrafirmacraft:item.Powder:8> * 2);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:9>, <terrafirmacraft:item.Powder:8> * 4);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:44>, <terrafirmacraft:item.Powder:8> * 6);
+	//# Lapis
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Powder:6> * 4);
+	//# Bones
+	mods.mekanism.Crusher.addRecipe(<minecraft:bone>, <terrafirmacraft:item.Powder:15> * 2);
+
+
 		for item in <ore:bagSeed>.items {
 	mods.mekanism.Crusher.addRecipe(item, <Mekanism:BioFuel> * 4);
 		}
@@ -437,10 +462,15 @@ import minetweaker.data.IData;
 	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.HC Black Steel Ingot>, <terrafirmacraft:item.Black Steel Ingot>);
 	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.HC Blue Steel Ingot>, <terrafirmacraft:item.Blue Steel Ingot>);
 	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.HC Red Steel Ingot>, <terrafirmacraft:item.Red Steel Ingot>);
-	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <terrafirmacraft:item.Black Steel Double Ingot>);
-	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Blue Steel Ingot>, <terrafirmacraft:item.Blue Steel Double Ingot>);
-	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Red Steel Ingot>, <terrafirmacraft:item.Red Steel Double Ingot>);
-
+	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Black Steel Ingot> * 2, <terrafirmacraft:item.Black Steel Double Ingot>);
+	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Blue Steel Ingot> * 2, <terrafirmacraft:item.Blue Steel Double Ingot>);
+	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Red Steel Ingot> * 2, <terrafirmacraft:item.Red Steel Double Ingot>);
+	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Black Steel Double Ingot>, <terrafirmacraft:item.Black Steel Sheet>);
+	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Blue Steel Double Ingot>, <terrafirmacraft:item.Blue Steel Sheet>);
+	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Red Steel Double Ingot>, <terrafirmacraft:item.Red Steel Sheet>);
+	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Black Steel Sheet> * 2, <terrafirmacraft:item.Black Steel Double Sheet>);
+	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Blue Steel Sheet> * 2, <terrafirmacraft:item.Blue Steel Double Sheet>);
+	mods.mekanism.Compressor.addRecipe(<terrafirmacraft:item.Red Steel Sheet> * 2, <terrafirmacraft:item.Red Steel Double Sheet>);
 //Chemical Oxidizer
 //InputStack, OutputGas
 //mods.mekanism.chemical.Oxidizer.addRecipe(<minecraft:coal>, <gas:hydrogen>);
@@ -494,5 +524,8 @@ import minetweaker.data.IData;
 		for i, rawLog in blockSawTFCLogs {
 	var woodPlank = blockSawTFCPlanks[i];
 	mods.mekanism.Sawmill.addRecipe(rawLog, woodPlank * 4, <Forestry:woodPulp>, 1.0);
+		}
+		for item in <ore:plankWood>.items {
+	mods.mekanism.Sawmill.removeRecipe(item);
 		}
 //mods.mekanism.Sawmill.addRecipe(<terrafirmacraft:item.Log:7>, <terrafirmacraft:planks:7>, <Forestry:woodPulp>, 1.0);

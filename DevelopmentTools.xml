@@ -1,0 +1,13 @@
+        <!-- Development Tools (REMOVE FOR BUILD) -->
+        <mod 
+        name="ForgeNBTEdit" version="1.0.0.test" url="packs/TechNodefirmacraft/files/1.7.10Mods/ForgeNBTEdit-universal-1.0.0.test.jar" file="ForgeNBTEdit-universal-1.0.0.test.jar" md5="e42d4d3a3923e157f5a0edb334183663" download="server" type="mods" website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-tools/1260521-nbtedit" authors="DavidG" description="Ingame NBT Editing" 
+        />
+        <mod 
+        name="worldeditcui" version="1.7.10_00" url="packs/TechNodefirmacraft/files/1.7.10Mods/mod_worldeditcui_1.7.10_00_mc1.7.10.litemod" file="mod_worldeditcui_1.7.10_00_mc1.7.10.litemod" md5="efe6e87bcb01a3637fb9c6254f8c659b" download="server" type="mods" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="https://github.com/Bunsan/TechNodeFirmaCraft"
+        />
+        <mod 
+        name="WorldEditWrappwer" version="1.2.0_we5.6.2" url="packs/TechNodefirmacraft/files/1.7.10Mods/mod_worldeditwrapper_1.2.0_we5.6.2_mc1.7.10.litemod" file="mod_worldeditwrapper_1.2.0_we5.6.2_mc1.7.10.litemod" md5="51efa990893016bb7cd82c7666497da8" download="server" type="mods" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="https://github.com/Bunsan/TechNodeFirmaCraft" 
+        />
+        <mod 
+        name="WorldEdit" version="6.0-beta-01;3335-e7a18b26" url="packs/TechNodefirmacraft/files/1.7.10Mods/worldedit-forge-mc1.7.10-6.0-beta-01.jar" file="worldedit-forge-mc1.7.10-6.0-beta-01.jar" md5="927d31f9b1e8d60623fedd685818e059" download="server" type="mods" website="http://wiki.sk89q.com/wiki/WorldEdit" authors="sk89q,wizjany,TomyLobo" description="WorldEdit is an easy-to-use in-game world editor for Minecraft, supporting both single player and multiplayer." 
+        />

@@ -27,6 +27,8 @@
 	recipes.remove(<OpenBlocks:generic>);
 	recipes.remove(<OpenBlocks:beartrap>);
 	recipes.remove(<OpenBlocks:itemDropper>);
+	recipes.remove(<OpenBlocks:scaffolding>);
+	recipes.remove(<OpenBlocks:ropeladder>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -44,6 +46,8 @@
 //#MARKER ADD SHAPED
 
 //# OPEN BLOCKS
+
+	recipes.addShaped(<OpenBlocks:scaffolding> * 2, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, null, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]); 
 	recipes.addShaped(<OpenBlocks:itemDropper>, [[<ore:ingotIron>, <ore:stoneCobble>, <ore:stoneCobble>], [<minecraft:hopper>, <minecraft:redstone>, <ore:stoneCobble>], [<ore:ingotIron>, <ore:stoneCobble>, <ore:stoneCobble>]]);
 	recipes.addShaped(<OpenBlocks:beartrap>, [[<minecraft:iron_bars>, <ore:ingotIron>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <ore:ingotIron>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <ore:ingotIron>, <minecraft:iron_bars>]]);
 
@@ -51,3 +55,7 @@
 	recipes.addShaped(<OpenBlocks:generic>, [[null, <Mekanism:Polyethene:3>, <ore:materialLeather>], [<Mekanism:Polyethene:3>, <ore:materialLeather>, <ore:materialLeather>], [<ore:materialLeather>, <ore:materialLeather>, <ore:materialLeather>]]);
 	recipes.addShaped(<Railcraft:post:6> * 4, [[null, <ore:plateDoubleWroughtIron>], [null, <Railcraft:post:2>]]);
 
+	recipes.addShaped(<OpenBlocks:ropeladder> * 16, [[<minecraft:string>, <ore:stickWood>, <minecraft:string>], [<minecraft:string>, <ore:stickWood>, <minecraft:string>], [<minecraft:string>, <ore:stickWood>, <minecraft:string>]]);
+	recipes.addShaped(<OpenBlocks:ropeladder> * 8, [[<ImmersiveEngineering:material:3>, <ore:stickWood>, <ImmersiveEngineering:material:3>], [<ImmersiveEngineering:material:3>, <ore:stickWood>, <ImmersiveEngineering:material:3>], [<ImmersiveEngineering:material:3>, <ore:stickWood>, <ImmersiveEngineering:material:3>]]);
+
+	recipes.addShaped(<OpenBlocks:flag> * 3, [[<ore:stickWood>, <terrafirmacraft:item.BurlapCloth>, <terrafirmacraft:item.BurlapCloth>], [<ore:stickWood>, <terrafirmacraft:item.BurlapCloth>, null], [<ore:stickWood>, null, null]]);

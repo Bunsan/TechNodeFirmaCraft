@@ -120,6 +120,7 @@ import minetweaker.item.IItemStack;
 	recipes.remove(<plantmegapack:bambooFargesiaRobustaSlab>);
 	recipes.remove(<plantmegapack:bambooAsperSlab>);
 	recipes.remove(<minecraft:stick>);
+	recipes.remove(<plantmegapack:wallBracketStone>);
 
 
 // ================================================================================
@@ -147,6 +148,8 @@ import minetweaker.item.IItemStack;
 	recipes.addShapeless(<terrafirmacraft:item.stick>, [<plantmegapack:groundcoverTwig>]);
 // ================================================================================
 //#MARKER ADD SHAPED
+
+recipes.addShaped(<plantmegapack:wallBracketStone>, [[<ore:stone>,<ore:stone>], [null, <ore:stone>]]);
 recipes.addShaped(<plantmegapack:wallBracketIronCurl>, [[<ore:ingotIron>, <ore:ingotIron>], [null, <ore:ingotIron>]]);
 recipes.addShaped(<plantmegapack:wallBracketGoldCurl>, [[<ore:ingotGold>, <ore:ingotGold>], [null, <ore:ingotGold>]]);
 recipes.addShaped(<plantmegapack:hangingBambooWetForest>, [[<minecraft:iron_bars>], [<plantmegapack:bambooWetForest>], [<terrafirmacraft:item.ClayBowl:1>]]);
