@@ -666,6 +666,18 @@ mods.railcraft.RockCrusher.removeRecipe(<minecraft:mossy_cobblestone>);
 	mods.railcraft.RockCrusher.addRecipe(<TabulaRasa:RasaItem0:13>, true, false, [<Mekanism:Dust:3>, <Mekanism:Dust:3>, <terrafirmacraft:item.Powder:3>], [1.0, 0.50, 0.10]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:25>, true, false, [<Mekanism:Dust:2>, <Mekanism:Dust:2>], [1.0, 0.50]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:30>, true, false, [<ImmersiveEngineering:metal:11>, <ImmersiveEngineering:metal:11>], [1.0, 0.50]);
+//# Ingots
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Bismuth Ingot>,true, false, [<TabulaRasa:RasaItem1:1>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Copper Ingot>,true, false, [<Mekanism:Dust:3>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Gold Ingot>,true, false, [<Mekanism:Dust:1>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>,true, false, [<Mekanism:Dust>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Lead Ingot>,true, false, [<Mekanism:Dust:6>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Nickel Ingot>,true, false, [<TabulaRasa:RasaItem1:2>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Platinum Ingot>,true, false, [<TabulaRasa:RasaItem1:3>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Silver Ingot>,true, false, [<Mekanism:Dust:5>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Tin Ingot>,true, false, [<Mekanism:Dust:4>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Zinc Ingot>,true, false, [<TabulaRasa:RasaItem1>], [1.0]);
+//# Alloy Ingots
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Bronze Ingot>,true, false, [<TabulaRasa:RasaItem1:4>], [1.0]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Bismuth Bronze Ingot> ,true, false, [<TabulaRasa:RasaItem1:5>], [1.0]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Black Bronze Ingot> ,true, false, [<TabulaRasa:RasaItem1:6>], [1.0]);

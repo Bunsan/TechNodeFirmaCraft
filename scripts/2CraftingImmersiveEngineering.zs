@@ -214,6 +214,17 @@ mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:0> * 2, <ore:o
 mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:1> * 2, <ore:oreBismuth>, 6000, <terrafirmacraft:item.Powder:3>, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:2> * 2, <ore:oreNickel>, 6000, <Mekanism:Dust:0>, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:3> * 2, <ore:orePlatinum>, 6000, <Mekanism:Dust:2>, 0.1);
+
+mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:1>, <ore:ingotBismuth>, 3600, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<Mekanism:Dust:3>, <ore:ingotCopper>, 3600, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<Mekanism:Dust:1>, <ore:ingotGold>, 3600, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<Mekanism:Dust>, <ore:ingotIron>, 3600, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<Mekanism:Dust:6>, <ore:ingotLead>, 3600, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:2>, <ore:ingotNickel>, 3600, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:3>, <ore:ingotPlatinum>, 3600, null, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<Mekanism:Dust:5>, <ore:ingotSilver>, 3600, null, 0.1);
+
+
 mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:4>, <terrafirmacraft:item.Bronze Ingot>, 3600, null, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:5>, <terrafirmacraft:item.Bismuth Bronze Ingot>, 3600, null, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:6>, <terrafirmacraft:item.Black Bronze Ingot>, 3600, null, 0.1);
@@ -222,12 +233,12 @@ mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:8>, <terrafirm
 mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:9>, <terrafirmacraft:item.Sterling Silver Ingot>, 3600, null, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem2:5>, <terrafirmacraft:item.Pig Iron Ingot>, 3600, null, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem2:6>, <terrafirmacraft:item.Black Steel Ingot>, 3600, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:10>, <terrafirmacraft:item.Weak Steel Ingot>, 3600, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:11>, <terrafirmacraft:item.Weak Blue Steel Ingot>, 3600, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:12>, <terrafirmacraft:item.Weak Red Steel Ingot>, 3600, null, 0.1);
+//mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:10>, <terrafirmacraft:item.Weak Steel Ingot>, 3600, null, 0.1);
+//mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:11>, <terrafirmacraft:item.Weak Blue Steel Ingot>, 3600, null, 0.1);
+//mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:12>, <terrafirmacraft:item.Weak Red Steel Ingot>, 3600, null, 0.1);
+
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone> * 10, <ore:oreRedstone>, 6000, null, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:coal> * 2, <ore:oreCoal>, 6000, null, 0.1);
-mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Ore:34> * 2, <minecraft:lapis_ore>, 6000, null, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:quartz> * 4, <ore:oreQuartz>, 6000, <minecraft:gunpowder>, 0.25);
 mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder> * 2, <terrafirmacraft:item.LooseRock:6>, 1000, null, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder> * 2, <terrafirmacraft:item.LooseRock:8>, 1000, null, 0.1);
