@@ -53,6 +53,7 @@ recipes.remove(<PneumaticCraft:electrostaticCompressor>);
 recipes.remove(<PneumaticCraft:seismicSensor>);
 recipes.remove(<PneumaticCraft:compressedIronBlock>);
 recipes.remove(<PneumaticCraft:ingotIronCompressed>);
+recipes.remove(<PneumaticCraft:compressedIronGear>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -96,6 +97,7 @@ recipes.addShaped(<PneumaticCraft:machineUpgrade:1>, [[<ore:oreLapis>, <ore:oreJ
 	recipes.addShaped(<PneumaticCraft:advancedLiquidCompressor>, [[<PneumaticCraft:plastic:4>, <PneumaticCraft:plastic:4>, <PneumaticCraft:plastic:4>], [<PneumaticCraft:plastic:4>, <terrafirmacraft:item.Blue Steel Bucket Empty>, <PneumaticCraft:advancedPressureTube>], [<PneumaticCraft:plastic:4>, <PneumaticCraft:liquidCompressor>, <PneumaticCraft:plastic:4>]]);
 	recipes.addShaped(<PneumaticCraft:assemblyDrill>, [[<ore:gemDiamond>, <PneumaticCraft:pneumaticCilinder>, <PneumaticCraft:pneumaticCilinder>], [null, null, <PneumaticCraft:pneumaticCilinder>], [<ore:ingotIronCompressed>, <PneumaticCraft:printedCircuitBoard>, <ore:ingotIronCompressed>]]);
 	recipes.addShaped(<PneumaticCraft:liquidCompressor>, [[<PneumaticCraft:plastic:1>, <PneumaticCraft:plastic:1>, <PneumaticCraft:plastic:1>], [<PneumaticCraft:plastic:1>, <terrafirmacraft:item.Blue Steel Bucket Empty>, <PneumaticCraft:plastic:1>], [<PneumaticCraft:plastic:1>, <PneumaticCraft:airCompressor>, <PneumaticCraft:plastic:1>]]);
+	recipes.addShaped(<PneumaticCraft:compressedIronGear>, [[null, <ore:ingotIronCompressed>, null], [<ore:ingotIronCompressed>, <terrafirmacraft:item.Wrought Iron Ingot>, <ore:ingotIronCompressed>], [null, <ore:ingotIronCompressed>, null]]);
 	for item in <ore:craftingToolHardHammer>.items {
 		recipes.addShaped(<PneumaticCraft:airCompressor>, [[<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>], [<ore:ingotIronCompressed>, item.anyDamage().transformDamage(), <PneumaticCraft:pressureTube>], [<ore:ingotIronCompressed>, <Railcraft:machine.beta:5>, <ore:ingotIronCompressed>]]);
 		recipes.addShaped(<PneumaticCraft:advancedAirCompressor>, [[<ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>], [<ore:ingotIronCompressed>, item.anyDamage().transformDamage(), <PneumaticCraft:advancedPressureTube>], [<ore:ingotIronCompressed>, <PneumaticCraft:airCompressor>, <ore:ingotIronCompressed>]]);
