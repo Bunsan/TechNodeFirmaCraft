@@ -85,6 +85,10 @@ import minetweaker.data.IData;
 // ================================================================================
 //#MARKER ADD SHAPED
 
+//# String
+
+	recipes.addShaped(<minecraft:string>, [[<Forestry:craftingMaterial:2>], [<Forestry:craftingMaterial:2>], [<Forestry:craftingMaterial:2>]]);
+
 //#Reinstated Forestery gears
 		for item in <ore:craftingToolMediumHammer>.items {
 	recipes.addShaped(<Forestry:gearTin> * 2, [[null, item.anyDamage().transformDamage(), null], [<Railcraft:part.gear:3>, <ore:plateDoubleTin>, <Railcraft:part.gear:3>]]);

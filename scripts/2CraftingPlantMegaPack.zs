@@ -51,15 +51,15 @@ import minetweaker.item.IItemStack;
 	recipes.remove(<plantmegapack:hangingFlowersCOR>);
 	recipes.remove(<plantmegapack:hangingFlowersRED>);
 	recipes.remove(<plantmegapack:hangingFlowersMIX>);
-	recipes.remove(<plantmegapack:bambooWetForestPole>);
-	recipes.remove(<plantmegapack:bambooTropicalBluePole>);
-	recipes.remove(<plantmegapack:bambooTimorBlackPole>);
-	recipes.remove(<plantmegapack:bambooShortTassledPole>);
-	recipes.remove(<plantmegapack:bambooMosoPole>);
-	recipes.remove(<plantmegapack:bambooGoldenPole>);
-	recipes.remove(<plantmegapack:bambooGiantTimberPole>);
-	recipes.remove(<plantmegapack:bambooFargesiaRobustaPole>);
-	recipes.remove(<plantmegapack:bambooAsperPole>);
+	recipes.remove(<plantmegapack:bambooWetForestBlock>);
+	recipes.remove(<plantmegapack:bambooTropicalBlueBlock>);
+	recipes.remove(<plantmegapack:bambooTimorBlackBlock>);
+	recipes.remove(<plantmegapack:bambooShortTassledBlock>);
+	recipes.remove(<plantmegapack:bambooMosoBlock>);
+	recipes.remove(<plantmegapack:bambooGoldenBlock>);
+	recipes.remove(<plantmegapack:bambooGiantTimberBlock>);
+	recipes.remove(<plantmegapack:bambooFargesiaRobustaBlock>);
+	recipes.remove(<plantmegapack:bambooAsperBlock>);
 	recipes.remove(<plantmegapack:powderFertilizer>);
 	recipes.remove(<plantmegapack:powderDefoliant>);
 	recipes.remove(<plantmegapack:powderConditioner>);
@@ -134,20 +134,20 @@ import minetweaker.item.IItemStack;
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
-		for item in <ore:itemSaw>.items {
-	recipes.addShapeless(<plantmegapack:bambooWetForestPole>, [<ore:bambooWetForest>, item.anyDamage().transformDamage()]);
-	recipes.addShapeless(<plantmegapack:bambooTropicalBluePole>, [<ore:bambooTropicalBlue>, item.anyDamage().transformDamage()]);
-	recipes.addShapeless(<plantmegapack:bambooTimorBlackPole>, [<ore:bambooTimorBlack>, item.anyDamage().transformDamage()]);
-	recipes.addShapeless(<plantmegapack:bambooShortTassledPole>, [<ore:bambooShortTassled>, item.anyDamage().transformDamage()]);
-	recipes.addShapeless(<plantmegapack:bambooMosoPole>, [<ore:bambooMoso>, item.anyDamage().transformDamage()]);
-	recipes.addShapeless(<plantmegapack:bambooGoldenPole>, [<ore:bambooGolden>, item.anyDamage().transformDamage()]);
-	recipes.addShapeless(<plantmegapack:bambooGiantTimberPole>, [<ore:bambooGiantTimber>, item.anyDamage().transformDamage()]);
-	recipes.addShapeless(<plantmegapack:bambooFargesiaRobustaPole>, [<ore:bambooFargesiaRobusta>, item.anyDamage().transformDamage()]);
-	recipes.addShapeless(<plantmegapack:bambooAsperPole>, [<ore:bambooAsper>, item.anyDamage().transformDamage()]);
-		}
 	recipes.addShapeless(<terrafirmacraft:item.stick>, [<plantmegapack:groundcoverTwig>]);
 // ================================================================================
 //#MARKER ADD SHAPED
+
+//# Bamboo Blocks
+	recipes.addShaped(<plantmegapack:bambooWetForestBlock>, [[<plantmegapack:bambooWetForestPole>, <plantmegapack:bambooWetForestPole>, <plantmegapack:bambooWetForestPole>], [<plantmegapack:bambooWetForestPole>, <ore:itemSaw>.transformDamage(), <plantmegapack:bambooWetForestPole>], [<plantmegapack:bambooWetForestPole>, <plantmegapack:bambooWetForestPole>, <plantmegapack:bambooWetForestPole>]]);
+	recipes.addShaped(<plantmegapack:bambooTropicalBlueBlock>, [[<plantmegapack:bambooTropicalBluePole>, <plantmegapack:bambooTropicalBluePole>, <plantmegapack:bambooTropicalBluePole>], [<plantmegapack:bambooTropicalBluePole>, <ore:itemSaw>.transformDamage(), <plantmegapack:bambooTropicalBluePole>], [<plantmegapack:bambooTropicalBluePole>, <plantmegapack:bambooTropicalBluePole>, <plantmegapack:bambooTropicalBluePole>]]);
+	recipes.addShaped(<plantmegapack:bambooTimorBlackBlock>, [[<plantmegapack:bambooTimorBlackPole>, <plantmegapack:bambooTimorBlackPole>, <plantmegapack:bambooTimorBlackPole>], [<plantmegapack:bambooTimorBlackPole>, <ore:itemSaw>.transformDamage(), <plantmegapack:bambooTimorBlackPole>], [<plantmegapack:bambooTimorBlackPole>, <plantmegapack:bambooTimorBlackPole>, <plantmegapack:bambooTimorBlackPole>]]);
+	recipes.addShaped(<plantmegapack:bambooShortTassledBlock>, [[<plantmegapack:bambooShortTassledPole>, <plantmegapack:bambooShortTassledPole>, <plantmegapack:bambooShortTassledPole>], [<plantmegapack:bambooShortTassledPole>, <ore:itemSaw>.transformDamage(), <plantmegapack:bambooShortTassledPole>], [<plantmegapack:bambooShortTassledPole>, <plantmegapack:bambooShortTassledPole>, <plantmegapack:bambooShortTassledPole>]]);
+	recipes.addShaped(<plantmegapack:bambooMosoBlock>, [[<plantmegapack:bambooMosoPole>, <plantmegapack:bambooMosoPole>, <plantmegapack:bambooMosoPole>], [<plantmegapack:bambooMosoPole>, <ore:itemSaw>.transformDamage(), <plantmegapack:bambooMosoPole>], [<plantmegapack:bambooMosoPole>, <plantmegapack:bambooMosoPole>, <plantmegapack:bambooMosoPole>]]);
+	recipes.addShaped(<plantmegapack:bambooGoldenBlock>, [[<plantmegapack:bambooGoldenPole>, <plantmegapack:bambooGoldenPole>, <plantmegapack:bambooGoldenPole>], [<plantmegapack:bambooGoldenPole>, <ore:itemSaw>.transformDamage(), <plantmegapack:bambooGoldenPole>], [<plantmegapack:bambooGoldenPole>, <plantmegapack:bambooGoldenPole>, <plantmegapack:bambooGoldenPole>]]);
+	recipes.addShaped(<plantmegapack:bambooGiantTimberBlock>, [[<plantmegapack:bambooGiantTimberPole>, <plantmegapack:bambooGiantTimberPole>, <plantmegapack:bambooGiantTimberPole>], [<plantmegapack:bambooGiantTimberPole>, <ore:itemSaw>.transformDamage(), <plantmegapack:bambooGiantTimberPole>], [<plantmegapack:bambooGiantTimberPole>, <plantmegapack:bambooGiantTimberPole>, <plantmegapack:bambooGiantTimberPole>]]);
+	recipes.addShaped(<plantmegapack:bambooFargesiaRobustaBlock>, [[<plantmegapack:bambooFargesiaRobustaPole>, <plantmegapack:bambooFargesiaRobustaPole>, <plantmegapack:bambooFargesiaRobustaPole>], [<plantmegapack:bambooFargesiaRobustaPole>, <ore:itemSaw>.transformDamage(), <plantmegapack:bambooFargesiaRobustaPole>], [<plantmegapack:bambooFargesiaRobustaPole>, <plantmegapack:bambooFargesiaRobustaPole>, <plantmegapack:bambooFargesiaRobustaPole>]]);
+	recipes.addShaped(<plantmegapack:bambooAsperBlock>, [[<plantmegapack:bambooAsperPole>, <plantmegapack:bambooAsperPole>, <plantmegapack:bambooAsperPole>], [<plantmegapack:bambooAsperPole>, <ore:itemSaw>.transformDamage(), <plantmegapack:bambooAsperPole>], [<plantmegapack:bambooAsperPole>, <plantmegapack:bambooAsperPole>, <plantmegapack:bambooAsperPole>]]);
 
 recipes.addShaped(<plantmegapack:wallBracketStone>, [[<ore:stone>,<ore:stone>], [null, <ore:stone>]]);
 recipes.addShaped(<plantmegapack:wallBracketIronCurl>, [[<ore:ingotIron>, <ore:ingotIron>], [null, <ore:ingotIron>]]);

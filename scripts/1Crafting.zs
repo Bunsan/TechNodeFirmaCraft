@@ -116,6 +116,9 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 	recipes.remove(<minecraft:mossy_cobblestone>);
 	recipes.remove(<minecraft:cobblestone_wall>);
 	recipes.remove(<minecraft:stonebrick>);
+	recipes.remove(<minecraft:dispenser>);
+	recipes.remove(<minecraft:string>);
+	recipes.remove(<minecraft:wooden_slab:*>);
 
 //# Metal Block Recipes
 	recipes.remove(<Railcraft:cube:9>);
@@ -518,6 +521,10 @@ recipes.addShaped(<HardcoreQuesting:item_barrel>, [[<ore:plankWood>, <ore:blockG
 	recipes.addShaped(stair * 6, [[planks, null, <ore:itemSaw>.transformDamage(12)], [planks, planks, null], [planks, planks, planks]]);
 	recipes.addShaped(slab * 6, [[null, <ore:itemSaw>.transformDamage(3), null], [planks, planks, planks]]);
 		}
+
+//# Dispenser
+
+	recipes.addShaped(<minecraft:dispenser>, [[<ore:stoneCobble>, <ore:stoneCobble>, <ore:stoneCobble>], [<ore:stoneCobble>, <terrafirmacraft:item.bow>, <ore:stoneCobble>], [<ore:stoneCobble>, <minecraft:redstone>, <ore:stoneCobble>]]);
 
 //# Quartz Blocks
 
