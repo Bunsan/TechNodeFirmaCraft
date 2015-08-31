@@ -119,6 +119,7 @@ recipes.remove(<ForgeMicroblock:sawStone>);
 	recipes.remove(<minecraft:dispenser>);
 	recipes.remove(<minecraft:string>);
 	recipes.remove(<minecraft:wooden_slab:*>);
+	recipes.remove(<minecraft:minecart>);
 
 //# Metal Block Recipes
 	recipes.remove(<Railcraft:cube:9>);
@@ -499,6 +500,9 @@ recipes.addShaped(<HardcoreQuesting:item_barrel>, [[<ore:plankWood>, <ore:blockG
 
 //# VANILLA+ TO TFC
 
+//# Minecart
+
+	recipes.addShaped(<minecraft:minecart> * 2, [[<ore:plateIron>, null, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 //# Chest Cart
 
 	recipes.addShaped(<minecraft:chest_minecart>, [[<ore:craftingChest>], [<minecraft:minecart>]]);
