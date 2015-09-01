@@ -499,15 +499,13 @@ recipes.addShaped(<Railcraft:brick.nether:1>, [[<minecraft:netherbrick>, <terraf
 		for item in <ore:ingotBismuth>.items {
 	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Bismuth Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
 		}
-		for item in <ore:ingotBronze>.items {
-	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Bronze Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
-		}
-		for item in <ore:ingotBismuthBronze>.items {
-	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Bismuth Bronze Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
-		}
-		for item in <ore:ingotBlackBronze>.items {
-	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Black Bronze Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
-		}
+
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Bronze Double Ingot>, [[<terrafirmacraft:item.Bronze Ingot>, <terrafirmacraft:item.Bronze Ingot>], [<terrafirmacraft:item.Powder>, null]]);
+
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Bismuth Bronze Double Ingot>, [[<terrafirmacraft:item.Black Bronze Ingot>, <terrafirmacraft:item.Black Bronze Ingot>], [<terrafirmacraft:item.Powder>, null]]);
+	
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Black Bronze Double Ingot>, [[<terrafirmacraft:item.Bismuth Bronze Ingot>, <terrafirmacraft:item.Bismuth Bronze Ingot>], [<terrafirmacraft:item.Powder>, null]]);
+
 		for item in <ore:ingotSteel>.items {
 	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Steel Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
 		}
