@@ -2,9 +2,7 @@
 
 This message will only automatically appear on first run.
 
-[prefix{l}]Version 2.2.3 It's the Little Things[prefix{}]
-
-Version 2.2.3 It's the Little Things
+[prefix{l}]Version 2.2.1 It's the Little Things[prefix{}]
 
 No new mods or features this week. This is just a little update to address some issues that were blocking progression.
 
@@ -16,6 +14,7 @@ No new mods or features this week. This is just a little update to address some 
 - IE drill heads can be repaired in crafting grid with 3 iron or 3 steel and the drill head.
 - Mek Crusher grinding bones produces usable product.
 - Mek Dynamic Tank Blocks Balanced to Railcraft Tank cost.
+- Mek SolarEvaporation now uses TFC biome temps.
 - Removed hemp fibre for string recipes.
 - Balanced Ropes+ to be able to use hemp for rope item.
 - Added Fishing rod recipe using hemp fibre.
