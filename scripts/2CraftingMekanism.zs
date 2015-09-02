@@ -121,11 +121,11 @@ import minetweaker.data.IData;
 
 		for item in <ore:craftingToolHardHammer>.items {
 //#Mek Dynamic Valve
-	recipes.addShaped(<Mekanism:BasicBlock:11>, [[null, <ore:plateSteel>, null], [item.anyDamage().transformDamage(), <ore:circuitBasic>, null], [null, <ore:plateSteel>, null]]);
+	recipes.addShaped(<Mekanism:BasicBlock:11> * 2, [[null, <ore:plateSteel>, null], [item.anyDamage().transformDamage(), <ore:circuitBasic>, null], [null, <ore:plateSteel>, null]]);
 //#Mek Dynamic Glass
-	recipes.addShaped(<Mekanism:BasicBlock:10>, [[null, <ore:plateSteel>, null], [item.anyDamage().transformDamage(), <ore:blockGlass>, null], [null, <ore:plateSteel>, null]]);
+	recipes.addShaped(<Mekanism:BasicBlock:10> * 2, [[null, <Mekanism:BasicBlock:9>, null], [item.anyDamage().transformDamage(), <ore:blockGlass>, null], [null, <Mekanism:BasicBlock:9>, null]]);
 //#Mek Dynamic Tank
-	recipes.addShaped(<Mekanism:BasicBlock:9>, [[null, <ore:plateSteel>, null], [item.anyDamage().transformDamage(), <ore:stoneCobble>, null], [null, <ore:plateSteel>, null]]);
+	recipes.addShaped(<Mekanism:BasicBlock:9> * 2, [[null, <ore:plateSteel>, null], [item.anyDamage().transformDamage(), <ore:stoneCobble>, null], [null, <ore:plateSteel>, null]]);
 //#Mek Steel Casing
 	recipes.addShaped(<Mekanism:BasicBlock:8>, [[null, <ore:plateSteel>, null], [item.anyDamage().transformDamage(), <ore:ingotOsmium>, null], [null, <ore:plateSteel>, null]]);
 		}
@@ -201,7 +201,7 @@ import minetweaker.data.IData;
 	recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Ultimate"}), [[<ore:alloyElite>, <ore:battery>, <ore:alloyElite>], [<terrafirmacraft:item.Blue Steel Ingot>, <Mekanism:EnergyCube:*>.onlyWithTag({tier: "Elite"}), <terrafirmacraft:item.Red Steel Ingot>], [<ore:alloyElite>, <ore:battery>, <ore:alloyElite>]]);
 
 //# RE-ADD Generators
-	recipes.addShaped(<MekanismGenerators:Generator:6>, [[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, <ore:circuitElite>, <ore:ingotSteel>], [<ore:plateBlackSteel>, <Mekanism:EnergyCube:*>.onlyWithTag({tier: "Basic"}), <ore:plateBlackSteel>]]);
+	recipes.addShaped(<MekanismGenerators:Generator:6>, [[null, <ore:ingotSteel>, null], [<terrafirmacraft:item.Steel Ingot>, <ore:circuitElite>, <terrafirmacraft:item.Steel Ingot>], [<ore:plateBlackSteel>, <Mekanism:EnergyCube:*>.onlyWithTag({tier: "Basic"}), <ore:plateBlackSteel>]]);
 	recipes.addShaped(<MekanismGenerators:Generator:5>, [[<MekanismGenerators:Generator:1>, <ore:alloyUltimate>, <MekanismGenerators:Generator:1>], [<MekanismGenerators:Generator:1>, <ore:ingotBlueSteel>, <MekanismGenerators:Generator:1>], [<ore:plateBlackSteel>, <Mekanism:EnergyCube:*>.onlyWithTag({tier: "Basic"}), <ore:plateBlackSteel>]]);
 	recipes.addShaped(<MekanismGenerators:Generator:1>, [[<MekanismGenerators:SolarPanel>, <MekanismGenerators:SolarPanel>, <MekanismGenerators:SolarPanel>], [<ore:alloyElite>, <ore:ingotBlackSteel>, <ore:alloyElite>], [<ore:plateBlackSteel>, <Mekanism:EnergyTablet:100>, <ore:plateBlackSteel>]]);
 	recipes.addShaped(<MekanismGenerators:Generator>, [[<ore:plateSteel>, <ore:ingotSteel>, <ore:plateSteel>], [<ore:alloyAdvanced>, <ore:ingotOsmium>, <ore:alloyAdvanced>], [<ore:plateBlackSteel>, <terrafirmacraft:Crucible>, <ore:plateBlackSteel>]]);
@@ -428,7 +428,7 @@ import minetweaker.data.IData;
 	//# Lapis
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Powder:6> * 4);
 	//# Bones
-	mods.mekanism.Crusher.addRecipe(<minecraft:bone>, <terrafirmacraft:item.dyePowder:15> * 2);
+	mods.mekanism.Crusher.addRecipe(<minecraft:bone>, <terrafirmacraft:item.Powder:15> * 2);
 
 
 		for item in <ore:bagSeed>.items {
