@@ -1,0 +1,13 @@
+Osmium, which was TFC microcline. It spawns in Chalk, Chert, Claystone, Conglomerate, Dolomite, Limestone, Rock Salt, Shale rock at a rate of 1 in 100 chunks.
+
+Apatite, which was TFC olivine. It spawns in Chalk, Conglomerate, Limestone and Shale at a rate of 1 in 200 chunks.
+
+Petrified Wood, which is the TFC name. It spawns in Chert, Claystone, Conglomerate, Shale and Limestone rock at a rate of 1 in 120 chunks. Which is used for Netherrack.
+
+Strontium, which was TFC sulfur ore (not the dust that spawns by lava). It spawns in Chalk, Chert, Claystone, Conglomerate, Dolomite, Limestone, Rock Salt, Shale rock at a rate of 1 in 150 chunks. It is used to produce blaze powder.
+
+Scapolite, which was TFC selenite. It spawns in Gabbro, Diorite, Gneiss and Limestone at a rate of 1 in 120 chunks. It is used to produce glowstone dust.
+
+Scheelite (tungsten), which was TFC satinspar. It spawns in Diorite, Gabbro and Granite rock at a rate of 1 in 150 chunks and on surface at higher y level in granite at rate of 1 in 120 chunks. It is currently a useless ore. It may be used in future for things.
+
+Bauxite (aluminum), which was TFC serpentine. It spawns in Gneiss, Granite, Basalt and Shale at a rate of 1 in 120 chunks. It will be used for Immersive Engineering.

@@ -1,7 +1,119 @@
-Ver 2.0:
-Update 2.0 We're Getting the Band Back Together
+[prefix{l}]Version 2.2.3 It's the Little Things[prefix{}]
+
+No new mods or features this week. This is just a little update to address some issues that were blocking progression.
+
+- Craft steel slabs for Arc furnace.
+- Graphite Electrode loop unwound.
+- RC Blast Furnace Balance for coloured steel.
+- Bamboo blocks saw durability impact reduced.
+- Dispensers were uncraftable. Fixed.
+- IE drill heads can be repaired in crafting grid with 3 iron or 3 steel and the drill head.
+- Mek Crusher grinding bones produces usable product.
+- Mek Dynamic Tank Blocks Balanced to Railcraft Tank cost.
+- Removed hemp fibre for string recipes.
+- Balanced Ropes+ to be able to use hemp for rope item.
+- Added Fishing rod recipe using hemp fibre.
+- Fixed Rolling Machine only outputting Bronze double ingot for all Bronze types.
+- Fixed Bee Recipes for Nether and Modest Lines.
+
+
+[prefix{l}]Version 2.2: Explosions, Tornados and Bees. Oh My.[prefix{}]
+
+  First we want to say a big thank you to all of you for supporting this pack. It has been quite the week since becoming a public pack. This update brings some new content, some bug fixes and a few tweaks.
+
+  We’ve added two optional mods. Weather2 provides localized weather and storms for your enjoyment. There are tornados, but we’ve set them so they can kill you, but not ruin your base or fling your livestock. Prattle is a chat mod that provides local chat and multiple chat channels on servers.   We have removed Zombie Awareness from the pack. This was due to it interfering with the AI of the mobs in a negative way and also having some strange interactions with Mek. We did not feel it added enough to the pack to justify keeping it.
+
+  A key fix in this update is we are now running a custom version of BetterStorage. This is due to it having a bug where with InvTweaks it can accidentally trigger the April Fools joke and explode. Instead of being client-side only it actually explodes. The mod author has quit maintaining this mod and so we have removed the offending code ourselves (MIT Licence) and are now running a custom version. The changes can be viewed in the forked version at https://github.com/Bunsan/BetterStorage
+
+  Forestry Bees got some love…Again. Due to my mistake the fix intended for version 2.1 was reverted. Now not only is that implemented we’ve made it so the Bees don’t care about climate. This is important because of how TFC handles biomes. There is an issue with bees in NEI so trying to search recipes or usages for them will crash your client. I will assemble a cheatsheet for bees as soon as I can and post it on the subreddit. It will be included in the IGW in future.
+
+  Finally we’ve depreciated the HQM crutches for Bees and Trees. The bees are crafted in simple craft mimicking the HQM quest. Trees have a more elaborate mechanism. Search NEI for mulch and follow the chain. In a future update we will include some optional quest lines. We welcome community contributions of any style of quest line.
+
+Updated Mods.
+- Pneumaticcraft
+- Forestry
+- ImmibisCore
+- AromaCore
+- TechNodefirmacraftMod
+- TechNodefirmacraftResources
+
+Bug Fixes
+- IE and RC Coke Ovens accept TFC coal.
+- IE Coke Oven, Blast Furnace and Hempcrete are craftable as intended.
+- IE Arc Furnace outputs TFC based ore piles.
+- Production of IE Excavator has been increased.
+- Burlap does not substitute for wool in many recipes.
+- Graves no longer
+- Graves no longer spawn Skeletons
+- Fixed a number of exploits
+
+Tweaks.
+- Open blocks scaffolding has been balanced.
+- Added Recipes for Dyes in RC, IE and Mek.
+
+
+[prefix{l}]Update 2.1: Join our IPO! We're going public… Gifts for All.[prefix{}]
+
+That’s right we are going public. 
+
+  Thanks to all of your great interest and enthusiasm for the pack ATLauncher has accepted our request to move to a Public Pack. So what does this mean? No pesky PackCodes, this is a full release (goodbye Beta) and you get gifts. That’s right gifts for everyone. To celebrate our new status we've pushed up some plans and not only are you getting bug fixes, rebalancing and updates, we are giving you all some new mods. We are happy to include Steve’s Workshop and OpenComputers in TNCF.
+
+  Before we get into the meat of the changelog I’d like to make a small request from all of you. We’d love some great screenshots from your world that we can add to our Start Menu slides. So send us your best and we’ll choose some to include. Please either post images on the subreddit /r/technode or tweet them to @TechNodeMC. Lastly we are moving away from HQM as a means of obtaining some forestry items. We will be working on some optional quest lines, but we would be willing to include other great player made quest lines either in pack or linking to them from our TFC forums topic or on the Subreddit.
+
+  Now you may get or had a bit of a shock with the warning when starting up your world. All those missing forestry woods. Thankfully forestry bees were broken so nobody will have any in their worlds. Forestry has restructured all their wood and wood product code, which resulted in all those items being removed. They aren’t gone from mod, just the ID has changed. So don’t worry about that warning it will be fine. 
+
+   The good news is that forestry bees are working and seeing the TFC flowers (replace vanilla flowers), TFC fungi and PMP fungi (replace vanilla fungus), TFC cactus and PMP cactus (it is obvious), TFC vines and ferns and a few PMP jungly things (for vanilla vines and ferns) and lastly TFC long grass (for vanilla wheat, look the TFC wheat was too hard to add in).
+Forestry was always meant to be on Hard mode, however the last forestry update reset the config and set it to Easy, this has been fixed. I’ve also fixed the fermenter recipes so that TFC saplings, fruit trees and seeds give biomass. The bad news is that the forestry update broke the NEI-Integration forestry module. So for the time being you won’t be able to see a lot of information on forestry machine recipes. We will try and get this fixed as soon as possible. 
+
+  On the Immersive Engineering front. There was a couple of updates. The big one was that the excavator will now output TFCN based ores. So piles for all and a couple of bonuses. The IE manual does update and has information. I’ve also added some recipes in for producing plant oil and ethanol. Base choices are hemp seeds for oil and reeds for ethanol. If you get into Forestry trees you will get more things you can get plant oil and ethanol from. You also have the ability to produce diesel from Forestry Ethanol and SeedOil. Details in NEI. We’ve also fixed a few things with the IE blast furnace. Depending what you input (ore, dirty dust, dust or ingot) you’ll get various products out. Most importantly it means the IE blast furnace can make Pig Iron for all your Black Steel needs.
+
+  Note that as of 2.2 PMP will no longer be optional. The reality is that 99% of you are using it and having it in allows us to do some extra integration for Forestry bees and hopefully other mods. It is also greatly increases the steps we have to take to build every update, which leads to more errors. Besides it really does make the world look so much better.
+
+  Other odds and ends are. Recipe for chest minecarts. Breaking drops the chest mincart item and any item in the chest. Enderchest are no longer craftable, mistakenly assumed TFC disabled but there is no blaze powder in TFC. Vanilla flowerpots recipe changed slightly. I’m sure there are other little tweaks, but that is the key stuff.
+
+Once again Thank You so much for all your support.
+
+  
+New: 
+- OpenComputers
+- Steve's Workshop
+
+Updated:
+- Immersive Engineering
+- Bibliocraft
+- Merchants
+- Pneumaticcraft
+- TFC NEI Plugin
+
+
+[prefix{l}]Ver 2.0.2: Hotfix for TNFCMod.[prefix{}]
+- An issue was occuring with our mod causing servers to simulate time when no players were online incorrectly. As this can cause serious issues with servers, we're issuing this hotfix immediately.
+
+This also corrects some incorrect ore dictionary values registered.
+
+[prefix{l}]Ver 2.0.1:[prefix{}]
+Bug stomping is fun!
+
+Been a great weekend with the 2.0 release. Lots of folks downloading and playing with the updated pack. A few small issues did arise. One caused a client crash so a hotfix is in order. No big changes, just some little issues brought to our attention by our awesome players.
+
+Notes:
+
+- Fixed issue with Oredictionary registrations of TFC ores.
+- Fixed client crash with Immersive Engineering Manual.
+- Added recipes for electrum dust crafting and smelting.
+- Cleanup of some ore to dust recipes.
+- Moved liteloader from library load to mod load. If no .litemods are selected the library will not be installed.
 
 Mods Added:
+Helpfix - Added to cleanup the /help function.
+
+Mods Updated:
+TechNodefirmacraft mod - changes to Oredictionary registrations.
+
+[prefix{l}]Update 2.0 We're Getting the Band Back Together[prefix{}]
+
+Mods Added:
+TechNodefirmacraftMod
 ImmersiveEngineering
 BetterFoliage
 IGW-Mod
@@ -10,11 +122,12 @@ ModProperties
 InPureCore
 FMPIntegration
 ResourceLoader
+zTNFCResources
 
 
 Mods Changed:
+TerraFirmaCraft 79.22
 Merchants
-TerraFirmaCraft
 AOBD
 CodeChickenCore
 NEIIntegration
@@ -41,14 +154,13 @@ Important Configuration Changes:
 - Many changes to MineTweaker scripts to support ImmersiveEngineering. Change some recipes for balance.
 
 
-Ver 1.6a:
-Update 1.6a Silly Dependencies and Undocumented changes.
+[prefix{l}]Update 1.6a Silly Dependencies and Undocumented changes.[prefix{}]
 
 So first something changed with bee data that meant some scripts didn't work. Those are fixed, however do not press R for recipes when hovering over a bee, this will crash your game.
 
 Secondly Mek8 has a CofHCore dependency now. So I've put that in the pack so that Mek8 can interact with other mods power systems.
 
-Ver 1.6:
+[prefix{l}]Ver 1.6:[prefix{}]
 Version 1.6 Oh the Changes, Updates and Rebalancing
 
 This update brings a lot of changes. First my actual playthrough of the pack with a friend has helped bring some more balance to the pack. Many recipes are now cheaper and more in line with others for resources and effort. In particular for Railcraft, Jabba and Ropes+ mod. Zombie Awareness has been greatly toned down so you won't have the dance parties every night at your door.
@@ -72,9 +184,7 @@ As always feedback is very welcome.
 Cheers,
 Bunsan
 
-
-Ver 1.5:
-The I haven't done this for a bit I hope I don't screw this update up Update.
+[prefix{l}] Update 1.5: The I haven't done this for a bit I hope I don't screw this update up Update.[prefix{}]
 
 Updating to TFC 0.79.20.710
 Forge Updated to 10.13.4.1448
