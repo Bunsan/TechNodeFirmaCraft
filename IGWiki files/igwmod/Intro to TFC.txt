@@ -1,0 +1,9 @@
+All Material in the TerraFirmaCraft In-game wiki provided by kind consent of Kitty at Terrafirmacraft.com
+
+The goal of TFC is to make things more believable, and to give the player a sense of accomplishment. Mastering skills, and searching far and wide to gather materials before you can build amazing castles, homes, fortresses, towns, cities, etc. The overhauled terrain generation also creates a beautiful, varied background as a canvas to start your builds.
+
+Starting with the world, TFC has thrown out Vanilla generation and started on a fresh slate. Sea-level has been raised to twice the height to accommodate 3 separate, varying layers of stone underneath, each spawning their own ores and minerals depending on which of the many new stone types it is comprised of. On the surface, there are many different types of trees, large boulders, and smaller surface rocks scattered about. Grass, saplings and flowers slowly grow back depending on the temperature, while foliage changes colors to match the season. TFC also adds new crops and fruit trees as alternative food sources.
+
+Progressing through the game consists of 3 main ages: Stone, Casting, and Iron. The stone age consists of primitive tools that take fairly long periods of time to complete tasks such as chopping down trees, and doesn't always result in the maximum output. Next is the casting age, reached through the newly added pottery system, consisting of copper and bronze tools and the addition of pickaxes, prospector’s picks, chisels and saws. The iron age consists of basic wrought iron tools, all the way up to brightly colored red and blue steel alloys which require mastering the smithing system and rare resources to accomplish. 
+
+For further information, always checkout the complete TerraFirmaCraft Wiki: wiki.terrafirmacraft.com

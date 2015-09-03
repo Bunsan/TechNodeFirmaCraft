@@ -499,15 +499,13 @@ recipes.addShaped(<Railcraft:brick.nether:1>, [[<minecraft:netherbrick>, <terraf
 		for item in <ore:ingotBismuth>.items {
 	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Bismuth Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
 		}
-		for item in <ore:ingotBronze>.items {
-	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Bronze Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
-		}
-		for item in <ore:ingotBismuthBronze>.items {
-	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Bismuth Bronze Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
-		}
-		for item in <ore:ingotBlackBronze>.items {
-	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Black Bronze Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
-		}
+
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Bronze Double Ingot>, [[<terrafirmacraft:item.Bronze Ingot>, <terrafirmacraft:item.Bronze Ingot>], [<terrafirmacraft:item.Powder>, null]]);
+
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Bismuth Bronze Double Ingot>, [[<terrafirmacraft:item.Black Bronze Ingot>, <terrafirmacraft:item.Black Bronze Ingot>], [<terrafirmacraft:item.Powder>, null]]);
+	
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Black Bronze Double Ingot>, [[<terrafirmacraft:item.Bismuth Bronze Ingot>, <terrafirmacraft:item.Bismuth Bronze Ingot>], [<terrafirmacraft:item.Powder>, null]]);
+
 		for item in <ore:ingotSteel>.items {
 	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Steel Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
 		}
@@ -700,9 +698,9 @@ mods.railcraft.RockCrusher.removeRecipe(<minecraft:mossy_cobblestone>);
 		}
 	mods.railcraft.BlastFurnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, false, false, 1278, <terrafirmacraft:item.Pig Iron Ingot>);
 	mods.railcraft.BlastFurnace.addRecipe(<Mekanism:DirtyDust>, true, false, 638, <terrafirmacraft:item.Wrought Iron Ingot>);
-	mods.railcraft.BlastFurnace.addRecipe(<TabulaRasa:RasaItem1:13>, true, false, 638, <terrafirmacraft:item.Weak Steel Ingot>);
-	mods.railcraft.BlastFurnace.addRecipe(<TabulaRasa:RasaItem1:14>, true, false, 638, <terrafirmacraft:item.Weak Blue Steel Ingot>);
-	mods.railcraft.BlastFurnace.addRecipe(<TabulaRasa:RasaItem1:15>, true, false, 638, <terrafirmacraft:item.Weak Red Steel Ingot>);
+	mods.railcraft.BlastFurnace.addRecipe(<TabulaRasa:RasaItem1:10>, true, false, 638, <terrafirmacraft:item.Weak Steel Ingot>);
+	mods.railcraft.BlastFurnace.addRecipe(<TabulaRasa:RasaItem1:11>, true, false, 638, <terrafirmacraft:item.Weak Blue Steel Ingot>);
+	mods.railcraft.BlastFurnace.addRecipe(<TabulaRasa:RasaItem1:12>, true, false, 638, <terrafirmacraft:item.Weak Red Steel Ingot>);
 
 
 

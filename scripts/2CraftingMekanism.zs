@@ -121,11 +121,11 @@ import minetweaker.data.IData;
 
 		for item in <ore:craftingToolHardHammer>.items {
 //#Mek Dynamic Valve
-	recipes.addShaped(<Mekanism:BasicBlock:11>, [[null, <ore:plateSteel>, null], [item.anyDamage().transformDamage(), <ore:circuitBasic>, null], [null, <ore:plateSteel>, null]]);
+	recipes.addShaped(<Mekanism:BasicBlock:11> * 2, [[null, <ore:plateSteel>, null], [item.anyDamage().transformDamage(), <ore:circuitBasic>, null], [null, <ore:plateSteel>, null]]);
 //#Mek Dynamic Glass
-	recipes.addShaped(<Mekanism:BasicBlock:10>, [[null, <ore:plateSteel>, null], [item.anyDamage().transformDamage(), <ore:blockGlass>, null], [null, <ore:plateSteel>, null]]);
+	recipes.addShaped(<Mekanism:BasicBlock:10> * 2, [[null, <Mekanism:BasicBlock:9>, null], [item.anyDamage().transformDamage(), <ore:blockGlass>, null], [null, <Mekanism:BasicBlock:9>, null]]);
 //#Mek Dynamic Tank
-	recipes.addShaped(<Mekanism:BasicBlock:9>, [[null, <ore:plateSteel>, null], [item.anyDamage().transformDamage(), <ore:stoneCobble>, null], [null, <ore:plateSteel>, null]]);
+	recipes.addShaped(<Mekanism:BasicBlock:9> * 2, [[null, <ore:plateSteel>, null], [item.anyDamage().transformDamage(), <ore:stoneCobble>, null], [null, <ore:plateSteel>, null]]);
 //#Mek Steel Casing
 	recipes.addShaped(<Mekanism:BasicBlock:8>, [[null, <ore:plateSteel>, null], [item.anyDamage().transformDamage(), <ore:ingotOsmium>, null], [null, <ore:plateSteel>, null]]);
 		}

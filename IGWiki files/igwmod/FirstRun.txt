@@ -1,0 +1,25 @@
+[prefix{l}]Welcome to TechNodefirmacraft. [prefix{}]
+
+This message will only automatically appear on first run.
+
+[prefix{l}]Version 2.2.1 It's the Little Things[prefix{}]
+
+No new mods or features this week. This is just a little update to address some issues that were blocking progression.
+
+- Craft steel slabs for Arc furnace.
+- Graphite Electrode loop unwound.
+- RC Blast Furnace Balance for coloured steel.
+- Bamboo blocks saw durability impact reduced.
+- Dispensers were uncraftable. Fixed.
+- IE drill heads can be repaired in crafting grid with 3 iron or 3 steel and the drill head.
+- Mek Crusher grinding bones produces usable product.
+- Mek Dynamic Tank Blocks Balanced to Railcraft Tank cost.
+- Mek SolarEvaporation now uses TFC biome temps.
+- Removed hemp fibre for string recipes.
+- Balanced Ropes+ to be able to use hemp for rope item.
+- Added Fishing rod recipe using hemp fibre.
+- Fixed Rolling Machine only outputting Bronze double ingot for all Bronze types.
+- Fixed Bee Recipes for Nether and Modest Lines.
+
+
+The InGameWiki (default: I) has two new pages on the Special Ores unique to TechNodeFirmaCraft and the Bee Recipes for unobtainable bees.
