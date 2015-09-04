@@ -7,8 +7,8 @@ This pack is published on ATLauncher as semi public pack, PackCode: TechNode. Th
 
 Know Issues.
 - Piping into chests ignores item restriction based on size.
-- No vanilla trees for tree breeding (available from HQM)
-- No Nether or End so no Nether or End worldgen bee hives, the bees can be crafted, check NEI. Some are available via HQM as well.
+- No vanilla trees for tree breeding. A method for creating vanilla tree saplings is in game.
+- No Nether or End so no Nether or End worldgen bee hives, the bees can be crafted, check the InGameWiki. Some are available via HQM as well.
 - All TFC biomes are Normal/Normal or Normal/Cold (high altitudes). You can craft bees to give them temperature and humidity tolerance to compensate.
 - Other dimensions are a no go (Nether is map destroying and the End does not exist)
 
@@ -17,7 +17,4 @@ Please log any issues, technical or incompatibilities that you find.
 
 How to build your instance.
 
-The pack is now available on ATLauncher. PackCode TechNode.
-
-
-We've included the Merchants mod (only useful for SMP), the Streams mod (beautiful river systems, but intensive for generating new chunks) and many more other optional mods. Feel free to suggest more for either client and/or server.
+The pack is now available on ATLauncher.
