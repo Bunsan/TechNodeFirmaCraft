@@ -30,3 +30,5 @@ terrafirmacraft:Anvil:7
 terrafirmacraft:Anvil2:0
 terrafirmacraft:Anvil2:1
 terrafirmacraft:Anvil2:2
+terrafirmacraft:Ice:0
+terrafirmacraft:Ice:1

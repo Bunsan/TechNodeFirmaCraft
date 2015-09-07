@@ -44,6 +44,9 @@
 	recipes.remove(<ImmersiveEngineering:storageSlab:*>);
 	recipes.remove(<ImmersiveEngineering:stoneDecoration:4>);
 	recipes.remove(<ImmersiveEngineering:stoneDecoration:5>);
+	recipes.remove(<ImmersiveEngineering:woodenDevice:4>);
+	recipes.remove(<ImmersiveEngineering:woodenDecoration:2>);
+	recipes.remove(<ImmersiveEngineering:woodenStairs>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -67,6 +70,15 @@
 
 // ================================================================================
 //#MARKER ADD SHAPED
+
+//# Crate
+	recipes.addShapedMirrored(<ImmersiveEngineering:woodenDevice:4>, [[<ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>], [<ore:plateRedSteel>, null, <ore:plateBlueSteel>], [<ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>]]);
+
+//# Treated Wood Slab
+	recipes.addShaped(<ImmersiveEngineering:woodenDecoration:2> * 6, [[null, <ore:itemSaw>.transformDamage(3), null], [<ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>]]);
+
+//# Treated Wood Stairs
+	recipes.addShapedMirrored(<ImmersiveEngineering:woodenStairs> * 6, [[<ImmersiveEngineering:woodenDecoration>, null, <ore:itemSaw>.transformDamage(12)], [<ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>, null], [<ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>]]);
 
 //# Steel Slab
 
