@@ -49,9 +49,6 @@
 // ================================================================================
 //#MARKER ADD SHAPED
 
-//# Crate
-	recipes.addShapedMirrored(<ImmersiveEngineering:woodenDevice:4>, [[<ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>], [<ore:plateRedSteel>, null, <ore:plateBlueSteel>], [<ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>]]);
-
 //# Treated Wood Slab
 	recipes.addShaped(<ImmersiveEngineering:woodenDecoration:2> * 6, [[null, <ore:itemSaw>.transformDamage(3), null], [<ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>]]);
 

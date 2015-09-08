@@ -235,7 +235,7 @@
 	recipes.addShaped(<Railcraft:machine.beta:14>, [[<ore:paneGlassColorless>, <ore:plateSteel>, <ore:paneGlassColorless>], [<ore:plateSteel>, <ore:paneGlassColorless>, <ore:plateSteel>], [<ore:paneGlassColorless>, <ore:plateSteel>, <ore:paneGlassColorless>]]);
 	recipes.addShaped(<Railcraft:machine.beta:1>, [[<ore:paneGlassColorless>, <ore:plateIron>, <ore:paneGlassColorless>], [<ore:plateIron>, <ore:paneGlassColorless>, <ore:plateIron>], [<ore:paneGlassColorless>, <ore:plateIron>, <ore:paneGlassColorless>]]);
 	recipes.addShaped(<Railcraft:machine.beta:15>, [[<minecraft:iron_bars>, <ore:plateSteel>, <minecraft:iron_bars>], [<ore:plateSteel>, <minecraft:lever>, <ore:plateSteel>], [<minecraft:iron_bars>, <ore:plateSteel>, <minecraft:iron_bars>]]);
-	recipes.addShaped(<Railcraft:machine.beta:2>, [[<minecraft:iron_bars>, <ore:plateIron>, <minecraft:iron_bars>], [<ore:plateIron>, <minecraft:lever>, <ore:plateIron>], [<minecraft:iron_bars>, <Railcraft:part.plate>, <minecraft:iron_bars>]]);
+	recipes.addShaped(<Railcraft:machine.beta:2>, [[<minecraft:iron_bars>, <ore:plateIron>, <minecraft:iron_bars>], [<ore:plateIron>, <minecraft:lever>, <ore:plateIron>], [<minecraft:iron_bars>, <ore:plateIron>, <minecraft:iron_bars>]]);
 //# Steam Furnace
 	recipes.addShaped(<Railcraft:machine.alpha:3> * 8, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, <terrafirmacraft:EarlyBloomery>, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 //# Rock Crusher
