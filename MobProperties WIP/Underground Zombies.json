@@ -1,10 +1,37 @@
 {
   "_name": "zombieTFC",
   "drops": [
-    {
-      "_comment"; "Bottom Layer Zombie Waves",
-      "function": "if_below_50",
-      "functions": [
+      {
+        "function": "if_past_world_time_4319910",
+        "functions": [
+          {
+            "_comment": "add hempseed drop",
+            "function": "if_can_see_sky",
+            "functions": [
+            {
+              "function": "if_recently_hit",
+              "functions": [
+              {
+                "function": "add",
+                "id": "ImmersiveEngineering:seed",
+                "count": 0.1
+              },
+              {
+                "function": "add",
+                "id": "ImmersiveEngineering:seed",
+                "count": 0.03
+              }
+              ]
+            }  
+            ]
+          }
+          
+        ]
+      },
+      {
+        "_comment": "Bottom Layer Zombie Waves",
+        "function": "if_below_50",
+        "functions": [
         {
           "_comment": "Spawn Bronze tier Zombie",
           "count": 0.25,
@@ -63,7 +90,7 @@
       ]
     },
     {
-      "_comment"; "Bottom Layer Zombie Waves",
+      "_comment": "Bottom Layer Zombie Waves",
       "function": "if_below_50",
       "functions": [
         {
@@ -124,7 +151,7 @@
       ]
     },
         {
-      "_comment"; "Bottom Layer Zombie Waves",
+      "_comment": "Bottom Layer Zombie Waves",
       "function": "if_below_50",
       "functions": [
         {
@@ -185,7 +212,7 @@
       ]
     },
     {
-      "_comment"; "Bottom Layer Zombie Waves",
+      "_comment": "Bottom Layer Zombie Waves",
       "function": "if_below_50",
       "functions": [
         {
@@ -235,7 +262,7 @@
                 },
                 {
                   "function": "potion",
-                  "id": "5",
+                  "id": "10",
                   "ambient": true,
                   "override": true
                 },
@@ -246,13 +273,13 @@
       ]
     },
         {
-      "_comment"; "Bottom Layer Zombie Waves",
+      "_comment": "Bottom Layer Zombie Waves",
       "function": "if_below_50",
       "functions": [
         {
           "_comment": "Spawn Blue Steel tier Pig Zombie",
           "count": 0.25,
-          "function": "if_has_potion_5",
+          "function": "if_has_potion_10",
           "functions": [
             {
               "function": "spawn",
@@ -296,7 +323,7 @@
                 },
                 {
                   "function": "potion",
-                  "id": ,
+                  "id": "1",
                   "ambient": true,
                   "override": true
                 },
@@ -307,13 +334,13 @@
       ]
     },
     {
-      "_comment"; "Bottom Layer Zombie Waves",
+      "_comment": "Bottom Layer Zombie Waves",
       "function": "if_below_50",
       "functions": [
         {
           "_comment": "Spawn Red Steel tier Pig Zombie",
           "count": 0.25,
-          "function": "if_has_potion_5",
+          "function": "if_has_potion_10",
           "functions": [
             {
               "function": "spawn",
@@ -357,7 +384,7 @@
                 },
                 {
                   "function": "potion",
-                  "id": ,
+                  "id": "5",
                   "ambient": true,
                   "override": true
                 },
@@ -374,7 +401,58 @@
 
 {
   "_name": "pigZombieTFC",
-  "drops": [],
+  "drops": [
+      {
+        "_comment": "checks if hit by player recently",
+        "function": "if_recently_hit",
+        "functions": [
+            {
+              "_comment": "Uses potion effect to determine which zombie has been killed",
+              "function": "if_has_potion_1",
+              "functions": [
+                {
+                  "_comment": "Drop Exquisite Diamond or Weak Blue Steel Ingot for Blue Steel Zombie",
+                  "function": "drop",
+                  "functions": [
+                    {
+                      "function": "add",
+                      "id": "terrafirmacraft:item.diamond:3",
+                      "count" : 0.05
+                    },
+                    {
+                      "function": "add",
+                      "id": "terrafirmacraft:item.Weak Blue Steel Ingot",
+                      "count" : 0.05
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "_comment": "Uses potion effect to determine which zombie has been killed",
+              "function": "if_has_potion_5",
+              "functions": [
+                {
+                  "_comment": "Drop Exquisite Diamond or Weak Red Steel Ingot for Blue Steel Zombie",
+                  "function": "drop",
+                  "functions": [
+                    {
+                      "function": "add",
+                      "id": "terrafirmacraft:item.diamond:3",
+                      "count" : 0.05
+                    },
+                    {
+                      "function": "add",
+                      "id": "terrafirmacraft:item.Weak Red Steel Ingot",
+                      "count" : 0.05
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+      }
+  ],
   "pre_stats": [],
   "stats": []
 }
