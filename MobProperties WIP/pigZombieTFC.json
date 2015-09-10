@@ -1,0 +1,75 @@
+{
+  "_name": "pigZombieTFC",
+  "drops": [
+            {
+            "function": "if_recently_hit",
+            "functions": [
+                {
+                  "_comment": "Uses potion effect to determine which zombie has been killed",
+                  "function": "if_has_potion_1",
+                  "functions": [
+                    {
+                      "_comment": "Drop Diamonds or Weak Blue Steel Ingot",
+                      "function": "add",
+                      "id": "terrafirmacraft:item.Diamond",
+                      "damage": 4,
+                      "count" : 0.05,
+                      "item_stats": [
+                        {
+                          "lore": "Property of krwminer, please return."
+                        }
+                        ]
+                    },
+                    {
+                      "function": "add",
+                      "id": "terrafirmacraft:item.Diamond",
+                      "damage": 3,
+                      "count" : 0.25
+                    },
+                    {
+                      "function": "add",
+                      "id": "terrafirmacraft:item.Weak Blue Steel Ingot",
+                      "count" : 0.5
+                    }
+                    ]
+                },
+                {
+                  "_comment": "Uses potion effect to determine which zombie has been killed",
+                  "function": "if_has_potion_5",
+                  "functions": [
+                    {
+                      "_comment": "Drop Exquisite Diamond or Weak Red Steel Ingot",
+                      "function": "drop",
+                      "functions": [
+                        {
+                          "function": "add",
+                          "id": "terrafirmacraft:item.Diamond",
+                          "damage": 4,
+                          "count" : 0.05,
+                          "item_stats": [
+                            {
+                              "lore": "Property of krwminer, please return."
+                            }
+                            ]
+                        },
+                        {
+                          "function": "add",
+                          "id": "terrafirmacraft:item.Diamond",
+                          "damage": 3,
+                          "count" : 0.25
+                        },
+                        {
+                          "function": "add",
+                          "id": "terrafirmacraft:item.Weak Red Steel Ingot",
+                          "count" : 0.5
+                        }
+                        ]
+                      }
+                      ]
+                }
+                ]
+          }
+    ],
+  "pre_stats": [],
+  "stats": []
+  }
