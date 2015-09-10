@@ -315,6 +315,10 @@
 
 //# ACETHETIC BLOCKS
 
+//# Metal Posts
+	recipes.addShaped(<Railcraft:post:6> * 6, [[<ore:plateIron>], [<Railcraft:post:2>]]);
+	recipes.addShaped(<Railcraft:post:6> * 4, [[<ore:plateAnyBronze>], [<Railcraft:post:2>]]);
+
 //# Concrete
 	recipes.addShaped(<Railcraft:cube:1> * 8, [[<ore:stoneRaw>, <Railcraft:part.rebar>, <ore:stoneRaw>], [<Railcraft:part.rebar>, <ore:stoneRaw>, <Railcraft:part.rebar>], [<ore:stoneRaw>, <Railcraft:part.rebar>, <ore:stoneRaw>]]);
 
