@@ -13,12 +13,7 @@
                       "function": "add",
                       "id": "terrafirmacraft:item.Diamond",
                       "damage": 4,
-                      "count" : 0.05,
-                      "item_stats": [
-                        {
-                          "lore": "Property of krwminer, please return."
-                        }
-                        ]
+                      "count" : 0.05
                     },
                     {
                       "function": "add",
@@ -39,33 +34,23 @@
                   "functions": [
                     {
                       "_comment": "Drop Exquisite Diamond or Weak Red Steel Ingot",
-                      "function": "drop",
-                      "functions": [
-                        {
-                          "function": "add",
-                          "id": "terrafirmacraft:item.Diamond",
-                          "damage": 4,
-                          "count" : 0.05,
-                          "item_stats": [
-                            {
-                              "lore": "Property of krwminer, please return."
-                            }
-                            ]
-                        },
-                        {
-                          "function": "add",
-                          "id": "terrafirmacraft:item.Diamond",
-                          "damage": 3,
-                          "count" : 0.25
-                        },
-                        {
-                          "function": "add",
-                          "id": "terrafirmacraft:item.Weak Red Steel Ingot",
-                          "count" : 0.5
-                        }
-                        ]
-                      }
-                      ]
+                      "function": "add",
+                      "id": "terrafirmacraft:item.Diamond",
+                      "damage": 4,
+                      "count" : 0.05
+                    },
+                    {
+                      "function": "add",
+                      "id": "terrafirmacraft:item.Diamond",
+                      "damage": 3,
+                      "count" : 0.25
+                    },
+                    {
+                      "function": "add",
+                      "id": "terrafirmacraft:item.Weak Red Steel Ingot",
+                      "count" : 0.5
+                    }
+                    ]
                 }
                 ]
           }
