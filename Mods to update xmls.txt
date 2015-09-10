@@ -2,13 +2,7 @@ version="2.8.3" url="packs/TechNodefirmacraft/files/1.7.10Mods/AOBD-2.8.3.jar" f
 
 version="1.11.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/BiblioCraft[v1.11.0][MC1.7.10].jar" file="BiblioCraft[v1.11.0][MC1.7.10].jar" md5="3cff4206fe53545c5565cd77c6e957f6"
 
-*** Think I have. ***
-version="1.1" url="packs/TechNodefirmacraft/files/1.7.10Mods/BiblioWoods[TerraFirmaCraftV0.79.18][v1.1].jar" file="BiblioWoods[TerraFirmaCraftV0.79.18][v1.1].jar" md5="11ac766b821647bd2218435f7e0b5671"
-
 version="1.8" url="packs/TechNodefirmacraft/files/1.7.10Mods/CustomMainMenu-MC1.7.10-1.8.jar" file="CustomMainMenu-MC1.7.10-1.8.jar" md5="31c55176f42960b1b547ed03e8d1a2ef"
-
-*** Check ***
-version="" url="packs/TechNodefirmacraft/files/1.7.10Mods/DynamicLights-1.7.10.jar" file="DynamicLights-1.7.10.jar" md5="8840330ed22e14467063f73e2aa8ca04"
 
 version="" url="packs/TechNodefirmacraft/files/1.7.10Mods/Farseek-1.0.8.jar" file="Farseek-1.0.8.jar" md5="f852a78e0f740981139455125ef8c749"
 
@@ -26,5 +20,8 @@ version="1.11.3-123" url="packs/TechNodefirmacraft/files/1.7.10Mods/PneumaticCra
 
 <mod name="Steve&apos;s Addons" version="0.10.16" url="packs/TechNodefirmacraft/files/1.7.10Mods/StevesAddons-1.7.10-0.10.16.jar" file="StevesAddons-1.7.10-0.10.16.jar" md5="a36495672c693817846fa703d562e6fe" download="server" type="mods" website="https://github.com/hilburn/StevesAddons" authors="hilburn" description="Adds extra things to improve SFM" />
 
+version="3.0.10" url="packs/TechNodefirmacraft/files/1.7.10Mods/MineTweaker3-1.7.10-3.0.10.jar" file="MineTweaker3-1.7.10-3.0.10.jar" md5="5f304c1c65e1c443170111ae70ceca7a" download="server"
 
+version="" url="packs/TechNodefirmacraft/files/1.7.10Mods/mod_voxelMap_1.5.17_for_1.7.10.litemod" file="mod_voxelMap_1.5.17_for_1.7.10.litemod" md5="6f4696e1bdd15bd3c3fed389898fd178" download="server"
 
+I download="server"
