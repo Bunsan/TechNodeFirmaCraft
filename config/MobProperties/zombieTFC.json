@@ -2,30 +2,370 @@
   "_name": "zombieTFC",
   "drops": [
         {
-        "function": "if_past_world_time_4319910",
+        "function": "if_recently_hit",
         "functions": [
           {
-            "_comment": "add hempseed drop",
-            "function": "if_can_see_sky",
+            "function": "if_past_world_time_4319910",
             "functions": [
-            {
-              "function": "if_recently_hit",
-              "functions": [
               {
-                "function": "add",
-                "id": "ImmersiveEngineering:seed",
-                "count": 0.1
-              },
+                "_comment": "add hempseed drop",
+                "function": "if_can_see_sky",
+                "functions": [
+                  {
+                    "function": "add",
+                    "id": "ImmersiveEngineering:seed",
+                    "count": 0.1
+                  },
+                  {
+                    "function": "add",
+                    "id": "ImmersiveEngineering:seed",
+                    "count": 0.03
+                  }  
+                  ]
+              }  
+              ]
+          },
+          {
+            "_comment": "Bottom Layer Zombie Waves",
+            "function": "if_below_50",
+            "count": 0.05,
+            "functions": [
               {
-                "function": "add",
-                "id": "ImmersiveEngineering:seed",
-                "count": 0.03
+                "_comment": "Spawn Bronze tier Zombie",
+                "function": "spawn",
+                "id": "zombieTFC",
+                "count": "3~8",
+                "stats": [
+                  {
+                    "function": "equip",
+                    "id": "terrafirmacraft:item.Black Bronze Sword",
+                    "override": true,
+                    "slot": 0,
+                    "drop_chance": 0
+                  },
+                  {
+                    "function": "equip",
+                    "id": "terrafirmacraft:item.Black Bronze Boots",
+                    "override": true,
+                    "slot": 1,
+                    "drop_chance": 0
+                  },
+                  {
+                    "function": "equip",
+                    "id": "terrafirmacraft:item.Black Bronze Greaves",
+                    "override": true,
+                    "slot": 2,
+                    "drop_chance": 0
+                  },
+                  {
+                    "function": "equip",
+                    "id": "terrafirmacraft:item.Black Bronze Chestplate",
+                    "override": true,
+                    "slot": 3,
+                    "drop_chance": 0
+                  },
+                  {
+                    "function": "equip",
+                    "id": "terrafirmacraft:item.Black Bronze Helmet",
+                    "override": true,
+                    "slot": 4,
+                    "drop_chance": 0
+                  },
+                  {
+                    "function": "potion",
+                    "id": "13",
+                    "ambient": true,
+                    "duration": 2400,
+                    "override": true
+                  }
+                  ]
+              
               }
               ]
-            }  
-            ]
-          }
-          
+          },
+          {
+            "_comment": "Checking Zombie Tier",
+            "function": "if_has_potion_13",
+            "count": 0.15,
+            "functions": [
+              {
+                "_comment": "Spawn Iron tier Zombie",
+                "function": "spawn",
+                "id": "zombieTFC",
+                "count": "1~3",
+                "stats": [
+                  {
+                    "function": "equip",
+                    "id": "terrafirmacraft:item.Wrought Iron Sword",
+                    "override": true,
+                    "slot": 0,
+                    "drop_chance": 0
+                  },
+                  {
+                    "function": "equip",
+                    "id": "terrafirmacraft:item.Wrought Iron Boots",
+                    "override": true,
+                    "slot": 1,
+                    "drop_chance": 0
+                  },
+                  {
+                    "function": "equip",
+                    "id": "terrafirmacraft:item.Wrought Iron Greaves",
+                    "override": true,
+                    "slot": 2,
+                    "drop_chance": 0
+                  },
+                  {
+                    "function": "equip",
+                    "id": "terrafirmacraft:item.Wrought Iron Chestplate",
+                    "override": true,
+                    "slot": 3,
+                    "drop_chance": 0
+                  },
+                  {
+                    "function": "equip",
+                    "id": "terrafirmacraft:item.Wrought Iron Helmet",
+                    "override": true,
+                    "slot": 4,
+                    "drop_chance": 0
+                  },
+                  {
+                    "function": "potion",
+                    "id": "16",
+                    "ambient": true,
+                    "duration": 2400,
+                    "override": true
+                  }
+                  ]
+              }
+              ]   
+          },
+          {
+            "_comment": "Checking Zombie Tier",
+            "function": "if_has_potion_16",
+            "count": 0.25,
+            "functions": [
+              {
+                "_comment": "Spawn Steel tier Zombie",
+                "function": "spawn",
+                "id": "zombieTFC",
+                "count": "1~2",
+                "stats": [
+                  {
+                    "function": "equip",
+                    "id": "terrafirmacraft:item.Steel Sword",
+                    "override": true,
+                    "slot": 0,
+                    "drop_chance": 0
+                  },
+                  {
+                    "function": "equip",
+                    "id": "terrafirmacraft:item.Steel Boots",
+                    "override": true,
+                    "slot": 1,
+                    "drop_chance": 0
+                  },
+                  {
+                    "function": "equip",
+                    "id": "terrafirmacraft:item.Steel Greaves",
+                    "override": true,
+                    "slot": 2,
+                    "drop_chance": 0
+                  },
+                  {
+                    "function": "equip",
+                    "id": "terrafirmacraft:item.Steel Chestplate",
+                    "override": true,
+                    "slot": 3,
+                    "drop_chance": 0
+                  },
+                  {
+                    "function": "equip",
+                    "id": "terrafirmacraft:item.Steel Helmet",
+                    "override": true,
+                    "slot": 4,
+                    "drop_chance": 0
+                  },
+                  {
+                    "function": "potion",
+                    "id": "8",
+                    "ambient": true,
+                    "duration": 2400,
+                    "override": true
+                  }
+                  ]
+              }
+              ]
+            },
+            {
+              "_comment": "Checking Zombie Tier",
+              "function": "if_has_potion_8",
+              "count": 0.50,
+              "functions": [
+                {
+                  "_comment": "Spawn Black Steel tier Zombie",
+                  "function": "spawn",
+                  "id": "zombieTFC",
+                  "count": "1~2",
+                  "stats": [
+                    {
+                      "function": "equip",
+                      "id": "terrafirmacraft:item.Black Steel Sword",
+                      "override": true,
+                      "slot": 0,
+                      "drop_chance": 0
+                    },
+                    {
+                      "function": "equip",
+                      "id": "terrafirmacraft:item.Black Steel Boots",
+                      "override": true,
+                      "slot": 1,
+                      "drop_chance": 0
+                    },
+                    {
+                      "function": "equip",
+                      "id": "terrafirmacraft:item.Black Steel Greaves",
+                      "override": true,
+                      "slot": 2,
+                      "drop_chance": 0
+                    },
+                    {
+                      "function": "equip",
+                      "id": "terrafirmacraft:item.Black Steel Chestplate",
+                      "override": true,
+                      "slot": 3,
+                      "drop_chance": 0
+                    },
+                    {
+                      "function": "equip",
+                      "id": "terrafirmacraft:item.Black Steel Helmet",
+                      "override": true,
+                      "slot": 4,
+                      "drop_chance": 0
+                    },
+                    {
+                      "function": "potion",
+                      "id": "10",
+                      "ambient": true,
+                      "duration": 2400,
+                      "override": true
+                    }
+                    ]
+                }
+                ]
+            },
+            {
+              "_comment": "Checking Zombie Tier",
+              "function": "if_has_potion_10",
+              "count": 0.25,
+              "functions": [
+                {
+                  "_comment": "Spawn Blue Steel tier Zombie",
+                  "function": "spawn",
+                  "id": "pigZombieTFC",
+                  "count": "1",
+                  "stats": [
+                    {
+                      "function": "equip",
+                      "id": "terrafirmacraft:item.Blue Steel Sword",
+                      "override": true,
+                      "slot": 0,
+                      "drop_chance": 0
+                    },
+                    {
+                      "function": "equip",
+                      "id": "terrafirmacraft:item.Blue Steel Boots",
+                      "override": true,
+                      "slot": 1,
+                      "drop_chance": 0
+                    },
+                    {
+                      "function": "equip",
+                      "id": "terrafirmacraft:item.Blue Steel Greaves",
+                      "override": true,
+                      "slot": 2,
+                      "drop_chance": 0
+                    },
+                    {
+                      "function": "equip",
+                      "id": "terrafirmacraft:item.Blue Steel Chestplate",
+                      "override": true,
+                      "slot": 3,
+                      "drop_chance": 0
+                    },
+                    {
+                      "function": "equip",
+                      "id": "terrafirmacraft:item.Blue Steel Helmet",
+                      "override": true,
+                      "slot": 4,
+                      "drop_chance": 0
+                    },
+                    {
+                      "function": "potion",
+                      "id": "1",
+                      "ambient": true,
+                      "override": true
+                    }
+                    ]
+                }
+                ]
+            },
+            {
+              "_comment": "Checking Zombie Tier",
+              "function": "if_has_potion_10",
+              "count": 0.25,
+              "functions": [
+                {
+                  "_comment": "Spawn Red Steel tier Zombie",
+                  "function": "spawn",
+                  "id": "pigZombieTFC",
+                  "count": "1",
+                  "stats": [
+                    {
+                      "function": "equip",
+                      "id": "terrafirmacraft:item.Red Steel Sword",
+                      "override": true,
+                      "slot": 0,
+                      "drop_chance": 0
+                    },
+                    {
+                      "function": "equip",
+                      "id": "terrafirmacraft:item.Red Steel Boots",
+                      "override": true,
+                      "slot": 1,
+                      "drop_chance": 0
+                    },
+                    {
+                      "function": "equip",
+                      "id": "terrafirmacraft:item.Red Steel Greaves",
+                      "override": true,
+                      "slot": 2,
+                      "drop_chance": 0
+                    },
+                    {
+                      "function": "equip",
+                      "id": "terrafirmacraft:item.Red Steel Chestplate",
+                      "override": true,
+                      "slot": 3,
+                      "drop_chance": 0
+                    },
+                    {
+                      "function": "equip",
+                      "id": "terrafirmacraft:item.Red Steel Helmet",
+                      "override": true,
+                      "slot": 4,
+                      "drop_chance": 0
+                    },
+                    {
+                      "function": "potion",
+                      "id": "5",
+                      "ambient": true,
+                      "override": true
+                    }
+                    ]
+                }
+                ]
+            }
         ]
         }
   ],
