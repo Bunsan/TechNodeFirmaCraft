@@ -39,7 +39,7 @@
                   "_comment": "Spawn Bronze tier Zombie",
                   "function": "spawn",
                   "id": "zombieTFC",
-                  "count": "1~2",
+                  "count": "1",
                   "stats": [
                     {
                       "function": "equip",
@@ -120,7 +120,7 @@
                   "_comment": "Spawn Iron tier Zombie",
                   "function": "spawn",
                   "id": "zombieTFC",
-                  "count": "1~2",
+                  "count": "1",
                   "stats": [
                     {
                       "function": "equip",
@@ -169,6 +169,9 @@
                 ]   
             },
             {
+              "function": "if_recently_hit",
+              "functions": [
+            {
               "_comment": "Checking Zombie Tier",
               "function": "if_has_potion_8",
               "count": 0.50,
@@ -182,7 +185,7 @@
                   "_comment": "Spawn Steel tier Zombie",
                   "function": "spawn",
                   "id": "zombieTFC",
-                  "count": "1~2",
+                  "count": "1",
                   "stats": [
                     {
                       "function": "equip",
@@ -423,6 +426,8 @@
           }
         ]
         }
+    ]
+    }
    ],
   "pre_stats": [],
   "stats": []

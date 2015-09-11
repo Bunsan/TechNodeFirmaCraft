@@ -132,11 +132,9 @@
         name="NotEnoughItems" version="1.0.5.111" url="packs/TechNodefirmacraft/files/1.7.10Mods/NotEnoughItems-1.7.10-1.0.5.111-universal.jar" file="NotEnoughItems-1.7.10-1.0.5.111-universal.jar" md5="2a1ad0bb450ad389ba515bf95d24a1d9" download="server" type="mods" website="http://www.minecraftforum.net/topic/909223-" donation="http://www.chickenbones.craftsaddle.org/Pages/donate.php" authors="ChickenBones" description="Allows you to quickly and easily look up recipes and uses for any item in Minecraft included modded items. Also allows easy spawning of items and a range of one click utilities." client="yes" optional="no" server="yes" serveroptional="no"
         />
         <!-- Pack Customization Mods -->
-        <!--
         <mod
-        name="Scripts" version="2.2.4" url="packs/TechNodefirmacraft/files/extract/scripts_2.2.4_base.zip" file="scripts_2.2.4_base.zip" md5="b553065b7bc61b5ff40a4f5cff8687e8" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="Scripts" version="2.2.4" url="packs/TechNodefirmacraft/files/extract/scripts_dev_2.3.0-1_base.zip" file="scripts_dev_2.3.0-1_base.zip" md5="534c7a8722479311610fb4b32b1b264e" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
         /> 
-        -->
         <mod
         name="MineTweaker 3" version="3.0.10" url="packs/TechNodefirmacraft/files/1.7.10Mods/MineTweaker3-1.7.10-3.0.10.jar" file="MineTweaker3-1.7.10-3.0.10.jar" md5="5f304c1c65e1c443170111ae70ceca7a" download="server" type="mods" website="http://minetweaker3.powerofbytes.com" authors="Stan Hebben" description="Customize your minecraft experience!" client="yes" optional="no" server="yes" serveroptional="no"
         />
@@ -241,19 +239,19 @@
         name="Streams" version="0.1.4" url="packs/TechNodefirmacraft/files/1.7.10Mods/Streams-0.1.4.jar" file="Streams-0.1.4.jar" md5="30cec0cc49a13df89c50c58c5cffc03e" download="server" type="mods" website="http://terrafirmacraft.com/f/topic/7850-tfc-07915-streams-real-flowing-rivers/" authors="delvr" description="Generates flowing river systems." client="yes" optional="yes" server="yes" serveroptional="yes" colour="cyan" depends="Farseek" recommended="yes"
         />
         <mod
-        name="Plant Mega Pack" version="4.27" url="packs/TechNodefirmacraft/files/1.7.10Mods/plantmegapack-4.27-1.7.10-1448.jar" file="plantmegapack-4.27-1.7.10-1448.jar" md5="d6c972f16c5514d2632db75fa7d05d3c" download="server" type="mods" website="http://minecraft.curseforge.com/mc-mods/70748" authors="10paktimbits" description="Add a huge variety of real plants" colour="cyan" recommended="yes" client="yes" optional="yes" server="yes" serveroptional="yes" depends="ScriptPMP"
+        name="Plant Mega Pack" version="4.27" url="packs/TechNodefirmacraft/files/1.7.10Mods/plantmegapack-4.27-1.7.10-1448.jar" file="plantmegapack-4.27-1.7.10-1448.jar" md5="d6c972f16c5514d2632db75fa7d05d3c" download="server" type="mods" website="http://minecraft.curseforge.com/mc-mods/70748" authors="10paktimbits" description="Add a huge variety of real plants" client="yes" optional="no" server="yes" serveroptional="no"
         />        
         <mod 
         name="INpureCore" version="1.0.0B9-62" url="packs/TechNodefirmacraft/files/1.7.10Mods/INpureCore-[1.7.10]1.0.0B9-62.jar" file="INpureCore-[1.7.10]1.0.0B9-62.jar" md5="89c7b3835cd2bdba7d8d054d75c7460c" download="server" type="mods" website="http://www.curseforge.com/projects/223792/" authors="INpureProjects,denoflions" description="Culls duplicate and uncraftable items from NEI" client="yes" optional="yes" server="no" serveroptional="no" colour="gold" depends="CommonsCodec,CommonsCompress" recommended="yes"
          />
         <mod
-        name="NEI Addons" version="1.12.12.37" url="packs/TechNodefirmacraft/files/1.7.10Mods/neiaddons-1.12.12.37-mc1.7.10.jar" file="neiaddons-1.12.12.37-mc1.7.10.jar" md5="7e977309f0440fe851f450d0d74af594" download="server" type="mods" website="http://www.minecraftforum.net/topic/1803460-" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=TV8GLNVZJGGG4" authors="bdew" description="Adds in mod integration into NEI by showing bee breeding information as well as other helpful mod plugins." client="yes" optional="yes" colour="gold" server="no" recommended="yes"
+        name="NEI Addons" version="1.12.12.37" url="packs/TechNodefirmacraft/files/1.7.10Mods/neiaddons-1.12.12.37-mc1.7.10.jar" file="neiaddons-1.12.12.37-mc1.7.10.jar" md5="7e977309f0440fe851f450d0d74af594" download="server" type="mods" website="http://www.minecraftforum.net/topic/1803460-" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=TV8GLNVZJGGG4" authors="bdew" description="Adds in mod integration into NEI by showing bee breeding information as well as other helpful mod plugins." client="yes" optional="no" server="no"
         />
         <mod
-        name="NEI Integration" version="1.0.12" url="packs/TechNodefirmacraft/files/1.7.10Mods/NEIIntegration-MC1.7.10-1.0.12.jar" file="NEIIntegration-MC1.7.10-1.0.12.jar" md5="ce52827985c6b803dbe1e19e14cb0317"  download="server" type="mods" website="http://minecraft.curseforge.com/mc-mods/225251-nei-integration/files" authors="tonius11" description="NEI handlers for all of the mods, one at a time." client="yes" optional="yes" colour="gold" server="no" recommended="yes"
+        name="NEI Integration" version="1.0.12" url="packs/TechNodefirmacraft/files/1.7.10Mods/NEIIntegration-MC1.7.10-1.0.12.jar" file="NEIIntegration-MC1.7.10-1.0.12.jar" md5="ce52827985c6b803dbe1e19e14cb0317"  download="server" type="mods" website="http://minecraft.curseforge.com/mc-mods/225251-nei-integration/files" authors="tonius11" description="NEI handlers for all of the mods, one at a time." client="yes" optional="no" server="no"
         />
         <mod
-        name="TerraFirmaCraftNEIplugin" version="1.5.2.22" url="packs/TechNodefirmacraft/files/1.7.10Mods/TerraFirmaCraftNEIplugin-1.7.10-1.5.2.22.jar" file="TerraFirmaCraftNEIplugin-1.7.10-1.5.2.22.jar" md5="197f2f65329c1c191e69669aa1b4ab6d" download="server" type="mods" website="https://github.com/dries007/TerraFirmaCraftNEIplugin" authors="Dries007" description="TerraFirmaCraft + NEI = &lt;3" client="yes" optional="yes" colour="gold" server="no" recommended="yes"
+        name="TerraFirmaCraftNEIplugin" version="1.5.2.22" url="packs/TechNodefirmacraft/files/1.7.10Mods/TerraFirmaCraftNEIplugin-1.7.10-1.5.2.22.jar" file="TerraFirmaCraftNEIplugin-1.7.10-1.5.2.22.jar" md5="197f2f65329c1c191e69669aa1b4ab6d" download="server" type="mods" website="https://github.com/dries007/TerraFirmaCraftNEIplugin" authors="Dries007" description="TerraFirmaCraft + NEI = &lt;3" client="yes" optional="no" server="no"
         />
         <mod
         name="Waila" version="1.5.10_1.7.10" url="packs/TechNodefirmacraft/files/1.7.10Mods/Waila-1.5.10_1.7.10.jar" file="Waila-1.5.10_1.7.10.jar" md5="eeb36775188e70faa1c5ecd84f80076c" download="server" type="mods" website="http://minecraft.curseforge.com/members/ProfMobius/projects" authors="ProfMobius" description="All your data are belong to us." client="yes" optional="yes" colour="gold" server="yes" serveroptional="yes" recommended="yes"
@@ -283,7 +281,7 @@
         name="Prattle" version="0.0.9a" url="packs/TechNodefirmacraft/files/1.7.10Mods/Prattle-0.0.9a.jar" file="Prattle-0.0.9a.jar" md5="27a9ebab59b19191df6762ff288e1ee1" download="server" type="mods" website="http://www.curseforge.com/projects/228705/" authors="ProfMobius" description="Better chat for SMP play." client="yes" optional="yes" colour="green" server="yes" serveroptional="yes" recommended="yes"
         />
         <mod 
-        name="Localized Weather &amp; Storms" version="${version}" url="packs/TechNodefirmacraft/files/1.7.10Mods/weather2-2.3.9-special.jar" file="weather2-2.3.9-special.jar" md5="72916fe24eb1c3d0711ac353e415edbd" download="server" type="mods" website="http://Coros.us/" authors="Corosus" description="Localized rain and storms that evolve into deadly tornadoes and others, also some ambience effects" client="yes" optional="yes" colour="red" server="yes" serveroptional="yes" recommended="yes"
+        name="Localized Weather &amp; Storms" version="${version}" url="packs/TechNodefirmacraft/files/1.7.10Mods/weather2-2.3.9-special.jar" file="weather2-2.3.9-special.jar" md5="72916fe24eb1c3d0711ac353e415edbd" download="server" type="mods" website="http://Coros.us/" authors="Corosus" description="Localized rain and storms that evolve into deadly tornadoes and others, also some ambience effects" client="yes" optional="yes" colour="red" server="yes" serveroptional="yes" recommended="yes" depends="ScriptW2"
         /> 
         <!-- Optional Choice -->
         <mod
@@ -307,7 +305,7 @@
         />
         <!-- Scripts -->
         <mod
-        name="ScriptPMP" version="2.3" url="packs/TechNodefirmacraft/files/scripts_dev_2.3_pmp.zip" file="scripts_dev_2.3_pmp.zip" md5="81280612bf3e46bf6cdffac27876d4b0" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Script for PlantMegaPack" client="yes" optional="yes" server="yes" serveroptional="yes" library="yes"
+        name="ScriptW2" version="2.3" url="packs/TechNodefirmacraft/files/extract/scripts_dev_2.3.0-1_w2.zip" file="scripts_dev_2.3.0-1_w2.zip" md5="ad4c80a22a20f461631c142bfc934191" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Script for Weather2" client="yes" optional="yes" server="yes" serveroptional="yes" library="yes"
         />
         <mod 
         name="Resource Loaders Folder" version="2.0.3" url="packs/TechNodefirmacraft/files/extract/resources_v2.0.3.zip" file="resources_v2.0.3.zip" md5="bdcd69e939a45e6468ba159383e69109" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="no"

@@ -19,10 +19,17 @@
                           "damage": 4
                         },
                         {
-                          "weight": 50,
+                          "_comment": "Drop Exquisite Diamond or Weak Blue Steel Ingot",
+                          "weight": 25,
                           "function": "add",
                           "id": "terrafirmacraft:item.Diamond",
                           "damage": 3
+                        },
+                        {
+                          "weight": 50,
+                          "function": "add",
+                          "id": "terrafirmacraft:item.Diamond",
+                          "damage": 2
                         }
                         ]
                     },
@@ -41,17 +48,24 @@
                       "function": "choose",
                       "functions": [
                         {
-                          "_comment": "Drop Exquisite Diamond or Weak Red Steel Ingot",
+                          "_comment": "Drop Exquisite Diamond or Weak Blue Steel Ingot",
                           "weight": 1,
                           "function": "add",
                           "id": "terrafirmacraft:item.Diamond",
                           "damage": 4
                         },
                         {
-                          "weight": 50,
+                          "_comment": "Drop Exquisite Diamond or Weak Blue Steel Ingot",
+                          "weight": 25,
                           "function": "add",
                           "id": "terrafirmacraft:item.Diamond",
                           "damage": 3
+                        },
+                        {
+                          "weight": 50,
+                          "function": "add",
+                          "id": "terrafirmacraft:item.Diamond",
+                          "damage": 2
                         }
                         ]
                     },
