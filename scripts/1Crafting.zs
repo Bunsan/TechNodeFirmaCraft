@@ -287,9 +287,6 @@ furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 	recipes.addShapeless(<terrafirmacraft:item.Ore:34> * 9, [<minecraft:lapis_block>]);
 
 //# TFC ADDITIONS
-//# Bronze intermod conversion
-	recipes.addShapeless(<terrafirmacraft:item.Bronze Ingot>, [<ore:ingotBronze>]);
-
 
 //# Recipe for vanilla bottles
 	recipes.addShapeless(<minecraft:glass_bottle>, [<terrafirmacraft:item.Glass Bottle>]);

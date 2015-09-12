@@ -175,6 +175,11 @@ import minetweaker.data.IData;
 //#Removal
 	//OutputStack
 	//mods.forestry.Carpenter.removeRecipe(<modID:name>);
+	mods.forestry.Carpenter.removeRecipe(<Forestry:kitShovel>);
+	mods.forestry.Carpenter.removeRecipe(<Forestry:kitPickaxe>);
+	mods.forestry.Carpenter.removeRecipe(<Forestry:carton>);
+	mods.forestry.Carpenter.removeRecipe(<minecraft:torch>);
+
 //#Addition
 	//Time recipe requires (Ticks), InputFluid, InputArray, InputStack Box, OutputStack //InputStack Box is the slot where Cartons and Crates are by default, it can accept any item - optional
 	mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 300, [<terrafirmacraft:item.Ore:33>, <terrafirmacraft:item.Ore:33>, <terrafirmacraft:item.Ore:33>, <minecraft:paper>, <minecraft:paper>, <minecraft:paper>, null, null, null], null, <Forestry:stamps> * 9);
