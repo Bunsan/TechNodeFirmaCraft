@@ -91,7 +91,7 @@
             {
               "_comment": "Checking Zombie Tier",
               "function": "if_has_potion_4",
-              "count": 0.50,
+              "count": 0.5,
               "functions": [
                 {
                   "function": "choose",
@@ -100,19 +100,19 @@
                       "weight": 1,
                       "function": "add",
                       "id": "terrafirmacraft:item.Bronze Ingot",
-                      "count" : 0.01
+                      "count" : 0.1
                     },
                     {
                       "weight": 1,
                       "function": "add",
                       "id": "terrafirmacraft:item.Bismuth Bronze Ingot",
-                      "count" : 0.01
+                      "count" : 0.1
                     },
                     {
                       "weight": 1,
                       "function": "add",
                       "id": "terrafirmacraft:item.Black Bronze Ingot",
-                      "count" : 0.01
+                      "count" : 0.1
                     }
                     ]
                 },
@@ -174,12 +174,12 @@
             {
               "_comment": "Checking Zombie Tier",
               "function": "if_has_potion_8",
-              "count": 0.50,
+              "count": 0.6,
               "functions": [
                 {
                   "function": "add",
                   "id": "terrafirmacraft:item.Wrought Iron Ingot",
-                  "count" : 0.05
+                  "count" : 0.15
                 },
                 {
                   "_comment": "Spawn Steel tier Zombie",
@@ -236,12 +236,12 @@
               {
                 "_comment": "Checking Zombie Tier",
                 "function": "if_has_potion_13",
-                "count": 0.50,
+                "count": 0.6,
                 "functions": [
                   {
                     "function": "add",
                     "id": "terrafirmacraft:item.Pig Iron Ingot",
-                    "count" : 0.25
+                    "count" : 0.4
                   },
                   {
                     "_comment": "Spawn Black Steel tier Zombie",
@@ -298,12 +298,12 @@
               {
                 "_comment": "Checking Zombie Tier",
                 "function": "if_has_potion_16",
-                "count": 0.25,
+                "count": 0.75,
                 "functions": [
                   {
                     "function": "add",
                     "id": "terrafirmacraft:item.Weak Steel Ingot",
-                    "count" : 0.5
+                    "count" : 0.3
                   },
                   {
                     "function": "choose",
