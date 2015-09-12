@@ -152,7 +152,11 @@
 //#Wooden tie recipe with RC cresote containers, to avoid confusion
 	recipes.removeShaped(<Railcraft:part.tie>, [[null, <Railcraft:fluid.creosote.bucket>, null], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
 	recipes.removeShaped(<Railcraft:part.tie>, [[null, <Railcraft:fluid.creosote.bottle>, null], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
+//# Rail Recipes
 	recipes.removeShaped(<minecraft:golden_rail>, [[<Railcraft:part.rail:1>, null, <Railcraft:part.rail:1>], [<Railcraft:part.rail:1>,<Railcraft:part.railbed>, <Railcraft:part.rail:1>], [<Railcraft:part.rail:1>, <minecraft:redstone>, <Railcraft:part.rail:1>]]);
+	recipes.removeShaped(<minecraft:rail>, [[<Railcraft:part.rail>, null, <Railcraft:part.rail>], [<Railcraft:part.rail>, <Railcraft:part.railbed>, <Railcraft:part.rail>], [<Railcraft:part.rail>, null, <Railcraft:part.rail>]]);
+	recipes.removeShaped(<minecraft:rail>, [[<Mekanism:Ingot:1>, null, <Mekanism:Ingot:1>], [<Mekanism:Ingot:1>, <ore:stickWood>, <Mekanism:Ingot:1>], [<Mekanism:Ingot:1>, null, <Mekanism:Ingot:1>]]);
+
 // ================================================================================
 //#ADD SHAPELESS
 //# Bleached Clay
