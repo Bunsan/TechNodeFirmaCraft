@@ -51,7 +51,7 @@
 <!-- Base Scripts -->
         <!-- Marquee Mods -->
         <mod 
-        name="TerraFirmaCraft" version="0.79.23.808" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.23.808.jar" file="[1.7.10]TerraFirmaCraft-0.79.23.808.jar" md5="96799534508c21cba64c0578793389f4" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="TerraFirmaCraft" version="0.79.24.816" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.24.816.jar" file="[1.7.10]TerraFirmaCraft-0.79.24.816.jar" md5="8ef6da7aa72354d07c7dfe3b86e9b7b4" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod 
         name="TechNodefirmacraft" version="2.2.4" url="packs/TechNodefirmacraft/files/1.7.10Mods/1.7.10-TechNodefirmacraft-2.2.4.jar" file="1.7.10-TechNodefirmacraft-2.2.4.jar" md5="1fe1b445ae7553d69b84b2c5ea91c96e" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="AnodeCathode, Bunsan" optional="no" description="Custom integration and features for TechNodefirmacraft modpack" client="yes" server="yes" serveroptional="no"
@@ -133,13 +133,16 @@
         />
         <mod
         name="Plant Mega Pack" version="4.27" url="packs/TechNodefirmacraft/files/1.7.10Mods/plantmegapack-4.27-1.7.10-1448.jar" file="plantmegapack-4.27-1.7.10-1448.jar" md5="d6c972f16c5514d2632db75fa7d05d3c" download="server" type="mods" website="http://minecraft.curseforge.com/mc-mods/70748" authors="10paktimbits" description="Add a huge variety of real plants" client="yes" optional="no" server="yes" serveroptional="no"
-        /> 
-        <!-- Pack Customization Mods -->
+        />
+        <mod
+        name="TooMuchTime" version="2.4.0.tnfc.2" url="packs/TechNodefirmacraft/files/1.7.10Mods/TooMuchTime-1.7.10-2.4.0.tnfc.2-universal.jar" file="TooMuchTime-1.7.10-2.4.0.tnfc.2-universal.jar" md5="004f5ea41999ee36f57b67b0fe322c99" download="server" type="mods" website="https://github.com/AnodeCathode/TooMuchTime" authors="dmillerw" description="Control over Minecraft&apos;s day/night cycle. Customized for TNFC" 
+        />
+        <!-- Pack Customization Mods bah -->
         <mod
         name="Scripts" version="2.3" url="packs/TechNodefirmacraft/files/extract/scripts_2.3_base_build.zip" file="scripts_2.3_base_build.zip" md5="97d5bb98891d5df4c888856f77dde679" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
         /> 
         <mod
-        name="MineTweaker 3" version="3.0.10" url="packs/TechNodefirmacraft/files/1.7.10Mods/MineTweaker3-1.7.10-3.0.10.jar" file="MineTweaker3-1.7.10-3.0.10.jar" md5="5f304c1c65e1c443170111ae70ceca7a" download="server" type="mods" website="http://minetweaker3.powerofbytes.com" authors="Stan Hebben" description="Customize your minecraft experience!" client="yes" optional="no" server="yes" serveroptional="no"
+        name="MineTweaker 3" version="1.7.10-3.0.9C" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]MineTweaker3-1.7.10-3.0.9C.jar" file="[1.7.10]MineTweaker3-1.7.10-3.0.9C.jar" md5="fa05f1671f4cce65c9497c81e9212cca" download="server" type="mods" website="http://minetweaker3.powerofbytes.com" authors="Stan Hebben" description="Customize your minecraft experience!" client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod
         name="Mod Tweaker 2" version="0.9.3" url="packs/TechNodefirmacraft/files/1.7.10Mods/ModTweaker2-0.9.3.jar" file="ModTweaker2-0.9.3.jar" md5="d0a251dfad277ffd56da172f0e28fded" download="server" type="mods" website="http://minecraft.curseforge.com/mc-mods/220954-modtweaker" authors="Jaredlll08" description="ModTweaker is an addon for MineTweaker 3." client="yes" optional="no" server="yes" serveroptional="no"
@@ -244,9 +247,9 @@
         <mod 
         name="INpureCore" version="1.0.0B9-62" url="packs/TechNodefirmacraft/files/1.7.10Mods/INpureCore-[1.7.10]1.0.0B9-62.jar" file="INpureCore-[1.7.10]1.0.0B9-62.jar" md5="89c7b3835cd2bdba7d8d054d75c7460c" download="server" type="mods" website="http://www.curseforge.com/projects/223792/" authors="INpureProjects,denoflions" description="Culls duplicate and uncraftable items from NEI" client="yes" optional="yes" server="no" serveroptional="no" colour="gold" depends="CommonsCodec,CommonsCompress" recommended="yes"
          />
-        <mod
+<!--        <mod
         name="NEI Addons" version="1.12.12.37" url="packs/TechNodefirmacraft/files/1.7.10Mods/neiaddons-1.12.12.37-mc1.7.10.jar" file="neiaddons-1.12.12.37-mc1.7.10.jar" md5="7e977309f0440fe851f450d0d74af594" download="server" type="mods" website="http://www.minecraftforum.net/topic/1803460-" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=TV8GLNVZJGGG4" authors="bdew" description="Adds in mod integration into NEI by showing bee breeding information as well as other helpful mod plugins." client="yes" optional="no" server="no"
-        />
+        />-->
         <mod
         name="NEI Integration" version="1.0.12" url="packs/TechNodefirmacraft/files/1.7.10Mods/NEIIntegration-MC1.7.10-1.0.12.jar" file="NEIIntegration-MC1.7.10-1.0.12.jar" md5="ce52827985c6b803dbe1e19e14cb0317"  download="server" type="mods" website="http://minecraft.curseforge.com/mc-mods/225251-nei-integration/files" authors="tonius11" description="NEI handlers for all of the mods, one at a time." client="yes" optional="no" server="no"
         />
