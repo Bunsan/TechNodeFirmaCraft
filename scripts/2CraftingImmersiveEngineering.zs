@@ -266,7 +266,7 @@
 	//# Lapis
 	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:6> * 4, <terrafirmacraft:item.Ore:34>, 1000, null, 0.1);
 	//# Bones
-	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:15> * 2, <minecraft:bone>, 1000, null, 0.1);
+	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.dyePowder:15> * 2, <minecraft:bone>, 1000, null, 0.1);
 
 //Fermenter
 //#Removal

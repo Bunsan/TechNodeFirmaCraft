@@ -289,7 +289,7 @@ import minetweaker.data.IData;
 	//# Lapis
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Powder:6> * 4);
 	//# Bones
-	mods.mekanism.Crusher.addRecipe(<minecraft:bone>, <terrafirmacraft:item.Powder:15> * 2);
+	mods.mekanism.Crusher.addRecipe(<minecraft:bone>, <terrafirmacraft:item.dyePowder:15> * 2);
 //#BioFuel
 		for item in <ore:bagSeed>.items {
 	mods.mekanism.Crusher.addRecipe(item, <Mekanism:BioFuel> * 4);

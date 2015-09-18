@@ -628,7 +628,7 @@ mods.railcraft.RockCrusher.removeRecipe(<minecraft:mossy_cobblestone>);
 	//# Lapis
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:34>, true, false, [<terrafirmacraft:item.Powder:6> * 4], [1.0]);
 	//# Bones
-	mods.railcraft.RockCrusher.addRecipe(<minecraft:bone>, false, false, [<terrafirmacraft:item.Powder:15> * 2], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<minecraft:bone>, false, false, [<terrafirmacraft:item.dyePowder:15> * 2], [1.0]);
 
 	
 //# Ore Grinding
