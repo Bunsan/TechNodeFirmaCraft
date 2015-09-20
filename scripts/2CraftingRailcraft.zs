@@ -159,6 +159,12 @@
 
 // ================================================================================
 //#ADD SHAPELESS
+//# Coal Coke Conversions
+	recipes.addShapeless(<Railcraft:fuel.coke>, [<ImmersiveEngineering:material:6>]);
+	recipes.addShapeless(<ImmersiveEngineering:material:6>, [<Railcraft:fuel.coke>]);
+	recipes.addShapeless(<Railcraft:cube>, [<ImmersiveEngineering:stoneDecoration:3>]);
+	recipes.addShapeless(<ImmersiveEngineering:stoneDecoration:3>, [<Railcraft:cube>]);
+
 //# Bleached Clay
 	recipes.addShapeless(<Railcraft:part.bleached.clay>, [<ore:lumpClay>, <ore:dyeWhite>, <ore:dyeWhite>, <ore:dyeWhite>]);
 //# Wooden Rails
@@ -484,9 +490,9 @@ recipes.addShaped(<Railcraft:brick.nether:1>, [[<minecraft:netherbrick>, <terraf
 
 	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Bronze Double Ingot>, [[<terrafirmacraft:item.Bronze Ingot>, <terrafirmacraft:item.Bronze Ingot>], [<terrafirmacraft:item.Powder>, null]]);
 
-	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Bismuth Bronze Double Ingot>, [[<terrafirmacraft:item.Black Bronze Ingot>, <terrafirmacraft:item.Black Bronze Ingot>], [<terrafirmacraft:item.Powder>, null]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Black Bronze Double Ingot>, [[<terrafirmacraft:item.Black Bronze Ingot>, <terrafirmacraft:item.Black Bronze Ingot>], [<terrafirmacraft:item.Powder>, null]]);
 	
-	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Black Bronze Double Ingot>, [[<terrafirmacraft:item.Bismuth Bronze Ingot>, <terrafirmacraft:item.Bismuth Bronze Ingot>], [<terrafirmacraft:item.Powder>, null]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Bismuth Bronze Double Ingot>, [[<terrafirmacraft:item.Bismuth Bronze Ingot>, <terrafirmacraft:item.Bismuth Bronze Ingot>], [<terrafirmacraft:item.Powder>, null]]);
 
 		for item in <ore:ingotSteel>.items {
 	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Steel Double Ingot>, [[item, item], [<terrafirmacraft:item.Powder>, null]]);
