@@ -213,7 +213,7 @@ import minetweaker.data.IData;
         for item in saplingsTFC {
 	mods.forestry.Fermenter.addRecipe(item, <liquid:water>, 50, 1.6, <liquid:biomass>);
 	mods.forestry.Fermenter.addRecipe(item, <liquid:juice>, 50, 2.4, <liquid:biomass>);
-	mods.forestry.Fermenter.addRecipe(item, <liquid:honey>, 50, 2.4, <liquid:biomass>);
+	mods.forestry.Fermenter.addRecipe(item, <liquid:for.honey>, 50, 2.4, <liquid:biomass>);
         }
 
 	var fruitTreeTFC =[<terrafirmacraft:item.FruitSapling:0>, <terrafirmacraft:item.FruitSapling:1>, <terrafirmacraft:item.FruitSapling:2>, <terrafirmacraft:item.FruitSapling:3>, <terrafirmacraft:item.FruitSapling:4>, <terrafirmacraft:item.FruitSapling:5>, <terrafirmacraft:item.FruitSapling:6>, <terrafirmacraft:item.FruitSapling:7>, <terrafirmacraft:item.FruitSapling:8>] as IItemStack[];
@@ -221,44 +221,36 @@ import minetweaker.data.IData;
         for item in fruitTreeTFC {
 	mods.forestry.Fermenter.addRecipe(item, <liquid:water>, 50, 4, <liquid:biomass>);
 	mods.forestry.Fermenter.addRecipe(item, <liquid:juice>, 50, 6, <liquid:biomass>);
-	mods.forestry.Fermenter.addRecipe(item, <liquid:honey>, 50, 6, <liquid:biomass>);
+	mods.forestry.Fermenter.addRecipe(item, <liquid:for.honey>, 50, 6, <liquid:biomass>);
 	}
 
 		for item in <ore:bagSeed>.items {
 	mods.forestry.Fermenter.addRecipe(item, <liquid:water>, 50, 4, <liquid:biomass>);
 	mods.forestry.Fermenter.addRecipe(item, <liquid:juice>, 50, 6, <liquid:biomass>);
-	mods.forestry.Fermenter.addRecipe(item, <liquid:honey>, 50, 6, <liquid:biomass>);
+	mods.forestry.Fermenter.addRecipe(item, <liquid:for.honey>, 50, 6, <liquid:biomass>);
 		}
 
-
 // Squeezer Recipes
-//#Removal
+//#Removal *Not Working
 	//InputStack #ATTENTION : OutputFluid, currently
-	//mods.forestry.Squeezer.removeRecipe(<Forestry:crate>);
-//	mods.forestry.Squeezer.removeRecipe(<liquid:seedoil>, [<ImmersiveEngineering:seed>]);
 
-//#Addition
+//#Addition* Not Working
 	//Time recipe requires (Ticks), InputArray, OutputFluid, OutputStack, Chance for OutputStack //The last two are optional
-//	mods.forestry.Squeezer.addRecipe(4000, [<ImmersiveEngineering:seed>], <liquid:seedoil> * 120, <Forestry:mulch> * 1, 50);
-//	mods.forestry.Squeezer.addRecipe(<liquid:seedoil> * 100, 4000, [<ImmersiveEngineering:seed>]);
 
 // Still Recipes
 //#Removal
-	//InputFluid, OutputFluid
-	//mods.forestry.Still.removeRecipe(<liquid:biomass>, <liquid:bioethanol>);
+	//OutputFluid, InputFluid
+	mods.forestry.Still.removeRecipe(<liquid:for.honey>, <liquid:honey>);
 //#Addition
 	//Time recipe requires (Ticks), InputFluid, OutputFluid
-	//mods.forestry.Still.addRecipe(100, <liquid:juice> * 20, <liquid:bioethanol> * 20); 
+	//mods.forestry.Still.addRecipe(<liquid:lava>, <Forestry:ash>, 1000, [item]); 
 
 // Thermionic Fabricator Recipes
-//#Removal
+//#Removal * Not Working
 	//InputStack
 	//mods.forestry.ThermionicFabricator.removeSmelting(<minecraft:sand>); 
 	//OutputStack
 	//mods.forestry.ThermionicFabricator.removeCasts(<Forestry:stained>);
-//#Additioini
+//#Addition * Not Working
 	//InputStack, Melting Point, Amount of Molten Glass //Melting Point of 1000 for default Glass, 3000 for default Sand; Ouput of 1000mB for Sand & Glass, 375mB for Glass Panes
-//		for item in <ore:blockSand>.items {
-//	mods.forestry.ThermionicFabricator.addSmelting(item, 3000, 1000);
-//		}
 	//InputFluid, InputArray, InputStack Cast, OutputStack //InputFluid has to be Molten Glass

@@ -300,6 +300,7 @@
 	mods.immersiveengineering.Squeezer.addRecipe(<Forestry:mulch>, <liquid:plantoil> * 120, <Forestry:fruits>, 80);
 	mods.immersiveengineering.Squeezer.addRecipe(<Forestry:mulch>, <liquid:plantoil> * 180, <Forestry:fruits:1>, 80);
 	mods.immersiveengineering.Squeezer.addRecipe(<Forestry:mulch>, <liquid:plantoil> * 240, <Forestry:fruits:2>, 80);
+	mods.immersiveengineering.Squeezer.addRecipe(<Forestry:ash>, <liquid:lava> * 1000, <Forestry:phosphor>, 100);
 
 //ArcFurnace
 //#Removal
