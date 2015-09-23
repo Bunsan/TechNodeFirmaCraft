@@ -1,6 +1,84 @@
 {
   "_name": "pigZombieTFC",
-  "drops": [],
+  "drops": [
+            {
+            "function": "if_recently_hit",
+            "functions": [
+                {
+                  "_comment": "Uses potion effect to determine which zombie has been killed",
+                  "function": "if_has_potion_5",
+                  "functions": [
+                    {
+                      "function": "choose",
+                      "functions": [
+                        {
+                          "_comment": "Drop Exquisite Diamond or Weak Blue Steel Ingot",
+                          "weight": 1,
+                          "function": "add",
+                          "id": "terrafirmacraft:item.Diamond",
+                          "damage": 4
+                        },
+                        {
+                          "_comment": "Drop Exquisite Diamond or Weak Blue Steel Ingot",
+                          "weight": 25,
+                          "function": "add",
+                          "id": "terrafirmacraft:item.Diamond",
+                          "damage": 3
+                        },
+                        {
+                          "weight": 50,
+                          "function": "add",
+                          "id": "terrafirmacraft:item.Diamond",
+                          "damage": 2
+                        }
+                        ]
+                    },
+                    {
+                      "function": "add",
+                      "id": "terrafirmacraft:item.Weak Blue Steel Ingot",
+                      "count" : 1.0
+                    }
+                    ]
+                },
+                {
+                  "_comment": "Uses potion effect to determine which zombie has been killed",
+                  "function": "if_has_potion_1",
+                  "functions": [
+                    {
+                      "function": "choose",
+                      "functions": [
+                        {
+                          "_comment": "Drop Exquisite Diamond or Weak Blue Steel Ingot",
+                          "weight": 1,
+                          "function": "add",
+                          "id": "terrafirmacraft:item.Diamond",
+                          "damage": 4
+                        },
+                        {
+                          "_comment": "Drop Exquisite Diamond or Weak Blue Steel Ingot",
+                          "weight": 25,
+                          "function": "add",
+                          "id": "terrafirmacraft:item.Diamond",
+                          "damage": 3
+                        },
+                        {
+                          "weight": 50,
+                          "function": "add",
+                          "id": "terrafirmacraft:item.Diamond",
+                          "damage": 2
+                        }
+                        ]
+                    },
+                    {
+                      "function": "add",
+                      "id": "terrafirmacraft:item.Weak Red Steel Ingot",
+                      "count" : 1.0
+                    }
+                    ]
+                }
+                ]
+          }
+    ],
   "pre_stats": [],
   "stats": []
-}
+  }

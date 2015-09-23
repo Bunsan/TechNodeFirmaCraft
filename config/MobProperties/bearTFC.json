@@ -11,7 +11,7 @@
           "_comment": "Speed",
           "function": "modifier",
           "attribute": "generic.movementSpeed",
-          "value": 1.25~1.75,
+          "value": 1.00~1.50,
           "override": true
         },
         {

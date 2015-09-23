@@ -1,0 +1,27 @@
+version="2.8.3" url="packs/TechNodefirmacraft/files/1.7.10Mods/AOBD-2.8.3.jar" file="AOBD-2.8.3.jar" md5="161cd30e6b0acd01bebb07da2f2a222c"
+
+version="1.11.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/BiblioCraft[v1.11.0][MC1.7.10].jar" file="BiblioCraft[v1.11.0][MC1.7.10].jar" md5="3cff4206fe53545c5565cd77c6e957f6"
+
+version="1.8" url="packs/TechNodefirmacraft/files/1.7.10Mods/CustomMainMenu-MC1.7.10-1.8.jar" file="CustomMainMenu-MC1.7.10-1.8.jar" md5="31c55176f42960b1b547ed03e8d1a2ef"
+
+version="" url="packs/TechNodefirmacraft/files/1.7.10Mods/Farseek-1.0.8.jar" file="Farseek-1.0.8.jar" md5="f852a78e0f740981139455125ef8c749"
+
+version="1.59-dev-152-cf6e263" url="packs/TechNodefirmacraft/files/1.7.10Mods/InventoryTweaks-1.59-dev-152.jar" file="InventoryTweaks-1.59-dev-152.jar" md5="83f7ddcd5f5fd8d640aa15dc62acc6bf"
+
+version="2.1.9" url="packs/TechNodefirmacraft/files/1.7.10Mods/MapWriter-1.7.10-2.1.9.jar" file="MapWriter-1.7.10-2.1.9.jar" md5="df4ea43845befed3b8f2f06169f6577a" 
+
+version="0.9.3" url="packs/TechNodefirmacraft/files/1.7.10Mods/ModTweaker2-0.9.3.jar" file="ModTweaker2-0.9.3.jar" md5="d0a251dfad277ffd56da172f0e28fded"
+
+version="1.12.12.37" url="packs/TechNodefirmacraft/files/1.7.10Mods/neiaddons-1.12.12.37-mc1.7.10.jar" file="neiaddons-1.12.12.37-mc1.7.10.jar" md5="7e977309f0440fe851f450d0d74af594"
+
+version="1.5.17.33" url="packs/TechNodefirmacraft/files/1.7.10Mods/OpenComputers-MC1.7.10-1.5.17.33-universal.jar" file="OpenComputers-MC1.7.10-1.5.17.33-universal.jar" md5="c53da725f427346f2659b55c78ae24e7"
+
+version="1.11.3-123" url="packs/TechNodefirmacraft/files/1.7.10Mods/PneumaticCraft-1.7.10-1.11.3-123-universal.jar" file="PneumaticCraft-1.7.10-1.11.3-123-universal.jar" md5="ac1ac2ed768d7eb00ea221fcbd3ab49b"
+
+<mod name="Steve&apos;s Addons" version="0.10.16" url="packs/TechNodefirmacraft/files/1.7.10Mods/StevesAddons-1.7.10-0.10.16.jar" file="StevesAddons-1.7.10-0.10.16.jar" md5="a36495672c693817846fa703d562e6fe" download="server" type="mods" website="https://github.com/hilburn/StevesAddons" authors="hilburn" description="Adds extra things to improve SFM" />
+
+version="3.0.10" url="packs/TechNodefirmacraft/files/1.7.10Mods/MineTweaker3-1.7.10-3.0.10.jar" file="MineTweaker3-1.7.10-3.0.10.jar" md5="5f304c1c65e1c443170111ae70ceca7a" download="server"
+
+version="" url="packs/TechNodefirmacraft/files/1.7.10Mods/mod_voxelMap_1.5.17_for_1.7.10.litemod" file="mod_voxelMap_1.5.17_for_1.7.10.litemod" md5="6f4696e1bdd15bd3c3fed389898fd178" download="server"
+
+I download="server"
