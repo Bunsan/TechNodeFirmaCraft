@@ -4,8 +4,6 @@ tfcCopper
 tfcGold
 tfcPlatinum
 tfcIron
-tfcIron
-tfcIron
 tfcSilver
 tfcCassiterite
 tfcGalena

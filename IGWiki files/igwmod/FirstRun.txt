@@ -32,3 +32,4 @@ Grinding bones give bonemeal
 Phosphor can be processed in IE squeezer
 Forestry Seed Oil production increased.
 Thanks to Poundsy82 for the screenshot we included for the main menu. Always need more screenshots to replace Anode's crappy ones.
+Major set back in integrating Pixelmon. We are as disappointed as you are.
