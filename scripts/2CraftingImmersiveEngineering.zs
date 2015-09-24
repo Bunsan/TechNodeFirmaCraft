@@ -165,11 +165,11 @@
 //#Removal
 	//OutputStack
 	mods.immersiveengineering.CokeOven.removeRecipe(<ImmersiveEngineering:material:6>);
-	mods.immersiveengineering.CokeOven.removeRecipe(<ImmersiveEngineering:stoneDevice:3>);
+	mods.immersiveengineering.CokeOven.removeRecipe(<ImmersiveEngineering:stoneDecoration:3>);
 //#Addition
 	//OutputStack, FuelOutput, InputStack, Time in Ticks
 	mods.immersiveengineering.CokeOven.addRecipe(<ImmersiveEngineering:material:6>, 500, <terrafirmacraft:item.coal>, 900);
-	mods.immersiveengineering.CokeOven.addRecipe(<ImmersiveEngineering:stoneDevice:3>, 5000, <minecraft:coal_block>, 8100);
+	mods.immersiveengineering.CokeOven.addRecipe(<ImmersiveEngineering:stoneDecoration:3>, 5000, <minecraft:coal_block>, 8100);
 
 //Crusher
 //#Removal
