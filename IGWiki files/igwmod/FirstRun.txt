@@ -2,24 +2,34 @@
 
 This message will only automatically appear on first run.
 
-[prefix{l}]Version 2.2.1 It's the Little Things[prefix{}]
+[prefix{l}]2.4 - Electric Cooler Acid Test[prefix{}]
 
-No new mods or features this week. This is just a little update to address some issues that were blocking progression.
+You've reached the heights of technology; you jetpack about the world with nary a care; everything is automated. So why are you still storing your food in a dusty jar in some dark hole? Introducing the Electric Refrigerated Chest! Formerly known as the Mekanism Electric Chest this device, when provided with a constant stream of power, will keep your food items icy cold for long term preservation. Can also act as the ultimate place to cool off those hot metal items.  Of course, this functionality doesn't come cheap. The recipe is expensive, as-is the upkeep.
 
-- Craft steel slabs for Arc furnace.
-- Graphite Electrode loop unwound.
-- RC Blast Furnace Balance for coloured steel.
-- Bamboo blocks saw durability impact reduced.
-- Dispensers were uncraftable. Fixed.
-- IE drill heads can be repaired in crafting grid with 3 iron or 3 steel and the drill head.
-- Mek Crusher grinding bones produces usable product.
-- Mek Dynamic Tank Blocks Balanced to Railcraft Tank cost.
-- Mek SolarEvaporation now uses TFC biome temps.
-- Removed hemp fibre for string recipes.
-- Balanced Ropes+ to be able to use hemp for rope item.
-- Added Fishing rod recipe using hemp fibre.
-- Fixed Rolling Machine only outputting Bronze double ingot for all Bronze types.
-- Fixed Bee Recipes for Nether and Modest Lines.
+We've also fixed a number of other containers (BetterStorage) so that heat and food decay is also accounted for. No more cheaty chests for you!
 
 
-The InGameWiki (default: I) has two new pages on the Special Ores unique to TechNodeFirmaCraft and the Bee Recipes for unobtainable bees.
+Mods updated:
+TerraFirmaCraft
+TechNodefirmacraft
+OpenComputers 
+Pneumaticcraft 
+BetterStorage 
+Bibliocraft, 
+Another One Bites the Dust
+Mapwriter
+PlantMegaPack
+Mekanism
+
+Notes:
+
+BetterStorage and Mekanism containers will now properly manage heated items and food decay in chests/lockers.
+OpenComputers commands no longer available to all players.
+TFC fix for barrel dates on SMP and for warmed ingots being workable. 
+Plant Mega Pack Salves work again
+Bronze Double Ingot crafting in Rolling Machine returns correct output
+Grinding bones give bonemeal
+Phosphor can be processed in IE squeezer
+Forestry Seed Oil production increased.
+Thanks to Poundsy82 for the screenshot we included for the main menu. Always need more screenshots to replace Anode's crappy ones.
+Major set back in integrating Pixelmon. We are as disappointed as you are.
