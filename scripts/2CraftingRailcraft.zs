@@ -696,6 +696,6 @@ mods.railcraft.RockCrusher.removeRecipe(<minecraft:mossy_cobblestone>);
 	mods.railcraft.CokeOven.removeRecipe(<Railcraft:cube>);
 //InputStack, matchDamage, matchNBT, OutputStack, fluidOutput, Cook time
 	mods.railcraft.CokeOven.addRecipe(<minecraft:coal:0>, true, false, <ImmersiveEngineering:material:6>, <liquid:creosote> * 500, 1800);
-	mods.railcraft.CokeOven.addRecipe(<minecraft:coal_block>, true, false, <ImmersiveEngineering:stoneDevice:3>, <liquid:creosote> * 5000, 16200);
+	mods.railcraft.CokeOven.addRecipe(<minecraft:coal_block>, true, false, <ImmersiveEngineering:stoneDecoration:3>, <liquid:creosote> * 5000, 16200);
 
 
