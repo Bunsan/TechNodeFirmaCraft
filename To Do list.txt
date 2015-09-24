@@ -1,7 +1,6 @@
 To Do
 
 General
-- clean up and better organize scripts
 
 Future
 
