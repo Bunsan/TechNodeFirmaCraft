@@ -1,3 +1,109 @@
+[prefix{l}]2.4 - Electric Cooler Acid Test[prefix{}]
+
+You've reached the heights of technology; you jetpack about the world with nary a care; everything is automated. So why are you still storing your food in a dusty jar in some dark hole? Introducing the Electric Refrigerated Chest! Formerly known as the Mekanism Electric Chest this device, when provided with a constant stream of power, will keep your food items icy cold for long term preservation. Can also act as the ultimate place to cool off those hot metal items.  Of course, this functionality doesn't come cheap. The recipe is expensive, as-is the upkeep.
+
+We've also fixed a number of other containers (BetterStorage) so that heat and food decay is also accounted for. No more cheaty chests for you!
+
+
+Mods updated:
+TerraFirmaCraft
+TechNodefirmacraft
+OpenComputers 
+Pneumaticcraft 
+BetterStorage 
+Bibliocraft, 
+Another One Bites the Dust
+Mapwriter
+PlantMegaPack
+Mekanism
+
+Notes:
+
+BetterStorage and Mekanism containers will now properly manage heated items and food decay in chests/lockers.
+OpenComputers commands no longer available to all players.
+TFC fix for barrel dates on SMP and for warmed ingots being workable. 
+Plant Mega Pack Salves work again
+Bronze Double Ingot crafting in Rolling Machine returns correct output
+Grinding bones give bonemeal
+Phosphor can be processed in IE squeezer
+Forestry Seed Oil production increased.
+Thanks to Poundsy82 for the screenshot we included for the main menu. Always need more screenshots to replace Anode's crappy ones.
+
+
+[prefix{l}]Version 2.3.1 Blasting through the Roadblocks[prefix{}]
+
+Well after a number of issues we are finally able to bring you version 2.3.1. The changelog for 2.3 follows. 
+
+We are really excited to bring you variable day length. We have modified dmillerw's TooMuchTime mod to change the amount of daylight you get based on seasons. The day night cycle will vary between 15min of day and 5 min of night in Summer to 9min of day and 11min of dark in Winter. This really adds a nice feel for the seasons and we are really pleased with the result.
+
+Some of you may have experienced a crash with the 2.3 update that we pulled. There was a serious crash in TFC build 23 involving anvils and support beams. If you experienced a crash this TFC update should fix those worlds. Please let us know if you have any issue.
+
+New Mods:
+- TooMuchTime-TNFC version
+
+Updated Mods:
+- Terrafirmacraft
+
+Removed Mods:
+- NEI Addons (temporarily removed, causing NEI crash)
+
+[prefix{l}]Version 2.3 You've delved too deep[prefix{}]
+
+You’ve struggled and suffered. You’ve built and conquered. You’ve dug and mined. But you awoken something deep in the earth. They don’t want you plundering their treasures. You best be well armed and watch your back when you enter their territory.
+
+A larger Update this time. We’ve added Steve’s Addons for extended functionality and stability of Steve’s Factory Manager. We’ve also added TerraFirmaTweaker, but this is just the TFC module that was formally in ModTweaker2. There are also a lot of mods updated, see below. 
+
+The TFC update did remove a bunch of placeholder items and you will receive a warning when loading up your world. It is safe to say Yes.
+
+We have changed the optional mods. We are unable to support both PMP and Localized Weather and Storms as optional mods. As Weather has a definite effect on performance it will be mod that is optional. We’ve also removed the NEI plugins as options, as you do need them for many of the recipes.
+
+The rest is all bug fixes and some tweaks to improve balance, stability or just to be a bit kinder. As always please let us know of any issues you have.
+
+ New Mods
+- Steve's Addons
+- TerraFirmaTweaker
+- TooMuchTime_tnfcEdition
+
+Updated Mods
+- Terrafirmacraft
+- Terrafirmacraft NEI plugin
+- TNFCmod
+- Merchants
+- Decorations
+- Farseek (Streams Lib)
+- Pneumaticcraft
+- OpenComputers
+- Bibliocraft
+- BiblioWoods TFC
+- MineTweaker 3
+- ModTweaker 2
+- Another One Bites the Dust
+- Mob Properties
+- Custom Main Menu
+- NEI Addons
+- Inventory Tweaks
+- MapWriter 2
+- Voxel Map
+
+Bug Fixes
+- Horses will spawn again, new generation only unfortunately.
+- Recipe for Railcraft Metal Platforms added.
+- Recipe for Railcraft Iron Tank Valve fixed.
+- IE crate are uncraftable for balance and other issues. Existing crates will not disappear.
+
+Tweaks
+- Reduced Rate of Mob head drops
+- Reduced speed of Bear a little bit.
+- Recipe for Treated wood Slabs and Stairs adjusted.
+- Recipes for Omnidirectional and Liquid Hopper adjusted.
+- Ice added to Transport Crate (Mek Cardboard Box) Blacklist.
+- Balanced Bamboo growth and crafting
+- Removed Excess tooltips from PMP
+- Removed Reeds, soulsand and netherrack renders for Better Foliage to avoid confusion
+- NEI plugins are now required, because you really really do need them.
+- PMP is now required. It is not a performance hog and we can only offer one optional mod that requires scripts and Localized Weather and Storms (Weather2) can be a performance issue for older systems.
+- Removed Railcraft recipes for track and booster track (yes I do intend the generous TFC recipes)
+
 [prefix{l}]Version 2.2.3 It's the Little Things[prefix{}]
 
 No new mods or features this week. This is just a little update to address some issues that were blocking progression.
