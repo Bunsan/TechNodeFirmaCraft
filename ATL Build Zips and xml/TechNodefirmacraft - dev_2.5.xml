@@ -1,7 +1,7 @@
     <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>2.4</version>
+        <version>2.5</version>
         <minecraft>1.7.10</minecraft>
         <caseallfiles>lower</caseallfiles>
         <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
@@ -51,10 +51,10 @@
 <!-- Base Scripts -->
         <!-- Marquee Mods -->
         <mod 
-        name="TerraFirmaCraft" version="0.79.24.862-tnfc.2.4" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.24.862-tnfc.2.4.jar" file="[1.7.10]TerraFirmaCraft-0.79.24.862-tnfc.2.4.jar" md5="1b3c9b1931a94c3d9d9ca8e059f9872f" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="TerraFirmaCraft" version="0.79.24.818-tnfc.2.4" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]terrafirmacraft-0.79.24.818-tnfc.2.4.jar" file="[1.7.10]terrafirmacraft-0.79.24.818-tnfc.2.4.jar" md5="1b3c9b1931a94c3d9d9ca8e059f9872f" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod 
-        name="TechNodefirmacraft" version="2.4" url="packs/TechNodefirmacraft/files/1.7.10Mods/1.7.10-TechNodefirmacraft-2.4.jar" file="1.7.10-TechNodefirmacraft-2.4.jar" md5="d48999a8a7d7b31333275e9e1fac1f03" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="AnodeCathode, Bunsan" optional="no" description="Custom integration and features for TechNodefirmacraft modpack" client="yes" server="yes" serveroptional="no"
+        name="TechNodefirmacraft" version="2.5" url="packs/TechNodefirmacraft/files/1.7.10Mods/1.7.10-TechNodefirmacraft-2.5.jar" file="1.7.10-TechNodefirmacraft-2.5.jar" md5="fa2d13bca59a4d6e47d184dfc49d33d0" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="AnodeCathode, Bunsan" optional="no" description="Custom integration and features for TechNodefirmacraft modpack" client="yes" server="yes" serveroptional="no"
         />
         <mod 
         name="Railcraft" version="9.7.0.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/railcraft_1.7.10-9.7.0.0.jar" file="railcraft_1.7.10-9.7.0.0.jar" md5="e72e29cfc4c83a2b1c9ea19617448e51" download="server" type="mods" website="http://railcraft.info/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/mc-mods/51195-railcraft&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=CovertJaguar%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_return=http://m" authors="CovertJaguar" description="Redefine your rails" client="yes" server="yes" serveroptional="no" 
@@ -63,7 +63,7 @@
         name="Forestry for Minecraft" version="4.0.0.tnfc" url="packs/TechNodefirmacraft/files/1.7.10Mods/forestry_1.7.10-4.0.0.0-tnfc.jar" file="forestry_1.7.10-4.0.0.0-tnfc.jar" md5="ceaf44fc1e21696604301e730b4ec99c" download="server" type="mods" website="http://forestry.sengir.net/" authors="SirSengir" description="Trees, bees and more." client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod
-        name="PneumaticCraft" version="1.11.8-128" url="packs/TechNodefirmacraft/files/1.7.10Mods/PneumaticCraft-1.7.10-1.11.8-128-universal.jar" file="PneumaticCraft-1.7.10-1.11.8-128-universal.jar" md5="8a1e1ea65fc3396a6b9a3642b3893bfe" download="server" type="mods" website="http://www.minemaarten.com" authors="MineMaarten" description="A technical mod all about pneumatics!" client="yes" optional="no" server="yes" serveroptional="no"
+        name="PneumaticCraft" version="1.11.10-132" url="packs/TechNodefirmacraft/files/1.7.10Mods/PneumaticCraft-1.7.10-1.11.10-132-universal.jar" file="PneumaticCraft-1.7.10-1.11.10-132-universal.jar" md5="8dba5ad4a6247db02c4f98880900f2ef" download="server" type="mods" website="http://www.minemaarten.com" authors="MineMaarten" description="A technical mod all about pneumatics!" client="yes" optional="no" server="yes" serveroptional="no"
         />        
         <mod
         name="Steve&apos;s Factory Manager" version="A93" url="packs/TechNodefirmacraft/files/1.7.10Mods/StevesFactoryManagerA93.jar" file="StevesFactoryManagerA93.jar" md5="825819de2d82cf7e9118353c0fc821b6" download="server" type="mods" website="http://www.minecraftforum.net/topic/2211439-" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=Z7NBL3BRBCNFC" authors="Vswe" description="Steve&apos;s Factory Manager is a mod which allows you to set up systems that moves and manages items between inventories and machines" client="yes" optional="no" server="yes" serveroptional="no"
@@ -137,9 +137,15 @@
         <mod
         name="TooMuchTime" version="2.4.0.tnfc-4" url="packs/TechNodefirmacraft/files/1.7.10Mods/TooMuchTime-1.7.10-2.4.0.tnfc-4-universal.jar" file="TooMuchTime-1.7.10-2.4.0.tnfc-4-universal.jar" md5="86f100a5a3b1d1d53b515b8ad22558d6" download="server" type="mods" website="https://github.com/AnodeCathode/TooMuchTime" authors="dmillerw" description="Control over Minecraft&apos;s day/night cycle. Customized for TNFC" 
         />
+        <mod
+        name="Better Boat" version="1.1-tnfc" url="packs/TechNodefirmacraft/files/1.7.10Mods/BetterBoat-1.7.10-1.1-tnfc.jar" file="BetterBoat-1.7.10-1.1-tnfc.jar" md5="64ee56a7a7d292bb3acaa37a68950031" download="server" type="mods" website="https://github.com/AnodeCathode/BetterBoat" authors="SanAndreasP" description="This mod fixes several issues with vanilla boats." client="yes" optional="no" server="yes" serveroptional="no" 
+        />
+        <mod 
+        name="Tubestuff" version="59.0.4" url="packs/TechNodefirmacraft/files/1.7.10Mods/tubestuff-59.0.4.jar" file="tubestuff-59.0.4.jar" md5="719fd15812ff19b1eef4084b694caced" download="server" type="mods" website="http://www.minecraftforum.net/topic/1001131-110-immibiss-mods-smp/" authors="immibis" description="A collection of blocks that are useful." client="yes" optional="no" server="yes" serveroptional="no"
+        />
         <!-- Pack Customization Mods -->
         <mod
-        name="Scripts" version="2.4" url="packs/TechNodefirmacraft/files/extract/scripts_2.4_base.zip" file="scripts_2.4_base.zip" md5="be77c2975190a5c5618591516b8b32f0" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="Scripts" version="2.5" url="packs/TechNodefirmacraft/files/extract/scripts_base_dev_2.5.zip" file="scripts_base_dev_2.5.zip" md5="8c45b41ee2342e72a0f8a8e5d5908bc5" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
         /> 
         <mod
         name="MineTweaker 3" version="1.7.10-3.0.9C" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]MineTweaker3-1.7.10-3.0.9C.jar" file="[1.7.10]MineTweaker3-1.7.10-3.0.9C.jar" md5="fa05f1671f4cce65c9497c81e9212cca" download="server" type="mods" website="http://minetweaker3.powerofbytes.com" authors="Stan Hebben" description="Customize your minecraft experience!" client="yes" optional="no" server="yes" serveroptional="no"
@@ -239,7 +245,7 @@
         />
         <!-- WorldGen and User Information Optional Mods -->
         <mod
-        name="Farseek" version="1.0.8_tnfc" url="packs/TechNodefirmacraft/files/1.7.10Mods/Farseek-1.0.8_tnfc.jar" file="Farseek-1.0.8_tnfc.jar" md5="ac64b75680f60b220c84a82b4c83796d" download="server" type="mods" website="http://terrafirmacraft.com/f/topic/7850-tfc-07915-streams-real-flowing-rivers/" authors="delvr" description="Streams lib." client="yes" optional="yes" server="yes" serveroptional="yes" library="yes"
+        name="Farseek" version="1.0.9" url="packs/TechNodefirmacraft/files/1.7.10Mods/Farseek-1.0.9.jar" file="Farseek-1.0.9.jar" md5="dcc5fe4adf1a461c7bdcb43969aa2062" download="server" type="mods" website="http://terrafirmacraft.com/f/topic/7850-tfc-07915-streams-real-flowing-rivers/" authors="delvr" description="Streams lib." client="yes" optional="yes" server="yes" serveroptional="yes" library="yes"
         />
         <mod
         name="Streams" version="0.1.4" url="packs/TechNodefirmacraft/files/1.7.10Mods/Streams-0.1.4.jar" file="Streams-0.1.4.jar" md5="30cec0cc49a13df89c50c58c5cffc03e" download="server" type="mods" website="http://terrafirmacraft.com/f/topic/7850-tfc-07915-streams-real-flowing-rivers/" authors="delvr" description="Generates flowing river systems." client="yes" optional="yes" server="yes" serveroptional="yes" colour="cyan" depends="Farseek" recommended="yes"
@@ -304,17 +310,20 @@
         name="JourneyMap" version="5.1.0 FairPlay" url="http://minecraft.curseforge.com/mc-mods/32274-journeymap-32274/files/2245166/download" file="journeymap-1.7.10-5.1.0-fairplay.jar" md5="8daac8de9888b948d763610abf498f5a" download="direct" type="mods" website="http://journeymap.techbrew.net" donation="http://minecraft.curseforge.com/linkout?remoteUrl=http%253a%252f%252fwww.patreon.com%252ftechbrew" description="Mini-map client side mod. Suggested that you disable the exporting to browser map function to improve performance." client="yes" optional="yes" colour="yellow" group="minimap" server="no" recommended="no"
         />
         <mod
+        name="SimpleAutoRun" version="1.7.10-1.1.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/AutoRun-1.7.10-1.1.0.jar" file="AutoRun-1.7.10-1.1.0.jar" md5="59fc396baa1893a8ad777d9c32a7280f" download="server" type="mods" website="http://www.curseforge.com/projects/233577/" authors="Mysticdrew" description="Simple hotkey for Autorun" client="yes" optional="yes" recommended="yes" server="no" serveroptional="no" colour="green" 
+        />
+        <mod
         name="Optifine" version="HD_C1" url="http://optifine.net/adloadx?f=OptiFine_1.7.10_HD_C1.jar" file="OptiFine_1.7.10_HD_C1.jar" md5="C8B8E7E77130B205AC8B838667442000" download="browser" type="mods" website="https://optifine.net/home" donation="https://optifine.net/donate" description="USE AT OWN RISK. This mod adds support for HD textures and a lot of options for better looks and performance." client="yes" optional="yes" colour="red" server="no" recommended="no"
         />
         <!-- Scripts -->
         <mod
-        name="ScriptW2" version="2.4" url="packs/TechNodefirmacraft/files/extract/scripts_2.4_weather.zip" file="scripts_2.4_weather.zip" md5="14a972688a83d17ada5e3706e5bddbed" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Script for Weather2" client="yes" optional="yes" server="yes" serveroptional="yes" library="yes"
+        name="ScriptW2" version="2.5" url="packs/TechNodefirmacraft/files/extract/scripts_w2_dev_2.5.zip" file="scripts_w2_dev_2.5.zip" md5="ff1028287f75f908cd4da9404c9e298e" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Script for Weather2" client="yes" optional="yes" server="yes" serveroptional="yes" library="yes"
         />
         <mod 
         name="Resource Loaders Folder" version="2.4" url="packs/TechNodefirmacraft/files/extract/resources._2.4.zip" file="resources._2.4.zip" md5="4ff46bf3767a000449963512eae1805d" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="no"
         /> 
         <mod 
-        name="IGWModData" version="2.4" url="packs/TechNodefirmacraft/files/extract/igwmod_build2.4.zip" file="igwmod_build2.4.zip" md5="fffe56917f3f86917bd5dd27a54fbdfe" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
+        name="IGWModData" version="2.4" url="packs/TechNodefirmacraft/files/extract/igwmod_release2.4.zip" file="igwmod_release2.4.zip" md5="014a25e9bfb0f14ac575c156d9bec50d" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
         />
                 <!-- Development Tools (REMOVE FOR BUILD) -->
         <mod 
