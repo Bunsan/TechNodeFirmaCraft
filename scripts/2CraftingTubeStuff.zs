@@ -6,7 +6,6 @@ NEI.hide(<Tubestuff:machine:2>);
 NEI.hide(<Tubestuff:machine:4>);
 NEI.hide(<Tubestuff:machine:6>);
 NEI.hide(<Tubestuff:machine:8>);
-NEI.hide(<Tubestuff:machine:11>);
 NEI.hide(<Tubestuff:uselessItem>);
 // ================================================================================
 //#REMOVE Recipes
@@ -14,6 +13,7 @@ NEI.hide(<Tubestuff:uselessItem>);
 	recipes.remove(<Tubestuff:machine:3>);
 	recipes.remove(<Tubestuff:machine:7>);
 	recipes.remove(<Tubestuff:machine:9>);
+	recipes.remove(<Tubestuff:machine:11>);
 
 // ================================================================================
 //#ADD SHAPED
@@ -22,3 +22,4 @@ NEI.hide(<Tubestuff:uselessItem>);
 	recipes.addShapeless(<Tubestuff:machine:7>, [<Tubestuff:machine:3>, <terrafirmacraft:item.Wooden Bucket Empty>]);
 	recipes.addShaped(<Tubestuff:machine:9>, [[<ore:ingotGold>, <ore:dyeRed>, <ore:ingotGold>], [<ore:dyeGreen>, null, <ore:dyeGreen>], [<ore:ingotGold>, <ore:dyeRed>, <ore:ingotGold>]]);
 	recipes.addShaped(<Tubestuff:machine:9>, [[<ore:ingotGold>, <ore:dyeGreen>, <ore:ingotGold>], [<ore:dyeRed>, null, <ore:dyeRed>], [<ore:ingotGold>, <ore:dyeGreen>, <ore:ingotGold>]]);
+	recipes.addShaped(<Tubestuff:machine:11>, [[<ore:stoneCobble>, <ore:craftingChest>, <ore:stoneCobble>], [<ore:stoneCobble>, <ore:craftingPiston>, <ore:stoneCobble>], [<ore:stoneCobble>, <minecraft:redstone>, <ore:stoneCobble>]]);
