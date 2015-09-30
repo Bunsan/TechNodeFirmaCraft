@@ -22,4 +22,4 @@ NEI.hide(<Tubestuff:uselessItem>);
 	recipes.addShapeless(<Tubestuff:machine:7>, [<Tubestuff:machine:3>, <terrafirmacraft:item.Wooden Bucket Empty>]);
 	recipes.addShaped(<Tubestuff:machine:9>, [[<ore:ingotGold>, <ore:dyeRed>, <ore:ingotGold>], [<ore:dyeGreen>, null, <ore:dyeGreen>], [<ore:ingotGold>, <ore:dyeRed>, <ore:ingotGold>]]);
 	recipes.addShaped(<Tubestuff:machine:9>, [[<ore:ingotGold>, <ore:dyeGreen>, <ore:ingotGold>], [<ore:dyeRed>, null, <ore:dyeRed>], [<ore:ingotGold>, <ore:dyeGreen>, <ore:ingotGold>]]);
-	recipes.addShaped(<Tubestuff:machine:11>, [[<ore:stoneCobble>, <ore:craftingChest>, <ore:stoneCobble>], [<ore:stoneCobble>, <ore:craftingPiston>, <ore:stoneCobble>], [<ore:stoneCobble>, <minecraft:redstone>, <ore:stoneCobble>]]);
+	recipes.addShaped(<Tubestuff:machine:11>, [[<ore:stoneCobble>, <ore:craftingChest>, <ore:stoneCobble>], [<ore:stoneCobble>, <ore:craftingPiston>, <ore:stoneCobble>], [<ore:plateSteel>, <minecraft:redstone>, <ore:plateSteel>]]);
