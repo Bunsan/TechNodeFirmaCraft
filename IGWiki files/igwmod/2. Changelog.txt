@@ -1,3 +1,37 @@
+[prefix{l}]Version 2.5 - The Quest for Quests.[prefix{}]
+
+The big change in this version is the introduction of an HQM questline being developed by Aziel13. Currently a WIP, the quest line will provide a solid introduction to core TFC concepts. Further quest sets are in development to then introduce some of the major mods and their uses.
+
+We've also added a few new small mods to make life in TNFC a little easier. BetterBoats provides a better experience with vanilla boats, it will keep the boat from breaking and track your location closer to the server so that you don't warp 1000 blocks from your perceived location. SimpleAutoRun provides a hotkey to keep you running/boating even while chatting. The combination is very convenient for those long voyages.
+
+Finally, a longstanding bug with TFC has been squashed. The double chest bug, wherein a double chest would appear as two single chests and crash your client when opened has finally been sorted and fixed.
+
+Mods added:
+SimpleAutoRun - An optional mod that will make the long boat trips a little easier. Keeps you moving even while chatting.
+BetterBoats - Boats sync better in SMP and don't destruct when hitting land.
+TubeStuff - Item and Fluid void blocks, deployer and online player detector.
+
+Mods Updated:
+TerraFirmaCraft 
+TechNodefirmacraft 
+Farseek
+Pneumaticcraft
+Forestry
+MerchantsTFC
+DecorationsTFC
+MineTweaker
+ModTweaker
+AromaCore
+Better Foliage - Round logs in TFC
+
+Notes:
+Added a WIP version of the TechNodefirmaCraft HQM quests.
+Vanilla Cobble/Stone now needs Iron+ to very slowly mine. Also has stack size of 1.
+Balanced the stack size of bamboo and wood items. 
+Bamboo now requires an axe to chop.
+Fixed lack of Garnierite pile recipe in enrichment chamber
+Fabricator really does melt glass and glass panes now.
+
 [prefix{l}]2.4 - Electric Cooler Acid Test[prefix{}]
 
 You've reached the heights of technology; you jetpack about the world with nary a care; everything is automated. So why are you still storing your food in a dusty jar in some dark hole? Introducing the Electric Refrigerated Chest! Formerly known as the Mekanism Electric Chest this device, when provided with a constant stream of power, will keep your food items icy cold for long term preservation. Can also act as the ultimate place to cool off those hot metal items.  Of course, this functionality doesn't come cheap. The recipe is expensive, as-is the upkeep.

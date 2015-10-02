@@ -2,34 +2,36 @@
 
 This message will only automatically appear on first run.
 
-[prefix{l}]2.4 - Electric Cooler Acid Test[prefix{}]
+[prefix{l}]Version 2.5 - The Quest for Quests.[prefix{}]
 
-You've reached the heights of technology; you jetpack about the world with nary a care; everything is automated. So why are you still storing your food in a dusty jar in some dark hole? Introducing the Electric Refrigerated Chest! Formerly known as the Mekanism Electric Chest this device, when provided with a constant stream of power, will keep your food items icy cold for long term preservation. Can also act as the ultimate place to cool off those hot metal items.  Of course, this functionality doesn't come cheap. The recipe is expensive, as-is the upkeep.
+The big change in this version is the introduction of an HQM questline being developed by Aziel13. Currently a WIP, the quest line will provide a solid introduction to core TFC concepts. Further quest sets are in development to then introduce some of the major mods and their uses.
 
-We've also fixed a number of other containers (BetterStorage) so that heat and food decay is also accounted for. No more cheaty chests for you!
+We've also added a few new small mods to make life in TNFC a little easier. BetterBoats provides a better experience with vanilla boats, it will keep the boat from breaking and track your location closer to the server so that you don't warp 1000 blocks from your perceived location. SimpleAutoRun provides a hotkey to keep you running/boating even while chatting. The combination is very convenient for those long voyages.
 
+Finally, a longstanding bug with TFC has been squashed. The double chest bug, wherein a double chest would appear as two single chests and crash your client when opened has finally been sorted and fixed.
 
-Mods updated:
-TerraFirmaCraft
-TechNodefirmacraft
-OpenComputers 
-Pneumaticcraft 
-BetterStorage 
-Bibliocraft, 
-Another One Bites the Dust
-Mapwriter
-PlantMegaPack
-Mekanism
+Mods added:
+SimpleAutoRun - An optional mod that will make the long boat trips a little easier. Keeps you moving even while chatting.
+BetterBoats - Boats sync better in SMP and don't destruct when hitting land.
+TubeStuff - Item and Fluid void blocks, deployer and online player detector.
+
+Mods Updated:
+TerraFirmaCraft 
+TechNodefirmacraft 
+Farseek
+Pneumaticcraft
+Forestry
+MerchantsTFC
+DecorationsTFC
+MineTweaker
+ModTweaker
+AromaCore
+Better Foliage - Round logs in TFC
 
 Notes:
-
-BetterStorage and Mekanism containers will now properly manage heated items and food decay in chests/lockers.
-OpenComputers commands no longer available to all players.
-TFC fix for barrel dates on SMP and for warmed ingots being workable. 
-Plant Mega Pack Salves work again
-Bronze Double Ingot crafting in Rolling Machine returns correct output
-Grinding bones give bonemeal
-Phosphor can be processed in IE squeezer
-Forestry Seed Oil production increased.
-Thanks to Poundsy82 for the screenshot we included for the main menu. Always need more screenshots to replace Anode's crappy ones.
-Major set back in integrating Pixelmon. We are as disappointed as you are.
+Added a WIP version of the TechNodefirmaCraft HQM quests.
+Vanilla Cobble/Stone now needs Iron+ to very slowly mine. Also has stack size of 1.
+Balanced the stack size of bamboo and wood items. 
+Bamboo now requires an axe to chop.
+Fixed lack of Garnierite pile recipe in enrichment chamber
+Fabricator really does melt glass and glass panes now.
