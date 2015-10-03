@@ -1,0 +1,324 @@
+{
+  "changeBlocks":[
+    {
+      "name":"minecraft:cobblestone",
+      "maxStackSize": 1,
+      "harvestLevel": 3,
+      "toolClass": "pickaxe",
+      "hardness": 50,
+      "resistance": 2.5
+    },
+    {
+      "name":"minecraft:stone",
+      "maxStackSize": 1,
+      "harvestLevel": 3,
+      "toolClass": "pickaxe",
+      "hardness": 50,
+      "resistance": 2.5
+    },
+    {
+      "name": "Forestry:logs",
+      "maxStackSize": 16
+    },
+    {
+      "name": "Forestry:planks",
+      "maxStackSize": 32
+    },
+    {
+      "name": "Forestry:slabs",
+      "maxStackSize": 32
+    },
+    {
+      "name": "Forestry:stairs",
+      "maxStackSize": 32
+    },
+    {
+      "name": "Forestry:logsFireproof",
+      "maxStackSize": 16
+    },
+    {
+      "name": "Forestry:planksFireproof",
+      "maxStackSize": 32
+    },
+    {
+      "name": "Forestry:slabsFireproof",
+      "maxStackSize": 32
+    },
+    {
+      "name": "Forestry:stairsFireproof",
+      "maxStackSize": 32
+    },
+    {
+      "name": "minecraft:log",
+      "maxStackSize": 16
+    },
+    {
+      "name": "minecraft:planks",
+      "maxStackSize": 32
+    },
+    {
+      "name": "minecraft:wooden_slab",
+      "maxStackSize": 32
+    },
+    {
+      "name": "minecraft:oak_stairs",
+      "maxStackSize": 32
+    },
+    {
+      "name": "minecraft:birch_stairs",
+      "maxStackSize": 32
+    },
+    {
+      "name": "minecraft:spruce_stairs",
+      "maxStackSize": 32
+    },
+    {
+      "name": "minecraft:jungle_stairs",
+      "maxStackSize": 32
+    },
+    {
+      "name": "minecraft:dark_oak_stairs",
+      "maxStackSize": 32
+    },
+    {
+      "name": "minecraft:acacia_stairs",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooAsper",
+      "maxStackSize": 16,
+      "toolClass": "axe",
+      "hardness": 20,
+      "resistance": 0.5
+    },
+    {
+      "name": "plantmegapack:bambooAsperPole",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooAsperBlock",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooAsperStairs",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooAsperSlab",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooAsperDoor",
+      "maxStackSize": 1
+    },
+    {
+      "name": "plantmegapack:bambooFargesiaRobusta",
+      "maxStackSize": 16,
+      "toolClass": "axe",
+      "hardness": 20,
+      "resistance": 0.5
+    },
+    {
+      "name": "plantmegapack:bambooFargesiaRobustaPole",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooFargesiaRobustaBlock",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooFargesiaRobustaStairs",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooFargesiaRobustaSlab",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooFargesiaRobustaDoor",
+      "maxStackSize": 1
+    },
+    {
+      "name": "plantmegapack:bambooGiantTimber",
+      "maxStackSize": 16,
+      "toolClass": "axe",
+      "hardness": 20,
+      "resistance": 0.5    },
+    {
+      "name": "plantmegapack:bambooGiantTimberPole",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooGiantTimberBlock",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooGiantTimberStairs",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooGiantTimberSlab",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooGiantTimberDoor",
+      "maxStackSize": 1
+    },
+    {
+      "name": "plantmegapack:bambooGolden",
+      "maxStackSize": 16,
+      "toolClass": "axe",
+      "hardness": 20,
+      "resistance": 0.5    },
+    {
+      "name": "plantmegapack:bambooGoldenPole",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooGoldenBlock",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooGoldenStairs",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooGoldenSlab",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooGoldenDoor",
+      "maxStackSize": 1
+    },
+    {
+      "name": "plantmegapack:bambooMoso",
+      "maxStackSize": 16,
+      "toolClass": "axe",
+      "hardness": 20,
+      "resistance": 0.5    },
+    {
+      "name": "plantmegapack:bambooMosoPole",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooMosoBlock",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooMosoStairs",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooMosoSlab",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooMosoDoor",
+      "maxStackSize": 1
+    },
+    {
+      "name": "plantmegapack:bambooShortTassled",
+      "maxStackSize": 16,
+      "toolClass": "axe",
+      "hardness": 20,
+      "resistance": 0.5    },
+    {
+      "name": "plantmegapack:bambooShortTassledPole",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooShortTassledBlock",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooShortTassledStairs",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooShortTassledSlab",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooShortTassledDoor",
+      "maxStackSize": 1
+    },
+    {
+      "name": "plantmegapack:bambooTimorBlack",
+      "maxStackSize": 16,
+      "toolClass": "axe",
+      "hardness": 20,
+      "resistance": 0.5    },
+    {
+      "name": "plantmegapack:bambooTimorBlackPole",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooTimorBlackBlock",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooTimorBlackStairs",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooTimorBlackSlab",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooTimorBlackDoor",
+      "maxStackSize": 1
+    },
+    {
+      "name": "plantmegapack:bambooTropicalBlue",
+      "maxStackSize": 16,
+      "toolClass": "axe",
+      "hardness": 20,
+      "resistance": 0.5    },
+    {
+      "name": "plantmegapack:bambooTropicalBluePole",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooTropicalBlueBlock",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooTropicalBlueStairs",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooTropicalBlueSlab",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooTropicalBlueDoor",
+      "maxStackSize": 1
+    },
+    {
+      "name": "plantmegapack:bambooWetForest",
+      "maxStackSize": 16,
+      "toolClass": "axe",
+      "hardness": 20,
+      "resistance": 0.5    },
+    {
+      "name": "plantmegapack:bambooWetForestPole",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooWetForestBlock",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooWetForestStairs",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooWetForestSlab",
+      "maxStackSize": 32
+    },
+    {
+      "name": "plantmegapack:bambooWetForestDoor",
+      "maxStackSize": 1
+    }
+    ]
+}

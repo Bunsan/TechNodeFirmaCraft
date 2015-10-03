@@ -46,7 +46,7 @@ furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 
 <minecraft:bucket>.addTooltip(format.lightPurple("For when you've had a bit too much liquid."));
 
-<terrafirmacraft:item.Firestarter>.addTooltip(format.red("Fire pits and Forges must be properly sheltered."));
+<terrafirmacraft:item.Firestarter:*>.addTooltip(format.red("Fire pits and Forges must be properly sheltered."));
 
 <terrafirmacraft:item.Ore:18>.addTooltip(format.darkAqua("Eloraam's Glory"));
 

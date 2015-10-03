@@ -32,6 +32,7 @@ terrafirmacraft:Anvil2:1
 terrafirmacraft:Anvil2:2
 terrafirmacraft:Ice:0
 terrafirmacraft:Ice:1
+terrafirmacraft:ClayPottery
 Mekanism:MachineBlock:13
 plantmegapack:bambooAsper:0
 plantmegapack:bambooAsper:1

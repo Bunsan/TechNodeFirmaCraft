@@ -47,10 +47,11 @@
 	recipes.remove(<OpenComputers:switch>);
 	recipes.remove(<OpenComputers:waypoint>);
 	recipes.remove(<OpenComputers:item:30>);
-
+  recipes.remove(<OpenComputers:item:18>);
 // ================================================================================
 //#ADD SHAPELESS
 	recipes.addShapeless(<OpenComputers:item:30>, [<OpenComputers:item:17>, <customitems:block_of_clay>, <ore:dyeGreen>]);
+  recipes.addShapeless(<OpenComputers:item:18> * 8, [<minecraft:water_bucket>, <minecraft:bone>, <ore:slimeball>, <minecraft:sugar>, <minecraft:fermented_spider_eye>]);
 
 // ================================================================================
 //#ADD SHAPED

@@ -38,7 +38,6 @@
 	recipes.remove(<Railcraft:brick.sandy>);
 	recipes.remove(<Railcraft:brick.abyssal>);
 	recipes.remove(<Railcraft:brick.infernal>);
-	recipes.remove(<HardcoreQuesting:item_barrel>);
 
 //# Smoker
 	recipes.remove(<Railcraft:machine.alpha:5>);
