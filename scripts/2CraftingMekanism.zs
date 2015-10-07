@@ -83,7 +83,7 @@ import minetweaker.data.IData;
 	recipes.addShaped(<Mekanism:AtomicDisassembler:100>, [[<ore:alloyElite>, <ore:battery>, <ore:alloyElite>], [<ore:alloyElite>, <ore:alloyUltimate>, <ore:alloyElite>], [<terrafirmacraft:item.Blue Steel Double Sheet>, <ore:ingotRefinedObsidian>, <terrafirmacraft:item.Red Steel Double Sheet>]]);
 
 //#Flamethrower
-	recipes.addShaped(<Mekanism:Flamethrower:100>, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [<ore:ingotTin>, <Mekanism:GasTank:100>, <ore:toolFlintSteel>], [<ore:ingotBronze>, <ore:circuitAdvanced>, <ore:ingotBronze>]]);
+	recipes.addShaped(<Mekanism:Flamethrower:100>, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [<ore:ingotTin>, <Mekanism:GasTank:100>, <ore:toolFlintSteel>], [<ore:ingotAnyBronze>, <ore:circuitAdvanced>, <ore:ingotAnyBronze>]]);
 
 //#Mek Dynamic Valve
 	recipes.addShaped(<Mekanism:BasicBlock:11> * 2, [[null, <ore:plateSteel>, null], [<ore:craftingToolHardHammer>.transformDamage(), <ore:circuitBasic>, null], [null, <ore:plateSteel>, null]]);
@@ -185,7 +185,7 @@ import minetweaker.data.IData;
 	recipes.addShaped(<Mekanism:MachineBlock2:6>, [[<ore:circuitAdvanced>, <Mekanism:GasTank:100>, <ore:circuitAdvanced>], [<ore:alloyAdvanced>, <Mekanism:BasicBlock:9>, <ore:alloyAdvanced>], [<ore:plateBlackSteel>, <Mekanism:GasTank:100>, <ore:plateBlackSteel>]]);
 	recipes.addShaped(<Mekanism:MachineBlock2:2>, [[<ore:alloyAdvanced>, <ore:circuitAdvanced>, <ore:alloyAdvanced>], [<Mekanism:GasTank:100>, <Mekanism:BasicBlock:9>, <Mekanism:GasTank:100>], [<ore:alloyAdvanced>, <terrafirmacraft:item.Black Steel Double Sheet>, <ore:alloyAdvanced>]]);
 	recipes.addShaped(<Mekanism:MachineBlock2:1>, [[<ore:alloyAdvanced>, <ore:circuitAdvanced>, <ore:alloyAdvanced>], [<Mekanism:MachineBlock:13>, <Mekanism:BasicBlock:9>, <Mekanism:GasTank:100>], [<ore:alloyAdvanced>, <terrafirmacraft:item.Black Steel Double Sheet>, <ore:alloyAdvanced>]]);
-	recipes.addShaped(<Mekanism:MachineBlock:13>, [[<ore:plateDoubleRedSteel>, <ore:blockGlass>, <ore:plateDoubleBlueSteel>], [<ore:craftingChest>, <ore:circuitUltimate>, <ore:craftingChest>], [<ore:plateDoubleBlackSteel>, <ore:plateDoubleBlackSteel>, <ore:plateDoubleBlackSteel>]]);
+	recipes.addShaped(<Mekanism:MachineBlock:13>, [[<ore:plateDoubleRedSteel>, <ore:blockGlass>, <ore:plateDoubleBlueSteel>], [<ore:chestWood>, <ore:circuitUltimate>, <ore:chestWood>], [<ore:plateDoubleBlackSteel>, <ore:plateDoubleBlackSteel>, <ore:plateDoubleBlackSteel>]]);
 	recipes.addShaped(<Mekanism:MachineBlock2:3>, [[<ore:alloyElite>, <ore:circuitElite>, <ore:alloyElite>], [<terrafirmacraft:item.Rose Gold Double Ingot>, <Mekanism:MachineBlock:9>, <terrafirmacraft:item.Rose Gold Double Ingot>], [<ore:alloyElite>, <ore:circuitElite>, <ore:alloyElite>]]);
 	recipes.addShaped(<Mekanism:MachineBlock:10>, [[<ore:dustRedstone>, <ore:circuitAdvanced>, <ore:dustRedstone>], [<terrafirmacraft:item.Red Steel Bucket Water>, <Mekanism:BasicBlock:8>, <terrafirmacraft:item.Blue Steel Bucket Lava>], [<ore:dustRedstone>, <ore:ingotDoubleBlackSteel>, <ore:dustRedstone>]]);
 	recipes.addShaped(<Mekanism:MachineBlock:9>, [[<ore:alloyAdvanced>, <ore:circuitAdvanced>, <ore:alloyAdvanced>], [<terrafirmacraft:item.Blue Steel Double Ingot>, <Mekanism:MachineBlock>, <terrafirmacraft:item.Blue Steel Double Ingot>], [<ore:alloyAdvanced>, <ore:ingotDoubleBlueSteel>, <ore:alloyAdvanced>]]);

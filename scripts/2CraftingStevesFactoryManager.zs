@@ -31,5 +31,5 @@
 
 	recipes.addShaped(<StevesFactoryManager:BlockCableIntakeName:8>, [[<StevesFactoryManager:BlockCableIntakeName>, <ore:ingotGold>], [<ore:itemHammer>, <ore:craftingToolHardChisel>.transformDamage()]]);
 	recipes.addShaped(<StevesFactoryManager:BlockCableRelayName>, [[<ore:itemHammer>, <StevesFactoryManager:BlockCableName>, <ore:craftingToolHardChisel>.transformDamage()], [null, <minecraft:hopper>, null]]);
-	recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[null, <ore:plateDoubleWroughtIron>, null], [<ore:itemHammer>, <ore:blockRedstone>, <ore:craftingToolHardChisel>.transformDamage()], [<ore:stoneRaw>, <ore:craftingPiston>, <ore:stoneRaw>]]);
+	recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[null, <ore:plateDoubleWroughtIron>, null], [<ore:itemHammer>, <ore:blockRedstone>, <ore:craftingToolHardChisel>.transformDamage()], [<ore:stoneAny>, <ore:craftingPiston>, <ore:stoneAny>]]);
 	recipes.addShaped(<StevesFactoryManager:BlockCableName> * 8, [[<ore:blockGlassColorless>, <minecraft:light_weighted_pressure_plate>, <ore:blockGlassColorless>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>], [<ore:blockGlassColorless>, <minecraft:light_weighted_pressure_plate>, <ore:blockGlassColorless>]]);

@@ -26,9 +26,9 @@
 	recipes.addShaped(<JABBA:upgradeStructural:3>, [[<ore:fenceWood>, <ore:plankWood>, <ore:fenceWood>], [<ore:plankWood>, <ore:ingotSteel>, <ore:plankWood>], [<ore:fenceWood>, <ore:plankWood>, <ore:fenceWood>]]);
 	recipes.addShaped(<JABBA:upgradeStructural:2>, [[<ore:fenceWood>, <ore:plankWood>, <ore:fenceWood>], [<ore:plankWood>, <ore:ingotIron>, <ore:plankWood>], [<ore:fenceWood>, <ore:plankWood>, <ore:fenceWood>]]);
 	recipes.addShaped(<JABBA:upgradeStructural:1>, [[<ore:fenceWood>, <ore:plankWood>, <ore:fenceWood>], [<ore:plankWood>, <ore:ingotGold>, <ore:plankWood>], [<ore:fenceWood>, <ore:plankWood>, <ore:fenceWood>]]);
-	recipes.addShaped(<JABBA:upgradeStructural>, [[<ore:fenceWood>, <ore:plankWood>, <ore:fenceWood>], [<ore:plankWood>, <ore:ingotBronze>, <ore:plankWood>], [<ore:fenceWood>, <ore:plankWood>, <ore:fenceWood>]]);
+	recipes.addShaped(<JABBA:upgradeStructural>, [[<ore:fenceWood>, <ore:plankWood>, <ore:fenceWood>], [<ore:plankWood>, <ore:ingotAnyBronze>, <ore:plankWood>], [<ore:fenceWood>, <ore:plankWood>, <ore:fenceWood>]]);
 	recipes.addShaped(<JABBA:upgradeCore:7>, [[null, <ore:craftingToolMediumHammer>.transformDamage(), null], [null, <ore:obsidian>, null], [null, <ore:craftingPiston>, null]]);
 	recipes.addShaped(<JABBA:upgradeCore:2>, [[null, <ore:craftingToolMediumHammer>.transformDamage(), null], [null, <minecraft:redstone_block>, null], [null, <ore:craftingPiston>, null]]);
 	recipes.addShaped(<JABBA:upgradeCore:3>, [[null, <ore:craftingToolMediumHammer>.transformDamage(), null], [null, <minecraft:hopper>, null], [null, <ore:craftingPiston>, null]]);
 	recipes.addShaped(<JABBA:upgradeCore>, [[null, <ore:craftingToolMediumHammer>.transformDamage(), null], [null, <JABBA:barrel>, null], [null, <ore:craftingPiston>, null]]);
-	recipes.addShaped(<JABBA:barrel>, [[<ore:logWood>, <ore:craftingToolSaw>.transformDamage(), <ore:logWood>], [<ore:logWood>, <ore:craftingChest>, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
+	recipes.addShaped(<JABBA:barrel>, [[<ore:logWood>, <ore:craftingToolSaw>.transformDamage(), <ore:logWood>], [<ore:logWood>, <ore:chestWood>, <ore:logWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);

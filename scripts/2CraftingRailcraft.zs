@@ -299,7 +299,7 @@
 	recipes.addShaped(<Railcraft:cart.track.layer>, [[<ore:dyeYellow>, <minecraft:redstone_lamp>, <ore:dyeYellow>], [<terrafirmacraft:Anvil:3>, <ore:blockSteel>, <terrafirmacraft:Anvil:3>], [<minecraft:dispenser>, <minecraft:minecart>, <minecraft:dispenser>]]);
 	recipes.addShaped(<Railcraft:cart.undercutter>, [[<ore:dyeYellow>, <minecraft:redstone_lamp>, <ore:dyeYellow>], [<ore:craftingPiston>, <ore:blockSteel>, <ore:craftingPiston>], [<terrafirmacraft:item.Wrought Iron Shovel>, <minecraft:minecart>, <terrafirmacraft:item.Wrought Iron Shovel>]]);
 	recipes.addShaped(<Railcraft:cart.track.relayer>, [[<ore:dyeYellow>, <minecraft:redstone_lamp>, <ore:dyeYellow>], [<ore:oreStrontium>, <ore:blockSteel>, <ore:oreStrontium>], [<terrafirmacraft:item.Wrought Iron Pick>, <minecraft:minecart>, <terrafirmacraft:item.Wrought Iron Pick>]]);
-	recipes.addShaped(<Railcraft:cart.bore>, [[<ore:plateDoubleSteel>, <minecraft:minecart>, <ore:plateDoubleSteel>], [<Railcraft:machine.beta:5>, <minecraft:minecart>, <Railcraft:machine.beta:5>], [null, <ore:craftingChest>, null]]);
+	recipes.addShaped(<Railcraft:cart.bore>, [[<ore:plateDoubleSteel>, <minecraft:minecart>, <ore:plateDoubleSteel>], [<Railcraft:machine.beta:5>, <minecraft:minecart>, <Railcraft:machine.beta:5>], [null, <ore:chestWood>, null]]);
 	recipes.addShaped(<Railcraft:borehead.steel>, [[null, <ore:plateSteel>, null], [<ore:plateSteel>, <ore:blockSteel>, <ore:plateSteel>], [null, <ore:plateSteel>, null]]);
 	recipes.addShaped(<Railcraft:borehead.diamond>, [[<ore:gemDiamond>, <ore:plateSteel>, <ore:gemDiamond>], [<ore:plateSteel>, <ore:gemDiamond>, <ore:plateSteel>], [<ore:gemDiamond>, <ore:plateSteel>, <ore:gemDiamond>]]);
 //# Armour and Tools
@@ -329,17 +329,17 @@
 	recipes.addShaped(<Railcraft:post:6> * 4, [[<ore:plateAnyBronze>], [<Railcraft:post:2>]]);
 
 //# Concrete
-	recipes.addShaped(<Railcraft:cube:1> * 8, [[<ore:stoneRaw>, <Railcraft:part.rebar>, <ore:stoneRaw>], [<Railcraft:part.rebar>, <ore:stoneRaw>, <Railcraft:part.rebar>], [<ore:stoneRaw>, <Railcraft:part.rebar>, <ore:stoneRaw>]]);
+	recipes.addShaped(<Railcraft:cube:1> * 8, [[<ore:stoneAny>, <Railcraft:part.rebar>, <ore:stoneAny>], [<Railcraft:part.rebar>, <ore:stoneAny>, <Railcraft:part.rebar>], [<ore:stoneAny>, <Railcraft:part.rebar>, <ore:stoneAny>]]);
 
 //# Raw/Smooth Stone to Railcraft cobble/raw stone
-	recipes.addShaped(<Railcraft:brick.infernal:5> * 8, [[<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:dyeGray>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>]]);
-	recipes.addShaped(<Railcraft:cube:6> * 8, [[<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:dyeBlack>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>]]);
-	recipes.addShaped(<Railcraft:brick.sandy:5> * 8, [[<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:blockSand>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>]]);
-	recipes.addShaped(<Railcraft:brick.frostbound:5> * 8, [[<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:dyeBlue>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>]]);
-	recipes.addShaped(<Railcraft:cube:7> * 8, [[<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:dyeWhite>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>]]);
-	recipes.addShaped(<Railcraft:brick.bleachedbone:5> * 8, [[<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>], [<ore:stoneRaw>, <Railcraft:part.bleached.clay>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>]]);
-	recipes.addShaped(<Railcraft:brick.bloodstained:5> * 8, [[<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>], [<ore:stoneRaw>, <minecraft:rotten_flesh>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>]]);
-	recipes.addShaped(<Railcraft:brick.nether:5> * 8, [[<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneNetherrack>, <ore:stoneRaw>], [<ore:stoneRaw>, <ore:stoneRaw>, <ore:stoneRaw>]]);
+	recipes.addShaped(<Railcraft:brick.infernal:5> * 8, [[<ore:stoneAny>, <ore:stoneAny>, <ore:stoneAny>], [<ore:stoneAny>, <ore:dyeGray>, <ore:stoneAny>], [<ore:stoneAny>, <ore:stoneAny>, <ore:stoneAny>]]);
+	recipes.addShaped(<Railcraft:cube:6> * 8, [[<ore:stoneAny>, <ore:stoneAny>, <ore:stoneAny>], [<ore:stoneAny>, <ore:dyeBlack>, <ore:stoneAny>], [<ore:stoneAny>, <ore:stoneAny>, <ore:stoneAny>]]);
+	recipes.addShaped(<Railcraft:brick.sandy:5> * 8, [[<ore:stoneAny>, <ore:stoneAny>, <ore:stoneAny>], [<ore:stoneAny>, <ore:blockSand>, <ore:stoneAny>], [<ore:stoneAny>, <ore:stoneAny>, <ore:stoneAny>]]);
+	recipes.addShaped(<Railcraft:brick.frostbound:5> * 8, [[<ore:stoneAny>, <ore:stoneAny>, <ore:stoneAny>], [<ore:stoneAny>, <ore:dyeBlue>, <ore:stoneAny>], [<ore:stoneAny>, <ore:stoneAny>, <ore:stoneAny>]]);
+	recipes.addShaped(<Railcraft:cube:7> * 8, [[<ore:stoneAny>, <ore:stoneAny>, <ore:stoneAny>], [<ore:stoneAny>, <ore:dyeWhite>, <ore:stoneAny>], [<ore:stoneAny>, <ore:stoneAny>, <ore:stoneAny>]]);
+	recipes.addShaped(<Railcraft:brick.bleachedbone:5> * 8, [[<ore:stoneAny>, <ore:stoneAny>, <ore:stoneAny>], [<ore:stoneAny>, <Railcraft:part.bleached.clay>, <ore:stoneAny>], [<ore:stoneAny>, <ore:stoneAny>, <ore:stoneAny>]]);
+	recipes.addShaped(<Railcraft:brick.bloodstained:5> * 8, [[<ore:stoneAny>, <ore:stoneAny>, <ore:stoneAny>], [<ore:stoneAny>, <minecraft:rotten_flesh>, <ore:stoneAny>], [<ore:stoneAny>, <ore:stoneAny>, <ore:stoneAny>]]);
+	recipes.addShaped(<Railcraft:brick.nether:5> * 8, [[<ore:stoneAny>, <ore:stoneAny>, <ore:stoneAny>], [<ore:stoneAny>, <ore:stoneNetherrack>, <ore:stoneAny>], [<ore:stoneAny>, <ore:stoneAny>, <ore:stoneAny>]]);
 
 //# Readd nether brick recipe
 
@@ -581,7 +581,7 @@ recipes.addShaped(<Railcraft:brick.nether:1>, [[<minecraft:netherbrick>, <terraf
 
 //# REBAR POSTS
 	mods.railcraft.Rolling.addShaped(<Railcraft:part.rebar> * 16, [[null, null, <terrafirmacraft:item.Wrought Iron Ingot>], [null,  <terrafirmacraft:item.Wrought Iron Ingot>, null], [<terrafirmacraft:item.Wrought Iron Ingot>, null, null]]);
-	mods.railcraft.Rolling.addShaped(<Railcraft:part.rebar> * 8, [[null, null, <ore:ingotBronze>], [null,  <ore:ingotBronze>, null], [<ore:ingotBronze>, null, null]]);
+	mods.railcraft.Rolling.addShaped(<Railcraft:part.rebar> * 8, [[null, null, <ore:ingotAnyBronze>], [null,  <ore:ingotAnyBronze>, null], [<ore:ingotAnyBronze>, null, null]]);
 	mods.railcraft.Rolling.addShaped(<Railcraft:post:2> * 16, [[<terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>], [null,  <terrafirmacraft:item.Wrought Iron Ingot>, null], [<terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>]]);
 	mods.railcraft.Rolling.addShaped(<Railcraft:post:2> * 16, [[<terrafirmacraft:item.Wrought Iron Ingot>, null, <terrafirmacraft:item.Wrought Iron Ingot>], [<terrafirmacraft:item.Wrought Iron Ingot>,  <terrafirmacraft:item.Wrought Iron Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>], [<terrafirmacraft:item.Wrought Iron Ingot>, null, <terrafirmacraft:item.Wrought Iron Ingot>]]);
 
