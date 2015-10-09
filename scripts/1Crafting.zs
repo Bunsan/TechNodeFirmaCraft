@@ -343,7 +343,7 @@ furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 
 //# Stone Slabs
 
-	recipes.addShaped(<minecraft:stone_slab> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<ore:stone>, <ore:stone>, <ore:stone>]]);
+	recipes.addShaped(<minecraft:stone_slab> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>]]);
 
 //# Quartz Blocks
 	recipes.addShaped(<minecraft:quartz_block>, [[<ore:gemQuartz>, <terrafirmacraft:item.Mortar>, <ore:gemQuartz>], [<terrafirmacraft:item.Mortar>, <terrafirmacraft:item.dyePowder:15>, <terrafirmacraft:item.Mortar>], [<ore:gemQuartz>, <terrafirmacraft:item.Mortar>, <ore:gemQuartz>]]);
