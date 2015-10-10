@@ -1,7 +1,7 @@
     <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>2.5.2</version>
+        <version>2.6</version>
         <minecraft>1.7.10</minecraft>
         <caseallfiles>lower</caseallfiles>
         <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
@@ -52,7 +52,7 @@
 <!-- Base Scripts -->
         <!-- Marquee Mods -->
         <mod 
-        name="TerraFirmaCraft" version="0.79.24_tnfc_2.5.2" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.24_tnfc_fukitty.jar" file="[1.7.10]TerraFirmaCraft-0.79.24_tnfc_fukitty.jar" md5="d89a079cb977562826d41b84be6ad11c" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="TerraFirmaCraft" version="0.79.24_tnfc_2.5.2" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.24_tnfc_2.5.2.jar" file="[1.7.10]TerraFirmaCraft-0.79.24_tnfc_2.5.2.jar" md5="b6282727e7d970da16ee506a07438621" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod 
         name="TechNodefirmacraft" version="2.5.2" url="packs/TechNodefirmacraft/files/1.7.10Mods/1.7.10-TechNodefirmacraft-2.5.2.jar" file="1.7.10-TechNodefirmacraft-2.5.2.jar" md5="6272641f957102fb95a99e23995f7c7d" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="AnodeCathode, Bunsan" optional="no" description="Custom integration and features for TechNodefirmacraft modpack" client="yes" server="yes" serveroptional="no"
@@ -324,7 +324,7 @@
         />
         <!-- Scripts -->
         <mod
-        name="ScriptW2" version="w2_dev_2.5.2" url="packs/TechNodefirmacraft/files/extract/scripts_w2_dev_2.5.2.zip" file="scripts_w2_dev_2.5.2.zip" md5="c665e597812c52612e6f86fa3d80e59a" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Script for Weather2" client="yes" optional="yes" server="yes" serveroptional="yes" library="yes"
+        name="ScriptW2" version="w2_dev_2.5.2"  url="packs/TechNodefirmacraft/files/extract/scripts_w2_dev_2.5.2.zip" file="scripts_w2_dev_2.5.2.zip" md5="40310544eccffb296133064a58e95727" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Script for Weather2" client="yes" optional="yes" server="yes" serveroptional="yes" library="yes"
         />
         <mod 
         name="Resource Loaders Folder" version="2.4" url="packs/TechNodefirmacraft/files/extract/resources._2.4.zip" file="resources._2.4.zip" md5="4ff46bf3767a000449963512eae1805d" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="no"
