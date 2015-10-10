@@ -242,7 +242,7 @@
         />
         <!-- Optional Mods -->
         <mod
-        name="HQM Quest Line" version="2.5.2" url="packs/TechNodefirmacraft/files/extract/config_HQM_Quests_2.5.2.zip" file="config_HQM_Quests_2.5.2.zip" md5="32eb001354fe954aff3f97dc8160866e" download="server" type="extract" extractto="root" website="https://github.com/aziel13/TechNodeFirmaCraftQuest" description="HQM Questline for TNFC" client="yes" optional="yes" server="yes" serveroptional="yes" colour="violet" recommended="yes" group="quests" depends="Hardcore Questing Mode"
+        name="HQM Quest Line" version="2.5.2" url="packs/TechNodefirmacraft/files/extract/config_HQM_Quests_2.5.2.zip" file="config_HQM_Quests_2.5.2.zip" md5="f46051efc74b883d4ed1a10c5b4a1104" download="server" type="extract" extractto="root" website="https://github.com/aziel13/TechNodeFirmaCraftQuest" description="HQM Questline for TNFC" client="yes" optional="yes" server="yes" serveroptional="yes" colour="violet" recommended="yes" group="quests" depends="Hardcore Questing Mode"
         />
         <mod
         name="FastCraft" version="1.21" url="packs/TechNodefirmacraft/files/1.7.10Mods/fastcraft-1.21.jar" file="fastcraft-1.21.jar" md5="f1f33a007d6a78d68e6bb217a6ffdb9e" download="server" type="mods" website="http://forum.industrial-craft.net/index.php?page=Thread&amp;threadID=10820" authors="Player" description="FastCraft optimizes MineCraft in various ways, visit the homepage for further details and support." client="yes" optional="yes" server="yes" serveroptional="yes" colour="purple" recommended="yes"
@@ -260,8 +260,8 @@
         <mod 
         name="INpureCore" version="1.0.0B9-62" url="packs/TechNodefirmacraft/files/1.7.10Mods/INpureCore-[1.7.10]1.0.0B9-62.jar" file="INpureCore-[1.7.10]1.0.0B9-62.jar" md5="89c7b3835cd2bdba7d8d054d75c7460c" download="server" type="mods" website="http://www.curseforge.com/projects/223792/" authors="INpureProjects,denoflions" description="Culls duplicate and uncraftable items from NEI" client="yes" optional="yes" server="no" serveroptional="no" colour="gold" depends="CommonsCodec,CommonsCompress" recommended="yes"
          />
-        <mod
-        name="NEI Addons" version="fu-1.12.13.6" url="packs/TechNodefirmacraft/files/1.7.10Mods/neiaddons-fu-1.12.13.6-mc1.7.10.jar" file="neiaddons-fu-1.12.13.6-mc1.7.10.jar" md5="292b808a237950e16a6cd01317ac8515" download="server" type="mods" website="http://www.minecraftforum.net/topic/1803460-" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=TV8GLNVZJGGG4" authors="bdew" description="Adds in mod integration into NEI by showing bee breeding information as well as other helpful mod plugins." client="yes" optional="no" server="no"
+<!--        <mod
+        name="NEI Addons" version="fu-1.12.13.6" url="packs/TechNodefirmacraft/files/1.7.10Mods/neiaddons-fu-1.12.13.6-mc1.7.10.jar" file="neiaddons-fu-1.12.13.6-mc1.7.10.jar" md5="292b808a237950e16a6cd01317ac8515" download="server" type="mods" website="http://www.minecraftforum.net/topic/1803460-" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=TV8GLNVZJGGG4" authors="bdew" description="Adds in mod integration into NEI by showing bee breeding information as well as other helpful mod plugins." client="yes" optional="no" server="no"</mod> -->
         />
         <mod
         name="NEI Integration" version="1.0.12" url="packs/TechNodefirmacraft/files/1.7.10Mods/NEIIntegration-MC1.7.10-1.0.12.jar" file="NEIIntegration-MC1.7.10-1.0.12.jar" md5="ce52827985c6b803dbe1e19e14cb0317"  download="server" type="mods" website="http://minecraft.curseforge.com/mc-mods/225251-nei-integration/files" authors="tonius11" description="NEI handlers for all of the mods, one at a time." client="yes" optional="no" server="no"
@@ -283,6 +283,8 @@
         />
         <mod
         name="Dynamic Lights" version="1.3.8" url="packs/TechNodefirmacraft/files/1.7.10Mods/DynamicLights1.3.8-1.7.10.jar" file="DynamicLights1.3.8-1.7.10.jar" md5="8840330ed22e14467063f73e2aa8ca04" download="server" type="mods" description="Makes the world light up using items in hand." website="http://www.atomicstryker.net" colour="green" client="yes" optional="yes" server="no" recommended="yes"
+        />
+        <mod name="Hardcore Darkness" version="1.6" url="packs/TechNodefirmacraft/files/1.7.10Mods/HardcoreDarkness-MC1.7.10-1.6.jar" file="HardcoreDarkness-MC1.7.10-1.6.jar" md5="639c830022da17e92f9aae90cae48a19" download="server" type="mods" website="http://www.curseforge.com/projects/225957/" authors="lumien" description="Removes the minimum light that&apos;s always present in minecraft." colour="green" client="yes" optional="yes" server="no" recommended="yes"
         />
         <mod
         name="Sound Filters" version="0.7_for_1.7.X" url="packs/TechNodefirmacraft/files/1.7.10Mods/SoundFilters-0.8_for_1.7.X.jar" file="SoundFilters-0.8_for_1.7.X.jar" md5="772f4a162fa649ce421926a302a7f8fe" download="server" type="mods" website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2158080-sound-filters-a-client-side-mod-adds-reverb-to" authors="Tmtravlr" description="Adds reveb to caves, as well as muted sounds underwater/in lava, and behind walls." colour="green" client="yes" optional="yes" server="no" recommended="yes"
