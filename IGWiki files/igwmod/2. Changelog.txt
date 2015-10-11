@@ -1,3 +1,32 @@
+[prefix{l}]Version 2.5.2: Better Boat made us Bitter but Better Better Boats are Better[prefix{}]
+
+This weeks update has a bunch of Tweaks and fixes. As usual be sure to backup your world. 
+
+We've fixed and re-added Better Boats. We've also added HardCoreDarkness as a client-side optional mod. It removes the minimum block light and makes the skylight dependent on the moon. 
+
+New Mods
+-Better Boats (again)
+-Hardcore Darkness (optional)
+
+Tweaks
+-TFC-TNFC edition tweaks were peat will spawn. They now spawn in bog-like environmental conditions. 
+-TFC made smithing skill effect tool efficiency. 
+-You can cook TFC cobble stone into TFC raw stone in the Arc Furnace. 
+-Stone Slabs now use smooth stone instead of raw. 
+
+Bug Fixes
+- Sheep not familiarised by failed attempt to shear-TNFC edition
+-Render bug and various fixes-TFC
+-All known Quests issues fixed
+-OC capacitor recipe fixed
+-Pixelmon mobs should now spawn, but untameable. Let us know of any issues. 
+
+Updated
+-TFC-TNFC edition
+-TNFCmod
+-Pneumaticraft
+-AromaBackup
+
 [prefix{l}]Version 2.5 - The Quest for Quests.[prefix{}]
 
 The big change in this version is the introduction of an HQM questline being developed by Aziel13. Currently a WIP, the quest line will provide a solid introduction to core TFC concepts. Further quest sets are in development to then introduce some of the major mods and their uses.
