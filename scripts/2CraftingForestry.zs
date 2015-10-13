@@ -14,7 +14,7 @@ import minetweaker.data.IData;
 	recipes.remove(<Forestry:ffarm:2>);
 	recipes.remove(<Forestry:ffarm>);
 //# Moistener (pointless)
-	recipes.remove(<Forestry:factory2:2>);
+	recipes.remove(<Forestry:factory:4>);
 //# Self explanatory
 	recipes.remove(<Forestry:ingotBronze>);
 	recipes.remove(<Forestry:ingotCopper>);
@@ -25,7 +25,6 @@ import minetweaker.data.IData;
 	recipes.remove(<Forestry:engine:4>);
 	recipes.remove(<Forestry:engine:1>);
 	recipes.remove(<Forestry:engine:2>);
-	recipes.remove(<Forestry:factory:4>);
 	recipes.remove(<Forestry:infuser>);
 	recipes.remove(<Forestry:kitPickaxe>);
 	recipes.remove(<Forestry:kitShovel>);
@@ -33,15 +32,6 @@ import minetweaker.data.IData;
 	recipes.remove(<Forestry:bronzePickaxe>);
 	recipes.remove(<Forestry:stamps>);
 	recipes.remove(<Forestry:stamps:3>);
-	recipes.remove(<Forestry:alveary:2>);
-	recipes.remove(<Forestry:alveary:3>);
-	recipes.remove(<Forestry:alveary:4>);
-	recipes.remove(<Forestry:alveary:5>);
-	recipes.remove(<Forestry:alveary:6>);
-	recipes.remove(<Forestry:alveary:7>);
-	recipes.remove(<Forestry:lepidopterology>);
-	recipes.remove(<Forestry:arboriculture>);
-	recipes.remove(<Forestry:apiculture:1>);
 	recipes.remove(<Forestry:planks>);
 	recipes.remove(<Forestry:planksFireproof>);
 	recipes.remove(<Forestry:slabs>);
@@ -69,9 +59,7 @@ import minetweaker.data.IData;
 //#Reinstating a Forestry Sturdy Machine Recipe
 	recipes.addShaped(<Forestry:sturdyMachine>, [[null, <ore:plateAnyBronze>, null], [<ore:plateAnyBronze>, <ore:craftingToolMediumHammer>.transformDamage(), <ore:plateAnyBronze>], [null, <ore:plateAnyBronze>, null]]);
 
-//#Reinstating Forestry Mailbox/Trade Station/Stamps
-	recipes.addShaped(<Forestry:mail:1>, [[<Forestry:thermionicTubes:5>, <Forestry:thermionicTubes:4>, <Forestry:thermionicTubes:5>], [<Forestry:thermionicTubes:4>, <Forestry:sturdyMachine>, <Forestry:thermionicTubes:4>], [<ore:chestWood>, <Forestry:chipsets:1>, <ore:chestWood>]]);
-	recipes.addShaped(<Forestry:mail>, [[null, <ore:ingotTin>, null], [<ore:ingotTin>, <Forestry:sturdyMachine>, <ore:ingotTin>], [<ore:chestWood>, <ore:chestWood>, <ore:chestWood>]]);
+//#Stamps
 	recipes.addShaped(<Forestry:stamps> * 9, [[<ore:gemApatite>, <ore:gemApatite>, <ore:gemApatite>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<ore:dropHoney>, <ore:dropHoney>, <ore:dropHoney>]]);
 	recipes.addShaped(<Forestry:stamps:3> * 9, [[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<ore:dropHoney>, <ore:dropHoney>, <ore:dropHoney>]]);
 
@@ -80,30 +68,11 @@ import minetweaker.data.IData;
 	recipes.addShaped(<Forestry:engine:1>, [[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>], [<ore:itemHammer>.reuse(), <ore:blockGlassColorless>, <ore:craftingToolMediumChisel>.transformDamage()], [<ore:gearCopper>, <ore:craftingPiston>, <ore:gearCopper>]]);
 	recipes.addShaped(<Forestry:engine:2>, [[<ore:plateAnyBronze>, <ore:plateAnyBronze>, <ore:plateAnyBronze>], [<ore:itemHammer>.reuse(), <ore:blockGlassColorless>, <ore:craftingToolMediumChisel>.transformDamage()], [<ore:gearBronze>, <ore:craftingPiston>, <ore:gearBronze>]]);
 
-//#Worktable
-	recipes.addShaped(<Forestry:factory2:2>, [[<minecraft:book>], [<ore:craftingTableWood>], [<ore:chestWood>]]);
-
-//#Themionic Fabricator
-	recipes.addShaped(<Forestry:factory2>, [[<ore:ingotGold>, <ore:blockGlassColorless>, <ore:ingotGold>], [<ore:blockGlassColorless>, <Forestry:sturdyMachine>, <ore:blockGlassColorless>], [<ore:ingotGold>, <ore:chestWood>, <ore:ingotGold>]]);
-
 //#RainTank
 	recipes.addShaped(<Forestry:factory2:1>, [[<ore:ingotIron>, <ore:blockGlassColorless>, <ore:ingotIron>], [<ore:ingotIron>, <Forestry:sturdyMachine>, <ore:ingotIron>], [<ore:ingotIron>, <ore:blockGlassColorless>, <ore:ingotIron>]]);
 
 //# Infuser
 	recipes.addShaped(<Forestry:infuser>, [[<ore:ingotAnyBronze>], [<ore:ingotIron>], [<ore:ingotAnyBronze>]]);
-
-//# Alveary Blocks
-	recipes.addShaped(<Forestry:alveary:5>, [[<ore:blockGlassColorless>, <ore:ingotIron>, <ore:blockGlassColorless>], [<ore:blockGlassColorless>, <ore:blockAlveary>, <ore:blockGlassColorless>], [<ore:blockGlassColorless>, <ore:ingotIron>, <ore:blockGlassColorless>]]);
-	recipes.addShaped(<Forestry:alveary:4>, [[<Forestry:thermionicTubes:4>, <ore:ingotIron>, <Forestry:thermionicTubes:4>], [null, <ore:blockAlveary>, null], [<ore:stoneAny>, <ore:stoneAny>, <ore:stoneAny>]]);
-	recipes.addShaped(<Forestry:alveary:7>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [null, <ore:blockAlveary>, null], [<Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>, <Forestry:craftingMaterial:3>]]);
-	recipes.addShaped(<Forestry:alveary:6>, [[<ore:oreJet>, null, <ore:oreJet>], [<ore:oreJet>, <ore:blockAlveary>, <ore:oreJet>], [<ore:oreJet>, null, <ore:oreJet>]]);
-	recipes.addShaped(<Forestry:alveary:2>, [[<Forestry:thermionicTubes:5>, <ore:ingotGold>, <Forestry:thermionicTubes:5>], [null, <ore:blockAlveary>, null], [<Forestry:thermionicTubes:5>, <ore:ingotGold>, <Forestry:thermionicTubes:5>]]);
-	recipes.addShaped(<Forestry:alveary:3>, [[<ore:ingotIron>, null, <ore:ingotIron>], [null, <ore:blockAlveary>, null], [<ore:ingotIron>, <Forestry:thermionicTubes:4>, <ore:ingotIron>]]);
-
-//# Chests
-	recipes.addShaped(<Forestry:lepidopterology>, [[null, <ore:blockGlassColorless>, null], [<Forestry:butterflyGE>, <ore:chestWood>, <Forestry:butterflyGE>], [<Forestry:butterflyGE>, <Forestry:butterflyGE>, <Forestry:butterflyGE>]]);
-	recipes.addShaped(<Forestry:arboriculture>, [[null, <ore:blockGlassColorless>, null], [<ore:treeSapling>, <ore:chestWood>, <ore:treeSapling>], [<ore:treeSapling>, <ore:treeSapling>, <ore:treeSapling>]]);
-	recipes.addShaped(<Forestry:apiculture:1>, [[null, <ore:blockGlassColorless>, null], [<ore:beeComb>, <ore:chestWood>, <ore:beeComb>], [<ore:beeComb>, <ore:beeComb>, <ore:beeComb>]]);
 
 // Temp Fixes for Bee Flowers
 	recipes.addShapeless(<minecraft:nether_wart>, [<ore:dyeBrown>, <minecraft:fermented_spider_eye>, <minecraft:rotten_flesh>]);
@@ -179,6 +148,8 @@ import minetweaker.data.IData;
 	mods.forestry.Carpenter.removeRecipe(<Forestry:kitPickaxe>);
 	mods.forestry.Carpenter.removeRecipe(<Forestry:carton>);
 	mods.forestry.Carpenter.removeRecipe(<minecraft:torch>);
+	mods.forestry.Carpenter.removeRecipe(<Forestry:stamps>);
+	mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:3>);
 
 //#Addition
 	//Time recipe requires (Ticks), InputFluid, InputArray, InputStack Box, OutputStack //InputStack Box is the slot where Cartons and Crates are by default, it can accept any item - optional
