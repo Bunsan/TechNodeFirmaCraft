@@ -1,3 +1,20 @@
+[prefix{l}]Version 2.5.3 All the Small Things[prefix{}]
+
+This week is just a small update to fix a couple of issues.
+
+Warning. There is an issue with the Forestry workbench completing crafting with TFC Tools which causes the tool to be  lost in first craft. We've disabled crafting of the Forestry workbench and put a tooltip on the item. We are reporting this issue to the Forestry Development team.
+
+Updated Mods
+- Forestry
+
+Bug Fixes
+- Crafting with Hammer works as expected (e.g. Vanilla Hopper)
+- Forestry recipes using any bronze ingot.
+- Fixes to remove duplicate Forestry recipes.
+
+Jokes Removed
+- Pixelmon references.
+
 [prefix{l}]Version 2.5.2: Better Boat made us Bitter but Better Better Boats are Better[prefix{}]
 
 This weeks update has a bunch of Tweaks and fixes. As usual be sure to backup your world. 
@@ -25,7 +42,7 @@ Updated
 -TFC-TNFC edition
 -TNFCmod
 -Pneumaticraft
--AromaBackup
+-AromaBackup (backed out for 2.5.2a due to server crashes)
 
 [prefix{l}]Version 2.5 - The Quest for Quests.[prefix{}]
 
