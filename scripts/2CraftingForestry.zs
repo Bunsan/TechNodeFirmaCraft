@@ -4,7 +4,8 @@
 //# Imports
 import minetweaker.item.IItemStack;
 import minetweaker.data.IData;
-
+//# Tooltip
+<Forestry:factory2:2>.addTooltip(format.red("Do Not use for crafts using TFC Tools"));
 // ================================================================================
 //#REMOVE
 //# Farm Blocks (removed because they won't work)
@@ -37,6 +38,11 @@ import minetweaker.data.IData;
 	recipes.remove(<Forestry:slabs>);
 	recipes.remove(<Forestry:stairs>);
 	recipes.remove(<Forestry:fertilizerCompound>);
+    recipes.remove(<Forestry:grafter>);
+    recipes.remove(<Forestry:wrench>);
+    recipes.remove(<Forestry:naturalistHelmet>);
+    recipes.remove(<Forestry:factory:1>);
+    recipes.remove(<Forestry:factory2:2>);
 
 // ================================================================================
 //#ADD SHAPELESS
@@ -71,8 +77,17 @@ import minetweaker.data.IData;
 //#RainTank
 	recipes.addShaped(<Forestry:factory2:1>, [[<ore:ingotIron>, <ore:blockGlassColorless>, <ore:ingotIron>], [<ore:ingotIron>, <Forestry:sturdyMachine>, <ore:ingotIron>], [<ore:ingotIron>, <ore:blockGlassColorless>, <ore:ingotIron>]]);
 
+//# Carpenter
+    recipes.addShaped(<Forestry:factory:1>, [[<ore:ingotAnyBronze>, <ore:blockGlass>, <ore:ingotAnyBronze>], [<ore:ingotAnyBronze>, <Forestry:sturdyMachine>, <ore:ingotAnyBronze>], [<ore:ingotAnyBronze>, <ore:blockGlass>, <ore:ingotAnyBronze>]]);
+
 //# Infuser
 	recipes.addShaped(<Forestry:infuser>, [[<ore:ingotAnyBronze>], [<ore:ingotIron>], [<ore:ingotAnyBronze>]]);
+//# Grafter
+    recipes.addShapedMirrored(<Forestry:grafter>, [[null, null, <ore:ingotAnyBronze>], [null, <ore:stickWood>, null], [<ore:stickWood>, null, null]]);
+//# Wrench
+    recipes.addShaped(<Forestry:wrench>, [[<ore:ingotAnyBronze>, null, <ore:ingotAnyBronze>], [null, <ore:ingotAnyBronze>, null], [null, <ore:ingotAnyBronze>, null]]);
+//# Spectacles
+recipes.addShaped(<Forestry:naturalistHelmet>, [[null, <ore:ingotAnyBronze>, null], [<ore:paneGlass>, null, <ore:paneGlass>]]);
 
 // Temp Fixes for Bee Flowers
 	recipes.addShapeless(<minecraft:nether_wart>, [<ore:dyeBrown>, <minecraft:fermented_spider_eye>, <minecraft:rotten_flesh>]);
