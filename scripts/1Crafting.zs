@@ -378,7 +378,7 @@ furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 	recipes.addShaped(<minecraft:daylight_detector>, [[<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>], [<ore:oreJet>, <ore:dustRedstone>, <ore:oreJet>], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
 
 //# Hopper
-	recipes.addShaped(<minecraft:hopper>, [[null, <ore:craftingToolLowHammer>.transformDamage(), null], [null, <ore:chestWood>, null], [null, <terrafirmacraft:Hopper>, null]]);
+	recipes.addShaped(<minecraft:hopper>, [[null, <ore:craftingToolHammer>.transformDamage(), null], [null, <ore:chestWood>, null], [null, <terrafirmacraft:Hopper>, null]]);
 
 //# Items
 

@@ -1,7 +1,7 @@
     <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>2.5.2</version>
+        <version>2.5.3</version>
         <minecraft>1.7.10</minecraft>
         <caseallfiles>lower</caseallfiles>
         <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
@@ -61,7 +61,7 @@
         name="Railcraft" version="9.7.0.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/railcraft_1.7.10-9.7.0.0.jar" file="railcraft_1.7.10-9.7.0.0.jar" md5="e72e29cfc4c83a2b1c9ea19617448e51" download="server" type="mods" website="http://railcraft.info/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/mc-mods/51195-railcraft&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=CovertJaguar%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_return=http://m" authors="CovertJaguar" description="Redefine your rails" client="yes" server="yes" serveroptional="no" 
         />
         <mod
-        name="Forestry for Minecraft" version="4.0.3.0_tnfc_2.5" url="packs/TechNodefirmacraft/files/1.7.10Mods/forestry_1.7.10-4.0.3.0_tnfc_2.5.jar" file="forestry_1.7.10-4.0.3.0_tnfc_2.5.jar" md5="aa1438d6ae86599eb23b3b3d2096a673" download="server" type="mods" website="http://forestry.sengir.net/" authors="SirSengir" description="Trees, bees and more." client="yes" optional="no" server="yes" serveroptional="no"
+        name="Forestry for Minecraft" version="4.1.0.tnfc" url="packs/TechNodefirmacraft/files/1.7.10Mods/forestry_1.7.10-4.1.0.tnfc.jar" file="forestry_1.7.10-4.1.0.tnfc.jar" md5="ae292d845530a6082cfd0222e3966d04" download="server" type="mods" website="http://forestry.sengir.net/" authors="SirSengir" description="Trees, bees and more." client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod
         name="PneumaticCraft" version="1.11.16-138" url="packs/TechNodefirmacraft/files/1.7.10Mods/PneumaticCraft-1.7.10-1.11.16-138-universal.jar" file="PneumaticCraft-1.7.10-1.11.16-138-universal.jar" md5="eab5b1f0684a2c3b7263207b18af5328" download="server" type="mods" website="http://www.minemaarten.com" authors="MineMaarten" description="A technical mod all about pneumatics!" client="yes" optional="no" server="yes" serveroptional="no"
@@ -146,7 +146,7 @@
         />
         <!-- Pack Customization Mods -->
         <mod
-        name="Scripts" version="base_dev_2.6" url="packs/TechNodefirmacraft/files/extract/scripts_base_2.6.zip" file="scripts_base_2.6.zip" md5="526b74a811fa5f3b76a55a35003d4cb3" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="Scripts" version="base_build_2.5.3" url="packs/TechNodefirmacraft/files/extract/scripts_base_build_2.5.3.zip" file="scripts_base_build_2.5.3.zip" md5="cf013e0a56abdf3b8a7ed027ae2e741a" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
         /> 
         <mod
         name="MineTweaker 3" version="3.0.10B" url="packs/TechNodefirmacraft/files/1.7.10Mods/MineTweaker3-1.7.10-3.0.10B.jar" file="MineTweaker3-1.7.10-3.0.10B.jar" md5="884933d1b933e0bd2f93293201569f13" download="server" type="mods" website="http://minetweaker3.powerofbytes.com" authors="Stan Hebben" description="Customize your minecraft experience!" client="yes" optional="no" server="yes" serveroptional="no"
@@ -242,13 +242,13 @@
         />
         <!-- Optional Mods -->
         <mod
-        name="HQM Quest Line" version="2.5.2" url="packs/TechNodefirmacraft/files/extract/config_HQM_Quests_2.5.2.zip" file="config_HQM_Quests_2.5.2.zip" md5="f46051efc74b883d4ed1a10c5b4a1104" download="server" type="extract" extractto="root" website="https://github.com/aziel13/TechNodeFirmaCraftQuest" description="HQM Questline for TNFC" client="yes" optional="yes" server="yes" serveroptional="yes" colour="violet" recommended="yes" group="quests" depends="Hardcore Questing Mode"
+        name="HQM Quest Line" version="2.5.2" url="packs/TechNodefirmacraft/files/extract/config_HQM_Quests_2.5.2b.zip" file="config_HQM_Quests_2.5.2b.zip" md5="0f29fccb84df3d53f298ff5187d08940" download="server" type="extract" extractto="root" website="https://github.com/aziel13/TechNodeFirmaCraftQuest" description="HQM Questline for TNFC" client="yes" optional="yes" server="yes" serveroptional="yes" colour="violet" recommended="yes" group="quests" depends="Hardcore Questing Mode"
         />
         <mod
         name="FastCraft" version="1.21" url="packs/TechNodefirmacraft/files/1.7.10Mods/fastcraft-1.21.jar" file="fastcraft-1.21.jar" md5="f1f33a007d6a78d68e6bb217a6ffdb9e" download="server" type="mods" website="http://forum.industrial-craft.net/index.php?page=Thread&amp;threadID=10820" authors="Player" description="FastCraft optimizes MineCraft in various ways, visit the homepage for further details and support." client="yes" optional="yes" server="yes" serveroptional="yes" colour="purple" recommended="yes"
         />
         <mod
-        name="AromaBackup" version="0.0.0.5.b20" url="packs/TechNodefirmacraft/files/1.7.10Mods/AromaBackup-1.7.10-0.0.0.5.b20.jar" file="AromaBackup-1.7.10-0.0.0.5.b20.jar" md5="dd24f8b3d45a57d549ae3ac421a1bff1" download="server" type="mods" website="http://www.minecraftforum.net/topic/1679684-" authors="Aroma1997" description="This is a small Backup mod I created. All it does: Backups. It also works on clients!" colour="purple" client="yes" optional="yes" server="yes" serveroptional="yes"
+        name="AromaBackup" version="0.0.0.5" url="packs/TechNodefirmacraft/files/1.7.10Mods/AromaBackup-1.7.10-0.0.0.5.jar" file="AromaBackup-1.7.10-0.0.0.5.jar" md5="1ec939c9f7f768b01624fbe27155a8d3" download="server" type="mods" website="http://www.minecraftforum.net/topic/1679684-" authors="Aroma1997" description="This is a small Backup mod I created. All it does: Backups. It also works on clients!" colour="purple" client="yes" optional="yes" server="yes" serveroptional="yes"
         />
         <!-- WorldGen and User Information Optional Mods -->
         <mod
@@ -326,13 +326,13 @@
         />
         <!-- Scripts -->
         <mod
-        name="ScriptW2" version="w2_dev_2.6"  url="packs/TechNodefirmacraft/files/extract/scripts_w2_2.6.zip" file="scripts_w2_2.6.zip" md5="75665d00d25715460b37bdee20277e5b" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Script for Weather2" client="yes" optional="yes" server="yes" serveroptional="yes" library="yes"
+        name="ScriptW2" version="w2_build_2.5.3" url="packs/TechNodefirmacraft/files/extract/scripts_w2_build_2.5.3.zip" file="scripts_w2_build_2.5.3.zip" md5="99b4825838feb60d88eceff7a2c5011d" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Script for Weather2" client="yes" optional="yes" server="yes" serveroptional="yes" library="yes"
         />
         <mod 
         name="Resource Loaders Folder" version="2.4" url="packs/TechNodefirmacraft/files/extract/resources._2.4.zip" file="resources._2.4.zip" md5="4ff46bf3767a000449963512eae1805d" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="no"
         /> 
         <mod 
-        name="IGWModData" version="2.6" url="packs/TechNodefirmacraft/files/extract/igwmod_2.6.zip" file="igwmod_2.6.zip" md5="9dabf8a4c1daab6ee39ac214661c39dc" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
+        name="IGWModData" version="2.5.3" url="packs/TechNodefirmacraft/files/extract/igwmod_2.5.3.zip" file="igwmod_2.5.3.zip" md5="5e1ab5f6aa7f68844f28fd2ccd0e7a75" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
         />
 
     </mods>

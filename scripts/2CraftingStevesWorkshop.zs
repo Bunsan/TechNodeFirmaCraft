@@ -22,7 +22,7 @@
 	recipes.addShaped(<StevesWorkshop:production_table_upgrade:5>, [[<ore:plankWood>, <ore:craftingToolMediumHammer>.reuse(), <ore:plankWood>], [<ore:plateIron>, <StevesWorkshop:production_table_upgrade>, <ore:plateIron>], [<ore:plankWood>, <ore:craftingToolMediumChisel>.transformDamage(), <ore:plankWood>]]);
 	recipes.addShaped(<StevesWorkshop:production_table_upgrade:4>, [[<ore:plateIron>, <ore:dustRedstone>, <ore:plateIron>], [<ore:oreLapis>, <StevesWorkshop:production_table_upgrade>, <ore:oreLapis>], [<ore:plateIron>, <ore:dustRedstone>, <ore:plateIron>]]);
 	recipes.addShaped(<StevesWorkshop:production_table_upgrade:2>, [[<ore:chestWood>, <ore:craftingToolSaw>.transformDamage()], [<StevesWorkshop:production_table_upgrade>, null]]);
-	recipes.addShaped(<StevesWorkshop:production_table_upgrade:1>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:stone>, <ore:craftingPiston>, <ore:stone>], [<ore:itemChisel>, <StevesWorkshop:production_table_upgrade>, <ore:craftingToolLowHammer>.transformDamage()]]);
-	recipes.addShaped(<StevesWorkshop:production_table_upgrade>, [[<ore:stone>, <ore:plankWood>], [<ore:plankWood>, <ore:stone>], [<ore:craftingToolLowHammer>.reuse(), <ore:itemChisel>.transformDamage()]]);
+	recipes.addShaped(<StevesWorkshop:production_table_upgrade:1>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:stone>, <ore:craftingPiston>, <ore:stone>], [<ore:itemChisel>, <StevesWorkshop:production_table_upgrade>, <ore:craftingToolHammer>.transformDamage()]]);
+	recipes.addShaped(<StevesWorkshop:production_table_upgrade>, [[<ore:stone>, <ore:plankWood>], [<ore:plankWood>, <ore:stone>], [<ore:craftingToolHammer>.reuse(), <ore:itemChisel>.transformDamage()]]);
 	recipes.addShaped(<StevesWorkshop:production_table>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:stone>, <StevesWorkshop:production_table_upgrade>, <ore:stone>], [<ore:stone>, <ore:craftingToolSaw>.transformDamage(), <ore:stone>]]);
 
