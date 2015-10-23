@@ -1,3 +1,8 @@
+[prefix{l}]Version 2.6.1: Still Stopped. Little Hotfix[prefix{}]
+
+Neglected to include updated TechNodefirmacraft mod. Fixes glaring issue.
+
+
 [prefix{l}]Version 2.6: Stop. Hammer Time.[prefix{}]
 
 This week we've made a few changes that we feel really add to the playability of the pack. First we've added a new function to the TFC hammer. It is now the builders best friend. It will break smooth stone, bricks and even mod blocks quite quickly compared to the pick. It is made for building and using it on blocks touching raw stone, dirt and other natural blocks will risk ruining your tool.
