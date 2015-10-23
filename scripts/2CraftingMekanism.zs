@@ -68,6 +68,9 @@ import minetweaker.data.IData;
 	recipes.remove(<Mekanism:MachineBlock:13>);
 	recipes.remove(<Mekanism:MachineBlock3:3>);
 	recipes.remove(<Mekanism:CardboardBox>);
+	recipes.remove(<Mekanism:MachineBlock:11>);
+	recipes.remove(<Mekanism:SpeedUpgrade>);
+	recipes.remove(<Mekanism:EnergyUpgrade>);
 
 // ================================================================================
 //#ADD SHAPELESS
@@ -76,6 +79,18 @@ import minetweaker.data.IData;
 
 // ================================================================================
 //#ADD SHAPED
+
+//#Upgrades
+	recipes.addShaped(<Mekanism:SpeedUpgrade>, [[<terrafirmacraft:item.Tin Ingot>,<terrafirmacraft:item.Lead Double Sheet>,<terrafirmacraft:item.Tin Ingot>],[<minecraft:glowstone>,<minecraft:blaze_powder>,<minecraft:glowstone>],[<terrafirmacraft:item.Tin Ingot>,<terrafirmacraft:item.Lead Double Sheet>,<terrafirmacraft:item.Tin Ingot>]]);
+	recipes.addShaped(<Mekanism:EnergyUpgrade>, [[<terrafirmacraft:item.Tin Ingot>,<terrafirmacraft:item.Lead Double Sheet>,<terrafirmacraft:item.Tin Ingot>],[<minecraft:redstone_block>,<ImmersiveEngineering:metal:6>,<minecraft:redstone_block>],[<terrafirmacraft:item.Tin Ingot>,<terrafirmacraft:item.Lead Double Sheet>,<terrafirmacraft:item.Tin Ingot>]]);
+
+	
+//#Teleporter
+	recipes.addShaped(<Mekanism:MachineBlock:11>, [[<OpenComputers:item:26>, <Mekanism:ControlCircuit:3>, <OpenComputers:item:26>], [<Mekanism:BasicBlock:8>, <Mekanism:TeleportationCore>, <Mekanism:BasicBlock:8>], [<ImmersiveEngineering:metalDevice:7>, <terrafirmacraft:item.Ore:26>, <ImmersiveEngineering:metalDevice:7>]]);
+	recipes.addShaped(<Mekanism:PortableTeleporter>, [[<OpenComputers:item:26>, <Mekanism:ControlCircuit:3>, <OpenComputers:item:26>], [<Mekanism:EnergyTablet>, <Mekanism:TeleportationCore>, <Mekanism:EnergyTablet>], [<ImmersiveEngineering:metalDevice:7>, <terrafirmacraft:item.Ore:26>, <ImmersiveEngineering:metalDevice:7>]]);
+ 	recipes.addShaped(<Mekanism:TeleportationCore>, [[<Railcraft:part.circuit:1>, <minecraft:dragon_egg>, <Railcraft:part.circuit:2>], [<terrafirmacraft:item.Platinum Double Sheet>,  <Mekanism:MachineBlock:9>, <terrafirmacraft:item.Platinum Double Sheet>], [<Railcraft:part.circuit>, <terrafirmacraft:item.Ore:18>, <Railcraft:part.circuit>]]);
+ 	
+
 //#Carboard Box
 	recipes.addShaped(<Mekanism:CardboardBox>, [[<terrafirmacraft:item.BurlapCloth>, <ore:plateIron>, <terrafirmacraft:item.BurlapCloth>], [<ore:plateIron>, <terrafirmacraft:item.BurlapCloth>, <ore:plateIron>], [<ore:woodLumber>, <ore:plateIron>, <ore:woodLumber>]]);
 
@@ -92,7 +107,7 @@ import minetweaker.data.IData;
 //#Mek Dynamic Tank
 	recipes.addShaped(<Mekanism:BasicBlock:9> * 2, [[null, <ore:plateSteel>, null], [<ore:craftingToolHardHammer>.transformDamage(), <ore:stoneCobble>, null], [null, <ore:plateSteel>, null]]);
 //#Mek Steel Casing
-	recipes.addShaped(<Mekanism:BasicBlock:8>, [[null, <ore:plateSteel>, null], [<ore:craftingToolHardHammer>.transformDamage(), <ore:ingotOsmium>, null], [null, <ore:plateSteel>, null]]);
+	recipes.addShaped(<Mekanism:BasicBlock:8>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, <Mekanism:BasicBlock>, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 
 //# RE-ADD Pipes
 	recipes.addShaped(<Mekanism:PartTransmitter:11> * 2, [[<ore:dustRedstone>, <minecraft:iron_bars>, <ore:dustRedstone>], [<ore:ingotSteel>, <ore:craftingToolMediumHammer>.transformDamage(), <ore:ingotSteel>], [<ore:dustRedstone>, <minecraft:iron_bars>, <ore:dustRedstone>]]);
@@ -111,11 +126,10 @@ import minetweaker.data.IData;
 	recipes.addShapeless(<Mekanism:GasMask>.withTag({ench: [{lvl: 3 as short, id: 5 as short}, {lvl: 1 as short, id: 6 as short}]}), [<Mekanism:GasMask>, <Mekanism:GasUpgrade>, <Mekanism:SpeedUpgrade>]);	
 
 //# RE-ADD Energy Tablet
-	recipes.addShaped(<Mekanism:EnergyTablet:100>, [[<ore:dustRedstone>, <ore:ingotCopper>, <ore:dustRedstone>], [<ore:alloyAdvanced>, <ore:ingotGold>, <ore:alloyAdvanced>], [<ore:dustRedstone>, <ore:ingotZinc>, <ore:dustRedstone>]]);
+	recipes.addShaped(<Mekanism:EnergyTablet:100>, [[<minecraft:redstone_block>, <ore:ingotCopper>, <minecraft:redstone_block>], [<ore:alloyAdvanced>, <ImmersiveEngineering:metal:6>, <ore:alloyAdvanced>], [<ImmersiveEngineering:metal:1>, <ore:ingotZinc>, <ImmersiveEngineering:metal:1>]]);
 
 //# RE-ADD Tools
 	recipes.addShaped(<Mekanism:Configurator:100>, [[null, <terrafirmacraft:item.Ore:34>, null], [<ore:plateSteel>, <minecraft:redstone>, <ore:plateSteel>], [null, <ore:stickWood>, null]]);
-	recipes.addShaped(<Mekanism:TeleportationCore>, [[<ore:plateBlueSteel>, <ore:alloyUltimate>, <ore:plateRedSteel>], [<ore:plateBlackSteel>, <terrafirmacraft:item.Diamond:3>, <ore:plateBlackSteel>], [<ore:plateRedSteel>, <ore:alloyUltimate>, <ore:plateBlueSteel>]]);
 	recipes.addShaped(<Mekanism:SeismicReader:100>, [[<ore:ingotSteel>, <terrafirmacraft:item.Ore:34>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:battery>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
 
 //# RE-ADD Basic Factories
@@ -168,30 +182,33 @@ import minetweaker.data.IData;
 	recipes.addShaped(<MekanismGenerators:Generator:6>, [[null, <ore:ingotSteel>, null], [<terrafirmacraft:item.Steel Ingot>, <ore:circuitElite>, <terrafirmacraft:item.Steel Ingot>], [<ore:plateBlackSteel>, <Mekanism:EnergyCube:*>.onlyWithTag({tier: "Basic"}), <ore:plateBlackSteel>]]);
 	recipes.addShaped(<MekanismGenerators:Generator:5>, [[<MekanismGenerators:Generator:1>, <ore:alloyUltimate>, <MekanismGenerators:Generator:1>], [<MekanismGenerators:Generator:1>, <ore:ingotBlueSteel>, <MekanismGenerators:Generator:1>], [<ore:plateBlackSteel>, <Mekanism:EnergyCube:*>.onlyWithTag({tier: "Basic"}), <ore:plateBlackSteel>]]);
 	recipes.addShaped(<MekanismGenerators:Generator:1>, [[<MekanismGenerators:SolarPanel>, <MekanismGenerators:SolarPanel>, <MekanismGenerators:SolarPanel>], [<ore:alloyElite>, <ore:ingotBlackSteel>, <ore:alloyElite>], [<ore:plateBlackSteel>, <Mekanism:EnergyTablet:100>, <ore:plateBlackSteel>]]);
-	recipes.addShaped(<MekanismGenerators:Generator>, [[<ore:plateSteel>, <ore:ingotSteel>, <ore:plateSteel>], [<ore:alloyAdvanced>, <ore:ingotOsmium>, <ore:alloyAdvanced>], [<ore:plateBlackSteel>, <terrafirmacraft:Crucible>, <ore:plateBlackSteel>]]);
+	recipes.addShaped(<MekanismGenerators:Generator>, [[<ore:plateSteel>, <ore:ingotSteel>, <ore:plateSteel>], [<ImmersiveEngineering:storage:9>, <terrafirmacraft:Crucible>, <ImmersiveEngineering:storage:9>], [<ore:plateBlackSteel>, <ImmersiveEngineering:metalDevice:3>, <ore:plateBlackSteel>]]);
 	recipes.addShaped(<MekanismGenerators:Generator:3>, [[<ore:ingotOsmium>, <ore:alloyElite>, <ore:ingotOsmium>], [<Mekanism:BasicBlock:8>, <Mekanism:ElectrolyticCore>, <Mekanism:BasicBlock:8>], [<terrafirmacraft:item.Black Steel Sheet> * 1, <ore:alloyElite>,<terrafirmacraft:item.Black Steel Sheet> * 1]]);
 	recipes.addShaped(<MekanismGenerators:Generator:4>, [[<minecraft:redstone>, <ore:alloyElite>, <minecraft:redstone>], [<ore:itemBioFuel>, <ore:circuitBasic>, <ore:itemBioFuel>], [<terrafirmacraft:item.Black Steel Sheet>, <ore:alloyElite>,<terrafirmacraft:item.Black Steel Sheet>]]);
-
+	
+	recipes.addShaped(<Mekanism:BasicBlock>, [[<ore:ingotOsmium>,<ore:ingotOsmium>,<ore:ingotOsmium>],[<ore:ingotOsmium>,<ore:ingotOsmium>,<ore:ingotOsmium>],[<ore:ingotOsmium>,<ore:ingotOsmium>,<ore:ingotOsmium>]]);
+	
 //# RE-ADD Machines
 	recipes.addShaped(<Mekanism:MachineBlock2:12>, [[<ore:ingotSteel>, <terrafirmacraft:item.Red Steel Sheet>, <ore:ingotSteel>], [<ore:circuitAdvanced>, <Mekanism:MachineBlock:12>, <ore:circuitAdvanced>], [<ore:ingotSteel>, <terrafirmacraft:item.Blue Steel Sheet>, <ore:ingotSteel>]]);
 	recipes.addShaped(<Mekanism:MachineBlock2:9>, [[<ore:ingotTin>, <terrafirmacraft:item.Ore:34>, <ore:ingotTin>], [<ore:circuitBasic>, <Mekanism:BasicBlock:8>, <ore:circuitBasic>], [<ore:ingotTin>, <terrafirmacraft:item.Black Steel Double Sheet>, <ore:ingotTin>]]);
 	recipes.addShaped(<Mekanism:MachineBlock2:4>, [[<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>], [<Mekanism:ReinforcedAlloy>, <Mekanism:ElectrolyticCore>, <Mekanism:ReinforcedAlloy>], [<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>]]);
 	recipes.addShaped(<Mekanism:MachineBlock:12>, [[null, <terrafirmacraft:item.Red Steel Bucket Empty>, null], [<ore:alloyAdvanced>, <Mekanism:BasicBlock:8>, <ore:alloyAdvanced>], [<ore:ingotOsmium>, <ore:ingotOsmium>, <ore:ingotOsmium>]]);
 	recipes.addShaped(<Mekanism:MachineBlock:12>, [[null, <terrafirmacraft:item.Blue Steel Bucket Empty>, null], [<ore:alloyAdvanced>, <Mekanism:BasicBlock:8>, <ore:alloyAdvanced>], [<ore:ingotOsmium>, <ore:ingotOsmium>, <ore:ingotOsmium>]]);
-	recipes.addShaped(<Mekanism:MachineBlock:8>, [[<ore:ingotSteel>, <terrafirmacraft:Bloomery>, <ore:ingotSteel>], [<ore:dustRedstone>, <ore:ingotOsmium>, <ore:dustRedstone>], [<ore:ingotSteel>, <terrafirmacraft:Bloomery>, <ore:ingotSteel>]]);
+	recipes.addShaped(<Mekanism:MachineBlock:8>, [[<Mekanism:BasicBlock>, <minecraft:glowstone>, <Mekanism:BasicBlock>], [<minecraft:glowstone>, <minecraft:glowstone>, <minecraft:glowstone>], [<Mekanism:BasicBlock>, <ImmersiveEngineering:metalDevice:7>, <Mekanism:BasicBlock>]]);
 	recipes.addShaped(<Mekanism:MachineBlock2:8>, [[<ore:circuitAdvanced>, <Mekanism:GasTank:100>, <ore:circuitAdvanced>], [<ore:alloyUltimate>, <Mekanism:BasicBlock:8>, <ore:alloyUltimate>], [<ore:plateBlackSteel>, <Mekanism:GasTank:100>, <ore:plateBlackSteel>]]);
 	recipes.addShaped(<Mekanism:MachineBlock2:7>, [[<ore:circuitAdvanced>, <terrafirmacraft:item.Red Steel Bucket Empty>, <ore:circuitAdvanced>], [<ore:alloyAdvanced>, <Mekanism:BasicBlock:9>, <ore:alloyAdvanced>], [<terrafirmacraft:item.Black Steel Sheet>, <Mekanism:GasTank:100>, <terrafirmacraft:item.Black Steel Sheet>]]);
 	recipes.addShaped(<Mekanism:MachineBlock2:5>, [[<terrafirmacraft:item.Black Steel Saw>, <ore:circuitAdvanced>, <terrafirmacraft:item.Black Steel Saw>], [<ore:alloyAdvanced>, <Mekanism:BasicBlock:8>, <ore:alloyAdvanced>], [<ore:plateBlackSteel>, <ore:circuitAdvanced>, <ore:plateBlackSteel>]]);
 	recipes.addShaped(<Mekanism:MachineBlock2:6>, [[<ore:circuitAdvanced>, <Mekanism:GasTank:100>, <ore:circuitAdvanced>], [<ore:alloyAdvanced>, <Mekanism:BasicBlock:9>, <ore:alloyAdvanced>], [<ore:plateBlackSteel>, <Mekanism:GasTank:100>, <ore:plateBlackSteel>]]);
 	recipes.addShaped(<Mekanism:MachineBlock2:2>, [[<ore:alloyAdvanced>, <ore:circuitAdvanced>, <ore:alloyAdvanced>], [<Mekanism:GasTank:100>, <Mekanism:BasicBlock:9>, <Mekanism:GasTank:100>], [<ore:alloyAdvanced>, <terrafirmacraft:item.Black Steel Double Sheet>, <ore:alloyAdvanced>]]);
 	recipes.addShaped(<Mekanism:MachineBlock2:1>, [[<ore:alloyAdvanced>, <ore:circuitAdvanced>, <ore:alloyAdvanced>], [<Mekanism:MachineBlock:13>, <Mekanism:BasicBlock:9>, <Mekanism:GasTank:100>], [<ore:alloyAdvanced>, <terrafirmacraft:item.Black Steel Double Sheet>, <ore:alloyAdvanced>]]);
-	recipes.addShaped(<Mekanism:MachineBlock:13>, [[<ore:plateDoubleRedSteel>, <ore:blockGlass>, <ore:plateDoubleBlueSteel>], [<ore:chestWood>, <ore:circuitUltimate>, <ore:chestWood>], [<ore:plateDoubleBlackSteel>, <ore:plateDoubleBlackSteel>, <ore:plateDoubleBlackSteel>]]);
-	recipes.addShaped(<Mekanism:MachineBlock2:3>, [[<ore:alloyElite>, <ore:circuitElite>, <ore:alloyElite>], [<terrafirmacraft:item.Rose Gold Double Ingot>, <Mekanism:MachineBlock:9>, <terrafirmacraft:item.Rose Gold Double Ingot>], [<ore:alloyElite>, <ore:circuitElite>, <ore:alloyElite>]]);
+	recipes.addShaped(<Mekanism:MachineBlock:13> * 2, [[<customitems:block_of_jet>, <OpenComputers:item:25>, <customitems:block_of_jet>], [<terrafirmacraft:item.Ore:18>, <Mekanism:MachineBlock:9> , <terrafirmacraft:item.Ore:18>], [<ImmersiveEngineering:metalDevice:7>, <terrafirmacraft:item.Platinum Double Sheet>, <ImmersiveEngineering:metalDevice:7>]]);
+ 	recipes.addShaped(<Mekanism:MachineBlock:13>, [[<customitems:block_of_jet>, <OpenComputers:item:25>, <customitems:block_of_jet>], [<terrafirmacraft:item.Ore:18>, <terrafirmacraft:EarlyBloomery> , <terrafirmacraft:item.Ore:18>], [<ImmersiveEngineering:metalDevice:7>, <terrafirmacraft:item.Platinum Double Sheet>, <ImmersiveEngineering:metalDevice:7>]]);
+  	recipes.addShaped(<Mekanism:MachineBlock2:3>, [[<ore:alloyElite>, <ore:circuitElite>, <ore:alloyElite>], [<terrafirmacraft:item.Rose Gold Double Ingot>, <Mekanism:MachineBlock:9>, <terrafirmacraft:item.Rose Gold Double Ingot>], [<ore:alloyElite>, <ore:circuitElite>, <ore:alloyElite>]]);
 	recipes.addShaped(<Mekanism:MachineBlock:10>, [[<ore:dustRedstone>, <ore:circuitAdvanced>, <ore:dustRedstone>], [<terrafirmacraft:item.Red Steel Bucket Water>, <Mekanism:BasicBlock:8>, <terrafirmacraft:item.Blue Steel Bucket Lava>], [<ore:dustRedstone>, <ore:ingotDoubleBlackSteel>, <ore:dustRedstone>]]);
-	recipes.addShaped(<Mekanism:MachineBlock:9>, [[<ore:alloyAdvanced>, <ore:circuitAdvanced>, <ore:alloyAdvanced>], [<terrafirmacraft:item.Blue Steel Double Ingot>, <Mekanism:MachineBlock>, <terrafirmacraft:item.Blue Steel Double Ingot>], [<ore:alloyAdvanced>, <ore:ingotDoubleBlueSteel>, <ore:alloyAdvanced>]]);
+	recipes.addShaped(<Mekanism:MachineBlock:9>, [[<Mekanism:AtomicAlloy>, <ore:circuitElite>, <Mekanism:AtomicAlloy>], [<minecraft:blaze_powder>, <Mekanism:MachineBlock>, <minecraft:blaze_powder>], [<Railcraft:brick.nether:1>, <Mekanism:BasicBlock:2>, <Railcraft:brick.nether:1>]]);
 	recipes.addShaped(<Mekanism:MachineBlock:3>, [[<ore:dustRedstone>, <ore:circuitAdvanced>, <ore:dustRedstone>], [<terrafirmacraft:item.Black Steel Hammer>, <Mekanism:BasicBlock:8>, <terrafirmacraft:item.Black Steel Hammer>], [<ore:plateBlackSteel>, <ore:craftingPiston>, <ore:plateBlackSteel>]]);
 	recipes.addShaped(<Mekanism:MachineBlock:1>, [[<ore:alloyAdvanced>, <ore:circuitAdvanced>, <ore:alloyAdvanced>], [<terrafirmacraft:item.Black Steel Double Ingot>, <Mekanism:BasicBlock:8>, <terrafirmacraft:item.Black Steel Double Ingot>], [<ore:alloyAdvanced>, <ore:circuitAdvanced>, <ore:alloyAdvanced>]]);
-	recipes.addShaped(<Mekanism:MachineBlock>, [[<ore:dustRedstone>, <ore:circuitAdvanced>, <ore:dustRedstone>], [<terrafirmacraft:item.Red Steel Double Ingot>, <Mekanism:BasicBlock:8>, <terrafirmacraft:item.Red Steel Double Ingot>], [<ore:dustRedstone>, <terrafirmacraft:item.Red Steel Double Ingot>, <ore:dustRedstone>]]);
+	recipes.addShaped(<Mekanism:MachineBlock>, [[<customitems:block_of_jet>, <ore:circuitAdvanced>, <customitems:block_of_jet>], [<minecraft:glowstone>, <minecraft:glowstone>, <minecraft:glowstone>], [<Mekanism:BasicBlock:8>, <Mekanism:EnergyTablet>, <Mekanism:BasicBlock:8>]]);
 
 //# Bins
 	recipes.addShaped(<Mekanism:BasicBlock:6>, [[<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>], [<ore:stoneSmooth>, <ore:circuitBasic>, <ore:stoneSmooth>], [<ore:stoneSmooth>, <ore:stoneSmooth>,<ore:stoneSmooth>]]);

@@ -3,6 +3,27 @@
 //# Imports
 import minetweaker.item.IItemStack;
 // ================================================================================
+
+	recipes.remove(<ImmersiveEngineering:woodenDecoration>);
+	recipes.addShapeless(<ImmersiveEngineering:woodenDecoration>, [<terrafirmacraft:planks>,  <ImmersiveEngineering:fluidContainers>]);
+	recipes.addShapeless(<ImmersiveEngineering:woodenDecoration>, [<terrafirmacraft:planks:1>, <ImmersiveEngineering:fluidContainers>]);
+	recipes.addShapeless(<ImmersiveEngineering:woodenDecoration>, [<terrafirmacraft:planks:2>, <ImmersiveEngineering:fluidContainers>]);
+	recipes.addShapeless(<ImmersiveEngineering:woodenDecoration>, [<terrafirmacraft:planks:3>, <ImmersiveEngineering:fluidContainers>]);
+	recipes.addShapeless(<ImmersiveEngineering:woodenDecoration>, [<terrafirmacraft:planks:4>, <ImmersiveEngineering:fluidContainers>]);
+	recipes.addShapeless(<ImmersiveEngineering:woodenDecoration>, [<terrafirmacraft:planks:5>, <ImmersiveEngineering:fluidContainers>]);
+	recipes.addShapeless(<ImmersiveEngineering:woodenDecoration>, [<terrafirmacraft:planks:6>, <ImmersiveEngineering:fluidContainers>]);
+	recipes.addShapeless(<ImmersiveEngineering:woodenDecoration>, [<terrafirmacraft:planks:7>, <ImmersiveEngineering:fluidContainers>]);
+	recipes.addShapeless(<ImmersiveEngineering:woodenDecoration>, [<terrafirmacraft:planks:8>, <ImmersiveEngineering:fluidContainers>]);
+	recipes.addShapeless(<ImmersiveEngineering:woodenDecoration>, [<terrafirmacraft:planks:9>, <ImmersiveEngineering:fluidContainers>]);
+	recipes.addShapeless(<ImmersiveEngineering:woodenDecoration>, [<terrafirmacraft:planks:10>, <ImmersiveEngineering:fluidContainers>]);
+	recipes.addShapeless(<ImmersiveEngineering:woodenDecoration>, [<terrafirmacraft:planks:11>, <ImmersiveEngineering:fluidContainers>]);
+	recipes.addShapeless(<ImmersiveEngineering:woodenDecoration>, [<terrafirmacraft:planks:12>, <ImmersiveEngineering:fluidContainers>]);
+	recipes.addShapeless(<ImmersiveEngineering:woodenDecoration>, [<terrafirmacraft:planks:13>, <ImmersiveEngineering:fluidContainers>]);
+	recipes.addShapeless(<ImmersiveEngineering:woodenDecoration>, [<terrafirmacraft:planks:14>, <ImmersiveEngineering:fluidContainers>]);
+	recipes.addShapeless(<ImmersiveEngineering:woodenDecoration>, [<terrafirmacraft:planks:15>, <ImmersiveEngineering:fluidContainers>]);
+	recipes.addShapeless(<ImmersiveEngineering:woodenDecoration>, [<terrafirmacraft:planks2>, <ImmersiveEngineering:fluidContainers>]);
+
+
 //#REMOVE Recipes
 	recipes.remove(<ImmersiveEngineering:tool>);
 	recipes.remove(<ImmersiveEngineering:woodenDecoration:2>);
@@ -19,6 +40,7 @@ import minetweaker.item.IItemStack;
 	recipes.remove(<ImmersiveEngineering:metalDecoration:5>);
 	recipes.remove(<ImmersiveEngineering:metalDecoration:6>);
 	recipes.remove(<ImmersiveEngineering:metalDecoration:7>);
+	recipes.remove(<ImmersiveEngineering:metalDevice:10>);
 	recipes.remove(<ImmersiveEngineering:metalDevice:11>);
 	recipes.remove(<ImmersiveEngineering:metalMultiblock:2>);
 	recipes.remove(<ImmersiveEngineering:metalMultiblock:3>);
@@ -43,9 +65,12 @@ import minetweaker.item.IItemStack;
 
 // ================================================================================
 //#ADD SHAPELESS
-	recipes.addShapeless(<ImmersiveEngineering:metal:16> * 2, [<ore:dustGold>, <ore:dustSilver>]);
+	recipes.addShapeless(<ImmersiveEngineering:metal:16> * 6, [<ore:dustGold>, <ore:dustGold>, <ore:dustGold>, <ImmersiveEngineering:material:13>, <terrafirmacraft:item.Ore:26>, <ore:dustCopper>, <ore:dustSilver>,<ore:dustSilver>,<ore:dustSilver>]);
+	recipes.addShapeless(<ImmersiveEngineering:metal:16> * 4, [<ore:dustGold>, <ore:dustGold>, <ore:dustGold>, <terrafirmacraft:item.Ore:26>, <ore:dustCopper>, <ore:dustSilver>,<ore:dustSilver>,<ore:dustSilver>]);
 	recipes.addShapeless(<ImmersiveEngineering:metal:15> * 2, [<ore:dustCopper>, <ore:dustNickel>]);
 
+	recipes.addShapeless(<ImmersiveEngineering:material:13> * 2, [<terrafirmacraft:item.Unknown Ingot>]);
+	
 //# Concrete Tile
 	recipes.addShapeless(<ImmersiveEngineering:stoneDecoration:5>, [<ImmersiveEngineering:stoneDecoration:4>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
 
@@ -59,13 +84,13 @@ import minetweaker.item.IItemStack;
 	recipes.addShapedMirrored(<ImmersiveEngineering:woodenStairs> * 6, [[<ImmersiveEngineering:woodenDecoration>, null, <ore:itemSaw>.transformDamage(12)], [<ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>, null], [<ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>]]);
 
 //# Steel Slab
-
 	recipes.addShaped(<ImmersiveEngineering:storageSlab:7>, [[<ore:itemHammer>.reuse()], [<ore:craftingToolMediumChisel>.transformDamage()], [<ImmersiveEngineering:storage:7>]]);
 
 //# Iron Drill
 	recipes.addShaped(<ImmersiveEngineering:drillhead:1>, [[null, <ore:ingotIron>, null], [null, <ImmersiveEngineering:storage:7>, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);
 	recipes.addShaped(<ImmersiveEngineering:drillhead>, [[null, <ore:ingotSteel>, null], [null, <ImmersiveEngineering:storage:7>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
-	//# Repair
+
+//# Repair
 	recipes.addShaped(<ImmersiveEngineering:drillhead:1>, [[null, <ore:ingotIron>, null], [null, <ImmersiveEngineering:drillhead:1>, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);
 	recipes.addShaped(<ImmersiveEngineering:drillhead>, [[null, <ore:ingotSteel>, null], [null, <ImmersiveEngineering:drillhead>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
 
@@ -80,6 +105,34 @@ import minetweaker.item.IItemStack;
 //# Insulated Glass
 	recipes.addShaped(<ImmersiveEngineering:stoneDevice:4> * 8, [[<ore:blockGlass>, <ore:dustIron>, <ore:blockGlass>], [<ore:blockGlass>, <ore:dyeGreen>, <ore:blockGlass>], [<ore:blockGlass>, <ore:dustIron>, <ore:blockGlass>]]);
 
+	//# Capacitors
+    recipes.remove(<ImmersiveEngineering:metalDevice:1>);
+ 	recipes.remove(<ImmersiveEngineering:metalDevice:3>);
+	recipes.remove(<ImmersiveEngineering:metalDevice:7>);
+
+    recipes.addShaped(<ImmersiveEngineering:metalDevice:1>, [[<ImmersiveEngineering:woodenDecoration>,<ImmersiveEngineering:storage:8>,<ImmersiveEngineering:woodenDecoration>],[<terrafirmacraft:item.Powder>,<terrafirmacraft:item.Powder>,<terrafirmacraft:item.Powder>],[<ImmersiveEngineering:woodenDecoration>,<terrafirmacraft:item.Lead Sheet>,<ImmersiveEngineering:woodenDecoration>]]);
+ 	recipes.addShaped(<ImmersiveEngineering:metalDevice:3>, [[<terrafirmacraft:item.Bismuth Bronze Double Sheet>,<ImmersiveEngineering:storage:9>,<terrafirmacraft:item.Bismuth Bronze Double Sheet>],[<minecraft:redstone>,<ImmersiveEngineering:metalDevice:1>,<minecraft:redstone>],[<terrafirmacraft:item.Black Steel Sheet>,<terrafirmacraft:item.Lead Double Sheet>,<terrafirmacraft:item.Black Steel Sheet>]]);
+	recipes.addShaped(<ImmersiveEngineering:metalDevice:7>, [[<terrafirmacraft:item.Red Steel Sheet>,<ImmersiveEngineering:storage:10>,<terrafirmacraft:item.Red Steel Sheet>],[<minecraft:redstone_block>,<ImmersiveEngineering:metalDevice:3>,<minecraft:redstone_block>],[<terrafirmacraft:item.Lead Sheet>,<ImmersiveEngineering:metal:1>,<terrafirmacraft:item.Lead Sheet>]]);
+
+	recipes.remove(<ImmersiveEngineering:metalDevice:9>);
+	recipes.addShaped(<ImmersiveEngineering:metalDevice:9>, [[<terrafirmacraft:item.Powder>,<terrafirmacraft:item.Powder>,<terrafirmacraft:item.Powder>],[<terrafirmacraft:item.Powder>,<ImmersiveEngineering:storage:8>,<terrafirmacraft:item.Powder>],[<terrafirmacraft:item.Lead Sheet>,<terrafirmacraft:item.Lead Sheet>,<terrafirmacraft:item.Lead Sheet>]]);
+
+	// Thermo electric generator
+	recipes.addShaped(<ImmersiveEngineering:metalDevice:10>, [[<terrafirmacraft:item.Black Steel Sheet>, <terrafirmacraft:item.Lead Sheet>, <terrafirmacraft:item.Black Steel Sheet>], [<ImmersiveEngineering:storage:10>, <ImmersiveEngineering:storage:10>, <ImmersiveEngineering:storage:10>], [<terrafirmacraft:item.Lead Sheet>, <ImmersiveEngineering:metalDevice:7>, <terrafirmacraft:item.Lead Sheet>]]);
+
+	
+//# External Heater
+	recipes.remove(<ImmersiveEngineering:metalDevice:12>);
+	recipes.addShaped(<ImmersiveEngineering:metalDevice:12>, [[<ImmersiveEngineering:storage:9>, <ImmersiveEngineering:storage:9>, <ImmersiveEngineering:storage:9>], [<ImmersiveEngineering:storage:9>, <minecraft:redstone_block>, <ImmersiveEngineering:storage:9>], [<terrafirmacraft:item.Lead Sheet>, <ImmersiveEngineering:metalDevice:3>, <terrafirmacraft:item.Lead Sheet>]]);
+	
+//# Core Sample
+	recipes.remove(<ImmersiveEngineering:metalDevice:14>);
+	recipes.addShaped(<ImmersiveEngineering:metalDevice:14>, [[<ImmersiveEngineering:metalDecoration:1>, <ImmersiveEngineering:metalDecoration>, <ImmersiveEngineering:metalDecoration:1>], [<ImmersiveEngineering:metalDecoration:1>, <ImmersiveEngineering:metalDecoration>, <ImmersiveEngineering:metalDecoration:1>], [<ImmersiveEngineering:metalDecoration:7>, <ImmersiveEngineering:metal:1>, <ImmersiveEngineering:metalDecoration:7>]]);
+	
+	recipes.addShaped(<ImmersiveEngineering:metalDecoration:5> * 8, [[<ImmersiveEngineering:metal:1>, <terrafirmacraft:item.Lead Sheet>, <ImmersiveEngineering:metal:1>], [<minecraft:piston>, <ImmersiveEngineering:metal:6>, <minecraft:piston>], [<ImmersiveEngineering:metal:1>, <terrafirmacraft:item.Lead Sheet>, <ImmersiveEngineering:metal:1>]]);
+	recipes.addShaped(<ImmersiveEngineering:metalDecoration:7> * 8, [[<ImmersiveEngineering:metal:1>, <ImmersiveEngineering:material:11>, <ImmersiveEngineering:metal:1>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<ImmersiveEngineering:metal:1>, <ImmersiveEngineering:material:11>, <ImmersiveEngineering:metal:1>]]);
+
+	
 //# Conveyer
 	recipes.addShaped(<ImmersiveEngineering:metalDevice:11> * 16, [[<ore:materialLeather>, <ore:materialLeather>, <ore:materialLeather>], [<minecraft:redstone>, <ore:plateIron>, <minecraft:redstone>]]);
 
@@ -90,12 +143,14 @@ import minetweaker.item.IItemStack;
 	recipes.addShaped(<ImmersiveEngineering:woodenDevice>, [[<ImmersiveEngineering:woodenDecoration:1>], [<ImmersiveEngineering:woodenDecoration:1>], [<ore:stoneBricks>]]);
 
 //# Coils
-	recipes.addShaped(<ImmersiveEngineering:coil:0> * 8, [[null, <ore:ingotCopper>, null], [<ore:ingotCopper>, <ore:stickWood>, <ore:ingotCopper>], [null, <ore:ingotCopper>, null]]);
-	recipes.addShaped(<ImmersiveEngineering:coil:1> * 8, [[null, <ore:ingotElectrum>, null], [<ore:ingotElectrum>, <ore:stickWood>, <ore:ingotElectrum>], [null, <ore:ingotElectrum>, null]]);
-	recipes.addShaped(<ImmersiveEngineering:coil:2> * 8, [[null, <ore:ingotSteel>, null], [<ore:ingotAluminum>, <ore:stickWood>, <ore:ingotAluminum>], [null, <ore:ingotSteel>, null]]);
-	recipes.addShaped(<ImmersiveEngineering:coil:3> * 8, [[null, <ImmersiveEngineering:material:3>, null], [<ImmersiveEngineering:material:3>, <ore:stickWood>, <ImmersiveEngineering:material:3>], [null, <ImmersiveEngineering:material:3>, null]]);
-	recipes.addShaped(<ImmersiveEngineering:coil:4> * 8, [[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, <ore:stickWood>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
+	recipes.addShaped(<ImmersiveEngineering:coil:0> * 4, [[null, <ore:ingotCopper>, null], [<ore:ingotCopper>, <ImmersiveEngineering:material>, <ore:ingotCopper>], [null, <ore:ingotCopper>, null]]);
+	recipes.addShaped(<ImmersiveEngineering:coil:1> * 4, [[null, <ore:ingotElectrum>, null], [<ore:ingotElectrum>, <ImmersiveEngineering:material>, <ore:ingotElectrum>], [null, <ore:ingotElectrum>, null]]);
+	recipes.addShaped(<ImmersiveEngineering:coil:2> * 4, [[null, <ore:ingotAluminum>, null], [<ore:ingotAluminum>, <ImmersiveEngineering:material>, <ore:ingotAluminum>], [null, <ore:ingotAluminum>, null]]);
+	recipes.addShaped(<ImmersiveEngineering:coil:3> * 4, [[null, <ImmersiveEngineering:material:3>, null], [<ImmersiveEngineering:material:3>, <ore:stickWood>, <ImmersiveEngineering:material:3>], [null, <ImmersiveEngineering:material:3>, null]]);
+	recipes.addShaped(<ImmersiveEngineering:coil:4> * 4, [[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, <ore:stickWood>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
 
+// Thermo generator
+	
 //# LEB
 	recipes.addShaped(<ImmersiveEngineering:metalDecoration:7> * 4, [[<ore:ingotIron>, <ImmersiveEngineering:material:11>, <ore:ingotIron>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<ore:ingotIron>, <ImmersiveEngineering:material:11>, <ore:ingotIron>]]);
 
