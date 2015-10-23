@@ -215,6 +215,7 @@ furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 	furnace.addRecipe(<terrafirmacraft:item.ClayBowl:1>, <terrafirmacraft:item.ClayBowl>);
 	furnace.addRecipe(<terrafirmacraft:Vessel:1>, <terrafirmacraft:Vessel>);
 	furnace.addRecipe(<terrafirmacraft:item.Fire Brick:1>, <terrafirmacraft:item.Fire Brick>);
+	furnace.addRecipe(<terrafirmacraft:item.Spindle Head:1>, <terrafirmacraft:item.Spindle Head>);    
 //#Other
 	furnace.addRecipe(<Forestry:canLava>, <Forestry:canSeedOil>);
 	furnace.addRecipe(<ImmersiveEngineering:metal:5>, <ImmersiveEngineering:metal:15>);
