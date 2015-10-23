@@ -86,6 +86,8 @@
 	recipes.remove(<Railcraft:part.circuit:2>);
 	recipes.remove(<Railcraft:part.circuit>);
 	recipes.remove(<Railcraft:part.circuit:1>);
+//# Steam Turbine Casing
+    recipes.remove(<Railcraft:machine.alpha:1>);
 //# Engraving Table
 	recipes.remove(<Railcraft:machine.alpha:13>);
 //# Blast Furnace Blocks
@@ -263,7 +265,8 @@
 	recipes.addShaped(<Railcraft:detector:7>, [[<terrafirmacraft:item.Log>, <terrafirmacraft:item.Log>, <terrafirmacraft:item.Log>], [<terrafirmacraft:item.Log>, <minecraft:stone_pressure_plate>, <terrafirmacraft:item.Log>], [<terrafirmacraft:item.Log>, <terrafirmacraft:item.Log>, <terrafirmacraft:item.Log>]]);
 	recipes.addShaped(<Railcraft:detector:11>, [[<terrafirmacraft:item.Log:10>, <terrafirmacraft:item.Log:10>, <terrafirmacraft:item.Log:10>], [<terrafirmacraft:item.Log:10>, <minecraft:stone_pressure_plate>, <terrafirmacraft:item.Log:10>], [<terrafirmacraft:item.Log:10>, <terrafirmacraft:item.Log:10>, <terrafirmacraft:item.Log:10>]]);
 	recipes.addShaped(<Railcraft:detector:16>, [[<customitems:chiseled_block_of_jet>, <customitems:chiseled_block_of_jet>, <customitems:chiseled_block_of_jet>], [<customitems:chiseled_block_of_jet>, <minecraft:stone_pressure_plate>, <customitems:chiseled_block_of_jet>], [<customitems:chiseled_block_of_jet>, <customitems:chiseled_block_of_jet>, <customitems:chiseled_block_of_jet>]]);
-
+//# Steam Turbine Housing
+    recipes.addShaped(<Railcraft:machine.alpha:1>, [[<ore:blockSteel>,<ore:plateIron>, <ore:blockSteel>],[<ore:plateIron>, null, <ore:plateIron>], [<ore:blockSteel>,<ore:plateIron>, <ore:blockSteel>]]);
 //# Engraving Table
 	recipes.addShaped(<Railcraft:machine.alpha:13>, [[<terrafirmacraft:item.Steel Chisel>, <ore:plateSteel>, <ore:craftingBook>], [<ore:plateSteel>, <ore:craftingTableWood>, <ore:plateSteel>], [<ore:craftingPiston>, <ore:plateSteel>, <ore:craftingPiston>]]);
 //# Coke Oven Recipe
@@ -692,7 +695,8 @@ mods.railcraft.RockCrusher.removeRecipe(<minecraft:mossy_cobblestone>);
 	mods.railcraft.CokeOven.removeRecipe(<Railcraft:fuel.coke>);
 	mods.railcraft.CokeOven.removeRecipe(<Railcraft:cube>);
 //InputStack, matchDamage, matchNBT, OutputStack, fluidOutput, Cook time
-	mods.railcraft.CokeOven.addRecipe(<minecraft:coal:0>, true, false, <ImmersiveEngineering:material:6>, <liquid:creosote> * 500, 1800);
+    mods.railcraft.CokeOven.addRecipe(<terrafirmacraft:item.coal>, true, false, <ImmersiveEngineering:material:6>, <liquid:creosote> * 500, 1800);
+    mods.railcraft.CokeOven.addRecipe(<minecraft:coal:0>, true, false, <ImmersiveEngineering:material:6>, <liquid:creosote> * 500, 1800);
 	mods.railcraft.CokeOven.addRecipe(<minecraft:coal_block>, true, false, <ImmersiveEngineering:stoneDecoration:3>, <liquid:creosote> * 5000, 16200);
 
 

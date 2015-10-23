@@ -215,6 +215,7 @@ furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 	furnace.addRecipe(<terrafirmacraft:item.ClayBowl:1>, <terrafirmacraft:item.ClayBowl>);
 	furnace.addRecipe(<terrafirmacraft:Vessel:1>, <terrafirmacraft:Vessel>);
 	furnace.addRecipe(<terrafirmacraft:item.Fire Brick:1>, <terrafirmacraft:item.Fire Brick>);
+	furnace.addRecipe(<terrafirmacraft:item.Spindle Head:1>, <terrafirmacraft:item.Spindle Head>);    
 //#Other
 	furnace.addRecipe(<Forestry:canLava>, <Forestry:canSeedOil>);
 	furnace.addRecipe(<ImmersiveEngineering:metal:5>, <ImmersiveEngineering:metal:15>);
@@ -227,6 +228,9 @@ furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 
 //# VANILLA+ TO TFC
 
+//# No Metal Boat
+    recipes.addShapeless(<minecraft:boat>, [<ore:logWood>, <ore:logWood>, <ore:logWood>, <ore:itemAxeStone>]);
+    
 //# ADD Ultimate Bucket
 	for item in <ore:craftingToolHardHammer>.items {
 	recipes.addShapeless(<minecraft:bucket>, [<terrafirmacraft:item.Blue Steel Bucket Empty>, <terrafirmacraft:item.Red Steel Bucket Empty>, item.anyDamage().transformDamage(100)]);
