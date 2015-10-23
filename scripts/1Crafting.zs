@@ -228,6 +228,9 @@ furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 
 //# VANILLA+ TO TFC
 
+//# No Metal Boat
+    recipes.addShapeless(<minecraft:boat>, [<ore:logWood>, <ore:logWood>, <ore:logWood>, <ore:itemAxeStone]);
+    
 //# ADD Ultimate Bucket
 	for item in <ore:craftingToolHardHammer>.items {
 	recipes.addShapeless(<minecraft:bucket>, [<terrafirmacraft:item.Blue Steel Bucket Empty>, <terrafirmacraft:item.Red Steel Bucket Empty>, item.anyDamage().transformDamage(100)]);
