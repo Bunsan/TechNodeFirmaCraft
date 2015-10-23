@@ -4,8 +4,6 @@
 //# Imports
 import minetweaker.item.IItemStack;
 import minetweaker.data.IData;
-//# Tooltip
-<Forestry:factory2:2>.addTooltip(format.red("Do Not use for crafts using TFC Tools"));
 // ================================================================================
 //#REMOVE
 //# Farm Blocks (removed because they won't work)
@@ -42,7 +40,6 @@ import minetweaker.data.IData;
     recipes.remove(<Forestry:wrench>);
     recipes.remove(<Forestry:naturalistHelmet>);
     recipes.remove(<Forestry:factory:1>);
-    recipes.remove(<Forestry:factory2:2>);
 
 // ================================================================================
 //#ADD SHAPELESS

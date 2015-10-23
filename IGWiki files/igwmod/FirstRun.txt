@@ -1,49 +1,28 @@
-[prefix{l}]Version 2.5.3 All the Small Things[prefix{}]
+[prefix{l}]Version 2.6: Stop. Hammer Time.[prefix{}]
 
-This week is just a small update to fix a couple of issues.
+This week we've made a few changes that we feel really add to the playability of the pack. First we've added a new function to the TFC hammer. It is now the builders best friend. It will break smooth stone, bricks and even mod blocks quite quickly compared to the pick. It is made for building and using it on blocks touching raw stone, dirt and other natural blocks will risk ruining your tool.
 
-Warning. There is an issue with the Forestry workbench completing crafting with TFC Tools which causes the tool to be  lost in first craft. We've disabled crafting of the Forestry workbench and put a tooltip on the item. We are reporting this issue to the Forestry Development team.
+We've improved WAILA tooltips in the pack. We've changed the TFC "useless" field to be much more informative. We've also added the base metal tip to the nuggets. Even we forget what Scapolite is.
 
-Updated Mods
-- Forestry
+It seems that one of the mod updates has caused our bears to go cross eyed. It seems they won't be able to see you from quite so far away. You definitely want to still keep your distance.
 
-Bug Fixes
-- Crafting with Hammer works as expected (e.g. Vanilla Hopper)
-- Forestry recipes using any bronze ingot.
-- Fixes to remove duplicate Forestry recipes.
+There has been a lot of changes in HQM as far as quest creation. This has allowed us to better edit and collaborate on quests. There has been a large rewrite of quests and a few extras added in. This should help speed the progress in introducing more content to the tutorial quest and offer more quest options.
 
-Jokes Removed
-- Pixelmon references.
+There has been a few recipe fixes and one addition. It is now possible to craft a boat pre-metal. Just craft 3 of any log and a new stone axe. Credit to rjdunlap of Extrokoldgames for the inspiration.
 
-[prefix{l}]Welcome to TechNodefirmacraft. [prefix{}]
+We've added 2 new server mods. The first is the Discord talk/text minecraft plugin mod. This will allow servers to share their Discord information with players to help with communication. We've tested it out and have been quite pleased with its quality. MCDiscord must be installed on client and server. We also added in World Border Forge. This mod will allow servers to set borders and pre-generate chunks offline. Pre-generation of terrain greatly improves server performance. Both these mods are optional.
 
-This message will only automatically appear on first run.
+Other changes are that the Transport Crate now only has 5 uses. Additions to the Transport Crate black list. Changed the recommended Mini-map to Journeymap.
 
-[prefix{l}]Version 2.5.2: Better Boat made us Bitter but Better Better Boats are Better[prefix{}]
+New Mods:
+- MCDiscord
+- WorldBorder-Forge
 
-This weeks update has a bunch of Tweaks and fixes. As usual be sure to backup your world. 
+Updated Mods:
+- Forestry - Fixes TFC tools in Worktable and behaviour of deionized water bottles in machines.
+- TFC - Smith Skill now increases tool efficiency. Number of bug fixes.
+- HQM
+- Pneumaticcraft
+- OpenComputers
+- Better Foliage - fixes the Better Lilypads, Cactus and sand (for coral) and issues with connected log render.
 
-We've fixed and re-added Better Boats. We've also added HardCoreDarkness as a client-side optional mod. It removes the minimum block light and makes the skylight dependent on the moon. 
-
-New Mods
--Better Boats (again)
--Hardcore Darkness (optional)
-
-Tweaks
--TFC-TNFC edition tweaks were peat will spawn. They now spawn in bog-like environmental conditions. 
--TFC made smithing skill effect tool efficiency. 
--You can cook TFC cobble stone into TFC raw stone in the Arc Furnace. 
--Stone Slabs now use smooth stone instead of raw. 
-
-Bug Fixes
-- Sheep not familiarised by failed attempt to shear-TNFC edition
--Render bug and various fixes-TFC
--All known Quests issues fixed
--OC capacitor recipe fixed
--Pixelmon mobs should now spawn, but untameable. Let us know of any issues. 
-
-Updated
--TFC-TNFC edition
--TNFCmod
--Pneumaticraft
--AromaBackup
