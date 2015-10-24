@@ -1,0 +1,62 @@
+{
+  "modid": "Railcraft",
+  "segments": [
+    {
+      "class": "mods.railcraft.common.carts.EntityTunnelBore",
+      "type": "entity",
+      "entityType": "TRACKED",
+      "flag": "MODIFY",
+      "owner": [
+        {
+          "element": "owner",
+          "type": "NBT"
+        },
+        {
+          "element": "func_150285_a_",
+          "type": "METHOD"
+        }
+      ],
+      "range": 4
+    },
+    {
+      "class": "mods.railcraft.common.carts.CartMaintenanceBase",
+      "type": "entity",
+      "entityType": "TRACKED",
+      "flag": "MODIFY",
+      "owner": [
+        {
+          "element": "owner",
+          "type": "NBT"
+        },
+        {
+          "element": "func_150285_a_",
+          "type": "METHOD"
+        }
+      ],
+      "range": 4
+    },
+    {
+      "class": "mods.railcraft.common.carts.CartExplosiveBase",
+      "type": "entity",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "owner",
+          "type": "NBT"
+        },
+        {
+          "element": "func_150285_a_",
+          "type": "METHOD"
+        }
+      ],
+      "range": 15
+    },
+    {
+      "class": "mods.railcraft.common.items.ItemCrowbar",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_ENTITY",
+      "flag": "MODIFY"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Mayor",
+    "type": "MAYOR",
+    "permissions": [
+      "mytown.cmd",
+      "mytown.bypass"
+    ]
+  },
+  {
+    "name": "Assistant",
+    "type": "REGULAR",
+    "permissions": [
+      "mytown.cmd",
+      "-mytown.cmd.mayor",
+      "mytown.bypass.plot",
+      "mytown.bypass.flag"
+    ]
+  },
+  {
+    "name": "Resident",
+    "type": "DEFAULT",
+    "permissions": [
+      "mytown.cmd.everyone",
+      "mytown.cmd.outsider",
+      "mytown.bypass.flag",
+      "-mytown.bypass.flag.restrictions"
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "modid": "Mekanism",
+  "segments": [
+    {
+      "class": "mekanism.common.item.ItemAtomicDisassembler",
+      "type": "item",
+      "itemType": "LEFT_CLICK_BLOCK",
+      "onAdjacent": false,
+      "flag": "MODIFY"
+    },
+    {
+      "class": "mekanism.common.item.ItemConfigurator",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_BLOCK",
+      "onAdjacent": false,
+      "flag": "MODIFY"
+    },
+    {
+      "class": "mekanism.common.block.BlockBounding",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACCESS"
+    },
+    {
+      "class": "mekanism.common.item.ItemBlockMachine",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_BLOCK",
+      "onAdjacent": false,
+      "clientUpdate": {
+        "coords": [
+          -1,
+          0,
+          -1,
+          1,
+          2,
+          1
+        ],
+        "directional": false
+      },
+      "flag": "MODIFY",
+      "condition": "itemDamage == 4 AND blockName == 'tile.MachineBlock'",
+      "itemDamage": [
+        {
+          "element": "itemDamage",
+          "type": "FIELD"
+        }
+      ],
+      "blockName": [
+        {
+          "element": "getItem",
+          "type": "METHOD"
+        },
+        {
+          "element": "getUnlocalizedName",
+          "type": "METHOD"
+        }
+      ],
+      "range": 32
+    }
+  ]
+}
+

@@ -1,0 +1,67 @@
+[
+  {
+    "flagType": "ENTER",
+    "defaultState": true,
+    "isAllowedInTowns": true
+  },
+  {
+    "flagType": "ACCESS",
+    "defaultState": false,
+    "isAllowedInTowns": true
+  },
+  {
+    "flagType": "PICKUP",
+    "defaultState": true,
+    "isAllowedInTowns": true
+  },
+  {
+    "flagType": "PVP",
+    "defaultState": false,
+    "isAllowedInTowns": true
+  },
+  {
+    "flagType": "MOBS",
+    "defaultState": "all",
+    "isAllowedInTowns": true
+  },
+  {
+    "flagType": "PVE",
+    "defaultState": false,
+    "isAllowedInTowns": true
+  },
+  {
+    "flagType": "USAGE",
+    "defaultState": false,
+    "isAllowedInTowns": true
+  },
+  {
+    "flagType": "ACTIVATE",
+    "defaultState": false,
+    "isAllowedInTowns": true
+  },
+  {
+    "flagType": "FAKERS",
+    "defaultState": true,
+    "isAllowedInTowns": true
+  },
+  {
+    "flagType": "MODIFY",
+    "defaultState": false,
+    "isAllowedInTowns": true
+  },
+  {
+    "flagType": "EXPLOSIONS",
+    "defaultState": false,
+    "isAllowedInTowns": true
+  },
+  {
+    "flagType": "RESTRICTIONS",
+    "defaultState": false,
+    "isAllowedInTowns": true
+  },
+  {
+    "flagType": "NEARBY",
+    "defaultState": false,
+    "isAllowedInTowns": true
+  }
+]

@@ -1,0 +1,186 @@
+{
+  "modid": "Minecraft",
+  "segments": [
+    {
+      "class": "net.minecraft.block.BlockButton",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACTIVATE"
+    },
+    {
+      "class": "net.minecraft.block.BlockDoor",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACTIVATE",
+      "clientUpdate": {
+        "coords": [
+          0,
+          -1,
+          0,
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "class": "net.minecraft.block.BlockLever",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACTIVATE"
+    },
+    {
+      "class": "net.minecraft.block.BlockFenceGate",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACTIVATE"
+    },
+    {
+      "class": "net.minecraft.block.BlockDragonEgg",
+      "type": "block",
+      "blockType": "ANY_CLICK",
+      "meta": -1,
+      "flag": "ACTIVATE"
+    },
+    {
+      "class": "net.minecraft.block.BlockCake",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACTIVATE"
+    },
+    {
+      "class": "net.minecraft.block.BlockTrapDoor",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACTIVATE"
+    },
+    {
+      "class": "net.minecraft.block.BlockJukebox",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACTIVATE"
+    },
+    {
+      "class": "net.minecraft.block.BlockRedstoneRepeater",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACTIVATE"
+    },
+    {
+      "class": "net.minecraft.block.BlockRedstoneComparator",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACTIVATE"
+    },
+    {
+      "class": "net.minecraft.block.BlockAnvil",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACCESS"
+    },
+    {
+      "class": "net.minecraft.block.BlockCauldron",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACCESS"
+    },
+    {
+      "class": "net.minecraft.block.BlockContainer",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACCESS"
+    },
+    {
+      "class": "net.minecraft.block.BlockBed",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACCESS"
+    },
+    {
+      "class": "net.minecraft.entity.monster.EntityMob",
+      "type": "entity",
+      "entityType": "TRACKED",
+      "flag": {
+        "name": "MOBS",
+        "denialValue": "passives"
+      }
+    },
+    {
+      "class": "net.minecraft.entity.EntityAgeable",
+      "type": "entity",
+      "entityType": "PROTECT",
+      "flag": "PVE"
+    },
+    {
+      "class": "net.minecraft.entity.monster.EntityCreeper",
+      "type": "entity",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
+      "range": 5
+    },
+    {
+      "class": "net.minecraft.entity.item.EntityTNTPrimed",
+      "type": "entity",
+      "entityType": "TRACKED",
+      "flag": "EXPLOSIONS",
+      "owner": [
+        {
+          "element": "field_94084_b",
+          "type": "FIELD"
+        },
+        {
+          "element": "func_70005_c_",
+          "type": "METHOD"
+        }
+      ],
+      "range": 5
+    },
+    {
+      "class": "net.minecraft.entity.item.EntityItemFrame",
+      "type": "entity",
+      "entityType": "PROTECT",
+      "flag": "PVE"
+    },
+    {
+      "class": "net.minecraft.item.ItemMonsterPlacer",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_BLOCK",
+      "onAdjacent": true,
+      "flag": "USAGE"
+    },
+    {
+      "class": "net.minecraft.item.ItemMonsterPlacer",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_ENTITY",
+      "onAdjacent": false,
+      "flag": "USAGE"
+    },
+    {
+      "class": "net.minecraft.item.ItemShears",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_ENTITY",
+      "onAdjacent": false,
+      "flag": "USAGE"
+    },
+    {
+      "class": "net.minecraft.item.ItemHangingEntity",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_BLOCK",
+      "onAdjacent": true,
+      "flag": "USAGE"
+    }
+  ]
+}

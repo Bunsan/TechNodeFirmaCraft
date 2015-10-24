@@ -1,0 +1,40 @@
+{
+  "modid": "CarpentersBlocks",
+  "segments": [
+    {
+      "class": "com.carpentersblocks.block.BlockCarpentersButton",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACTIVATE"
+    },
+    {
+      "class": "com.carpentersblocks.block.BlockCarpentersDoor",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACTIVATE"
+    },
+    {
+      "class": "com.carpentersblocks.block.BlockCarpentersLever",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACTIVATE"
+    },
+    {
+      "class": "com.carpentersblocks.block.BlockCarpentersGate",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACTIVATE"
+    },
+    {
+      "class": "com.carpentersblocks.block.BlockCarpentersHatch",
+      "type": "block",
+      "blockType": "RIGHT_CLICK",
+      "meta": -1,
+      "flag": "ACTIVATE"
+    }
+  ]
+}

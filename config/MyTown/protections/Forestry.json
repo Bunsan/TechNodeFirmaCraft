@@ -1,0 +1,26 @@
+{
+  "modid": "Forestry",
+  "segments": [
+    {
+      "class": "forestry.core.items.ItemWrench",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_BLOCK",
+      "onAdjacent": false,
+      "flag": "MODIFY"
+    },
+    {
+      "class": "forestry.core.items.ItemForestry",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_BLOCK",
+      "onAdjacent": false,
+      "flag": "USAGE"
+    },
+    {
+      "class": "forestry.core.items.ItemLiquidContainer",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_BLOCK",
+      "onAdjacent": true,
+      "flag": "USAGE"
+    }
+  ]
+}

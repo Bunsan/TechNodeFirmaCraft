@@ -1,0 +1,19 @@
+{
+  "modid": "JABBA",
+  "segments": [
+    {
+      "class": "mcp.mobius.betterbarrels.common.blocks.BlockBarrel",
+      "type": "block",
+      "blockType": "LEFT_CLICK",
+      "meta": -1,
+      "flag": "ACCESS"
+    },
+    {
+      "class": "mcp.mobius.betterbarrels.common.items.dolly.ItemBarrelMover",
+      "type": "item",
+      "itemType": "RIGHT_CLICK_BLOCK",
+      "onAdjacent": false,
+      "flag": "MODIFY"
+    }
+  ]
+}
