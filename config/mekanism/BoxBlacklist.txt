@@ -40,6 +40,9 @@ terrafirmacraft:Forge
 terrafirmacraft:Forge:1
 terrafirmacraft:Molten
 terrafirmacraft:Crops
+terrafirmacraft:TallGrass
+terrafirmacraft:TallGrass:2
+terrafirmacraft:TallGrass:1
 minecraft:wooden_door
 minecraft:iron_door
 PneumaticCraft:pneumaticDoor
