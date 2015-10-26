@@ -228,6 +228,7 @@ import minetweaker.data.IData;
 //#Removal
 	mods.mekanism.Crusher.removeRecipe(<ImmersiveEngineering:metal:14>);
 	mods.mekanism.Crusher.removeRecipe(<minecraft:gravel>);
+    mods.mekanism.Crusher.removeRecipe(<Mekanism:BioFuel>);
 //#Addition
 	//InputStack, OutputStack
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Diamond:0>, <TabulaRasa:RasaItem2:4>);
@@ -256,9 +257,6 @@ import minetweaker.data.IData;
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Bismuth Ingot>, <TabulaRasa:RasaItem1:1>);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Nickel Ingot>, <TabulaRasa:RasaItem1:2>);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Platinum Ingot>, <TabulaRasa:RasaItem1:3>);
-	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Straw>, <Mekanism:BioFuel> * 2);
-	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Reeds>, <Mekanism:BioFuel> * 2);
-	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.FruitSapling:*>, <Mekanism:BioFuel> * 4);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Bronze Ingot>, <TabulaRasa:RasaItem1:4>);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Bismuth Bronze Ingot>, <TabulaRasa:RasaItem1:5>);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Black Bronze Ingot>, <TabulaRasa:RasaItem1:6>);
@@ -289,12 +287,24 @@ import minetweaker.data.IData;
 	//# Lapis
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Powder:6> * 4);
 	//# Bones
-	mods.mekanism.Crusher.addRecipe(<minecraft:bone>, <terrafirmacraft:item.Powder:15> * 2);
+	mods.mekanism.Crusher.addRecipe(<minecraft:bone>, <terrafirmacraft:item.dyePowder:15> * 2);
 //#BioFuel
-		for item in <ore:bagSeed>.items {
+		for item in <ore:seedBag>.items {
 	mods.mekanism.Crusher.addRecipe(item, <Mekanism:BioFuel> * 4);
 		}
-
+        for item in <ore:treeSapling>.items {
+    mods.mekanism.Crusher.addRecipe(item, <Mekanism:BioFuel>);
+        }
+        for item in <ore:bushBerry>.items {
+    mods.mekanism.Crusher.addRecipe(item, <Mekanism:BioFuel> * 4);
+        }
+        for item in <ore:fruitTreeSapling>.items {
+    mods.mekanism.Crusher.addRecipe(item, <Mekanism:BioFuel> * 4);
+        }
+    mods.mekanism.Crusher.addRecipe(<terrafirmacraft:Thatch>, <Mekanism:BioFuel>);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Reeds>, <Mekanism:BioFuel>);
+    mods.mekanism.Crusher.addRecipe(<terrafirmacraft:Pumpkin>, <Mekanism:BioFuel> * 2);
+    
 //# Compressor
 //#Removal
 	//OutputStack

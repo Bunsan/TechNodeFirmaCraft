@@ -207,7 +207,7 @@ recipes.addShaped(<Forestry:naturalistHelmet>, [[null, <ore:ingotAnyBronze>, nul
 	mods.forestry.Fermenter.addRecipe(item, <liquid:for.honey>, 50, 6, <liquid:biomass>);
 	}
 
-		for item in <ore:bagSeed>.items {
+		for item in <ore:seedBag>.items {
 	mods.forestry.Fermenter.addRecipe(item, <liquid:water>, 50, 4, <liquid:biomass>);
 	mods.forestry.Fermenter.addRecipe(item, <liquid:juice>, 50, 6, <liquid:biomass>);
 	mods.forestry.Fermenter.addRecipe(item, <liquid:for.honey>, 50, 6, <liquid:biomass>);
