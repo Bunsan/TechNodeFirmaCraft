@@ -4,7 +4,7 @@
 	recipes.remove(<cuchaz.cuchazinteractive:shipPlaque>);
 	recipes.remove(<cuchaz.ships:blockShip:*>);
 	recipes.remove(<cuchaz.ships:blockHelm>);
-	recipes.remove(<<cuchaz.ships:paddle>>);
+	recipes.remove(<cuchaz.ships:paddle>);
 	recipes.remove(<cuchaz.ships:berth>);
     recipes.remove(<cuchaz.ships:shipClipboard>);
     recipes.remove(<cuchaz.ships:blockProjector>);
