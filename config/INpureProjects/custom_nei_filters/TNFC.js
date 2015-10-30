@@ -143,7 +143,11 @@ if (FML.isModLoaded("terrafirmacraft")) {
     NEI.hide("Tubestuff:machine:6");
     NEI.hide("Tubestuff:machine:8");
     NEI.hide("Tubestuff:uselessItem");
-
+    NEI.hide("cuchaz.ships:blockAirRoof");
+    NEI.hide("cuchaz.ships:blockAirWall");
+    NEI.hide("weather2:WeatherMachine");
+    
+    
 
     
 }
