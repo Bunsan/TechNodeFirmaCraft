@@ -231,7 +231,7 @@ import minetweaker.data.IData;
     mods.mekanism.Crusher.removeRecipe(<Mekanism:BioFuel>);
 //#Addition
 	//InputStack, OutputStack
-	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Diamond:0>, <TabulaRasa:RasaItem2:4>);
+	//mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Diamond:0>, <TabulaRasa:RasaItem2:4>);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Diamond:1>, <TabulaRasa:RasaItem2:4> * 2);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Diamond:2>, <Mekanism:OtherDust>);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Diamond:3>, <Mekanism:OtherDust> * 2);

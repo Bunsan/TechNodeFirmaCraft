@@ -36,6 +36,8 @@ import minetweaker.item.IItemStack;
 	recipes.remove(<ImmersiveEngineering:toolupgrade:2>);
 	recipes.remove(<ImmersiveEngineering:toolupgrade:4>);
 	recipes.remove(<ImmersiveEngineering:storageSlab:*>);
+    recipes.remove(<ImmersiveEngineering:metalDecoration:10>);
+    recipes.remove(<ImmersiveEngineering:metalDevice2:6>);
 
 // ================================================================================
 //#ADD Furnace Recipes
@@ -58,8 +60,10 @@ import minetweaker.item.IItemStack;
 //# Treated Wood Stairs
 	recipes.addShapedMirrored(<ImmersiveEngineering:woodenStairs> * 6, [[<ImmersiveEngineering:woodenDecoration>, null, <ore:itemSaw>.transformDamage(12)], [<ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>, null], [<ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>, <ImmersiveEngineering:woodenDecoration>]]);
 
-//# Steel Slab
+//# Sheet Metal Blocks
+    recipes.addShaped(<ImmersiveEngineering:metalDecoration:10> * 8, [[<ore:plateTin>], [<ore:craftingToolMediumHammer>.transformDamage()], [<ore:plateTin>]]);
 
+//# Steel Slab
 	recipes.addShaped(<ImmersiveEngineering:storageSlab:7>, [[<ore:itemHammer>.reuse()], [<ore:craftingToolMediumChisel>.transformDamage()], [<ImmersiveEngineering:storage:7>]]);
 
 //# Iron Drill
@@ -68,7 +72,6 @@ import minetweaker.item.IItemStack;
 	//# Repair
 	recipes.addShaped(<ImmersiveEngineering:drillhead:1>, [[null, <ore:ingotIron>, null], [null, <ImmersiveEngineering:drillhead:1>, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);
 	recipes.addShaped(<ImmersiveEngineering:drillhead>, [[null, <ore:ingotSteel>, null], [null, <ImmersiveEngineering:drillhead>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
-
 
 //# Oxidizer Tank
 	recipes.addShaped(<ImmersiveEngineering:toolupgrade>, [[<Forestry:canEmpty>, <ore:dyeBlue>, null], [<ore:dyeBlue>, <Forestry:canEmpty>, <ore:dyeBlue>], [null, <ore:dyeBlue>, <ImmersiveEngineering:material:11>]]);
@@ -120,6 +123,9 @@ import minetweaker.item.IItemStack;
 //# Fermenter Block
 	recipes.addShaped(<ImmersiveEngineering:metalMultiblock:3> * 4, [[<ore:ingotIron>, <ore:craftingPiston>, <ore:ingotIron>], [<ImmersiveEngineering:material:11>, <ore:dyeBlue>, <ImmersiveEngineering:material:11>], [<ore:ingotIron>, <ore:craftingPiston>, <ore:ingotIron>]]);
 
+//# Liquid Pump 
+    recipes.addShaped(<ImmersiveEngineering:metalDevice2:6>, [[null, <ore:ingotRedSteel>, null], [<ore:ingotBlueSteel>, <ImmersiveEngineering:material:11>, <ore:ingotBlueSteel>], [<ImmersiveEngineering:metalDevice2:5>, <ImmersiveEngineering:metalDevice2:5>, <ImmersiveEngineering:metalDevice2:5>]]);
+    
 // Engineers Hammer
 	recipes.addShaped(<ImmersiveEngineering:tool>, [[null, <ore:ingotBlackSteel>, <terrafirmacraft:item.Rope>], [null, <ore:stickWood>, <ore:ingotBlackSteel>], [<ore:stickWood>, null, null]]);
 

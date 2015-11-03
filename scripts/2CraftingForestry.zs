@@ -39,8 +39,9 @@ import minetweaker.data.IData;
     recipes.remove(<Forestry:grafter>);
     recipes.remove(<Forestry:wrench>);
     recipes.remove(<Forestry:naturalistHelmet>);
-    recipes.remove(<Forestry:factory:1>);
-
+    recipes.remove(<Forestry:frameUntreated>);
+    recipes.remove(<Forestry:frameImpregnated>);
+    
 // ================================================================================
 //#ADD SHAPELESS
 	recipes.addShapeless(<Forestry:canLava>, [<Forestry:canEmpty>, <terrafirmacraft:item.Blue Steel Bucket Lava>]);
@@ -54,11 +55,15 @@ import minetweaker.data.IData;
 
 //# String
 	recipes.addShaped(<minecraft:string>, [[<Forestry:craftingMaterial:2>], [<Forestry:craftingMaterial:2>], [<Forestry:craftingMaterial:2>]]);
-
+//# Frames
+    recipes.addShaped(<Forestry:frameImpregnated>, [[<Forestry:oakStick>, <Forestry:oakStick>, <Forestry:oakStick>], [<Forestry:oakStick>, <ore:materialString>, <Forestry:oakStick>], [<Forestry:oakStick>, <Forestry:oakStick>, <Forestry:oakStick>]]);
+    recipes.addShaped(<Forestry:frameUntreated>, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, <ore:materialString>, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+    
 //#Reinstated Forestery gears
 	recipes.addShaped(<Forestry:gearTin> * 2, [[null, <ore:craftingToolMediumHammer>.transformDamage(), null], [<Railcraft:part.gear:3>, <ore:plateDoubleTin>, <Railcraft:part.gear:3>]]);
 	recipes.addShaped(<Forestry:gearCopper>, [[null, <ore:craftingToolMediumHammer>.transformDamage(), null], [<Railcraft:part.gear:3>, <ore:plateDoubleCopper>, <Railcraft:part.gear:3>]]);
 	recipes.addShaped(<Forestry:gearBronze>, [[null, <ore:craftingToolMediumHammer>.transformDamage(), null], [<Railcraft:part.gear:3>, <ore:plateDoubleAnyBronze>, <Railcraft:part.gear:3>]]);
+
 //#Reinstating a Forestry Sturdy Machine Recipe
 	recipes.addShaped(<Forestry:sturdyMachine>, [[null, <ore:plateAnyBronze>, null], [<ore:plateAnyBronze>, <ore:craftingToolMediumHammer>.transformDamage(), <ore:plateAnyBronze>], [null, <ore:plateAnyBronze>, null]]);
 
@@ -71,12 +76,9 @@ import minetweaker.data.IData;
 	recipes.addShaped(<Forestry:engine:1>, [[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>], [<ore:itemHammer>.reuse(), <ore:blockGlassColorless>, <ore:craftingToolMediumChisel>.transformDamage()], [<ore:gearCopper>, <ore:craftingPiston>, <ore:gearCopper>]]);
 	recipes.addShaped(<Forestry:engine:2>, [[<ore:plateAnyBronze>, <ore:plateAnyBronze>, <ore:plateAnyBronze>], [<ore:itemHammer>.reuse(), <ore:blockGlassColorless>, <ore:craftingToolMediumChisel>.transformDamage()], [<ore:gearBronze>, <ore:craftingPiston>, <ore:gearBronze>]]);
 
-//#RainTank
-	recipes.addShaped(<Forestry:factory2:1>, [[<ore:ingotIron>, <ore:blockGlassColorless>, <ore:ingotIron>], [<ore:ingotIron>, <Forestry:sturdyMachine>, <ore:ingotIron>], [<ore:ingotIron>, <ore:blockGlassColorless>, <ore:ingotIron>]]);
-
 //# Carpenter
     recipes.addShaped(<Forestry:factory:1>, [[<ore:ingotAnyBronze>, <ore:blockGlass>, <ore:ingotAnyBronze>], [<ore:ingotAnyBronze>, <Forestry:sturdyMachine>, <ore:ingotAnyBronze>], [<ore:ingotAnyBronze>, <ore:blockGlass>, <ore:ingotAnyBronze>]]);
-
+    
 //# Infuser
 	recipes.addShaped(<Forestry:infuser>, [[<ore:ingotAnyBronze>], [<ore:ingotIron>], [<ore:ingotAnyBronze>]]);
 //# Grafter
@@ -164,14 +166,10 @@ recipes.addShaped(<Forestry:naturalistHelmet>, [[null, <ore:ingotAnyBronze>, nul
 	mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:3>);
 
 //#Addition
-	//Time recipe requires (Ticks), InputFluid, InputArray, InputStack Box, OutputStack //InputStack Box is the slot where Cartons and Crates are by default, it can accept any item - optional
-	mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 300, [<terrafirmacraft:item.Ore:33>, <terrafirmacraft:item.Ore:33>, <terrafirmacraft:item.Ore:33>, <minecraft:paper>, <minecraft:paper>, <minecraft:paper>, null, null, null], null, <Forestry:stamps> * 9);
-	mods.forestry.Carpenter.addRecipe(100, <liquid:seedoil> * 300, [<terrafirmacraft:item.Gold Ingot>, <terrafirmacraft:item.Gold Ingot>, <terrafirmacraft:item.Gold Ingot>, <minecraft:paper>, <minecraft:paper>, <minecraft:paper>, null, null, null], null, <Forestry:stamps:3> * 9);
-	mods.forestry.Carpenter.addRecipe(100, <liquid:water> * 2000, [<terrafirmacraft:item.Tin Ingot>, <minecraft:glass_pane>, <terrafirmacraft:item.Tin Ingot>, <terrafirmacraft:item.Tin Ingot>, <minecraft:glass_pane>, <terrafirmacraft:item.Tin Ingot>, <minecraft:redstone>, <terrafirmacraft:item.Diamond:3>, <minecraft:redstone>], null, <Forestry:beealyzer>);
-	mods.forestry.Carpenter.addRecipe(100, <liquid:water> * 2000, [<terrafirmacraft:item.Copper Ingot>, <minecraft:glass_pane>, <terrafirmacraft:item.Copper Ingot>, <terrafirmacraft:item.Copper Ingot>, <minecraft:glass_pane>, <terrafirmacraft:item.Copper Ingot>, <minecraft:redstone>, <terrafirmacraft:item.Diamond:3>, <minecraft:redstone>], null, <Forestry:treealyzer>);
-		for item in <ore:ingotAnyBronze>.items {
-	mods.forestry.Carpenter.addRecipe(100, <liquid:water> * 2000, [item, <minecraft:glass_pane>, item, item, <minecraft:glass_pane>, item, <minecraft:redstone>, <terrafirmacraft:item.Diamond:3>, <minecraft:redstone>], null, <Forestry:flutterlyzer>);
-		}
+	//addRecipe(IItemStack output, IIngredient[][] ingredients, ILiquidStack fluidInput, int packagingTime, @Optional IItemStack box)
+    // or (IItemStack output, IIngredient[][] ingredients, int packagingTime, @Optional IItemStack box)
+	mods.forestry.Carpenter.addRecipe(<Forestry:stamps> * 9, [[<ore:gemApatite>, <ore:gemApatite>, <ore:gemApatite>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [null, null, null]], <liquid:seedoil> * 300, 100);
+	mods.forestry.Carpenter.addRecipe(<Forestry:stamps:3> * 9, [[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [null, null, null]], <liquid:seedoil> * 300, 100);
 
 // Centrifuge Recipes
 //#Removal
@@ -223,7 +221,6 @@ recipes.addShaped(<Forestry:naturalistHelmet>, [[null, <ore:ingotAnyBronze>, nul
 // Still Recipes
 //#Removal
 	//OutputFluid, InputFluid
-	mods.forestry.Still.removeRecipe(<liquid:for.honey>, <liquid:honey>);
 //#Addition
 	//Time recipe requires (Ticks), InputFluid, OutputFluid
 	//mods.forestry.Still.addRecipe(<liquid:lava>, <Forestry:ash>, 1000, [item]); 
