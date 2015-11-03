@@ -1,12 +1,4 @@
 //# TubeStuff
-import mods.nei.NEI;
-NEI.hide(<Tubestuff:machine:0>);
-NEI.hide(<Tubestuff:machine:1>);
-NEI.hide(<Tubestuff:machine:2>);
-NEI.hide(<Tubestuff:machine:4>);
-NEI.hide(<Tubestuff:machine:6>);
-NEI.hide(<Tubestuff:machine:8>);
-NEI.hide(<Tubestuff:uselessItem>);
 // ================================================================================
 //#REMOVE Recipes
 	recipes.remove(<Tubestuff:machine:1>);
