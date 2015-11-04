@@ -38,6 +38,7 @@ import minetweaker.item.IItemStack;
 	recipes.remove(<ImmersiveEngineering:storageSlab:*>);
     recipes.remove(<ImmersiveEngineering:metalDecoration:10>);
     recipes.remove(<ImmersiveEngineering:metalDevice2:6>);
+    recipes.remove(<ImmersiveEngineering:jerrycan>);
 
 // ================================================================================
 //#ADD Furnace Recipes
@@ -73,6 +74,8 @@ import minetweaker.item.IItemStack;
 	recipes.addShaped(<ImmersiveEngineering:drillhead:1>, [[null, <ore:ingotIron>, null], [null, <ImmersiveEngineering:drillhead:1>, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);
 	recipes.addShaped(<ImmersiveEngineering:drillhead>, [[null, <ore:ingotSteel>, null], [null, <ImmersiveEngineering:drillhead>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
 
+//# Jerry Can
+    recipes.addShapedMirrored(<ImmersiveEngineering:jerrycan>, [[<ore:dyeGreen>, <ore:plateBlackSteel>], [<ore:plateBlackSteel>, <ore:plateBlackSteel>]]);
 //# Oxidizer Tank
 	recipes.addShaped(<ImmersiveEngineering:toolupgrade>, [[<Forestry:canEmpty>, <ore:dyeBlue>, null], [<ore:dyeBlue>, <Forestry:canEmpty>, <ore:dyeBlue>], [null, <ore:dyeBlue>, <ImmersiveEngineering:material:11>]]);
 
