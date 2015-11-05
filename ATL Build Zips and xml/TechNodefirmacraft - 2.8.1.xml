@@ -1,7 +1,7 @@
     <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>2.8</version>
+        <version>2.8.1</version>
         <minecraft>1.7.10</minecraft>
         <caseallfiles>lower</caseallfiles>
         <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
@@ -61,7 +61,7 @@
         name="Railcraft" version="9.7.0.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/railcraft_1.7.10-9.7.0.0.jar" file="railcraft_1.7.10-9.7.0.0.jar" md5="e72e29cfc4c83a2b1c9ea19617448e51" download="server" type="mods" website="http://railcraft.info/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/mc-mods/51195-railcraft&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=CovertJaguar%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_return=http://m" authors="CovertJaguar" description="Redefine your rails" client="yes" server="yes" serveroptional="no" 
         />
         <mod
-        name="Forestry for Minecraft" version="4.1.1.tnfc" url="packs/TechNodefirmacraft/files/1.7.10Mods/forestry_1.7.10-4.1.1.tnfc.jar" file="forestry_1.7.10-4.1.1.tnfc.jar" md5="312620d1804d5f9b05653cae031aa676" download="server" type="mods" website="http://forestry.sengir.net/" authors="SirSengir" description="Trees, bees and more." client="yes" optional="no" server="yes" serveroptional="no"
+        name="Forestry for Minecraft" version="4.1.1.tnfc2" url="packs/TechNodefirmacraft/files/1.7.10Mods/forestry_1.7.10-4.1.1.tnfc2.jar" file="forestry_1.7.10-4.1.1.tnfc2.jar" md5="93fe5076427aee5c520ebd2d849bcf62" download="server" type="mods" website="http://forestry.sengir.net/" authors="SirSengir" description="Trees, bees and more." client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod
         name="PneumaticCraft" version="1.11.19-141" url="packs/TechNodefirmacraft/files/1.7.10Mods/PneumaticCraft-1.7.10-1.11.19-141-universal.jar" file="PneumaticCraft-1.7.10-1.11.19-141-universal.jar" md5="8eb89120fec86591a900261fbb148916" download="server" type="mods" website="http://www.minemaarten.com" authors="MineMaarten" description="A technical mod all about pneumatics!" client="yes" optional="no" server="yes" serveroptional="no"
@@ -152,7 +152,7 @@
         />
         <!-- Pack Customization Mods -->
         <mod
-        name="Scripts" version="base_build_2.8" url="packs/TechNodefirmacraft/files/extract/scripts_base_build_2.8.zip" file="scripts_base_build_2.8.zip" md5="af50418ca5835be908cadcb83367cbe0" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="Scripts" version="base_build_2.8.1"  url="packs/TechNodefirmacraft/files/extract/scripts_base_build_2.8.1.zip" file="scripts_base_build_2.8.1.zip" md5="dc865ac2ae90a193d407de97bf8747e9" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
         /> 
         <mod
         name="MineTweaker 3" version="3.0.10B" url="packs/TechNodefirmacraft/files/1.7.10Mods/MineTweaker3-1.7.10-3.0.10B.jar" file="MineTweaker3-1.7.10-3.0.10B.jar" md5="884933d1b933e0bd2f93293201569f13" download="server" type="mods" website="http://minetweaker3.powerofbytes.com" authors="Stan Hebben" description="Customize your minecraft experience!" client="yes" optional="no" server="yes" serveroptional="no"
@@ -344,7 +344,7 @@
         />
         <!-- Scripts -->
         <mod
-        name="ScriptW2" version="w2_build_2.8" url="packs/TechNodefirmacraft/files/extract/scripts_w2_build_2.8.zip" file="scripts_w2_build_2.8.zip" md5="7478e39be7966016cc3af679b436c231" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Script for Weather2" client="yes" optional="yes" server="yes" serveroptional="yes" library="yes"
+        name="ScriptW2" version="w2_build_2.8.1" url="packs/TechNodefirmacraft/files/extract/scripts_w2_build_2.8.1.zip" file="scripts_w2_build_2.8.1.zip" md5="84daf548cbcfc618e9bca74f1b3dc661" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Script for Weather2" client="yes" optional="yes" server="yes" serveroptional="yes" library="yes"
         />
         <mod 
         name="Resource Loaders Folder" version="2.7" url="packs/TechNodefirmacraft/files/extract/resources_2.7.zip" file="resources_2.7.zip" md5="6f1a40e9d1e657f43d96db4bf19e6f26" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="no"
