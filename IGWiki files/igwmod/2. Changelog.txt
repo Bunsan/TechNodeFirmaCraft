@@ -1,3 +1,43 @@
+[prefix{l}]Version 2.8: Insert Witty Update Title Here.[prefix{}]
+
+A nice update for everyone this week. We get some new content from Immersive Engineering. Couple of new mods. The Animal Crate mod for moving animals around and WAILA Plugins for more information for many of the packs mods. Some nice mod bug fixes, some pack bug fixes and some nice little Tweaks.
+
+Tweaks:
+
+TFC-TNFC 
+  - Rocks, sticks and ore nuggets will now regenerate when the temperature is less than 15oC. 
+  - Tallgrass, sapling, rocks/stick/nuggets spawning will only occurs in chunks with spawn protection less than about a quarter max. So less weeding of your yard.
+
+
+Tallgrass/saplings only spawn when temp>20 and it's not drygrass.
+
+Rocks/sticks/nuggets only spawn when temp<15.
+
+Ships Mod
+  -  We've modified ships mod to have support for dynamic lights. So assembled ships will now give off light when Dynamic Lights is installed.
+
+Pack
+  - Recipe for bee frames using wool yarn.
+  - Recipes requiring Princess bee now require Queen as intended (fixes impossible recipes).
+  - Removed chipped diamond crusher recipe due to changes in Kimberlite behaviour.
+  - All non-TFC recipes using chipped diamond now require flawed diamond.
+  - Recipe for Flux Transformer.
+  - Corrected recipe for Ultimate Energy Cube to use correct Alloy.
+  - Various bug fixes.
+
+New Mods
+  - Animalcrates - provides crate to capture passive mobs. Carry on back.
+  - WAILA Pluging (EnderCore for dependency) - More information for Forestry, Railcraft, Mekanism and more.
+
+Updated Mods
+  - Immersive Engineering - Pumps, Liquid and Item storage, Assembler and more.
+  - Forestry 
+  - Bibliocraft 
+  - Custom Main Menu
+  - Farseek and Streams
+  - NEI Integration
+  - Pneumaticcraft
+
 [prefix{l}]Version 2.7: Where are my damn Laurels? I need a rest.[prefix{}]
 
 TFC involves a lot of travel, but how are you going to get all that stuff back to your base? If only you could place barrels or chests on those so called better boats. Well we’ve got you covered. We are happy to now include Ships Mod by Cuchaz. There is a lot of information to give you, but before that all the other changes, because there is a lot.

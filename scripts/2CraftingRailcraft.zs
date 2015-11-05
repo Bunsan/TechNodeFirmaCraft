@@ -99,8 +99,8 @@
 	recipes.remove(<Railcraft:lantern.stone:*>);
 //# Specialty carts, locomotives and tunnel bore
 	recipes.remove(<Railcraft:cart.loco.electric>);
-    recipes.remove(<Railcraft:machine.epsilon:4>):
-     recipes.remove(<Railcraft:machine.epsilon>);
+    recipes.remove(<Railcraft:machine.epsilon:4>);
+    recipes.remove(<Railcraft:machine.epsilon>);
 	recipes.remove(<Railcraft:cart.track.remover>);
 	recipes.remove(<Railcraft:cart.track.layer>);
 	recipes.remove(<Railcraft:cart.undercutter>);
@@ -296,7 +296,7 @@
 
 //# Carts, Locomotive and Tunnel Bore Stuff
 	recipes.addShaped(<Railcraft:cart.loco.electric>, [[<minecraft:redstone_lamp>, <ore:plateSteel>, null], [<ore:plateSteel>, <Railcraft:machine.epsilon>, <ore:plateSteel>], [<Railcraft:part.gear:2>, <minecraft:minecart>, <Railcraft:part.gear:2>]]);
-    recipes.addShaped(<Railcraft:machine.epsilon:4> * 2, [[<ore:plateCopper>, <ore:plateTin>, <ore:plateCopper], [<ore:plateTin>, <ore:blockRedstone>, <ore:plateTin>], [<ore:plateCopper>, <ore:plateTin>, <ore:plateCopper]]);
+    recipes.addShaped(<Railcraft:machine.epsilon:4> * 2, [[<ore:plateCopper>, <ore:plateTin>, <ore:plateCopper], [<ore:plateTin>, <ore:blockRedstone>, <ore:plateTin>], [<ore:plateCopper>, <ore:plateTin>, <ore:plateCopper>]]);
 	recipes.addShaped(<Railcraft:machine.epsilon>, [[<ore:plateTin>, <ore:ingotCopper>, <ore:plateTin>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<ore:plateTin>, <ore:ingotCopper>, <ore:plateTin>]]);
 	recipes.addShaped(<Railcraft:cart.track.remover>, [[<ore:dyeYellow>, <minecraft:redstone_lamp>, <ore:dyeYellow>], [<minecraft:sticky_piston>, <ore:blockSteel>, <minecraft:sticky_piston>], [<Railcraft:tool.crowbar>, <minecraft:minecart>, <Railcraft:tool.crowbar>]]);
 	recipes.addShaped(<Railcraft:cart.track.layer>, [[<ore:dyeYellow>, <minecraft:redstone_lamp>, <ore:dyeYellow>], [<terrafirmacraft:Anvil:3>, <ore:blockSteel>, <terrafirmacraft:Anvil:3>], [<minecraft:dispenser>, <minecraft:minecart>, <minecraft:dispenser>]]);
