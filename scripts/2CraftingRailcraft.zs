@@ -688,9 +688,9 @@ mods.railcraft.RockCrusher.removeRecipe(<minecraft:mossy_cobblestone>);
 		}
 	mods.railcraft.BlastFurnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, false, false, 1278, <terrafirmacraft:item.Pig Iron Ingot>);
 	mods.railcraft.BlastFurnace.addRecipe(<Mekanism:DirtyDust>, true, false, 638, <terrafirmacraft:item.Wrought Iron Ingot>);
-	mods.railcraft.BlastFurnace.addRecipe(<TabulaRasa:RasaItem1:10>, true, false, 638, <terrafirmacraft:item.Weak Steel Ingot>);
-	mods.railcraft.BlastFurnace.addRecipe(<TabulaRasa:RasaItem1:11>, true, false, 638, <terrafirmacraft:item.Weak Blue Steel Ingot>);
-	mods.railcraft.BlastFurnace.addRecipe(<TabulaRasa:RasaItem1:12>, true, false, 638, <terrafirmacraft:item.Weak Red Steel Ingot>);
+	mods.railcraft.BlastFurnace.addRecipe(<TabulaRasa:RasaItem1:10>, true, false, 1798, <terrafirmacraft:item.Weak Steel Ingot>);
+	mods.railcraft.BlastFurnace.addRecipe(<TabulaRasa:RasaItem1:11>, true, false, 1798, <terrafirmacraft:item.Weak Blue Steel Ingot>);
+	mods.railcraft.BlastFurnace.addRecipe(<TabulaRasa:RasaItem1:12>, true, false, 1798, <terrafirmacraft:item.Weak Red Steel Ingot>);
 
 //Coke oven recipes
 //OutputStack
