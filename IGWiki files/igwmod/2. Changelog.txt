@@ -1,17 +1,12 @@
 [prefix{l}]Version 2.8: Insert Witty Update Title Here.[prefix{}]
 
-A nice update for everyone this week. We get some new content from Immersive Engineering. Couple of new mods. The Animal Crate mod for moving animals around and WAILA Plugins for more information for many of the packs mods. Some nice mod bug fixes, some pack bug fixes and some nice little Tweaks.
+A nice update for everyone this week. We get some new content from Immersive Engineering. Couple of new mods. The Animal Crate mod for moving animals around and WAILA Plugins for more information for many of the packs mods. Some mod bug fixes, some pack bug fixes and some little Tweaks.
 
 Tweaks:
 
 TFC-TNFC 
   - Rocks, sticks and ore nuggets will now regenerate when the temperature is less than 15oC. 
   - Tallgrass, sapling, rocks/stick/nuggets spawning will only occurs in chunks with spawn protection less than about a quarter max. So less weeding of your yard.
-
-
-Tallgrass/saplings only spawn when temp>20 and it's not drygrass.
-
-Rocks/sticks/nuggets only spawn when temp<15.
 
 Ships Mod
   -  We've modified ships mod to have support for dynamic lights. So assembled ships will now give off light when Dynamic Lights is installed.
