@@ -32,3 +32,5 @@ Updated Mods
   - Farseek and Streams
   - NEI Integration
   - Pneumaticcraft
+  - Hardcore Questing Mode
+  - ModTweaker2
