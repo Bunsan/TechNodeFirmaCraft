@@ -1,38 +1,34 @@
-[prefix{l}]Version 2.7: Where are my damn Laurels? I need a rest.[prefix{}]
+[prefix{l}]Version 2.8: Insert Witty Update Title Here.[prefix{}]
 
-TFC involves a lot of travel, but how are you going to get all that stuff back to your base? If only you could place barrels or chests on those so called better boats. Well we’ve got you covered. We are happy to now include Ships Mod by Cuchaz. There is a lot of information to give you, but before that all the other changes, because there is a lot.
+A nice update for everyone this week. We get some new content from Immersive Engineering. Couple of new mods. The Animal Crate mod for moving animals around and WAILA Plugins for more information for many of the packs mods. Some mod bug fixes, some pack bug fixes and some little Tweaks.
 
-Tweaks (where to start):
-- TFC Harvesting Tool Right-click - TFC pick, axe, hammer and shovel now behave in same manner as Tinkers construct tools and can place block, torch, whatever. So place supports with pick, replant saplings with axe, etc. 
-- Weather - Ever wonder why Endermen freak out for no reason? Mobs just refuse to burn? Barrels randomly fill with water when there is clearly no rain? Well we’ve had invisible vanilla weather running so that your barrels and you get snow in world during winter. We’ve now tweaked TFC so that it can detect when the Weather mod is causing local rain. So snow, torches, mobs, firepits, forges and barrels will behave properly for local rain.
-- Hammers - Hammers now only give large durability loss when a smooth/brick block is touching raw stone or ore.
-- Gems - Decorations gem module is now compatible with pack and is re-enabled. Gems can be placed on surfaces and will emit some light.
-- Mek Heat Generator - Now recognizes TFC Lava for passive heatgen.
-- Power Generation - Mek BioGen and Windmills output reduced. Immersive Engineering Wind and Water mills output reduced.
-- INpureCore - We tweaked the culling of items from NEI such that it doesn't cause lag during login.
-- TFC Other- The maximum bloom size from the bloomery has been increased to support the larger ore sizes in the pack.  Kimberlite will now always drop something from each ore block. Ores mined by hand will no longer drop anything (sorry Etho) but can be very slowly broken with a hammer to drop a nugget.
+Tweaks:
 
-Fixes:
-- HQM - Fixed the sandwich, salad and bronze quests that were broken with the rework. Quests should not reset.
-- Mek crusher produces TFC bonemeal.
-- Forestry fermenter and Mek crusher can accept TFC seed bags.
+TFC-TNFC 
+  - Rocks, sticks and ore nuggets will now regenerate when the temperature is less than 15oC. 
+  - Tallgrass, sapling, rocks/stick/nuggets spawning will only occurs in chunks with spawn protection less than about a quarter max. So less weeding of your yard.
 
-Updated Mods:
-- Forge to version 10.13.4.1541 - Fixes Gems. Thanks CPW :)
-- Bibliocraft
-- Hardcore Questing Mode
+Ships Mod
+  -  We've modified ships mod to have support for dynamic lights. So assembled ships will now give off light when Dynamic Lights is installed.
 
-Added Mods:
-- Ships Mod
+Pack
+  - Recipe for bee frames using wool yarn.
+  - Recipes requiring Princess bee now require Queen as intended (fixes impossible recipes).
+  - Removed chipped diamond crusher recipe due to changes in Kimberlite behaviour.
+  - All non-TFC recipes using chipped diamond now require flawed diamond.
+  - Recipe for Flux Transformer.
+  - Corrected recipe for Ultimate Energy Cube to use correct Alloy.
+  - Various bug fixes.
 
-The Ships Mod is still a work in progress. We will be working to improve the integration with the pack and its mods.
+New Mods
+  - Animalcrates - provides crate to capture passive mobs. Carry on back.
+  - WAILA Pluging (EnderCore for dependency) - More information for Forestry, Railcraft, Mekanism and more.
 
-In this release we have tweaked both TFC and Ships Mod so that they play a little nicer. You will no longer crash by interacting with TFC blocks. Some blocks can be interacted with, others we have disallowed to prevent crashes. Most blocks will be placable on a ship, but we suggest not having any active while ship is assembled. Blocks that use custom models (anvil, firepit and more) will become invisible on an assembled ship, but reappear when ship is docked. Do not attempt to interact with ingot piles. Visually you will see the ingot drop, but this is a phantom ingot and the removed ingot will be lost. In general we suggest caution with what you put on ships.
-
-When assembling ship check to ensure all blocks have assembled. There is an issue where blocks do not assemble or appear to remain. If this occurs dock and reassemble ship as failing to do so make result in your ship getting stuck, breaking or blocks/Tile Entities being lost. Please report any issues.
-
-We’ve also configured most natural blocks such as dirt, gravel, grass, raw stone, etc to be ignored by ships. This allows you to run them aground on naturally generated areas. We’ve also configured the Mekanism Reinforced Plastic blocks to be ignored so they can be used as bumpers on piers/docks. This means you can still use the cheaper plastic blocks in ship construction. Please let us know if you feel other blocks would make sensible dock blocks.
-
-We’ve configured a lot of blocks to be sensible weights and volumes, but there are going to be some that are too heavy, light, big or small. Please let us know what they are and we can fix in future updates. 
-
-This is a big update with big changes. Please ensure you back up your worlds before updating.
+Updated Mods
+  - Immersive Engineering - Pumps, Liquid and Item storage, Assembler and more.
+  - Forestry 
+  - Bibliocraft 
+  - Custom Main Menu
+  - Farseek and Streams
+  - NEI Integration
+  - Pneumaticcraft

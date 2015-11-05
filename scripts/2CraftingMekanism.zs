@@ -162,7 +162,7 @@ import minetweaker.data.IData;
 	recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Basic"}), [[<ore:dustRedstone>, <ore:battery>, <ore:dustRedstone>], [<ore:ingotIron>, <Mekanism:BasicBlock:8>, <ore:ingotIron>], [<ore:dustRedstone>, <ore:battery>, <ore:dustRedstone>]]);
 	recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Advanced"}), [[<ore:alloyAdvanced>, <ore:battery>, <ore:alloyAdvanced>], [<terrafirmacraft:item.Steel Ingot>, <Mekanism:EnergyCube:*>.onlyWithTag({tier: "Basic"}), <terrafirmacraft:item.Steel Ingot>], [<ore:alloyAdvanced>, <ore:battery>, <ore:alloyAdvanced>]]);
 	recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Elite"}), [[<ore:alloyElite>, <ore:battery>, <ore:alloyElite>], [<ore:ingotBlackSteel>, <Mekanism:EnergyCube:*>.onlyWithTag({tier: "Advanced"}), <ore:ingotBlackSteel>], [<ore:alloyElite>, <ore:battery>, <ore:alloyElite>]]);
-	recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Ultimate"}), [[<ore:alloyElite>, <ore:battery>, <ore:alloyElite>], [<terrafirmacraft:item.Blue Steel Ingot>, <Mekanism:EnergyCube:*>.onlyWithTag({tier: "Elite"}), <terrafirmacraft:item.Red Steel Ingot>], [<ore:alloyElite>, <ore:battery>, <ore:alloyElite>]]);
+	recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Ultimate"}), [[<ore:alloyUltimate>, <ore:battery>, <ore:alloyUltimate>], [<terrafirmacraft:item.Blue Steel Ingot>, <Mekanism:EnergyCube:*>.onlyWithTag({tier: "Elite"}), <terrafirmacraft:item.Red Steel Ingot>], [<ore:alloyUltimate>, <ore:battery>, <ore:alloyUltimate>]]);
 
 //# RE-ADD Generators
 	recipes.addShaped(<MekanismGenerators:Generator:6>, [[null, <ore:ingotSteel>, null], [<terrafirmacraft:item.Steel Ingot>, <ore:circuitElite>, <terrafirmacraft:item.Steel Ingot>], [<ore:plateBlackSteel>, <Mekanism:EnergyCube:*>.onlyWithTag({tier: "Basic"}), <ore:plateBlackSteel>]]);
@@ -231,7 +231,7 @@ import minetweaker.data.IData;
     mods.mekanism.Crusher.removeRecipe(<Mekanism:BioFuel>);
 //#Addition
 	//InputStack, OutputStack
-	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Diamond:0>, <TabulaRasa:RasaItem2:4>);
+	//mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Diamond:0>, <TabulaRasa:RasaItem2:4>);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Diamond:1>, <TabulaRasa:RasaItem2:4> * 2);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Diamond:2>, <Mekanism:OtherDust>);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Diamond:3>, <Mekanism:OtherDust> * 2);
