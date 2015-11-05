@@ -32,6 +32,8 @@ Updated Mods
   - Farseek and Streams
   - NEI Integration
   - Pneumaticcraft
+  - Hardcore Questing Mode
+  - ModTweaker2
 
 [prefix{l}]Version 2.7: Where are my damn Laurels? I need a rest.[prefix{}]
 
