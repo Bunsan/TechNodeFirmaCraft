@@ -152,7 +152,7 @@
         />
         <!-- Pack Customization Mods -->
         <mod
-        name="Scripts" version="base_build_2.8.1"  url="packs/TechNodefirmacraft/files/extract/scripts_base_build_2.8.1.zip" file="scripts_base_build_2.8.1.zip" md5="dc865ac2ae90a193d407de97bf8747e9" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="Scripts" version="base_build_2.8.1" url="packs/TechNodefirmacraft/files/extract/scripts_base_build_2.8.1.zip" file="scripts_base_build_2.8.1.zip" md5="2aeb4e54077c38f4c2b0ce8ef1517d03" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
         /> 
         <mod
         name="MineTweaker 3" version="3.0.10B" url="packs/TechNodefirmacraft/files/1.7.10Mods/MineTweaker3-1.7.10-3.0.10B.jar" file="MineTweaker3-1.7.10-3.0.10B.jar" md5="884933d1b933e0bd2f93293201569f13" download="server" type="mods" website="http://minetweaker3.powerofbytes.com" authors="Stan Hebben" description="Customize your minecraft experience!" client="yes" optional="no" server="yes" serveroptional="no"
@@ -344,7 +344,7 @@
         />
         <!-- Scripts -->
         <mod
-        name="ScriptW2" version="w2_build_2.8.1" url="packs/TechNodefirmacraft/files/extract/scripts_w2_build_2.8.1.zip" file="scripts_w2_build_2.8.1.zip" md5="84daf548cbcfc618e9bca74f1b3dc661" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Script for Weather2" client="yes" optional="yes" server="yes" serveroptional="yes" library="yes"
+        name="ScriptW2" version="w2_build_2.8.1" url="packs/TechNodefirmacraft/files/extract/scripts_w2_build_2.8.1.zip" file="scripts_w2_build_2.8.1.zip" md5="e0893b8633981453a3fb0e646ddc8fe8" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Script for Weather2" client="yes" optional="yes" server="yes" serveroptional="yes" library="yes"
         />
         <mod 
         name="Resource Loaders Folder" version="2.7" url="packs/TechNodefirmacraft/files/extract/resources_2.7.zip" file="resources_2.7.zip" md5="6f1a40e9d1e657f43d96db4bf19e6f26" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="no"
