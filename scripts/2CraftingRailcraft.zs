@@ -89,6 +89,8 @@
 //# Steam Turbine Casing
     recipes.remove(<Railcraft:machine.alpha:1>);
 //# Engraving Table
+    recipes.remove(<Railcraft:machine.epsilon:5>);
+//# Passive Anchor
 	recipes.remove(<Railcraft:machine.alpha:13>);
 //# Blast Furnace Blocks
 	recipes.remove(<Railcraft:machine.alpha:12>);
@@ -142,6 +144,8 @@
 //# Loader/Unloader
 	recipes.remove(<Railcraft:machine.gamma>);
 	recipes.remove(<Railcraft:machine.gamma:1>);
+    recipes.remove(<Railcraft:machine.gamma:2>);
+    recipes.remove(<Railcraft:machine.gamma:3>);    
 //# Post
 	recipes.remove(<Railcraft:post:1>);
 
@@ -269,7 +273,9 @@
 //# Steam Turbine Housing
     recipes.addShaped(<Railcraft:machine.alpha:1>, [[<ore:blockSteel>,<ore:plateIron>, <ore:blockSteel>],[<ore:plateIron>, null, <ore:plateIron>], [<ore:blockSteel>,<ore:plateIron>, <ore:blockSteel>]]);
 //# Engraving Table
-	recipes.addShaped(<Railcraft:machine.alpha:13>, [[<terrafirmacraft:item.Steel Chisel>, <ore:plateSteel>, <ore:craftingBook>], [<ore:plateSteel>, <ore:craftingTableWood>, <ore:plateSteel>], [<ore:craftingPiston>, <ore:plateSteel>, <ore:craftingPiston>]]);
+	recipes.addShaped(<Railcraft:machine.epsilon:5>, [[<terrafirmacraft:item.Steel Chisel>, <ore:plateSteel>, <minecraft:book>], [<ore:plateSteel>, <ore:craftingTableWood>, <ore:plateSteel>], [<ore:craftingPiston>, <ore:plateSteel>, <ore:craftingPiston>]]);
+//# Passive Anchor
+    recipes.addShaped(<minecraft:book>, [[<minecraft:obsidian>, <ore:plateIron>, <minecraft:obsidian>], [<ore:plateIron>, <minecraft:ender_pearl>, <ore:plateIron>], [<minecraft:obsidian>, <ore:plateIron>, <minecraft:obsidian>]]);
 //# Coke Oven Recipe
 	recipes.addShaped(<Railcraft:machine.alpha:7> * 2, [[<ore:blockSand>, <terrafirmacraft:item.Fire Brick:1>, <ore:blockSand>], [<terrafirmacraft:item.Fire Brick:1>, <ore:blockSand>, <terrafirmacraft:item.Fire Brick:1>], [<ore:blockSand>, <terrafirmacraft:item.Fire Brick:1>, <ore:blockSand>]]);
 //# Lanterns
@@ -293,6 +299,8 @@
 //# Loader/Unloader
 	recipes.addShaped(<Railcraft:machine.gamma>, [[<ore:stoneCobble>, <ore:stoneCobble>, <ore:stoneCobble>], [<ore:stoneCobble>, <minecraft:hopper>, <ore:stoneCobble>], [<ore:stoneCobble>, <Railcraft:detector>, <ore:stoneCobble>]]);
 	recipes.addShaped(<Railcraft:machine.gamma:1>, [[<ore:stoneCobble>, <ore:stoneCobble>, <ore:stoneCobble>], [<ore:stoneCobble>, <Railcraft:detector>, <ore:stoneCobble>], [<ore:stoneCobble>, <minecraft:hopper>, <ore:stoneCobble>]]);
+	recipes.addShaped(<Railcraft:machine.gamma:2>, [[<ore:ingotSteel>, <minecraft:redstone>, <ore:ingotSteel>], [<minecraft:redstone>, <Railcraft:machine.gamma>, <minecraft:redstone>], [<ore:ingotSteel>, <ore:craftingToolHammer>.transformDamage(), <ore:ingotSteel>]]);
+	recipes.addShaped(<Railcraft:machine.gamma:3>, [[<ore:ingotSteel>, <minecraft:redstone>, <ore:ingotSteel>], [<minecraft:redstone>, <Railcraft:machine.gamma:1>, <minecraft:redstone>], [<ore:ingotSteel>, <ore:craftingToolHammer>.transformDamage(), <ore:ingotSteel>]]);
 
 //# Carts, Locomotive and Tunnel Bore Stuff
 	recipes.addShaped(<Railcraft:cart.loco.electric>, [[<minecraft:redstone_lamp>, <ore:plateSteel>, null], [<ore:plateSteel>, <Railcraft:machine.epsilon>, <ore:plateSteel>], [<Railcraft:part.gear:2>, <minecraft:minecart>, <Railcraft:part.gear:2>]]);
