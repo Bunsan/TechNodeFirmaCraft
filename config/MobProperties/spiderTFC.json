@@ -31,5 +31,12 @@
     }
   ],
   "pre_stats": [],
-  "stats": []
+  "stats": [
+	{
+  	"function" : "modifier",
+	"attribute" : "generic.maxHealth",
+	"value" : 900,
+	"override" : true
+	}
+  ]
 }
