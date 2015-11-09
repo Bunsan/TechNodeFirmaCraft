@@ -134,9 +134,14 @@ recipes.addShaped(<Forestry:naturalistHelmet>, [[null, <ore:ingotAnyBronze>, nul
 	var woodStair = <Forestry:stairs>.withTag(nbtForestry[i]);
 	var woodSlab = <Forestry:slabs>.withTag(nbtForestry[i]);
 	var woodPlank = <Forestry:planks>.onlyWithTag(nbtForestry[i]);	
-
+    var woodFireproofStair = <Forestry:stairsFireproof>.withTag(nbtForestry[i]);
+    var woodFireproofSlab = <Forestry:slabsFireproof>.withTag(nbtForestry[i]);
+    var woodFireproofPlank = <Forestry:planksFireproof>.withTag(nbtForestry[i]);
+    
 	recipes.addShaped(woodStair * 6, [[woodPlank, counting, <ore:itemSaw>.transformDamage(12)], [woodPlank, woodPlank, null], [woodPlank, woodPlank, woodPlank]]);
 	recipes.addShaped(woodSlab * 6, [[counting, <ore:itemSaw>.transformDamage(12), null], [woodPlank, woodPlank, woodPlank]]);
+    recipes.addShaped(woodFireproofStair * 6, [[woodFireproofPlank, counting, <ore:itemSaw>.transformDamage(12)], [woodFireproofPlank, woodFireproofPlank, null], [woodFireproofPlank, woodFireproofPlank, woodFireproofPlank]]);
+	recipes.addShaped(woodFireproofSlab * 6, [[counting, <ore:itemSaw>.transformDamage(12), null], [woodFireproofPlank, woodFireproofPlank, woodFireproofPlank]]);
 		}
 
 		for i, counting in count {
