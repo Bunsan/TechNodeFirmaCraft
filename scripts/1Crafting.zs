@@ -91,13 +91,11 @@ furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 	recipes.remove(<minecraft:dye:5>);
 	recipes.remove(<minecraft:blaze_powder>);
 	recipes.remove(<minecraft:carrot_on_a_stick>);
-	recipes.remove(<minecraft:iron_bars>);
 	recipes.remove(<minecraft:lapis_block>);
 	recipes.remove(<minecraft:comparator>);
 	recipes.remove(<minecraft:clay>);
 	recipes.remove(<minecraft:daylight_detector>);
 	recipes.remove(<minecraft:quartz_block>);
-	recipes.remove(<minecraft:wooden_slab>);
 	recipes.remove(<minecraft:planks:*>);
 	recipes.remove(<minecraft:glowstone>);
 	recipes.remove(<minecraft:stone_slab:*>);
@@ -111,9 +109,7 @@ furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 	recipes.remove(<minecraft:mossy_cobblestone>);
 	recipes.remove(<minecraft:cobblestone_wall>);
 	recipes.remove(<minecraft:stonebrick>);
-	recipes.remove(<minecraft:dispenser>);
 	recipes.remove(<minecraft:string>);
-	recipes.remove(<minecraft:wooden_slab:*>);
 	recipes.remove(<minecraft:minecart>);
 
 //# REMOVAL of Non-TFC ingots to nugget recipes to clean up NEI
