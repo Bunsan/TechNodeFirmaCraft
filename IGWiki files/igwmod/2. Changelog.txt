@@ -1,3 +1,41 @@
+[prefix{l}]Version 2.9: Get your Torches and Pitchforks.[prefix{}]
+
+First is updates for Immersive Engineering, Forestry and Railcraft. These fix a bunch of issues and add in some fun toys. Hopefully some better stability for these mods with the update. Note the Do Not use TFC tools in the IE Assembler as they will be consumed in first craft.
+
+So those torches and pitchforks, point them at Bunsan as this weeks update is a major rebalancing of the energy systems in the pack. We've got through and compared and tweaked the balance of the various power systems to the best of our ability. We've tried to normalize to material costs and maintain consistency across the various mods.
+
+There will be greater stability in the pack with the various bug fixes and updates. We understand that all the changes will not all be popular, but we feel they are important changes to make.
+
+Mod Updates:
+
+- Forge updated to 1558
+- Immersive Engineering
+- Forestry
+- Railcraft
+- Mekanism
+- Terrafirmacraft-TNFC
+-  NEI-Addons - back in pack with Forestry 4+ support.
+
+Tweaks:
+-  Decorations Add-on
+  -  Gem module has been disabled. This should correct a number of crafting issues and crashes. Remove all placed gems before updating.
+-  Better Storage
+  -  Can pump items out bottom of Crafting Station.
+-  Mekanism
+  -  FreeRunners: will consume more energy to negate damage.
+  -  Digital miner will require substantially more energy to run, in line with the IE excavator.
+  -  Pumps will have energy cost compatible to new IE pump.
+  -  Adv Solar generation has been increased and Wind generation has been decreased.
+ -  Cost of Teleportation substantially increased.
+
+-  Immersive Engineering: winces.
+  -  Output of windmills and watermills reduced by 33%.
+  -  Crafting cost of kinetic dynamo increased.
+  -  Crafting cost of waterwheels increased.
+  -  Crafting cost of MV and HV capacitors increased.
+  -  Crusher and Sample drill power use per process increased.
+
+
 [prefix{l}]Version 2.8: Insert Witty Update Title Here.[prefix{}]
 
 A nice update for everyone this week. We get some new content from Immersive Engineering. Couple of new mods. The Animal Crate mod for moving animals around and WAILA Plugins for more information for many of the packs mods. Some mod bug fixes, some pack bug fixes and some little Tweaks.

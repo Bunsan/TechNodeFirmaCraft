@@ -57,7 +57,7 @@
 <!-- Base Scripts -->
         <!-- Marquee Mods -->
         <mod 
-        name="TerraFirmaCraft" version="0.79.25.32334f7" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.25.32334f7.jar" file="[1.7.10]TerraFirmaCraft-0.79.25.32334f7.jar" md5="843f000f2e6ce4b625a2c77e71725e21" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="TerraFirmaCraft" version="0.79.25.tfnc.eae2ffe" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.25.tfnc.eae2ffe.jar" file="[1.7.10]TerraFirmaCraft-0.79.25.tfnc.eae2ffe.jar" md5="368e2f5c7e2a2c010a64978646ab1d80" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod 
         name="TechNodefirmacraft" version="2.8.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/1.7.10-TechNodefirmacraft-2.8.0.jar" file="1.7.10-TechNodefirmacraft-2.8.0.jar" md5="065bc1702bd20fa17bca691a96e3c9cd" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="AnodeCathode, Bunsan" optional="no" description="Custom integration and features for TechNodefirmacraft modpack" client="yes" server="yes" serveroptional="no"
@@ -84,10 +84,10 @@
         name="Immersive Engineering" version="0.6.1" url="packs/TechNodefirmacraft/files/1.7.10Mods/ImmersiveEngineering-0.6.1.jar" file="ImmersiveEngineering-0.6.1.jar" md5="186e5a7593f338e26e15038c401a2482" download="server" type="mods" website="http://www.curseforge.com/projects/231951/" authors="BluSunrize,Damien A.W. Hazard" description="A retro-futuristic tech mod!"  client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod
-        name="Mekanism" version="8.1.7_tnfc_1.77ac2af" url="packs/TechNodefirmacraft/files/1.7.10Mods/Mekanism-1.7.10-8.1.7_tnfc_1.77ac2af.jar" file="Mekanism-1.7.10-8.1.7_tnfc_1.77ac2af.jar" md5="1c99fa45052ee427c07e1cf413bc7dde" download="server" type="mods" website="http://universalelectricity.com/mekanism" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=PQH6NGL2C4QWY" authors="aidancbrady" description="Energy, Armor, Tools, Weapons, Machines, Magic." client="yes" optional="no" server="yes" serveroptional="no"
+        name="Mekanism" version="8.1.7_tnfc.7e12867" url="packs/TechNodefirmacraft/files/1.7.10Mods/Mekanism-1.7.10-8.1.7_tnfc.7e12867.jar" file="Mekanism-1.7.10-8.1.7_tnfc.7e12867.jar" md5="0d27026e02f4543c43569bdc17cba427" download="server" type="mods" website="http://universalelectricity.com/mekanism" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=PQH6NGL2C4QWY" authors="aidancbrady" description="Energy, Armor, Tools, Weapons, Machines, Magic." client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod
-        name="MekanismGenerators" version="8.1.7_tnfc_1.77ac2af" url="packs/TechNodefirmacraft/files/1.7.10Mods/MekanismGenerators-1.7.10-8.1.7_tnfc_1.77ac2af.jar" file="MekanismGenerators-1.7.10-8.1.7_tnfc_1.77ac2af.jar" md5="0f800be0daf291673b9249752d925f3f" download="server" type="mods" website="http://universalelectricity.com/mekanism" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=PQH6NGL2C4QWY" authors="aidancbrady" description="Generators module of Mekanism."  client="yes" optional="no" server="yes" serveroptional="no"
+        name="MekanismGenerators" version="8.1.7_tnfc.7e12867" url="packs/TechNodefirmacraft/files/1.7.10Mods/MekanismGenerators-1.7.10-8.1.7_tnfc.7e12867.jar" file="MekanismGenerators-1.7.10-8.1.7_tnfc.7e12867.jar" md5="8cf3e80146f425e5454328debe0ce11e" download="server" type="mods" website="http://universalelectricity.com/mekanism" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=PQH6NGL2C4QWY" authors="aidancbrady" description="Generators module of Mekanism."  client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod
         name="OpenBlocks" version="1.4.4" url="packs/TechNodefirmacraft/files/1.7.10Mods/OpenBlocks-1.7.10-1.4.4.jar" file="OpenBlocks-1.7.10-1.4.4.jar" md5="5c439e4a90771678a203efe9b9bef7b9" download="server" type="mods" website="http://www.openperipheral.info" donation="http://www.patreon.com/openmods" authors="Mikee,NeverCast,boq,Lyqyd" description="All the things you never thought you will ever need" client="yes" optional="no" server="yes" serveroptional="no"
@@ -157,7 +157,7 @@
         />
         <!-- Pack Customization Mods -->
         <mod
-        name="Scripts" version="base_build_2.9" url="packs/TechNodefirmacraft/files/extract/scripts_base_build_2.9.zip" file="scripts_base_build_2.9.zip" md5="2aa6f4c84ab0859f3ecebf7d991551f2" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="Scripts" version="base_build_2.9" url="packs/TechNodefirmacraft/files/extract/scripts_base_build_2.9.zip" file="scripts_base_build_2.9.zip" md5="ac4e888c02d9ab5694c74a945a4f1108" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
         /> 
         <mod
         name="MineTweaker 3" version="3.0.10B" url="packs/TechNodefirmacraft/files/1.7.10Mods/MineTweaker3-1.7.10-3.0.10B.jar" file="MineTweaker3-1.7.10-3.0.10B.jar" md5="884933d1b933e0bd2f93293201569f13" download="server" type="mods" website="http://minetweaker3.powerofbytes.com" authors="Stan Hebben" description="Customize your minecraft experience!" client="yes" optional="no" server="yes" serveroptional="no"
@@ -193,9 +193,9 @@
         <mod
         name="Aroma1997Core" version="1.0.2.16" url="packs/TechNodefirmacraft/files/1.7.10Mods/Aroma1997Core-1.7.10-1.0.2.16.jar" file="Aroma1997Core-1.7.10-1.0.2.16.jar" md5="acadd2e64f5621f0e87f25a02c3dda14" download="server" type="mods" website="http://www.minecraftforum.net/topic/1679684-" donation="https://www.paypal.com/cgi-bin/webscr?hosted_button_id=JUN8L67CPHTRC&amp;item_name=Aroma1997s+Mods&amp;cmd=_s-xclick" authors="Aroma1997, Schillaa" description="This is basically a library used by most my other mods." client="yes" optional="no" server="yes" serveroptional="no"
         />
-        <!--<mod
+        <mod
         name="OpenEye" version="0.6" url="packs/TechNodefirmacraft/files/1.7.10Mods/OpenEye-0.6-1.7.10.jar" file="OpenEye-0.6-1.7.10.jar" md5="38671a0ad16f1b8978fbd612ec75e9d3" download="server" type="mods" website="http://openmods.info" donation="http://www.patreon.com/openmods" authors="boq,Mikee" description="User protection, error management and analytics" client="yes" optional="no" server="yes" serveroptional="no"
-        />-->
+        />
         <mod 
         name="HelpFixer" version="1.0.7" url="packs/TechNodefirmacraft/files/1.7.10Mods/HelpFixer-1.0.7.jar" file="HelpFixer-1.0.7.jar" md5="0d6ce4776f981f97a13ab02029b5fb4d" download="server" type="mods" website="http://minecraft.curseforge.com/mc-mods/223797-helpfixer" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/mc-mods/223797-helpfixer&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=matthewprenger%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_return=http:" authors="matthewprenger" description="Fixes the help command from mod derpyness" 
         />
@@ -280,8 +280,8 @@
         <mod 
         name="INpureCore" version="1.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/inpurecore-1.0.jar" file="inpurecore-1.0.jar" md5="1ac2f17f4139c856a4ab8cead5b03554" download="server" type="mods" website="http://www.curseforge.com/projects/223792/" authors="INpureProjects,denoflions" description="Culls duplicate and uncraftable items from NEI" client="yes" optional="yes" server="no" serveroptional="no" colour="gold" depends="CommonsCodec,CommonsCompress" recommended="yes"
          />
-<!--        <mod
-        name="NEI Addons" version="fu-1.12.13.6" url="packs/TechNodefirmacraft/files/1.7.10Mods/neiaddons-fu-1.12.13.6-mc1.7.10.jar" file="neiaddons-fu-1.12.13.6-mc1.7.10.jar" md5="292b808a237950e16a6cd01317ac8515" download="server" type="mods" website="http://www.minecraftforum.net/topic/1803460-" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=TV8GLNVZJGGG4" authors="bdew" description="Adds in mod integration into NEI by showing bee breeding information as well as other helpful mod plugins." client="yes" optional="no" server="no"</mod> -->
+        <mod 
+        name="NEI Addons" version="1.12.14.40" url="packs/TechNodefirmacraft/files/1.7.10Mods/neiaddons-1.12.14.40-mc1.7.10.jar" file="neiaddons-1.12.14.40-mc1.7.10.jar" md5="cd23917348ec450f022c13c24f196374" download="server" type="mods" website="http://www.minecraftforum.net/topic/1803460-" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=TV8GLNVZJGGG4" authors="bdew" description="Adds in mod integration into NEI by showing bee breeding information as well as other helpful mod plugins." client="yes" optional="no" server="no"
         />
         <mod
         name="NEI Integration" version="1.0.13" url="packs/TechNodefirmacraft/files/1.7.10Mods/NEIIntegration-MC1.7.10-1.0.13.jar" file="NEIIntegration-MC1.7.10-1.0.13.jar" md5="3f9bfe0c7a045b2a271826fa69926f09"  download="server" type="mods" website="http://minecraft.curseforge.com/mc-mods/225251-nei-integration/files" authors="tonius11" description="NEI handlers for all of the mods, one at a time." client="yes" optional="no" server="no"
@@ -349,26 +349,13 @@
         />
         <!-- Scripts -->
         <mod
-        name="ScriptW2" version="w2_build_2.9" url="packs/TechNodefirmacraft/files/extract/scripts_w2_build_2.9.zip" file="scripts_w2_build_2.9.zip" md5="dde8d0b8fe1d748f146d561eca2a63de" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Script for Weather2" client="yes" optional="yes" server="yes" serveroptional="yes" library="yes"
+        name="ScriptW2" version="w2_build_2.9" url="packs/TechNodefirmacraft/files/extract/scripts_w2_build_2.9.zip" file="scripts_w2_build_2.9.zip" md5="75eff7f2a29718c58dde70598aeab50a" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Script for Weather2" client="yes" optional="yes" server="yes" serveroptional="yes" library="yes"
         />
         <mod 
         name="Resource Loaders Folder" version="2.7" url="packs/TechNodefirmacraft/files/extract/resources_2.7.zip" file="resources_2.7.zip" md5="6f1a40e9d1e657f43d96db4bf19e6f26" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="no"
         /> 
         <mod 
-        name="IGWModData" version="2.8"  url="packs/TechNodefirmacraft/files/extract/igwmod_build_2.8.zip" file="igwmod_build_2.8.zip" md5="4253153c01fbdf5463c5ded4be587fbe" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
-        />
-               <!-- Development Tools (REMOVE FOR BUILD) -->
-        <mod 
-        name="ForgeNBTEdit" version="1.0.0.test" url="packs/TechNodefirmacraft/files/1.7.10Mods/ForgeNBTEdit-universal-1.0.0.test.jar" file="ForgeNBTEdit-universal-1.0.0.test.jar" md5="e42d4d3a3923e157f5a0edb334183663" download="server" type="mods" website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-tools/1260521-nbtedit" authors="DavidG" description="Ingame NBT Editing" 
-        />
-        <mod 
-        name="worldeditcui" version="1.7.10_00" url="packs/TechNodefirmacraft/files/1.7.10Mods/mod_worldeditcui_1.7.10_00_mc1.7.10.litemod" file="mod_worldeditcui_1.7.10_00_mc1.7.10.litemod" md5="efe6e87bcb01a3637fb9c6254f8c659b" download="server" type="mods" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="https://github.com/Bunsan/TechNodeFirmaCraft"
-        />
-        <mod 
-        name="WorldEditWrappwer" version="1.2.0_we5.6.2" url="packs/TechNodefirmacraft/files/1.7.10Mods/mod_worldeditwrapper_1.2.0_we5.6.2_mc1.7.10.litemod" file="mod_worldeditwrapper_1.2.0_we5.6.2_mc1.7.10.litemod" md5="51efa990893016bb7cd82c7666497da8" download="server" type="mods" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="https://github.com/Bunsan/TechNodeFirmaCraft" 
-        />
-        <mod 
-        name="WorldEdit" version="6.0-beta-01;3335-e7a18b26" url="packs/TechNodefirmacraft/files/1.7.10Mods/worldedit-forge-mc1.7.10-6.0-beta-01.jar" file="worldedit-forge-mc1.7.10-6.0-beta-01.jar" md5="927d31f9b1e8d60623fedd685818e059" download="server" type="mods" website="http://wiki.sk89q.com/wiki/WorldEdit" authors="sk89q,wizjany,TomyLobo" description="WorldEdit is an easy-to-use in-game world editor for Minecraft, supporting both single player and multiplayer." 
+        name="IGWModData" version="2.9" url="packs/TechNodefirmacraft/files/extract/igwmod_build_2.9.zip" file="igwmod_build_2.9.zip" md5="7ba890683ec45fd27a1b4ed7e6128407" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
         />
     </mods>
 </version>
