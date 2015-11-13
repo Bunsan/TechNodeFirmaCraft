@@ -20,6 +20,7 @@ Tweaks:
 -  Decorations Add-on
   -  Gem module has been disabled. This should correct a number of crafting issues and crashes. Remove all placed gems before updating.
 -  Better Storage
+  -  Chests and lockers recipes adjusted to make metal chests cheaper.
   -  Can pump items out bottom of Crafting Station.
 -  Mekanism
   -  FreeRunners: will consume more energy to negate damage.
