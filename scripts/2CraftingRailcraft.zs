@@ -38,7 +38,8 @@
 	recipes.remove(<Railcraft:brick.sandy>);
 	recipes.remove(<Railcraft:brick.abyssal>);
 	recipes.remove(<Railcraft:brick.infernal>);
-
+//# Cargo Cart
+    recipes.remove(<Railcraft:cart.cargo>);
 //# Smoker
 	recipes.remove(<Railcraft:machine.alpha:5>);
 //# FireBoxes
@@ -89,6 +90,8 @@
 //# Steam Turbine Casing
     recipes.remove(<Railcraft:machine.alpha:1>);
 //# Engraving Table
+    recipes.remove(<Railcraft:machine.epsilon:5>);
+//# Passive Anchor
 	recipes.remove(<Railcraft:machine.alpha:13>);
 //# Blast Furnace Blocks
 	recipes.remove(<Railcraft:machine.alpha:12>);
@@ -142,6 +145,8 @@
 //# Loader/Unloader
 	recipes.remove(<Railcraft:machine.gamma>);
 	recipes.remove(<Railcraft:machine.gamma:1>);
+    recipes.remove(<Railcraft:machine.gamma:2>);
+    recipes.remove(<Railcraft:machine.gamma:3>);    
 //# Post
 	recipes.remove(<Railcraft:post:1>);
 
@@ -212,6 +217,8 @@
 
 // ================================================================================
 //#ADD SHAPED
+//# Cargo Cart
+    recipes.addShaped(<Railcraft:cart.cargo>, [[<ore:chestWood>], [<minecraft:tripwire_hook>], [<minecraft:minecart>]]);
 //# Liquid Fire Box
 	recipes.addShaped(<Railcraft:machine.beta:6> * 3, [[<ore:plateSteel>, <minecraft:iron_bars>, <ore:plateSteel>], [<minecraft:iron_bars>, <ore:craftingToolMediumHammer>.transformDamage(), <minecraft:iron_bars>], [<ore:plateSteel>, <terrafirmacraft:EarlyBloomery>, <ore:plateSteel>]]);
 //# Solid Fire Box
@@ -242,10 +249,10 @@
 //#RC Smoker Recipe
 	recipes.addShaped(<Railcraft:machine.alpha:5>, [[null, <ore:stoneNetherrack>, null], [<ore:dustRedstone>, <minecraft:cauldron>, <ore:dustRedstone>]]);
 //# Iron/Steel Tank Gauge/Valve
-	recipes.addShaped(<Railcraft:machine.beta:14>, [[<ore:paneGlassColorless>, <ore:plateSteel>, <ore:paneGlassColorless>], [<ore:plateSteel>, <ore:paneGlassColorless>, <ore:plateSteel>], [<ore:paneGlassColorless>, <ore:plateSteel>, <ore:paneGlassColorless>]]);
-	recipes.addShaped(<Railcraft:machine.beta:1>, [[<ore:paneGlassColorless>, <ore:plateIron>, <ore:paneGlassColorless>], [<ore:plateIron>, <ore:paneGlassColorless>, <ore:plateIron>], [<ore:paneGlassColorless>, <ore:plateIron>, <ore:paneGlassColorless>]]);
-	recipes.addShaped(<Railcraft:machine.beta:15>, [[<minecraft:iron_bars>, <ore:plateSteel>, <minecraft:iron_bars>], [<ore:plateSteel>, <minecraft:lever>, <ore:plateSteel>], [<minecraft:iron_bars>, <ore:plateSteel>, <minecraft:iron_bars>]]);
-	recipes.addShaped(<Railcraft:machine.beta:2>, [[<minecraft:iron_bars>, <ore:plateIron>, <minecraft:iron_bars>], [<ore:plateIron>, <minecraft:lever>, <ore:plateIron>], [<minecraft:iron_bars>, <ore:plateIron>, <minecraft:iron_bars>]]);
+	recipes.addShaped(<Railcraft:machine.beta:14> * 4, [[<ore:paneGlassColorless>, <ore:plateSteel>, <ore:paneGlassColorless>], [<ore:plateSteel>, <ore:paneGlassColorless>, <ore:plateSteel>], [<ore:paneGlassColorless>, <ore:plateSteel>, <ore:paneGlassColorless>]]);
+	recipes.addShaped(<Railcraft:machine.beta:1> * 4, [[<ore:paneGlassColorless>, <ore:plateIron>, <ore:paneGlassColorless>], [<ore:plateIron>, <ore:paneGlassColorless>, <ore:plateIron>], [<ore:paneGlassColorless>, <ore:plateIron>, <ore:paneGlassColorless>]]);
+	recipes.addShaped(<Railcraft:machine.beta:15> * 8, [[<minecraft:iron_bars>, <ore:plateSteel>, <minecraft:iron_bars>], [<ore:plateSteel>, <minecraft:lever>, <ore:plateSteel>], [<minecraft:iron_bars>, <ore:plateSteel>, <minecraft:iron_bars>]]);
+	recipes.addShaped(<Railcraft:machine.beta:2> * 8, [[<minecraft:iron_bars>, <ore:plateIron>, <minecraft:iron_bars>], [<ore:plateIron>, <minecraft:lever>, <ore:plateIron>], [<minecraft:iron_bars>, <ore:plateIron>, <minecraft:iron_bars>]]);
 //# Steam Furnace
 	recipes.addShaped(<Railcraft:machine.alpha:3> * 8, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:plateSteel>, <terrafirmacraft:EarlyBloomery>, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 //# Rock Crusher
@@ -269,7 +276,9 @@
 //# Steam Turbine Housing
     recipes.addShaped(<Railcraft:machine.alpha:1>, [[<ore:blockSteel>,<ore:plateIron>, <ore:blockSteel>],[<ore:plateIron>, null, <ore:plateIron>], [<ore:blockSteel>,<ore:plateIron>, <ore:blockSteel>]]);
 //# Engraving Table
-	recipes.addShaped(<Railcraft:machine.alpha:13>, [[<terrafirmacraft:item.Steel Chisel>, <ore:plateSteel>, <ore:craftingBook>], [<ore:plateSteel>, <ore:craftingTableWood>, <ore:plateSteel>], [<ore:craftingPiston>, <ore:plateSteel>, <ore:craftingPiston>]]);
+	recipes.addShaped(<Railcraft:machine.epsilon:5>, [[<terrafirmacraft:item.Steel Chisel>, <ore:plateSteel>, <minecraft:book>], [<ore:plateSteel>, <ore:craftingTableWood>, <ore:plateSteel>], [<ore:craftingPiston>, <ore:plateSteel>, <ore:craftingPiston>]]);
+//# Passive Anchor
+    recipes.addShaped(<Railcraft:machine.alpha:13>, [[<minecraft:obsidian>, <ore:plateSteel>, <minecraft:obsidian>], [<ore:plateSteel>, <minecraft:ender_pearl>, <ore:plateSteel>], [<minecraft:obsidian>, <ore:plateSteel>, <minecraft:obsidian>]]);
 //# Coke Oven Recipe
 	recipes.addShaped(<Railcraft:machine.alpha:7> * 2, [[<ore:blockSand>, <terrafirmacraft:item.Fire Brick:1>, <ore:blockSand>], [<terrafirmacraft:item.Fire Brick:1>, <ore:blockSand>, <terrafirmacraft:item.Fire Brick:1>], [<ore:blockSand>, <terrafirmacraft:item.Fire Brick:1>, <ore:blockSand>]]);
 //# Lanterns
@@ -293,6 +302,8 @@
 //# Loader/Unloader
 	recipes.addShaped(<Railcraft:machine.gamma>, [[<ore:stoneCobble>, <ore:stoneCobble>, <ore:stoneCobble>], [<ore:stoneCobble>, <minecraft:hopper>, <ore:stoneCobble>], [<ore:stoneCobble>, <Railcraft:detector>, <ore:stoneCobble>]]);
 	recipes.addShaped(<Railcraft:machine.gamma:1>, [[<ore:stoneCobble>, <ore:stoneCobble>, <ore:stoneCobble>], [<ore:stoneCobble>, <Railcraft:detector>, <ore:stoneCobble>], [<ore:stoneCobble>, <minecraft:hopper>, <ore:stoneCobble>]]);
+	recipes.addShaped(<Railcraft:machine.gamma:2>, [[<ore:ingotSteel>, <minecraft:redstone>, <ore:ingotSteel>], [<minecraft:redstone>, <Railcraft:machine.gamma>, <minecraft:redstone>], [<ore:ingotSteel>, <ore:craftingToolHammer>.transformDamage(), <ore:ingotSteel>]]);
+	recipes.addShaped(<Railcraft:machine.gamma:3>, [[<ore:ingotSteel>, <minecraft:redstone>, <ore:ingotSteel>], [<minecraft:redstone>, <Railcraft:machine.gamma:1>, <minecraft:redstone>], [<ore:ingotSteel>, <ore:craftingToolHammer>.transformDamage(), <ore:ingotSteel>]]);
 
 //# Carts, Locomotive and Tunnel Bore Stuff
 	recipes.addShaped(<Railcraft:cart.loco.electric>, [[<minecraft:redstone_lamp>, <ore:plateSteel>, null], [<ore:plateSteel>, <Railcraft:machine.epsilon>, <ore:plateSteel>], [<Railcraft:part.gear:2>, <minecraft:minecart>, <Railcraft:part.gear:2>]]);
@@ -688,9 +699,9 @@ mods.railcraft.RockCrusher.removeRecipe(<minecraft:mossy_cobblestone>);
 		}
 	mods.railcraft.BlastFurnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, false, false, 1278, <terrafirmacraft:item.Pig Iron Ingot>);
 	mods.railcraft.BlastFurnace.addRecipe(<Mekanism:DirtyDust>, true, false, 638, <terrafirmacraft:item.Wrought Iron Ingot>);
-	mods.railcraft.BlastFurnace.addRecipe(<TabulaRasa:RasaItem1:10>, true, false, 638, <terrafirmacraft:item.Weak Steel Ingot>);
-	mods.railcraft.BlastFurnace.addRecipe(<TabulaRasa:RasaItem1:11>, true, false, 638, <terrafirmacraft:item.Weak Blue Steel Ingot>);
-	mods.railcraft.BlastFurnace.addRecipe(<TabulaRasa:RasaItem1:12>, true, false, 638, <terrafirmacraft:item.Weak Red Steel Ingot>);
+	mods.railcraft.BlastFurnace.addRecipe(<TabulaRasa:RasaItem1:10>, true, false, 1798, <terrafirmacraft:item.Weak Steel Ingot>);
+	mods.railcraft.BlastFurnace.addRecipe(<TabulaRasa:RasaItem1:11>, true, false, 1798, <terrafirmacraft:item.Weak Blue Steel Ingot>);
+	mods.railcraft.BlastFurnace.addRecipe(<TabulaRasa:RasaItem1:12>, true, false, 1798, <terrafirmacraft:item.Weak Red Steel Ingot>);
 
 //Coke oven recipes
 //OutputStack
