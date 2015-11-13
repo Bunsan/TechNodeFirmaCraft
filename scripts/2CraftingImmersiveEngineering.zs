@@ -40,7 +40,12 @@ import minetweaker.item.IItemStack;
     recipes.remove(<ImmersiveEngineering:metalDevice2:6>);
     recipes.remove(<ImmersiveEngineering:jerrycan>);
     recipes.remove(<ImmersiveEngineering:material>);
-
+    recipes.remove(<ImmersiveEngineering:material:1>);
+    recipes.remove(<ImmersiveEngineering:woodenDevice:1>);
+    recipes.remove(<ImmersiveEngineering:metalDevice:3>);
+    recipes.remove(<ImmersiveEngineering:metalDevice:7>);
+    recipes.remove(<ImmersiveEngineering:metalDevice:9>);
+    
 // ================================================================================
 //#ADD Furnace Recipes
 	furnace.addRecipe(<ImmersiveEngineering:stoneDecoration>, <customitems:uncured_hempcrete>);
@@ -151,6 +156,17 @@ import minetweaker.item.IItemStack;
 //# Concrete
 	recipes.addShaped(<ImmersiveEngineering:stoneDecoration:4> * 4, [[<ore:itemSlag>, <ore:lumpClay>, <ore:itemSlag>], [<ore:blockGravel>, <ore:itemSlag>, <ore:blockGravel>], [<ore:itemSlag>, <ore:lumpClay>, <ore:itemSlag>]]);
 
+//#WaterWheel
+    recipes.addShaped(<ImmersiveEngineering:material:1>, [[<ore:stickWood>, null, <ore:stickWood>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], [<ore:stickWood>, <ore:ingotIron>, <ore:stickWood>]]);
+    recipes.addShaped(<ImmersiveEngineering:woodenDevice:1>, [[null, <ImmersiveEngineering:material:1>, null], [<ImmersiveEngineering:material:1>, <ore:gearIron>, <ImmersiveEngineering:material:1>], [null, <ImmersiveEngineering:material:1>, null]]);
+
+//# Dynamo
+    recipes.addShaped(<ImmersiveEngineering:metalDevice:9>, [[<minecraft:redstone>, <ImmersiveEngineering:storage:8>, <minecraft:redstone>], [<ore:plateSteel>, <ore:plateBlackSteel>, <ore:plateSteel>]]);
+        
+//# Capacitors
+    recipes.addShaped(<ImmersiveEngineering:metalDevice:3>, [[<ore:plateDoubleWroughtIron>, <ore:plateSteel>, <ore:plateDoubleWroughtIron>], [<ore:ingotElectrum>, <ore:ingotLead>, <ore:ingotElectrum>], [<ore:plankTreatedWood>, <minecraft:redstone_block>, <ore:plankTreatedWood>]]);
+    recipes.addShaped(<ImmersiveEngineering:metalDevice:7>, [[<ore:plateDoubleWroughtIron>, <ore:plateSteel>, <ore:plateDoubleWroughtIron>], [<ore:ingotAluminum>, <ore:blockLead>, <ore:ingotAluminum>], [<ore:plankTreatedWood>, <ImmersiveEngineering:metalDevice:3>, <ore:plankTreatedWood>]]);
+    
 // ================================================================================
 
 //Blast Furnace
