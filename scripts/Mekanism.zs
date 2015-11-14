@@ -7,7 +7,8 @@ import minetweaker.data.IData;
 
 // ================================================================================
 //# Tooltips
-	<Mekanism:MachineBlock:4>.addTooltip(format.red("DO NOT Silktouch Ores may corrupt world."));
+	<Mekanism:Configurator:*>.addTooltip(format.green("Place in crafting grid to recharge."));
+    <Mekanism:MachineBlock:4>.addTooltip(format.red("DO NOT Silktouch Ores may corrupt world."));
 	<Mekanism:CardboardBox>.addTooltip(format.green("Mek Cardboard Box."));
 
 // ================================================================================

@@ -9,6 +9,12 @@ import mods.nei.NEI;
 	NEI.hide(<terrafirmacraft:Ore1>);
 	NEI.hide(<terrafirmacraft:Ore2>);
 	NEI.hide(<terrafirmacraft:Ore3>);
+// ================================================================================
+//#Tooltips
+    <terrafirmacraft:item.Ore:18>.addTooltip(format.darkAqua("Eloraam's Glory"));
+// ================================================================================
+//#Fuel Values
+    furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
 
 // ================================================================================
 //#REMOVE Recipe
