@@ -124,19 +124,6 @@ import minetweaker.item.IItemStack;
 //# Convert petrified wood to Netherrack
 	recipes.addShapeless(<minecraft:netherrack>, [<terrafirmacraft:item.Ore:22>]);
 
-//# REPLACE Ingot to Nugget recipe with TFC ingot
-	recipes.addShapeless(<minecraft:gold_nugget> * 9, [<ore:ingotGold>, <ore:itemChisel>.transformDamage()]);
-	recipes.addShapeless(<Railcraft:nugget> * 9, [<ore:ingotIron>, <ore:itemChisel>.transformDamage()]);
-	recipes.addShapeless(<Railcraft:nugget:2> * 9, [<ore:ingotCopper>, <ore:itemChisel>.transformDamage()]);
-	recipes.addShapeless(<Railcraft:nugget:3> * 9, [<ore:ingotTin>, <ore:itemChisel>.transformDamage()]);
-	recipes.addShapeless(<Railcraft:nugget:4> * 9, [<ore:ingotLead>, <ore:itemChisel>.transformDamage()]);
-	recipes.addShapeless(<Railcraft:nugget:1> * 9, [<ore:ingotSteel>, <ore:itemChisel>.transformDamage()]);
-	recipes.addShapeless(<ImmersiveEngineering:metal:23> * 9, [<ore:ingotAluminum>, <ore:itemChisel>.transformDamage()]);
-	recipes.addShapeless(<ImmersiveEngineering:metal:25> * 9, [<ore:ingotSilver>, <ore:itemChisel>.transformDamage()]);
-	recipes.addShapeless(<ImmersiveEngineering:metal:26> * 9, [<ore:ingotNickel>, <ore:itemChisel>.transformDamage()]);
-	recipes.addShapeless(<ImmersiveEngineering:metal:27> * 9, [<ore:ingotConstantan>, <ore:itemChisel>.transformDamage()]);
-	recipes.addShapeless(<ImmersiveEngineering:metal:28> * 9, [<ore:ingotElectrum>, <ore:itemChisel>.transformDamage()]);
-
 //#Iron Bars
 	recipes.addShapeless(<minecraft:iron_bars> * 6, [<ore:plateIron>, <ore:craftingToolMediumChisel>.transformDamage()]);
 
@@ -261,18 +248,3 @@ import minetweaker.item.IItemStack;
 
 //# Hopper
 	recipes.addShaped(<minecraft:hopper>, [[null, <ore:craftingToolHammer>.transformDamage(), null], [null, <ore:chestWood>, null], [null, <terrafirmacraft:Hopper>, null]]);
-
-//# Items
-
-//# Replace Nugget to Ingot Recipes with TFC Ingots
-	recipes.addShaped(<terrafirmacraft:item.Wrought Iron Ingot>, [[<Railcraft:nugget>, <Railcraft:nugget>, <Railcraft:nugget>], [<Railcraft:nugget>, <Railcraft:nugget>, <Railcraft:nugget>], [<Railcraft:nugget>, <Railcraft:nugget>, <Railcraft:nugget>]]);
-	recipes.addShaped(<terrafirmacraft:item.Gold Ingot>, [[<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>], [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>], [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>]]);
-	recipes.addShaped(<terrafirmacraft:item.Steel Ingot>, [[<Railcraft:nugget:1>, <Railcraft:nugget:1>, <Railcraft:nugget:1>], [<Railcraft:nugget:1>, <Railcraft:nugget:1>, <Railcraft:nugget:1>], [<Railcraft:nugget:1>, <Railcraft:nugget:1>, <Railcraft:nugget:1>]]);
-	recipes.addShaped(<terrafirmacraft:item.Tin Ingot>, [[<Railcraft:nugget:3>, <Railcraft:nugget:3>, <Railcraft:nugget:3>], [<Railcraft:nugget:3>, <Railcraft:nugget:3>, <Railcraft:nugget:3>], [<Railcraft:nugget:3>, <Railcraft:nugget:3>, <Railcraft:nugget:3>]]);
-	recipes.addShaped(<terrafirmacraft:item.Copper Ingot>, [[<Railcraft:nugget:2>, <Railcraft:nugget:2>, <Railcraft:nugget:2>], [<Railcraft:nugget:2>, <Railcraft:nugget:2>, <Railcraft:nugget:2>], [<Railcraft:nugget:2>, <Railcraft:nugget:2>, <Railcraft:nugget:2>]]);
-	recipes.addShaped(<terrafirmacraft:item.Lead Ingot>, [[<Railcraft:nugget:4>, <Railcraft:nugget:4>, <Railcraft:nugget:4>], [<Railcraft:nugget:4>, <Railcraft:nugget:4>, <Railcraft:nugget:4>], [<Railcraft:nugget:4>, <Railcraft:nugget:4>, <Railcraft:nugget:4>]]);
-	recipes.addShaped(<terrafirmacraft:item.Silver Ingot>, [[<ImmersiveEngineering:metal:25>, <ImmersiveEngineering:metal:25>, <ImmersiveEngineering:metal:25>], [<ImmersiveEngineering:metal:25>, <ImmersiveEngineering:metal:25>, <ImmersiveEngineering:metal:25>], [<ImmersiveEngineering:metal:25>, <ImmersiveEngineering:metal:25>, <ImmersiveEngineering:metal:25>]]);
-	recipes.addShaped(<terrafirmacraft:item.Nickel Ingot>, [[<ImmersiveEngineering:metal:26>, <ImmersiveEngineering:metal:26>, <ImmersiveEngineering:metal:26>], [<ImmersiveEngineering:metal:26>, <ImmersiveEngineering:metal:26>, <ImmersiveEngineering:metal:26>], [<ImmersiveEngineering:metal:26>, <ImmersiveEngineering:metal:26>, <ImmersiveEngineering:metal:26>]]);
-	recipes.addShaped(<ImmersiveEngineering:metal:1>, [[<ImmersiveEngineering:metal:23>, <ImmersiveEngineering:metal:23>, <ImmersiveEngineering:metal:23>], [<ImmersiveEngineering:metal:23>, <ImmersiveEngineering:metal:23>, <ImmersiveEngineering:metal:23>], [<ImmersiveEngineering:metal:23>, <ImmersiveEngineering:metal:23>, <ImmersiveEngineering:metal:23>]]);
-	recipes.addShaped(<ImmersiveEngineering:metal:5>, [[<ImmersiveEngineering:metal:27>, <ImmersiveEngineering:metal:27>, <ImmersiveEngineering:metal:27>], [<ImmersiveEngineering:metal:27>, <ImmersiveEngineering:metal:27>, <ImmersiveEngineering:metal:27>], [<ImmersiveEngineering:metal:27>, <ImmersiveEngineering:metal:27>, <ImmersiveEngineering:metal:27>]]);
-	recipes.addShaped(<ImmersiveEngineering:metal:6>, [[<ImmersiveEngineering:metal:28>, <ImmersiveEngineering:metal:28>, <ImmersiveEngineering:metal:28>], [<ImmersiveEngineering:metal:28>, <ImmersiveEngineering:metal:28>, <ImmersiveEngineering:metal:28>], [<ImmersiveEngineering:metal:28>, <ImmersiveEngineering:metal:28>, <ImmersiveEngineering:metal:28>]]);
