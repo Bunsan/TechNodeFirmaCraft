@@ -687,6 +687,9 @@ mods.railcraft.RockCrusher.removeRecipe(<minecraft:mossy_cobblestone>);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Sterling Silver Ingot> ,true, false, [<TabulaRasa:RasaItem1:9>], [1.0]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Pig Iron Ingot> ,true, false, [<TabulaRasa:RasaItem2:5>], [1.0]);
 
+//# Kimberlite Diamond Ore
+//    	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:21> ,true, false, [<terrafirmacraft:item.Diamond:0>, <terrafirmacraft:item.Diamond:0>, <terrafirmacraft:item.Diamond:1>, <terrafirmacraft:item.Diamond:2>, <terrafirmacraft:item.Diamond:3>, <terrafirmacraft:item.Diamond:4>], [1.0, 0.02, 0.01, 0.007, 0.003]);
+
 //Blast Furnace Recipes
 //OutputStack
 	mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:ingot>);

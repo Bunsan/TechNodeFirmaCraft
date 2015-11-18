@@ -395,3 +395,12 @@ import minetweaker.item.IItemStack;
     var raw = stoneRaw[i];
     mods.immersiveengineering.ArcFurnace.addRecipe(raw, cobble, null, 100, 512, []);
         }
+        
+//# Excavator
+
+//# Removal
+//mods.immersiveengineering.Excavator.removeMineral(String name)
+//mods.immersiveengineering.Excavator.removeMineral(Coal)
+//# Additions
+//mods.immersiveengineering.Excavator.addMineral(String name, int mineralWeight, double failChance, String[] ores, double[] chances,  @Optional int[] dimensionWhitelist,  @Optional boolean blacklist)
+//mods.immersiveengineering.Excavator.addMineral("Coal", 80, 0.0 ["oreCoal", "oreLignite"], [0.9, 0.1], [-1.0, 1], true);

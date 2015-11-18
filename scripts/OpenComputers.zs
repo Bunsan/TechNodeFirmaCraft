@@ -47,7 +47,7 @@
 	recipes.remove(<OpenComputers:switch>);
 	recipes.remove(<OpenComputers:waypoint>);
 	recipes.remove(<OpenComputers:item:30>);
-  recipes.remove(<OpenComputers:item:18>);
+    recipes.remove(<OpenComputers:item:18>);
 // ================================================================================
 //#ADD SHAPELESS
 	recipes.addShapeless(<OpenComputers:item:30>, [<OpenComputers:item:17>, <customitems:block_of_clay>, <ore:dyeGreen>]);
@@ -55,7 +55,8 @@
 
 // ================================================================================
 //#ADD SHAPED
-	recipes.addShaped(<OpenComputers:accessPoint>, [[<ore:plateIron>, <ore:oc:wlanCard>, <ore:plateIron>], [<ore:oc:cable>, <ore:oc:lanCard>, <ore:oc:cable>], [<ore:craftingToolHardHammer>.reuse(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
+
+    recipes.addShaped(<OpenComputers:accessPoint>, [[<ore:plateIron>, <ore:oc:wlanCard>, <ore:plateIron>], [<ore:oc:cable>, <ore:oc:lanCard>, <ore:oc:cable>], [<ore:craftingToolHardHammer>.reuse(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
 	recipes.addShaped(<OpenComputers:adapter>, [[<ore:plateIron>, <ore:oc:cable>, <ore:plateIron>], [<ore:oc:cable>, <ore:oc:circuitChip1>, <OpenComputers:cable>], [<ore:craftingToolHardHammer>.reuse(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
 	recipes.addShaped(<OpenComputers:assembler>, [[<ore:plateIron>, null, <ore:plateIron>], [<ore:craftingPiston>, <ore:oc:circuitChip2>, <ore:craftingPiston>], [<ore:craftingToolHardHammer>.reuse(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
 	recipes.addShaped(<OpenComputers:capacitor>, [[<ore:plateIron>, <ore:oc:materialTransistor>, <ore:plateIron>], [<ore:nuggetGold>, <minecraft:paper>, <ore:nuggetGold>], [<ore:craftingToolHardHammer>.reuse(), <ore:oc:materialCircuitBoardPrinted>, <ore:craftingToolHardChisel>.transformDamage()]]);
