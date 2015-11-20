@@ -17,6 +17,12 @@
 	recipes.remove(<JABBA:upgradeCore>);
 	recipes.remove(<JABBA:barrel>);
 	recipes.remove(<JABBA:mover>);
+    recipes.remove(<JABBA:hammer>);
+
+// ================================================================================
+//#ADD SHAPELESS
+
+    recipes.addShapeless(<JABBA:hammer>, [<terrafirmacraft:item.Steel Hammer>, <JABBA:barrel>]);
 
 // ================================================================================
 //#ADD SHAPED
