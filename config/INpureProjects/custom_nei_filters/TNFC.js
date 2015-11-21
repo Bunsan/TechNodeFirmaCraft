@@ -69,7 +69,7 @@ if (FML.isModLoaded("terrafirmacraft")) {
     NEI.hide("minecraft:chainmail_leggings");
     NEI.hide("minecraft:diamond");
     NEI.hide("minecraft:diamond_axe");
-    NEI.hide("minecraft:diamond_block");
+    
     NEI.hide("minecraft:diamond_boots");
     NEI.hide("minecraft:diamond_chestplate");
     NEI.hide("minecraft:diamond_helmet");
