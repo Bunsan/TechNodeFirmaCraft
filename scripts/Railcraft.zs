@@ -268,7 +268,7 @@
 
 	recipes.addShaped(<Railcraft:detector:1>, [[<ore:stone>, <ore:stone>, <ore:stone>], [<ore:stone>, <minecraft:stone_pressure_plate>, <ore:stone>], [<ore:stone>, <ore:stone>, <ore:stone>]]);
 	recipes.addShaped(<Railcraft:detector:2>, [[<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>], [<ore:stoneSmooth>, <minecraft:stone_pressure_plate>, <ore:stoneSmooth>], [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>]]);
-	recipes.addShaped(<Railcraft:detector:3>, [[<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<ore:stoneBricks>, <minecraft:stone_pressure_plate>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);
+	recipes.addShaped(<Railcraft:detector:3>, [[<ore:stoneBrick>, <ore:stoneBrick>, <ore:stoneBrick>], [<ore:stoneBrick>, <minecraft:stone_pressure_plate>, <ore:stoneBrick>], [<ore:stoneBrick>, <ore:stoneBrick>, <ore:stoneBrick>]]);
 	recipes.addShaped(<Railcraft:detector:4>, [[<ore:stoneCobble>, <ore:stoneCobble>, <ore:stoneCobble>], [<ore:stoneCobble>, <minecraft:stone_pressure_plate>, <ore:stoneCobble>], [<ore:stoneCobble>, <ore:stoneCobble>, <ore:stoneCobble>]]);
 	recipes.addShaped(<Railcraft:detector:7>, [[<terrafirmacraft:item.Log>, <terrafirmacraft:item.Log>, <terrafirmacraft:item.Log>], [<terrafirmacraft:item.Log>, <minecraft:stone_pressure_plate>, <terrafirmacraft:item.Log>], [<terrafirmacraft:item.Log>, <terrafirmacraft:item.Log>, <terrafirmacraft:item.Log>]]);
 	recipes.addShaped(<Railcraft:detector:11>, [[<terrafirmacraft:item.Log:10>, <terrafirmacraft:item.Log:10>, <terrafirmacraft:item.Log:10>], [<terrafirmacraft:item.Log:10>, <minecraft:stone_pressure_plate>, <terrafirmacraft:item.Log:10>], [<terrafirmacraft:item.Log:10>, <terrafirmacraft:item.Log:10>, <terrafirmacraft:item.Log:10>]]);
@@ -361,14 +361,14 @@ recipes.addShaped(<Railcraft:brick.nether:1>, [[<minecraft:netherbrick>, <terraf
 
 
 //# Bricks to Railcraft Bricks
-	recipes.addShaped(<Railcraft:brick.infernal:1> * 8, [[<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:dyeGray>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);
-	recipes.addShaped(<Railcraft:brick.abyssal:1> * 8, [[<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:dyeBlack>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);
-	recipes.addShaped(<Railcraft:brick.sandy:1> * 8, [[<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:blockSand>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);
-	recipes.addShaped(<Railcraft:brick.frostbound:1> * 8, [[<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:dyeBlue>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);
-	recipes.addShaped(<Railcraft:brick.quarried:1> * 8, [[<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:dyeWhite>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);
-	recipes.addShaped(<Railcraft:brick.bleachedbone:1> * 8, [[<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<ore:stoneBricks>, <Railcraft:part.bleached.clay>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);
-	recipes.addShaped(<Railcraft:brick.bloodstained:1> * 8, [[<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<ore:stoneBricks>, <minecraft:rotten_flesh>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);
-	recipes.addShaped(<Railcraft:brick.nether:1> * 8, [[<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneNetherrack>, <ore:stoneBricks>], [<ore:stoneBricks>, <ore:stoneBricks>, <ore:stoneBricks>]]);
+	recipes.addShaped(<Railcraft:brick.infernal:1> * 8, [[<ore:stoneBrick>, <ore:stoneBrick>, <ore:stoneBrick>], [<ore:stoneBrick>, <ore:dyeGray>, <ore:stoneBrick>], [<ore:stoneBrick>, <ore:stoneBrick>, <ore:stoneBrick>]]);
+	recipes.addShaped(<Railcraft:brick.abyssal:1> * 8, [[<ore:stoneBrick>, <ore:stoneBrick>, <ore:stoneBrick>], [<ore:stoneBrick>, <ore:dyeBlack>, <ore:stoneBrick>], [<ore:stoneBrick>, <ore:stoneBrick>, <ore:stoneBrick>]]);
+	recipes.addShaped(<Railcraft:brick.sandy:1> * 8, [[<ore:stoneBrick>, <ore:stoneBrick>, <ore:stoneBrick>], [<ore:stoneBrick>, <ore:blockSand>, <ore:stoneBrick>], [<ore:stoneBrick>, <ore:stoneBrick>, <ore:stoneBrick>]]);
+	recipes.addShaped(<Railcraft:brick.frostbound:1> * 8, [[<ore:stoneBrick>, <ore:stoneBrick>, <ore:stoneBrick>], [<ore:stoneBrick>, <ore:dyeBlue>, <ore:stoneBrick>], [<ore:stoneBrick>, <ore:stoneBrick>, <ore:stoneBrick>]]);
+	recipes.addShaped(<Railcraft:brick.quarried:1> * 8, [[<ore:stoneBrick>, <ore:stoneBrick>, <ore:stoneBrick>], [<ore:stoneBrick>, <ore:dyeWhite>, <ore:stoneBrick>], [<ore:stoneBrick>, <ore:stoneBrick>, <ore:stoneBrick>]]);
+	recipes.addShaped(<Railcraft:brick.bleachedbone:1> * 8, [[<ore:stoneBrick>, <ore:stoneBrick>, <ore:stoneBrick>], [<ore:stoneBrick>, <Railcraft:part.bleached.clay>, <ore:stoneBrick>], [<ore:stoneBrick>, <ore:stoneBrick>, <ore:stoneBrick>]]);
+	recipes.addShaped(<Railcraft:brick.bloodstained:1> * 8, [[<ore:stoneBrick>, <ore:stoneBrick>, <ore:stoneBrick>], [<ore:stoneBrick>, <minecraft:rotten_flesh>, <ore:stoneBrick>], [<ore:stoneBrick>, <ore:stoneBrick>, <ore:stoneBrick>]]);
+	recipes.addShaped(<Railcraft:brick.nether:1> * 8, [[<ore:stoneBrick>, <ore:stoneBrick>, <ore:stoneBrick>], [<ore:stoneBrick>, <ore:stoneNetherrack>, <ore:stoneBrick>], [<ore:stoneBrick>, <ore:stoneBrick>, <ore:stoneBrick>]]);
 
 //# STAIRS
 
