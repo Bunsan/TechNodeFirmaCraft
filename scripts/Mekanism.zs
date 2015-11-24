@@ -429,17 +429,23 @@ import minetweaker.data.IData;
 	mods.mekanism.Sawmill.removeRecipe(<minecraft:fence>);
 	mods.mekanism.Sawmill.removeRecipe(<minecraft:jukebox>);
 	mods.mekanism.Sawmill.removeRecipe(<minecraft:noteblock>);
+    mods.mekanism.Sawmill.removeRecipe(<Forestry:logs:*>);
+    mods.mekanism.Sawmill.removeRecipe(<Forestry:logsFireproof:*>);
+
+
 //#Removal/Addition
 //#Forestry Wood
-	var pulp = [<Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>, <Forestry:woodPulp>] as IItemStack[];
-	var nbtForestry = [{WoodType: 0}, {WoodType: 1}, {WoodType: 2}, {WoodType: 3}, {WoodType: 4}, {WoodType: 5}, {WoodType: 6}, {WoodType: 7}, {WoodType: 8}, {WoodType: 9}, {WoodType: 10}, {WoodType: 11}, {WoodType: 12}, {WoodType: 13}, {WoodType: 14}, {WoodType: 15}, {WoodType: 16}, {WoodType: 17}, {WoodType: 18}, {WoodType: 19}, {WoodType: 20}, {WoodType: 21}, {WoodType: 22}, {WoodType: 23}, {WoodType: 24}, {WoodType: 25}, {WoodType: 26}, {WoodType: 27}, {WoodType: 28}] as IData[];
-		for i, pulpitem in pulp {
-	var woodLog = <Forestry:logs>.withTag(nbtForestry[i]);
-	var woodPlank = <Forestry:planks>.withTag(nbtForestry[i]);
-	var woodFireproofLog = <Forestry:logsFireproof>.withTag(nbtForestry[i]);
-	var woodFireproofPlank = <Forestry:planksFireproof>.withTag(nbtForestry[i]);
-	mods.mekanism.Sawmill.addRecipe(woodLog, woodPlank * 4, pulpitem, 1.0);
-	mods.mekanism.Sawmill.addRecipe(woodFireproofLog, woodFireproofPlank * 4, pulpitem, 1.0);
+
+var meta = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28] as int[];
+
+for i in meta {
+    var pulp = <Forestry:woodPulp>;
+    var woodLog = <Forestry:logs>.definition.makeStack(i);
+	var woodPlank = <Forestry:planks>.definition.makeStack(i);
+	var woodFireproofLog = <Forestry:logsFireproof>.definition.makeStack(i);
+	var woodFireproofPlank = <Forestry:planksFireproof>.definition.makeStack(i);
+	mods.mekanism.Sawmill.addRecipe(woodLog, woodPlank * 4, pulp, 1.0);
+	mods.mekanism.Sawmill.addRecipe(woodFireproofLog, woodFireproofPlank * 4, pulp, 1.0);
 		}	
 //#Vanilla and TFC Wood
 	var blockSawTFCLogs = [<minecraft:log>, <minecraft:log:1>, <minecraft:log:2>, <minecraft:log:3>, <minecraft:log2>, <minecraft:log2:1>, <terrafirmacraft:item.Log:0>, <terrafirmacraft:item.Log:1>, <terrafirmacraft:item.Log:2>, <terrafirmacraft:item.Log:3>, <terrafirmacraft:item.Log:4>, <terrafirmacraft:item.Log:5>, <terrafirmacraft:item.Log:6>, <terrafirmacraft:item.Log:7>, <terrafirmacraft:item.Log:8>, <terrafirmacraft:item.Log:9>, <terrafirmacraft:item.Log:10>, <terrafirmacraft:item.Log:11>, <terrafirmacraft:item.Log:12>, <terrafirmacraft:item.Log:13>, <terrafirmacraft:item.Log:14>, <terrafirmacraft:item.Log:15>, <terrafirmacraft:item.Log:16>] as IItemStack[];

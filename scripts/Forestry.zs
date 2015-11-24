@@ -3,7 +3,6 @@
 // ================================================================================
 //# Imports
 import minetweaker.item.IItemStack;
-import minetweaker.data.IData;
 // ================================================================================
 //#REMOVE
 //# Farm Blocks (removed because they won't work)
@@ -31,10 +30,10 @@ import minetweaker.data.IData;
 	recipes.remove(<Forestry:bronzePickaxe>);
 	recipes.remove(<Forestry:stamps>);
 	recipes.remove(<Forestry:stamps:3>);
-	recipes.remove(<Forestry:planks>);
-	recipes.remove(<Forestry:planksFireproof>);
-	recipes.remove(<Forestry:slabs>);
-	recipes.remove(<Forestry:stairs>);
+	recipes.remove(<Forestry:planks:*>);
+	recipes.remove(<Forestry:planksFireproof:*>);
+	recipes.remove(<Forestry:slabs:*>);
+	recipes.remove(<Forestry:stairs:*>);
 	recipes.remove(<Forestry:fertilizerCompound>);
     recipes.remove(<Forestry:grafter>);
     recipes.remove(<Forestry:wrench>);
@@ -126,29 +125,28 @@ recipes.addShaped(<Forestry:naturalistHelmet>, [[null, <ore:ingotAnyBronze>, nul
 
 //# Logs, Planks, Stairs and Slabs
 
-	var count =[null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]  as IItemStack[];
+var meta = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28] as int[];
 
-	var nbtForestry = [{WoodType: 0}, {WoodType: 1}, {WoodType: 2}, {WoodType: 3}, {WoodType: 4}, {WoodType: 5}, {WoodType: 6}, {WoodType: 7}, {WoodType: 8}, {WoodType: 9}, {WoodType: 10}, {WoodType: 11}, {WoodType: 12}, {WoodType: 13}, {WoodType: 14}, {WoodType: 15}, {WoodType: 16}, {WoodType: 17}, {WoodType: 18}, {WoodType: 19}, {WoodType: 20}, {WoodType: 21}, {WoodType: 22}, {WoodType: 23}, {WoodType: 24}, {WoodType: 25}, {WoodType: 26}, {WoodType: 27}, {WoodType: 28}] as IData[];
+for i in meta {
 
-		for i, counting in count {
-	var woodStair = <Forestry:stairs>.withTag(nbtForestry[i]);
-	var woodSlab = <Forestry:slabs>.withTag(nbtForestry[i]);
-	var woodPlank = <Forestry:planks>.onlyWithTag(nbtForestry[i]);	
-    var woodFireproofStair = <Forestry:stairsFireproof>.withTag(nbtForestry[i]);
-    var woodFireproofSlab = <Forestry:slabsFireproof>.withTag(nbtForestry[i]);
-    var woodFireproofPlank = <Forestry:planksFireproof>.withTag(nbtForestry[i]);
+	var woodStair = <Forestry:stairs>.definition.makeStack(i);
+	var woodSlab = <Forestry:slabs>.definition.makeStack(i);
+	var woodPlank = <Forestry:planks>.definition.makeStack(i);	
+    var woodFireproofStair = <Forestry:stairsFireproof>.definition.makeStack(i);
+    var woodFireproofSlab = <Forestry:slabsFireproof>.definition.makeStack(i);
+    var woodFireproofPlank = <Forestry:planksFireproof>.definition.makeStack(i);
     
-	recipes.addShaped(woodStair * 6, [[woodPlank, counting, <ore:itemSaw>.transformDamage(12)], [woodPlank, woodPlank, null], [woodPlank, woodPlank, woodPlank]]);
-	recipes.addShaped(woodSlab * 6, [[counting, <ore:itemSaw>.transformDamage(12), null], [woodPlank, woodPlank, woodPlank]]);
-    recipes.addShaped(woodFireproofStair * 6, [[woodFireproofPlank, counting, <ore:itemSaw>.transformDamage(12)], [woodFireproofPlank, woodFireproofPlank, null], [woodFireproofPlank, woodFireproofPlank, woodFireproofPlank]]);
-	recipes.addShaped(woodFireproofSlab * 6, [[counting, <ore:itemSaw>.transformDamage(12), null], [woodFireproofPlank, woodFireproofPlank, woodFireproofPlank]]);
+	recipes.addShapedMirrored(woodStair * 6, [[woodPlank, null, <ore:itemSaw>.transformDamage(12)], [woodPlank, woodPlank, null], [woodPlank, woodPlank, woodPlank]]);
+	recipes.addShaped(woodSlab * 6, [[null, <ore:itemSaw>.transformDamage(12), null], [woodPlank, woodPlank, woodPlank]]);
+    recipes.addShapedMirrored(woodFireproofStair * 6, [[woodFireproofPlank, null, <ore:itemSaw>.transformDamage(12)], [woodFireproofPlank, woodFireproofPlank, null], [woodFireproofPlank, woodFireproofPlank, woodFireproofPlank]]);
+	recipes.addShaped(woodFireproofSlab * 6, [[null, <ore:itemSaw>.transformDamage(12), null], [woodFireproofPlank, woodFireproofPlank, woodFireproofPlank]]);
 		}
 
-		for i, counting in count {
-	var woodLog = <Forestry:logs>.onlyWithTag(nbtForestry[i]);
-	var woodPlank = <Forestry:planks>.withTag(nbtForestry[i]);	
-	var woodFireproofLog = <Forestry:logsFireproof>.onlyWithTag(nbtForestry[i]);
-	var woodFireproofPlank = <Forestry:planksFireproof>.withTag(nbtForestry[i]);	
+		for i in meta {
+	var woodLog = <Forestry:logs>.definition.makeStack(i);
+	var woodPlank = <Forestry:planks>.definition.makeStack(i);	
+	var woodFireproofLog = <Forestry:logsFireproof>.definition.makeStack(i);
+	var woodFireproofPlank = <Forestry:planksFireproof>.definition.makeStack(i);	
 
 	recipes.addShapeless(woodPlank * 2, [woodLog, <ore:itemSaw>.transformDamage()]);
 	recipes.addShapeless(woodFireproofPlank * 2, [woodFireproofLog, <ore:itemSaw>.transformDamage()]);
