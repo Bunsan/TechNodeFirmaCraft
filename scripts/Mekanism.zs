@@ -31,9 +31,6 @@ import minetweaker.data.IData;
 	recipes.remove(<Mekanism:ArmoredJetpack:100>);
 	recipes.remove(<Mekanism:ScubaTank:100>);
 	recipes.remove(<Mekanism:GasMask>);
-	recipes.remove(<Mekanism:Configurator:100>);
-	recipes.remove(<Mekanism:AtomicDisassembler:100>);
-	recipes.remove(<Mekanism:Flamethrower:100>);
 	recipes.remove(<Mekanism:TeleportationCore>);
 	recipes.remove(<Mekanism:RoadPlasticBlock:*>);
 	recipes.remove(<Mekanism:PartTransmitter>);
@@ -41,7 +38,6 @@ import minetweaker.data.IData;
 	recipes.remove(<Mekanism:PartTransmitter:9>);
 	recipes.remove(<Mekanism:PartTransmitter:10>);
 	recipes.remove(<Mekanism:PartTransmitter:11>);
-	recipes.remove(<Mekanism:EnergyCube:100>);
 	recipes.remove(<Mekanism:ElectricBow:100>);
 	recipes.remove(<Mekanism:SeismicReader:100>);
 	recipes.remove(<Mekanism:EnergyTablet:100>);
@@ -68,7 +64,7 @@ import minetweaker.data.IData;
 	recipes.remove(<Mekanism:MachineBlock:12>);
 	recipes.remove(<Mekanism:MachineBlock:13>);
 	recipes.remove(<Mekanism:MachineBlock3:3>);
-	recipes.remove(<Mekanism:CardboardBox>);
+
 
 // ================================================================================
 //#ADD SHAPELESS
@@ -77,14 +73,6 @@ import minetweaker.data.IData;
 
 // ================================================================================
 //#ADD SHAPED
-//#Carboard Box
-	recipes.addShaped(<Mekanism:CardboardBox>, [[<terrafirmacraft:item.BurlapCloth>, <ore:plateIron>, <terrafirmacraft:item.BurlapCloth>], [<ore:plateIron>, <terrafirmacraft:item.BurlapCloth>, <ore:plateIron>], [<ore:woodLumber>, <ore:plateIron>, <ore:woodLumber>]]);
-
-//#Atomic Disassembler
-	recipes.addShaped(<Mekanism:AtomicDisassembler:100>, [[<ore:alloyElite>, <ore:battery>, <ore:alloyElite>], [<ore:alloyElite>, <ore:alloyUltimate>, <ore:alloyElite>], [<terrafirmacraft:item.Blue Steel Double Sheet>, <ore:ingotRefinedObsidian>, <terrafirmacraft:item.Red Steel Double Sheet>]]);
-
-//#Flamethrower
-	recipes.addShaped(<Mekanism:Flamethrower:100>, [[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [<ore:ingotTin>, <Mekanism:GasTank:100>, <ore:toolFlintSteel>], [<ore:ingotAnyBronze>, <ore:circuitAdvanced>, <ore:ingotAnyBronze>]]);
 
 //#Mek Dynamic Valve
 	recipes.addShaped(<Mekanism:BasicBlock:11> * 2, [[null, <ore:plateSteel>, null], [<ore:craftingToolHardHammer>.transformDamage(), <ore:circuitBasic>, null], [null, <ore:plateSteel>, null]]);
@@ -159,11 +147,6 @@ import minetweaker.data.IData;
 	recipes.addShaped(<Mekanism:RoadPlasticBlock:14> * 3, [[<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>], [<Mekanism:SlickPlasticBlock:14>, <Mekanism:SlickPlasticBlock:14>, <Mekanism:SlickPlasticBlock:14>], [<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>]]);
 	recipes.addShaped(<Mekanism:RoadPlasticBlock:15> * 3, [[<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>], [<Mekanism:SlickPlasticBlock:15>, <Mekanism:SlickPlasticBlock:15>, <Mekanism:SlickPlasticBlock:15>], [<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>]]);
 
-//# RE-ADD Energy Cubes
-	recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Basic"}), [[<ore:dustRedstone>, <ore:battery>, <ore:dustRedstone>], [<ore:ingotIron>, <Mekanism:BasicBlock:8>, <ore:ingotIron>], [<ore:dustRedstone>, <ore:battery>, <ore:dustRedstone>]]);
-	recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Advanced"}), [[<ore:alloyAdvanced>, <ore:battery>, <ore:alloyAdvanced>], [<terrafirmacraft:item.Steel Ingot>, <Mekanism:EnergyCube:*>.onlyWithTag({tier: "Basic"}), <terrafirmacraft:item.Steel Ingot>], [<ore:alloyAdvanced>, <ore:battery>, <ore:alloyAdvanced>]]);
-	recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Elite"}), [[<ore:alloyElite>, <ore:battery>, <ore:alloyElite>], [<ore:ingotBlackSteel>, <Mekanism:EnergyCube:*>.onlyWithTag({tier: "Advanced"}), <ore:ingotBlackSteel>], [<ore:alloyElite>, <ore:battery>, <ore:alloyElite>]]);
-	recipes.addShaped(<Mekanism:EnergyCube>.withTag({tier: "Ultimate"}), [[<ore:alloyUltimate>, <ore:battery>, <ore:alloyUltimate>], [<terrafirmacraft:item.Blue Steel Ingot>, <Mekanism:EnergyCube:*>.onlyWithTag({tier: "Elite"}), <terrafirmacraft:item.Red Steel Ingot>], [<ore:alloyUltimate>, <ore:battery>, <ore:alloyUltimate>]]);
 
 //# RE-ADD Generators
 	recipes.addShaped(<MekanismGenerators:Generator:6>, [[null, <ore:ingotSteel>, null], [<terrafirmacraft:item.Steel Ingot>, <ore:circuitElite>, <terrafirmacraft:item.Steel Ingot>], [<ore:plateBlackSteel>, <Mekanism:EnergyCube:*>.onlyWithTag({tier: "Basic"}), <ore:plateBlackSteel>]]);
