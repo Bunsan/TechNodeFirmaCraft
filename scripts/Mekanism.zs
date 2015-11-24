@@ -27,9 +27,6 @@ import minetweaker.data.IData;
 	recipes.remove(<Mekanism:PartTransmitter:10>);
 	recipes.remove(<Mekanism:PartTransmitter:11>);
 	recipes.remove(<Mekanism:ElectricBow:100>);
-	recipes.remove(<Mekanism:MachineBlock:2>);
-	recipes.remove(<Mekanism:MachineBlock3:3>);
-
 
 // ================================================================================
 //#ADD SHAPELESS
@@ -72,9 +69,10 @@ import minetweaker.data.IData;
 	mods.mekanism.Combiner.removeRecipe(<minecraft:lapis_ore>);
 	mods.mekanism.Combiner.removeRecipe(<minecraft:redstone_ore>);
 	mods.mekanism.Combiner.removeRecipe(<minecraft:gravel>);
-	mods.mekanism.Combiner.removeRecipe(<Forestry:resources:1>);
-	mods.mekanism.Combiner.removeRecipe(<Forestry:resources:2>);
+	mods.mekanism.Combiner.removeRecipe(<Forestry:resources:*>);
 	mods.mekanism.Combiner.removeRecipe(<minecraft:obsidian>);
+    mods.mekanism.Combiner.removeRecipe(<terrafirmacraft:item.Ore:25>);
+    mods.mekanism.Combiner.removeRecipe(<ImmersiveEngineering:ore:*>);
 
 //# Metallurgic Infuser
 //#Removal
@@ -215,6 +213,7 @@ import minetweaker.data.IData;
 	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem2:2>, <TabulaRasa:RasaItem1:2>);
 	mods.mekanism.Enrichment.addRecipe(<TabulaRasa:RasaItem2>, <TabulaRasa:RasaItem1>);
 	mods.mekanism.Enrichment.addRecipe(<terrafirmacraft:item.coal:1>, <Mekanism:CompressedCarbon> * 2);
+    mods.mekanism.Enrichment.addRecipe(<terrafirmacraft:item.Ore:14>, <terrafirmacraft:item.coal:0> * 2);
 
 //Purification Chamber
 //#Removal
