@@ -249,7 +249,7 @@
         name="CommonsCompress" version="1.8.1" url="packs/TechNodefirmacraft/files/1.7.10Mods/commons-compress-1.8.1.jar" file="commons-compress-1.8.1.jar" md5="d862e30ff6b5d78264677dcd6507abb8" download="server" type="dependency" website="https://commons.apache.org/proper/commons-compress/" description="Dependency for Inpurecore" library="yes" client="yes" server="yes" optional="yes" serveroptional="yes"
         />
         <mod
-        name="zTNFCResources" version="2.7.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/zzz-zTNFCResources-2.7.0.jar" file="zzz-zTNFCResources-2.7.0.jar" md5="d0cc97b5aa84875fc29342a5b9d84b4d" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftResources" description="Provides ore names and textures for custom items." client="yes" server="no" optional="no" 
+        name="zTNFCResources" version="2.10.0"  url="packs/TechNodefirmacraft/files/1.7.10Mods/zzz-zTNFCResources-2.10.jar" file="zzz-zTNFCResources-2.10.jar" md5="0c1f94d2101806d74a0fb9741efd8802" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftResources" description="Provides ore names and textures for custom items." client="yes" server="no" optional="no" 
         />
          <!-- Days per Year Options -->
         <mod
@@ -363,7 +363,7 @@
         name="ScriptHQM" version="HQM_dev_3.0" url="packs/TechNodefirmacraft/files/extract/HQM_scripts_3.0.zip" file="HQM_scripts_3.0.zip" md5="e7b5558f29293b3cbd5fb5c3aa9e8ebb" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Script for HQM" client="yes" optional="yes" server="yes" serveroptional="yes" library="yes"
         />
         <mod 
-        name="Resource Loaders Folder" version="2.7" url="packs/TechNodefirmacraft/files/extract/resources_2.7.zip" file="resources_2.7.zip" md5="6f1a40e9d1e657f43d96db4bf19e6f26" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="no"
+        name="Resource Loaders Folder" version="2.10" url="packs/TechNodefirmacraft/files/extract/resources_2.10.zip" file="resources_2.10.zip" md5="33a24c409fe81854c0d3cb4077410357" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="no"
         /> 
         <mod 
         name="IGWModData" version="2.9" url="packs/TechNodefirmacraft/files/extract/igwmod_build_2.9.zip" file="igwmod_build_2.9.zip" md5="db50ab965684a71584be087d3c693c90" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
