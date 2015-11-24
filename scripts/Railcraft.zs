@@ -687,8 +687,10 @@ mods.railcraft.RockCrusher.removeRecipe(<minecraft:mossy_cobblestone>);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Sterling Silver Ingot> ,true, false, [<TabulaRasa:RasaItem1:9>], [1.0]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Pig Iron Ingot> ,true, false, [<TabulaRasa:RasaItem2:5>], [1.0]);
 
-//# Kimberlite Diamond Ore
-//    	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:21> ,true, false, [<terrafirmacraft:item.Diamond:0>, <terrafirmacraft:item.Diamond:0>, <terrafirmacraft:item.Diamond:1>, <terrafirmacraft:item.Diamond:2>, <terrafirmacraft:item.Diamond:3>, <terrafirmacraft:item.Diamond:4>], [1.0, 0.02, 0.01, 0.007, 0.003]);
+//# Kimberlite Diamond Ore, Emerald Ore and Bitumous Coal
+    mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:21>, true, false, [ <terrafirmacraft:item.Diamond:0>, <terrafirmacraft:item.Diamond:1>, <terrafirmacraft:item.Diamond:2>, <terrafirmacraft:item.Diamond:3>, <terrafirmacraft:item.Diamond:4>], [1.0, 0.01, 0.005, 0.0035, 0.0015]);
+    mods.railcraft.RockCrusher.addRecipe(<minecraft:emerald_ore>, true, false, [ <terrafirmacraft:item.Emerald:0>, <terrafirmacraft:item.Emerald:1>, <terrafirmacraft:item.Emerald:2>, <terrafirmacraft:item.Emerald:3>, <terrafirmacraft:item.Emerald:4>], [1.0, 0.01, 0.005, 0.0035, 0.0015]);
+    mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore:14>, true, false, [<terrafirmacraft:item.coal>, <terrafirmacraft:item.coal>], [1.0, 0.25]);
 
 //Blast Furnace Recipes
 //OutputStack
