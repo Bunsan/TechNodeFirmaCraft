@@ -63,7 +63,12 @@ import minetweaker.item.IItemStack;
 	recipes.remove(<Railcraft:nugget:2>);
 	recipes.remove(<Railcraft:nugget:1>);
 	recipes.remove(<Railcraft:nugget>);
-	recipes.remove(<ImmersiveEngineering:metal:*>);
+	recipes.remove(<ImmersiveEngineering:metal:0>);
+	recipes.remove(<ImmersiveEngineering:metal:1>);
+	recipes.remove(<ImmersiveEngineering:metal:2>);
+	recipes.remove(<ImmersiveEngineering:metal:3>);
+	recipes.remove(<ImmersiveEngineering:metal:4>);
+	recipes.remove(<ImmersiveEngineering:metal:7>);
 
 //# Metal Block Recipes (All Mods)
 	recipes.remove(<minecraft:gold_ingot>);

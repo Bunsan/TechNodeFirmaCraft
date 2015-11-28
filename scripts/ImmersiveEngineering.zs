@@ -52,8 +52,6 @@ import minetweaker.item.IItemStack;
 
 // ================================================================================
 //#ADD SHAPELESS
-	recipes.addShapeless(<ImmersiveEngineering:metal:16> * 2, [<ore:dustGold>, <ore:dustSilver>]);
-	recipes.addShapeless(<ImmersiveEngineering:metal:15> * 2, [<ore:dustCopper>, <ore:dustNickel>]);
 
 //# Concrete Tile
 	recipes.addShapeless(<ImmersiveEngineering:stoneDecoration:5>, [<ImmersiveEngineering:stoneDecoration:4>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
@@ -61,6 +59,11 @@ import minetweaker.item.IItemStack;
 //# Treated Wood Sticks
     recipes.addShapeless(<ImmersiveEngineering:material> * 2, [<ore:plankTreatedWood>, <ore:itemSaw>.transformDamage()]);
 
+//# Electrum and Constantan nuggets
+    recipes.remove(<ImmersiveEngineering:metal:27>);
+    recipes.remove(<ImmersiveEngineering:metal:28>);
+    recipes.addShapeless(<ImmersiveEngineering:metal:27> * 9,[<ImmersiveEngineering:metal:5>, <ore:itemChisel>.transformDamage()]);
+    recipes.addShapeless(<ImmersiveEngineering:metal:28> * 9,[<ImmersiveEngineering:metal:6>, <ore:itemChisel>.transformDamage()]);
 // ================================================================================
 //#MARKER ADD SHAPED
 
