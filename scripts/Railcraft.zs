@@ -245,7 +245,7 @@
 	recipes.addShaped(<Railcraft:machine.beta:8>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:itemHammer>.reuse(), <ore:blockGlassColorless>, <ore:craftingToolMediumChisel>.transformDamage()], [<ore:gearIron>, <ore:craftingPiston>, <ore:gearIron>]]);
 	recipes.addShaped(<Railcraft:machine.beta:7>, [[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>], [<ore:itemHammer>.reuse(), <ore:blockGlassColorless>, <ore:craftingToolMediumChisel>.transformDamage()], [<Railcraft:part.gear>, <ore:craftingPiston>, <Railcraft:part.gear>]]);
 //# Gear Brushings
-	recipes.addShaped(<Railcraft:part.gear:3> * 2, [[<ore:itemHammer>.reuse(), <ore:craftingToolMediumChisel>.transformDamage()], [<ore:plateTin>, <ore:plateTin>]]);
+	recipes.addShaped(<Railcraft:part.gear:3> * 2, [[<ore:itemHammer>.reuse(), <ore:craftingToolChisel>.transformDamage()], [<ore:plateTin>]]);
 //#RC Smoker Recipe
 	recipes.addShaped(<Railcraft:machine.alpha:5>, [[null, <ore:stoneNetherrack>, null], [<ore:dustRedstone>, <minecraft:cauldron>, <ore:dustRedstone>]]);
 //# Iron/Steel Tank Gauge/Valve
