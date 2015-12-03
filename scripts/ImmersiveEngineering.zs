@@ -111,11 +111,11 @@ import minetweaker.item.IItemStack;
 	recipes.addShaped(<ImmersiveEngineering:woodenDevice>, [[<ImmersiveEngineering:woodenDecoration:1>], [<ImmersiveEngineering:woodenDecoration:1>], [<ore:stoneBrick>]]);
 
 //# Coils
-	recipes.addShaped(<ImmersiveEngineering:coil:0> * 8, [[null, <ore:ingotCopper>, null], [<ore:ingotCopper>, <ore:stickWood>, <ore:ingotCopper>], [null, <ore:ingotCopper>, null]]);
-	recipes.addShaped(<ImmersiveEngineering:coil:1> * 8, [[null, <ore:ingotElectrum>, null], [<ore:ingotElectrum>, <ore:stickWood>, <ore:ingotElectrum>], [null, <ore:ingotElectrum>, null]]);
-	recipes.addShaped(<ImmersiveEngineering:coil:2> * 8, [[null, <ore:ingotSteel>, null], [<ore:ingotAluminum>, <ore:stickWood>, <ore:ingotAluminum>], [null, <ore:ingotSteel>, null]]);
-	recipes.addShaped(<ImmersiveEngineering:coil:3> * 8, [[null, <ImmersiveEngineering:material:3>, null], [<ImmersiveEngineering:material:3>, <ore:stickWood>, <ImmersiveEngineering:material:3>], [null, <ImmersiveEngineering:material:3>, null]]);
-	recipes.addShaped(<ImmersiveEngineering:coil:4> * 8, [[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, <ore:stickWood>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
+	recipes.addShaped(<ImmersiveEngineering:coil:0> * 8, [[null, <ore:ingotCopper>, null], [<ore:ingotCopper>, <ImmersiveEngineering:material>, <ore:ingotCopper>], [null, <ore:ingotCopper>, null]]);
+	recipes.addShaped(<ImmersiveEngineering:coil:1> * 8, [[null, <ore:ingotElectrum>, null], [<ore:ingotElectrum>, <ImmersiveEngineering:material>, <ore:ingotElectrum>], [null, <ore:ingotElectrum>, null]]);
+	recipes.addShaped(<ImmersiveEngineering:coil:2> * 8, [[null, <ore:ingotSteel>, null], [<ore:ingotAluminum>, <ImmersiveEngineering:material>, <ore:ingotAluminum>], [null, <ore:ingotSteel>, null]]);
+	recipes.addShaped(<ImmersiveEngineering:coil:3> * 8, [[null, <ImmersiveEngineering:material:3>, null], [<ImmersiveEngineering:material:3>, <ImmersiveEngineering:material>, <ImmersiveEngineering:material:3>], [null, <ImmersiveEngineering:material:3>, null]]);
+	recipes.addShaped(<ImmersiveEngineering:coil:4> * 8, [[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, <ImmersiveEngineering:material>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
 
 //# LEB
 	recipes.addShaped(<ImmersiveEngineering:metalDecoration:7> * 4, [[<ore:ingotIron>, <ImmersiveEngineering:material:11>, <ore:ingotIron>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<ore:ingotIron>, <ImmersiveEngineering:material:11>, <ore:ingotIron>]]);
@@ -145,7 +145,7 @@ import minetweaker.item.IItemStack;
     recipes.addShaped(<ImmersiveEngineering:metalDevice2:6>, [[null, <ore:ingotRedSteel>, null], [<ore:ingotBlueSteel>, <ImmersiveEngineering:material:11>, <ore:ingotBlueSteel>], [<ImmersiveEngineering:metalDevice2:5>, <ImmersiveEngineering:metalDevice2:5>, <ImmersiveEngineering:metalDevice2:5>]]);
     
 // Engineers Hammer
-	recipes.addShaped(<ImmersiveEngineering:tool>, [[null, <ore:ingotBlackSteel>, <terrafirmacraft:item.Rope>], [null, <ore:stickWood>, <ore:ingotBlackSteel>], [<ore:stickWood>, null, null]]);
+	recipes.addShaped(<ImmersiveEngineering:tool>, [[null, <ore:ingotBlackSteel>, <terrafirmacraft:item.Rope>], [null, <ImmersiveEngineering:material>, <ore:ingotBlackSteel>], [<ImmersiveEngineering:material>, null, null]]);
 
 // Coke Oven
 	recipes.addShaped(<ImmersiveEngineering:stoneDecoration:1> * 3, [[<Railcraft:machine.alpha:7>, <Railcraft:machine.alpha:7>, <Railcraft:machine.alpha:7>], [<terrafirmacraft:item.Mortar>, <terrafirmacraft:item.Mortar>, <terrafirmacraft:item.Mortar>], [<Railcraft:machine.alpha:7>, <Railcraft:machine.alpha:7>, <Railcraft:machine.alpha:7>]]);
@@ -160,7 +160,7 @@ import minetweaker.item.IItemStack;
 	recipes.addShaped(<ImmersiveEngineering:stoneDecoration:4> * 4, [[<ore:itemSlag>, <ore:lumpClay>, <ore:itemSlag>], [<ore:blockGravel>, <ore:itemSlag>, <ore:blockGravel>], [<ore:itemSlag>, <ore:lumpClay>, <ore:itemSlag>]]);
 
 //#WaterWheel
-    recipes.addShaped(<ImmersiveEngineering:material:1>, [[<ore:stickWood>, null, <ore:stickWood>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], [<ore:stickWood>, <ore:ingotIron>, <ore:stickWood>]]);
+    recipes.addShaped(<ImmersiveEngineering:material:1>, [[<ImmersiveEngineering:material>, null, <ImmersiveEngineering:material>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], [<ImmersiveEngineering:material>, <ore:ingotIron>, <ImmersiveEngineering:material>]]);
     recipes.addShaped(<ImmersiveEngineering:woodenDevice:1>, [[null, <ImmersiveEngineering:material:1>, null], [<ImmersiveEngineering:material:1>, <ore:gearIron>, <ImmersiveEngineering:material:1>], [null, <ImmersiveEngineering:material:1>, null]]);
 
 //# Dynamo
