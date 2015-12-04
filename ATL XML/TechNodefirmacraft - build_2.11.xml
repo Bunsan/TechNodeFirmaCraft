@@ -156,7 +156,7 @@
         name="PneumaticCrap" version="1.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/1.7.10-pneumaticCrap-1.0.0 .jar" file="1.7.10-pneumaticCrap-1.0.0 .jar" md5="c01541b301a224d1932a630a28713c2e" download="server" type="mods" website="https://github.com/AnodeCathode/PneumaticCrap" description="Extra items for PneumaticCraft" authors="AnodeCathode" client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod
-        name="Blue Power" version="0.2.-tnfc-2.11" url="packs/TechNodefirmacraft/files/1.7.10Mods/bluepower-1.7.10-0.2.-tnfc-2.11.jar" file="bluepower-1.7.10-0.2.-tnfc-2.11.jar" md5="1765170227bd9ac3b51c33ea1c26c839" download="server" type="mods" website="http://minecraft.curseforge.com/mc-mods/223099-blue-power" authors="Quetzi,Zness,MineMaarten,K4Unl,Amadornes" description="Work in progress mod aiming to reintroduce some missing &apos;glue&apos; blocks from prior versions of modded Minecraft" 
+        name="Blue Power" version="0.2.-tnfc-b19bf6a" url="packs/TechNodefirmacraft/files/1.7.10Mods/bluepower-1.7.10-0.2.-tnfc-b19bf6a.jar" file="bluepower-1.7.10-0.2.-tnfc-b19bf6a.jar" md5="1765170227bd9ac3b51c33ea1c26c839" download="server" type="mods" website="http://minecraft.curseforge.com/mc-mods/223099-blue-power" authors="Quetzi,Zness,MineMaarten,K4Unl,Amadornes" description="Work in progress mod aiming to reintroduce some missing &apos;glue&apos; blocks from prior versions of modded Minecraft" 
         />
         <mod
         name="QmunityLib" version="0.1.114" url="packs/TechNodefirmacraft/files/1.7.10Mods/QmunityLib-1.7.10-0.1.114-universal.jar" file="QmunityLib-1.7.10-0.1.114-universal.jar" md5="decfcdda0fbaa80981d06c0bb00df5d1" download="server" type="mods" website="http://www.curseforge.com/projects/224785/" authors="quetzi,amadornes,K4Unl,MineMaarten" description="Library required by several Qmunity mods" 
@@ -164,7 +164,7 @@
         
         <!-- Pack Customization Mods -->
         <mod
-        name="Scripts" version="base_2.11" url="packs/TechNodefirmacraft/files/extract/scripts_2.11.zip" file="scripts_2.11.zip" md5="37798fd541f1807463452b661d6e5d94" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="Scripts" version="base_2.11" url="packs/TechNodefirmacraft/files/extract/scripts_build_2.11.zip" file="scripts_build_2.11.zip" md5="05685aa921042cadd1c377875c9e384f" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod
         name="MineTweaker 3" version="3.0.10B" url="packs/TechNodefirmacraft/files/1.7.10Mods/MineTweaker3-1.7.10-3.0.10B.jar" file="MineTweaker3-1.7.10-3.0.10B.jar" md5="884933d1b933e0bd2f93293201569f13" download="server" type="mods" website="http://minetweaker3.powerofbytes.com" authors="Stan Hebben" description="Customize your minecraft experience!" client="yes" optional="no" server="yes" serveroptional="no"
@@ -372,7 +372,7 @@
         name="Resource Loaders Folder" version="2.10" url="packs/TechNodefirmacraft/files/extract/resources_2.10.zip" file="resources_2.10.zip" md5="33a24c409fe81854c0d3cb4077410357" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="no"
         /> 
         <mod 
-        name="IGWModData" version="2.10.2" url="packs/TechNodefirmacraft/files/extract/igwmod_2.10.2.zip" file="igwmod_2.10.2.zip" md5="866aa252dc3596bdcce171c35d969492" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
+        name="IGWModData" version="2.11" url="packs/TechNodefirmacraft/files/extract/igwmod_build_2.11.zip" file="igwmod_build_2.11.zip" md5="b1cb34e917335f73d17ee1bc628627ee" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
         />
     </mods>
 </version>

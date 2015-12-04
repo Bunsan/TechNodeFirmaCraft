@@ -1,7 +1,37 @@
+[prefix{l}]Version 2.11-We've been playing. So sue us.[prefix{}]
+
+This weeks update is just to fix a few small but important issues. We've been busy enjoying the pack so have not tackled any large projects.
+
+Mod Tweaks
+- Immersive Engineering 
+  - Electrum and Constantan alloy recipes fixed.
+  - Steel slab recipe now returns 2 slabs.
+  - Recipes fixed to use treated sticks.
+
+- Blue Power
+  - Reinstated teslatite dust with new recipe.
+  - Reinstated Red/Blue Alloy
+  - Recipe changes for wires, also allow insulated wires to be recoloured.
+  - Recipe changes for sorter and manager.
+
+- Forestry
+  - Recipes changed to reduce tool tier to Iron. 
+  - Added higher value stamps.
+
+- Railcraft
+  - Steam Turbine recipe output increased to 4.
+
+- Mek 
+  - Solar Evaporator Block recipe output increased to 2.
+  - Transport crate can no longer pick up animal crates.
+
+- Weather 2
+  - Rate of severe weather events reduced.
+
 [prefix{l}]Version 2.10.2 - Alloy Furnace Duping? Is this 1.2.5?[prefix{}]
 
 Little hotfix to disable the BP Alloy Furnace Recycling recipes. When they said they were recreating some of the missing features of past mods, didn't realize they include making iron from nothing. Also fixed a couple of Mek recipes referencing the wrong items.
-
+ 
 [prefix{l}]Version 2.10.1 - Don't eat Saws[prefix{}]
 
 There was an error in the Better Storage Recipes that caused saws to be consumed. Apologies for any lost saws.
@@ -35,6 +65,7 @@ Updated:
 - Mekanism
 - Forestry
 - BetterStorage
+
 
 [prefix{l}]Version 2.9: Get your Torches and Pitchforks.[prefix{}]
 

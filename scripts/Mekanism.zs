@@ -44,7 +44,7 @@ import minetweaker.data.IData;
 //#Mek Dynamic Tank
 	recipes.addShaped(<Mekanism:BasicBlock:9> * 2, [[null, <ore:plateSteel>, null], [<ore:craftingToolHardHammer>.transformDamage(), <ore:stoneCobble>, null], [null, <ore:plateSteel>, null]]);
 //#Solar Evaporation Block
-	recipes.addShaped(<Mekanism:BasicBlock2> * 4, [[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<ore:ingotCopper>, <Mekanism:BasicBlock:9>, <ore:ingotCopper>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]]);
+	recipes.addShaped(<Mekanism:BasicBlock2> * 2, [[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<ore:ingotCopper>, <Mekanism:BasicBlock:9>, <ore:ingotCopper>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]]);
 //#Mek Steel Casing
 	recipes.addShaped(<Mekanism:BasicBlock:8>, [[null, <ore:plateSteel>, null], [<ore:craftingToolHardHammer>.transformDamage(), <ore:ingotOsmium>, null], [null, <ore:plateSteel>, null]]);
 
