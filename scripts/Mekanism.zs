@@ -15,8 +15,7 @@ import minetweaker.data.IData;
 //#REMOVE Recipe
 	recipes.remove(<Mekanism:ObsidianTNT>);
 	recipes.remove(<Mekanism:BasicBlock:3>);
-	recipes.remove(<Mekanism:BasicBlock:6>);
-	recipes.remove(<Mekanism:BasicBlock:8>);
+    recipes.remove(<Mekanism:BasicBlock:8>);
 	recipes.remove(<Mekanism:BasicBlock:9>);
 	recipes.remove(<Mekanism:BasicBlock:10>);
 	recipes.remove(<Mekanism:BasicBlock:11>);
@@ -27,6 +26,8 @@ import minetweaker.data.IData;
 	recipes.remove(<Mekanism:PartTransmitter:10>);
 	recipes.remove(<Mekanism:PartTransmitter:11>);
 	recipes.remove(<Mekanism:ElectricBow:100>);
+	recipes.remove(<Mekanism:BasicBlock2>);
+
 
 // ================================================================================
 //#ADD SHAPELESS
@@ -42,6 +43,8 @@ import minetweaker.data.IData;
 	recipes.addShaped(<Mekanism:BasicBlock:10> * 2, [[null, <Mekanism:BasicBlock:9>, null], [<ore:craftingToolHardHammer>.transformDamage(), <ore:blockGlass>, null], [null, <Mekanism:BasicBlock:9>, null]]);
 //#Mek Dynamic Tank
 	recipes.addShaped(<Mekanism:BasicBlock:9> * 2, [[null, <ore:plateSteel>, null], [<ore:craftingToolHardHammer>.transformDamage(), <ore:stoneCobble>, null], [null, <ore:plateSteel>, null]]);
+//#Solar Evaporation Block
+	recipes.addShaped(<Mekanism:BasicBlock2> * 4, [[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<ore:ingotCopper>, <Mekanism:BasicBlock:9>, <ore:ingotCopper>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]]);
 //#Mek Steel Casing
 	recipes.addShaped(<Mekanism:BasicBlock:8>, [[null, <ore:plateSteel>, null], [<ore:craftingToolHardHammer>.transformDamage(), <ore:ingotOsmium>, null], [null, <ore:plateSteel>, null]]);
 
