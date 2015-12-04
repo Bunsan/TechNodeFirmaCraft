@@ -80,7 +80,7 @@ import minetweaker.item.IItemStack;
     recipes.addShaped(<ImmersiveEngineering:metalDecoration:10> * 8, [[<ore:plateTin>], [<ore:craftingToolMediumHammer>.transformDamage()], [<ore:plateTin>]]);
 
 //# Steel Slab
-	recipes.addShaped(<ImmersiveEngineering:storageSlab:7>, [[<ore:itemHammer>.reuse()], [<ore:craftingToolMediumChisel>.transformDamage()], [<ImmersiveEngineering:storage:7>]]);
+	recipes.addShaped(<ImmersiveEngineering:storageSlab:7> * 2, [[<ore:itemHammer>.reuse()], [<ore:craftingToolMediumChisel>.transformDamage()], [<ImmersiveEngineering:storage:7>]]);
 
 //# Iron Drill
 	recipes.addShaped(<ImmersiveEngineering:drillhead:1>, [[null, <ore:ingotIron>, null], [null, <ImmersiveEngineering:storage:7>, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);
