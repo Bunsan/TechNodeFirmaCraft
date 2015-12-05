@@ -394,11 +394,11 @@ import minetweaker.item.IItemStack;
 	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Lead Ingot>, <ore:dustLead>, null, 200, 256, []);
 	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Silver Ingot>, <ore:dustSilver>, null, 100, 256, []);
 	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Nickel Ingot>, <ore:dustNickel>, null, 100, 256, []);
-    mods.immersiveengineering.ArcFurnace.addRecipe(<Mekanism:Ingot:1> * 2, <ore:dustOsmium>, <ImmersiveEngineering:material:13>, 100, 256, []);
-	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Tin Ingot> * 2, <ore:dustTin>, <ImmersiveEngineering:material:13>, 100, 256, []);
-	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Platinum Ingot> * 2, <ore:dustPlatinum>, <ImmersiveEngineering:material:13>, 100, 256, []);
-	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Bismuth Ingot> * 2, <ore:dustBismuth>, <ImmersiveEngineering:material:13>, 100, 256, []);
-	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Zinc Ingot> * 2, <ore:dustZinc>, <ImmersiveEngineering:material:13>, 100, 256, []);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<Mekanism:Ingot:1>, <ore:dustOsmium>, <ImmersiveEngineering:material:13>, 100, 256, []);
+	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Tin Ingot>, <ore:dustTin>, <ImmersiveEngineering:material:13>, 100, 256, []);
+	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Platinum Ingot>, <ore:dustPlatinum>, <ImmersiveEngineering:material:13>, 100, 256, []);
+	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Bismuth Ingot>, <ore:dustBismuth>, <ImmersiveEngineering:material:13>, 100, 256, []);
+	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Zinc Ingot>, <ore:dustZinc>, <ImmersiveEngineering:material:13>, 100, 256, []);
 
 	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Bronze Ingot>, <TabulaRasa:RasaItem1:4>, null, 100, 256, []);
 	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Bismuth Bronze Ingot>, <TabulaRasa:RasaItem1:5>, null, 100, 256, []);
