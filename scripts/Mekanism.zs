@@ -248,10 +248,10 @@ import minetweaker.data.IData;
 	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem5:3>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem3:3>);
 //Chemical Dissolution
 	//InputStack, GasOutput
-	mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:2>, <gas:Platinum>);
-	mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:7>, <gas:Bismuth>);
-	mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:8>, <gas:Nickel>);
-	mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:12>, <gas:Zinc>);
+	mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:2>, <gas:Platinum> * 1000);
+	mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:7>, <gas:Bismuth> * 1000);
+	mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:8>, <gas:Nickel> * 1000);
+	mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:12>, <gas:Zinc> * 1000);
 
 //Chemical Washer
 //InputGas, OutputGas
