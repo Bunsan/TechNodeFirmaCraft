@@ -38,22 +38,22 @@ import minetweaker.data.IData;
 //#ADD SHAPED
 
 //#Mek Dynamic Valve
-	recipes.addShaped(<Mekanism:BasicBlock:11> * 2, [[null, <ore:plateSteel>, null], [<ore:craftingToolHardHammer>.transformDamage(), <ore:circuitBasic>, null], [null, <ore:plateSteel>, null]]);
+	recipes.addShaped(<Mekanism:BasicBlock:11> * 2, [[null, <ore:plateSteel>, null], [<ore:craftingToolHardHammer>, <ore:circuitBasic>, null], [null, <ore:plateSteel>, null]]);
 //#Mek Dynamic Glass
-	recipes.addShaped(<Mekanism:BasicBlock:10> * 2, [[null, <Mekanism:BasicBlock:9>, null], [<ore:craftingToolHardHammer>.transformDamage(), <ore:blockGlass>, null], [null, <Mekanism:BasicBlock:9>, null]]);
+	recipes.addShaped(<Mekanism:BasicBlock:10> * 2, [[null, <Mekanism:BasicBlock:9>, null], [<ore:craftingToolHardHammer>, <ore:blockGlass>, null], [null, <Mekanism:BasicBlock:9>, null]]);
 //#Mek Dynamic Tank
-	recipes.addShaped(<Mekanism:BasicBlock:9> * 2, [[null, <ore:plateSteel>, null], [<ore:craftingToolHardHammer>.transformDamage(), <ore:stoneCobble>, null], [null, <ore:plateSteel>, null]]);
+	recipes.addShaped(<Mekanism:BasicBlock:9> * 2, [[null, <ore:plateSteel>, null], [<ore:craftingToolHardHammer>, <ore:stoneCobble>, null], [null, <ore:plateSteel>, null]]);
 //#Solar Evaporation Block
 	recipes.addShaped(<Mekanism:BasicBlock2> * 2, [[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<ore:ingotCopper>, <Mekanism:BasicBlock:9>, <ore:ingotCopper>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]]);
 //#Mek Steel Casing
-	recipes.addShaped(<Mekanism:BasicBlock:8>, [[null, <ore:plateSteel>, null], [<ore:craftingToolHardHammer>.transformDamage(), <ore:ingotOsmium>, null], [null, <ore:plateSteel>, null]]);
+	recipes.addShaped(<Mekanism:BasicBlock:8>, [[null, <ore:plateSteel>, null], [<ore:craftingToolHardHammer>, <ore:ingotOsmium>, null], [null, <ore:plateSteel>, null]]);
 
 //# RE-ADD Pipes
-	recipes.addShaped(<Mekanism:PartTransmitter:11> * 2, [[<ore:dustRedstone>, <minecraft:iron_bars>, <ore:dustRedstone>], [<ore:ingotSteel>, <ore:craftingToolMediumHammer>.transformDamage(), <ore:ingotSteel>], [<ore:dustRedstone>, <minecraft:iron_bars>, <ore:dustRedstone>]]);
-	recipes.addShaped(<Mekanism:PartTransmitter:10> * 2, [[null, <ore:craftingToolMediumHammer>.transformDamage(), null], [<ore:ingotSteel>, <minecraft:iron_bars>, <ore:ingotSteel>]]);
-	recipes.addShaped(<Mekanism:PartTransmitter:9> * 8, [[null, <ore:craftingToolMediumHammer>.transformDamage(), null], [<ore:ingotSteel>, <ore:circuitBasic>, <ore:ingotSteel>]]);
-	recipes.addShaped(<Mekanism:PartTransmitter> * 8, [[null, <ore:craftingToolMediumHammer>.transformDamage(), null], [<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>]]);
-	recipes.addShaped(<Mekanism:PartTransmitter:4> * 8, [[null, <ore:craftingToolMediumHammer>.transformDamage(), null], [<ore:ingotSteel>, <terrafirmacraft:Vessel:1>, <ore:ingotSteel>]]);
+	recipes.addShaped(<Mekanism:PartTransmitter:11> * 2, [[<ore:dustRedstone>, <minecraft:iron_bars>, <ore:dustRedstone>], [<ore:ingotSteel>, <ore:craftingToolMediumHammer>, <ore:ingotSteel>], [<ore:dustRedstone>, <minecraft:iron_bars>, <ore:dustRedstone>]]);
+	recipes.addShaped(<Mekanism:PartTransmitter:10> * 2, [[null, <ore:craftingToolMediumHammer>, null], [<ore:ingotSteel>, <minecraft:iron_bars>, <ore:ingotSteel>]]);
+	recipes.addShaped(<Mekanism:PartTransmitter:9> * 8, [[null, <ore:craftingToolMediumHammer>, null], [<ore:ingotSteel>, <ore:circuitBasic>, <ore:ingotSteel>]]);
+	recipes.addShaped(<Mekanism:PartTransmitter> * 8, [[null, <ore:craftingToolMediumHammer>, null], [<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>]]);
+	recipes.addShaped(<Mekanism:PartTransmitter:4> * 8, [[null, <ore:craftingToolMediumHammer>, null], [<ore:ingotSteel>, <terrafirmacraft:Vessel:1>, <ore:ingotSteel>]]);
 
 //# RE-ADD Armour stuff
 //# Upgrading Gas Mask

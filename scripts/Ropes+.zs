@@ -9,7 +9,7 @@
 
 /// ================================================================================
 //#ADD SHAPELESS
-	recipes.addShapeless(<RopesPlus:RopeArrow>, [<RopesPlus:blockRopeCentral>, <terrafirmacraft:item.arrow>, <ore:itemKnife>.transformDamage()]);
+	recipes.addShapeless(<RopesPlus:RopeArrow>, [<RopesPlus:blockRopeCentral>, <terrafirmacraft:item.arrow>, <ore:itemKnife>]);
 
 // ================================================================================
 //#ADD SHAPED

@@ -54,21 +54,21 @@ import minetweaker.item.IItemStack;
 //#ADD SHAPELESS
 
 //# Concrete Tile
-	recipes.addShapeless(<ImmersiveEngineering:stoneDecoration:5>, [<ImmersiveEngineering:stoneDecoration:4>, <ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
+	recipes.addShapeless(<ImmersiveEngineering:stoneDecoration:5>, [<ImmersiveEngineering:stoneDecoration:4>, <ore:itemChisel>, <ore:itemHammer>]);
     
 //# Treated Wood Sticks
-    recipes.addShapeless(<ImmersiveEngineering:material> * 2, [<ore:plankTreatedWood>, <ore:itemSaw>.transformDamage()]);
+    recipes.addShapeless(<ImmersiveEngineering:material> * 2, [<ore:plankTreatedWood>, <ore:itemSaw>]);
 
 //# Electrum and Constantan nuggets
     recipes.remove(<ImmersiveEngineering:metal:27>);
     recipes.remove(<ImmersiveEngineering:metal:28>);
-    recipes.addShapeless(<ImmersiveEngineering:metal:27> * 9,[<ImmersiveEngineering:metal:5>, <ore:itemChisel>.transformDamage()]);
-    recipes.addShapeless(<ImmersiveEngineering:metal:28> * 9,[<ImmersiveEngineering:metal:6>, <ore:itemChisel>.transformDamage()]);
+    recipes.addShapeless(<ImmersiveEngineering:metal:27> * 9,[<ImmersiveEngineering:metal:5>, <ore:itemChisel>]);
+    recipes.addShapeless(<ImmersiveEngineering:metal:28> * 9,[<ImmersiveEngineering:metal:6>, <ore:itemChisel>]);
 // ================================================================================
 //#MARKER ADD SHAPED
 
 //# Treated Wood Sticks
-    recipes.addShapeless(<ImmersiveEngineering:material> * 2, [<ore:plantTreatedWood>, <ore:itemSaw>.transformDamage()]);
+    recipes.addShapeless(<ImmersiveEngineering:material> * 2, [<ore:plantTreatedWood>, <ore:itemSaw>]);
     
 //# Treated Wood Slab
 	recipes.addShaped(<ImmersiveEngineering:woodenDecoration:2> * 6, [[null, <ore:itemSaw>.transformDamage(3), null], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
@@ -77,10 +77,10 @@ import minetweaker.item.IItemStack;
 	recipes.addShapedMirrored(<ImmersiveEngineering:woodenStairs> * 6, [[<ore:plankTreatedWood>, null, <ore:itemSaw>.transformDamage(12)], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, null], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
 
 //# Sheet Metal Blocks
-    recipes.addShaped(<ImmersiveEngineering:metalDecoration:10> * 8, [[<ore:plateTin>], [<ore:craftingToolMediumHammer>.transformDamage()], [<ore:plateTin>]]);
+    recipes.addShaped(<ImmersiveEngineering:metalDecoration:10> * 8, [[<ore:plateTin>], [<ore:craftingToolMediumHammer>], [<ore:plateTin>]]);
 
 //# Steel Slab
-	recipes.addShaped(<ImmersiveEngineering:storageSlab:7> * 2, [[<ore:itemHammer>.reuse()], [<ore:craftingToolMediumChisel>.transformDamage()], [<ImmersiveEngineering:storage:7>]]);
+	recipes.addShaped(<ImmersiveEngineering:storageSlab:7> * 2, [[<ore:itemHammer>], [<ore:craftingToolMediumChisel>], [<ImmersiveEngineering:storage:7>]]);
 
 //# Iron Drill
 	recipes.addShaped(<ImmersiveEngineering:drillhead:1>, [[null, <ore:ingotIron>, null], [null, <ImmersiveEngineering:storage:7>, <ore:ingotIron>], [null, <ore:ingotIron>, null]]);

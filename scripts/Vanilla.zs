@@ -112,7 +112,7 @@ import minetweaker.item.IItemStack;
 //# VANILLA+ TO TFC
 
 //# No Metal Boat
-    recipes.addShapeless(<minecraft:boat>, [<ore:logWood>, <ore:logWood>, <ore:logWood>, <ore:itemAxeStone>]);
+    recipes.addShapeless(<minecraft:boat>, [<ore:logWood>, <ore:logWood>, <ore:logWood>, <ore:itemAxeStone>.noReturn().onlyDamageAtMost(1)]);
     
 //# ADD Ultimate Bucket
 	for item in <ore:craftingToolHardHammer>.items {
@@ -130,7 +130,7 @@ import minetweaker.item.IItemStack;
 	recipes.addShapeless(<minecraft:netherrack>, [<terrafirmacraft:item.Ore:22>]);
 
 //#Iron Bars
-	recipes.addShapeless(<minecraft:iron_bars> * 6, [<ore:plateIron>, <ore:craftingToolMediumChisel>.transformDamage()]);
+	recipes.addShapeless(<minecraft:iron_bars> * 6, [<ore:plateIron>, <ore:craftingToolMediumChisel>]);
 
 //# Dye Swaps
 	recipes.addShapeless(<minecraft:dye:14>, [<terrafirmacraft:item.dyePowder:14>]);
@@ -181,7 +181,7 @@ import minetweaker.item.IItemStack;
 //# VANILLA+ TO TFC
 
 //# Furnace
-	recipes.addShaped(<minecraft:furnace>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:craftingToolMediumChisel>.transformDamage(), <terrafirmacraft:Crucible>, <ore:itemHammer>.reuse()], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+	recipes.addShaped(<minecraft:furnace>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:craftingToolMediumChisel>, <terrafirmacraft:Crucible>, <ore:itemHammer>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 
 //# Minecart
 	recipes.addShaped(<minecraft:minecart> * 2, [[<ore:plateIron>, null, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
@@ -204,7 +204,7 @@ import minetweaker.item.IItemStack;
 //# Planks
 		for i, logs in logsVanilla {
 	var plank = planksVanilla[i];
-	recipes.addShapeless(plank * 2, [logs, <ore:itemSaw>.transformDamage()]);
+	recipes.addShapeless(plank * 2, [logs, <ore:itemSaw>]);
 		}
 
 //# Stair and slabs
@@ -217,24 +217,24 @@ import minetweaker.item.IItemStack;
 
 //# Stone Slabs
 
-	recipes.addShaped(<minecraft:stone_slab> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>]]);
+	recipes.addShaped(<minecraft:stone_slab> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>], [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>]]);
 
 //# Quartz Blocks
 	recipes.addShaped(<minecraft:quartz_block>, [[<ore:gemQuartz>, <terrafirmacraft:item.Mortar>, <ore:gemQuartz>], [<terrafirmacraft:item.Mortar>, <terrafirmacraft:item.dyePowder:15>, <terrafirmacraft:item.Mortar>], [<ore:gemQuartz>, <terrafirmacraft:item.Mortar>, <ore:gemQuartz>]]);
-	recipes.addShapedMirrored(<minecraft:stone_slab:7> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>.reuse()], [<minecraft:quartz_block>, <minecraft:quartz_block>, <minecraft:quartz_block>]]);
-	recipes.addShapedMirrored(<minecraft:quartz_block:1>, [[<minecraft:stone_slab:7>, <ore:itemChisel>.transformDamage()], [<minecraft:stone_slab:7>, <ore:itemHammer>.reuse()]]);
-	recipes.addShapedMirrored(<minecraft:quartz_block:2> * 2, [[<minecraft:quartz_block>, <ore:itemChisel>.transformDamage()], [<minecraft:quartz_block>, <ore:itemHammer>.reuse()]]);
-	recipes.addShapedMirrored(<minecraft:quartz_stairs> * 6, [[<minecraft:quartz_block>, <ore:itemChisel>.transformDamage(12), null], [<minecraft:quartz_block>, <minecraft:quartz_block>, <ore:itemHammer>.reuse()], [<minecraft:quartz_block>,<minecraft:quartz_block>,<minecraft:quartz_block>]]);
+	recipes.addShapedMirrored(<minecraft:stone_slab:7> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>], [<minecraft:quartz_block>, <minecraft:quartz_block>, <minecraft:quartz_block>]]);
+	recipes.addShapedMirrored(<minecraft:quartz_block:1>, [[<minecraft:stone_slab:7>, <ore:itemChisel>], [<minecraft:stone_slab:7>, <ore:itemHammer>]]);
+	recipes.addShapedMirrored(<minecraft:quartz_block:2> * 2, [[<minecraft:quartz_block>, <ore:itemChisel>], [<minecraft:quartz_block>, <ore:itemHammer>]]);
+	recipes.addShapedMirrored(<minecraft:quartz_stairs> * 6, [[<minecraft:quartz_block>, <ore:itemChisel>.transformDamage(12), null], [<minecraft:quartz_block>, <minecraft:quartz_block>, <ore:itemHammer>], [<minecraft:quartz_block>,<minecraft:quartz_block>,<minecraft:quartz_block>]]);
 
 //# Glowstone/Scapolite block recipe
 	recipes.addShaped(<minecraft:glowstone>, [[<ore:dustGlowstone>, <ore:dustGlowstone>], [<ore:dustGlowstone>, <ore:dustGlowstone>], [<ore:bucketFreshWater>, null]]);
 
 //# Replace Metal Blocks
-	recipes.addShaped(<minecraft:iron_block>, [[null, <ore:plateIron>, null], [<ore:plateIron>, <ore:craftingToolMediumHammer>.transformDamage(), <ore:plateIron>], [null, <ore:plateIron>, null]]);
-	recipes.addShaped(<ImmersiveEngineering:storage:7>, [[null, <ore:plateSteel>, null], [<ore:plateSteel>, <ore:craftingToolMediumHammer>.transformDamage(), <ore:plateSteel>], [null, <ore:plateSteel>, null]]);
-	//recipes.addShaped(<minecraft:gold_block>, [[null, <ore:plateGold>, null], [<ore:plateGold>, <ore:craftingToolMediumHammer>.transformDamage(), <ore:plateGold>], [null, <ore:plateGold>, null]]);
-	recipes.addShaped(<Railcraft:cube:9>, [[null, <ore:plateCopper>, null], [<ore:plateCopper>, <ore:craftingToolMediumHammer>.transformDamage(), <ore:plateCopper>], [null, <ore:plateCopper>, null]]);
-	recipes.addShaped(<ImmersiveEngineering:storage:2>, [[null, <ore:plateLead>, null], [<ore:plateLead>, <ore:craftingToolMediumHammer>.transformDamage(), <ore:plateLead>], [null, <ore:plateLead>, null]]);
+	recipes.addShaped(<minecraft:iron_block>, [[null, <ore:plateIron>, null], [<ore:plateIron>, <ore:craftingToolMediumHammer>, <ore:plateIron>], [null, <ore:plateIron>, null]]);
+	recipes.addShaped(<ImmersiveEngineering:storage:7>, [[null, <ore:plateSteel>, null], [<ore:plateSteel>, <ore:craftingToolMediumHammer>, <ore:plateSteel>], [null, <ore:plateSteel>, null]]);
+	//recipes.addShaped(<minecraft:gold_block>, [[null, <ore:plateGold>, null], [<ore:plateGold>, <ore:craftingToolMediumHammer>, <ore:plateGold>], [null, <ore:plateGold>, null]]);
+	recipes.addShaped(<Railcraft:cube:9>, [[null, <ore:plateCopper>, null], [<ore:plateCopper>, <ore:craftingToolMediumHammer>, <ore:plateCopper>], [null, <ore:plateCopper>, null]]);
+	recipes.addShaped(<ImmersiveEngineering:storage:2>, [[null, <ore:plateLead>, null], [<ore:plateLead>, <ore:craftingToolMediumHammer>, <ore:plateLead>], [null, <ore:plateLead>, null]]);
 
 //# Replace Lapis and Diamond Blocks
 	recipes.addShaped(<minecraft:lapis_block>, [[<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>], [<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>], [<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>]]);
@@ -252,7 +252,7 @@ import minetweaker.item.IItemStack;
 	recipes.addShaped(<minecraft:daylight_detector>, [[<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>], [<ore:oreJet>, <ore:dustRedstone>, <ore:oreJet>], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
 
 //# Hopper
-	recipes.addShaped(<minecraft:hopper>, [[null, <ore:craftingToolHammer>.transformDamage(), null], [null, <ore:chestWood>, null], [null, <terrafirmacraft:Hopper>, null]]);
+	recipes.addShaped(<minecraft:hopper>, [[null, <ore:craftingToolHammer>, null], [null, <ore:chestWood>, null], [null, <terrafirmacraft:Hopper>, null]]);
 
 
 //# RedLogic Lamp Refund
