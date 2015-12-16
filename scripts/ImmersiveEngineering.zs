@@ -7,6 +7,8 @@ import minetweaker.item.IItemStack;
 	recipes.remove(<ImmersiveEngineering:tool>);
 	recipes.remove(<ImmersiveEngineering:woodenDecoration:2>);
 	recipes.remove(<ImmersiveEngineering:woodenStairs>);
+	recipes.remove(<ImmersiveEngineering:woodenStairs1>);
+	recipes.remove(<ImmersiveEngineering:woodenStairs2>);
 	recipes.remove(<ImmersiveEngineering:woodenDevice>);
 	recipes.remove(<ImmersiveEngineering:woodenDevice:4>);
 	recipes.remove(<ImmersiveEngineering:stoneDecoration>);
@@ -14,6 +16,8 @@ import minetweaker.item.IItemStack;
 	recipes.remove(<ImmersiveEngineering:stoneDecoration:2>);
 	recipes.remove(<ImmersiveEngineering:stoneDecoration:4>);
 	recipes.remove(<ImmersiveEngineering:stoneDecoration:5>);
+    recipes.remove(<ImmersiveEngineering:concreteStairs>);
+    recipes.remove(<ImmersiveEngineering:concreteTileStairs>);
 	recipes.remove(<ImmersiveEngineering:stoneDevice:4>);
 	recipes.remove(<ImmersiveEngineering:metalDecoration:4>);
 	recipes.remove(<ImmersiveEngineering:metalDecoration:5>);
@@ -45,7 +49,9 @@ import minetweaker.item.IItemStack;
     recipes.remove(<ImmersiveEngineering:metalDevice:3>);
     recipes.remove(<ImmersiveEngineering:metalDevice:7>);
     recipes.remove(<ImmersiveEngineering:metalDevice:9>);
-    
+    recipes.remove(<ImmersiveEngineering:clothDevice>);
+    recipes.remove(<ImmersiveEngineering:metalDevice2:7>);
+    recipes.remove(<ImmersiveEngineering:woodenDevice:6>);
 // ================================================================================
 //#ADD Furnace Recipes
 	furnace.addRecipe(<ImmersiveEngineering:stoneDecoration>, <customitems:uncured_hempcrete>);
@@ -67,6 +73,8 @@ import minetweaker.item.IItemStack;
 // ================================================================================
 //#MARKER ADD SHAPED
 
+//# Balloon
+    recipes.addShaped(<ImmersiveEngineering:clothDevice>, [[null, <ImmersiveEngineering:material:4>, null], [<ImmersiveEngineering:material:4>, <ore:blockTorch>, <ImmersiveEngineering:material:4>], [null, <ImmersiveEngineering:woodenDecoration:2>, null]]);
 //# Treated Wood Sticks
     recipes.addShapeless(<ImmersiveEngineering:material> * 2, [<ore:plantTreatedWood>, <ore:itemSaw>]);
     
@@ -74,11 +82,19 @@ import minetweaker.item.IItemStack;
 	recipes.addShaped(<ImmersiveEngineering:woodenDecoration:2> * 6, [[null, <ore:itemSaw>.transformDamage(3), null], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
 
 //# Treated Wood Stairs
-	recipes.addShapedMirrored(<ImmersiveEngineering:woodenStairs> * 6, [[<ore:plankTreatedWood>, null, <ore:itemSaw>.transformDamage(12)], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, null], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
+	recipes.addShapedMirrored(<ImmersiveEngineering:woodenStairs> * 6, [[<ImmersiveEngineering:treatedWood>, null, <ore:itemSaw>.transformDamage(12)], [<ImmersiveEngineering:treatedWood>, <ImmersiveEngineering:treatedWood>, null], [<ImmersiveEngineering:treatedWood>, <ImmersiveEngineering:treatedWood>, <ImmersiveEngineering:treatedWood>]]);
+    recipes.addShapedMirrored(<ImmersiveEngineering:woodenStairs1> * 6, [[<ImmersiveEngineering:treatedWood:1>, null, <ore:itemSaw>.transformDamage(12)], [<ImmersiveEngineering:treatedWood:1>, <ImmersiveEngineering:treatedWood:1>, null], [<ImmersiveEngineering:treatedWood:1>, <ImmersiveEngineering:treatedWood:1>, <ImmersiveEngineering:treatedWood:1>]]);
+    recipes.addShapedMirrored(<ImmersiveEngineering:woodenStairs2> * 6, [[<ImmersiveEngineering:treatedWood:2>, null, <ore:itemSaw>.transformDamage(12)], [<ImmersiveEngineering:treatedWood:2>, <ImmersiveEngineering:treatedWood:2>, null], [<ImmersiveEngineering:treatedWood:2>, <ImmersiveEngineering:treatedWood:2>, <ImmersiveEngineering:treatedWood:2>]]);
+    
+//# Wooden Barrel
+    recipes.addShaped(<ImmersiveEngineering:woodenDevice:6>, [[<ore:slabTreatedWood>, <ore:slabTreatedWood>, <ore:slabTreatedWood>], [<ore:plankTreatedWood>, <terrafirmacraft:item.Red Steel Bucket Empty>.reuse(), <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
 
 //# Sheet Metal Blocks
     recipes.addShaped(<ImmersiveEngineering:metalDecoration:10> * 8, [[<ore:plateTin>], [<ore:craftingToolMediumHammer>], [<ore:plateTin>]]);
 
+//# Metal Barrel
+    recipes.addShaped(<ImmersiveEngineering:metalDevice2:7>, [[<ImmersiveEngineering:metalDecoration:10>, <ImmersiveEngineering:metalDecoration:10>, <ImmersiveEngineering:metalDecoration:10>], [<ImmersiveEngineering:metalDecoration:10>, <terrafirmacraft:item.Blue Steel Bucket Empty>.reuse(), <ImmersiveEngineering:metalDecoration:10>], [<ImmersiveEngineering:metalDecoration:10>, <ImmersiveEngineering:metalDecoration:10>, <ImmersiveEngineering:metalDecoration:10>]]);
+    
 //# Steel Slab
 	recipes.addShaped(<ImmersiveEngineering:storageSlab:7> * 2, [[<ore:itemHammer>], [<ore:craftingToolMediumChisel>], [<ImmersiveEngineering:storage:7>]]);
 
@@ -158,7 +174,10 @@ import minetweaker.item.IItemStack;
 
 //# Concrete
 	recipes.addShaped(<ImmersiveEngineering:stoneDecoration:4> * 4, [[<ore:itemSlag>, <ore:lumpClay>, <ore:itemSlag>], [<ore:blockGravel>, <ore:itemSlag>, <ore:blockGravel>], [<ore:itemSlag>, <ore:lumpClay>, <ore:itemSlag>]]);
-
+    
+    	recipes.addShaped(<ImmersiveEngineering:concreteStairs> * 6, [[<ImmersiveEngineering:stoneDecoration:4>, <ore:itemChisel>.transformDamage(12), null], [<ImmersiveEngineering:stoneDecoration:4>, <ImmersiveEngineering:stoneDecoration:4>, <ore:itemHammer>, null], [<ImmersiveEngineering:stoneDecoration:4>, <ImmersiveEngineering:stoneDecoration:4>, <ImmersiveEngineering:stoneDecoration:4>]]);
+    	recipes.addShaped(<ImmersiveEngineering:concreteTileStairs> * 6, [[<ImmersiveEngineering:stoneDecoration:5>, <ore:itemChisel>.transformDamage(12), null], [<ImmersiveEngineering:stoneDecoration:5>, <ImmersiveEngineering:stoneDecoration:5>, <ore:itemHammer>, null], [<ImmersiveEngineering:stoneDecoration:5>, <ImmersiveEngineering:stoneDecoration:5>, <ImmersiveEngineering:stoneDecoration:5>]]);
+        
 //#WaterWheel
     recipes.addShaped(<ImmersiveEngineering:material:1>, [[<ImmersiveEngineering:material>, null, <ImmersiveEngineering:material>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], [<ImmersiveEngineering:material>, <ore:ingotIron>, <ImmersiveEngineering:material>]]);
     recipes.addShaped(<ImmersiveEngineering:woodenDevice:1>, [[null, <ImmersiveEngineering:material:1>, null], [<ImmersiveEngineering:material:1>, <ore:gearIron>, <ImmersiveEngineering:material:1>], [null, <ImmersiveEngineering:material:1>, null]]);
@@ -233,6 +252,16 @@ import minetweaker.item.IItemStack;
 	mods.immersiveengineering.Crusher.removeRecipe(<Forestry:apatite>);
 	mods.immersiveengineering.Crusher.removeRecipe(<Railcraft:dust:1>);
 	mods.immersiveengineering.Crusher.removeRecipe(<Railcraft:dust:2>);
+    mods.immersiveengineering.Crusher.removeRecipe(<minecraft:glowstone_dust>);
+    mods.immersiveengineering.Crusher.removeRecipe(<ImmersiveEngineering:metal:18>);
+    mods.immersiveengineering.Crusher.removeRecipe(<minecraft:string>);
+    mods.immersiveengineering.Crusher.removeRecipe(<terrafirmacraft:item.Ore:33>);
+    mods.immersiveengineering.Crusher.removeRecipe(<terrafirmacraft:item.Powder:6>);
+    mods.immersiveengineering.Crusher.removeRecipe(<Mekanism:OtherDust>);
+    mods.immersiveengineering.Crusher.removeRecipe(<Railcraft:dust:3>);
+    mods.immersiveengineering.Crusher.removeRecipe(<terrafirmacraft:item.Powder:3>);
+    mods.immersiveengineering.Crusher.removeRecipe(<terrafirmacraft:item.Powder:4>);
+    
 //#Addition
 	//OutputStack, InputStack, Energy, OutputStack2, Chance //Chance in Decimals
 //#Ores
@@ -268,6 +297,7 @@ import minetweaker.item.IItemStack;
 	mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone> * 10, <ore:oreRedstone>, 6000);
 	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.coal> * 2, <ore:oreCoal>, 6000);
 	mods.immersiveengineering.Crusher.addRecipe(<minecraft:quartz> * 4, <ore:oreQuartz>, 6000, <minecraft:gunpowder>, 0.25);
+    mods.immersiveengineering.Crusher.addRecipe(<ImmersiveEngineering:metal:18>, <minecraft:quartz>, 3600);
 	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder> * 2, <terrafirmacraft:item.LooseRock:6>, 1000);
 	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder> * 2, <terrafirmacraft:item.LooseRock:8>, 1000);
 	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder> * 2, <terrafirmacraft:item.LooseRock:10>, 1000);
@@ -357,8 +387,10 @@ import minetweaker.item.IItemStack;
     mods.immersiveengineering.ArcFurnace.removeRecipe(<terrafirmacraft:item.Bismuth Ingot>);
     mods.immersiveengineering.ArcFurnace.removeRecipe(<terrafirmacraft:item.Zinc Ingot>);
     mods.immersiveengineering.ArcFurnace.removeRecipe(<Mekanism:Ingot:1>);
-
-
+    mods.immersiveengineering.ArcFurnace.removeRecipe(<bluepower:red_alloy_ingot>);
+    mods.immersiveengineering.ArcFurnace.removeRecipe(<bluepower:blue_alloy_ingot>);
+    mods.immersiveengineering.ArcFurnace.removeRecipe(<ImmersiveEngineering:metal:6>);
+    mods.immersiveengineering.ArcFurnace.removeRecipe(<ImmersiveEngineering:metal:5>);
     
 //#Addition
 	//(IItemStack output, IIngredient input, IItemStack slag, int time, int energyPerTick, IIngredient[] additives)
@@ -368,6 +400,19 @@ import minetweaker.item.IItemStack;
 	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <TabulaRasa:RasaItem1:13>, <ImmersiveEngineering:material:13>, 400, 256, [<ImmersiveEngineering:metal:17>]);
 	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Blue Steel Ingot>, <TabulaRasa:RasaItem1:14>, <ImmersiveEngineering:material:13>, 400, 256, [<ImmersiveEngineering:metal:17>]);
 	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Red Steel Ingot>, <TabulaRasa:RasaItem1:15>, <ImmersiveEngineering:material:13>, 400, 256, [<ImmersiveEngineering:metal:17>]);
+
+//#Alloys
+    mods.immersiveengineering.ArcFurnace.addRecipe(<bluepower:blue_alloy_ingot>, <ore:ingotIron>, null, 100, 256, [<bluepower:teslatite_dust> * 4]);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<bluepower:red_alloy_ingot>, <ore:ingotIron>, null, 100, 256, [<minecraft:redstone> * 4]);        
+    mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:metal:6> * 2, <ore:dustGold>, null, 200, 512, [<ore:dustSilver>]);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:metal:6> * 2, <ore:dustSilver>, null, 200, 512, [<ore:dustGold>]);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:metal:6> * 2, <ore:ingotGold>, null, 200, 512, [<ore:dustSilver>]);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:metal:6> * 2, <ore:ingotSilver>, null, 200, 512, [<ore:dustGold>]);    
+    mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:metal:5> * 2, <ore:dustCopper>, null, 200, 512, [<ore:dustNickel>]);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:metal:5> * 2, <ore:dustNickel>, null, 200, 512, [<ore:dustCopper>]);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:metal:5> * 2, <ore:ingotCopper>, null, 200, 512, [<ore:dustNickel>]);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<ImmersiveEngineering:metal:5> * 2, <ore:ingotNickel>, null, 200, 512, [<ore:dustCopper>]);
+
 //#Ores
 	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Gold Ingot> * 2, <ore:oreGold>, <ImmersiveEngineering:material:13>, 200, 256, []);
 	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot> * 2, <ore:oreIron>, <ImmersiveEngineering:material:13>, 200, 256, []);
