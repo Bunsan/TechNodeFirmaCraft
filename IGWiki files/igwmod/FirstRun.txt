@@ -1,29 +1,35 @@
-[prefix{l}]Version 2.11-We've been playing. So sue us.[prefix{}]
+[prefix{l}]Version 2.12 - Bears are off to Rehab[prefix{}]
 
-This weeks update is just to fix a few small but important issues. We've been busy enjoying the pack so have not tackled any large projects.
+The Bears have had an intervention and come to terms with their speed addiction. Due to unexpected interaction of our tweaks and base TFC changes the Bears were much faster then intended. 
+This is an update with a little of this and a little of that. We've fixed some bugs, made some tweaks and I'm sure more. This will likely be the last update until the New Year.
 
-Mod Tweaks
-- Immersive Engineering 
-  - Electrum and Constantan alloy recipes fixed.
-  - Steel slab recipe now returns 2 slabs.
-  - Recipes fixed to use treated sticks.
+TFC/TNFC
+- Fixed Barrel Fluid dupe bug properly. Barrels will now fill with fresh or salt water, but only 1000mb of any other In-world fluid. Cannot pick up Hot fluids.
+- Fixed Plum tree leaves/growth. Trim Branches or break leave blocks to correct bugged leaves.
+- Changed how TFC tools deal with damage in crafting. They are now usable in autocrafters/assemblers.
 
-- Blue Power
-  - Reinstated teslatite dust with new recipe.
-  - Reinstated Red/Blue Alloy
-  - Recipe changes for wires, also allow insulated wires to be recoloured.
-  - Recipe changes for sorter and manager.
+Blue Power
+- Removed Diamond Draw Plate from wire recipe. It was a bit mean.
+- Recipe added to return 2 diamonds from FMP diamond panel.
+- Fixed teslatite dust crafting on servers.
+- Fix Achievement Page crash
 
+Pneumaticcraft
+- Increased mini-gun damage to 50.
+- Removed the trades from trading module.
+
+Bibliocraft
+- Framed Chest recipe change
+
+Mekanism
+- Nickel, Bismuth, Zinc and Platinum Ores produce correct volume of slurry.
+
+Mods Updated:
+- Forge
+- Immersive Engineering
+- Pneumaticcraft
+- HQM
+- NEI Integration
+- OpenComputers
+- TechNodefirmacraft-Mod
 - Forestry
-  - Recipes changed to reduce tool tier to Iron. 
-  - Added higher value stamps.
-
-- Railcraft
-  - Steam Turbine recipe output increased to 4.
-
-- Mek 
-  - Solar Evaporator Block recipe output increased to 2.
-  - Transport crate can no longer pick up animal crates.
-
-- Weather 2
-  - Rate of severe weather events reduced.

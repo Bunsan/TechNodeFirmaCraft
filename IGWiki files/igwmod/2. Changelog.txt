@@ -1,3 +1,39 @@
+[prefix{l}]Version 2.12 - Bears are off to Rehab[prefix{}]
+
+The Bears have had an intervention and come to terms with their speed addiction. Due to unexpected interaction of our tweaks and base TFC changes the Bears were much faster then intended. 
+This is an update with a little of this and a little of that. We've fixed some bugs, made some tweaks and I'm sure more. This will likely be the last update until the New Year.
+
+TFC/TNFC
+- Fixed Barrel Fluid dupe bug properly. Barrels will now fill with fresh or salt water, but only 1000mb of any other In-world fluid. Cannot pick up Hot fluids.
+- Fixed Plum tree leaves/growth. Trim Branches or break leave blocks to correct bugged leaves.
+- Changed how TFC tools deal with damage in crafting. They are now usable in autocrafters/assemblers.
+
+Blue Power
+- Removed Diamond Draw Plate from wire recipe. It was a bit mean.
+- Recipe added to return 2 diamonds from FMP diamond panel.
+- Fixed teslatite dust crafting on servers.
+- Fix Achievement Page crash
+
+Pneumaticcraft
+- Increased mini-gun damage to 50.
+- Removed the trades from trading module.
+
+Bibliocraft
+- Framed Chest recipe change
+
+Mekanism
+- Nickel, Bismuth, Zinc and Platinum Ores produce correct volume of slurry.
+
+Mods Updated:
+- Forge
+- Immersive Engineering
+- Pneumaticcraft
+- HQM
+- NEI Integration
+- OpenComputers
+- TechNodefirmacraft-Mod
+- Forestry
+
 [prefix{l}]Version 2.11-We've been playing. So sue us.[prefix{}]
 
 This weeks update is just to fix a few small but important issues. We've been busy enjoying the pack so have not tackled any large projects.
