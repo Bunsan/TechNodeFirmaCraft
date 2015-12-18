@@ -260,13 +260,13 @@
         />
          <!-- Days per Year Options -->
         <mod
-        name="360 Days (Recommended)" version="2.2" url="packs/TechNodefirmacraft/files/extract/360justTFCconfig.2.2rel.zip" file="360justTFCconfig.2.2rel.zip" md5="6064fb09a8d72f41b6f0166dd1c54418" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="TFC config for length of year" client="yes" optional="yes" server="yes" serveroptional="yes" colour="green" recommended="yes" group="yearlength"
+        name="360 Days (Recommended)" version="2.12" url="packs/TechNodefirmacraft/files/extract/360justTFCconfig.2.12.zip.zip" file="360justTFCconfig.2.12.zip.zip" md5="35beba77fed94213d43d279a4dd890f6" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="TFC config for length of year" client="yes" optional="yes" server="yes" serveroptional="yes" colour="green" recommended="yes" group="yearlength"
         />
         <mod
-        name="192 Days(Old Default for Old Worlds)" version="2.2" url="packs/TechNodefirmacraft/files/extract/192justTFCconfig.2.2rel.zip" file="192justTFCconfig.2.2rel.zip" md5="75eb913c3d07bd747be458b61c5c6618" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="TFC config for length of year" client="yes" optional="yes" server="yes" serveroptional="yes" colour="red" recommended="no" group="yearlength"
+        name="192 Days(Old Default for Old Worlds)" version="2.12" url="packs/TechNodefirmacraft/files/extract/192justTFCconfig.2.12.zip" file="192justTFCconfig.2.12.zip" md5="9e8fdb309fdb27b280b48f1394d31a05" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="TFC config for length of year" client="yes" optional="yes" server="yes" serveroptional="yes" colour="red" recommended="no" group="yearlength"
         />
         <mod
-        name="96 Days(Default for SSP)" version="2.2" url="packs/TechNodefirmacraft/files/extract/96justTFCconfig_2.2rel.zip" file="96justTFCconfig_2.2rel.zip" md5="13d3e32104a075bc8c30806ebcdbc62c" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="TFC config for length of year" client="yes" optional="yes" server="yes" serveroptional="yes" colour="red" recommended="no" group="yearlength"
+        name="96 Days(Default for SSP)" version="2.12" url="packs/TechNodefirmacraft/files/extract/96justTFCconfig_2.12.zip" file="96justTFCconfig_2.12.zip" md5="9ffb87e3514f28aecd27ced2fc22c9cb" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="TFC config for length of year" client="yes" optional="yes" server="yes" serveroptional="yes" colour="red" recommended="no" group="yearlength"
         />
         <!-- Optional Mods -->
         <mod
