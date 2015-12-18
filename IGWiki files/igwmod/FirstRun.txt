@@ -10,6 +10,7 @@ TFC/TNFC
 - Fixed Barrel Fluid dupe bug properly. Barrels will now fill with fresh or salt water, but only 1000mb of any other In-world fluid. Cannot pick up Hot fluids.
 - Fixed Plum tree leaves/growth. Trim Branches or break leave blocks to correct bugged leaves.
 - Changed how TFC tools deal with damage in crafting. They are now usable in autocrafters/assemblers.
+- Removed unimplemented Body Temperature checks. Will improved server performance.
 
 Blue Power
 - Removed Diamond Draw Plate from wire recipe. It was a bit mean.

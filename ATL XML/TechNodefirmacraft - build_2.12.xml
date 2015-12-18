@@ -58,7 +58,7 @@
 <!-- Base Scripts -->
         <!-- Marquee Mods -->
         <mod 
-        name="TerraFirmaCraft" version="0.79.26.tnfc.d5a7b07" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]terrafirmacraft-0.79.26.tnfc.d5a7b07.jar" file="[1.7.10]terrafirmacraft-0.79.26.tnfc.d5a7b07.jar" md5="31b7f5475dce5ec286fa8d880c1dd837" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="TerraFirmaCraft" version="0.79.26.tnfc.ac44ea8" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]terrafirmacraft-0.79.26.tnfc.ac44ea8.jar" file="[1.7.10]terrafirmacraft-0.79.26.tnfc.ac44ea8.jar" md5="ecfab2df2939fe4669a87988ebc4b3e3" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod 
         name="TechNodefirmacraft" version="2.12.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/1.7.10-TechNodefirmacraft-2.12.0.jar" file="1.7.10-TechNodefirmacraft-2.12.0.jar" md5="22ee11afc6f1cc8cbdda1b9aa9214263" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="AnodeCathode, Bunsan" optional="no" description="Custom integration and features for TechNodefirmacraft modpack" client="yes" server="yes" serveroptional="no"
@@ -82,7 +82,7 @@
         name="Steve&apos;s Workshop" version="0.5.1" url="packs/TechNodefirmacraft/files/1.7.10Mods/StevesWorkshop-0.5.1.jar" file="StevesWorkshop-0.5.1.jar" md5="466afe4bd2f08913d45a181e0635235a" download="server" type="mods" website="http://www.curseforge.com/projects/223173/" authors="Vswe" description="Adds a modular production table for crafting and smelting" 
         />
         <mod 
-        name="Immersive Engineering" version="0.6.4" url="packs/TechNodefirmacraft/files/1.7.10Mods/ImmersiveEngineering-0.6.4.jar" file="ImmersiveEngineering-0.6.4.jar" md5="190a96ca47ce773be6b78f79d21e0af3" download="server" type="mods" website="http://www.curseforge.com/projects/231951/" authors="BluSunrize,Damien A.W. Hazard" description="A retro-futuristic tech mod!"  client="yes" optional="no" server="yes" serveroptional="no"
+        name="Immersive Engineering" version="0.6.4" url="packs/TechNodefirmacraft/files/1.7.10Mods/ImmersiveEngineering-0.6.4.jar" file="ImmersiveEngineering-0.6.4.jar" md5="190a96ca47ce773be6b78f79d21e0af3" download="server" type="mods" website="http://www.curseforge.com/projects/231951/" authors="BluSunrize,Damien A.W. Hazard" description="A retro-futuristic tech mod!" client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod
         name="Mekanism" version="8.1.7_tnfc_96aa533" url="packs/TechNodefirmacraft/files/1.7.10Mods/Mekanism-1.7.10-8.1.7_tnfc_96aa533.jar" file="Mekanism-1.7.10-8.1.7_tnfc_96aa533.jar" md5="8afb109f35265079c4ffc67bdf031250" download="server" type="mods" website="http://universalelectricity.com/mekanism" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=PQH6NGL2C4QWY" authors="aidancbrady" description="Energy, Armor, Tools, Weapons, Machines, Magic." client="yes" optional="no" server="yes" serveroptional="no"
@@ -376,7 +376,7 @@
         name="Resource Loaders Folder" version="2.10" url="packs/TechNodefirmacraft/files/extract/resources_2.10.zip" file="resources_2.10.zip" md5="33a24c409fe81854c0d3cb4077410357" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="no"
         /> 
         <mod 
-        name="IGWModData" version="2.12" url="packs/TechNodefirmacraft/files/extract/igwmod_2.12.zip" file="igwmod_2.12.zip" md5="73e07cb7670cd167bb673b35dd682990" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
+        name="IGWModData" version="2.12" url="packs/TechNodefirmacraft/files/extract/igwmod_2.12.zip" file="igwmod_2.12.zip" md5="bb739472632767bfb718947bc8f36e6c" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
         />
     </mods>
 </version>
