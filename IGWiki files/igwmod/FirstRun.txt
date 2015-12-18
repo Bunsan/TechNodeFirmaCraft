@@ -11,19 +11,24 @@ TFC/TNFC
 - Fixed Plum tree leaves/growth. Trim Branches or break leave blocks to correct bugged leaves.
 - Changed how TFC tools deal with damage in crafting. They are now usable in autocrafters/assemblers.
 - Removed unimplemented Body Temperature checks. Will improved server performance.
+- Changed how containers tick to improve performance.
+
+BetterStorage-TFC
+- Changed how containers tick to improve performance.
 
 Blue Power
 - Removed Diamond Draw Plate from wire recipe. It was a bit mean.
 - Recipe added to return 2 diamonds from FMP diamond panel.
 - Fixed teslatite dust crafting on servers.
-- Fix Achievement Page crash
+- Fix Achievement Page crash.
 
 Pneumaticcraft
 - Increased mini-gun damage to 50.
 - Removed the trades from trading module.
 
 Bibliocraft
-- Framed Chest recipe change
+- Framed Chest recipe change.
+- Changed how containers tick to improve performance.
 
 Mekanism
 - Nickel, Bismuth, Zinc and Platinum Ores produce correct volume of slurry.
