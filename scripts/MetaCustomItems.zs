@@ -9,10 +9,10 @@ import minetweaker.item.IItemStack;
 
 //# Adding Jet Block
 	recipes.addShaped(<customitems:block_of_jet>, [[<ore:oreJet>, <terrafirmacraft:item.Mortar>, <ore:oreJet>], [<terrafirmacraft:item.Mortar>, <terrafirmacraft:item.dyePowder>, <terrafirmacraft:item.Mortar>], [<ore:oreJet>, <terrafirmacraft:item.Mortar>, <ore:oreJet>]]);
-	recipes.addShaped(<customitems:slab_of_jet> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>], [<customitems:block_of_jet>, <customitems:block_of_jet>, <customitems:block_of_jet>]]);
+	recipes.addShaped(<customitems:slab_of_jet> * 3, [[<ore:itemChisel>, null, <ore:itemHammer>], [<customitems:block_of_jet>, <customitems:block_of_jet>, <customitems:block_of_jet>]]);
 	recipes.addShaped(<customitems:chiseled_block_of_jet>, [[<customitems:slab_of_jet>, <ore:itemChisel>], [<customitems:slab_of_jet>, <ore:itemHammer>]]);
 	recipes.addShaped(<customitems:pillar_of_jet> * 2, [[<customitems:block_of_jet>, <ore:itemChisel>], [<customitems:block_of_jet>, <ore:itemHammer>]]);
-	recipes.addShaped(<customitems:jet_stairs> * 6, [[<customitems:block_of_jet>, <ore:itemChisel>.transformDamage(12), null], [<customitems:block_of_jet>, <customitems:block_of_jet>, <ore:itemHammer>], [<customitems:block_of_jet>,<customitems:block_of_jet>,<customitems:block_of_jet>]]);
+	recipes.addShaped(<customitems:jet_stairs> * 6, [[<customitems:block_of_jet>, <ore:itemChisel>, null], [<customitems:block_of_jet>, <customitems:block_of_jet>, <ore:itemHammer>], [<customitems:block_of_jet>,<customitems:block_of_jet>,<customitems:block_of_jet>]]);
 
 
 //# Hardened Clay Blocks
@@ -71,32 +71,32 @@ import minetweaker.item.IItemStack;
 
 		for i, clayHardPaver in blockHardClayPaver {
 	var hardClayPaverSlab = slabHardClayPaver[i];
-	recipes.addShaped(hardClayPaverSlab * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>], [clayHardPaver, clayHardPaver, clayHardPaver]]);
+	recipes.addShaped(hardClayPaverSlab * 3, [[<ore:itemChisel>, null, <ore:itemHammer>], [clayHardPaver, clayHardPaver, clayHardPaver]]);
 		}
 
 		for i, clayHardBrick in blockHardClayBrick {
 	var hardClayBrickStairs = slabHardClayBrick[i];
-	recipes.addShaped(hardClayBrickStairs * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>], [clayHardBrick, clayHardBrick, clayHardBrick]]);
+	recipes.addShaped(hardClayBrickStairs * 3, [[<ore:itemChisel>, null, <ore:itemHammer>], [clayHardBrick, clayHardBrick, clayHardBrick]]);
 		}
 
 		for i, clayHardTile in blockHardClayTile {
 	var hardClayTileStairs = slabHardClayTile[i];
-	recipes.addShaped(hardClayTileStairs * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>], [clayHardTile, clayHardTile, clayHardTile]]);
+	recipes.addShaped(hardClayTileStairs * 3, [[<ore:itemChisel>, null, <ore:itemHammer>], [clayHardTile, clayHardTile, clayHardTile]]);
 		}
 
 		for i, clayHardPaver in blockHardClayPaver {
 	var hardClayPaverStairs = stairsHardClayPaver[i];
-	recipes.addShaped(hardClayPaverStairs * 6, [[clayHardPaver, <ore:itemChisel>.transformDamage(12), null], [clayHardPaver, clayHardPaver, <ore:itemHammer>], [clayHardPaver, clayHardPaver, clayHardPaver]]);
+	recipes.addShaped(hardClayPaverStairs * 6, [[clayHardPaver, <ore:itemChisel>, null], [clayHardPaver, clayHardPaver, <ore:itemHammer>], [clayHardPaver, clayHardPaver, clayHardPaver]]);
 		}
 
 		for i, clayHardBrick in blockHardClayBrick {
 	var hardClayBrickStairs = stairsHardClayBrick[i];
-	recipes.addShaped(hardClayBrickStairs * 6, [[clayHardBrick, <ore:itemChisel>.transformDamage(12), null], [clayHardBrick, clayHardBrick, <ore:itemHammer>], [clayHardBrick, clayHardBrick, clayHardBrick]]);
+	recipes.addShaped(hardClayBrickStairs * 6, [[clayHardBrick, <ore:itemChisel>, null], [clayHardBrick, clayHardBrick, <ore:itemHammer>], [clayHardBrick, clayHardBrick, clayHardBrick]]);
 		}
 
 		for i, clayHardTile in blockHardClayTile {
 	var hardClayTileStairs = stairsHardClayTile[i];
-	recipes.addShaped(hardClayTileStairs * 6, [[clayHardTile, <ore:itemChisel>.transformDamage(12), null], [clayHardTile, clayHardTile, <ore:itemHammer>], [clayHardTile, clayHardTile, clayHardTile]]);
+	recipes.addShaped(hardClayTileStairs * 6, [[clayHardTile, <ore:itemChisel>, null], [clayHardTile, clayHardTile, <ore:itemHammer>], [clayHardTile, clayHardTile, clayHardTile]]);
 		}
 
 		for i, clayHardPaverSlab in slabHardClayPaver {
@@ -143,12 +143,12 @@ import minetweaker.item.IItemStack;
 
 		for i, stoneTile in blockStoneTile {
 	var stoneTileStairs = stairsStoneTile[i];
-	recipes.addShaped(stoneTileStairs * 6, [[stoneTile, <ore:itemChisel>.transformDamage(12), null], [stoneTile, stoneTile, <ore:itemHammer>], [stoneTile, stoneTile, stoneTile]]);
+	recipes.addShaped(stoneTileStairs * 6, [[stoneTile, <ore:itemChisel>, null], [stoneTile, stoneTile, <ore:itemHammer>], [stoneTile, stoneTile, stoneTile]]);
 		}
 
 		for i, stoneTile in blockStoneTile {
 	var stoneTileSlab = slabStoneTile[i];
-	recipes.addShaped(stoneTileSlab * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>], [stoneTile, stoneTile, stoneTile]]);
+	recipes.addShaped(stoneTileSlab * 3, [[<ore:itemChisel>, null, <ore:itemHammer>], [stoneTile, stoneTile, stoneTile]]);
 		}
 
 		for i, stoneSmooth in blockStoneSmooth {

@@ -142,10 +142,10 @@ for i in meta {
     var woodFireproofSlab = <Forestry:slabsFireproof>.definition.makeStack(i);
     var woodFireproofPlank = <Forestry:planksFireproof>.definition.makeStack(i);
     
-	recipes.addShapedMirrored(woodStair * 6, [[woodPlank, null, <ore:itemSaw>.transformDamage(12)], [woodPlank, woodPlank, null], [woodPlank, woodPlank, woodPlank]]);
-	recipes.addShaped(woodSlab * 6, [[null, <ore:itemSaw>.transformDamage(12), null], [woodPlank, woodPlank, woodPlank]]);
-    recipes.addShapedMirrored(woodFireproofStair * 6, [[woodFireproofPlank, null, <ore:itemSaw>.transformDamage(12)], [woodFireproofPlank, woodFireproofPlank, null], [woodFireproofPlank, woodFireproofPlank, woodFireproofPlank]]);
-	recipes.addShaped(woodFireproofSlab * 6, [[null, <ore:itemSaw>.transformDamage(12), null], [woodFireproofPlank, woodFireproofPlank, woodFireproofPlank]]);
+	recipes.addShapedMirrored(woodStair * 6, [[woodPlank, null, <ore:itemSaw>], [woodPlank, woodPlank, null], [woodPlank, woodPlank, woodPlank]]);
+	recipes.addShaped(woodSlab * 6, [[null, <ore:itemSaw>, null], [woodPlank, woodPlank, woodPlank]]);
+    recipes.addShapedMirrored(woodFireproofStair * 6, [[woodFireproofPlank, null, <ore:itemSaw>], [woodFireproofPlank, woodFireproofPlank, null], [woodFireproofPlank, woodFireproofPlank, woodFireproofPlank]]);
+	recipes.addShaped(woodFireproofSlab * 6, [[null, <ore:itemSaw>, null], [woodFireproofPlank, woodFireproofPlank, woodFireproofPlank]]);
 		}
 
 		for i in meta {

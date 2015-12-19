@@ -115,9 +115,7 @@ import minetweaker.item.IItemStack;
     recipes.addShapeless(<minecraft:boat>, [<ore:logWood>, <ore:logWood>, <ore:logWood>, <ore:itemAxeStone>.noReturn().onlyDamageAtMost(1)]);
     
 //# ADD Ultimate Bucket
-	for item in <ore:craftingToolHardHammer>.items {
-	recipes.addShapeless(<minecraft:bucket>, [<terrafirmacraft:item.Blue Steel Bucket Empty>, <terrafirmacraft:item.Red Steel Bucket Empty>, item.anyDamage().transformDamage(100)]);
-}
+	recipes.addShapeless(<minecraft:bucket>, [<terrafirmacraft:item.Blue Steel Bucket Empty>, <terrafirmacraft:item.Red Steel Bucket Empty>, <ore:craftingToolHardHammer>]);
 
 //# ADD Charcoal Conversion
 	recipes.addShapeless(<terrafirmacraft:item.coal:1>, [<minecraft:coal:1>, <minecraft:coal:1>]);
@@ -211,20 +209,20 @@ import minetweaker.item.IItemStack;
 		for i, planks in planksVanilla {
 	var stair = stairsVanilla[i];
 	var slab = slabsVanilla[i];
-	recipes.addShapedMirrored(stair * 6, [[planks, null, <ore:itemSaw>.transformDamage(12)], [planks, planks, null], [planks, planks, planks]]);
-	recipes.addShaped(slab * 6, [[null, <ore:itemSaw>.transformDamage(3), null], [planks, planks, planks]]);
+	recipes.addShapedMirrored(stair * 6, [[planks, null, <ore:itemSaw>], [planks, planks, null], [planks, planks, planks]]);
+	recipes.addShaped(slab * 6, [[null, <ore:itemSaw>, null], [planks, planks, planks]]);
 		}
 
 //# Stone Slabs
 
-	recipes.addShaped(<minecraft:stone_slab> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>], [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>]]);
+	recipes.addShaped(<minecraft:stone_slab> * 3, [[<ore:itemChisel>, null, <ore:itemHammer>], [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>]]);
 
 //# Quartz Blocks
 	recipes.addShaped(<minecraft:quartz_block>, [[<ore:gemQuartz>, <terrafirmacraft:item.Mortar>, <ore:gemQuartz>], [<terrafirmacraft:item.Mortar>, <terrafirmacraft:item.dyePowder:15>, <terrafirmacraft:item.Mortar>], [<ore:gemQuartz>, <terrafirmacraft:item.Mortar>, <ore:gemQuartz>]]);
-	recipes.addShapedMirrored(<minecraft:stone_slab:7> * 3, [[<ore:itemChisel>.transformDamage(12), null, <ore:itemHammer>], [<minecraft:quartz_block>, <minecraft:quartz_block>, <minecraft:quartz_block>]]);
+	recipes.addShapedMirrored(<minecraft:stone_slab:7> * 3, [[<ore:itemChisel>, null, <ore:itemHammer>], [<minecraft:quartz_block>, <minecraft:quartz_block>, <minecraft:quartz_block>]]);
 	recipes.addShapedMirrored(<minecraft:quartz_block:1>, [[<minecraft:stone_slab:7>, <ore:itemChisel>], [<minecraft:stone_slab:7>, <ore:itemHammer>]]);
 	recipes.addShapedMirrored(<minecraft:quartz_block:2> * 2, [[<minecraft:quartz_block>, <ore:itemChisel>], [<minecraft:quartz_block>, <ore:itemHammer>]]);
-	recipes.addShapedMirrored(<minecraft:quartz_stairs> * 6, [[<minecraft:quartz_block>, <ore:itemChisel>.transformDamage(12), null], [<minecraft:quartz_block>, <minecraft:quartz_block>, <ore:itemHammer>], [<minecraft:quartz_block>,<minecraft:quartz_block>,<minecraft:quartz_block>]]);
+	recipes.addShapedMirrored(<minecraft:quartz_stairs> * 6, [[<minecraft:quartz_block>, <ore:itemChisel>, null], [<minecraft:quartz_block>, <minecraft:quartz_block>, <ore:itemHammer>], [<minecraft:quartz_block>,<minecraft:quartz_block>,<minecraft:quartz_block>]]);
 
 //# Glowstone/Scapolite block recipe
 	recipes.addShaped(<minecraft:glowstone>, [[<ore:dustGlowstone>, <ore:dustGlowstone>], [<ore:dustGlowstone>, <ore:dustGlowstone>], [<ore:bucketFreshWater>, null]]);

@@ -79,12 +79,12 @@ import minetweaker.item.IItemStack;
     recipes.addShapeless(<ImmersiveEngineering:material> * 2, [<ore:plantTreatedWood>, <ore:itemSaw>]);
     
 //# Treated Wood Slab
-	recipes.addShaped(<ImmersiveEngineering:woodenDecoration:2> * 6, [[null, <ore:itemSaw>.transformDamage(3), null], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
+	recipes.addShaped(<ImmersiveEngineering:woodenDecoration:2> * 6, [[null, <ore:itemSaw>, null], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
 
 //# Treated Wood Stairs
-	recipes.addShapedMirrored(<ImmersiveEngineering:woodenStairs> * 6, [[<ImmersiveEngineering:treatedWood>, null, <ore:itemSaw>.transformDamage(12)], [<ImmersiveEngineering:treatedWood>, <ImmersiveEngineering:treatedWood>, null], [<ImmersiveEngineering:treatedWood>, <ImmersiveEngineering:treatedWood>, <ImmersiveEngineering:treatedWood>]]);
-    recipes.addShapedMirrored(<ImmersiveEngineering:woodenStairs1> * 6, [[<ImmersiveEngineering:treatedWood:1>, null, <ore:itemSaw>.transformDamage(12)], [<ImmersiveEngineering:treatedWood:1>, <ImmersiveEngineering:treatedWood:1>, null], [<ImmersiveEngineering:treatedWood:1>, <ImmersiveEngineering:treatedWood:1>, <ImmersiveEngineering:treatedWood:1>]]);
-    recipes.addShapedMirrored(<ImmersiveEngineering:woodenStairs2> * 6, [[<ImmersiveEngineering:treatedWood:2>, null, <ore:itemSaw>.transformDamage(12)], [<ImmersiveEngineering:treatedWood:2>, <ImmersiveEngineering:treatedWood:2>, null], [<ImmersiveEngineering:treatedWood:2>, <ImmersiveEngineering:treatedWood:2>, <ImmersiveEngineering:treatedWood:2>]]);
+	recipes.addShapedMirrored(<ImmersiveEngineering:woodenStairs> * 6, [[<ImmersiveEngineering:treatedWood>, null, <ore:itemSaw>], [<ImmersiveEngineering:treatedWood>, <ImmersiveEngineering:treatedWood>, null], [<ImmersiveEngineering:treatedWood>, <ImmersiveEngineering:treatedWood>, <ImmersiveEngineering:treatedWood>]]);
+    recipes.addShapedMirrored(<ImmersiveEngineering:woodenStairs1> * 6, [[<ImmersiveEngineering:treatedWood:1>, null, <ore:itemSaw>], [<ImmersiveEngineering:treatedWood:1>, <ImmersiveEngineering:treatedWood:1>, null], [<ImmersiveEngineering:treatedWood:1>, <ImmersiveEngineering:treatedWood:1>, <ImmersiveEngineering:treatedWood:1>]]);
+    recipes.addShapedMirrored(<ImmersiveEngineering:woodenStairs2> * 6, [[<ImmersiveEngineering:treatedWood:2>, null, <ore:itemSaw>], [<ImmersiveEngineering:treatedWood:2>, <ImmersiveEngineering:treatedWood:2>, null], [<ImmersiveEngineering:treatedWood:2>, <ImmersiveEngineering:treatedWood:2>, <ImmersiveEngineering:treatedWood:2>]]);
     
 //# Wooden Barrel
     recipes.addShaped(<ImmersiveEngineering:woodenDevice:6>, [[<ore:slabTreatedWood>, <ore:slabTreatedWood>, <ore:slabTreatedWood>], [<ore:plankTreatedWood>, <terrafirmacraft:item.Red Steel Bucket Empty>.reuse(), <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
@@ -175,8 +175,8 @@ import minetweaker.item.IItemStack;
 //# Concrete
 	recipes.addShaped(<ImmersiveEngineering:stoneDecoration:4> * 4, [[<ore:itemSlag>, <ore:lumpClay>, <ore:itemSlag>], [<ore:blockGravel>, <ore:itemSlag>, <ore:blockGravel>], [<ore:itemSlag>, <ore:lumpClay>, <ore:itemSlag>]]);
     
-    	recipes.addShaped(<ImmersiveEngineering:concreteStairs> * 6, [[<ImmersiveEngineering:stoneDecoration:4>, <ore:itemChisel>.transformDamage(12), null], [<ImmersiveEngineering:stoneDecoration:4>, <ImmersiveEngineering:stoneDecoration:4>, <ore:itemHammer>, null], [<ImmersiveEngineering:stoneDecoration:4>, <ImmersiveEngineering:stoneDecoration:4>, <ImmersiveEngineering:stoneDecoration:4>]]);
-    	recipes.addShaped(<ImmersiveEngineering:concreteTileStairs> * 6, [[<ImmersiveEngineering:stoneDecoration:5>, <ore:itemChisel>.transformDamage(12), null], [<ImmersiveEngineering:stoneDecoration:5>, <ImmersiveEngineering:stoneDecoration:5>, <ore:itemHammer>, null], [<ImmersiveEngineering:stoneDecoration:5>, <ImmersiveEngineering:stoneDecoration:5>, <ImmersiveEngineering:stoneDecoration:5>]]);
+    	recipes.addShaped(<ImmersiveEngineering:concreteStairs> * 6, [[<ImmersiveEngineering:stoneDecoration:4>, <ore:itemChisel>, null], [<ImmersiveEngineering:stoneDecoration:4>, <ImmersiveEngineering:stoneDecoration:4>, <ore:itemHammer>, null], [<ImmersiveEngineering:stoneDecoration:4>, <ImmersiveEngineering:stoneDecoration:4>, <ImmersiveEngineering:stoneDecoration:4>]]);
+    	recipes.addShaped(<ImmersiveEngineering:concreteTileStairs> * 6, [[<ImmersiveEngineering:stoneDecoration:5>, <ore:itemChisel>, null], [<ImmersiveEngineering:stoneDecoration:5>, <ImmersiveEngineering:stoneDecoration:5>, <ore:itemHammer>, null], [<ImmersiveEngineering:stoneDecoration:5>, <ImmersiveEngineering:stoneDecoration:5>, <ImmersiveEngineering:stoneDecoration:5>]]);
         
 //#WaterWheel
     recipes.addShaped(<ImmersiveEngineering:material:1>, [[<ImmersiveEngineering:material>, null, <ImmersiveEngineering:material>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], [<ImmersiveEngineering:material>, <ore:ingotIron>, <ImmersiveEngineering:material>]]);

@@ -262,10 +262,10 @@ import minetweaker.data.IData;
 
 //Chemical Crystallizer
 //GasInput OutputStack
-	mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanZinc>, <TabulaRasa:RasaItem5>);
-	mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanBismuth>, <TabulaRasa:RasaItem5:1>);
-	mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanNickel>, <TabulaRasa:RasaItem5:2>);
-	mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanPlatinum>, <TabulaRasa:RasaItem5:3>);
+	mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanZinc> * 200, <TabulaRasa:RasaItem5>);
+	mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanBismuth> * 200, <TabulaRasa:RasaItem5:1>);
+	mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanNickel> * 200, <TabulaRasa:RasaItem5:2>);
+	mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanPlatinum> * 200, <TabulaRasa:RasaItem5:3>);
 
 //Metallurgic Infuser
 //InfusionTypeString, InfusionAmount, InputStack, OutputStack (ValidInfusionTypes: CARBON, TIN, DIAMOND, REDSTONE, FUNGI, BIO, OBSIDIAN) 

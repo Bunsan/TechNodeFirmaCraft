@@ -384,9 +384,9 @@ import minetweaker.item.IItemStack;
 	var stairsBamboo = [<plantmegapack:bambooAsperStairs>, <plantmegapack:bambooFargesiaRobustaStairs>, <plantmegapack:bambooGiantTimberStairs>, <plantmegapack:bambooGoldenStairs>, <plantmegapack:bambooMosoStairs>, <plantmegapack:bambooShortTassledStairs>, <plantmegapack:bambooTimorBlackStairs>, <plantmegapack:bambooTropicalBlueStairs>, <plantmegapack:bambooWetForestStairs>] as IItemStack[];
 		for i, bambooPlank in blockBamboo {
 	var bambooSlab = slabBamboo[i];
-	recipes.addShaped(bambooSlab * 6, [[null, <ore:itemSaw>.transformDamage(12), null], [bambooPlank, bambooPlank, bambooPlank]]);
+	recipes.addShaped(bambooSlab * 6, [[null, <ore:itemSaw>, null], [bambooPlank, bambooPlank, bambooPlank]]);
 }
 		for j, bambooPlank in blockBamboo {
 	var bambooStair = stairsBamboo[j];
-	recipes.addShaped(bambooStair * 6, [[bambooPlank, null, <ore:itemSaw>.transformDamage(12)], [bambooPlank, bambooPlank, null], [bambooPlank, bambooPlank, bambooPlank]]);
+	recipes.addShaped(bambooStair * 6, [[bambooPlank, null, <ore:itemSaw>], [bambooPlank, bambooPlank, null], [bambooPlank, bambooPlank, bambooPlank]]);
 }

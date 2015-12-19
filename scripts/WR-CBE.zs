@@ -18,7 +18,7 @@
 
 // ================================================================================
 //#ADD SHAPELESS
-	recipes.addShapeless(<WR-CBE|Core:obsidianStick> * 4, [<ore:obsidian>, <ore:craftingToolHardChisel>.transformDamage(3), <ore:itemHammer>]);
+	recipes.addShapeless(<WR-CBE|Core:obsidianStick> * 4, [<ore:obsidian>, <ore:craftingToolHardChisel>, <ore:itemHammer>]);
 
 // ================================================================================
 //#ADD SHAPED

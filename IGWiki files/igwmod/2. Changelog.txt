@@ -1,3 +1,7 @@
+[prefix{l}]Version 2.12.1: I wanted to give you a Gift, but that was too much.[prefix{}]
+
+Fixed some bad dupes, grumble grumble MineTweaker. Temp fixed for indefinite then randomly vanishing food issue. Don't use framed chests for food storage. Gave myself a headache. Another update will address chest issues.
+
 [prefix{l}]Version 2.12 - Bears are off to Rehab[prefix{}]
 
 The Bears have had an intervention and come to terms with their speed addiction. Due to unexpected interaction of our tweaks and base TFC changes the Bears were much faster then intended. 
