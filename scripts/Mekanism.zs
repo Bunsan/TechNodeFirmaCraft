@@ -27,6 +27,8 @@ import minetweaker.data.IData;
 	recipes.remove(<Mekanism:PartTransmitter:11>);
 	recipes.remove(<Mekanism:ElectricBow:100>);
 	recipes.remove(<Mekanism:BasicBlock2>);
+    recipes.remove(<Mekanism:MachineBlock2:5>);
+    recipes.remove(<Mekanism:MachineBlock:3>);
 
 
 // ================================================================================
@@ -62,6 +64,10 @@ import minetweaker.data.IData;
 //# Diamond Dust Piles
 	recipes.addShaped(<Mekanism:OtherDust>, [[<TabulaRasa:RasaItem2:4>, <TabulaRasa:RasaItem2:4>], [<TabulaRasa:RasaItem2:4>, <TabulaRasa:RasaItem2:4>]]);
 
+//# Temp fix for Sawmill, Crusher not consuming black steel saw
+
+  recipes.addShaped(<Mekanism:MachineBlock2:5>, [[<terrafirmacraft:item.Black Steel Saw>.noReturn(), <Mekanism:ControlCircuit:1>, <terrafirmacraft:item.Black Steel Saw>.noReturn()], [<Mekanism:EnrichedAlloy>, <Mekanism:BasicBlock:8>, <Mekanism:EnrichedAlloy>], [<terrafirmacraft:item.Black Steel Sheet>, <Mekanism:ControlCircuit:1>,<terrafirmacraft:item.Black Steel Sheet>]]);
+    recipes.addShaped(<Mekanism:MachineBlock:3>, [[<minecraft:redstone>, <Mekanism:ControlCircuit>, <minecraft:redstone>], [<terrafirmacraft:item.Black Steel Hammer>.noReturn(), <Mekanism:BasicBlock:8>, <terrafirmacraft:item.Black Steel Hammer>.noReturn()], [<terrafirmacraft:item.Black Steel Sheet>, <ore:craftingPiston>,<terrafirmacraft:item.Black Steel Sheet>]]);
 // ================================================================================
 //# Custom Machine Recipes
 
@@ -132,6 +138,10 @@ import minetweaker.data.IData;
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Weak Steel Ingot>, <TabulaRasa:RasaItem1:10>);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Weak Blue Steel Ingot>, <TabulaRasa:RasaItem1:11>);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Weak Red Steel Ingot>, <TabulaRasa:RasaItem1:12>);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Electrum Ingot>, <ImmersiveEngineering:metal:16>);
+    mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Cupronickel Ingot>, <ImmersiveEngineering:metal:15>);
+
+    
 //# Dyes
 	//# Hematite
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:3>, <terrafirmacraft:item.Powder:5>);
