@@ -1,3 +1,27 @@
+[prefix{l}]Version 2.13: New Year, New Update.[prefix{}]
+
+Happy New Year everyone. With the new year comes a new update. We've added some new things and fixed some old things. Remember that RedLogic has now been removed from pack. It was replaced with BluePower because it was not compatible with FMP.
+
+First TFC itself has updated to build 0.79.27 and we've included all of these changes, with exception of the Tool Mode indicator config as this causes a startup crash. Please visit the TFC forum for the TFC build 27 changelog. Be aware that some of the changes in TFC were already included in our packs past updates. We also fixed the last issue with food decay in the Bibliocraft framed chest.
+
+You will now find all metals can be crafted into blocks using the anvil. This blocks not only can be placed in world, but they can be chiseled as well. Be aware chiseling will mean the complete loss of the metal.  A conversion recipe will be available to change old blocks to new TFC Metal blocks.
+
+There are now TFC version of Electrum and Cupronickel (Constantan) which can be made in the crucible in addition to the current methods. These blocks are all integrated into recipes. You can convert current ingots into the TFC alloy by grinding into grit and reprocessing. The current ingots will continue to function in all recipes.
+
+Please let us know if there are any issues with new Metal blocks.
+
+Mods Updated.
+- Terrafirmacraft
+- OpenBlocks and OpenModLibs
+- Opencomputers - Recipes cleaned up.
+- Voxel Map
+- JourneyMap
+- Immersive Engineering
+- Forestry
+
+Mods Removed
+- RedLogic
+
 [prefix{l}]Version 2.12.1: I wanted to give you a Gift, but that was too much.[prefix{}]
 
 Fixed some bad dupes, grumble grumble MineTweaker. Temp fixed for indefinite then randomly vanishing food issue. Don't use framed chests for food storage. Gave myself a headache. Another update will address chest issues.
