@@ -109,6 +109,13 @@ import minetweaker.item.IItemStack;
 // ================================================================================
 //#ADD SHAPELESS
 
+//# TEMP Convert Metal Blocks
+	recipes.addShapeless(<terrafirmacraft:MetalBlock:9>, [<minecraft:iron_block>]);
+	recipes.addShapeless(<ImmersiveEngineering:storage:7>, [<ImmersiveEngineering:storage:7>]);
+	recipes.addShapeless(<terrafirmacraft:MetalBlock:7>, [<Railcraft:cube:9>]);
+	recipes.addShapeless(<terrafirmacraft:MetalBlock:10>, [<ImmersiveEngineering:storage:2>]);
+
+
 //# VANILLA+ TO TFC
 
 //# No Metal Boat
@@ -226,13 +233,6 @@ import minetweaker.item.IItemStack;
 
 //# Glowstone/Scapolite block recipe
 	recipes.addShaped(<minecraft:glowstone>, [[<ore:dustGlowstone>, <ore:dustGlowstone>], [<ore:dustGlowstone>, <ore:dustGlowstone>], [<ore:bucketFreshWater>, null]]);
-
-//# Replace Metal Blocks
-	recipes.addShaped(<minecraft:iron_block>, [[null, <ore:plateIron>, null], [<ore:plateIron>, <ore:craftingToolMediumHammer>, <ore:plateIron>], [null, <ore:plateIron>, null]]);
-	recipes.addShaped(<ImmersiveEngineering:storage:7>, [[null, <ore:plateSteel>, null], [<ore:plateSteel>, <ore:craftingToolMediumHammer>, <ore:plateSteel>], [null, <ore:plateSteel>, null]]);
-	//recipes.addShaped(<minecraft:gold_block>, [[null, <ore:plateGold>, null], [<ore:plateGold>, <ore:craftingToolMediumHammer>, <ore:plateGold>], [null, <ore:plateGold>, null]]);
-	recipes.addShaped(<Railcraft:cube:9>, [[null, <ore:plateCopper>, null], [<ore:plateCopper>, <ore:craftingToolMediumHammer>, <ore:plateCopper>], [null, <ore:plateCopper>, null]]);
-	recipes.addShaped(<ImmersiveEngineering:storage:2>, [[null, <ore:plateLead>, null], [<ore:plateLead>, <ore:craftingToolMediumHammer>, <ore:plateLead>], [null, <ore:plateLead>, null]]);
 
 //# Replace Lapis and Diamond Blocks
 	recipes.addShaped(<minecraft:lapis_block>, [[<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>], [<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>], [<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>]]);
