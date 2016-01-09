@@ -1,7 +1,7 @@
     <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>2.13</version>
+        <version>2.13.1</version>
         <minecraft>1.7.10</minecraft>
         <caseallfiles>lower</caseallfiles>
         <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
@@ -58,7 +58,7 @@
 <!-- Base Scripts -->
         <!-- Marquee Mods -->
         <mod 
-        name="TerraFirmaCraft" version="0.79.27.tnfc.d4a57ac" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.27.tnfc.d4a57ac.jar" file="[1.7.10]TerraFirmaCraft-0.79.27.tnfc.d4a57ac.jar" md5="9e61ed2041ac80c14f3459ae40914b97" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="TerraFirmaCraft" version="0.79.27.tnfc.e10ab18" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.27.tnfc.e10ab18.jar" file="[1.7.10]TerraFirmaCraft-0.79.27.tnfc.e10ab18.jar" md5="1414edfd857bc12053abb3c4276754cb" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod 
         name="TechNodefirmacraft" version="2.13.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/1.7.10-TechNodefirmacraft-2.13.0.jar" file="1.7.10-TechNodefirmacraft-2.13.0.jar" md5="05725204dd55d9740ee6de3f053d2dff" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="AnodeCathode, Bunsan" optional="no" description="Custom integration and features for TechNodefirmacraft modpack" client="yes" server="yes" serveroptional="no"
@@ -165,7 +165,7 @@
         
         <!-- Pack Customization Mods -->
         <mod
-        name="Scripts" version="base_2.13" url="packs/TechNodefirmacraft/files/extract/scripts_2.13.zip" file="scripts_2.13.zip" md5="fda7ee1cc52dfcd32fa43fa1f56102e5" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="Scripts" version="base_2.13.1" url="packs/TechNodefirmacraft/files/extract/scripts_2.13.1.zip" file="scripts_2.13.1.zip" md5="1d82eefd1d9a628a0edc3fbde2079f6d" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod
         name="MineTweaker 3" version="3.0.10B" url="packs/TechNodefirmacraft/files/1.7.10Mods/MineTweaker3-1.7.10-3.0.10B.jar" file="MineTweaker3-1.7.10-3.0.10B.jar" md5="884933d1b933e0bd2f93293201569f13" download="server" type="mods" website="http://minetweaker3.powerofbytes.com" authors="Stan Hebben" description="Customize your minecraft experience!" client="yes" optional="no" server="yes" serveroptional="no"

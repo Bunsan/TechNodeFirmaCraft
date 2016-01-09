@@ -309,7 +309,7 @@
 	recipes.addShaped(<Railcraft:post:6> * 4, [[<ore:plateAnyBronze>], [<Railcraft:post:2>]]);
 
 //# Wood Post
-    recipes.addShaped(<Railcraft:post>, [[<Railcraft:part.tie>, <Railcraft:part.tie>, <Railcraft:part.tie>], [<Railcraft:part.tie>, <Railcraft:part.tie>, <Railcraft:part.tie>]]);
+    recipes.addShaped(<Railcraft:post> * 6, [[<Railcraft:part.tie>, <Railcraft:part.tie>, <Railcraft:part.tie>], [<Railcraft:part.tie>, <Railcraft:part.tie>, <Railcraft:part.tie>]]);
 
 //# Raw/Smooth Stone to Railcraft cobble/raw stone
 	recipes.addShaped(<Railcraft:brick.infernal:5> * 8, [[<ore:stoneAny>, <ore:stoneAny>, <ore:stoneAny>], [<ore:stoneAny>, <ore:dyeGray>, <ore:stoneAny>], [<ore:stoneAny>, <ore:stoneAny>, <ore:stoneAny>]]);
