@@ -110,6 +110,7 @@
 	recipes.remove(<Railcraft:borehead.iron>);
 	recipes.remove(<Railcraft:borehead.steel>);
 	recipes.remove(<Railcraft:borehead.diamond>);
+    recipes.remove(<Railcraft:machine.epsilon:3>);
 //# Self Explanitory
 	recipes.remove(<Railcraft:armor.goggles>);
 	recipes.remove(<Railcraft:part.bleached.clay>);
@@ -298,6 +299,7 @@
 	recipes.addShaped(<Railcraft:cart.bore>, [[<ore:plateDoubleSteel>, <minecraft:minecart>, <ore:plateDoubleSteel>], [<Railcraft:machine.beta:5>, <minecraft:minecart>, <Railcraft:machine.beta:5>], [null, <ore:chestWood>, null]]);
 	recipes.addShaped(<Railcraft:borehead.steel>, [[null, <ore:plateSteel>, null], [<ore:plateSteel>, <ore:blockSteel>, <ore:plateSteel>], [null, <ore:plateSteel>, null]]);
 	recipes.addShaped(<Railcraft:borehead.diamond>, [[<ore:gemDiamond>, <ore:plateSteel>, <ore:gemDiamond>], [<ore:plateSteel>, <ore:gemDiamond>, <ore:plateSteel>], [<ore:gemDiamond>, <ore:plateSteel>, <ore:gemDiamond>]]);
+    recipes.addShaped(<Railcraft:machine.epsilon:3>, [[<ore:plateTin>, <ore:ingotCopper>, <ore:plateTin>], [<ore:ingotCopper>, <ore:blockDiamond>, <ore:ingotCopper>], [<ore:plateTin>, <ore:ingotCopper>, <ore:plateTin>]]);
 
 //# Goggles
 	recipes.addShaped(<Railcraft:armor.goggles>, [[<ore:paneGlassColorless>, <Railcraft:part.circuit:1>, <ore:paneGlassColorless>], [<ore:ingotSteel>, null, <ore:ingotSteel>], [<ore:materialLeather>, <ore:materialLeather>, <ore:materialLeather>]]);

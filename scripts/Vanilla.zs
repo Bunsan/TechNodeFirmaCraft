@@ -6,7 +6,7 @@ import minetweaker.item.IItemStack;
 // ================================================================================
 //# Tooltips
 <minecraft:coal:1>.addTooltip(format.red("Half Fuel Value of TFC Charcoal."));
-
+<minecraft:stick>.addTooltip(format.blue("HopperDuct Tool"));
 // ================================================================================
 //#REMOVE Recipes
 //# VANILLA
