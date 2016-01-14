@@ -1,37 +1,23 @@
-[prefix{l}]Version 2.10.2 - Alloy Furnace Duping? Is this 1.2.5?[prefix{}]
+[prefix{l}]Version 2.13: New Year, New Update.[prefix{}]
 
-Little hotfix to disable the BP Alloy Furnace Recycling recipes. When they said they were recreating some of the missing features of past mods, didn't realize they include making iron from nothing. Also fixed a couple of Mek recipes referencing the wrong items.
+Happy New Year everyone. With the new year comes a new update. We've added some new things and fixed some old things. Remember that RedLogic has now been removed from pack. It was replaced with BluePower because it was not compatible with FMP.
 
-[prefix{l}]Version 2.10.1 - Don't eat Saws[prefix{}]
+First TFC itself has updated to build 0.79.27 and we've included all of these changes, with exception of the Tool Mode indicator config as this causes a startup crash. Please visit the TFC forum for the TFC build 27 changelog. Be aware that some of the changes in TFC were already included in our packs past updates. We also fixed the last issue with food decay in the Bibliocraft framed chest.
 
-There was an error in the Better Storage Recipes that caused saws to be consumed. Apologies for any lost saws.
+You will now find all metals can be crafted into blocks using the anvil. This blocks not only can be placed in world, but they can be chiseled as well. Be aware chiseling will mean the complete loss of the metal.  A conversion recipe will be available to change old blocks to new TFC Metal blocks.
 
-Mods Added:
-- Item Physics Lite as an optional mod
+There are now TFC version of Electrum and Cupronickel (Constantan) which can be made in the crucible in addition to the current methods. These blocks are all integrated into recipes. You can convert current ingots into the TFC alloy by grinding into grit and reprocessing. The current ingots will continue to function in all recipes.
 
-prefix{l}]Version 2.10 - I Meant Chicken Nuggets[prefix{}]
+Please let us know if there are any issues with new Metal blocks.
 
-Lots of rough edges smoothed with this update. Winter is winterier, rain is rainier, ingots are more nuggatable, oil is more drilliable. Many of those words I just made up. The only major addition is BluePower which will be replacing RedLogic in the future.
-
-Changes:
-- TFC has nuggets. All metals now come in nugget form. Nuggets can be created with an ingot and a chisel.
-- BetterStorage has chest and locker recipes for all metal nuggets.
-- BluePower has been added to provide redstone logic and wiring. This will be replacing RedLogic due to its lack of support for FMP microblocks. Replace your wiring and circuitry! RedLogic will be removed in a month or so. A recycling recipe for RedLogic lighting has been provided to return the glowstone/scapolite blocks.
-- Snow will now accumulate on the ground in winter with the Local Weather mod.
--  Mekanism Solar devices will not operate during local rainstorms.
-- Mekanism recipes moved out of scripts into the mod. Should fix confusion with various recipes.
-- Fixes for Local Weather should increase accuracy of TFC items detecting rain and filling barrels, putting out torches, etc.
-- MineTweaker scripts no longer required to be in zip format.
-- Santa hired some muscle.
-
-Added:
-- PneumaticCrap - Adds a Advanced Gas Lift for deep oil extraction
-- BluePower - Adds logic and wiring. Will be replacing RedLogic.
-
-Updated:
+Mods Updated.
+- Terrafirmacraft
+- OpenBlocks and OpenModLibs
+- Opencomputers - Recipes cleaned up.
+- Voxel Map
+- JourneyMap
 - Immersive Engineering
-- TerraFirmaCraft 
-- Weather2
-- Mekanism
 - Forestry
-- BetterStorage
+
+Mods Removed
+- RedLogic

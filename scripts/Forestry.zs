@@ -30,7 +30,10 @@ import minetweaker.item.IItemStack;
 	recipes.remove(<Forestry:bronzePickaxe>);
 	recipes.remove(<Forestry:stamps>);
 	recipes.remove(<Forestry:stamps:3>);
-	recipes.remove(<Forestry:planks:*>);
+	recipes.remove(<Forestry:stamps:4>);
+	recipes.remove(<Forestry:stamps:5>);
+	recipes.remove(<Forestry:stamps:6>);
+    recipes.remove(<Forestry:planks:*>);
 	recipes.remove(<Forestry:planksFireproof:*>);
 	recipes.remove(<Forestry:slabs:*>);
 	recipes.remove(<Forestry:stairs:*>);
@@ -59,21 +62,24 @@ import minetweaker.item.IItemStack;
     recipes.addShaped(<Forestry:frameUntreated>, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, <ore:materialString>, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
     
 //#Reinstated Forestery gears
-	recipes.addShaped(<Forestry:gearTin> * 2, [[null, <ore:craftingToolMediumHammer>.transformDamage(), null], [<Railcraft:part.gear:3>, <ore:plateDoubleTin>, <Railcraft:part.gear:3>]]);
-	recipes.addShaped(<Forestry:gearCopper>, [[null, <ore:craftingToolMediumHammer>.transformDamage(), null], [<Railcraft:part.gear:3>, <ore:plateDoubleCopper>, <Railcraft:part.gear:3>]]);
-	recipes.addShaped(<Forestry:gearBronze>, [[null, <ore:craftingToolMediumHammer>.transformDamage(), null], [<Railcraft:part.gear:3>, <ore:plateDoubleAnyBronze>, <Railcraft:part.gear:3>]]);
+	recipes.addShaped(<Forestry:gearTin> * 2, [[null, <ore:craftingToolHammer>, null], [<Railcraft:part.gear:3>, <ore:plateDoubleTin>, <Railcraft:part.gear:3>]]);
+	recipes.addShaped(<Forestry:gearCopper>, [[null, <ore:craftingToolHammer>, null], [<Railcraft:part.gear:3>, <ore:plateDoubleCopper>, <Railcraft:part.gear:3>]]);
+	recipes.addShaped(<Forestry:gearBronze>, [[null, <ore:craftingToolHammer>, null], [<Railcraft:part.gear:3>, <ore:plateDoubleAnyBronze>, <Railcraft:part.gear:3>]]);
 
 //#Reinstating a Forestry Sturdy Machine Recipe
-	recipes.addShaped(<Forestry:sturdyMachine>, [[null, <ore:plateAnyBronze>, null], [<ore:plateAnyBronze>, <ore:craftingToolMediumHammer>.transformDamage(), <ore:plateAnyBronze>], [null, <ore:plateAnyBronze>, null]]);
+	recipes.addShaped(<Forestry:sturdyMachine>, [[null, <ore:plateAnyBronze>, null], [<ore:plateAnyBronze>, <ore:craftingToolMediumHammer>, <ore:plateAnyBronze>], [null, <ore:plateAnyBronze>, null]]);
 
 //#Stamps
 	recipes.addShaped(<Forestry:stamps> * 9, [[<ore:gemApatite>, <ore:gemApatite>, <ore:gemApatite>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<ore:dropHoney>, <ore:dropHoney>, <ore:dropHoney>]]);
 	recipes.addShaped(<Forestry:stamps:3> * 9, [[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<ore:dropHoney>, <ore:dropHoney>, <ore:dropHoney>]]);
+  	recipes.addShaped(<Forestry:stamps:4> * 9, [[<ore:ingotAnyBronze>, <ore:ingotAnyBronze>, <ore:ingotAnyBronze>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<ore:dropHoney>, <ore:dropHoney>, <ore:dropHoney>]]);
+  	recipes.addShaped(<Forestry:stamps:5> * 9, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<ore:dropHoney>, <ore:dropHoney>, <ore:dropHoney>]]);
+    recipes.addShaped(<Forestry:stamps:6> * 9, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<ore:dropHoney>, <ore:dropHoney>, <ore:dropHoney>]]);
 
 //#Reinstating Forestry Engine Recipes
-	recipes.addShaped(<Forestry:engine:4>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:itemHammer>.reuse(), <ore:blockGlassColorless>, <ore:craftingToolMediumChisel>.transformDamage()], [<ore:gearCopper>, <ore:craftingPiston>, <minecraft:clock>]]);
-	recipes.addShaped(<Forestry:engine:1>, [[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>], [<ore:itemHammer>.reuse(), <ore:blockGlassColorless>, <ore:craftingToolMediumChisel>.transformDamage()], [<ore:gearCopper>, <ore:craftingPiston>, <ore:gearCopper>]]);
-	recipes.addShaped(<Forestry:engine:2>, [[<ore:plateAnyBronze>, <ore:plateAnyBronze>, <ore:plateAnyBronze>], [<ore:itemHammer>.reuse(), <ore:blockGlassColorless>, <ore:craftingToolMediumChisel>.transformDamage()], [<ore:gearBronze>, <ore:craftingPiston>, <ore:gearBronze>]]);
+	recipes.addShaped(<Forestry:engine:4>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:itemHammer>, <ore:blockGlassColorless>, <ore:craftingToolChisel>], [<ore:gearCopper>, <ore:craftingPiston>, <minecraft:clock>]]);
+	recipes.addShaped(<Forestry:engine:1>, [[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>], [<ore:itemHammer>, <ore:blockGlassColorless>, <ore:craftingToolChisel>], [<ore:gearCopper>, <ore:craftingPiston>, <ore:gearCopper>]]);
+	recipes.addShaped(<Forestry:engine:2>, [[<ore:plateAnyBronze>, <ore:plateAnyBronze>, <ore:plateAnyBronze>], [<ore:itemHammer>, <ore:blockGlassColorless>, <ore:craftingToolChisel>], [<ore:gearBronze>, <ore:craftingPiston>, <ore:gearBronze>]]);
 
 //# Carpenter
     recipes.addShaped(<Forestry:factory:1>, [[<ore:ingotAnyBronze>, <ore:blockGlass>, <ore:ingotAnyBronze>], [<ore:ingotAnyBronze>, <Forestry:sturdyMachine>, <ore:ingotAnyBronze>], [<ore:ingotAnyBronze>, <ore:blockGlass>, <ore:ingotAnyBronze>]]);
@@ -136,10 +142,10 @@ for i in meta {
     var woodFireproofSlab = <Forestry:slabsFireproof>.definition.makeStack(i);
     var woodFireproofPlank = <Forestry:planksFireproof>.definition.makeStack(i);
     
-	recipes.addShapedMirrored(woodStair * 6, [[woodPlank, null, <ore:itemSaw>.transformDamage(12)], [woodPlank, woodPlank, null], [woodPlank, woodPlank, woodPlank]]);
-	recipes.addShaped(woodSlab * 6, [[null, <ore:itemSaw>.transformDamage(12), null], [woodPlank, woodPlank, woodPlank]]);
-    recipes.addShapedMirrored(woodFireproofStair * 6, [[woodFireproofPlank, null, <ore:itemSaw>.transformDamage(12)], [woodFireproofPlank, woodFireproofPlank, null], [woodFireproofPlank, woodFireproofPlank, woodFireproofPlank]]);
-	recipes.addShaped(woodFireproofSlab * 6, [[null, <ore:itemSaw>.transformDamage(12), null], [woodFireproofPlank, woodFireproofPlank, woodFireproofPlank]]);
+	recipes.addShapedMirrored(woodStair * 6, [[woodPlank, null, <ore:itemSaw>], [woodPlank, woodPlank, null], [woodPlank, woodPlank, woodPlank]]);
+	recipes.addShaped(woodSlab * 6, [[null, <ore:itemSaw>, null], [woodPlank, woodPlank, woodPlank]]);
+    recipes.addShapedMirrored(woodFireproofStair * 6, [[woodFireproofPlank, null, <ore:itemSaw>], [woodFireproofPlank, woodFireproofPlank, null], [woodFireproofPlank, woodFireproofPlank, woodFireproofPlank]]);
+	recipes.addShaped(woodFireproofSlab * 6, [[null, <ore:itemSaw>, null], [woodFireproofPlank, woodFireproofPlank, woodFireproofPlank]]);
 		}
 
 		for i in meta {
@@ -148,8 +154,8 @@ for i in meta {
 	var woodFireproofLog = <Forestry:logsFireproof>.definition.makeStack(i);
 	var woodFireproofPlank = <Forestry:planksFireproof>.definition.makeStack(i);	
 
-	recipes.addShapeless(woodPlank * 2, [woodLog, <ore:itemSaw>.transformDamage()]);
-	recipes.addShapeless(woodFireproofPlank * 2, [woodFireproofLog, <ore:itemSaw>.transformDamage()]);
+	recipes.addShapeless(woodPlank * 2, [woodLog, <ore:itemSaw>]);
+	recipes.addShapeless(woodFireproofPlank * 2, [woodFireproofLog, <ore:itemSaw>]);
 
 		}
 
@@ -167,12 +173,18 @@ for i in meta {
 	mods.forestry.Carpenter.removeRecipe(<minecraft:torch>);
 	mods.forestry.Carpenter.removeRecipe(<Forestry:stamps>);
 	mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:3>);
+	mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:4>);
+	mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:5>);
+	mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:6>);
 
 //#Addition
 	//addRecipe(IItemStack output, IIngredient[][] ingredients, ILiquidStack fluidInput, int packagingTime, @Optional IItemStack box)
     // or (IItemStack output, IIngredient[][] ingredients, int packagingTime, @Optional IItemStack box)
 	mods.forestry.Carpenter.addRecipe(<Forestry:stamps> * 9, [[<ore:gemApatite>, <ore:gemApatite>, <ore:gemApatite>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [null, null, null]], <liquid:seedoil> * 300, 100);
 	mods.forestry.Carpenter.addRecipe(<Forestry:stamps:3> * 9, [[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [null, null, null]], <liquid:seedoil> * 300, 100);
+	mods.forestry.Carpenter.addRecipe(<Forestry:stamps:4> * 9, [[<ore:ingotAnyBronze>, <ore:ingotAnyBronze>, <ore:ingotAnyBronze>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [null, null, null]], <liquid:seedoil> * 300, 100);
+	mods.forestry.Carpenter.addRecipe(<Forestry:stamps:5> * 9, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [null, null, null]], <liquid:seedoil> * 300, 100);
+	mods.forestry.Carpenter.addRecipe(<Forestry:stamps:6> * 9, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [null, null, null]], <liquid:seedoil> * 300, 100);
 
 // Centrifuge Recipes
 //#Removal

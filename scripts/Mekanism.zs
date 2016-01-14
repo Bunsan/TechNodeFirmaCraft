@@ -15,8 +15,7 @@ import minetweaker.data.IData;
 //#REMOVE Recipe
 	recipes.remove(<Mekanism:ObsidianTNT>);
 	recipes.remove(<Mekanism:BasicBlock:3>);
-	recipes.remove(<Mekanism:BasicBlock:6>);
-	recipes.remove(<Mekanism:BasicBlock:8>);
+    recipes.remove(<Mekanism:BasicBlock:8>);
 	recipes.remove(<Mekanism:BasicBlock:9>);
 	recipes.remove(<Mekanism:BasicBlock:10>);
 	recipes.remove(<Mekanism:BasicBlock:11>);
@@ -27,6 +26,10 @@ import minetweaker.data.IData;
 	recipes.remove(<Mekanism:PartTransmitter:10>);
 	recipes.remove(<Mekanism:PartTransmitter:11>);
 	recipes.remove(<Mekanism:ElectricBow:100>);
+	recipes.remove(<Mekanism:BasicBlock2>);
+    recipes.remove(<Mekanism:MachineBlock2:5>);
+    recipes.remove(<Mekanism:MachineBlock:3>);
+
 
 // ================================================================================
 //#ADD SHAPELESS
@@ -37,20 +40,22 @@ import minetweaker.data.IData;
 //#ADD SHAPED
 
 //#Mek Dynamic Valve
-	recipes.addShaped(<Mekanism:BasicBlock:11> * 2, [[null, <ore:plateSteel>, null], [<ore:craftingToolHardHammer>.transformDamage(), <ore:circuitBasic>, null], [null, <ore:plateSteel>, null]]);
+	recipes.addShaped(<Mekanism:BasicBlock:11> * 2, [[null, <ore:plateSteel>, null], [<ore:craftingToolHardHammer>, <ore:circuitBasic>, null], [null, <ore:plateSteel>, null]]);
 //#Mek Dynamic Glass
-	recipes.addShaped(<Mekanism:BasicBlock:10> * 2, [[null, <Mekanism:BasicBlock:9>, null], [<ore:craftingToolHardHammer>.transformDamage(), <ore:blockGlass>, null], [null, <Mekanism:BasicBlock:9>, null]]);
+	recipes.addShaped(<Mekanism:BasicBlock:10> * 2, [[null, <Mekanism:BasicBlock:9>, null], [<ore:craftingToolHardHammer>, <ore:blockGlass>, null], [null, <Mekanism:BasicBlock:9>, null]]);
 //#Mek Dynamic Tank
-	recipes.addShaped(<Mekanism:BasicBlock:9> * 2, [[null, <ore:plateSteel>, null], [<ore:craftingToolHardHammer>.transformDamage(), <ore:stoneCobble>, null], [null, <ore:plateSteel>, null]]);
+	recipes.addShaped(<Mekanism:BasicBlock:9> * 2, [[null, <ore:plateSteel>, null], [<ore:craftingToolHardHammer>, <ore:stoneCobble>, null], [null, <ore:plateSteel>, null]]);
+//#Solar Evaporation Block
+	recipes.addShaped(<Mekanism:BasicBlock2> * 2, [[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<ore:ingotCopper>, <Mekanism:BasicBlock:9>, <ore:ingotCopper>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]]);
 //#Mek Steel Casing
-	recipes.addShaped(<Mekanism:BasicBlock:8>, [[null, <ore:plateSteel>, null], [<ore:craftingToolHardHammer>.transformDamage(), <ore:ingotOsmium>, null], [null, <ore:plateSteel>, null]]);
+	recipes.addShaped(<Mekanism:BasicBlock:8>, [[null, <ore:plateSteel>, null], [<ore:craftingToolHardHammer>, <ore:ingotOsmium>, null], [null, <ore:plateSteel>, null]]);
 
 //# RE-ADD Pipes
-	recipes.addShaped(<Mekanism:PartTransmitter:11> * 2, [[<ore:dustRedstone>, <minecraft:iron_bars>, <ore:dustRedstone>], [<ore:ingotSteel>, <ore:craftingToolMediumHammer>.transformDamage(), <ore:ingotSteel>], [<ore:dustRedstone>, <minecraft:iron_bars>, <ore:dustRedstone>]]);
-	recipes.addShaped(<Mekanism:PartTransmitter:10> * 2, [[null, <ore:craftingToolMediumHammer>.transformDamage(), null], [<ore:ingotSteel>, <minecraft:iron_bars>, <ore:ingotSteel>]]);
-	recipes.addShaped(<Mekanism:PartTransmitter:9> * 8, [[null, <ore:craftingToolMediumHammer>.transformDamage(), null], [<ore:ingotSteel>, <ore:circuitBasic>, <ore:ingotSteel>]]);
-	recipes.addShaped(<Mekanism:PartTransmitter> * 8, [[null, <ore:craftingToolMediumHammer>.transformDamage(), null], [<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>]]);
-	recipes.addShaped(<Mekanism:PartTransmitter:4> * 8, [[null, <ore:craftingToolMediumHammer>.transformDamage(), null], [<ore:ingotSteel>, <terrafirmacraft:Vessel:1>, <ore:ingotSteel>]]);
+	recipes.addShaped(<Mekanism:PartTransmitter:11> * 2, [[<ore:dustRedstone>, <minecraft:iron_bars>, <ore:dustRedstone>], [<ore:ingotSteel>, <ore:craftingToolMediumHammer>, <ore:ingotSteel>], [<ore:dustRedstone>, <minecraft:iron_bars>, <ore:dustRedstone>]]);
+	recipes.addShaped(<Mekanism:PartTransmitter:10> * 2, [[null, <ore:craftingToolMediumHammer>, null], [<ore:ingotSteel>, <minecraft:iron_bars>, <ore:ingotSteel>]]);
+	recipes.addShaped(<Mekanism:PartTransmitter:9> * 8, [[null, <ore:craftingToolMediumHammer>, null], [<ore:ingotSteel>, <ore:circuitBasic>, <ore:ingotSteel>]]);
+	recipes.addShaped(<Mekanism:PartTransmitter> * 8, [[null, <ore:craftingToolMediumHammer>, null], [<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>]]);
+	recipes.addShaped(<Mekanism:PartTransmitter:4> * 8, [[null, <ore:craftingToolMediumHammer>, null], [<ore:ingotSteel>, <terrafirmacraft:Vessel:1>, <ore:ingotSteel>]]);
 
 //# RE-ADD Armour stuff
 //# Upgrading Gas Mask
@@ -59,6 +64,10 @@ import minetweaker.data.IData;
 //# Diamond Dust Piles
 	recipes.addShaped(<Mekanism:OtherDust>, [[<TabulaRasa:RasaItem2:4>, <TabulaRasa:RasaItem2:4>], [<TabulaRasa:RasaItem2:4>, <TabulaRasa:RasaItem2:4>]]);
 
+//# Temp fix for Sawmill, Crusher not consuming black steel saw
+
+  recipes.addShaped(<Mekanism:MachineBlock2:5>, [[<terrafirmacraft:item.Black Steel Saw>.noReturn(), <Mekanism:ControlCircuit:1>, <terrafirmacraft:item.Black Steel Saw>.noReturn()], [<Mekanism:EnrichedAlloy>, <Mekanism:BasicBlock:8>, <Mekanism:EnrichedAlloy>], [<terrafirmacraft:item.Black Steel Sheet>, <Mekanism:ControlCircuit:1>,<terrafirmacraft:item.Black Steel Sheet>]]);
+    recipes.addShaped(<Mekanism:MachineBlock:3>, [[<minecraft:redstone>, <Mekanism:ControlCircuit>, <minecraft:redstone>], [<terrafirmacraft:item.Black Steel Hammer>.noReturn(), <Mekanism:BasicBlock:8>, <terrafirmacraft:item.Black Steel Hammer>.noReturn()], [<terrafirmacraft:item.Black Steel Sheet>, <ore:craftingPiston>,<terrafirmacraft:item.Black Steel Sheet>]]);
 // ================================================================================
 //# Custom Machine Recipes
 
@@ -129,6 +138,10 @@ import minetweaker.data.IData;
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Weak Steel Ingot>, <TabulaRasa:RasaItem1:10>);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Weak Blue Steel Ingot>, <TabulaRasa:RasaItem1:11>);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Weak Red Steel Ingot>, <TabulaRasa:RasaItem1:12>);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Electrum Ingot>, <ImmersiveEngineering:metal:16>);
+    mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Cupronickel Ingot>, <ImmersiveEngineering:metal:15>);
+
+    
 //# Dyes
 	//# Hematite
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Small Ore:3>, <terrafirmacraft:item.Powder:5>);
@@ -245,10 +258,10 @@ import minetweaker.data.IData;
 	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem5:3>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem3:3>);
 //Chemical Dissolution
 	//InputStack, GasOutput
-	mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:2>, <gas:Platinum>);
-	mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:7>, <gas:Bismuth>);
-	mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:8>, <gas:Nickel>);
-	mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:12>, <gas:Zinc>);
+	mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:2>, <gas:Platinum> * 1000);
+	mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:7>, <gas:Bismuth> * 1000);
+	mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:8>, <gas:Nickel> * 1000);
+	mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:12>, <gas:Zinc> * 1000);
 
 //Chemical Washer
 //InputGas, OutputGas
@@ -259,10 +272,10 @@ import minetweaker.data.IData;
 
 //Chemical Crystallizer
 //GasInput OutputStack
-	mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanZinc>, <TabulaRasa:RasaItem5>);
-	mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanBismuth>, <TabulaRasa:RasaItem5:1>);
-	mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanNickel>, <TabulaRasa:RasaItem5:2>);
-	mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanPlatinum>, <TabulaRasa:RasaItem5:3>);
+	mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanZinc> * 200, <TabulaRasa:RasaItem5>);
+	mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanBismuth> * 200, <TabulaRasa:RasaItem5:1>);
+	mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanNickel> * 200, <TabulaRasa:RasaItem5:2>);
+	mods.mekanism.chemical.Crystallizer.addRecipe(<gas:cleanPlatinum> * 200, <TabulaRasa:RasaItem5:3>);
 
 //Metallurgic Infuser
 //InfusionTypeString, InfusionAmount, InputStack, OutputStack (ValidInfusionTypes: CARBON, TIN, DIAMOND, REDSTONE, FUNGI, BIO, OBSIDIAN) 

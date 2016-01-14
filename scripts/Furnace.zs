@@ -71,6 +71,7 @@
 	furnace.addRecipe(<terrafirmacraft:item.Spindle Head:1>, <terrafirmacraft:item.Spindle Head>);    
 //#Other
 	furnace.addRecipe(<Forestry:canLava>, <Forestry:canSeedOil>);
-	furnace.addRecipe(<ImmersiveEngineering:metal:5>, <ImmersiveEngineering:metal:15>);
-	furnace.addRecipe(<ImmersiveEngineering:metal:6>, <ImmersiveEngineering:metal:16>);
+	furnace.addRecipe(<terrafirmacraft:item.Electrum Ingot>, <ore:dustElectrum>);
+	furnace.addRecipe(<terrafirmacraft:item.Cupronickel Ingot>, <ore:dustCupronickel>);
+    furnace.addRecipe(<terrafirmacraft:item.Cupronickel Ingot>, <ore:dustConstantan>);
 	furnace.addRecipe(<Mekanism:Ingot:1>, <ore:oreOsmium>);
