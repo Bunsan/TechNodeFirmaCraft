@@ -1,7 +1,7 @@
     <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>2.13.1</version>
+        <version>2.13.3</version>
         <minecraft>1.7.10</minecraft>
         <caseallfiles>lower</caseallfiles>
         <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
@@ -14,9 +14,9 @@
       <folder base="root" target="resources%s%" />
     </delete>
     
-    <messages>
+<!--    <messages>
         <update><![CDATA[RedLogic has be removed in this update. If you haven't replace all your logic circuits with BluePower circuits we suggest replacing all RedLogic items before updating as they will vanish. We have included a recipe to reclaim the Scapolite (glowstone) Blocks from lights.]]></update>
-    </messages>
+    </messages> -->
     
     <libraries>
         <library url="packs/TechNodefirmacraft/files/forge/launchwrapper-1.12.jar" download="server" file="launchwrapper-1.12.jar" md5="934b2d91c7c5be4a49577c9e6b40e8da" server="net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar" />
@@ -58,7 +58,7 @@
 <!-- Base Scripts -->
         <!-- Marquee Mods -->
         <mod 
-        name="TerraFirmaCraft" version="0.79.27.tnfc.e10ab18" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.27.tnfc.e10ab18.jar" file="[1.7.10]TerraFirmaCraft-0.79.27.tnfc.e10ab18.jar" md5="1414edfd857bc12053abb3c4276754cb" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="TerraFirmaCraft" version="0.79.27.tnfc.07a908f" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.27.tnfc.07a908f.jar" file="[1.7.10]TerraFirmaCraft-0.79.27.tnfc.07a908f.jar" md5="0f0a5202c7d38947ca32e77814cf915c" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod 
         name="TechNodefirmacraft" version="2.13.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/1.7.10-TechNodefirmacraft-2.13.0.jar" file="1.7.10-TechNodefirmacraft-2.13.0.jar" md5="05725204dd55d9740ee6de3f053d2dff" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="AnodeCathode, Bunsan" optional="no" description="Custom integration and features for TechNodefirmacraft modpack" client="yes" server="yes" serveroptional="no"
@@ -165,7 +165,7 @@
         
         <!-- Pack Customization Mods -->
         <mod
-        name="Scripts" version="base_2.13.1" url="packs/TechNodefirmacraft/files/extract/scripts_2.13.1.zip" file="scripts_2.13.1.zip" md5="1d82eefd1d9a628a0edc3fbde2079f6d" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="Scripts" version="base_2.13.3" url="packs/TechNodefirmacraft/files/extract/scripts_2.13.3.zip" file="scripts_2.13.3.zip" md5="779e7749bfffe594e32921faa6c5cc4b" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod
         name="MineTweaker 3" version="3.0.10B" url="packs/TechNodefirmacraft/files/1.7.10Mods/MineTweaker3-1.7.10-3.0.10B.jar" file="MineTweaker3-1.7.10-3.0.10B.jar" md5="884933d1b933e0bd2f93293201569f13" download="server" type="mods" website="http://minetweaker3.powerofbytes.com" authors="Stan Hebben" description="Customize your minecraft experience!" client="yes" optional="no" server="yes" serveroptional="no"
@@ -354,7 +354,10 @@
         />
         <!-- Optional Browser Download-->
         <mod
-        name="JourneyMap" version="5.1.3 FairPlay" url="http://minecraft.curseforge.com/projects/journeymap-32274/files/2269318/download" file="journeymap-1.7.10-5.1.3-fairplay.jar" md5="371149951500e0638916ec8dd3008d97" download="direct" type="mods" website="http://journeymap.techbrew.net" donation="http://minecraft.curseforge.com/linkout?remoteUrl=http%253a%252f%252fwww.patreon.com%252ftechbrew" description="Mini-map client side mod. Suggested that you disable the exporting to browser map function to improve performance." client="yes" optional="yes" colour="yellow" group="minimap" server="no" recommended="yes"
+        name="JourneyMap FairPlay" version="5.1.3 FairPlay" url="http://minecraft.curseforge.com/projects/journeymap-32274/files/2269318/download" file="journeymap-1.7.10-5.1.3-fairplay.jar" md5="371149951500e0638916ec8dd3008d97" download="direct" type="mods" website="http://journeymap.techbrew.net" donation="http://minecraft.curseforge.com/linkout?remoteUrl=http%253a%252f%252fwww.patreon.com%252ftechbrew" description="Mini-map client side mod. Suggested that you disable the exporting to browser map function to improve performance." client="yes" optional="yes" colour="yellow" group="minimap" server="no" recommended="yes"
+        />
+        <mod
+        name="JourneyMap Unlimited" version="5.1.3 Unlimited" url="http://minecraft.curseforge.com/projects/journeymap-32274/files/2269314/download" file="journeymap-1.7.10-5.1.3-unlimited.jar" md5="6c2ec9c84f91e44e9b37e7aacc96da8f" download="direct" type="mods" website="http://journeymap.techbrew.net" donation="http://minecraft.curseforge.com/linkout?remoteUrl=http%253a%252f%252fwww.patreon.com%252ftechbrew" description="Mini-map client side mod and serverside config. Suggested that you disable the exporting to browser map function to improve performance." client="yes" optional="yes" colour="yellow" group="minimap" server="yes" serveroptional="yes" recommended="no"
         />
         <mod
         name="SimpleAutoRun" version="1.7.10-1.1.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/AutoRun-1.7.10-1.1.0.jar" file="AutoRun-1.7.10-1.1.0.jar" md5="59fc396baa1893a8ad777d9c32a7280f" download="server" type="mods" website="http://www.curseforge.com/projects/233577/" authors="Mysticdrew" description="Simple hotkey for Autorun" client="yes" optional="yes" recommended="yes" server="no" serveroptional="no" colour="green"
@@ -373,7 +376,7 @@
         name="Resource Loaders Folder" version="2.10" url="packs/TechNodefirmacraft/files/extract/resources_2.10.zip" file="resources_2.10.zip" md5="33a24c409fe81854c0d3cb4077410357" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="no"
         /> 
         <mod 
-        name="IGWModData" version="2.13" url="packs/TechNodefirmacraft/files/extract/igwmod_2.13.zip" file="igwmod_2.13.zip" md5="0b761a17f8707b3b416c443c2c335882" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
+        name="IGWModData" version="2.13.3" url="packs/TechNodefirmacraft/files/extract/igwmod_2.13.3.zip" file="igwmod_2.13.3.zip" md5="e6b99faae13d4336530ef0613715634a" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
         />
     </mods>
 </version>

@@ -1,3 +1,20 @@
+[prefix{l}]Version 2.13.3: Fixing not Breaking.[prefix{}]
+
+This weeks update is just a small one to correct a couple of issues. Few little fixes that stop a crash bug and just make things work as they should. There likely won't be another update for another couple of weeks as Bunsan will be away. So don't break anything.
+
+TFC Updates:
+- Fix for tree growth timers resetting when they don't have space to grow.
+- Fix for Metal Trapdoor NEI crash.
+- Fix for unshaped Electrum and Cupronickel not being heatable.
+- Fix for items cooling quickly in firepit, food prep and small vessels.
+
+Script Updates:
+- Crafting recipe for  vanilla stick, needed as it is the HopperDuct tool.
+- Crafting recipe fixed for Railcraft Force Track Emitter.
+
+Mods Added:
+- JourneyMap Unlimited. This can be put on servers to limit what options players have in mini-map, i.e. mob and player radar. Also works to control voxel map configs.
+
 [prefix{l}]Version 2.13: New Year, New Update.[prefix{}]
 
 Happy New Year everyone. With the new year comes a new update. We've added some new things and fixed some old things. Remember that RedLogic has now been removed from pack. It was replaced with BluePower because it was not compatible with FMP.
