@@ -548,27 +548,26 @@ mods.immersiveengineering.MetalPress.removeRecipeByMold(<ImmersiveEngineering:mo
     var tfcTuyeres = [<terrafirmacraft:item.Bismuth Bronze Tuyere>, <terrafirmacraft:item.Black Bronze Tuyere>, <terrafirmacraft:item.Black Steel Tuyere>, <terrafirmacraft:item.Blue Steel Tuyere>, <terrafirmacraft:item.Bronze Tuyere>, <terrafirmacraft:item.Copper Tuyere>, <terrafirmacraft:item.Wrought Iron Tuyere>, <terrafirmacraft:item.Red Steel Tuyere>, <terrafirmacraft:item.Steel Tuyere>] as IItemStack[];
 
 //# Molds
-mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:15>, <ore:plateDoubleSteel>, <terrafirmacraft:Anvil:4>, 2400, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7>, <TabulaRasa:RasaItem7:15>, <terrafirmacraft:item.Steel Pick Head>, 2400, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:1>, <TabulaRasa:RasaItem7:15>, <terrafirmacraft:item.Steel ProPick Head>, 2400, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:2>, <TabulaRasa:RasaItem7:15>, <terrafirmacraft:item.Steel Shovel Head>, 2400, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:3>, <TabulaRasa:RasaItem7:15>, <terrafirmacraft:item.Steel Axe Head>, 2400, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:4>, <TabulaRasa:RasaItem7:15>, <terrafirmacraft:item.Steel Hammer Head>, 2400, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:5>, <TabulaRasa:RasaItem7:15>, <terrafirmacraft:item.Steel Chisel Head>, 2400, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:6>, <TabulaRasa:RasaItem7:15>, <terrafirmacraft:item.Steel Hoe Head>, 2400, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:8>, <TabulaRasa:RasaItem7:15>, <terrafirmacraft:item.Steel Javelin Head>, 2400, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:9>, <TabulaRasa:RasaItem7:15>, <terrafirmacraft:item.Steel Saw Blade>, 2400, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:11>, <TabulaRasa:RasaItem7:15>, <terrafirmacraft:item.Steel Scythe Blade>, 2400, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:12>, <TabulaRasa:RasaItem7:15>, <terrafirmacraft:item.Steel Knife Blade>, 2400, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:7>, <TabulaRasa:RasaItem7:15>, <terrafirmacraft:item.Steel Mace Head>, 2400, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:10>, <TabulaRasa:RasaItem7:15>, <terrafirmacraft:item.Steel Sword Blade>, 2400, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:13>, <TabulaRasa:RasaItem7:15>, <terrafirmacraft:item.Steel Tuyere>, 2400, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:14>, <TabulaRasa:RasaItem7:15>, <terrafirmacraft:item.Steel Double Ingot>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:15>, <ore:plateDoubleSteel>, <terrafirmacraft:MetalBlock2:1>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7>, <ore:moldBlank>, <terrafirmacraft:item.Steel Pick Head>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:1>, <ore:moldBlank>, <terrafirmacraft:item.Steel ProPick Head>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:2>, <ore:moldBlank>, <terrafirmacraft:item.Steel Shovel Head>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:3>, <ore:moldBlank>, <terrafirmacraft:item.Steel Axe Head>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:4>, <ore:moldBlank>, <terrafirmacraft:item.Steel Hammer Head>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:5>, <ore:moldBlank>, <terrafirmacraft:item.Steel Chisel Head>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:6>, <ore:moldBlank>, <terrafirmacraft:item.Steel Hoe Head>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:8>, <ore:moldBlank>, <terrafirmacraft:item.Steel Javelin Head>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:9>, <ore:moldBlank>, <terrafirmacraft:item.Steel Saw Blade>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:11>, <ore:moldBlank>, <terrafirmacraft:item.Steel Scythe Blade>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:12>, <ore:moldBlank>, <terrafirmacraft:item.Steel Knife Blade>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:7>, <ore:moldBlank>, <terrafirmacraft:item.Steel Mace Head>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:10>, <ore:moldBlank>, <terrafirmacraft:item.Steel Sword Blade>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:13>, <ore:moldBlank>, <terrafirmacraft:item.Steel Tuyere>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:14>, <ore:moldBlank>, <terrafirmacraft:item.Steel Double Ingot>, 2400, 1);
 
-mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold>, <TabulaRasa:RasaItem7:15>, <terrafirmacraft:item.Steel Sheet>, 2400, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold:1>, <TabulaRasa:RasaItem7:15>, <Railcraft:part.gear:2>, 2400, 1);
-mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold:2>, <TabulaRasa:RasaItem7:15>, <ImmersiveEngineering:material:15>, 2400, 1);
-
+mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold>, <ore:moldBlank>, <terrafirmacraft:item.Steel Sheet>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold:1>, <ore:moldBlank>, <Railcraft:part.gear:2>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold:2>, <ore:moldBlank>, <ImmersiveEngineering:material:15>, 2400, 1);
 
         for i, ingot in oreIngots {        
     var doubleIngot = tfcDoubleIngots[i];
