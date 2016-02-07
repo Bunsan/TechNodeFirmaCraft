@@ -70,7 +70,7 @@ import minetweaker.item.IIngredient;
     recipes.remove(<ImmersiveEngineering:mold>);
     recipes.remove(<ImmersiveEngineering:mold:1>);
     recipes.remove(<ImmersiveEngineering:mold:2>);
-
+    
 // ================================================================================
 //#ADD Furnace Recipes
 	furnace.addRecipe(<ImmersiveEngineering:stoneDecoration>, <customitems:uncured_hempcrete>);
@@ -511,6 +511,8 @@ mods.immersiveengineering.MetalPress.removeRecipeByMold(<ImmersiveEngineering:mo
         
     var oreIngotsTool = [<ore:ingotBismuthBronze>, <ore:ingotBlackBronze>, <ore:ingotBlackSteel>, <ore:ingotBlueSteel>, <ore:ingotBronze>, <ore:ingotCopper>, <ore:ingotIron>, <ore:ingotRedSteel>, <ore:ingotSteel>] as IIngredient[];
         
+    var oreDoubleSheet = [<ore:plateDoubleBismuth>, <ore:plateDoubleBismuthBronze>, <ore:plateDoubleBlackBronze>, <ore:plateDoubleBlackSteel>, <ore:plateDoubleBlueSteel>, <ore:plateDoubleBrass>, <ore:plateDoubleBronze>, <ore:plateDoubleCopper>, <ore:plateDoubleGold>, <ore:plateDoubleIron>, <ore:plateDoubleLead>, <ore:plateDoubleNickel>, <ore:plateDoublePigIron>, <ore:plateDoublePlatinum>, <ore:plateDoubleRedSteel>, <ore:plateDoubleRoseGold>, <ore:plateDoubleSilver>, <ore:plateDoubleSteel>, <ore:plateDoubleSterlingSilver>, <ore:plateDoubleTin>, <ore:plateDoubleZinc>, <ore:plateDoubleElectrum>, <ore:plateDoubleCupronickel>] as IIngredient[];
+    
 //# IItemStack Arrays
 
     var tfcDoubleIngots = [<terrafirmacraft:item.Bismuth Double Ingot>, <terrafirmacraft:item.Bismuth Bronze Double Ingot>, <terrafirmacraft:item.Black Bronze Double Ingot>, <terrafirmacraft:item.Black Steel Double Ingot>, <terrafirmacraft:item.Blue Steel Double Ingot>, <terrafirmacraft:item.Brass Double Ingot>, <terrafirmacraft:item.Bronze Double Ingot>, <terrafirmacraft:item.Copper Double Ingot>, <terrafirmacraft:item.Gold Double Ingot>, <terrafirmacraft:item.Wrought Iron Double Ingot>, <terrafirmacraft:item.Lead Double Ingot>, <terrafirmacraft:item.Nickel Double Ingot>, <terrafirmacraft:item.Pig Iron Double Ingot>, <terrafirmacraft:item.Platinum Double Ingot>, <terrafirmacraft:item.Red Steel Double Ingot>, <terrafirmacraft:item.Rose Gold Double Ingot>, <terrafirmacraft:item.Silver Double Ingot>, <terrafirmacraft:item.Steel Double Ingot>, <terrafirmacraft:item.Sterling Silver Double Ingot>, <terrafirmacraft:item.Tin Double Ingot>, <terrafirmacraft:item.Zinc Double Ingot>, <terrafirmacraft:item.Electrum Double Ingot>, <terrafirmacraft:item.Cupronickel Double Ingot>] as IItemStack[];
@@ -518,6 +520,8 @@ mods.immersiveengineering.MetalPress.removeRecipeByMold(<ImmersiveEngineering:mo
     var tfcSheets = [<terrafirmacraft:item.Bismuth Sheet>, <terrafirmacraft:item.Bismuth Bronze Sheet>, <terrafirmacraft:item.Black Bronze Sheet>, <terrafirmacraft:item.Black Steel Sheet>, <terrafirmacraft:item.Blue Steel Sheet>, <terrafirmacraft:item.Brass Sheet>, <terrafirmacraft:item.Bronze Sheet>, <terrafirmacraft:item.Copper Sheet>, <terrafirmacraft:item.Gold Sheet>, <terrafirmacraft:item.Wrought Iron Sheet>, <terrafirmacraft:item.Lead Sheet>, <terrafirmacraft:item.Nickel Sheet>, <terrafirmacraft:item.Pig Iron Sheet>, <terrafirmacraft:item.Platinum Sheet>, <terrafirmacraft:item.Red Steel Sheet>, <terrafirmacraft:item.Rose Gold Sheet>, <terrafirmacraft:item.Silver Sheet>, <terrafirmacraft:item.Steel Sheet>, <terrafirmacraft:item.Sterling Silver Sheet>, <terrafirmacraft:item.Tin Sheet>, <terrafirmacraft:item.Zinc Sheet>, <terrafirmacraft:item.Electrum Sheet>, <terrafirmacraft:item.Cupronickel Sheet>] as IItemStack[];
     
         var tfcDoubleSheets = [<terrafirmacraft:item.Bismuth Double Sheet>, <terrafirmacraft:item.Bismuth Bronze Double Sheet>, <terrafirmacraft:item.Black Bronze Double Sheet>, <terrafirmacraft:item.Black Steel Double Sheet>, <terrafirmacraft:item.Blue Steel Double Sheet>, <terrafirmacraft:item.Brass Double Sheet>, <terrafirmacraft:item.Bronze Double Sheet>, <terrafirmacraft:item.Copper Double Sheet>, <terrafirmacraft:item.Gold Double Sheet>, <terrafirmacraft:item.Wrought Iron Double Sheet>, <terrafirmacraft:item.Lead Double Sheet>, <terrafirmacraft:item.Nickel Double Sheet>, <terrafirmacraft:item.Pig Iron Double Sheet>, <terrafirmacraft:item.Platinum Double Sheet>, <terrafirmacraft:item.Red Steel Double Sheet>, <terrafirmacraft:item.Rose Gold Double Sheet>, <terrafirmacraft:item.Silver Double Sheet>, <terrafirmacraft:item.Steel Double Sheet>, <terrafirmacraft:item.Sterling Silver Double Sheet>, <terrafirmacraft:item.Tin Double Sheet>, <terrafirmacraft:item.Zinc Double Sheet>, <terrafirmacraft:item.Electrum Double Sheet>, <terrafirmacraft:item.Cupronickel Double Sheet>] as IItemStack[];
+        
+        var tfcMetalBlock = [<terrafirmacraft:MetalBlock:0>, <terrafirmacraft:MetalBlock:1>, <terrafirmacraft:MetalBlock:2>, <terrafirmacraft:MetalBlock:3>, <terrafirmacraft:MetalBlock:4>, <terrafirmacraft:MetalBlock:5>, <terrafirmacraft:MetalBlock:6>, <terrafirmacraft:MetalBlock:7>, <terrafirmacraft:MetalBlock:8>, <terrafirmacraft:MetalBlock:9>, <terrafirmacraft:MetalBlock:10>, <terrafirmacraft:MetalBlock:11>, <terrafirmacraft:MetalBlock:12>, <terrafirmacraft:MetalBlock:13>, <terrafirmacraft:MetalBlock:14>, <terrafirmacraft:MetalBlock:15>, <terrafirmacraft:MetalBlock2:0>, <terrafirmacraft:MetalBlock2:1>, <terrafirmacraft:MetalBlock2:2>, <terrafirmacraft:MetalBlock2:3>, <terrafirmacraft:MetalBlock2:4>, <terrafirmacraft:MetalBlock2:5>, <terrafirmacraft:MetalBlock2:6>] as IItemStack[];
     
     var tfcPickHeads = [<terrafirmacraft:item.Bismuth Bronze Pick Head>, <terrafirmacraft:item.Black Bronze Pick Head>, <terrafirmacraft:item.Black Steel Pick Head>, <terrafirmacraft:item.Blue Steel Pick Head>, <terrafirmacraft:item.Bronze Pick Head>, <terrafirmacraft:item.Copper Pick Head>, <terrafirmacraft:item.Wrought Iron Pick Head>,  <terrafirmacraft:item.Red Steel Pick Head>, <terrafirmacraft:item.Steel Pick Head>] as IItemStack[];
     
@@ -548,6 +552,7 @@ mods.immersiveengineering.MetalPress.removeRecipeByMold(<ImmersiveEngineering:mo
     var tfcTuyeres = [<terrafirmacraft:item.Bismuth Bronze Tuyere>, <terrafirmacraft:item.Black Bronze Tuyere>, <terrafirmacraft:item.Black Steel Tuyere>, <terrafirmacraft:item.Blue Steel Tuyere>, <terrafirmacraft:item.Bronze Tuyere>, <terrafirmacraft:item.Copper Tuyere>, <terrafirmacraft:item.Wrought Iron Tuyere>, <terrafirmacraft:item.Red Steel Tuyere>, <terrafirmacraft:item.Steel Tuyere>] as IItemStack[];
 
 //# Molds
+
 mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:15>, <ore:plateDoubleSteel>, <terrafirmacraft:MetalBlock2:1>, 2400, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7>, <ore:moldBlank>, <terrafirmacraft:item.Steel Pick Head>, 2400, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:1>, <ore:moldBlank>, <terrafirmacraft:item.Steel ProPick Head>, 2400, 1);
@@ -564,22 +569,30 @@ mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:7>, <ore:mo
 mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:10>, <ore:moldBlank>, <terrafirmacraft:item.Steel Sword Blade>, 2400, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:13>, <ore:moldBlank>, <terrafirmacraft:item.Steel Tuyere>, 2400, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:14>, <ore:moldBlank>, <terrafirmacraft:item.Steel Double Ingot>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:16>, <ore:moldBlank>, <terrafirmacraft:MetalBlock2:1>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:17>, <ore:moldBlank>, <terrafirmacraft:item.Red Steel Bucket Empty>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:17>, <ore:moldBlank>, <terrafirmacraft:item.Blue Steel Bucket Empty>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:17>, <ore:moldBlank>, <minecraft:bucket>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:18>, <ore:moldBlank>, <terrafirmacraft:Grill>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:19>, <ore:moldBlank>, <terrafirmacraft:Hopper>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:20>, <ore:moldBlank>, <terrafirmacraft:item.shears>, 2400, 1);
 
 mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold>, <ore:moldBlank>, <terrafirmacraft:item.Steel Sheet>, 2400, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold:1>, <ore:moldBlank>, <Railcraft:part.gear:2>, 2400, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold:2>, <ore:moldBlank>, <ImmersiveEngineering:material:15>, 2400, 1);
 
+
         for i, ingot in oreIngots {        
     var doubleIngot = tfcDoubleIngots[i];
     var sheet = tfcSheets[i];
         
-    mods.immersiveengineering.MetalPress.addRecipe(doubleIngot, ingot, <TabulaRasa:RasaItem7:14>, 2400, 2);
-    mods.immersiveengineering.MetalPress.addRecipe(sheet, ingot, <ImmersiveEngineering:mold>, 2400, 2);
+    mods.immersiveengineering.MetalPress.addRecipe(doubleIngot, ingot, <TabulaRasa:RasaItem7:14>, 4800, 2);
+    mods.immersiveengineering.MetalPress.addRecipe(sheet, ingot, <ImmersiveEngineering:mold>, 4800, 2);
         }
         
         for i, doubleIngot in oreDoubleIngots {        
     var doubleSheet = tfcDoubleSheets[i];        
-    mods.immersiveengineering.MetalPress.addRecipe(doubleSheet, doubleIngot, <ImmersiveEngineering:mold>, 2400, 2);
+    mods.immersiveengineering.MetalPress.addRecipe(doubleSheet, doubleIngot, <ImmersiveEngineering:mold>, 4800, 2);
         }
         
         for i, ingotTool in oreIngotsTool {        
@@ -609,10 +622,21 @@ mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold:2>, <o
     mods.immersiveengineering.MetalPress.addRecipe(saw, ingotTool, <TabulaRasa:RasaItem7:9>, 2400, 1);
     mods.immersiveengineering.MetalPress.addRecipe(scythe, ingotTool, <TabulaRasa:RasaItem7:11>, 2400, 1);
     mods.immersiveengineering.MetalPress.addRecipe(knife, ingotTool, <TabulaRasa:RasaItem7:12>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(mace, ingotTool, <TabulaRasa:RasaItem7:7>, 2400, 2);
-    mods.immersiveengineering.MetalPress.addRecipe(sword, ingotTool, <TabulaRasa:RasaItem7:10>, 2400, 2);
-    mods.immersiveengineering.MetalPress.addRecipe(tuyere, ingotTool, <TabulaRasa:RasaItem7:13>, 2400, 4);
+    mods.immersiveengineering.MetalPress.addRecipe(mace, ingotTool, <TabulaRasa:RasaItem7:7>, 4800, 2);
+    mods.immersiveengineering.MetalPress.addRecipe(sword, ingotTool, <TabulaRasa:RasaItem7:10>, 4800, 2);
+    mods.immersiveengineering.MetalPress.addRecipe(tuyere, ingotTool, <TabulaRasa:RasaItem7:13>, 9600, 4);
         }
+        
+    for i, oreDoubleSheet in oreDoubleSheet {
+    var block = tfcMetalBlock[i];
     
-  
-    
+    mods.immersiveengineering.MetalPress.addRecipe(block, oreDoubleSheet, <TabulaRasa:RasaItem7:16>, 4800, 2);
+    }
+//# Shears + Grill + Hopper
+    mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.shears>, <ore:plateIron>, <TabulaRasa:RasaItem7:20>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:Grill>, <ore:ingotDoubleIron>, <TabulaRasa:RasaItem7:18>, 4800, 2);
+    mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:Hopper>, <ore:ingotDoubleIron>, <TabulaRasa:RasaItem7:19>, 4800, 2);
+
+//# Buckets
+    mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Red Steel Bucket Empty>, <ore:plateRedSteel>, <TabulaRasa:RasaItem7:17>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Blue Steel Bucket Empty>, <ore:plateBlueSteel>, <TabulaRasa:RasaItem7:17>, 2400, 1);
