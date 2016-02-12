@@ -1,16 +1,25 @@
-[prefix{l}]Version 2.13.3: Fixing not Breaking.[prefix{}]
+[prefix{l}]Version 2.14: Can't wait for update update.[prefix{}]
 
-This weeks update is just a small one to correct a couple of issues. Few little fixes that stop a crash bug and just make things work as they should. There likely won't be another update for another couple of weeks as Bunsan will be away. So don't break anything.
+Well I had hoped to have the pending update for IE to include it this as it adds a few nice tweaks and fixes, but I don't want to wait any longer. So here is an update that adds some nice things.
 
-TFC Updates:
-- Fix for tree growth timers resetting when they don't have space to grow.
-- Fix for Metal Trapdoor NEI crash.
-- Fix for unshaped Electrum and Cupronickel not being heatable.
-- Fix for items cooling quickly in firepit, food prep and small vessels.
+Updated Mods:
+-  Immersive Engineering - There are some BIG changes in Immersive Engineering.  
+  -  Added OpenComputers support. OC can interface with the various machines.
+  -  Engineers Toolbox, which adds some nice extra inventory slots.
+  -  Blast furnace. They introduced a new advanced Blast furnace and nerfed the basic one down below the function of RC blast furnace...so it won't be included in the pack. What you need to do is to break down your current blast furnace and place the blocks in your crafting grid to convert them to the advanced bricks, which can be used to craft the advanced blast furnace. This blast furnace will produce slag, but otherwise behaves like the current version. Be aware Optifine breaks the render of the blast furnace when first formed. Relogging fixes this.
+  -  The recipe for the Arc Furnace multi block has changed, it now requires the adv. Blast Furnace blocks.
+  -  The METAL PRESS. This machine allows you to create a lot of the items you've needed an anvil to create. You won't get any smithing bonuses on any of the tools, but you'll be able to produce hoppers, sheets, blocks, buckets, grills, shears and so much more easily. Just first craft the molds and you are off. All recipes are in NEI. Items that aren't used for recipes will currently get stuck entering the press, so be careful. This will be fixed in the pending update.
 
-Script Updates:
-- Crafting recipe for  vanilla stick, needed as it is the HopperDuct tool.
-- Crafting recipe fixed for Railcraft Force Track Emitter.
+- TFC - Build 0.79.28. Fixed sapling growth timer and added no room to grow tooltip. Fixed corner case double chest bug.
+-  PneumaticCraft - Bug fixes.
+-  Better Foliage - various tweaks that improve textures.
+-  OpenBlocks + Libs
+-  CofHCore
+-  TechNodefirmacraftMod
+-  TechNodefirmacraft-resources
+-  Terrafirmacraft NEI Plugins
 
-Mods Added:
-- JourneyMap Unlimited. This can be put on servers to limit what options players have in mini-map, i.e. mob and player radar. Also works to control voxel map configs.
+Mod Tweaks/Bug Fixes
+- TFC-TNFC - You can no longer milk a cow with the ultimate bucket.
+-  Forestry - Forestry Milk removed, was breaking milk in wooden buckets.
+-  HQM Quest lines beyond TFC were removed (they were empty or broken).
