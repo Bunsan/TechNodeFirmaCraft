@@ -250,7 +250,23 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 4, [<ImmersiveEngineer
 	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Weak Steel Ingot>, <TabulaRasa:RasaItem1:10>, 1198, <ImmersiveEngineering:material:13>);
 	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Weak Blue Steel Ingot>, <TabulaRasa:RasaItem1:11>, 1198, <ImmersiveEngineering:material:13>);
 	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Weak Red Steel Ingot>, <TabulaRasa:RasaItem1:12>, 1198, <ImmersiveEngineering:material:13>);
-	mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:metal:20>, <ImmersiveEngineering:metal:19>, 598);
+	mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:metal:20>, <ImmersiveEngineering:metal:19>, 598, <ImmersiveEngineering:material:13>);
+    
+//# Clean NBT data off Tool Heads for Molds
+    mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Steel Pick Head>, <terrafirmacraft:item.Steel Pick Head>, 150, <ImmersiveEngineering:material:13>);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Steel ProPick Head>, <terrafirmacraft:item.Steel ProPick Head>, 150, <ImmersiveEngineering:material:13>);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Steel Shovel Head>, <terrafirmacraft:item.Steel Shovel Head>, 150, <ImmersiveEngineering:material:13>);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Steel Axe Head>, <terrafirmacraft:item.Steel Axe Head>, 150, <ImmersiveEngineering:material:13>);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Steel Hammer Head>, <terrafirmacraft:item.Steel Hammer Head>, 150, <ImmersiveEngineering:material:13>);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Steel Chisel Head>, <terrafirmacraft:item.Steel Chisel Head>, 150, <ImmersiveEngineering:material:13>);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Steel Hoe Head>, <terrafirmacraft:item.Steel Hoe Head>, 150, <ImmersiveEngineering:material:13>);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Steel Javelin Head>, <terrafirmacraft:item.Steel Javelin Head>, 150, <ImmersiveEngineering:material:13>);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Steel Saw Blade>, <terrafirmacraft:item.Steel Saw Blade>, 150, <ImmersiveEngineering:material:13>);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Steel Scythe Blade>, <terrafirmacraft:item.Steel Scythe Blade>, 150, <ImmersiveEngineering:material:13>);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Steel Knife Blade>, <terrafirmacraft:item.Steel Knife Blade>, 150, <ImmersiveEngineering:material:13>);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Steel Mace Head>, <terrafirmacraft:item.Steel Mace Head>, 150, <ImmersiveEngineering:material:13>);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Steel Sword Blade>, <terrafirmacraft:item.Steel Sword Blade>, 150, <ImmersiveEngineering:material:13>);
+    
 
 	//InputStack, Time in Ticks
 	mods.immersiveengineering.BlastFurnace.addFuel(<terrafirmacraft:item.coal:1>, 600);
