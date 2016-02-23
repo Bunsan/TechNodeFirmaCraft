@@ -1,3 +1,15 @@
+[prefix{l}]Version 2.14.1: I didn't do it. You can't prove anything.[prefix{}]
+
+Just a small update/hotfix. There is an error on a script that causes client/server to crash if HOP graphite dust is cooked in the IE blast furnace due to a IE bug I referred to in last update changelog. Sorry about that. 
+
+Other bonus tweaks.
+- Recipe to strip the smithing bonus from steel tool heads so they can be used to make metal press molds. Cook them in blast furnace.
+- Fixed Metal Press hopper recipe.
+- Sped up Railcraft bore 8.5x. It will now chew through TFC rocks at a speed slightly faster than vanilla.
+- Removed OC dissassembler. Had a whole bunch of issues.
+- Made Fishing Rod Stone age. Just string/wool yarn and 2 sticks. Should help early food issues a tiny bit.
+- Fixed recipe for Blue Power circuit table.
+
 [prefix{l}]Version 2.14: Can't wait for update update.[prefix{}]
 
 Well I had hoped to have the pending update for IE to include it this as it adds a few nice tweaks and fixes, but I don't want to wait any longer. So here is an update that adds some nice things.

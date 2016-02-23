@@ -1,25 +1,11 @@
-[prefix{l}]Version 2.14: Can't wait for update update.[prefix{}]
+[prefix{l}]Version 2.14.1: I didn't do it. You can't prove anything.[prefix{}]
 
-Well I had hoped to have the pending update for IE to include it this as it adds a few nice tweaks and fixes, but I don't want to wait any longer. So here is an update that adds some nice things.
+Just a small update/hotfix. There is an error on a script that causes client/server to crash if HOP graphite dust is cooked in the IE blast furnace due to a IE bug I referred to in last update changelog. Sorry about that. 
 
-Updated Mods:
--  Immersive Engineering - There are some BIG changes in Immersive Engineering.  
-  -  Added OpenComputers support. OC can interface with the various machines.
-  -  Engineers Toolbox, which adds some nice extra inventory slots.
-  -  Blast furnace. They introduced a new advanced Blast furnace and nerfed the basic one down below the function of RC blast furnace...so it won't be included in the pack. What you need to do is to break down your current blast furnace and place the blocks in your crafting grid to convert them to the advanced bricks, which can be used to craft the advanced blast furnace. This blast furnace will produce slag, but otherwise behaves like the current version. Be aware Optifine breaks the render of the blast furnace when first formed. Relogging fixes this.
-  -  The recipe for the Arc Furnace multi block has changed, it now requires the adv. Blast Furnace blocks.
-  -  The METAL PRESS. This machine allows you to create a lot of the items you've needed an anvil to create. You won't get any smithing bonuses on any of the tools, but you'll be able to produce hoppers, sheets, blocks, buckets, grills, shears and so much more easily. Just first craft the molds and you are off. All recipes are in NEI. Items that aren't used for recipes will currently get stuck entering the press, so be careful. This will be fixed in the pending update.
-
-- TFC - Build 0.79.28. Fixed sapling growth timer and added no room to grow tooltip. Fixed corner case double chest bug.
--  PneumaticCraft - Bug fixes.
--  Better Foliage - various tweaks that improve textures.
--  OpenBlocks + Libs
--  CofHCore
--  TechNodefirmacraftMod
--  TechNodefirmacraft-resources
--  Terrafirmacraft NEI Plugins
-
-Mod Tweaks/Bug Fixes
-- TFC-TNFC - You can no longer milk a cow with the ultimate bucket.
--  Forestry - Forestry Milk removed, was breaking milk in wooden buckets.
--  HQM Quest lines beyond TFC were removed (they were empty or broken).
+Other bonus tweaks.
+- Recipe to strip the smithing bonus from steel tool heads so they can be used to make metal press molds. Cook them in blast furnace.
+- Fixed Metal Press hopper recipe.
+- Sped up Railcraft bore 8.5x. It will now chew through TFC rocks at a speed slightly faster than vanilla.
+- Removed OC dissassembler. Had a whole bunch of issues.
+- Made Fishing Rod Stone age. Just string/wool yarn and 2 sticks. Should help early food issues a tiny bit.
+- Fixed recipe for Blue Power circuit table.
