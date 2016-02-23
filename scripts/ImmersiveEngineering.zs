@@ -651,7 +651,7 @@ mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold:2>, <o
 //# Shears + Grill + Hopper
     mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.shears>, <ore:plateIron>, <TabulaRasa:RasaItem7:20>, 2400, 1);
     mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:Grill>, <ore:ingotDoubleIron>, <TabulaRasa:RasaItem7:18>, 4800, 2);
-    mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:Hopper>, <terrafirmacraft:MetalBlock2:1>, <TabulaRasa:RasaItem7:19>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:Hopper>, <ore:blockIron>, <TabulaRasa:RasaItem7:19>, 2400, 1);
 
 //# Buckets
     mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Red Steel Bucket Empty>, <ore:plateRedSteel>, <TabulaRasa:RasaItem7:17>, 2400, 1);

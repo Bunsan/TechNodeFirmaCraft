@@ -55,6 +55,7 @@ import minetweaker.item.IItemStack;
 	recipes.remove(<minecraft:stonebrick>);
 	recipes.remove(<minecraft:string>);
 	recipes.remove(<minecraft:minecart>);
+    recipes.remove(<terrafirmacraft:item.fishingRod>);
     
     //# REMOVAL of Non-TFC ingots to nugget recipes to clean up NEI
 	recipes.remove(<minecraft:gold_nugget>);
@@ -183,6 +184,8 @@ import minetweaker.item.IItemStack;
 // ================================================================================
 //#MARKER ADD SHAPED
 
+//# Fishing Rod
+    recipes.addShaped(<terrafirmacraft:item.fishingRod>, [[null, <ore:stickWood>], [<ore:stickWood>, <ore:materialString>]]);
 //# VANILLA+ TO TFC
 
 //# Furnace
