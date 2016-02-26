@@ -298,6 +298,7 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 4, [<ImmersiveEngineer
 	mods.immersiveengineering.Crusher.removeRecipe(<minecraft:blaze_powder>);
 	mods.immersiveengineering.Crusher.removeRecipe(<minecraft:redstone>);
 	mods.immersiveengineering.Crusher.removeRecipe(<minecraft:dye:4>);
+	mods.immersiveengineering.Crusher.removeRecipe(<minecraft:dye:15>);
 	mods.immersiveengineering.Crusher.removeRecipe(<minecraft:quartz>);
 	mods.immersiveengineering.Crusher.removeRecipe(<Railcraft:firestone.raw>);
 	mods.immersiveengineering.Crusher.removeRecipe(<terrafirmacraft:item.Powder:2>);
