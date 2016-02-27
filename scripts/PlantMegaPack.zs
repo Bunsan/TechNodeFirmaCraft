@@ -128,6 +128,7 @@ import minetweaker.item.IItemStack;
 // ================================================================================
 //#ADD SHAPELESS
 	recipes.addShapeless(<terrafirmacraft:item.stick>, [<plantmegapack:groundcoverTwig>]);
+    recipes.addShapeless(<minecraft:stick>, [<terrafirmacraft:item.stick>, <ore:itemKnife>]);
 
 // ================================================================================
 //#ADD SHAPED

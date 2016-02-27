@@ -30,7 +30,6 @@
 	furnace.addRecipe(<terrafirmacraft:item.Copper Ingot>, <ore:oreCopper>);
 	furnace.addRecipe(<terrafirmacraft:item.Gold Ingot>, <ore:oreGold>);
 	furnace.addRecipe(<terrafirmacraft:item.Platinum Ingot>, <ore:orePlatinum>);
-	furnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, <ore:oreIron>);
 	furnace.addRecipe(<terrafirmacraft:item.Silver Ingot>, <ore:oreSilver>);
 	furnace.addRecipe(<terrafirmacraft:item.Tin Ingot>, <ore:oreTin>);
 	furnace.addRecipe(<terrafirmacraft:item.Lead Ingot>, <ore:oreLead>);

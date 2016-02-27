@@ -312,11 +312,7 @@ case3 {
           [fenceIron, "oc:case2", fenceIron]
           [gemDiamond, "oc:materialCircuitBoardPrinted", gemDiamond]]
 }
-disassembler {
-  input: [["oc:materialCU", paneGlass, "oc:analyzer"]
-          [craftingPiston, craftingToolHardHammer, obsidian]
-          [plateIron, bucketLava, plateIron]]
-}
+disassembler = false
 diskDrive {
   input: [[plateIron, "oc:circuitChip1", plateIron]
           [craftingPiston, stickWood, ""]
