@@ -22,7 +22,7 @@
 // ================================================================================
 //#ADD SHAPELESS
 
-    recipes.addShapeless(<JABBA:hammer>, [<terrafirmacraft:item.Steel Hammer>, <JABBA:barrel>]);
+    recipes.addShapeless(<JABBA:hammer>, [<terrafirmacraft:item.Steel Hammer>.noReturn().onlyDamageAtMost(1), <JABBA:barrel>]);
 
 // ================================================================================
 //#ADD SHAPED

@@ -300,19 +300,15 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 4, [<ImmersiveEngineer
 	mods.immersiveengineering.Crusher.removeRecipe(<minecraft:dye:4>);
 	mods.immersiveengineering.Crusher.removeRecipe(<minecraft:dye:15>);
 	mods.immersiveengineering.Crusher.removeRecipe(<minecraft:quartz>);
-	mods.immersiveengineering.Crusher.removeRecipe(<Railcraft:firestone.raw>);
 	mods.immersiveengineering.Crusher.removeRecipe(<terrafirmacraft:item.Powder:2>);
 	mods.immersiveengineering.Crusher.removeRecipe(<terrafirmacraft:item.Powder:1>);
 	mods.immersiveengineering.Crusher.removeRecipe(<Forestry:apatite>);
-	mods.immersiveengineering.Crusher.removeRecipe(<Railcraft:dust:1>);
-	mods.immersiveengineering.Crusher.removeRecipe(<Railcraft:dust:2>);
     mods.immersiveengineering.Crusher.removeRecipe(<minecraft:glowstone_dust>);
     mods.immersiveengineering.Crusher.removeRecipe(<ImmersiveEngineering:metal:18>);
     mods.immersiveengineering.Crusher.removeRecipe(<minecraft:string>);
     mods.immersiveengineering.Crusher.removeRecipe(<terrafirmacraft:item.Ore:33>);
     mods.immersiveengineering.Crusher.removeRecipe(<terrafirmacraft:item.Powder:6>);
     mods.immersiveengineering.Crusher.removeRecipe(<Mekanism:OtherDust>);
-    mods.immersiveengineering.Crusher.removeRecipe(<Railcraft:dust:3>);
     mods.immersiveengineering.Crusher.removeRecipe(<terrafirmacraft:item.Powder:3>);
     mods.immersiveengineering.Crusher.removeRecipe(<terrafirmacraft:item.Powder:4>);
     
@@ -393,15 +389,20 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 4, [<ImmersiveEngineer
 //Fermenter
 //#Removal
 	//OutputStack
-	//mods.immersiveengineering.Fermenter.removeItemRecipe(<minecraft:blaze_powder>);
-	//OutputFluid
-	//mods.immersiveengineering.Fermenter.removeFluidRecipe(<liquid:ethanol>);
+	//mods.immersiveengineering.Fermenter.removeItemRecipe(<minecraft:apple>);
+	//mods.immersiveengineering.Fermenter.removeItemRecipe(<minecraft:reeds>);
+	//mods.immersiveengineering.Fermenter.removeItemRecipe(<minecraft:melon>);
+	//mods.immersiveengineering.Fermenter.removeItemRecipe(<minecraft:potato>);
+
+    //OutputFluid
+	mods.immersiveengineering.Fermenter.removeFluidRecipe(<liquid:ethanol>);
 //#Addition
 	//OutputStack, OutputFluid, InputStack, Time in Ticks
-	mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 80, <terrafirmacraft:item.Reeds> * 9, 80);
-	mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <Forestry:fruits:3>, 80);
-	mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <Forestry:fruits:4>, 120);
-	mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <Forestry:fruits:5>, 120);
+	mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 40, <terrafirmacraft:item.Reeds>, 80);
+	mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 120, <Forestry:fruits:3>, 80);
+	mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 180, <Forestry:fruits:4>, 80);
+	mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 240, <Forestry:fruits:6>, 80);
+	mods.immersiveengineering.Fermenter.addRecipe(null, <liquid:ethanol> * 80, <Forestry:fruits:5>, 80);
 
 //Refinery
 //#Removal
@@ -414,11 +415,16 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 4, [<ImmersiveEngineer
 //Squeezer
 //#Removal
 	//OutputStack
+	//mods.immersiveengineering.Squeezer.removeItemRecipe(<minecraft:wheat_seeds>);
+    //mods.immersiveengineering.Squeezer.removeItemRecipe(<minecraft:pumpkin_seeds>);
 	//mods.immersiveengineering.Squeezer.removeItemRecipe(<minecraft:melon_seeds>);
+	//mods.immersiveengineering.Squeezer.removeItemRecipe(<ImmersiveEngineering:seed>);
+
 	//OutputFluid
-	//mods.immersiveengineering.Squeezer.removeFluidRecipe(<liquid:plantoil>);
+	mods.immersiveengineering.Squeezer.removeFluidRecipe(<liquid:plantoil>);
 //#Addition
 	//OutputStack, OutputFluid, InputStack, Time in Ticks
+    mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 40, <ImmersiveEngineering:seed>, 80);
 	mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 120, <Forestry:fruits>, 80);
 	mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 180, <Forestry:fruits:1>, 80);
 	mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 240, <Forestry:fruits:2>, 80);
@@ -657,3 +663,6 @@ mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold:2>, <o
 //# Buckets
     mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Red Steel Bucket Empty>, <ore:plateRedSteel>, <TabulaRasa:RasaItem7:17>, 2400, 1);
     mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Blue Steel Bucket Empty>, <ore:plateBlueSteel>, <TabulaRasa:RasaItem7:17>, 2400, 1);
+    
+//# Aluminum Sheet
+    mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:metal:32>, <ore:ingotAluminum>, <ImmersiveEngineering:mold>, 4800, 2);

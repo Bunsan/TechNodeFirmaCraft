@@ -11,7 +11,6 @@
 	furnace.remove(<Mekanism:Ingot:4>);
 	furnace.remove(<Mekanism:Ingot:5>);
 	furnace.remove(<Mekanism:Ingot:6>);
-	furnace.remove(<Railcraft:ingot:3>);
     
 // ================================================================================
 //# ADD FURNACE RECIPES
