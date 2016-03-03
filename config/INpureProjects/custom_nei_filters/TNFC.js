@@ -51,103 +51,26 @@ if (FML.isModLoaded("terrafirmacraft")) {
     NEI.override("DecorationsTFC:item.LanternCore.SterlingSilver", [0,1]);
     NEI.override("DecorationsTFC:item.LanternCore.WroughtIron", [0,1]);
     NEI.override("OpenBlocks:tank", [0]);
-
-
+    NEI.override("minecraft:potion", [0]);
+    NEI.override("WR-CBE|Logic:wirelessLogic", [0,1]);
 //Removals
-    NEI.hide("streams:*");
-    NEI.hide("terrafirmacraft:FreshWater");
-    NEI.hide("terrafirmacraft:FreshWaterStationary");
-    NEI.hide("terrafirmacraft:HotWater");
-    NEI.hide("terrafirmacraft:HotWaterStationary");
-    NEI.hide("terrafirmacraft:Lava");
-    NEI.hide("terrafirmacraft:LavaStationary");
-    NEI.hide("terrafirmacraft:SaltWater");
-    NEI.hide("terrafirmacraft:SaltWaterStationary");
-    NEI.hide("minecraft:chainmail_boots");
-    NEI.hide("minecraft:chainmail_chestplate");
-    NEI.hide("minecraft:chainmail_helmet");
-    NEI.hide("minecraft:chainmail_leggings");
-    NEI.hide("minecraft:diamond");
-    NEI.hide("minecraft:diamond_axe");
-    
-    NEI.hide("minecraft:diamond_boots");
-    NEI.hide("minecraft:diamond_chestplate");
-    NEI.hide("minecraft:diamond_helmet");
-    NEI.hide("minecraft:diamond_hoe");
-    NEI.hide("minecraft:diamond_leggings");
-    NEI.hide("minecraft:diamond_ore");
-    NEI.hide("minecraft:diamond_pickaxe");
-    NEI.hide("minecraft:diamond_shovel");
-    NEI.hide("minecraft:diamond_sword");
-    NEI.hide("minecraft:dirt");
-    NEI.hide("minecraft:emerald");
-    NEI.hide("minecraft:emerald_ore");
-    NEI.hide("minecraft:farmland");
-    NEI.hide("minecraft:fence");
-    NEI.hide("minecraft:fence_gate");
-    NEI.hide("minecraft:fishing_rod");
-    NEI.hide("minecraft:flowing_lava");
-    NEI.hide("minecraft:flowing_water");
-    NEI.hide("minecraft:golden_axe");
-    NEI.hide("minecraft:golden_boots");
-    NEI.hide("minecraft:golden_chestplate");
-    NEI.hide("minecraft:golden_helmet");
-    NEI.hide("minecraft:gold_ingot");
-    NEI.hide("minecraft:golden_leggings");
-    NEI.hide("minecraft:gold_ore");
-    NEI.hide("minecraft:golden_pickaxe");
-    NEI.hide("minecraft:golden_shovel");
-    NEI.hide("minecraft:golden_sword");
-    NEI.hide("minecraft:grass");
-    NEI.hide("minecraft:gravel");
-    NEI.hide("minecraft:iron_axe");
-    NEI.hide("minecraft:iron_boots");
-    NEI.hide("minecraft:iron_chestplate");
-    NEI.hide("minecraft:iron_helmet");
-    NEI.hide("minecraft:iron_hoe");
-    NEI.hide("minecraft:iron_ingot");    
-    NEI.hide("minecraft:iron_leggings");
-    NEI.hide("minecraft:iron_ore");
-    NEI.hide("minecraft:iron_pickaxe");
-    NEI.hide("minecraft:iron_shovel");
-    NEI.hide("minecraft:iron_sword");
-    NEI.hide("minecraft:lapis_block");
-    NEI.hide("minecraft:lapis_ore");
-    NEI.hide("minecraft:lava");
-    NEI.hide("minecraft:leather");
-    NEI.hide("minecraft:leather_boots");
-    NEI.hide("minecraft:leather_chestplate");
-    NEI.hide("minecraft:leather_helmet");
-    NEI.hide("minecraft:leather_leggings");
-    NEI.hide("minecraft:wooden_axe");
-    NEI.hide("minecraft:wooden_hoe");
-    NEI.hide("minecraft:wooden_pickaxe");
-    NEI.hide("minecraft:wooden_shovel");
-    NEI.hide("minecraft:wooden_sword");
-    NEI.hide("minecraft:wooden_pickaxe");
-    NEI.hide("Mekanism:OreBlock");
-    NEI.hide("Railcraft:ore");
-    NEI.hide("minecraft:wooden_pickaxe");
-    NEI.hide("minecraft:wooden_pickaxe");
-    NEI.hide("minecraft:wooden_pickaxe");
-    NEI.hide("minecraft:wooden_pickaxe");
-    NEI.hide("minecraft:wooden_pickaxe");    
-    NEI.hide("Forestry:ingotBronze");
-    NEI.hide("Forestry:ingotCopper");
-    NEI.hide("Forestry:ingotTin");
-    NEI.hide("Railcraft:ingot");
-    NEI.hide("Tubestuff:machine:0");
-    NEI.hide("Tubestuff:machine:1");
-    NEI.hide("Tubestuff:machine:2");
-    NEI.hide("Tubestuff:machine:4");
-    NEI.hide("Tubestuff:machine:6");
-    NEI.hide("Tubestuff:machine:8");
-    NEI.hide("Tubestuff:uselessItem");
-    NEI.hide("cuchaz.ships:blockAirRoof");
-    NEI.hide("cuchaz.ships:blockAirWall");
-    NEI.hide("weather2:WeatherMachine");
-    
-    
-
-    
+  NEI.hide("Forestry:leaves");
+  NEI.hide("cuchaz.ships:blockAirRoof");
+  NEI.hide("cuchaz.ships:blockAirWall");
+  NEI.hide("cuchaz.cuchazinteractive:token")
+  NEI.hide("cuchaz.cuchazinteractive:listOfSupporters");
+  NEI.hide("cuchaz.cuchazinteractive:supporterPlaque");
+  NEI.hide("cuchaz.cuchazinteractive:shipPlaque");
+  NEI.hide("WR-CBE|Addons:triangulator");
+  NEI.hide("WR-CBE|Addons:sniffer");
+  NEI.hide("WR-CBE|Addons:empty_map");
+  NEI.hide("WR-CBE|Addons:map");
+  NEI.hide("WR-CBE|Addons:tracker");
+  NEI.hide("WR-CBE|Addons:rep");
+  NEI.hide("WR-CBE|Addons:psniffer");
+  NEI.hide("WR-CBE|Core:blazeTransceiver");
+  NEI.hide("WR-CBE|Core:blazeRecieverDish");
+  NEI.hide("weather2:WeatherMachine");
+  NEI.hide("weather2:WeatherDeflector");
+  NEI.hide("Forestry:ffarm")
 }

@@ -58,12 +58,6 @@ import minetweaker.item.IItemStack;
     recipes.remove(<terrafirmacraft:item.fishingRod>);
     
     //# REMOVAL of Non-TFC ingots to nugget recipes to clean up NEI
-	recipes.remove(<minecraft:gold_nugget>);
-    recipes.remove(<Railcraft:nugget:4>);
-	recipes.remove(<Railcraft:nugget:3>);
-	recipes.remove(<Railcraft:nugget:2>);
-	recipes.remove(<Railcraft:nugget:1>);
-	recipes.remove(<Railcraft:nugget>);
 	recipes.remove(<ImmersiveEngineering:metal:0>);
 	recipes.remove(<ImmersiveEngineering:metal:1>);
 	recipes.remove(<ImmersiveEngineering:metal:2>);
@@ -95,10 +89,6 @@ import minetweaker.item.IItemStack;
 //# REMOVAL of Ingot to Nugget and Ingot to Block Recipes (Replaced with Ore Dictionary Compatible Shapeless Recipes)
 	recipes.remove(<minecraft:gold_ingot>);
 	recipes.remove(<minecraft:iron_ingot>);
-	recipes.remove(<Railcraft:ingot>);
-	recipes.remove(<Railcraft:ingot:2>);
-	recipes.remove(<Railcraft:ingot:1>);
-	recipes.remove(<Railcraft:ingot:3>);
 	recipes.remove(<Forestry:ingotTin>);
 	recipes.remove(<Mekanism:Ingot:1>);
 	recipes.remove(<Mekanism:Ingot:2>);
@@ -224,9 +214,9 @@ import minetweaker.item.IItemStack;
 		}
 
 //# Stone Slabs
-
 	recipes.addShaped(<minecraft:stone_slab> * 3, [[<ore:itemChisel>, null, <ore:itemHammer>], [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>]]);
-
+//# Nether Brick Slabs
+    recipes.addShaped(<minecraft:stone_slab:6> * 3, [[<ore:itemChisel>, null, <ore:itemHammer>], [<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>]]);
 //# Quartz Blocks
 	recipes.addShaped(<minecraft:quartz_block>, [[<ore:gemQuartz>, <terrafirmacraft:item.Mortar>, <ore:gemQuartz>], [<terrafirmacraft:item.Mortar>, <terrafirmacraft:item.dyePowder:15>, <terrafirmacraft:item.Mortar>], [<ore:gemQuartz>, <terrafirmacraft:item.Mortar>, <ore:gemQuartz>]]);
 	recipes.addShapedMirrored(<minecraft:stone_slab:7> * 3, [[<ore:itemChisel>, null, <ore:itemHammer>], [<minecraft:quartz_block>, <minecraft:quartz_block>, <minecraft:quartz_block>]]);

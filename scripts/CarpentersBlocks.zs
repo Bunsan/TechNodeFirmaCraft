@@ -11,8 +11,8 @@
 
 // ================================================================================
 //#ADD SHAPELESS
-    recipes.addShapeless(<CarpentersBlocks:itemCarpentersChisel>, [<terrafirmacraft:item.Copper Chisel>, <CarpentersBlocks:blockCarpentersBlock>]);
-	recipes.addShapeless(<CarpentersBlocks:itemCarpentersHammer>, [<terrafirmacraft:item.Copper Hammer>, <CarpentersBlocks:blockCarpentersBlock>]);
+    recipes.addShapeless(<CarpentersBlocks:itemCarpentersChisel>, [<terrafirmacraft:item.Copper Chisel>.noReturn().onlyDamageAtMost(1), <CarpentersBlocks:blockCarpentersBlock>]);
+	recipes.addShapeless(<CarpentersBlocks:itemCarpentersHammer>, [<terrafirmacraft:item.Copper Hammer>.noReturn().onlyDamageAtMost(1), <CarpentersBlocks:blockCarpentersBlock>]);
     
 // ================================================================================
 //#ADD SHAPED

@@ -1,11 +1,47 @@
-[prefix{l}]Version 2.14.1: I didn't do it. You can't prove anything.[prefix{}]
+[prefix{l}]Version 2.15: Mr. Bear meet Railgun. Railgun meet....where'd he go?[prefix{}]
 
-Just a small update/hotfix. There is an error on a script that causes client/server to crash if HOP graphite dust is cooked in the IE blast furnace due to a IE bug I referred to in last update changelog. Sorry about that. 
+This week is another quality of life update. Lots of mods got some bug fixes and added some nice integration. We did some cleaning up of the pack and NEI. Bit of a long changelog as some of the changes need some explanation.
 
-Other bonus tweaks.
-- Recipe to strip the smithing bonus from steel tool heads so they can be used to make metal press molds. Cook them in blast furnace.
-- Fixed Metal Press hopper recipe.
-- Sped up Railcraft bore 8.5x. It will now chew through TFC rocks at a speed slightly faster than vanilla.
-- Removed OC dissassembler. Had a whole bunch of issues.
-- Made Fishing Rod Stone age. Just string/wool yarn and 2 sticks. Should help early food issues a tiny bit.
-- Fixed recipe for Blue Power circuit table.
+Mod Updates
+
+TFC: (TL;DR food catching up on decay will take decay for the full amount of time up to 1 month.)
+- The big change is another fix for decay. A bug was found that caused the decay protection for food to not work. Basically the idea of this was to limit how much decay food could take when catching up. So players who had not logged in for a long time and whose chunks hadn't been loaded would not have all their food rot to nothing when they logged in. Instead it would give the food one days worth of decay. This setting was at 24 in game days, no matter the year length. If you were less than those 24 in game days you'd have the full decay. So that didn't work and was decaying the food for the full amount. 
+- We've fixed this and changed the mechanic. We thought it was unfair for players who were offline for 23.99 in game days taking nearly 24 days (i.e. all their food pretty much went poof.) of decay instead of 1 if they had waited an extra 5 minutes. Now food will take the full amount of decay up to 1 month. This scales by year length as decay scales to year length (something I only just learned). So 8, 16 and 30 days for 96, 192 and 360 days respectively. We feel this is a fair length of time, but you are free to adjust this in your TFCConfig.cfg file.
+- NEI hiding has been turned back on. This will hide all unnecessary TFC items. Hiding of unnecessary vanilla items is now handled by TNFC-mod.
+
+Immersive Engineering:
+- This update fixes a number of crashes, most notably the NEI "usage" crash.
+- This update also added a bunch of new things, such as barrels auto-outputting from bottom. Railgun does TFC level of damage (won't drop meat though). Much more. See IE changelog.
+- Removed slag secondary output from many Blast Furnace recipes as it no longer crashes server.
+- Fixed crusher giving vanilla bonemeal.
+- Fixed Aluminum Plate recipe.
+
+TNFC-mod:
+- Now hides unnecessary items from NEI for vanilla and many mods. There is a config option to turn this NEI hiding off. This cleans up NEI and hides items, such as Plant Mega Pack food, which were confusing players.
+
+Blue Power:
+- Removed items and blocks that aren't used in pack.
+
+Forestry: 
+- Fixed issue with buckets not working properly for Forestry fluids.
+- Fixed Squeezer recipes displaying in NEI properly.
+- Added support for Plant Mega Pack. Flowers now recognized by bees. Some items have uses in machines (We did not remove all the recipes involving unavailable PMP items).
+- Added modtweaker script to add Phosphor Squeezer recipes for TFC lava (turns out that was fixed).
+
+Mods Added:
+
+- Treecaptitator. This only effects forestry and vanilla trees. Leaves instantly decay.
+
+Mod Tweaks:
+
+Impure:
+- Configs adjusted as TNFC-mod now hides most items.
+ 
+Railcraft:
+- Disabled items and blocks that aren't used in pack.
+
+Inventory Tweaks:
+- Disabled Move all items Ctrl+Shift shortcut as this caused crash which could clear skill points and spawn protection in SSP.
+
+General Scripts:
+- Recipes for Carpenter's blocks tools and FMP saws fixed to consume the tool as intended.

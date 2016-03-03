@@ -229,10 +229,19 @@ for i in meta {
 // Squeezer Recipes
 //#Removal *Not Working
 	//InputStack #ATTENTION : OutputFluid, currently
-
+    mods.forestry.Squeezer.removeRecipe(<liquid:lava>, [<Forestry:phosphor> * 2, <minecraft:dirt>]);
+    mods.forestry.Squeezer.removeRecipe(<liquid:lava>, [<Forestry:phosphor> * 2, <minecraft:sand:*>]);
+    mods.forestry.Squeezer.removeRecipe(<liquid:lava>, [<Forestry:phosphor> * 2, <minecraft:cobblestone>]);
 //#Addition* Not Working
 	//Time recipe requires (Ticks), InputArray, OutputFluid, OutputStack, Chance for OutputStack //The last two are optional
-
+    mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:Sand:*>]);
+    mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:Sand2:*>]);
+    mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:Dirt:*>]);
+    mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:Dirt2:*>]);
+    mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:StoneIgInCobble:*>]);
+    mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:StoneIgExCobble:*>]);
+    mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:StoneMMCobble:*>]);
+    mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:StoneSedCobble:*>]);
 // Still Recipes
 //#Removal
 	//OutputFluid, InputFluid
@@ -248,4 +257,5 @@ for i in meta {
 	//mods.forestry.ThermionicFabricator.removeCasts(<Forestry:stained>);
 //#Addition * Not Working
 	//InputStack, Melting Point, Amount of Molten Glass //Melting Point of 1000 for default Glass, 3000 for default Sand; Ouput of 1000mB for Sand & Glass, 375mB for Glass Panes
+    //mods.forestry.ThermionicFabricator.addSmelting(1000, <terrafirmacraft:Sand:*>, 10);
 	//InputFluid, InputArray, InputStack Cast, OutputStack //InputFluid has to be Molten Glass
