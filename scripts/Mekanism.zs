@@ -247,6 +247,7 @@ import minetweaker.data.IData;
 //Chemical Injection
 //#Removal
 	mods.mekanism.chemical.Injection.removeRecipe(<minecraft:clay>);
+	mods.mekanism.chemical.Injection.removeRecipe(<Mekanism:OtherDust:3>);
 //#Addition
 	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:2>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem3:3> * 4);
 	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:7>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4:1> * 4);
