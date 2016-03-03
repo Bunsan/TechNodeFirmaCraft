@@ -1,7 +1,7 @@
     <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>2.14.1</version>
+        <version>2.15</version>
         <minecraft>1.7.10</minecraft>
         <caseallfiles>lower</caseallfiles>
         <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
@@ -14,9 +14,9 @@
       <folder base="root" target="resources%s%" />
     </delete>
     
-    <!--<messages>
-        <update><![CDATA[You can safely ignore Forestry Milk warning.]]></update>
-    </messages> -->
+    <messages>
+        <update><![CDATA[You can safely ignore Railcraft and BluePower missing items warning. Item cleanup, none of these items were ever used in pack.]]></update>
+    </messages>
     
     <libraries>
         <library url="packs/TechNodefirmacraft/files/forge/launchwrapper-1.12.jar" download="server" file="launchwrapper-1.12.jar" md5="934b2d91c7c5be4a49577c9e6b40e8da" server="net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar" />
@@ -58,16 +58,16 @@
 <!-- Base Scripts -->
         <!-- Marquee Mods -->
         <mod 
-        name="TerraFirmaCraft" version="0.79.28.tnfc.dc5b554" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.28.tnfc.dc5b554.jar" file="[1.7.10]TerraFirmaCraft-0.79.28.tnfc.dc5b554.jar" md5="fca8dfa8a31c6e73c9c422c4bec2cb6a" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="TerraFirmaCraft" version="0.79.28.tnfc.9430221" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.28.tnfc.9430221.jar" file="[1.7.10]TerraFirmaCraft-0.79.28.tnfc.9430221.jar" md5="dd671841229fc7855759b7921be2aa88" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod 
-        name="TechNodefirmacraft" version="2.14.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/1.7.10-TechNodefirmacraft-2.14.0.jar" file="1.7.10-TechNodefirmacraft-2.14.0.jar" md5="8dd05f2b4d761482bd15fee1ac5ae98a" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="AnodeCathode, Bunsan" optional="no" description="Custom integration and features for TechNodefirmacraft modpack" client="yes" server="yes" serveroptional="no"
+        name="TechNodefirmacraft" version="2.15.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/1.7.10-TechNodefirmacraft-2.15.0.jar" file="1.7.10-TechNodefirmacraft-2.15.0.jar" md5="5d1dc34aa63555c112f673445d6beb21" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="AnodeCathode, Bunsan" optional="no" description="Custom integration and features for TechNodefirmacraft modpack" client="yes" server="yes" serveroptional="no"
         />
         <mod 
         name="Railcraft" version="9.8.0.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/Railcraft_1.7.10-9.8.0.0.jar" file="Railcraft_1.7.10-9.8.0.0.jar" md5="1f5cf3ab63f80d2f2b627ff43e9e7cca" download="server" type="mods" website="http://railcraft.info/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/mc-mods/51195-railcraft&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=CovertJaguar%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_return=http://m" authors="CovertJaguar" description="Redefine your rails" client="yes" server="yes" serveroptional="no" 
         />
         <mod
-        name="Forestry for Minecraft" version="4.2.4.0.tnfc" url="packs/TechNodefirmacraft/files/1.7.10Mods/forestry_1.7.10-4.2.4.0.tnfc.jar" file="forestry_1.7.10-4.2.4.0.tnfc.jar" md5="cdffefcf9dc17c3c550bffdf172c078a" download="server" type="mods" website="http://forestry.sengir.net/" authors="SirSengir" description="Trees, bees and more." client="yes" optional="no" server="yes" serveroptional="no"
+        name="Forestry for Minecraft" version="4.2.9.0.tnfc" url="packs/TechNodefirmacraft/files/1.7.10Mods/forestry_1.7.10-4.2.9.0.tnfc.jar" file="forestry_1.7.10-4.2.9.0.tnfc.jar" md5="be3673d995b8e66a8c463df4799dd75e" download="server" type="mods" website="http://forestry.sengir.net/" authors="SirSengir" description="Trees, bees and more." client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod
         name="PneumaticCraft" version="1.12.6-149" url="packs/TechNodefirmacraft/files/1.7.10Mods/PneumaticCraft-1.7.10-1.12.6-149-universal.jar" file="PneumaticCraft-1.7.10-1.12.6-149-universal.jar" md5="8cb01ba3324a907fc6c6112b9a43e198" download="server" type="mods" website="http://www.minemaarten.com" authors="MineMaarten" description="A technical mod all about pneumatics!" client="yes" optional="no" server="yes" serveroptional="no"
@@ -82,7 +82,7 @@
         name="Steve&apos;s Workshop" version="0.5.1" url="packs/TechNodefirmacraft/files/1.7.10Mods/StevesWorkshop-0.5.1.jar" file="StevesWorkshop-0.5.1.jar" md5="466afe4bd2f08913d45a181e0635235a" download="server" type="mods" website="http://www.curseforge.com/projects/223173/" authors="Vswe" description="Adds a modular production table for crafting and smelting" 
         />
         <mod 
-        name="Immersive Engineering" version="0.7.1.2" url="packs/TechNodefirmacraft/files/1.7.10Mods/ImmersiveEngineering-0.7.1.2.jar" file="ImmersiveEngineering-0.7.1.2.jar" md5="fedbd3ce92854a68cf410a7ba528fa53" download="server" type="mods" website="http://www.curseforge.com/projects/231951/" authors="BluSunrize,Damien A.W. Hazard" description="A retro-futuristic tech mod!" client="yes" optional="no" server="yes" serveroptional="no"
+        name="Immersive Engineering" version="0.7.2" url="packs/TechNodefirmacraft/files/1.7.10Mods/ImmersiveEngineering-0.7.2.jar" file="ImmersiveEngineering-0.7.2.jar" md5="01389a1423a9628a8eca0d2788c3e2c7" download="server" type="mods" website="http://www.curseforge.com/projects/231951/" authors="BluSunrize,Damien A.W. Hazard" description="A retro-futuristic tech mod!" client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod
         name="Mekanism" version="8.1.7_tnfc_96aa533" url="packs/TechNodefirmacraft/files/1.7.10Mods/Mekanism-1.7.10-8.1.7_tnfc_96aa533.jar" file="Mekanism-1.7.10-8.1.7_tnfc_96aa533.jar" md5="8afb109f35265079c4ffc67bdf031250" download="server" type="mods" website="http://universalelectricity.com/mekanism" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=PQH6NGL2C4QWY" authors="aidancbrady" description="Energy, Armor, Tools, Weapons, Machines, Magic." client="yes" optional="no" server="yes" serveroptional="no"
@@ -157,7 +157,7 @@
         name="PneumaticCrap" version="1.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/1.7.10-pneumaticCrap-1.0.0 .jar" file="1.7.10-pneumaticCrap-1.0.0 .jar" md5="c01541b301a224d1932a630a28713c2e" download="server" type="mods" website="https://github.com/AnodeCathode/PneumaticCrap" description="Extra items for PneumaticCraft" authors="AnodeCathode" client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod
-        name="Blue Power" version="0.2.-tnfc-83c529a" url="packs/TechNodefirmacraft/files/1.7.10Mods/BluePower-1.7.10-0.2.-tnfc.83c529a.jar" file="BluePower-1.7.10-0.2.-tnfc.83c529a.jar" md5="6cc282584747b23c2ebb7ff5ff147845" download="server" type="mods" website="http://minecraft.curseforge.com/mc-mods/223099-blue-power" authors="Quetzi,Zness,MineMaarten,K4Unl,Amadornes" description="Work in progress mod aiming to reintroduce some missing &apos;glue&apos; blocks from prior versions of modded Minecraft" 
+        name="Blue Power" version="0.2.-tnfc-354c8dd" url="packs/TechNodefirmacraft/files/1.7.10Mods/BluePower-1.7.10-0.2.-tnfc-354c8dd.jar" file="BluePower-1.7.10-0.2.-tnfc-354c8dd.jar" md5="966860292be085caa65ac8add780cf85" download="server" type="mods" website="http://minecraft.curseforge.com/mc-mods/223099-blue-power" authors="Quetzi,Zness,MineMaarten,K4Unl,Amadornes" description="Work in progress mod aiming to reintroduce some missing &apos;glue&apos; blocks from prior versions of modded Minecraft" 
         />
         <mod
         name="QmunityLib" version="0.1.114" url="packs/TechNodefirmacraft/files/1.7.10Mods/QmunityLib-1.7.10-0.1.114-universal.jar" file="QmunityLib-1.7.10-0.1.114-universal.jar" md5="decfcdda0fbaa80981d06c0bb00df5d1" download="server" type="mods" website="http://www.curseforge.com/projects/224785/" authors="quetzi,amadornes,K4Unl,MineMaarten" description="Library required by several Qmunity mods" 
@@ -165,7 +165,7 @@
         
         <!-- Pack Customization Mods -->
         <mod
-        name="Scripts" version="base_2.14.1" url="packs/TechNodefirmacraft/files/extract/scripts_base_2.14.1.zip" file="scripts_base_2.14.1.zip" md5="46750e740a70036dd82db80a28f89ff8" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="Scripts" version="base_2.15" url="packs/TechNodefirmacraft/files/extract/scripts_2.15.zip" file="scripts_2.15.zip" md5="e452b5885f3e0056574c40803a418da7" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod
         name="MineTweaker 3" version="3.0.10B" url="packs/TechNodefirmacraft/files/1.7.10Mods/MineTweaker3-1.7.10-3.0.10B.jar" file="MineTweaker3-1.7.10-3.0.10B.jar" md5="884933d1b933e0bd2f93293201569f13" download="server" type="mods" website="http://minetweaker3.powerofbytes.com" authors="Stan Hebben" description="Customize your minecraft experience!" client="yes" optional="no" server="yes" serveroptional="no"
@@ -194,9 +194,13 @@
         <mod 
         name="Resource Loader" version="1.2" url="packs/TechNodefirmacraft/files/1.7.10Mods/ResourceLoader-1.2.jar" file="ResourceLoader-1.2.jar" md5="39facaa73da49b026ee2009dbdfcdccc" download="server" type="mods" website="http://www.curseforge.com/projects/226447/" authors="lumien" description="Allows mod pack creators / users to add their own custom textures to minecrafts resources without making a resource pack." client="yes" optional="no" server="no"
         />
+        <mod 
+        name="Treecapitator" version="2.0.4" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]Treecapitator-universal-2.0.4.jar" file="[1.7.10]Treecapitator-universal-2.0.4.jar" md5="c9a8f77274a63745d2d0e1f026dffdbc" download="server" type="mods" website="http://www.minecraftforum.net/topic/1009577-/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/treecapitator?gameCategorySlug=mc-mods&amp;projectID=59216&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=briefcase.speakers%40gmail.com&amp;bn=PP-DonationsBF:btn_do" authors="DaftPVF,bspkrs" description="Allows you to chop down entire trees by breaking a single log." client="yes" optional="no" server="yes" serveroptional="no"
+        />
         <mod
         name="Hardcore Questing Mode" version="4.4.4" url="packs/TechNodefirmacraft/files/1.7.10Mods/HQM-The Journey-4.4.4.jar" file="HQM-The Journey-4.4.4.jar" md5="3c2585ecfb2841ba07d4fe95c5209a04" download="server" type="mods" website="http://hardcorequest.com/" authors="Vswe,Lorddusk,Newcastlegeek" description="This mod will add Hardcore mode with extra lives. If you use up your lives, your world will be deleted or you will be banned." client="yes" optional="yes" server="yes" serveroptional="yes" library="yes" depends="ScriptHQM"
         />
+
         <!-- Utilities and Core libraries. -->
         <mod
         name="Aroma1997Core" version="1.0.2.16" url="packs/TechNodefirmacraft/files/1.7.10Mods/Aroma1997Core-1.7.10-1.0.2.16.jar" file="Aroma1997Core-1.7.10-1.0.2.16.jar" md5="acadd2e64f5621f0e87f25a02c3dda14" download="server" type="mods" website="http://www.minecraftforum.net/topic/1679684-" donation="https://www.paypal.com/cgi-bin/webscr?hosted_button_id=JUN8L67CPHTRC&amp;item_name=Aroma1997s+Mods&amp;cmd=_s-xclick" authors="Aroma1997, Schillaa" description="This is basically a library used by most my other mods." client="yes" optional="no" server="yes" serveroptional="no"
@@ -257,13 +261,13 @@
         />
          <!-- Days per Year Options -->
         <mod
-        name="360 Days (Recommended)" version="2.12" url="packs/TechNodefirmacraft/files/extract/360justTFCconfig.2.12.zip.zip" file="360justTFCconfig.2.12.zip.zip" md5="35beba77fed94213d43d279a4dd890f6" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="TFC config for length of year" client="yes" optional="yes" server="yes" serveroptional="yes" colour="green" recommended="yes" group="yearlength"
+        name="360 Days (Recommended)" version="2.15" url="packs/TechNodefirmacraft/files/extract/360justTFCconfig.2.15.zip" file="360justTFCconfig.2.15.zip" md5="abb41ef710a6ad216eb754b43c744a9f" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="TFC config for length of year" client="yes" optional="yes" server="yes" serveroptional="yes" colour="green" recommended="yes" group="yearlength"
         />
         <mod
-        name="192 Days(Old Default for Old Worlds)" version="2.12" url="packs/TechNodefirmacraft/files/extract/192justTFCconfig.2.12.zip" file="192justTFCconfig.2.12.zip" md5="9e8fdb309fdb27b280b48f1394d31a05" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="TFC config for length of year" client="yes" optional="yes" server="yes" serveroptional="yes" colour="red" recommended="no" group="yearlength"
+        name="192 Days(Old Default for Old Worlds)" version="2.15" url="packs/TechNodefirmacraft/files/extract/192justTFCconfig.2.15.zip" file="192justTFCconfig.2.15.zip" md5="ce2bcd8cedd84645c9840cee13562dee" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="TFC config for length of year" client="yes" optional="yes" server="yes" serveroptional="yes" colour="red" recommended="no" group="yearlength"
         />
         <mod
-        name="96 Days(Default for SSP)" version="2.12" url="packs/TechNodefirmacraft/files/extract/96justTFCconfig_2.12.zip" file="96justTFCconfig_2.12.zip" md5="9ffb87e3514f28aecd27ced2fc22c9cb" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="TFC config for length of year" client="yes" optional="yes" server="yes" serveroptional="yes" colour="red" recommended="no" group="yearlength"
+        name="96 Days(Default for SSP)" version="2.15" url="packs/TechNodefirmacraft/files/extract/96justTFCconfig_2.15.zip" file="96justTFCconfig_2.15.zip" md5="7a8a5886b7d3c6f5881eb139697d8175" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="TFC config for length of year" client="yes" optional="yes" server="yes" serveroptional="yes" colour="red" recommended="no" group="yearlength"
         />
         <!-- Optional Mods -->
         <mod
@@ -276,7 +280,7 @@
         name="AromaBackup" version="0.0.0.6" url="packs/TechNodefirmacraft/files/1.7.10Mods/AromaBackup-1.7.10-0.0.0.6.jar" file="AromaBackup-1.7.10-0.0.0.6.jar" md5="57f79ae6b07826cd4f491be4307fefe7" download="server" type="mods" website="http://www.minecraftforum.net/topic/1679684-" authors="Aroma1997" description="This is a small Backup mod I created. All it does: Backups. It also works on clients!" colour="purple" client="yes" optional="yes" server="yes" serveroptional="yes"
         />
         <mod
-        name="MCDiscord client" version="2.0.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/mcdiscord-2.0.0.jar" file="mcdiscord-2.0.0.jar" md5="09c19f6ca812c2b8756b919306c7bb8c" download="server" type="mods" website="https://github.com/CannibalVox/McDiscord/releases" description="Discord VOIP client for MC" colour="yellow" client="yes" optional="yes" server="yes" serveroptional="yes" 
+        name="MCDiscord client" version="2.0.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/mcdiscord-2.0.0.jar" file="mcdiscord-2.0.0.jar" md5="09c19f6ca812c2b8756b919306c7bb8c" download="server" type="mods" website="https://github.com/CannibalVox/McDiscord/releases" description="Discord VOIP client for MC" recommended="no" colour="yellow" client="yes" optional="yes" server="yes" serveroptional="yes" 
         />
         <mod 
         name="WorldBorder" version="1.0.2" url="packs/TechNodefirmacraft/files/1.7.10Mods/WorldBorder-Forge-1.0.2.jar" file="WorldBorder-Forge-1.0.2.jar" md5="3e0d73b8554dd3cde7d37a913c8e92c5" download="server" type="mods" website="http://www.curse.com/mc-mods/minecraft/233231-worldborder-forge" authors="Brettflan,RoyCurtis" description="Efficient, feature-rich mod for limiting the size of your worlds" colour="purple" client="no" server="yes" serveroptional="yes" recommended="yes"
@@ -376,7 +380,7 @@
         name="Resource Loaders Folder" version="2.10" url="packs/TechNodefirmacraft/files/extract/resources_2.10.zip" file="resources_2.10.zip" md5="33a24c409fe81854c0d3cb4077410357" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="no"
         /> 
         <mod 
-        name="IGWModData" version="2.14.1" url="packs/TechNodefirmacraft/files/extract/igwmod_2.14.1.zip" file="igwmod_2.14.1.zip" md5="525c05bb10091f66670f135dc8da3354" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
+        name="IGWModData" version="2.15"  url="packs/TechNodefirmacraft/files/extract/igwmod_2.15.zip" file="igwmod_2.15.zip" md5="463655268718fc7f300846b309bfb4aa" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
         />
     </mods>
 </version>
