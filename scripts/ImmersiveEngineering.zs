@@ -70,7 +70,16 @@ import minetweaker.item.IIngredient;
     recipes.remove(<ImmersiveEngineering:mold>);
     recipes.remove(<ImmersiveEngineering:mold:1>);
     recipes.remove(<ImmersiveEngineering:mold:2>);
-    
+    recipes.remove(<ImmersiveEngineering:metal:21>);
+    recipes.remove(<ImmersiveEngineering:metal:22>);
+    recipes.remove(<ImmersiveEngineering:metal:23>);
+    recipes.remove(<ImmersiveEngineering:metal:24>);
+    recipes.remove(<ImmersiveEngineering:metal:25>);
+    recipes.remove(<ImmersiveEngineering:metal:26>);
+    recipes.remove(<ImmersiveEngineering:metal:27>);
+    recipes.remove(<ImmersiveEngineering:metal:28>);
+    recipes.remove(<ImmersiveEngineering:metal:29>);
+
 // ================================================================================
 //#ADD Furnace Recipes
 	furnace.addRecipe(<ImmersiveEngineering:stoneDecoration>, <customitems:uncured_hempcrete>);
@@ -240,17 +249,17 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 4, [<ImmersiveEngineer
 		for item in <ore:oreIron>.items {
 	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Pig Iron Ingot>, item, 598, <ImmersiveEngineering:material:13>);
 		}
-	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Steel Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>, 598, <ImmersiveEngineering:material:13>);
-	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Pig Iron Ingot>, <Mekanism:Dust>, 298, <ImmersiveEngineering:material:13>);
+	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Steel Ingot>, <terrafirmacraft:item.Wrought Iron Ingot>, 598);
+	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Pig Iron Ingot>, <Mekanism:Dust>, 298);
 	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, <Mekanism:DirtyDust>, 298, <ImmersiveEngineering:material:13>);
-	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:MetalBlock2:1>, <terrafirmacraft:MetalBlock:9>, 4798, <ImmersiveEngineering:material:13>);
+	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:MetalBlock2:1>, <terrafirmacraft:MetalBlock:9>, 4798);
 	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <TabulaRasa:RasaItem1:13>, 1198, <ImmersiveEngineering:material:13>);
 	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Blue Steel Ingot>, <TabulaRasa:RasaItem1:14>, 1198, <ImmersiveEngineering:material:13>);
 	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Red Steel Ingot>, <TabulaRasa:RasaItem1:15>, 1198, <ImmersiveEngineering:material:13>);
 	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Weak Steel Ingot>, <TabulaRasa:RasaItem1:10>, 1198, <ImmersiveEngineering:material:13>);
 	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Weak Blue Steel Ingot>, <TabulaRasa:RasaItem1:11>, 1198, <ImmersiveEngineering:material:13>);
 	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Weak Red Steel Ingot>, <TabulaRasa:RasaItem1:12>, 1198, <ImmersiveEngineering:material:13>);
-	mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:metal:20>, <ImmersiveEngineering:metal:19>, 598, <ImmersiveEngineering:material:13>);
+	mods.immersiveengineering.BlastFurnace.addRecipe(<ImmersiveEngineering:metal:20>, <ImmersiveEngineering:metal:19>, 598);
     
 //# Clean NBT data off Tool Heads for Molds
     mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Steel Pick Head>, <terrafirmacraft:item.Steel Pick Head>, 150, <ImmersiveEngineering:material:13>);
@@ -428,7 +437,7 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 4, [<ImmersiveEngineer
 	mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 120, <Forestry:fruits>, 80);
 	mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 180, <Forestry:fruits:1>, 80);
 	mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 240, <Forestry:fruits:2>, 80);
-	mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:lava> * 1000, <Forestry:phosphor>, 100);
+	mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:lavatfc> * 1000, <Forestry:phosphor>, 100);
 
 //ArcFurnace
 //#Removal
