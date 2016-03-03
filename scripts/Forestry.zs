@@ -234,15 +234,14 @@ for i in meta {
     mods.forestry.Squeezer.removeRecipe(<liquid:lava>, [<Forestry:phosphor> * 2, <minecraft:cobblestone>]);
 //#Addition* Not Working
 	//Time recipe requires (Ticks), InputArray, OutputFluid, OutputStack, Chance for OutputStack //The last two are optional
-    mods.forestry.Squeezer.addRecipe(<liquid:ethanol> * 1600, 250, [<Forestry:phosphor>, <terrafirmacraft:Sand:*>]);
-    mods.forestry.Squeezer.addRecipe(<liquid:lava> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:Sand2:*>]);
-    mods.forestry.Squeezer.addRecipe(<liquid:lava> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:Dirt:*>]);
-    mods.forestry.Squeezer.addRecipe(<liquid:lava> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:Dirt2:*>]);
-    mods.forestry.Squeezer.addRecipe(<liquid:lava> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:StoneIgInCobble:*>]);
-    mods.forestry.Squeezer.addRecipe(<liquid:lava> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:StoneIgExCobble:*>]);
-    mods.forestry.Squeezer.addRecipe(<liquid:lava> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:StoneMMCobble:*>]);
-    mods.forestry.Squeezer.addRecipe(<liquid:lava> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:StoneSedCobble:*>]);
-        mods.forestry.Squeezer.addRecipe(<liquid:ethanol> * 1000, 100, [<minecraft:planks>]);
+    mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:Sand:*>]);
+    mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:Sand2:*>]);
+    mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:Dirt:*>]);
+    mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:Dirt2:*>]);
+    mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:StoneIgInCobble:*>]);
+    mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:StoneIgExCobble:*>]);
+    mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:StoneMMCobble:*>]);
+    mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:StoneSedCobble:*>]);
 // Still Recipes
 //#Removal
 	//OutputFluid, InputFluid
