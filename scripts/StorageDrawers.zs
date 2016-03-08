@@ -2,7 +2,6 @@
 
 // ================================================================================
 //#REMOVE Recipes
-	recipes.remove(<StorageDrawers:trim:*>);
 	recipes.remove(<StorageDrawers:fullDrawers1:*>);
     recipes.remove(<StorageDrawers:fullDrawers2:*>);
 	recipes.remove(<StorageDrawers:fullDrawers4:*>);
@@ -17,7 +16,6 @@
     recipes.remove(<StorageDrawers:controller>);    
     recipes.remove(<StorageDrawers:controllerSlave>);    
     recipes.remove(<StorageDrawers:compDrawers>);
-    recipes.remove(<StorageDrawers:tape>);
     recipes.remove(<StorageDrawers:personalKey>);
     recipes.remove(<StorageDrawers:upgradeTemplate>);
     recipes.remove(<StorageDrawers:upgrade:2>);
