@@ -82,6 +82,7 @@ import minetweaker.item.IIngredient;
     recipes.remove(<ImmersiveEngineering:metal:27>);
     recipes.remove(<ImmersiveEngineering:metal:28>);
     recipes.remove(<ImmersiveEngineering:metal:29>);
+    recipes.remove(<ImmersiveEngineering:metalDecoration:8>);
 
 // ================================================================================
 //#ADD Furnace Recipes
@@ -104,6 +105,8 @@ import minetweaker.item.IIngredient;
 // ================================================================================
 //#MARKER ADD SHAPED
 
+//Cable Connector
+    recipes.addShaped(<ImmersiveEngineering:metalDecoration:8> * 4, [[<ImmersiveEngineering:metalDecoration>], [<ore:ingotSteel>]]);
 //# Crate
     recipes.addShaped(<ImmersiveEngineering:woodenDevice:4>, [[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:blockBlueSteel>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
         recipes.addShaped(<ImmersiveEngineering:woodenDevice:4>, [[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:blockRedSteel>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
