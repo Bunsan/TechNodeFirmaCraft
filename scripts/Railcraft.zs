@@ -114,6 +114,7 @@
 //# Self Explanitory
 	recipes.remove(<Railcraft:armor.goggles>);
 	recipes.remove(<Railcraft:part.bleached.clay>);
+    recipes.remove(<Railcraft:frame>);
 //# Ice Aesthetic blocks
 	recipes.remove(<Railcraft:wall.alpha:4>);
 	recipes.remove(<Railcraft:slab:5>);
@@ -303,7 +304,8 @@
 
 //# Goggles
 	recipes.addShaped(<Railcraft:armor.goggles>, [[<ore:paneGlassColorless>, <Railcraft:part.circuit:1>, <ore:paneGlassColorless>], [<ore:ingotSteel>, null, <ore:ingotSteel>], [<ore:materialLeather>, <ore:materialLeather>, <ore:materialLeather>]]);
-    
+//# Wire Support
+    recipes.addShaped(<Railcraft:frame> * 6, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<Railcraft:part.rebar>, null, <Railcraft:part.rebar>], [<Railcraft:part.rebar>, <Railcraft:part.rebar>, <Railcraft:part.rebar>]]);
 //# ACETHETIC BLOCKS
 
 //# Metal Posts
