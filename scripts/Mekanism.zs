@@ -92,6 +92,8 @@ import minetweaker.data.IData;
 	mods.mekanism.Infuser.removeRecipe(<minecraft:dirt>);
 	mods.mekanism.Infuser.removeRecipe(<minecraft:dirt:2>);
 	mods.mekanism.Infuser.removeRecipe(<minecraft:mycelium>);
+    mods.mekanism.Infuser.removeRecipe(<Mekanism:EnrichedAlloy>);
+    mods.mekanism.Infuser.removeRecipe(<Mekanism:EnrichedIron>);
 //#Addition
 
 //# Crusher
@@ -99,6 +101,8 @@ import minetweaker.data.IData;
 	mods.mekanism.Crusher.removeRecipe(<ImmersiveEngineering:metal:14>);
 	mods.mekanism.Crusher.removeRecipe(<minecraft:gravel>);
     mods.mekanism.Crusher.removeRecipe(<Mekanism:BioFuel>);
+    mods.mekanism.Crusher.removeRecipe(<Mekanism:Dust>);
+    
 //#Addition
 	//InputStack, OutputStack
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Diamond:0> * 2, <TabulaRasa:RasaItem2:4>);

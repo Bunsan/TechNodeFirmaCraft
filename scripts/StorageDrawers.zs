@@ -41,9 +41,9 @@
     recipes.addShaped(<StorageDrawers:framingTable>, [[<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>], [<ore:supportWood>, <ore:chestWood>, <ore:supportWood>], [<ore:supportWood>, null, <ore:supportWood>]]);
     
 //# Controller Drawer
-    recipes.addShaped(<StorageDrawers:controller>, [[<HopperDuctMod:hopperDuct>, <HopperDuctMod:gratedHopper>, <HopperDuctMod:hopperDuct>], [<minecraft:comparator>, <terrafirmacraft:MetalBlock:3>, <minecraft:comparator>], [<ore:plateDoubleBlueSteel>, <terrafirmacraft:item.Diamond:4>, <ore:plateDoubleRedSteel>]]);
+    recipes.addShaped(<StorageDrawers:controller>, [[<HopperDuctMod:hopperDuct>, <HopperDuctMod:gratedHopper>, <HopperDuctMod:hopperDuct>], [<ore:plateAluminum>, <terrafirmacraft:MetalBlock:3>, <ore:plateAluminum>], [<ore:plateDoubleBlueSteel>, <ore:plateAluminum>, <ore:plateDoubleRedSteel>]]);
 //# Controller Slave
-    recipes.addShaped(<StorageDrawers:controllerSlave>, [[<HopperDuctMod:hopperDuct>, <HopperDuctMod:gratedHopper>, <HopperDuctMod:hopperDuct>], [<minecraft:comparator>, <terrafirmacraft:MetalBlock:3>, <minecraft:comparator>], [<HopperDuctMod:hopperDuct>, <ore:craftingToolHardHammer>, <HopperDuctMod:hopperDuct>]]);
+    recipes.addShaped(<StorageDrawers:controllerSlave>, [[<HopperDuctMod:hopperDuct>, <HopperDuctMod:gratedHopper>, <HopperDuctMod:hopperDuct>], [<minecraft:comparator>, <terrafirmacraft:MetalBlock:3>, <minecraft:comparator>], [<ore:plateAluminum>, <ore:craftingToolHardHammer>, <ore:plateAluminum>]]);
 //# Compacting Drawer
     recipes.addShaped(<StorageDrawers:compDrawers>, [[<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>], [<ore:craftingPiston>, <StorageDrawers:fullCustom4>, <ore:craftingPiston>], [<ore:stoneSmooth>, <ore:plateSteel>, <ore:stoneSmooth>]]);
 

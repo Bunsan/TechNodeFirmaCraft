@@ -1,3 +1,42 @@
+[prefix{l}]Version 2.16: Keep it in your Drawers[prefix{}]
+
+
+I thought I was done, but new mods this week for the pack. First is the frequently requested Leather Water Sac TFC add-on by Emris. I've tweaked the recipe so that you'll need to have an iron knife to craft it. Then there is the bigger addition of Storage Drawers. It was clear that a better late game mass storage solution was necessary and we feel this is a good fit in pack. Only the framed versions of the drawers are available and you can then skin with any block you choose.
+
+There are also a bunch of fixes and a few mod updates. A friendly reminder to always backup your save before updating. Enjoy.
+
+Mods Added
+- Storage Drawers
+- Leather Water Sac
+
+Fixed Mods:
+TFC-TNFC 
+- We've re-added the mysteriously lost Waila fixes. Including tooltips for surface nuggets.
+- Fixed a bug that caused negative crop growth in cold temperatures.
+
+TNFC-mod
+- Added Ore-Dictionary compatibility for Leather Water Sac mod
+- Fixed jerrycan fluid dupe bug.
+
+BluePower
+- fix another achievement crash
+
+TNFC-resources
+- Storage Drawers texture fix.
+
+Mods Updated
+- Forestry - bug fixes.
+- Immersive Engineering - bug fixes.
+- PneumaticCraft - bug fixes.
+- JourneyMap
+
+Pack Changes:
+- RPG-Adv mod is now optional. (some players experiencing memory leaks)
+- Recipe tweak for IE Jerrycan. Now requires Ultimate Bucket as it now places source blocks.
+- Reduced cost of IE cable connectors.
+- Recipe fix for Railcraft Wire supports.
+- Bit more recipe clean-up.
+
 [prefix{l}]Version 2.15: Mr. Bear meet Railgun. Railgun meet....where'd he go?[prefix{}]
 
 This week is another quality of life update. Lots of mods got some bug fixes and added some nice integration. We did some cleaning up of the pack and NEI. Bit of a long changelog as some of the changes need some explanation.
