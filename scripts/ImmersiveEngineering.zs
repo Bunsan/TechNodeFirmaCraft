@@ -331,6 +331,8 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 4, [<ImmersiveEngineer
     mods.immersiveengineering.Crusher.removeRecipe(<Mekanism:OtherDust>);
     mods.immersiveengineering.Crusher.removeRecipe(<terrafirmacraft:item.Powder:3>);
     mods.immersiveengineering.Crusher.removeRecipe(<terrafirmacraft:item.Powder:4>);
+    mods.immersiveengineering.Crusher.removeRecipe(<minecraft:gravel>);
+    mods.immersiveengineering.Crusher.removeRecipe(<Railcraft:dust:3>);
     
 //#Addition
 	//OutputStack, InputStack, Energy, OutputStack2, Chance //Chance in Decimals
@@ -362,7 +364,18 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 4, [<ImmersiveEngineer
 	mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:8>, <terrafirmacraft:item.Rose Gold Ingot>, 3600);
 	mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:9>, <terrafirmacraft:item.Sterling Silver Ingot>, 3600);
 	mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem2:5>, <terrafirmacraft:item.Pig Iron Ingot>, 3600);
-	mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem2:6>, <terrafirmacraft:item.Black Steel Ingot>, 3600);
+	mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem2:5>, <terrafirmacraft:item.HC Steel Ingot>, 3600);
+	mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:10>, <terrafirmacraft:item.Weak Steel Ingot>, 3600);
+    mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem2:6>, <terrafirmacraft:item.HC Black Steel Ingot>, 3600);
+	mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:13>, <terrafirmacraft:item.Black Steel Ingot>, 3600);
+	mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:11>, <terrafirmacraft:item.Weak Blue Steel Ingot>, 3600);
+    mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem2:7>, <terrafirmacraft:item.HC Blue Steel Ingot>, 3600);
+	mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:14>, <terrafirmacraft:item.Blue Steel Ingot>, 3600);
+	mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:12>, <terrafirmacraft:item.Weak Red Steel Ingot>, 3600);
+    mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem2:8>, <terrafirmacraft:item.HC Red Steel Ingot>, 3600);
+	mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:15>, <terrafirmacraft:item.Red Steel Ingot>, 3600);
+
+    
 //#Minerals and Flux
 	mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone> * 10, <ore:oreRedstone>, 6000);
 	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.coal> * 2, <ore:oreCoal>, 6000);

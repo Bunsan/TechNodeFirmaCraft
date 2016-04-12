@@ -102,6 +102,7 @@ import minetweaker.data.IData;
 	mods.mekanism.Crusher.removeRecipe(<minecraft:gravel>);
     mods.mekanism.Crusher.removeRecipe(<Mekanism:BioFuel>);
     mods.mekanism.Crusher.removeRecipe(<Mekanism:Dust>);
+    mods.mekanism.Crusher.removeRecipe(<minecraft:sand>);
     
 //#Addition
 	//InputStack, OutputStack
