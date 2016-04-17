@@ -170,7 +170,6 @@ for i in meta {
 	mods.forestry.Carpenter.removeRecipe(<Forestry:kitShovel>);
 	mods.forestry.Carpenter.removeRecipe(<Forestry:kitPickaxe>);
 	mods.forestry.Carpenter.removeRecipe(<Forestry:carton>);
-	mods.forestry.Carpenter.removeRecipe(<minecraft:torch>);
 	mods.forestry.Carpenter.removeRecipe(<Forestry:stamps>);
 	mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:3>);
 	mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:4>);

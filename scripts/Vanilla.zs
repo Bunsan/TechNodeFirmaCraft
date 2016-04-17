@@ -96,9 +96,6 @@ import minetweaker.item.IItemStack;
 	recipes.remove(<Mekanism:Ingot:5>);
 	recipes.remove(<Mekanism:Ingot:6>);
 
-//# AromaCore
-    recipes.remove(<Aroma1997Core:wrench>);
-
 // ================================================================================
 //#ADD SHAPELESS
 

@@ -671,7 +671,6 @@ mods.railcraft.RockCrusher.removeRecipe(<minecraft:mossy_cobblestone>);
 //Blast Furnace Recipes
 //OutputStack
 	mods.railcraft.BlastFurnace.removeRecipe(<Railcraft:cube:2>);
-    mods.railcraft.BlastFurnace.removeRecipe(<minecraft:iron_ingot>);
 
 //InputStack, matchDamage, matchNBT, Cook time, OutputStack
 		for item in <ore:oreIron>.items {
