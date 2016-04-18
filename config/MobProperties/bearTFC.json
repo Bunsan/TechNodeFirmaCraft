@@ -1,6 +1,29 @@
 {
   "_name": "bearTFC",
-  "drops": [],
+  "drops": [
+    {
+      "function": "if_recently_hit",
+      "functions": [
+        {
+          "function": "add",
+          "count": 0.1,
+          "id": "ImmersiveEngineering:shaderBag",
+          "item_stats": [
+            {
+              "function": "nbt",
+              "tags": [
+                {
+                  "name": "rarity",
+                  "function": "string",
+                  "value": "rare"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "pre_stats": [],
   "stats": [
     {

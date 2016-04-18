@@ -7,6 +7,28 @@
       "function": "if_past_world_time_4319910",
       "functions": [
         {
+          "function": "if_below_60",
+          "functions": [
+            {
+              "function": "add",
+              "count": 0.01,
+              "id": "ImmersiveEngineering:shaderBag",
+              "item_stats": [
+                {
+                  "function": "nbt",
+                  "tags": [
+                    {
+                      "name": "rarity",
+                      "function": "string",
+                      "value": "uncommon"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "_comment": "add glowstone_dust drop",
           "function": "if_can_see_sky",
           "functions": [

@@ -2,8 +2,25 @@
   "_name": "pigZombieTFC",
   "drops": [
             {
-            "function": "if_recently_hit",
-            "functions": [
+              "function": "if_recently_hit",
+              "functions": [
+                {
+                  "function": "add",
+                  "count": 0.5,
+                  "id": "ImmersiveEngineering:shaderBag",
+                  "item_stats": [
+                    {
+                      "function": "nbt",
+                      "tags": [
+                        {
+                          "name": "rarity",
+                          "function": "string",
+                          "value": "epic"
+                        }
+                      ]
+                    }
+                  ]
+                },
                 {
                   "_comment": "Uses potion effect to determine which zombie has been killed",
                   "function": "if_has_potion_5",
