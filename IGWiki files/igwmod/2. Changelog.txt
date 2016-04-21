@@ -1,5 +1,48 @@
-[prefix{l}]Version 2.16: Keep it in your Drawers[prefix{}]
+[prefix{l}]Version 2.16.2: Give Me Some Skin.[prefix{}]
 
+Oh look I found an update. Number of bug fixes, small tweaks and lots of mod updates. The one new addition is that you'll now be able to drop Immersive Engineering Shader Loot bags to skin your balloons, guns, etc. They drop from mobs in certain circumstances. So head deep underground for best chance. As always back up your saves before updating.
+
+Tweaks/Bug Fixes
+Misc
+- Removed a number of useless recipes (were never craftable).
+
+TFC-TNFC
+- Ice now works with IE ThermoElectric Generator.
+
+Immersive Engineering
+- Removed ability to produce minecraft gravel.
+- Crusher can process weak and high carbon steel ingots.
+- IE Arc furnace can process High Carbon Black/Blue/Red Steel Dust.
+- Slag removed from a few Arc furnace recipes (missed after bug fix).
+- Reduced energy consumption of Railgun.
+
+Mek
+- Removed ability to produce Vanilla sand from vanilla gravel.
+
+Storage Drawers
+- Trim is now craftable (linked to most similar TFC wood type).
+
+PneumaticCraft
+- Fixed Pressure Chamber Window and Valve recipe to return 4 blocks.
+
+Steve's Workshop
+- Many recipes have been rebalanced. Upgrades are now cheaper to craft.
+
+Updated Mods
+- TFC-TNFC
+- Railcraft
+- Immersive Engineering
+- Storage Drawers
+- Mob Properties
+- CofHCore
+- TNFC-resources
+- Fastcraft
+- NEI Integration
+- Better Foliage
+- Voxel Map
+
+
+[prefix{l}]Version 2.16: Keep it in your Drawers[prefix{}]
 
 I thought I was done, but new mods this week for the pack. First is the frequently requested Leather Water Sac TFC add-on by Emris. I've tweaked the recipe so that you'll need to have an iron knife to craft it. Then there is the bigger addition of Storage Drawers. It was clear that a better late game mass storage solution was necessary and we feel this is a good fit in pack. Only the framed versions of the drawers are available and you can then skin with any block you choose.
 
