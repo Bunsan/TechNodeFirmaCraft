@@ -87,6 +87,10 @@
 	recipes.remove(<Railcraft:part.circuit:1>);
 //# Steam Turbine Casing
     recipes.remove(<Railcraft:machine.alpha:1>);
+    recipes.remove(<Railcraft:part.turbine.blade>);
+    recipes.remove(<Railcraft:part.turbine.disk>);
+    recipes.remove(<Railcraft:part.turbine.rotor>);
+
 //# Engraving Table
     recipes.remove(<Railcraft:machine.epsilon:5>);
 //# Passive Anchor
@@ -256,9 +260,12 @@
     recipes.addShaped(<Railcraft:detector:11>, [[<terrafirmacraft:item.Log:10>, <terrafirmacraft:item.Log:10>, <terrafirmacraft:item.Log:10>], [<terrafirmacraft:item.Log:10>, <minecraft:stone_pressure_plate>, <terrafirmacraft:item.Log:10>], [<terrafirmacraft:item.Log:10>, <terrafirmacraft:item.Log:10>, <terrafirmacraft:item.Log:10>]]);
 	recipes.addShaped(<Railcraft:detector:16>, [[<customitems:chiseled_block_of_jet>, <customitems:chiseled_block_of_jet>, <customitems:chiseled_block_of_jet>], [<customitems:chiseled_block_of_jet>, <minecraft:stone_pressure_plate>, <customitems:chiseled_block_of_jet>], [<customitems:chiseled_block_of_jet>, <customitems:chiseled_block_of_jet>, <customitems:chiseled_block_of_jet>]]);
 
-//# Steam Turbine Housing
-    recipes.addShaped(<Railcraft:machine.alpha:1> * 4, [[<ore:blockSteel>,<ore:plateIron>, <ore:blockSteel>],[<ore:plateIron>, null, <ore:plateIron>], [<ore:blockSteel>,<ore:plateIron>, <ore:blockSteel>]]);
-
+//# Refund for Steam Turbine Housing
+    recipes.addShaped(<terrafirmacraft:MetalBlock2:1> * 5, [[<Railcraft:machine.alpha:1>, <Railcraft:machine.alpha:1>], [<Railcraft:machine.alpha:1>, <Railcraft:machine.alpha:1>]]);
+    recipes.addShapeless(<terrafirmacraft:item.Steel Ingot> * 3, [<Railcraft:part.turbine.blade>]);
+    recipes.addShapeless(<terrafirmacraft:item.Steel Ingot> * 32, [<Railcraft:part.turbine.disk>]);
+    recipes.addShapeless(<Railcraft:part.turbine.disk> * 3, [<Railcraft:part.turbine.rotor>]);
+    
 //# Engraving Table
 	recipes.addShaped(<Railcraft:machine.epsilon:5>, [[<terrafirmacraft:item.Steel Chisel>, <ore:plateSteel>, <minecraft:book>], [<ore:plateSteel>, <ore:craftingTableWood>, <ore:plateSteel>], [<ore:craftingPiston>, <ore:plateSteel>, <ore:craftingPiston>]]);
 

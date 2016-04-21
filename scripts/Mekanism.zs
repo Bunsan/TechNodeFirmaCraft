@@ -254,14 +254,14 @@ import minetweaker.data.IData;
 	mods.mekanism.chemical.Injection.removeRecipe(<minecraft:clay>);
 	mods.mekanism.chemical.Injection.removeRecipe(<Mekanism:OtherDust:3>);
 //#Addition
-	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:2>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem3:3> * 4);
+	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:2>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4:3> * 4);
 	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:7>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4:1> * 4);
 	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:8>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4:2> * 4);
 	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:12>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4> * 4);
 	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem5>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4>);
 	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem5:1>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4:1>);
 	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem5:2>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4:2>);
-	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem5:3>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem3:3>);
+	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem5:3>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4:3>);
 //Chemical Dissolution
 	//InputStack, GasOutput
 	mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:2>, <gas:Platinum> * 1000);
