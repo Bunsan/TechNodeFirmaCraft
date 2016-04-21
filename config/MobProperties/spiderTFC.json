@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "add",
-              "count": 0.01,
+              "count": 0.1,
               "id": "ImmersiveEngineering:shaderBag",
               "item_stats": [
                 {
