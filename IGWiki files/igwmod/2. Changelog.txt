@@ -3,8 +3,8 @@
 Oh look I found an update. Number of bug fixes, small tweaks and lots of mod updates. The one new addition is that you'll now be able to drop Immersive Engineering Shader Loot bags to skin your balloons, guns, etc. They drop from mobs in certain circumstances. So head deep underground for best chance. As always back up your saves before updating.
 
 Tweaks/Bug Fixes
-Misc
-- Removed a number of useless recipes (were never craftable).
+Railcraft
+- Refund recipe for Steam Turbine and parts due to it being non-functional.
 
 TFC-TNFC
 - Ice now works with IE ThermoElectric Generator.
@@ -25,8 +25,8 @@ Storage Drawers
 PneumaticCraft
 - Fixed Pressure Chamber Window and Valve recipe to return 4 blocks.
 
-Steve's Workshop
-- Many recipes have been rebalanced. Upgrades are now cheaper to craft.
+Misc
+- Removed a number of useless recipes (were never craftable).
 
 Updated Mods
 - TFC-TNFC
@@ -40,7 +40,6 @@ Updated Mods
 - NEI Integration
 - Better Foliage
 - Voxel Map
-
 
 [prefix{l}]Version 2.16: Keep it in your Drawers[prefix{}]
 
