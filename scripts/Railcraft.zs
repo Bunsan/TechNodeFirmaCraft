@@ -589,7 +589,12 @@ mods.railcraft.RockCrusher.removeRecipe(<minecraft:stone_slab>);
 mods.railcraft.RockCrusher.removeRecipe(<Railcraft:machine.alpha:7>);
 mods.railcraft.RockCrusher.removeRecipe(<Railcraft:machine.alpha:12>);
 mods.railcraft.RockCrusher.removeRecipe(<minecraft:cobblestone>);
+mods.railcraft.RockCrusher.removeRecipe(<minecraft:stone_stairs>);
+mods.railcraft.RockCrusher.removeRecipe(<minecraft:stone_slab:3>);
 mods.railcraft.RockCrusher.removeRecipe(<minecraft:mossy_cobblestone>);
+mods.railcraft.RockCrusher.removeRecipe(<minecraft:gravel>);
+mods.railcraft.RockCrusher.removeRecipe(<Railcraft:machine.alpha:13>);
+mods.railcraft.RockCrusher.removeRecipe(<Railcraft:stair:39>);
 
 //InputStack, matchDamage, matchNBT, OutputStacks, Chance  
 

@@ -184,6 +184,8 @@ for i in meta {
 	mods.forestry.Carpenter.addRecipe(<Forestry:stamps:4> * 9, [[<ore:ingotAnyBronze>, <ore:ingotAnyBronze>, <ore:ingotAnyBronze>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [null, null, null]], <liquid:seedoil> * 300, 100);
 	mods.forestry.Carpenter.addRecipe(<Forestry:stamps:5> * 9, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [null, null, null]], <liquid:seedoil> * 300, 100);
 	mods.forestry.Carpenter.addRecipe(<Forestry:stamps:6> * 9, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [null, null, null]], <liquid:seedoil> * 300, 100);
+    mods.forestry.Carpenter.addRecipe(<minecraft:gravel> * 9, [[<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>], [<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>], [<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>]], <liquid:creosote> * 500, 10);
+
 
 // Centrifuge Recipes
 //#Removal

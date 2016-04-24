@@ -213,10 +213,13 @@ import minetweaker.data.IData;
 	//mods.mekanism.chemical.Oxidizer.addRecipe(<minecraft:coal>, <gas:hydrogen>);
 
 //Enrichment Chamber
-//#Removal
+//#Removal removeRecipe(IIngredient itemInput, @Optional IIngredient itemOutput)
 	mods.mekanism.Enrichment.removeRecipe(<ImmersiveEngineering:ore:4>, <ImmersiveEngineering:metal:14>);
 	mods.mekanism.Enrichment.removeRecipe(<TabulaRasa:RasaItem0:8>, <ImmersiveEngineering:metal:14>);
 	mods.mekanism.Enrichment.removeRecipe(<Mekanism:OtherDust>);
+	mods.mekanism.Enrichment.removeRecipe(<minecraft:gravel>);
+	mods.mekanism.Enrichment.removeRecipe(<minecraft:sand>);
+
 //#Addition
 	mods.mekanism.Enrichment.addRecipe(<Mekanism:OtherDust>, <Mekanism:CompressedDiamond>);
 	mods.mekanism.Enrichment.addRecipe(<terrafirmacraft:item.Diamond:2>, <Mekanism:CompressedDiamond>);
@@ -234,7 +237,8 @@ import minetweaker.data.IData;
     mods.mekanism.Enrichment.addRecipe(<terrafirmacraft:item.Ore:14>, <terrafirmacraft:item.coal:0> * 2);
 
 //Purification Chamber
-//#Removal
+//#Removal removeRecipe(IIngredient itemOutput, @Optional IIngredient itemInput, @Optional IIngredient gasInput)
+	mods.mekanism.Purification.removeRecipe(<minecraft:flint>, <minecraft:gravel>);
 
 //#Addition
 	mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem0:2>, <TabulaRasa:RasaItem3:3> * 3);
