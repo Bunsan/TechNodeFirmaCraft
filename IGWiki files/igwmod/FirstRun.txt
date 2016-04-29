@@ -1,42 +1,23 @@
-[prefix{l}]Version 2.16.2: Give Me Some Skin.[prefix{}]
+[prefix{l}]Version 2.16.3: Guess who's back, back again. Gravels back, tell a friend.[prefix{l}]
 
-Oh look I found an update. Number of bug fixes, small tweaks and lots of mod updates. The one new addition is that you'll now be able to drop Immersive Engineering Shader Loot bags to skin your balloons, guns, etc. They drop from mobs in certain circumstances. So head deep underground for best chance. As always back up your saves before updating.
+Just a little update this week to fix a few small issues and complaints. The presence of vanilla gravel in the pack was not intentional and this was why it was removed. However due to it being only valid block for the tunnel bore we've come up with a solution. There is a new block called Tunnel Bore Ballast, which is crafted with any TFC gravel and creosote oil. It will work in the Tunnel Bore, because well it is retextured, renamed, reworked vanilla gravel. We've added our work in progress info for Mod changes in TNFC to the IGW. Other than that some minor tweaks and some Mod update.
 
-Tweaks/Bug Fixes
+Tweaks and Changes:
+
+TNFC
+- Crafting Recipe for Obsidian.
+
 Railcraft
-- Refund recipe for Steam Turbine and parts due to it being non-functional.
+- Tunnel Bore Ballast block.
 
-TFC-TNFC
-- Ice now works with IE ThermoElectric Generator.
+Mekanism
+- Portable Tank Recipe change (sorry but bucket mode)
 
-Immersive Engineering
-- Removed ability to produce minecraft gravel.
-- Crusher can process weak and high carbon steel ingots.
-- IE Arc furnace can process High Carbon Black/Blue/Red Steel Dust.
-- Slag removed from a few Arc furnace recipes (missed after bug fix).
-- Reduced energy consumption of Railgun.
+BluePower
+- Sapphire Glass recipe will now use any Blue Gem.
 
-Mek
-- Removed ability to produce Vanilla sand from vanilla gravel.
-
-Storage Drawers
-- Trim is now craftable (linked to most similar TFC wood type).
-
-PneumaticCraft
-- Fixed Pressure Chamber Window and Valve recipe to return 4 blocks.
-
-Misc
-- Removed a number of useless recipes (were never craftable).
-
-Updated Mods
-- TFC-TNFC
-- Railcraft
-- Immersive Engineering
-- Storage Drawers
-- Mob Properties
-- CofHCore
-- TNFC-resources
-- Fastcraft
-- NEI Integration
-- Better Foliage
+Updated Mods:
+- Mekanism
+-Mekanism Generators
 - Voxel Map
+- Better Foliage

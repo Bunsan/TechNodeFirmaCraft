@@ -1,0 +1,19 @@
+Mekanism WIP
+ 
+Cardboard Box
+
+The Cardboard box has retextured and renamed as Transport Crate. This was done to better reflect the recipe. We've also modified and limited the function of it. You can't pick up items such as barrels, ice etc. This is so you can't circumvent TFC mechanics at iron tier.
+ 
+The Transport Crate is modified to have only 4 uses. However picking up simple blocks does not consume a use. Moving tile entities (inventories, machines etc.) uses durability, but blocks (grass, stone, etc.) does not.
+ 
+Electric Refrigerated Chest
+
+This is the Electric Chest modified to greatly slow decay at the cost of power. The more items in the chest the more power it consumes. The food must be stored directly in the fridge, not in containers. Be warned without power the food will decay at a higher rate.
+ 
+Gas (Scuba) Mask
+
+This can be upgraded, check NEI.
+ 
+Solar Evaporator
+
+The multiplier is based on the TFC actual temperature.
