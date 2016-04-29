@@ -392,7 +392,7 @@
         name="Resource Loaders Folder" version="2.10" url="packs/TechNodefirmacraft/files/extract/resources_2.10.zip" file="resources_2.10.zip" md5="33a24c409fe81854c0d3cb4077410357" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="no"
         /> 
         <mod 
-        name="IGWModData" version="2.16.3" url="packs/TechNodefirmacraft/files/extract/igwmod_2.16.3.zip" file="igwmod_2.16.3.zip" md5="0300136fdf1cabd2631323a00b870bb5" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
+        name="IGWModData" version="2.16.3" url="packs/TechNodefirmacraft/files/extract/igwmod_2.16.3.zip" file="igwmod_2.16.3.zip" md5="9f96a4f2d575901e93abfc7b523d02bc" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
         />
     </mods>
 </version>

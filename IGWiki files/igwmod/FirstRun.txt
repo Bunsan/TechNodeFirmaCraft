@@ -18,6 +18,6 @@ BluePower
 
 Updated Mods:
 - Mekanism
--Mekanism Generators
+- Mekanism Generators
 - Voxel Map
 - Better Foliage
