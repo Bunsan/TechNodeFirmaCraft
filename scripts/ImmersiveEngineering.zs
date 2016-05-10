@@ -560,6 +560,7 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 4, [<ImmersiveEngineer
 //#Metal Press
 
 mods.immersiveengineering.MetalPress.removeRecipeByMold(<ImmersiveEngineering:mold>);
+mods.immersiveengineering.MetalPress.removeRecipeByMold(<ImmersiveEngineering:mold:1>);
 
 //# Ore Dictionary Arrays
 
@@ -701,3 +702,14 @@ mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold:2>, <o
     
 //# Aluminum Sheet
     mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:metal:32>, <ore:ingotAluminum>, <ImmersiveEngineering:mold>, 4800, 2);
+
+//# Gears
+    mods.immersiveengineering.MetalPress.addRecipe(<Forestry:gearBronze>, <ore:plateAnyBronze>, <ImmersiveEngineering:mold:1>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<Forestry:gearCopper>, <ore:plateCopper>, <ImmersiveEngineering:mold:1>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<Forestry:gearTin>, <ore:plateTin>, <ImmersiveEngineering:mold:1>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<Railcraft:part.gear>, <ore:plateGold>, <ImmersiveEngineering:mold:1>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<Railcraft:part.gear:1>, <ore:plateIron>, <ImmersiveEngineering:mold:1>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<Railcraft:part.gear:2>, <ore:plateSteel>, <ImmersiveEngineering:mold:1>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<PneumaticCraft:compressedIronGear>, <ore:ingotIronCompressed>, <ImmersiveEngineering:mold:1>, 4800, 4);
+    
+

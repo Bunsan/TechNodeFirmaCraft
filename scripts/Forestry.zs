@@ -63,8 +63,8 @@ import minetweaker.item.IItemStack;
     
 //#Reinstated Forestery gears
 	recipes.addShaped(<Forestry:gearTin> * 2, [[null, <ore:craftingToolHammer>, null], [<Railcraft:part.gear:3>, <ore:plateDoubleTin>, <Railcraft:part.gear:3>]]);
-	recipes.addShaped(<Forestry:gearCopper>, [[null, <ore:craftingToolHammer>, null], [<Railcraft:part.gear:3>, <ore:plateDoubleCopper>, <Railcraft:part.gear:3>]]);
-	recipes.addShaped(<Forestry:gearBronze>, [[null, <ore:craftingToolHammer>, null], [<Railcraft:part.gear:3>, <ore:plateDoubleAnyBronze>, <Railcraft:part.gear:3>]]);
+	recipes.addShaped(<Forestry:gearCopper> * 2, [[null, <ore:craftingToolHammer>, null], [<Railcraft:part.gear:3>, <ore:plateDoubleCopper>, <Railcraft:part.gear:3>]]);
+	recipes.addShaped(<Forestry:gearBronze> * 2, [[null, <ore:craftingToolHammer>, null], [<Railcraft:part.gear:3>, <ore:plateDoubleAnyBronze>, <Railcraft:part.gear:3>]]);
 
 //#Reinstating a Forestry Sturdy Machine Recipe
 	recipes.addShaped(<Forestry:sturdyMachine>, [[null, <ore:plateAnyBronze>, null], [<ore:plateAnyBronze>, <ore:craftingToolMediumHammer>, <ore:plateAnyBronze>], [null, <ore:plateAnyBronze>, null]]);
