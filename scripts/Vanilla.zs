@@ -57,6 +57,9 @@ import minetweaker.item.IItemStack;
 	recipes.remove(<minecraft:minecart>);
     recipes.remove(<terrafirmacraft:item.fishingRod>);
     recipes.remove(<minecraft:obsidian>);
+    recipes.remove(<minecraft:map>);
+    recipes.remove(<minecraft:compass>);
+    
     
     //# REMOVAL of Non-TFC ingots to nugget recipes to clean up NEI
 	recipes.remove(<ImmersiveEngineering:metal:0>);
@@ -175,6 +178,10 @@ import minetweaker.item.IItemStack;
 
 // ================================================================================
 //#MARKER ADD SHAPED
+
+//#Maps
+    recipes.addShaped(<minecraft:map>, [[null, <minecraft:paper>, null], [<minecraft:paper>, <minecraft:compass>.reuse(), <minecraft:paper>], [null, <minecraft:paper>, null]]);
+    recipes.addShaped(<minecraft:compass>, [[<ore:oreSmallIron>], [<minecraft:redstone>], [<terrafirmacraft:item.GoldPan>]]);
     
 //# Gravel aka Railbed
     recipes.addShaped(<minecraft:gravel> * 8, [[<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>], [<ore:blockGravel>, <ImmersiveEngineering:fluidContainers>, <ore:blockGravel>], [<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>]]);
