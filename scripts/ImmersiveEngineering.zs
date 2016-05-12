@@ -654,6 +654,11 @@ mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold:2>, <o
     mods.immersiveengineering.MetalPress.addRecipe(doubleSheet, doubleIngot, <ImmersiveEngineering:mold>, 4800, 2);
         }
         
+        for i, sheet in tfcSheets {
+    var doubleSheet = tfcDoubleSheets[i];
+    mods.immersiveengineering.MetalPress.addRecipe(doubleSheet, sheet, <ImmersiveEngineering:mold>, 4800, 2);
+        }
+        
         for i, ingotTool in oreIngotsTool {        
     var pick = tfcPickHeads[i];
     var proPick = tfcProPickHeads[i];

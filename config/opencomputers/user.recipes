@@ -304,7 +304,7 @@ case1 {
 }
 case2 {
   input: [[plateGold, "oc:circuitChip2", plateGold]
-          [fenceIron, chest, fenceIron]
+          [fenceIron, chestWood, fenceIron]
           [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
 }
 case3 {

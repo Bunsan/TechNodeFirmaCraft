@@ -1,23 +1,27 @@
-[prefix{l}]Version 2.16.3: Guess who's back, back again. Gravels back, tell a friend.[prefix{l}]
+[prefix{l}]Version 2.16.4: Stuff.[prefix{l}]
 
-Just a little update this week to fix a few small issues and complaints. The presence of vanilla gravel in the pack was not intentional and this was why it was removed. However due to it being only valid block for the tunnel bore we've come up with a solution. There is a new block called Tunnel Bore Ballast, which is crafted with any TFC gravel and creosote oil. It will work in the Tunnel Bore, because well it is retextured, renamed, reworked vanilla gravel. We've added our work in progress info for Mod changes in TNFC to the IGW. Other than that some minor tweaks and some Mod update.
-
-Tweaks and Changes:
-
-TNFC
-- Crafting Recipe for Obsidian.
-
-Railcraft
-- Tunnel Bore Ballast block.
-
-Mekanism
-- Portable Tank Recipe change (sorry but bucket mode)
-
-BluePower
-- Sapphire Glass recipe will now use any Blue Gem.
+Just a few updates and a few little tweaks and fixes.
 
 Updated Mods:
-- Mekanism
-- Mekanism Generators
-- Voxel Map
-- Better Foliage
+- Immersive Engineering (Fastcraft lighting Glitch)
+- VoxelMap
+- Forestry
+
+Tweaks and Fixes:
+- TNFCmod 
+  - TFC Bow not hidden in NEI.
+- Vanilla 
+  - New map recipe (compass isn't used up). 
+  - New Compass recipe.
+- Immersive Engineering
+  - Metal press uses a sheet instead of 4 ingots.
+  - Double sheet can be crafted with 2 metal sheets in metal press.
+- Forestry 
+ - Fixed gear recipes to output 2 gears as intended.
+ - Monastic Bee recipe added.
+ - Spectral and Phantasmal bees disabled.
+- Mek 
+ - Blacklist working again.
+- OpenComputers
+ - Fixed Case 2 recipe.
+ - Fixed Circuit recipe.
