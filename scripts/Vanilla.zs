@@ -56,6 +56,10 @@ import minetweaker.item.IItemStack;
 	recipes.remove(<minecraft:string>);
 	recipes.remove(<minecraft:minecart>);
     recipes.remove(<terrafirmacraft:item.fishingRod>);
+    recipes.remove(<minecraft:obsidian>);
+    recipes.remove(<minecraft:map>);
+    recipes.remove(<minecraft:compass>);
+    
     
     //# REMOVAL of Non-TFC ingots to nugget recipes to clean up NEI
 	recipes.remove(<ImmersiveEngineering:metal:0>);
@@ -96,7 +100,6 @@ import minetweaker.item.IItemStack;
 	recipes.remove(<Mekanism:Ingot:5>);
 	recipes.remove(<Mekanism:Ingot:6>);
 
-
 // ================================================================================
 //#ADD SHAPELESS
 
@@ -106,7 +109,9 @@ import minetweaker.item.IItemStack;
 	recipes.addShapeless(<terrafirmacraft:MetalBlock:7>, [<Railcraft:cube:9>]);
 	recipes.addShapeless(<terrafirmacraft:MetalBlock:10>, [<ImmersiveEngineering:storage:2>]);
 
-
+//# Obsidian
+    recipes.addShapeless(<minecraft:obsidian>, [<terrafirmacraft:item.Blue Steel Bucket Lava>, <terrafirmacraft:item.Red Steel Bucket Water>]);
+    
 //# VANILLA+ TO TFC
 
 //# No Metal Boat
@@ -173,6 +178,19 @@ import minetweaker.item.IItemStack;
 
 // ================================================================================
 //#MARKER ADD SHAPED
+
+//#Maps
+    recipes.addShaped(<minecraft:map>, [[null, <minecraft:paper>, null], [<minecraft:paper>, <minecraft:compass>.reuse(), <minecraft:paper>], [null, <minecraft:paper>, null]]);
+    recipes.addShaped(<minecraft:compass>, [[<ore:oreSmallIron>], [<minecraft:redstone>], [<terrafirmacraft:item.GoldPan>]]);
+    
+//# Gravel aka Railbed
+    recipes.addShaped(<minecraft:gravel> * 8, [[<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>], [<ore:blockGravel>, <ImmersiveEngineering:fluidContainers>, <ore:blockGravel>], [<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>]]);
+    recipes.addShaped(<minecraft:gravel> * 8, [[<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>], [<ore:blockGravel>, <ImmersiveEngineering:fluidContainers:1>, <ore:blockGravel>], [<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>]]);
+    recipes.addShaped(<minecraft:gravel> * 8, [[<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>], [<ore:blockGravel>, <Railcraft:fluid.creosote.bucket>, <ore:blockGravel>], [<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>]]);
+    recipes.addShaped(<minecraft:gravel> * 8, [[<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>], [<ore:blockGravel>, <Railcraft:fluid.creosote.bottle>, <ore:blockGravel>], [<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>]]);
+    recipes.addShaped(<minecraft:gravel> * 8, [[<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>], [<ore:blockGravel>, <Railcraft:fluid.creosote.can>, <ore:blockGravel>], [<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>]]);
+    recipes.addShaped(<minecraft:gravel> * 8, [[<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>], [<ore:blockGravel>, <Railcraft:fluid.creosote.wax>, <ore:blockGravel>], [<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>]]);
+    recipes.addShaped(<minecraft:gravel> * 8, [[<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>], [<ore:blockGravel>, <Railcraft:fluid.creosote.refactory>, <ore:blockGravel>], [<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>]]);
 
 //# Fishing Rod
     recipes.addShaped(<terrafirmacraft:item.fishingRod>, [[null, <ore:stickWood>], [<ore:stickWood>, <ore:materialString>]]);

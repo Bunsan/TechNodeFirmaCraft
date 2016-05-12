@@ -8,28 +8,13 @@ import minetweaker.data.IData;
 // ================================================================================
 //# Tooltips
 	<Mekanism:Configurator:*>.addTooltip(format.green("Place in crafting grid to recharge."));
-    <Mekanism:MachineBlock:4>.addTooltip(format.red("DO NOT Silktouch Ores may corrupt world."));
 	<Mekanism:CardboardBox>.addTooltip(format.green("Mek Cardboard Box."));
 
 // ================================================================================
 //#REMOVE Recipe
 	recipes.remove(<Mekanism:ObsidianTNT>);
-	recipes.remove(<Mekanism:BasicBlock:3>);
-    recipes.remove(<Mekanism:BasicBlock:8>);
-	recipes.remove(<Mekanism:BasicBlock:9>);
-	recipes.remove(<Mekanism:BasicBlock:10>);
-	recipes.remove(<Mekanism:BasicBlock:11>);
 	recipes.remove(<Mekanism:ArmoredJetpack:100>);
-	recipes.remove(<Mekanism:PartTransmitter>);
-	recipes.remove(<Mekanism:PartTransmitter:4>);
-	recipes.remove(<Mekanism:PartTransmitter:9>);
-	recipes.remove(<Mekanism:PartTransmitter:10>);
-	recipes.remove(<Mekanism:PartTransmitter:11>);
 	recipes.remove(<Mekanism:ElectricBow:100>);
-	recipes.remove(<Mekanism:BasicBlock2>);
-    recipes.remove(<Mekanism:MachineBlock2:5>);
-    recipes.remove(<Mekanism:MachineBlock:3>);
-
 
 // ================================================================================
 //#ADD SHAPELESS
@@ -39,24 +24,6 @@ import minetweaker.data.IData;
 // ================================================================================
 //#ADD SHAPED
 
-//#Mek Dynamic Valve
-	recipes.addShaped(<Mekanism:BasicBlock:11> * 2, [[null, <ore:plateSteel>, null], [<ore:craftingToolHardHammer>, <ore:circuitBasic>, null], [null, <ore:plateSteel>, null]]);
-//#Mek Dynamic Glass
-	recipes.addShaped(<Mekanism:BasicBlock:10> * 2, [[null, <Mekanism:BasicBlock:9>, null], [<ore:craftingToolHardHammer>, <ore:blockGlass>, null], [null, <Mekanism:BasicBlock:9>, null]]);
-//#Mek Dynamic Tank
-	recipes.addShaped(<Mekanism:BasicBlock:9> * 2, [[null, <ore:plateSteel>, null], [<ore:craftingToolHardHammer>, <ore:stoneCobble>, null], [null, <ore:plateSteel>, null]]);
-//#Solar Evaporation Block
-	recipes.addShaped(<Mekanism:BasicBlock2> * 2, [[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<ore:ingotCopper>, <Mekanism:BasicBlock:9>, <ore:ingotCopper>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]]);
-//#Mek Steel Casing
-	recipes.addShaped(<Mekanism:BasicBlock:8>, [[null, <ore:plateSteel>, null], [<ore:craftingToolHardHammer>, <ore:ingotOsmium>, null], [null, <ore:plateSteel>, null]]);
-
-//# RE-ADD Pipes
-	recipes.addShaped(<Mekanism:PartTransmitter:11> * 2, [[<ore:dustRedstone>, <minecraft:iron_bars>, <ore:dustRedstone>], [<ore:ingotSteel>, <ore:craftingToolMediumHammer>, <ore:ingotSteel>], [<ore:dustRedstone>, <minecraft:iron_bars>, <ore:dustRedstone>]]);
-	recipes.addShaped(<Mekanism:PartTransmitter:10> * 2, [[null, <ore:craftingToolMediumHammer>, null], [<ore:ingotSteel>, <minecraft:iron_bars>, <ore:ingotSteel>]]);
-	recipes.addShaped(<Mekanism:PartTransmitter:9> * 8, [[null, <ore:craftingToolMediumHammer>, null], [<ore:ingotSteel>, <ore:circuitBasic>, <ore:ingotSteel>]]);
-	recipes.addShaped(<Mekanism:PartTransmitter> * 8, [[null, <ore:craftingToolMediumHammer>, null], [<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>]]);
-	recipes.addShaped(<Mekanism:PartTransmitter:4> * 8, [[null, <ore:craftingToolMediumHammer>, null], [<ore:ingotSteel>, <terrafirmacraft:Vessel:1>, <ore:ingotSteel>]]);
-
 //# RE-ADD Armour stuff
 //# Upgrading Gas Mask
 	recipes.addShapeless(<Mekanism:GasMask>.withTag({ench: [{lvl: 3 as short, id: 5 as short}, {lvl: 1 as short, id: 6 as short}]}), [<Mekanism:GasMask>, <Mekanism:GasUpgrade>, <Mekanism:SpeedUpgrade>]);	
@@ -64,10 +31,6 @@ import minetweaker.data.IData;
 //# Diamond Dust Piles
 	recipes.addShaped(<Mekanism:OtherDust>, [[<TabulaRasa:RasaItem2:4>, <TabulaRasa:RasaItem2:4>], [<TabulaRasa:RasaItem2:4>, <TabulaRasa:RasaItem2:4>]]);
 
-//# Temp fix for Sawmill, Crusher not consuming black steel saw
-
-  recipes.addShaped(<Mekanism:MachineBlock2:5>, [[<terrafirmacraft:item.Black Steel Saw>.noReturn(), <Mekanism:ControlCircuit:1>, <terrafirmacraft:item.Black Steel Saw>.noReturn()], [<Mekanism:EnrichedAlloy>, <Mekanism:BasicBlock:8>, <Mekanism:EnrichedAlloy>], [<terrafirmacraft:item.Black Steel Sheet>, <Mekanism:ControlCircuit:1>,<terrafirmacraft:item.Black Steel Sheet>]]);
-    recipes.addShaped(<Mekanism:MachineBlock:3>, [[<minecraft:redstone>, <Mekanism:ControlCircuit>, <minecraft:redstone>], [<terrafirmacraft:item.Black Steel Hammer>.noReturn(), <Mekanism:BasicBlock:8>, <terrafirmacraft:item.Black Steel Hammer>.noReturn()], [<terrafirmacraft:item.Black Steel Sheet>, <ore:craftingPiston>,<terrafirmacraft:item.Black Steel Sheet>]]);
 // ================================================================================
 //# Custom Machine Recipes
 
@@ -92,6 +55,8 @@ import minetweaker.data.IData;
 	mods.mekanism.Infuser.removeRecipe(<minecraft:dirt>);
 	mods.mekanism.Infuser.removeRecipe(<minecraft:dirt:2>);
 	mods.mekanism.Infuser.removeRecipe(<minecraft:mycelium>);
+    mods.mekanism.Infuser.removeRecipe(<Mekanism:EnrichedAlloy>);
+    mods.mekanism.Infuser.removeRecipe(<Mekanism:EnrichedIron>);
 //#Addition
 
 //# Crusher
@@ -99,6 +64,9 @@ import minetweaker.data.IData;
 	mods.mekanism.Crusher.removeRecipe(<ImmersiveEngineering:metal:14>);
 	mods.mekanism.Crusher.removeRecipe(<minecraft:gravel>);
     mods.mekanism.Crusher.removeRecipe(<Mekanism:BioFuel>);
+    mods.mekanism.Crusher.removeRecipe(<Mekanism:Dust>);
+    mods.mekanism.Crusher.removeRecipe(<minecraft:sand>);
+    
 //#Addition
 	//InputStack, OutputStack
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Diamond:0> * 2, <TabulaRasa:RasaItem2:4>);
@@ -208,10 +176,13 @@ import minetweaker.data.IData;
 	//mods.mekanism.chemical.Oxidizer.addRecipe(<minecraft:coal>, <gas:hydrogen>);
 
 //Enrichment Chamber
-//#Removal
+//#Removal removeRecipe(IIngredient itemInput, @Optional IIngredient itemOutput)
 	mods.mekanism.Enrichment.removeRecipe(<ImmersiveEngineering:ore:4>, <ImmersiveEngineering:metal:14>);
 	mods.mekanism.Enrichment.removeRecipe(<TabulaRasa:RasaItem0:8>, <ImmersiveEngineering:metal:14>);
 	mods.mekanism.Enrichment.removeRecipe(<Mekanism:OtherDust>);
+	mods.mekanism.Enrichment.removeRecipe(<minecraft:gravel>);
+	mods.mekanism.Enrichment.removeRecipe(<minecraft:sand>);
+
 //#Addition
 	mods.mekanism.Enrichment.addRecipe(<Mekanism:OtherDust>, <Mekanism:CompressedDiamond>);
 	mods.mekanism.Enrichment.addRecipe(<terrafirmacraft:item.Diamond:2>, <Mekanism:CompressedDiamond>);
@@ -229,7 +200,8 @@ import minetweaker.data.IData;
     mods.mekanism.Enrichment.addRecipe(<terrafirmacraft:item.Ore:14>, <terrafirmacraft:item.coal:0> * 2);
 
 //Purification Chamber
-//#Removal
+//#Removal removeRecipe(IIngredient itemOutput, @Optional IIngredient itemInput, @Optional IIngredient gasInput)
+	mods.mekanism.Purification.removeRecipe(<minecraft:flint>, <minecraft:gravel>);
 
 //#Addition
 	mods.mekanism.Purification.addRecipe(<TabulaRasa:RasaItem0:2>, <TabulaRasa:RasaItem3:3> * 3);
@@ -249,14 +221,14 @@ import minetweaker.data.IData;
 	mods.mekanism.chemical.Injection.removeRecipe(<minecraft:clay>);
 	mods.mekanism.chemical.Injection.removeRecipe(<Mekanism:OtherDust:3>);
 //#Addition
-	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:2>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem3:3> * 4);
+	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:2>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4:3> * 4);
 	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:7>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4:1> * 4);
 	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:8>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4:2> * 4);
 	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem0:12>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4> * 4);
 	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem5>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4>);
 	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem5:1>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4:1>);
 	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem5:2>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4:2>);
-	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem5:3>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem3:3>);
+	mods.mekanism.chemical.Injection.addRecipe(<TabulaRasa:RasaItem5:3>, <gas:hydrogenChloride>, <TabulaRasa:RasaItem4:3>);
 //Chemical Dissolution
 	//InputStack, GasOutput
 	mods.mekanism.chemical.Dissolution.addRecipe(<TabulaRasa:RasaItem0:2>, <gas:Platinum> * 1000);

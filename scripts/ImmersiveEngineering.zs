@@ -82,6 +82,7 @@ import minetweaker.item.IIngredient;
     recipes.remove(<ImmersiveEngineering:metal:27>);
     recipes.remove(<ImmersiveEngineering:metal:28>);
     recipes.remove(<ImmersiveEngineering:metal:29>);
+    recipes.remove(<ImmersiveEngineering:metalDecoration:8>);
 
 // ================================================================================
 //#ADD Furnace Recipes
@@ -104,6 +105,8 @@ import minetweaker.item.IIngredient;
 // ================================================================================
 //#MARKER ADD SHAPED
 
+//Cable Connector
+    recipes.addShaped(<ImmersiveEngineering:metalDecoration:8> * 4, [[<ImmersiveEngineering:metalDecoration>], [<ore:ingotSteel>]]);
 //# Crate
     recipes.addShaped(<ImmersiveEngineering:woodenDevice:4>, [[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:blockBlueSteel>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
         recipes.addShaped(<ImmersiveEngineering:woodenDevice:4>, [[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:blockRedSteel>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
@@ -155,7 +158,7 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 4, [<ImmersiveEngineer
 	recipes.addShaped(<ImmersiveEngineering:drillhead>, [[null, <ore:ingotSteel>, null], [null, <ImmersiveEngineering:drillhead>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
 
 //# Jerry Can
-    recipes.addShapedMirrored(<ImmersiveEngineering:jerrycan>, [[<ore:dyeGreen>, <ore:plateBlackSteel>], [<ore:plateBlackSteel>, <ore:plateBlackSteel>]]);
+    recipes.addShapedMirrored(<ImmersiveEngineering:jerrycan>, [[<ore:dyeGreen>, <ore:plateBlackSteel>], [<ore:plateBlackSteel>, <minecraft:bucket>]]);
 //# Oxidizer Tank
 	recipes.addShaped(<ImmersiveEngineering:toolupgrade>, [[<Forestry:canEmpty>, <ore:dyeBlue>, null], [<ore:dyeBlue>, <Forestry:canEmpty>, <ore:dyeBlue>], [null, <ore:dyeBlue>, <ImmersiveEngineering:material:11>]]);
 
@@ -328,6 +331,8 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 4, [<ImmersiveEngineer
     mods.immersiveengineering.Crusher.removeRecipe(<Mekanism:OtherDust>);
     mods.immersiveengineering.Crusher.removeRecipe(<terrafirmacraft:item.Powder:3>);
     mods.immersiveengineering.Crusher.removeRecipe(<terrafirmacraft:item.Powder:4>);
+    mods.immersiveengineering.Crusher.removeRecipe(<minecraft:gravel>);
+    mods.immersiveengineering.Crusher.removeRecipe(<Railcraft:dust:3>);
     
 //#Addition
 	//OutputStack, InputStack, Energy, OutputStack2, Chance //Chance in Decimals
@@ -359,7 +364,18 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 4, [<ImmersiveEngineer
 	mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:8>, <terrafirmacraft:item.Rose Gold Ingot>, 3600);
 	mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:9>, <terrafirmacraft:item.Sterling Silver Ingot>, 3600);
 	mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem2:5>, <terrafirmacraft:item.Pig Iron Ingot>, 3600);
-	mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem2:6>, <terrafirmacraft:item.Black Steel Ingot>, 3600);
+	mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem2:5>, <terrafirmacraft:item.HC Steel Ingot>, 3600);
+	mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:10>, <terrafirmacraft:item.Weak Steel Ingot>, 3600);
+    mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem2:6>, <terrafirmacraft:item.HC Black Steel Ingot>, 3600);
+	mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:13>, <terrafirmacraft:item.Black Steel Ingot>, 3600);
+	mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:11>, <terrafirmacraft:item.Weak Blue Steel Ingot>, 3600);
+    mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem2:7>, <terrafirmacraft:item.HC Blue Steel Ingot>, 3600);
+	mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:14>, <terrafirmacraft:item.Blue Steel Ingot>, 3600);
+	mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:12>, <terrafirmacraft:item.Weak Red Steel Ingot>, 3600);
+    mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem2:8>, <terrafirmacraft:item.HC Red Steel Ingot>, 3600);
+	mods.immersiveengineering.Crusher.addRecipe(<TabulaRasa:RasaItem1:15>, <terrafirmacraft:item.Red Steel Ingot>, 3600);
+
+    
 //#Minerals and Flux
 	mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone> * 10, <ore:oreRedstone>, 6000);
 	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.coal> * 2, <ore:oreCoal>, 6000);
@@ -474,10 +490,13 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 4, [<ImmersiveEngineer
 //#Steels
 	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Steel Ingot>, <ore:ingotIron>, <ImmersiveEngineering:material:13>, 400, 256, [<ImmersiveEngineering:metal:17>]);
 	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Steel Ingot>, <Mekanism:Dust>, <ImmersiveEngineering:material:13>, 400, 256, [<ImmersiveEngineering:metal:17>]);
-	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <TabulaRasa:RasaItem1:13>, <ImmersiveEngineering:material:13>, 400, 256, [<ImmersiveEngineering:metal:17>]);
-	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Blue Steel Ingot>, <TabulaRasa:RasaItem1:14>, <ImmersiveEngineering:material:13>, 400, 256, [<ImmersiveEngineering:metal:17>]);
-	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Red Steel Ingot>, <TabulaRasa:RasaItem1:15>, <ImmersiveEngineering:material:13>, 400, 256, [<ImmersiveEngineering:metal:17>]);
-
+	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <TabulaRasa:RasaItem2:6>, <ImmersiveEngineering:material:13>, 400, 256, []);
+	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Blue Steel Ingot>, <TabulaRasa:RasaItem2:7>, <ImmersiveEngineering:material:13>, 400, 256, []);
+	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Red Steel Ingot>, <TabulaRasa:RasaItem2:8>, <ImmersiveEngineering:material:13>, 400, 256, []);
+	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <TabulaRasa:RasaItem1:13>, <ImmersiveEngineering:material:13>, 200, 256, []);
+	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Blue Steel Ingot>, <TabulaRasa:RasaItem1:14>, <ImmersiveEngineering:material:13>, 200, 256, []);
+	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Red Steel Ingot>, <TabulaRasa:RasaItem1:15>, <ImmersiveEngineering:material:13>, 200, 256, []);
+    
 //#Alloys
     mods.immersiveengineering.ArcFurnace.addRecipe(<bluepower:blue_alloy_ingot>, <ore:ingotIron>, null, 100, 256, [<bluepower:teslatite_dust> * 4], "Alloying");
     mods.immersiveengineering.ArcFurnace.addRecipe(<bluepower:red_alloy_ingot>, <ore:ingotIron>, null, 100, 256, [<minecraft:redstone> * 4], "Alloying");        
@@ -516,11 +535,11 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 4, [<ImmersiveEngineer
 	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Lead Ingot>, <ore:dustLead>, null, 200, 256, []);
 	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Silver Ingot>, <ore:dustSilver>, null, 100, 256, []);
 	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Nickel Ingot>, <ore:dustNickel>, null, 100, 256, []);
-    mods.immersiveengineering.ArcFurnace.addRecipe(<Mekanism:Ingot:1>, <ore:dustOsmium>, <ImmersiveEngineering:material:13>, 100, 256, []);
-	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Tin Ingot>, <ore:dustTin>, <ImmersiveEngineering:material:13>, 100, 256, []);
-	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Platinum Ingot>, <ore:dustPlatinum>, <ImmersiveEngineering:material:13>, 100, 256, []);
-	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Bismuth Ingot>, <ore:dustBismuth>, <ImmersiveEngineering:material:13>, 100, 256, []);
-	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Zinc Ingot>, <ore:dustZinc>, <ImmersiveEngineering:material:13>, 100, 256, []);
+    mods.immersiveengineering.ArcFurnace.addRecipe(<Mekanism:Ingot:1>, <ore:dustOsmium>, null, 100, 256, []);
+	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Tin Ingot>, <ore:dustTin>, null, 100, 256, []);
+	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Platinum Ingot>, <ore:dustPlatinum>, null, 100, 256, []);
+	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Bismuth Ingot>, <ore:dustBismuth>, null, 100, 256, []);
+	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Zinc Ingot>, <ore:dustZinc>, null, 100, 256, []);
 
 	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Bronze Ingot>, <TabulaRasa:RasaItem1:4>, null, 100, 256, []);
 	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Bismuth Bronze Ingot>, <TabulaRasa:RasaItem1:5>, null, 100, 256, []);
@@ -529,7 +548,6 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 4, [<ImmersiveEngineer
 	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Rose Gold Ingot>, <TabulaRasa:RasaItem1:8>, null, 100, 256, []);
 	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Sterling Silver Ingot>, <TabulaRasa:RasaItem1:9>, null, 100, 256, []);
 	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Pig Iron Ingot>, <TabulaRasa:RasaItem2:5>, null, 100, 256, []);
-	mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <TabulaRasa:RasaItem2:6>, null, 100, 256, []);
     
     var stoneRaw = [<terrafirmacraft:StoneIgIn:0>, <terrafirmacraft:StoneIgIn:1>, <terrafirmacraft:StoneIgIn:2>, <terrafirmacraft:StoneIgEx:0>, <terrafirmacraft:StoneIgEx:1>, <terrafirmacraft:StoneIgEx:2>, <terrafirmacraft:StoneIgEx:3>, <terrafirmacraft:StoneSed:0>, <terrafirmacraft:StoneSed:0>, <terrafirmacraft:StoneSed:1>, <terrafirmacraft:StoneSed:2>, <terrafirmacraft:StoneSed:3>, <terrafirmacraft:StoneSed:4>, <terrafirmacraft:StoneSed:5>, <terrafirmacraft:StoneSed:6>, <terrafirmacraft:StoneSed:7>, <terrafirmacraft:StoneMM:0>, <terrafirmacraft:StoneMM:1>, <terrafirmacraft:StoneMM:2>, <terrafirmacraft:StoneMM:3>, <terrafirmacraft:StoneMM:4>, <terrafirmacraft:StoneMM:5>] as IItemStack[];
     
@@ -542,6 +560,7 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 4, [<ImmersiveEngineer
 //#Metal Press
 
 mods.immersiveengineering.MetalPress.removeRecipeByMold(<ImmersiveEngineering:mold>);
+mods.immersiveengineering.MetalPress.removeRecipeByMold(<ImmersiveEngineering:mold:1>);
 
 //# Ore Dictionary Arrays
 
@@ -635,6 +654,11 @@ mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold:2>, <o
     mods.immersiveengineering.MetalPress.addRecipe(doubleSheet, doubleIngot, <ImmersiveEngineering:mold>, 4800, 2);
         }
         
+        for i, sheet in tfcSheets {
+    var doubleSheet = tfcDoubleSheets[i];
+    mods.immersiveengineering.MetalPress.addRecipe(doubleSheet, sheet, <ImmersiveEngineering:mold>, 4800, 2);
+        }
+        
         for i, ingotTool in oreIngotsTool {        
     var pick = tfcPickHeads[i];
     var proPick = tfcProPickHeads[i];
@@ -683,3 +707,14 @@ mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold:2>, <o
     
 //# Aluminum Sheet
     mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:metal:32>, <ore:ingotAluminum>, <ImmersiveEngineering:mold>, 4800, 2);
+
+//# Gears
+    mods.immersiveengineering.MetalPress.addRecipe(<Forestry:gearBronze>, <ore:plateAnyBronze>, <ImmersiveEngineering:mold:1>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<Forestry:gearCopper>, <ore:plateCopper>, <ImmersiveEngineering:mold:1>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<Forestry:gearTin>, <ore:plateTin>, <ImmersiveEngineering:mold:1>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<Railcraft:part.gear>, <ore:plateGold>, <ImmersiveEngineering:mold:1>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<Railcraft:part.gear:1>, <ore:plateIron>, <ImmersiveEngineering:mold:1>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<Railcraft:part.gear:2>, <ore:plateSteel>, <ImmersiveEngineering:mold:1>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<PneumaticCraft:compressedIronGear>, <ore:ingotIronCompressed>, <ImmersiveEngineering:mold:1>, 4800, 4);
+    
+

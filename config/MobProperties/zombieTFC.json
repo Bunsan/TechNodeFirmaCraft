@@ -29,9 +29,29 @@
         },
         {
           "_comment": "Low Down check",
-          "function": "if_below_60",
+          "function": "if_recently_hit",
           "functions": [
             {
+              "function": "if_below_60",
+              "functions": [
+                {
+                  "function": "add",
+                  "count": 0.05,
+                  "id": "ImmersiveEngineering:shaderBag",
+                  "item_stats": [
+                    {
+                      "function": "nbt",
+                      "tags": [
+                        {
+                          "name": "rarity",
+                          "function": "string",
+                          "value": "common"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
               "function": "!if_can_see_sky",
               "count": 0.25,
               "functions": [
@@ -244,6 +264,23 @@
                     "count" : 0.4
                   },
                   {
+                    "function": "add",
+                    "count": 0.1,
+                    "id": "ImmersiveEngineering:shaderBag",
+                    "item_stats": [
+                      {
+                        "function": "nbt",
+                        "tags": [
+                          {
+                            "name": "rarity",
+                            "function": "string",
+                            "value": "uncommon"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
                     "_comment": "Spawn Black Steel tier Zombie",
                     "function": "spawn",
                     "id": "zombieTFC",
@@ -304,6 +341,23 @@
                     "function": "add",
                     "id": "terrafirmacraft:item.Weak Steel Ingot",
                     "count" : 0.3
+                  },
+                  {
+                    "function": "add",
+                    "count": 0.5,
+                    "id": "ImmersiveEngineering:shaderBag",
+                    "item_stats": [
+                      {
+                        "function": "nbt",
+                        "tags": [
+                          {
+                            "name": "rarity",
+                            "function": "string",
+                            "value": "rare"
+                          }
+                        ]
+                      }
+                    ]
                   },
                   {
                     "function": "choose",
@@ -428,6 +482,8 @@
         }
     ]
     }
+]
+}
    ],
   "pre_stats": [],
   "stats": []

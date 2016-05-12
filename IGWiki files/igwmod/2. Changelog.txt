@@ -1,3 +1,136 @@
+[prefix{l}]Version 2.16.4: Stuff.[prefix{l}]
+
+Just a few updates and a few little tweaks and fixes.
+
+Updated Mods:
+- Immersive Engineering (Fastcraft lighting Glitch)
+- VoxelMap
+- Forestry
+
+Tweaks and Fixes:
+- TNFCmod 
+  - TFC Bow not hidden in NEI.
+- Vanilla 
+  - New map recipe (compass isn't used up). 
+  - New Compass recipe.
+- Immersive Engineering
+  - Metal press uses a sheet instead of 4 ingots.
+  - Double sheet can be crafted with 2 metal sheets in metal press.
+- Forestry 
+ - Fixed gear recipes to output 2 gears as intended.
+ - Monastic Bee recipe added.
+ - Spectral and Phantasmal bees disabled.
+- Mek 
+ - Blacklist working again.
+- OpenComputers
+ - Fixed Case 2 recipe.
+ - Fixed Circuit recipe.
+
+[prefix{l}]Version 2.16.3: Guess who's back, back again. Gravels back, tell a friend.[prefix{l}]
+
+Just a little update this week to fix a few small issues and complaints. The presence of vanilla gravel in the pack was not intentional and this was why it was removed. However due to it being only valid block for the tunnel bore we've come up with a solution. There is a new block called Tunnel Bore Ballast, which is crafted with any TFC gravel and creosote oil. It will work in the Tunnel Bore, because well it is retextured, renamed, reworked vanilla gravel. We've added our work in progress info for Mod changes in TNFC to the IGW. Other than that some minor tweaks and some Mod update.
+
+Tweaks and Changes:
+
+TNFC
+- Crafting Recipe for Obsidian.
+
+Railcraft
+- Tunnel Bore Ballast block.
+
+Mekanism
+- Portable Tank Recipe change (sorry but bucket mode)
+
+BluePower
+- Sapphire Glass recipe will now use any Blue Gem.
+
+Updated Mods:
+- Mekanism
+- Mekanism Generators
+- Voxel Map
+- Better Foliage
+
+[prefix{l}]Version 2.16.2: Give Me Some Skin.[prefix{}]
+
+Oh look I found an update. Number of bug fixes, small tweaks and lots of mod updates. The one new addition is that you'll now be able to drop Immersive Engineering Shader Loot bags to skin your balloons, guns, etc. They drop from mobs in certain circumstances. So head deep underground for best chance. As always back up your saves before updating.
+
+Tweaks/Bug Fixes
+Railcraft
+- Refund recipe for Steam Turbine and parts due to it being non-functional.
+
+TFC-TNFC
+- Ice now works with IE ThermoElectric Generator.
+
+Immersive Engineering
+- Removed ability to produce minecraft gravel.
+- Crusher can process weak and high carbon steel ingots.
+- IE Arc furnace can process High Carbon Black/Blue/Red Steel Dust.
+- Slag removed from a few Arc furnace recipes (missed after bug fix).
+- Reduced energy consumption of Railgun.
+
+Mek
+- Removed ability to produce Vanilla sand from vanilla gravel.
+
+Storage Drawers
+- Trim is now craftable (linked to most similar TFC wood type).
+
+PneumaticCraft
+- Fixed Pressure Chamber Window and Valve recipe to return 4 blocks.
+
+Misc
+- Removed a number of useless recipes (were never craftable).
+
+Updated Mods
+- TFC-TNFC
+- Railcraft
+- Immersive Engineering
+- Storage Drawers
+- Mob Properties
+- CofHCore
+- TNFC-resources
+- Fastcraft
+- NEI Integration
+- Better Foliage
+- Voxel Map
+
+[prefix{l}]Version 2.16: Keep it in your Drawers[prefix{}]
+
+I thought I was done, but new mods this week for the pack. First is the frequently requested Leather Water Sac TFC add-on by Emris. I've tweaked the recipe so that you'll need to have an iron knife to craft it. Then there is the bigger addition of Storage Drawers. It was clear that a better late game mass storage solution was necessary and we feel this is a good fit in pack. Only the framed versions of the drawers are available and you can then skin with any block you choose.
+
+There are also a bunch of fixes and a few mod updates. A friendly reminder to always backup your save before updating. Enjoy.
+
+Mods Added
+- Storage Drawers
+- Leather Water Sac
+
+Fixed Mods:
+TFC-TNFC 
+- We've re-added the mysteriously lost Waila fixes. Including tooltips for surface nuggets.
+- Fixed a bug that caused negative crop growth in cold temperatures.
+
+TNFC-mod
+- Added Ore-Dictionary compatibility for Leather Water Sac mod
+- Fixed jerrycan fluid dupe bug.
+
+BluePower
+- fix another achievement crash
+
+TNFC-resources
+- Storage Drawers texture fix.
+
+Mods Updated
+- Forestry - bug fixes.
+- Immersive Engineering - bug fixes.
+- PneumaticCraft - bug fixes.
+- JourneyMap
+
+Pack Changes:
+- RPG-Adv mod is now optional. (some players experiencing memory leaks)
+- Recipe tweak for IE Jerrycan. Now requires Ultimate Bucket as it now places source blocks.
+- Reduced cost of IE cable connectors.
+- Recipe fix for Railcraft Wire supports.
+- Bit more recipe clean-up.
+
 [prefix{l}]Version 2.15: Mr. Bear meet Railgun. Railgun meet....where'd he go?[prefix{}]
 
 This week is another quality of life update. Lots of mods got some bug fixes and added some nice integration. We did some cleaning up of the pack and NEI. Bit of a long changelog as some of the changes need some explanation.

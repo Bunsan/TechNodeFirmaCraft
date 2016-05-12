@@ -1,29 +1,51 @@
 {
   "_name": "skeletonTFC",
   "drops": [
+    {
+      "function": "if_past_world_time_4319910",
+      "functions": [
         {
-        "function": "if_past_world_time_4319910",
-        "functions": [
-          {
-            "_comment": "add blueprint drop",
-            "function": "if_moon_phase_1",
-            "functions": [
+          "function": "if_below_60",
+          "functions": [
+            {
+              "function": "add",
+              "count": 0.1,
+              "id": "ImmersiveEngineering:shaderBag",
+              "item_stats": [
+                {
+                  "function": "nbt",
+                  "tags": [
+                    {
+                      "name": "rarity",
+                      "function": "string",
+                      "value": "rare"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+
+          "_comment": "add blueprint drop",
+          "function": "if_moon_phase_1",
+          "functions": [
             {
               "function": "if_recently_hit",
               "functions": [
-              {
-                "function": "add",
-                "id": "ImmersiveEngineering:blueprint",
-                "damage": 1,
-                "count": 0.05
-              }
+                {
+                  "function": "add",
+                  "id": "ImmersiveEngineering:blueprint",
+                  "damage": 1,
+                  "count": 0.05
+                }
               ]
             }  
-            ]
-          }
-          
-        ]
-        }
+          ]
+        }  
+      ]
+    }
   ],
   "pre_stats": [],
   "stats": []
