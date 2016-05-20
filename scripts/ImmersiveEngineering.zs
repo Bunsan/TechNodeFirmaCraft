@@ -646,7 +646,7 @@ mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold:2>, <o
     var sheet = tfcSheets[i];
         
     mods.immersiveengineering.MetalPress.addRecipe(doubleIngot, ingot, <TabulaRasa:RasaItem7:14>, 4800, 2);
-    mods.immersiveengineering.MetalPress.addRecipe(sheet, ingot, <ImmersiveEngineering:mold>, 4800, 2);
+    mods.immersiveengineering.MetalPress.addRecipe(sheet * 1, ingot, <ImmersiveEngineering:mold>, 4800, 2);
         }
         
         for i, doubleIngot in oreDoubleIngots {        
