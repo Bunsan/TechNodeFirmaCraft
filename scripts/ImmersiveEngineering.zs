@@ -129,19 +129,19 @@ import minetweaker.item.IIngredient;
 
 //# Iron (we made it Tin)
     recipes.addShaped(<ImmersiveEngineering:metalDecoration:10> * 4, [[<ore:plateTin>], [<ore:craftingToolMediumHammer>], [<ore:plateTin>]]);
-    recipes.addShapeless(<terrafirmacraft:item.Tin Sheet> * 4, [<ImmersiveEngineering:metalDecoration:10>]);
+    recipes.addShapeless(<terrafirmacraft:item.Tin Sheet> * 2, [<ImmersiveEngineering:metalDecoration:10>, <ImmersiveEngineering:metalDecoration:10>, <ImmersiveEngineering:metalDecoration:10>, <ImmersiveEngineering:metalDecoration:10>]);
 
 //# Aluminum
     recipes.addShaped(<ImmersiveEngineering:metalDecoration2> * 4, [[<ore:plateAluminum>], [<ore:craftingToolMediumHammer>], [<ore:plateAluminum>]]);
-    recipes.addShapeless(<ImmersiveEngineering:metal:32> * 4, [<ImmersiveEngineering:metalDecoration2>]);
+    recipes.addShapeless(<ImmersiveEngineering:metal:32> * 2, [<ImmersiveEngineering:metalDecoration2>, <ImmersiveEngineering:metalDecoration2>, <ImmersiveEngineering:metalDecoration2>, <ImmersiveEngineering:metalDecoration2>]);
 
 //# Lead
     recipes.addShaped(<ImmersiveEngineering:metalDecoration2:1> * 4, [[<ore:plateLead>], [<ore:craftingToolMediumHammer>], [<ore:plateLead>]]);
-    recipes.addShapeless(<terrafirmacraft:item.Lead Sheet> * 4, [<ImmersiveEngineering:metalDecoration2:1>]);
+    recipes.addShapeless(<terrafirmacraft:item.Lead Sheet> * 2, [<ImmersiveEngineering:metalDecoration2:1>, <ImmersiveEngineering:metalDecoration2:1>, <ImmersiveEngineering:metalDecoration2:1>, <ImmersiveEngineering:metalDecoration2:1>]);
 
 //# Steel
 recipes.addShaped(<ImmersiveEngineering:metalDecoration2:2> * 4, [[<ore:plateSteel>], [<ore:craftingToolMediumHammer>], [<ore:plateSteel>]]);
-recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 4, [<ImmersiveEngineering:metalDecoration2:2>]);
+recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 2, [<ImmersiveEngineering:metalDecoration2:2>, <ImmersiveEngineering:metalDecoration2:2>, <ImmersiveEngineering:metalDecoration2:2>, <ImmersiveEngineering:metalDecoration2:2>]);
 
 //# Metal Barrel
     recipes.addShaped(<ImmersiveEngineering:metalDevice2:7>, [[<ImmersiveEngineering:metalDecoration:10>, <ImmersiveEngineering:metalDecoration:10>, <ImmersiveEngineering:metalDecoration:10>], [<ImmersiveEngineering:metalDecoration:10>, <terrafirmacraft:item.Blue Steel Bucket Empty>.reuse(), <ImmersiveEngineering:metalDecoration:10>], [<ImmersiveEngineering:metalDecoration:10>, <ImmersiveEngineering:metalDecoration:10>, <ImmersiveEngineering:metalDecoration:10>]]);
