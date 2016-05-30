@@ -22,4 +22,8 @@ Bloomery can hold a maximum of 2000 units.
 
 You get text warning you are suffering from heat stroke.
 
+Fall damage is consistent. 80hp lost for every block over 3 fallen irregardless of player Max HP.
+
+Poison damage won't reduce players health below 10% of their maximum HP.
+
 There are polar bears. 

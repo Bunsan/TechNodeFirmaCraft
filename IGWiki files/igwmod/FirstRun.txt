@@ -1,27 +1,19 @@
-[prefix{l}]Version 2.16.4: Stuff.[prefix{l}]
+[prefix{l}]Version 2.17: Number 9. Number 9[prefix{l}]
 
-Just a few updates and a few little tweaks and fixes.
+There was some doubters, but here is Mekanism version 9. You will get all the new bits of the Mekanism update and still get to keep your Refrigerators (can't open in inventory anymore) and get the new personal chest (can open in inventory). Thermal Evaporators will detect current temperature and adjust accordingly. Recipes were tweaked to try and maintain the current balance, but please provide feedback. If you have dynamic glass (now called structural glass) in your world, we recommend breaking and replacing it as interacting with it can cause a crash to main menu. Please report any issues or crashes to us and not Mekanism devs.
+
+We've also included the newest Streams mod as an alternative option. This version creates underground caves and rivers instead of deep canyons. There is a risk of unusual worldgen at borders of world generated in older version.
+
+TFC has also updated to version 0.79.29. Many of the bug fixes were already included in our pack, but there are some new ones. Please see the TFC changelog of more information. One difference is that we've set poison damage so it won't reduce a players HP below 10% of max HP.
 
 Updated Mods:
-- Immersive Engineering (Fastcraft lighting Glitch)
-- VoxelMap
-- Forestry
-
-Tweaks and Fixes:
-- TNFCmod 
-  - TFC Bow not hidden in NEI.
-- Vanilla 
-  - New map recipe (compass isn't used up). 
-  - New Compass recipe.
-- Immersive Engineering
-  - Metal press uses a sheet instead of 4 ingots.
-  - Double sheet can be crafted with 2 metal sheets in metal press.
-- Forestry 
- - Fixed gear recipes to output 2 gears as intended.
- - Monastic Bee recipe added.
- - Spectral and Phantasmal bees disabled.
-- Mek 
- - Blacklist working again.
-- OpenComputers
- - Fixed Case 2 recipe.
- - Fixed Circuit recipe.
+- TFC
+- Mekanism
+- Railcraft
+- Jabba
+- Voxelmap
+- Bibliocraft
+- Storage Drawers
+- Farseek
+- Streams
+- NEI
