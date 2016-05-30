@@ -68,7 +68,7 @@ import mods.nei.NEI;
 	recipes.addShapeless(<TabulaRasa:RasaItem0:10> * 3, [<terrafirmacraft:item.Ore:45>, <terrafirmacraft:item.Ore:45>, <terrafirmacraft:item.Ore:45>, <terrafirmacraft:item.Ore:45>, <ore:craftingToolMediumHammer>]);
 	recipes.addShapeless(<TabulaRasa:RasaItem0:11> * 3, [<terrafirmacraft:item.Ore:46>, <terrafirmacraft:item.Ore:46>, <terrafirmacraft:item.Ore:46>, <terrafirmacraft:item.Ore:46>, <ore:craftingToolMediumHammer>]);
 	recipes.addShapeless(<TabulaRasa:RasaItem0:12> * 3, [<terrafirmacraft:item.Ore:47>, <terrafirmacraft:item.Ore:47>, <terrafirmacraft:item.Ore:47>, <terrafirmacraft:item.Ore:47>, <ore:craftingToolMediumHammer>]);
-	recipes.addShapeless(<TabulaRasa:RasaItem0:13> * 3, [<terrafirmacraft:item.Ore:48>, f<terrafirmacraft:item.Ore:48>, <terrafirmacraft:item.Ore:48>, <terrafirmacraft:item.Ore:48>, <ore:craftingToolMediumHammer>]);
+	recipes.addShapeless(<TabulaRasa:RasaItem0:13> * 3, [<terrafirmacraft:item.Ore:48>, <terrafirmacraft:item.Ore:48>, <terrafirmacraft:item.Ore:48>, <terrafirmacraft:item.Ore:48>, <ore:craftingToolMediumHammer>]);
 
 //# Poor Ore to Piles
 	recipes.addShapeless(<TabulaRasa:RasaItem0>, [<terrafirmacraft:item.Ore:49>, <terrafirmacraft:item.Ore:49>, <terrafirmacraft:item.Ore:49>, <terrafirmacraft:item.Ore:49>, <ore:craftingToolMediumHammer>]);
