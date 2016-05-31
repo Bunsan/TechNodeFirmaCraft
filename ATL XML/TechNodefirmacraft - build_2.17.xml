@@ -263,7 +263,7 @@
         name="CommonsCompress" version="1.8.1" url="packs/TechNodefirmacraft/files/1.7.10Mods/commons-compress-1.8.1.jar" file="commons-compress-1.8.1.jar" md5="d862e30ff6b5d78264677dcd6507abb8" download="server" type="dependency" website="https://commons.apache.org/proper/commons-compress/" description="Dependency for Inpurecore" library="yes" client="yes" server="yes" optional="yes" serveroptional="yes"
         />
         <mod
-        name="zTNFCResources" version="2.17.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/zzz-zTNFCResources-2.17.0.jar" file="zzz-zTNFCResources-2.17.0.jar" md5="70a308b1e5f610925fb906cf953518af" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftResources" description="Provides ore names and textures for custom items." client="yes" server="no" optional="no" 
+        name="zTNFCResources" version="2.17.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/zzz-zTNFCResources-2.17.0.jar" file="zzz-zTNFCResources-2.17.0.jar" md5="b9c91aa85e4e4530da64136926e8e9ff" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftResources" description="Provides ore names and textures for custom items." client="yes" server="no" optional="no" 
         />
          <!-- Days per Year Options -->
         <mod
