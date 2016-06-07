@@ -610,6 +610,10 @@ mods.immersiveengineering.MetalPress.removeRecipeByMold(<ImmersiveEngineering:mo
 
     var tfcTuyeres = [<terrafirmacraft:item.Bismuth Bronze Tuyere>, <terrafirmacraft:item.Black Bronze Tuyere>, <terrafirmacraft:item.Black Steel Tuyere>, <terrafirmacraft:item.Blue Steel Tuyere>, <terrafirmacraft:item.Bronze Tuyere>, <terrafirmacraft:item.Copper Tuyere>, <terrafirmacraft:item.Wrought Iron Tuyere>, <terrafirmacraft:item.Red Steel Tuyere>, <terrafirmacraft:item.Steel Tuyere>] as IItemStack[];
 
+    var lanternCore = [<DecorationsTFC:item.LanternCore.BismuthBronze>, <DecorationsTFC:item.LanternCore.BlackBronze>, <DecorationsTFC:item.LanternCore.Brass>, <DecorationsTFC:item.LanternCore.Bronze>, <DecorationsTFC:item.LanternCore.Copper>, <DecorationsTFC:item.LanternCore.Gold>, <DecorationsTFC:item.LanternCore.WroughtIron>, <DecorationsTFC:item.LanternCore.Lead>, <DecorationsTFC:item.LanternCore.Platinum>, <DecorationsTFC:item.LanternCore.RoseGold>, <DecorationsTFC:item.LanternCore.Silver>, <DecorationsTFC:item.LanternCore.SterlingSilver>] as IItemStack[];
+    
+    var lanternIngot = [<ore:ingotBismuthBronze>, <ore:ingotBlackBronze>, <ore:ingotBrass>, <ore:ingotBronze>, <ore:ingotCopper>, <ore:ingotGold>, <ore:ingotIron>, <ore:ingotLead>, <ore:ingotPlatinum>, <ore:ingotRoseGold>, <ore:ingotSilver>, <ore:ingotSterlingSilver>] as IIngredient[];
+    
 //# Molds
 
 mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:15>, <ore:plateDoubleSteel>, <terrafirmacraft:MetalBlock2:1>, 2400, 1);
@@ -635,6 +639,7 @@ mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:17>, <ore:m
 mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:18>, <ore:moldBlank>, <terrafirmacraft:Grill>, 2400, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:19>, <ore:moldBlank>, <terrafirmacraft:Hopper>, 2400, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:20>, <ore:moldBlank>, <terrafirmacraft:item.shears>, 2400, 1);
+mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem7:21>, <ore:moldBlank>, <DecorationsTFC:item.LanternCore.WroughtIron>, 2400, 1);
 
 mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold>, <ore:moldBlank>, <terrafirmacraft:item.Steel Sheet>, 2400, 1);
 mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold:1>, <ore:moldBlank>, <Railcraft:part.gear:2>, 2400, 1);
@@ -716,5 +721,12 @@ mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold:2>, <o
     mods.immersiveengineering.MetalPress.addRecipe(<Railcraft:part.gear:1>, <ore:plateIron>, <ImmersiveEngineering:mold:1>, 2400, 1);
     mods.immersiveengineering.MetalPress.addRecipe(<Railcraft:part.gear:2>, <ore:plateSteel>, <ImmersiveEngineering:mold:1>, 2400, 1);
     mods.immersiveengineering.MetalPress.addRecipe(<PneumaticCraft:compressedIronGear>, <ore:ingotIronCompressed>, <ImmersiveEngineering:mold:1>, 4800, 4);
+    
+//# Lantern Cores
+
+for i, ingot in lanternIngot {
+var core = lanternCore[i];
+    mods.immersiveengineering.MetalPress.addRecipe(core, ingot, <TabulaRasa:RasaItem7:21>, 2400, 1);
+}
     
 
