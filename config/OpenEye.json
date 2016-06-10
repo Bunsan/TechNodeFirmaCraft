@@ -23,7 +23,7 @@
             "value": false
         },
         "tags": {
-            "value": [TechNodefirmacraft_2.17]
+            "value": [TechNodefirmacraft_2.18]
         },
         "sentCrashReportsLimit": {
             "comment": "Maximum number of crash reports from single category sent per single run",

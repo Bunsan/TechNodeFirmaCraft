@@ -1,19 +1,15 @@
-[prefix{l}]Version 2.17: Number 9. Number 9[prefix{l}]
+[prefix{l}]Version 2.18: I Want A New.... Map![prefix{l}]
+A special edition update to celebrate the launch of a new map for the official TNFC server. It's going to be a wild and woolly weekend as we explore the new world and see what's out there. If you're not joining us, well shame on you, then there are just a couple of bug fixes and the addition of one new optional mod, FTB Utilities.
 
-There was some doubters, but here is Mekanism version 9. You will get all the new bits of the Mekanism update and still get to keep your Refrigerators (can't open in inventory anymore) and get the new personal chest (can open in inventory). Thermal Evaporators will detect current temperature and adjust accordingly. Recipes were tweaked to try and maintain the current balance, but please provide feedback. If you have dynamic glass (now called structural glass) in your world, we recommend breaking and replacing it as interacting with it can cause a crash to main menu. Please report any issues or crashes to us and not Mekanism devs.
+FTB Utilities adds a few nice features, especially for SMP. It adds a friends list, some player stats (last played, deaths, etc) and provides some simple server commands (/home, /spawn, /back). The reason we've added it is to allow some chunk claiming on our server. It provides a nice client side GUI to allow players to easily claim chunks and only allow their friends to break blocks within it.
 
-We've also included the newest Streams mod as an alternative option. This version creates underground caves and rivers instead of deep canyons. There is a risk of unusual worldgen at borders of world generated in older version.
+The other change is to fix the Mekanism Electric chest. It will now properly consume 5RF/t per stack of food. Decay is also greatly increased if the chest loses power. This was always the intended configuration but somehow the numbers were calculated incorrectly.
 
-TFC has also updated to version 0.79.29. Many of the bug fixes were already included in our pack, but there are some new ones. Please see the TFC changelog of more information. One difference is that we've set poison damage so it won't reduce a players HP below 10% of max HP.
+The 'Recommended' settings have been changed to reflect the requirements for the TNFC server. MapWriter and the newer version of Streams mod have both been set to recommended. Keep that in mind if you reinstall your client and want to continue to use JourneyMap or the older version of Streams.
 
-Updated Mods:
-- TFC
-- Mekanism
-- Railcraft
-- Jabba
-- Voxelmap
-- Bibliocraft
-- Storage Drawers
-- Farseek
-- Streams
-- NEI
+If you want to join in on the SMP mayhem, come to http://technode.enjin.com/forum and submit a whitelist application.
+
+- Added FTB Utilities and Lib
+- Changed Streams to recommended.
+- Changed default map to MapWriter
+- Updated Mekanism
