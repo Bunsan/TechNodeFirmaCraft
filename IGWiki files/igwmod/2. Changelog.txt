@@ -1,3 +1,11 @@
+[prefix{l}]Version 2.19 - Ouch my jetpack[prefix{l}]
+
+It's come to our attention that the jetpack is such a useful item that it's recipe is just a wee bit to easy to obtain. So we've gated it a bit to force a little more effort before you get to fly around without a care in the world. Wanted to get this update in before the TNFC Official server starts playing with Osmium :)
+
+Changes:
+
+- Updated Mekanism with 2 changed recipes.
+
 [prefix{l}]Version 2.18: I Want A New.... Map![prefix{l}]
 A special edition update to celebrate the launch of a new map for the official TNFC server. It's going to be a wild and woolly weekend as we explore the new world and see what's out there. If you're not joining us, well shame on you, then there are just a couple of bug fixes and the addition of one new optional mod, FTB Utilities.
 
