@@ -1,4 +1,38 @@
 
+
+//Remove base MC recipes (doesn't work)
+
+// // recipes.remove(minecraft:potion:16>);
+// recipes.remove(minecraft:potion:32>);
+// recipes.remove(minecraft:potion:8202>);
+// recipes.remove(minecraft:potion:16394>);
+// recipes.remove(minecraft:potion:8196>);
+// recipes.remove(minecraft:potion:16388>);
+// recipes.remove(minecraft:potion:8200>);
+// recipes.remove(minecraft:potion:16392>);
+// recipes.remove(minecraft:potion:8204>);
+// recipes.remove(minecraft:potion:16396>);
+// recipes.remove(minecraft:potion:8193>);
+// recipes.remove(minecraft:potion:8225>);
+// recipes.remove(minecraft:potion:8257>);
+// recipes.remove(minecraft:potion:16385>);
+// recipes.remove(minecraft:potion:8195>);
+// recipes.remove(minecraft:potion:16387>);
+// recipes.remove(minecraft:potion:8197>);
+// recipes.remove(minecraft:potion:8229>);
+// recipes.remove(minecraft:potion:16389>);
+// recipes.remove(minecraft:potion:8194>);
+// recipes.remove(minecraft:potion:16386>);
+// recipes.remove(minecraft:potion:8198>);
+// recipes.remove(minecraft:potion:16390>);
+// recipes.remove(minecraft:potion:8201>);
+// recipes.remove(minecraft:potion:16393>);
+// recipes.remove(minecraft:potion:8205>);
+// recipes.remove(minecraft:potion:16397>);
+// recipes.remove(minecraft:potion:8206>);
+// recipes.remove(minecraft:potion:16398>);
+
+
 //content of potions.zs file
 
 val awkward_potion 	= <minecraft:potion:16>;
@@ -30,6 +64,12 @@ val splash_potion_waterbreath 	= <minecraft:potion:16397>;
 val potion_invisible 	= <minecraft:potion:8206>;
 val splash_potion_invisible 	= <minecraft:potion:16398>;
 
+
+
+
+
+
+
 val poppy = <terrafirmacraft:Flowers2>;
 val allium = <terrafirmacraft:Flowers2:2>;
 val calendula = <terrafirmacraft:Flowers:5>;
@@ -58,29 +98,26 @@ mods.Terrafirmacraft.Barrel.addItemConversion(awkward_potion, <terrafirmacraft:F
 mods.Terrafirmacraft.Barrel.addItemConversion(potion_slowness, <minecraft:rotten_flesh> * 64, <liquid:vinegar> * 1000, 0, true, 24, true);
 mods.Terrafirmacraft.Barrel.addItemConversion(potion_weakness, <terrafirmacraft:Fungi:1> * 32, <liquid:vinegar> * 1000, 0, true, 24, false);
 recipes.addShapeless(potion_posion, [awkward_potion, poppy, <terrafirmacraft:Fungi:1>, <minecraft:glowstone_dust>]);
-recipes.addShapeless(potion_harming * 2, [awkward_potion, <minecraft:fermented_spider_eye>, potion_weakness, <minecraft:redstone>]);
+recipes.addShapeless(potion_harming * 2, [awkward_potion, <minecraft:fermented_spider_eye>, potion_weakness, <ore:oreKimberlite>]);
 
 //healing potions
 recipes.addShapeless(potion_regenering * 3, [<terrafirmacraft:item.Rye Whiskey>, <terrafirmacraft:item.Rye Whiskey>, <terrafirmacraft:item.Wintergreen Berry>.onlyWithTag({foodWeight: 160.0 as float}), <terrafirmacraft:item.Rye Whiskey>]);
 recipes.addShapeless(potion_healing * 3, [<terrafirmacraft:item.Rum>, <terrafirmacraft:item.Rum>, <terrafirmacraft:item.Bunchberry>.onlyWithTag({foodWeight: 160.0 as float}), <terrafirmacraft:item.Rum>]);
 
-recipes.addShapeless(potion_regenering_2, [potion_regenering, allium,  <minecraft:glowstone_dust>]);
-recipes.addShapeless(potion_regenering_extended, [potion_regenering, <terrafirmacraft:item.Garlic>.onlyWithTag({foodWeight: 160.0 as float}),  <minecraft:redstone>]);
-recipes.addShapeless(potion_healing_2, [potion_healing, calendula, <minecraft:glowstone_dust>]);
+recipes.addShapeless(potion_regenering_2, [potion_regenering, allium,  <ore:oreKimberlite>]);
+recipes.addShapeless(potion_regenering_extended, [potion_regenering, <terrafirmacraft:item.Garlic>.onlyWithTag({foodWeight: 160.0 as float}),  <ore:oreKimberlite>]);
+recipes.addShapeless(potion_healing_2, [potion_healing, calendula, <ore:oreStrontium>]);
 
 //protection potions
 mods.Terrafirmacraft.Barrel.addItemConversion(potion_fireprotect, <terrafirmacraft:item.Snowberry>.withTag({foodWeight: 160.0 as float}), <liquid:oliveoil> * 250, 0, true, 24, false);
 
 //powerup potions
-recipes.addShapeless(potion_swiftness, [<terrafirmacraft:item.Sake>, <terrafirmacraft:item.Cloudberry>.onlyWithTag({foodWeight: 160.0 as float}), <terrafirmacraft:item.Powder:6>, <minecraft:redstone>]);
+recipes.addShapeless(potion_swiftness, [<terrafirmacraft:item.Sake>, <terrafirmacraft:item.Cranberry>.onlyWithTag({foodWeight: 160.0 as float}), <terrafirmacraft:item.Powder:6>, <ore:oreKimberlite>]);
 
 recipes.addShapeless(potion_nightvision, [<terrafirmacraft:item.Sake>, <terrafirmacraft:item.Blueberry>.onlyWithTag({foodWeight: 160.0 as float}), <terrafirmacraft:item.Powder:6>, <minecraft:spider_eye>]);
 
-recipes.addShapeless(potion_strength, [<terrafirmacraft:item.Vodka>, <terrafirmacraft:item.Cranberry>.onlyWithTag({foodWeight: 160.0 as float}), <minecraft:redstone>, <terrafirmacraft:item.Sugar>.withTag({foodWeight: 160.0 as float})]);
+recipes.addShapeless(potion_strength, [<terrafirmacraft:item.Beer>, <terrafirmacraft:item.Cranberry>.onlyWithTag({foodWeight: 160.0 as float}), <minecraft:redstone>, <terrafirmacraft:item.Sugar>.withTag({foodWeight: 160.0 as float})]);
 
-recipes.addShapeless(potion_waterbreath, [<terrafirmacraft:item.Sake>, <terrafirmacraft:item.Elderberry>.withTag({foodWeight: 160.0 as float}), <terrafirmacraft:item.Powder:6>, <minecraft:glowstone_dust>]);
+recipes.addShapeless(potion_waterbreath, [<terrafirmacraft:item.Sake>, <terrafirmacraft:item.Elderberry>.withTag({foodWeight: 160.0 as float}), <terrafirmacraft:item.Powder:6>, <ore:oreStrontium>]);
 
-recipes.addShapeless(potion_invisible, [<terrafirmacraft:item.Sake>, <terrafirmacraft:item.Blackberry>.onlyWithTag({foodWeight: 160.0 as float}), <minecraft:ender_eye>, <minecraft:glowstone_dust>]);
-
-
-mods.Terrafirmacraft.Quern.addRecipe(<minecraft:glowstone_dust>, <terrafirmacraft:item.Ore:26>); //from pitchblende
+recipes.addShapeless(potion_invisible, [<terrafirmacraft:item.Sake>, <terrafirmacraft:item.Blackberry>.onlyWithTag({foodWeight: 160.0 as float}), <minecraft:ender_eye>, <ore:oreStrontium>]);

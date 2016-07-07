@@ -11,6 +11,7 @@ import minetweaker.item.IItemStack;
 //#REMOVE Recipes
 //# VANILLA
 	recipes.remove(<minecraft:ender_chest>);
+  recipes.remove(<minecraft:anvil>);
 	recipes.remove(<minecraft:flower_pot>);
 	recipes.remove(<minecraft:shears>);
 	recipes.remove(<minecraft:emerald_block>);
@@ -55,11 +56,12 @@ import minetweaker.item.IItemStack;
 	recipes.remove(<minecraft:stonebrick>);
 	recipes.remove(<minecraft:string>);
 	recipes.remove(<minecraft:minecart>);
-    recipes.remove(<terrafirmacraft:item.fishingRod>);
-    recipes.remove(<minecraft:obsidian>);
-    recipes.remove(<minecraft:map>);
-    recipes.remove(<minecraft:compass>);
-    
+  recipes.remove(<terrafirmacraft:item.fishingRod>);
+  recipes.remove(<minecraft:obsidian>);
+  recipes.remove(<minecraft:map>);
+  recipes.remove(<minecraft:compass>);
+  recipes.remove(<minecraft:brewing_stand>);
+  
     
     //# REMOVAL of Non-TFC ingots to nugget recipes to clean up NEI
 	recipes.remove(<ImmersiveEngineering:metal:0>);
@@ -179,6 +181,12 @@ import minetweaker.item.IItemStack;
 // ================================================================================
 //#MARKER ADD SHAPED
 
+//# Vanilla Anvil
+    recipes.addShaped(<minecraft:anvil>, [[<ore:blockPlatinum>, <ore:blockPlatinum>, <ore:blockPlatinum>], [null, <ore:blockDiamond>, null], [<ore:blockBlueSteel>, <ore:blockBlackSteel>, <ore:blockRedSteel>]]);
+    recipes.addShaped(<minecraft:anvil>, [[<ore:blockPlatinum>, <ore:blockPlatinum>, <ore:blockPlatinum>], [null, <ore:blockDiamond>, null], [<ore:blockRedSteel>, <ore:blockBlackSteel>, <ore:blockBlueSteel>]]);
+    
+//# Brewing Stand
+    recipes.addShaped(<minecraft:brewing_stand>, [[null, <ore:oreStrontium>, null], [<Railcraft:brick.bleachedbone>, <Railcraft:brick.bloodstained>, <Railcraft:brick.frostbound>], [<ore:blockRedSteel>, <ore:blockBlackSteel>, <ore:blockBlueSteel>]]);
 //#Maps
     recipes.addShaped(<minecraft:map>, [[null, <minecraft:paper>, null], [<minecraft:paper>, <minecraft:compass>.reuse(), <minecraft:paper>], [null, <minecraft:paper>, null]]);
     recipes.addShaped(<minecraft:compass>, [[<ore:oreSmallIron>], [<minecraft:redstone>], [<terrafirmacraft:item.GoldPan>]]);
@@ -262,3 +270,4 @@ import minetweaker.item.IItemStack;
 
 //# Hopper
 	recipes.addShaped(<minecraft:hopper>, [[null, <ore:craftingToolHammer>, null], [null, <ore:chestWood>, null], [null, <terrafirmacraft:Hopper>, null]]);
+  

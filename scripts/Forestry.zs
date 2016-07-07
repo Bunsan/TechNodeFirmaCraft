@@ -30,10 +30,7 @@ import minetweaker.item.IItemStack;
 	recipes.remove(<Forestry:bronzePickaxe>);
 	recipes.remove(<Forestry:stamps>);
 	recipes.remove(<Forestry:stamps:3>);
-	recipes.remove(<Forestry:stamps:4>);
-	recipes.remove(<Forestry:stamps:5>);
-	recipes.remove(<Forestry:stamps:6>);
-    recipes.remove(<Forestry:planks:*>);
+	recipes.remove(<Forestry:planks:*>);
 	recipes.remove(<Forestry:planksFireproof:*>);
 	recipes.remove(<Forestry:slabs:*>);
 	recipes.remove(<Forestry:stairs:*>);
@@ -62,24 +59,21 @@ import minetweaker.item.IItemStack;
     recipes.addShaped(<Forestry:frameUntreated>, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, <ore:materialString>, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
     
 //#Reinstated Forestery gears
-	recipes.addShaped(<Forestry:gearTin> * 2, [[null, <ore:craftingToolHammer>, null], [<Railcraft:part.gear:3>, <ore:plateDoubleTin>, <Railcraft:part.gear:3>]]);
-	recipes.addShaped(<Forestry:gearCopper> * 2, [[null, <ore:craftingToolHammer>, null], [<Railcraft:part.gear:3>, <ore:plateDoubleCopper>, <Railcraft:part.gear:3>]]);
-	recipes.addShaped(<Forestry:gearBronze> * 2, [[null, <ore:craftingToolHammer>, null], [<Railcraft:part.gear:3>, <ore:plateDoubleAnyBronze>, <Railcraft:part.gear:3>]]);
+	recipes.addShaped(<Forestry:gearTin> * 2, [[null, <ore:craftingToolMediumHammer>.transformDamage(), null], [<Railcraft:part.gear:3>, <ore:plateDoubleTin>, <Railcraft:part.gear:3>]]);
+	recipes.addShaped(<Forestry:gearCopper>, [[null, <ore:craftingToolMediumHammer>.transformDamage(), null], [<Railcraft:part.gear:3>, <ore:plateDoubleCopper>, <Railcraft:part.gear:3>]]);
+	recipes.addShaped(<Forestry:gearBronze>, [[null, <ore:craftingToolMediumHammer>.transformDamage(), null], [<Railcraft:part.gear:3>, <ore:plateDoubleAnyBronze>, <Railcraft:part.gear:3>]]);
 
 //#Reinstating a Forestry Sturdy Machine Recipe
-	recipes.addShaped(<Forestry:sturdyMachine>, [[null, <ore:plateAnyBronze>, null], [<ore:plateAnyBronze>, <ore:craftingToolMediumHammer>, <ore:plateAnyBronze>], [null, <ore:plateAnyBronze>, null]]);
+	recipes.addShaped(<Forestry:sturdyMachine>, [[null, <ore:plateAnyBronze>, null], [<ore:plateAnyBronze>, <ore:craftingToolMediumHammer>.transformDamage(), <ore:plateAnyBronze>], [null, <ore:plateAnyBronze>, null]]);
 
 //#Stamps
 	recipes.addShaped(<Forestry:stamps> * 9, [[<ore:gemApatite>, <ore:gemApatite>, <ore:gemApatite>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<ore:dropHoney>, <ore:dropHoney>, <ore:dropHoney>]]);
 	recipes.addShaped(<Forestry:stamps:3> * 9, [[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<ore:dropHoney>, <ore:dropHoney>, <ore:dropHoney>]]);
-  	recipes.addShaped(<Forestry:stamps:4> * 9, [[<ore:ingotAnyBronze>, <ore:ingotAnyBronze>, <ore:ingotAnyBronze>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<ore:dropHoney>, <ore:dropHoney>, <ore:dropHoney>]]);
-  	recipes.addShaped(<Forestry:stamps:5> * 9, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<ore:dropHoney>, <ore:dropHoney>, <ore:dropHoney>]]);
-    recipes.addShaped(<Forestry:stamps:6> * 9, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<ore:dropHoney>, <ore:dropHoney>, <ore:dropHoney>]]);
 
 //#Reinstating Forestry Engine Recipes
-	recipes.addShaped(<Forestry:engine:4>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:itemHammer>, <ore:blockGlassColorless>, <ore:craftingToolChisel>], [<ore:gearCopper>, <ore:craftingPiston>, <minecraft:clock>]]);
-	recipes.addShaped(<Forestry:engine:1>, [[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>], [<ore:itemHammer>, <ore:blockGlassColorless>, <ore:craftingToolChisel>], [<ore:gearCopper>, <ore:craftingPiston>, <ore:gearCopper>]]);
-	recipes.addShaped(<Forestry:engine:2>, [[<ore:plateAnyBronze>, <ore:plateAnyBronze>, <ore:plateAnyBronze>], [<ore:itemHammer>, <ore:blockGlassColorless>, <ore:craftingToolChisel>], [<ore:gearBronze>, <ore:craftingPiston>, <ore:gearBronze>]]);
+	recipes.addShaped(<Forestry:engine:4>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:itemHammer>.reuse(), <ore:blockGlassColorless>, <ore:craftingToolMediumChisel>.transformDamage()], [<ore:gearCopper>, <ore:craftingPiston>, <minecraft:clock>]]);
+	recipes.addShaped(<Forestry:engine:1>, [[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>], [<ore:itemHammer>.reuse(), <ore:blockGlassColorless>, <ore:craftingToolMediumChisel>.transformDamage()], [<ore:gearCopper>, <ore:craftingPiston>, <ore:gearCopper>]]);
+	recipes.addShaped(<Forestry:engine:2>, [[<ore:plateAnyBronze>, <ore:plateAnyBronze>, <ore:plateAnyBronze>], [<ore:itemHammer>.reuse(), <ore:blockGlassColorless>, <ore:craftingToolMediumChisel>.transformDamage()], [<ore:gearBronze>, <ore:craftingPiston>, <ore:gearBronze>]]);
 
 //# Carpenter
     recipes.addShaped(<Forestry:factory:1>, [[<ore:ingotAnyBronze>, <ore:blockGlass>, <ore:ingotAnyBronze>], [<ore:ingotAnyBronze>, <Forestry:sturdyMachine>, <ore:ingotAnyBronze>], [<ore:ingotAnyBronze>, <ore:blockGlass>, <ore:ingotAnyBronze>]]);
@@ -128,9 +122,6 @@ recipes.addShaped(<Forestry:naturalistHelmet>, [[null, <ore:ingotAnyBronze>, nul
 	recipes.addShaped(<Forestry:beeQueenGE>.withTag({MaxH: 50, Mate: {Chromosomes: [{UID1: "forestry.speciesFiendish", UID0: "forestry.speciesFiendish", Slot: 0 as byte}, {UID1: "forestry.speedNormal", UID0: "forestry.speedNormal", Slot: 1 as byte}, {UID1: "forestry.lifespanLong", UID0: "forestry.lifespanLong", Slot: 2 as byte}, {UID1: "forestry.fertilityNormal", UID0: "forestry.fertilityNormal", Slot: 3 as byte}, {UID1: "forestry.toleranceDown2", UID0: "forestry.toleranceDown2", Slot: 4 as byte}, {UID1: "forestry.boolTrue", UID0: "forestry.boolTrue", Slot: 5 as byte}, {UID1: "forestry.toleranceNone", UID0: "forestry.toleranceNone", Slot: 7 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 8 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 9 as byte}, {UID1: "forestry.flowersNether", UID0: "forestry.flowersNether", Slot: 10 as byte}, {UID1: "forestry.floweringAverage", UID0: "forestry.floweringAverage", Slot: 11 as byte}, {UID1: "forestry.territoryAverage", UID0: "forestry.territoryAverage", Slot: 12 as byte}, {UID1: "forestry.effectAggressive", UID0: "forestry.effectAggressive", Slot: 13 as byte}]}, Health: 50, IsAnalyzed: 0 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesFiendish", UID0: "forestry.speciesFiendish", Slot: 0 as byte}, {UID1: "forestry.speedNormal", UID0: "forestry.speedNormal", Slot: 1 as byte}, {UID1: "forestry.lifespanLong", UID0: "forestry.lifespanLong", Slot: 2 as byte}, {UID1: "forestry.fertilityNormal", UID0: "forestry.fertilityNormal", Slot: 3 as byte}, {UID1: "forestry.toleranceDown2", UID0: "forestry.toleranceDown2", Slot: 4 as byte}, {UID1: "forestry.boolTrue", UID0: "forestry.boolTrue", Slot: 5 as byte}, {UID1: "forestry.toleranceNone", UID0: "forestry.toleranceNone", Slot: 7 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 8 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 9 as byte}, {UID1: "forestry.flowersNether", UID0: "forestry.flowersNether", Slot: 10 as byte}, {UID1: "forestry.floweringAverage", UID0: "forestry.floweringAverage", Slot: 11 as byte}, {UID1: "forestry.territoryAverage", UID0: "forestry.territoryAverage", Slot: 12 as byte}, {UID1: "forestry.effectAggressive", UID0: "forestry.effectAggressive", Slot: 13 as byte}]}}), [[<ore:oreUranium>, <terrafirmacraft:item.Ore:19>, <ore:oreUranium>], [<terrafirmacraft:item.Ore:19>, <Forestry:beeQueenGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesExotic", UID0: "forestry.speciesExotic", Slot: 0 as byte}]}}), <terrafirmacraft:item.Ore:19>], [<ore:oreUranium>, <terrafirmacraft:item.Ore:19>, <ore:oreUranium>]]);
 
 	recipes.addShaped(<Forestry:beeQueenGE>.withTag({MaxH: 60, Mate: {Chromosomes: [{UID1: "forestry.speciesDemonic", UID0: "forestry.speciesDemonic", Slot: 0 as byte}, {UID1: "forestry.speedSlower", UID0: "forestry.speedSlower", Slot: 1 as byte}, {UID1: "forestry.lifespanLonger", UID0: "forestry.lifespanLonger", Slot: 2 as byte}, {UID1: "forestry.fertilityNormal", UID0: "forestry.fertilityNormal", Slot: 3 as byte}, {UID1: "forestry.toleranceDown2", UID0: "forestry.toleranceDown2", Slot: 4 as byte}, {UID1: "forestry.boolTrue", UID0: "forestry.boolTrue", Slot: 5 as byte}, {UID1: "forestry.toleranceNone", UID0: "forestry.toleranceNone", Slot: 7 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 8 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 9 as byte}, {UID1: "forestry.flowersNether", UID0: "forestry.flowersNether", Slot: 10 as byte}, {UID1: "forestry.floweringAverage", UID0: "forestry.floweringAverage", Slot: 11 as byte}, {UID1: "forestry.territoryAverage", UID0: "forestry.territoryAverage", Slot: 12 as byte}, {UID1: "forestry.effectIgnition", UID0: "forestry.effectIgnition", Slot: 13 as byte}]}, Health: 60, IsAnalyzed: 0 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesDemonic", UID0: "forestry.speciesDemonic", Slot: 0 as byte}, {UID1: "forestry.speedSlower", UID0: "forestry.speedSlower", Slot: 1 as byte}, {UID1: "forestry.lifespanLonger", UID0: "forestry.lifespanLonger", Slot: 2 as byte}, {UID1: "forestry.fertilityNormal", UID0: "forestry.fertilityNormal", Slot: 3 as byte}, {UID1: "forestry.toleranceDown2", UID0: "forestry.toleranceDown2", Slot: 4 as byte}, {UID1: "forestry.boolTrue", UID0: "forestry.boolTrue", Slot: 5 as byte}, {UID1: "forestry.toleranceNone", UID0: "forestry.toleranceNone", Slot: 7 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 8 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 9 as byte}, {UID1: "forestry.flowersNether", UID0: "forestry.flowersNether", Slot: 10 as byte}, {UID1: "forestry.floweringAverage", UID0: "forestry.floweringAverage", Slot: 11 as byte}, {UID1: "forestry.territoryAverage", UID0: "forestry.territoryAverage", Slot: 12 as byte}, {UID1: "forestry.effectIgnition", UID0: "forestry.effectIgnition", Slot: 13 as byte}]}}), [[<ore:oreUranium>, <terrafirmacraft:item.Ore:22>, <ore:oreUranium>], [<terrafirmacraft:item.Ore:23>, <Forestry:beeQueenGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesEdenic", UID0: "forestry.speciesEdenic", Slot: 0 as byte}]}}), <terrafirmacraft:item.Ore:19>], [<ore:oreUranium>, <terrafirmacraft:item.Blue Steel Bucket Lava>, <ore:oreUranium>]]);
-    
-//Monastic
-    recipes.addShaped(<Forestry:beeQueenGE>.withTag({MaxH: 50, Mate: {Chromosomes: [{UID1: "forestry.speciesMonastic", UID0: "forestry.speciesMonastic", Slot: 0 as byte}, {UID1: "forestry.speedSlower", UID0: "forestry.speedSlower", Slot: 1 as byte}, {UID1: "forestry.lifespanLong", UID0: "forestry.lifespanLong", Slot: 2 as byte}, {UID1: "forestry.fertilityLow", UID0: "forestry.fertilityLow", Slot: 3 as byte}, {UID1: "forestry.toleranceBoth1", UID0: "forestry.toleranceBoth1", Slot: 4 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 5 as byte}, {UID1: "forestry.toleranceBoth1", UID0: "forestry.toleranceBoth1", Slot: 7 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 8 as byte}, {UID1: "forestry.boolTrue", UID0: "forestry.boolTrue", Slot: 9 as byte}, {UID1: "forestry.flowersWheat", UID0: "forestry.flowersWheat", Slot: 10 as byte}, {UID1: "forestry.floweringFaster", UID0: "forestry.floweringFaster", Slot: 11 as byte}, {UID1: "forestry.territoryAverage", UID0: "forestry.territoryAverage", Slot: 12 as byte}, {UID1: "forestry.effectNone", UID0: "forestry.effectNone", Slot: 13 as byte}]}, Health: 50, IsAnalyzed: 0 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesMonastic", UID0: "forestry.speciesMonastic", Slot: 0 as byte}, {UID1: "forestry.speedSlower", UID0: "forestry.speedSlower", Slot: 1 as byte}, {UID1: "forestry.lifespanLong", UID0: "forestry.lifespanLong", Slot: 2 as byte}, {UID1: "forestry.fertilityLow", UID0: "forestry.fertilityLow", Slot: 3 as byte}, {UID1: "forestry.toleranceBoth1", UID0: "forestry.toleranceBoth1", Slot: 4 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 5 as byte}, {UID1: "forestry.toleranceBoth1", UID0: "forestry.toleranceBoth1", Slot: 7 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 8 as byte}, {UID1: "forestry.boolTrue", UID0: "forestry.boolTrue", Slot: 9 as byte}, {UID1: "forestry.flowersWheat", UID0: "forestry.flowersWheat", Slot: 10 as byte}, {UID1: "forestry.floweringFaster", UID0: "forestry.floweringFaster", Slot: 11 as byte}, {UID1: "forestry.territoryAverage", UID0: "forestry.territoryAverage", Slot: 12 as byte}, {UID1: "forestry.effectNone", UID0: "forestry.effectNone", Slot: 13 as byte}]}}), [[<ore:oreUranium>, <minecraft:writable_book>, <ore:oreUranium>], [<minecraft:bookshelf>, <Forestry:beeQueenGE>.onlyWithTag({Genome: {Chromosomes: [{UID1: "forestry.speciesUnweary", UID0: "forestry.speciesUnweary", Slot: 0 as byte}]}}), <minecraft:bookshelf>], [<ore:oreUranium>, <minecraft:bookshelf>, <ore:oreUranium>]]);
 
 //# Logs, Planks, Stairs and Slabs
 
@@ -145,10 +136,10 @@ for i in meta {
     var woodFireproofSlab = <Forestry:slabsFireproof>.definition.makeStack(i);
     var woodFireproofPlank = <Forestry:planksFireproof>.definition.makeStack(i);
     
-	recipes.addShapedMirrored(woodStair * 6, [[woodPlank, null, <ore:itemSaw>], [woodPlank, woodPlank, null], [woodPlank, woodPlank, woodPlank]]);
-	recipes.addShaped(woodSlab * 6, [[null, <ore:itemSaw>, null], [woodPlank, woodPlank, woodPlank]]);
-    recipes.addShapedMirrored(woodFireproofStair * 6, [[woodFireproofPlank, null, <ore:itemSaw>], [woodFireproofPlank, woodFireproofPlank, null], [woodFireproofPlank, woodFireproofPlank, woodFireproofPlank]]);
-	recipes.addShaped(woodFireproofSlab * 6, [[null, <ore:itemSaw>, null], [woodFireproofPlank, woodFireproofPlank, woodFireproofPlank]]);
+	recipes.addShapedMirrored(woodStair * 6, [[woodPlank, null, <ore:itemSaw>.transformDamage(12)], [woodPlank, woodPlank, null], [woodPlank, woodPlank, woodPlank]]);
+	recipes.addShaped(woodSlab * 6, [[null, <ore:itemSaw>.transformDamage(12), null], [woodPlank, woodPlank, woodPlank]]);
+    recipes.addShapedMirrored(woodFireproofStair * 6, [[woodFireproofPlank, null, <ore:itemSaw>.transformDamage(12)], [woodFireproofPlank, woodFireproofPlank, null], [woodFireproofPlank, woodFireproofPlank, woodFireproofPlank]]);
+	recipes.addShaped(woodFireproofSlab * 6, [[null, <ore:itemSaw>.transformDamage(12), null], [woodFireproofPlank, woodFireproofPlank, woodFireproofPlank]]);
 		}
 
 		for i in meta {
@@ -157,8 +148,8 @@ for i in meta {
 	var woodFireproofLog = <Forestry:logsFireproof>.definition.makeStack(i);
 	var woodFireproofPlank = <Forestry:planksFireproof>.definition.makeStack(i);	
 
-	recipes.addShapeless(woodPlank * 2, [woodLog, <ore:itemSaw>]);
-	recipes.addShapeless(woodFireproofPlank * 2, [woodFireproofLog, <ore:itemSaw>]);
+	recipes.addShapeless(woodPlank * 2, [woodLog, <ore:itemSaw>.transformDamage()]);
+	recipes.addShapeless(woodFireproofPlank * 2, [woodFireproofLog, <ore:itemSaw>.transformDamage()]);
 
 		}
 
@@ -173,22 +164,15 @@ for i in meta {
 	mods.forestry.Carpenter.removeRecipe(<Forestry:kitShovel>);
 	mods.forestry.Carpenter.removeRecipe(<Forestry:kitPickaxe>);
 	mods.forestry.Carpenter.removeRecipe(<Forestry:carton>);
+	mods.forestry.Carpenter.removeRecipe(<minecraft:torch>);
 	mods.forestry.Carpenter.removeRecipe(<Forestry:stamps>);
 	mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:3>);
-	mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:4>);
-	mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:5>);
-	mods.forestry.Carpenter.removeRecipe(<Forestry:stamps:6>);
 
 //#Addition
 	//addRecipe(IItemStack output, IIngredient[][] ingredients, ILiquidStack fluidInput, int packagingTime, @Optional IItemStack box)
     // or (IItemStack output, IIngredient[][] ingredients, int packagingTime, @Optional IItemStack box)
 	mods.forestry.Carpenter.addRecipe(<Forestry:stamps> * 9, [[<ore:gemApatite>, <ore:gemApatite>, <ore:gemApatite>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [null, null, null]], <liquid:seedoil> * 300, 100);
 	mods.forestry.Carpenter.addRecipe(<Forestry:stamps:3> * 9, [[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [null, null, null]], <liquid:seedoil> * 300, 100);
-	mods.forestry.Carpenter.addRecipe(<Forestry:stamps:4> * 9, [[<ore:ingotAnyBronze>, <ore:ingotAnyBronze>, <ore:ingotAnyBronze>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [null, null, null]], <liquid:seedoil> * 300, 100);
-	mods.forestry.Carpenter.addRecipe(<Forestry:stamps:5> * 9, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [null, null, null]], <liquid:seedoil> * 300, 100);
-	mods.forestry.Carpenter.addRecipe(<Forestry:stamps:6> * 9, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [null, null, null]], <liquid:seedoil> * 300, 100);
-    mods.forestry.Carpenter.addRecipe(<minecraft:gravel> * 9, [[<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>], [<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>], [<ore:blockGravel>, <ore:blockGravel>, <ore:blockGravel>]], <liquid:creosote> * 500, 10);
-
 
 // Centrifuge Recipes
 //#Removal
@@ -233,19 +217,10 @@ for i in meta {
 // Squeezer Recipes
 //#Removal *Not Working
 	//InputStack #ATTENTION : OutputFluid, currently
-    mods.forestry.Squeezer.removeRecipe(<liquid:lava>, [<Forestry:phosphor> * 2, <minecraft:dirt>]);
-    mods.forestry.Squeezer.removeRecipe(<liquid:lava>, [<Forestry:phosphor> * 2, <minecraft:sand:*>]);
-    mods.forestry.Squeezer.removeRecipe(<liquid:lava>, [<Forestry:phosphor> * 2, <minecraft:cobblestone>]);
+
 //#Addition* Not Working
 	//Time recipe requires (Ticks), InputArray, OutputFluid, OutputStack, Chance for OutputStack //The last two are optional
-    mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:Sand:*>]);
-    mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:Sand2:*>]);
-    mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:Dirt:*>]);
-    mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:Dirt2:*>]);
-    mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:StoneIgInCobble:*>]);
-    mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:StoneIgExCobble:*>]);
-    mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:StoneMMCobble:*>]);
-    mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:StoneSedCobble:*>]);
+
 // Still Recipes
 //#Removal
 	//OutputFluid, InputFluid
@@ -261,5 +236,4 @@ for i in meta {
 	//mods.forestry.ThermionicFabricator.removeCasts(<Forestry:stained>);
 //#Addition * Not Working
 	//InputStack, Melting Point, Amount of Molten Glass //Melting Point of 1000 for default Glass, 3000 for default Sand; Ouput of 1000mB for Sand & Glass, 375mB for Glass Panes
-    //mods.forestry.ThermionicFabricator.addSmelting(1000, <terrafirmacraft:Sand:*>, 10);
 	//InputFluid, InputArray, InputStack Cast, OutputStack //InputFluid has to be Molten Glass

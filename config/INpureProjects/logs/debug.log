@@ -130,11 +130,6 @@ CarpentersBlocks:itemCarpentersDoor
 CarpentersBlocks:itemCarpentersHammer
 CarpentersBlocks:itemCarpentersTile
 DecorationsTFC:Alabaster
-DecorationsTFC:Gem.Chipped
-DecorationsTFC:Gem.Exquisite
-DecorationsTFC:Gem.Flawed
-DecorationsTFC:Gem.Flawless
-DecorationsTFC:Gem.Normal
 DecorationsTFC:Lantern.BismuthBronze
 DecorationsTFC:Lantern.BlackBronze
 DecorationsTFC:Lantern.Brass
@@ -219,21 +214,23 @@ Forestry:bucketGlass
 Forestry:bucketHoney
 Forestry:bucketIce
 Forestry:bucketJuice
-Forestry:bucketSeedoil
+Forestry:bucketMead
+Forestry:bucketSeedOil
 Forestry:bucketShortMead
 Forestry:butterflyGE
 Forestry:canBiomass
 Forestry:canEmpty
 Forestry:canEthanol
-Forestry:canFuel
 Forestry:canHoney
 Forestry:canIce
 Forestry:canJuice
 Forestry:canLava
-Forestry:canOil
+Forestry:canMead
 Forestry:canSeedOil
+Forestry:canShortMead
 Forestry:canWater
 Forestry:candle
+Forestry:cart.beehouse
 Forestry:carton
 Forestry:catalogue
 Forestry:caterpillarGE
@@ -255,6 +252,7 @@ Forestry:fluid.glass
 Forestry:fluid.honey
 Forestry:fluid.ice
 Forestry:fluid.juice
+Forestry:fluid.mead
 Forestry:fluid.seedoil
 Forestry:fluid.short.mead
 Forestry:flutterlyzer
@@ -305,13 +303,13 @@ Forestry:propolis
 Forestry:refractoryBiomass
 Forestry:refractoryEmpty
 Forestry:refractoryEthanol
-Forestry:refractoryFuel
 Forestry:refractoryHoney
 Forestry:refractoryIce
 Forestry:refractoryJuice
 Forestry:refractoryLava
-Forestry:refractoryOil
+Forestry:refractoryMead
 Forestry:refractorySeedOil
+Forestry:refractoryShortMead
 Forestry:refractoryWater
 Forestry:refractoryWax
 Forestry:researchNote
@@ -323,6 +321,8 @@ Forestry:saplingGE
 Forestry:scoop
 Forestry:serumGE
 Forestry:slabs
+Forestry:slabsDouble
+Forestry:slabsDoubleFireproof
 Forestry:slabsFireproof
 Forestry:soil
 Forestry:solderingIron
@@ -336,12 +336,12 @@ Forestry:treealyzer
 Forestry:waxCapsule
 Forestry:waxCapsuleBiomass
 Forestry:waxCapsuleEthanol
-Forestry:waxCapsuleFuel
 Forestry:waxCapsuleHoney
 Forestry:waxCapsuleIce
 Forestry:waxCapsuleJuice
-Forestry:waxCapsuleOil
+Forestry:waxCapsuleMead
 Forestry:waxCapsuleSeedOil
+Forestry:waxCapsuleShortMead
 Forestry:waxCapsuleWater
 Forestry:waxCast
 Forestry:woodPulp
@@ -363,7 +363,11 @@ HopperDuctMod:gratedHopper
 HopperDuctMod:hopperDuct
 ImmersiveEngineering:blueprint
 ImmersiveEngineering:bullet
+ImmersiveEngineering:chemthrower
+ImmersiveEngineering:clothDevice
 ImmersiveEngineering:coil
+ImmersiveEngineering:concreteStairs
+ImmersiveEngineering:concreteTileStairs
 ImmersiveEngineering:drill
 ImmersiveEngineering:drillhead
 ImmersiveEngineering:fakeIcon
@@ -375,24 +379,32 @@ ImmersiveEngineering:jerrycan
 ImmersiveEngineering:material
 ImmersiveEngineering:metal
 ImmersiveEngineering:metalDecoration
+ImmersiveEngineering:metalDecoration2
 ImmersiveEngineering:metalDevice
 ImmersiveEngineering:metalDevice2
 ImmersiveEngineering:metalMultiblock
+ImmersiveEngineering:mold
 ImmersiveEngineering:ore
+ImmersiveEngineering:railgun
 ImmersiveEngineering:revolver
 ImmersiveEngineering:seed
 ImmersiveEngineering:shader
+ImmersiveEngineering:shaderBag
 ImmersiveEngineering:skyhook
 ImmersiveEngineering:stoneDecoration
 ImmersiveEngineering:stoneDevice
+ImmersiveEngineering:stoneSlab
 ImmersiveEngineering:storage
 ImmersiveEngineering:storageSlab
 ImmersiveEngineering:tool
+ImmersiveEngineering:toolbox
 ImmersiveEngineering:toolupgrade
 ImmersiveEngineering:treatedWood
 ImmersiveEngineering:woodenDecoration
 ImmersiveEngineering:woodenDevice
 ImmersiveEngineering:woodenStairs
+ImmersiveEngineering:woodenStairs1
+ImmersiveEngineering:woodenStairs2
 JABBA:barrel
 JABBA:hammer
 JABBA:mover
@@ -416,8 +428,10 @@ Mekanism:CompressedCarbon
 Mekanism:CompressedDiamond
 Mekanism:CompressedObsidian
 Mekanism:CompressedRedstone
+Mekanism:ConfigurationCard
 Mekanism:Configurator
 Mekanism:ControlCircuit
+Mekanism:CraftingFormula
 Mekanism:Crystal
 Mekanism:Dictionary
 Mekanism:DirtyDust
@@ -430,7 +444,6 @@ Mekanism:EnergyUpgrade
 Mekanism:EnrichedAlloy
 Mekanism:EnrichedIron
 Mekanism:FactoryInstaller
-Mekanism:FilterCard
 Mekanism:FilterUpgrade
 Mekanism:Flamethrower
 Mekanism:FreeRunners
@@ -448,6 +461,7 @@ Mekanism:LithiumBucket
 Mekanism:MachineBlock
 Mekanism:MachineBlock2
 Mekanism:MachineBlock3
+Mekanism:MufflingUpgrade
 Mekanism:NetworkReader
 Mekanism:ObsidianTNT
 Mekanism:OreBlock
@@ -477,6 +491,7 @@ MekanismGenerators:Hohlraum
 MekanismGenerators:Reactor
 MekanismGenerators:ReactorGlass
 MekanismGenerators:SolarPanel
+MekanismGenerators:TurbineBlade
 MerchantsTFC:AnvilDie.BismuthBronze
 MerchantsTFC:AnvilDie.BismuthBronze2
 MerchantsTFC:AnvilDie.BlackBronze
@@ -539,6 +554,7 @@ MerchantsTFC:item.Trussel
 MerchantsTFC:item.WarehouseBook
 OpenBlocks:beartrap
 OpenBlocks:bigbutton
+OpenBlocks:builder_guide
 OpenBlocks:flag
 OpenBlocks:generic
 OpenBlocks:genericUnstackable
@@ -555,6 +571,7 @@ OpenBlocks:slimalyzer
 OpenBlocks:tank
 OpenBlocks:target
 OpenBlocks:trophy
+OpenBlocks:wrench
 OpenComputers:accessPoint
 OpenComputers:adapter
 OpenComputers:assembler
@@ -671,6 +688,7 @@ PneumaticCraft:lubricant
 PneumaticCraft:lubricantBucket
 PneumaticCraft:machineUpgrade
 PneumaticCraft:manometer
+PneumaticCraft:minigun
 PneumaticCraft:networkComponent
 PneumaticCraft:nukeVirus
 PneumaticCraft:oil
@@ -709,6 +727,7 @@ PneumaticCraft:repulsionPlant
 PneumaticCraft:safetyTubeModule
 PneumaticCraft:securityStation
 PneumaticCraft:seismicSensor
+PneumaticCraft:sentryTurret
 PneumaticCraft:slimePlant
 PneumaticCraft:squidPlant
 PneumaticCraft:stoneBase
@@ -723,6 +742,7 @@ PneumaticCraft:uvLightBox
 PneumaticCraft:vacuumPump
 PneumaticCraft:vortexCannon
 PneumaticCraft:vortexTube
+PneumaticCrap:advGasLift
 RPGAdvMod:glowcrumb
 RPGAdvMod:glowcrumblinked
 RPGAdvMod:pole
@@ -743,10 +763,13 @@ Railcraft:brick.nether
 Railcraft:brick.quarried
 Railcraft:brick.sandy
 Railcraft:cart.bore
+Railcraft:cart.cargo
 Railcraft:cart.gift
+Railcraft:cart.loco.creative
 Railcraft:cart.loco.electric
 Railcraft:cart.loco.steam.solid
 Railcraft:cart.pumpkin
+Railcraft:cart.redstone.flux
 Railcraft:cart.tank
 Railcraft:cart.track.layer
 Railcraft:cart.track.relayer
@@ -757,11 +780,6 @@ Railcraft:cube
 Railcraft:detector
 Railcraft:dust
 Railcraft:emblem
-Railcraft:firestone.cracked
-Railcraft:firestone.cut
-Railcraft:firestone.raw
-Railcraft:firestone.recharge
-Railcraft:firestone.refined
 Railcraft:fluid.creosote
 Railcraft:fluid.creosote.bottle
 Railcraft:fluid.creosote.bucket
@@ -774,7 +792,6 @@ Railcraft:fluid.steam.bottle
 Railcraft:frame
 Railcraft:fuel.coke
 Railcraft:glass
-Railcraft:ingot
 Railcraft:lantern.metal
 Railcraft:lantern.stone
 Railcraft:machine.alpha
@@ -782,8 +799,6 @@ Railcraft:machine.beta
 Railcraft:machine.delta
 Railcraft:machine.epsilon
 Railcraft:machine.gamma
-Railcraft:nugget
-Railcraft:ore
 Railcraft:part.bleached.clay
 Railcraft:part.circuit
 Railcraft:part.gear
@@ -809,6 +824,7 @@ Railcraft:tool.crowbar
 Railcraft:tool.crowbar.reinforced
 Railcraft:tool.electric.meter
 Railcraft:tool.magnifying.glass
+Railcraft:tool.signal.label
 Railcraft:tool.signal.tuner
 Railcraft:tool.surveyor
 Railcraft:tool.whistle.tuner
@@ -816,24 +832,6 @@ Railcraft:track
 Railcraft:track.elevator
 Railcraft:wall.alpha
 Railcraft:wall.beta
-Railcraft:worldlogic
-RedLogic:redlogic.arrayCells
-RedLogic:redlogic.button
-RedLogic:redlogic.chip
-RedLogic:redlogic.compiledCircuit
-RedLogic:redlogic.customCircuitBlock
-RedLogic:redlogic.gates
-RedLogic:redlogic.lampCubeDecorative
-RedLogic:redlogic.lampCubeIndicatorOff
-RedLogic:redlogic.lampCubeIndicatorOn
-RedLogic:redlogic.lampCubeOff
-RedLogic:redlogic.lampCubeOn
-RedLogic:redlogic.lampNonCube
-RedLogic:redlogic.machineBlock
-RedLogic:redlogic.plainBlock
-RedLogic:redlogic.schematic
-RedLogic:redlogic.screwdriver
-RedLogic:redlogic.wire
 RopesPlus:HookshotCartridge
 RopesPlus:RopeArrow
 RopesPlus:blockGrHk
@@ -860,6 +858,30 @@ StevesFactoryManager:BlockCableSignName
 StevesFactoryManager:BlockMachineManagerName
 StevesWorkshop:production_table
 StevesWorkshop:production_table_upgrade
+StorageDrawers:compDrawers
+StorageDrawers:controller
+StorageDrawers:controllerSlave
+StorageDrawers:framingTable
+StorageDrawers:fullCustom1
+StorageDrawers:fullCustom2
+StorageDrawers:fullCustom4
+StorageDrawers:fullDrawers1
+StorageDrawers:fullDrawers2
+StorageDrawers:fullDrawers4
+StorageDrawers:halfCustom2
+StorageDrawers:halfCustom4
+StorageDrawers:halfDrawers2
+StorageDrawers:halfDrawers4
+StorageDrawers:personalKey
+StorageDrawers:shroudKey
+StorageDrawers:trim
+StorageDrawers:upgrade
+StorageDrawers:upgradeCreative
+StorageDrawers:upgradeLock
+StorageDrawers:upgradeRedstone
+StorageDrawers:upgradeStatus
+StorageDrawers:upgradeTemplate
+StorageDrawers:upgradeVoid
 TabulaRasa:RasaItem0
 TabulaRasa:RasaItem1
 TabulaRasa:RasaItem2
@@ -867,6 +889,7 @@ TabulaRasa:RasaItem3
 TabulaRasa:RasaItem4
 TabulaRasa:RasaItem5
 TabulaRasa:RasaItem6
+TabulaRasa:RasaItem7
 Tubestuff:machine
 Tubestuff:uselessItem
 WR-CBE|Addons:empty_map
@@ -898,6 +921,399 @@ betterstorage:masterKey
 betterstorage:presentBook
 betterstorage:reinforcedChest
 betterstorage:reinforcedLocker
+bluepower:alloyfurnace
+bluepower:auto_project_table
+bluepower:block_breaker
+bluepower:blue_alloy_ingot
+bluepower:blue_doped_wafer
+bluepower:bluestone_anode_tile
+bluepower:bluestone_cathode_tile
+bluepower:bluestone_pointer_tile
+bluepower:bluestone_wire_tile
+bluepower:brass_ingot
+bluepower:buffer
+bluepower:circuit_database
+bluepower:circuit_table
+bluepower:copper_wire
+bluepower:deployer
+bluepower:diamond_drawplate
+bluepower:ejector
+bluepower:filter
+bluepower:iron_wire
+bluepower:item_detector
+bluepower:lampRGB
+bluepower:lampblack
+bluepower:lampblue
+bluepower:lampbrown
+bluepower:lampcyan
+bluepower:lampgray
+bluepower:lampgreen
+bluepower:lampinvertedRGB
+bluepower:lampinvertedblack
+bluepower:lampinvertedblue
+bluepower:lampinvertedbrown
+bluepower:lampinvertedcyan
+bluepower:lampinvertedgray
+bluepower:lampinvertedgreen
+bluepower:lampinvertedlight_blue
+bluepower:lampinvertedlight_gray
+bluepower:lampinvertedlime
+bluepower:lampinvertedmagenta
+bluepower:lampinvertedorange
+bluepower:lampinvertedpink
+bluepower:lampinvertedpurple
+bluepower:lampinvertedred
+bluepower:lampinvertedwhite
+bluepower:lampinvertedyellow
+bluepower:lamplight_blue
+bluepower:lamplight_gray
+bluepower:lamplime
+bluepower:lampmagenta
+bluepower:lamporange
+bluepower:lamppink
+bluepower:lamppurple
+bluepower:lampred
+bluepower:lampwhite
+bluepower:lampyellow
+bluepower:lumar
+bluepower:manager
+bluepower:paint_brush
+bluepower:paint_can
+bluepower:part.accelerator
+bluepower:part.and
+bluepower:part.buffer
+bluepower:part.cagelamp.black
+bluepower:part.cagelamp.black.inverted
+bluepower:part.cagelamp.blue
+bluepower:part.cagelamp.blue.inverted
+bluepower:part.cagelamp.brown
+bluepower:part.cagelamp.brown.inverted
+bluepower:part.cagelamp.cyan
+bluepower:part.cagelamp.cyan.inverted
+bluepower:part.cagelamp.gray
+bluepower:part.cagelamp.gray.inverted
+bluepower:part.cagelamp.green
+bluepower:part.cagelamp.green.inverted
+bluepower:part.cagelamp.light_blue
+bluepower:part.cagelamp.light_blue.inverted
+bluepower:part.cagelamp.light_gray
+bluepower:part.cagelamp.light_gray.inverted
+bluepower:part.cagelamp.lime
+bluepower:part.cagelamp.lime.inverted
+bluepower:part.cagelamp.magenta
+bluepower:part.cagelamp.magenta.inverted
+bluepower:part.cagelamp.orange
+bluepower:part.cagelamp.orange.inverted
+bluepower:part.cagelamp.pink
+bluepower:part.cagelamp.pink.inverted
+bluepower:part.cagelamp.purple
+bluepower:part.cagelamp.purple.inverted
+bluepower:part.cagelamp.red
+bluepower:part.cagelamp.red.inverted
+bluepower:part.cagelamp.white
+bluepower:part.cagelamp.white.inverted
+bluepower:part.cagelamp.yellow
+bluepower:part.cagelamp.yellow.inverted
+bluepower:part.comparator
+bluepower:part.counter
+bluepower:part.fixture.black
+bluepower:part.fixture.black.inverted
+bluepower:part.fixture.blue
+bluepower:part.fixture.blue.inverted
+bluepower:part.fixture.brown
+bluepower:part.fixture.brown.inverted
+bluepower:part.fixture.cyan
+bluepower:part.fixture.cyan.inverted
+bluepower:part.fixture.gray
+bluepower:part.fixture.gray.inverted
+bluepower:part.fixture.green
+bluepower:part.fixture.green.inverted
+bluepower:part.fixture.light_blue
+bluepower:part.fixture.light_blue.inverted
+bluepower:part.fixture.light_gray
+bluepower:part.fixture.light_gray.inverted
+bluepower:part.fixture.lime
+bluepower:part.fixture.lime.inverted
+bluepower:part.fixture.magenta
+bluepower:part.fixture.magenta.inverted
+bluepower:part.fixture.orange
+bluepower:part.fixture.orange.inverted
+bluepower:part.fixture.pink
+bluepower:part.fixture.pink.inverted
+bluepower:part.fixture.purple
+bluepower:part.fixture.purple.inverted
+bluepower:part.fixture.red
+bluepower:part.fixture.red.inverted
+bluepower:part.fixture.white
+bluepower:part.fixture.white.inverted
+bluepower:part.fixture.yellow
+bluepower:part.fixture.yellow.inverted
+bluepower:part.integratedCircuit3x3
+bluepower:part.integratedCircuit5x5
+bluepower:part.integratedCircuit7x7
+bluepower:part.inverter
+bluepower:part.lightCell
+bluepower:part.magTube
+bluepower:part.multiplexer
+bluepower:part.nand
+bluepower:part.nor
+bluepower:part.not
+bluepower:part.nullcell
+bluepower:part.or
+bluepower:part.pneumaticTube
+bluepower:part.pneumaticTubeOpaque
+bluepower:part.pulseformer
+bluepower:part.randomizer
+bluepower:part.regulabletorch
+bluepower:part.repeater
+bluepower:part.restrictionTube
+bluepower:part.restrictionTubeOpaque
+bluepower:part.rs
+bluepower:part.sequencer
+bluepower:part.state
+bluepower:part.synchronizer
+bluepower:part.timer
+bluepower:part.toggle
+bluepower:part.transparent
+bluepower:part.wire.bluestone
+bluepower:part.wire.bluestone.black
+bluepower:part.wire.bluestone.blue
+bluepower:part.wire.bluestone.brown
+bluepower:part.wire.bluestone.bundled
+bluepower:part.wire.bluestone.bundled.black
+bluepower:part.wire.bluestone.bundled.blue
+bluepower:part.wire.bluestone.bundled.brown
+bluepower:part.wire.bluestone.bundled.cyan
+bluepower:part.wire.bluestone.bundled.gray
+bluepower:part.wire.bluestone.bundled.green
+bluepower:part.wire.bluestone.bundled.light_blue
+bluepower:part.wire.bluestone.bundled.light_gray
+bluepower:part.wire.bluestone.bundled.lime
+bluepower:part.wire.bluestone.bundled.magenta
+bluepower:part.wire.bluestone.bundled.orange
+bluepower:part.wire.bluestone.bundled.pink
+bluepower:part.wire.bluestone.bundled.purple
+bluepower:part.wire.bluestone.bundled.red
+bluepower:part.wire.bluestone.bundled.white
+bluepower:part.wire.bluestone.bundled.yellow
+bluepower:part.wire.bluestone.cyan
+bluepower:part.wire.bluestone.gray
+bluepower:part.wire.bluestone.green
+bluepower:part.wire.bluestone.light_blue
+bluepower:part.wire.bluestone.light_gray
+bluepower:part.wire.bluestone.lime
+bluepower:part.wire.bluestone.magenta
+bluepower:part.wire.bluestone.orange
+bluepower:part.wire.bluestone.pink
+bluepower:part.wire.bluestone.purple
+bluepower:part.wire.bluestone.red
+bluepower:part.wire.bluestone.white
+bluepower:part.wire.bluestone.yellow
+bluepower:part.wire.freestanding.bluestone
+bluepower:part.wire.freestanding.bluestone.black
+bluepower:part.wire.freestanding.bluestone.blue
+bluepower:part.wire.freestanding.bluestone.brown
+bluepower:part.wire.freestanding.bluestone.bundled
+bluepower:part.wire.freestanding.bluestone.bundled.black
+bluepower:part.wire.freestanding.bluestone.bundled.blue
+bluepower:part.wire.freestanding.bluestone.bundled.brown
+bluepower:part.wire.freestanding.bluestone.bundled.cyan
+bluepower:part.wire.freestanding.bluestone.bundled.gray
+bluepower:part.wire.freestanding.bluestone.bundled.green
+bluepower:part.wire.freestanding.bluestone.bundled.light_blue
+bluepower:part.wire.freestanding.bluestone.bundled.light_gray
+bluepower:part.wire.freestanding.bluestone.bundled.lime
+bluepower:part.wire.freestanding.bluestone.bundled.magenta
+bluepower:part.wire.freestanding.bluestone.bundled.orange
+bluepower:part.wire.freestanding.bluestone.bundled.pink
+bluepower:part.wire.freestanding.bluestone.bundled.purple
+bluepower:part.wire.freestanding.bluestone.bundled.red
+bluepower:part.wire.freestanding.bluestone.bundled.white
+bluepower:part.wire.freestanding.bluestone.bundled.yellow
+bluepower:part.wire.freestanding.bluestone.cyan
+bluepower:part.wire.freestanding.bluestone.gray
+bluepower:part.wire.freestanding.bluestone.green
+bluepower:part.wire.freestanding.bluestone.light_blue
+bluepower:part.wire.freestanding.bluestone.light_gray
+bluepower:part.wire.freestanding.bluestone.lime
+bluepower:part.wire.freestanding.bluestone.magenta
+bluepower:part.wire.freestanding.bluestone.orange
+bluepower:part.wire.freestanding.bluestone.pink
+bluepower:part.wire.freestanding.bluestone.purple
+bluepower:part.wire.freestanding.bluestone.red
+bluepower:part.wire.freestanding.bluestone.white
+bluepower:part.wire.freestanding.bluestone.yellow
+bluepower:part.wire.freestanding.infusedteslatite
+bluepower:part.wire.freestanding.infusedteslatite.black
+bluepower:part.wire.freestanding.infusedteslatite.blue
+bluepower:part.wire.freestanding.infusedteslatite.brown
+bluepower:part.wire.freestanding.infusedteslatite.bundled
+bluepower:part.wire.freestanding.infusedteslatite.bundled.black
+bluepower:part.wire.freestanding.infusedteslatite.bundled.blue
+bluepower:part.wire.freestanding.infusedteslatite.bundled.brown
+bluepower:part.wire.freestanding.infusedteslatite.bundled.cyan
+bluepower:part.wire.freestanding.infusedteslatite.bundled.gray
+bluepower:part.wire.freestanding.infusedteslatite.bundled.green
+bluepower:part.wire.freestanding.infusedteslatite.bundled.light_blue
+bluepower:part.wire.freestanding.infusedteslatite.bundled.light_gray
+bluepower:part.wire.freestanding.infusedteslatite.bundled.lime
+bluepower:part.wire.freestanding.infusedteslatite.bundled.magenta
+bluepower:part.wire.freestanding.infusedteslatite.bundled.orange
+bluepower:part.wire.freestanding.infusedteslatite.bundled.pink
+bluepower:part.wire.freestanding.infusedteslatite.bundled.purple
+bluepower:part.wire.freestanding.infusedteslatite.bundled.red
+bluepower:part.wire.freestanding.infusedteslatite.bundled.white
+bluepower:part.wire.freestanding.infusedteslatite.bundled.yellow
+bluepower:part.wire.freestanding.infusedteslatite.cyan
+bluepower:part.wire.freestanding.infusedteslatite.gray
+bluepower:part.wire.freestanding.infusedteslatite.green
+bluepower:part.wire.freestanding.infusedteslatite.light_blue
+bluepower:part.wire.freestanding.infusedteslatite.light_gray
+bluepower:part.wire.freestanding.infusedteslatite.lime
+bluepower:part.wire.freestanding.infusedteslatite.magenta
+bluepower:part.wire.freestanding.infusedteslatite.orange
+bluepower:part.wire.freestanding.infusedteslatite.pink
+bluepower:part.wire.freestanding.infusedteslatite.purple
+bluepower:part.wire.freestanding.infusedteslatite.red
+bluepower:part.wire.freestanding.infusedteslatite.white
+bluepower:part.wire.freestanding.infusedteslatite.yellow
+bluepower:part.wire.freestanding.redalloy
+bluepower:part.wire.freestanding.redalloy.black
+bluepower:part.wire.freestanding.redalloy.blue
+bluepower:part.wire.freestanding.redalloy.brown
+bluepower:part.wire.freestanding.redalloy.bundled
+bluepower:part.wire.freestanding.redalloy.bundled.black
+bluepower:part.wire.freestanding.redalloy.bundled.blue
+bluepower:part.wire.freestanding.redalloy.bundled.brown
+bluepower:part.wire.freestanding.redalloy.bundled.cyan
+bluepower:part.wire.freestanding.redalloy.bundled.gray
+bluepower:part.wire.freestanding.redalloy.bundled.green
+bluepower:part.wire.freestanding.redalloy.bundled.light_blue
+bluepower:part.wire.freestanding.redalloy.bundled.light_gray
+bluepower:part.wire.freestanding.redalloy.bundled.lime
+bluepower:part.wire.freestanding.redalloy.bundled.magenta
+bluepower:part.wire.freestanding.redalloy.bundled.orange
+bluepower:part.wire.freestanding.redalloy.bundled.pink
+bluepower:part.wire.freestanding.redalloy.bundled.purple
+bluepower:part.wire.freestanding.redalloy.bundled.red
+bluepower:part.wire.freestanding.redalloy.bundled.white
+bluepower:part.wire.freestanding.redalloy.bundled.yellow
+bluepower:part.wire.freestanding.redalloy.cyan
+bluepower:part.wire.freestanding.redalloy.gray
+bluepower:part.wire.freestanding.redalloy.green
+bluepower:part.wire.freestanding.redalloy.light_blue
+bluepower:part.wire.freestanding.redalloy.light_gray
+bluepower:part.wire.freestanding.redalloy.lime
+bluepower:part.wire.freestanding.redalloy.magenta
+bluepower:part.wire.freestanding.redalloy.orange
+bluepower:part.wire.freestanding.redalloy.pink
+bluepower:part.wire.freestanding.redalloy.purple
+bluepower:part.wire.freestanding.redalloy.red
+bluepower:part.wire.freestanding.redalloy.white
+bluepower:part.wire.freestanding.redalloy.yellow
+bluepower:part.wire.infusedteslatite
+bluepower:part.wire.infusedteslatite.black
+bluepower:part.wire.infusedteslatite.blue
+bluepower:part.wire.infusedteslatite.brown
+bluepower:part.wire.infusedteslatite.bundled
+bluepower:part.wire.infusedteslatite.bundled.black
+bluepower:part.wire.infusedteslatite.bundled.blue
+bluepower:part.wire.infusedteslatite.bundled.brown
+bluepower:part.wire.infusedteslatite.bundled.cyan
+bluepower:part.wire.infusedteslatite.bundled.gray
+bluepower:part.wire.infusedteslatite.bundled.green
+bluepower:part.wire.infusedteslatite.bundled.light_blue
+bluepower:part.wire.infusedteslatite.bundled.light_gray
+bluepower:part.wire.infusedteslatite.bundled.lime
+bluepower:part.wire.infusedteslatite.bundled.magenta
+bluepower:part.wire.infusedteslatite.bundled.orange
+bluepower:part.wire.infusedteslatite.bundled.pink
+bluepower:part.wire.infusedteslatite.bundled.purple
+bluepower:part.wire.infusedteslatite.bundled.red
+bluepower:part.wire.infusedteslatite.bundled.white
+bluepower:part.wire.infusedteslatite.bundled.yellow
+bluepower:part.wire.infusedteslatite.cyan
+bluepower:part.wire.infusedteslatite.gray
+bluepower:part.wire.infusedteslatite.green
+bluepower:part.wire.infusedteslatite.light_blue
+bluepower:part.wire.infusedteslatite.light_gray
+bluepower:part.wire.infusedteslatite.lime
+bluepower:part.wire.infusedteslatite.magenta
+bluepower:part.wire.infusedteslatite.orange
+bluepower:part.wire.infusedteslatite.pink
+bluepower:part.wire.infusedteslatite.purple
+bluepower:part.wire.infusedteslatite.red
+bluepower:part.wire.infusedteslatite.white
+bluepower:part.wire.infusedteslatite.yellow
+bluepower:part.wire.redalloy
+bluepower:part.wire.redalloy.black
+bluepower:part.wire.redalloy.blue
+bluepower:part.wire.redalloy.brown
+bluepower:part.wire.redalloy.bundled
+bluepower:part.wire.redalloy.bundled.black
+bluepower:part.wire.redalloy.bundled.blue
+bluepower:part.wire.redalloy.bundled.brown
+bluepower:part.wire.redalloy.bundled.cyan
+bluepower:part.wire.redalloy.bundled.gray
+bluepower:part.wire.redalloy.bundled.green
+bluepower:part.wire.redalloy.bundled.light_blue
+bluepower:part.wire.redalloy.bundled.light_gray
+bluepower:part.wire.redalloy.bundled.lime
+bluepower:part.wire.redalloy.bundled.magenta
+bluepower:part.wire.redalloy.bundled.orange
+bluepower:part.wire.redalloy.bundled.pink
+bluepower:part.wire.redalloy.bundled.purple
+bluepower:part.wire.redalloy.bundled.red
+bluepower:part.wire.redalloy.bundled.white
+bluepower:part.wire.redalloy.bundled.yellow
+bluepower:part.wire.redalloy.cyan
+bluepower:part.wire.redalloy.gray
+bluepower:part.wire.redalloy.green
+bluepower:part.wire.redalloy.light_blue
+bluepower:part.wire.redalloy.light_gray
+bluepower:part.wire.redalloy.lime
+bluepower:part.wire.redalloy.magenta
+bluepower:part.wire.redalloy.orange
+bluepower:part.wire.redalloy.pink
+bluepower:part.wire.redalloy.purple
+bluepower:part.wire.redalloy.red
+bluepower:part.wire.redalloy.white
+bluepower:part.wire.redalloy.yellow
+bluepower:part.wirelesstransceiver
+bluepower:part.wirelesstransceiver.analog
+bluepower:part.wirelesstransceiver.analog.bundled
+bluepower:part.wirelesstransceiver.bundled
+bluepower:part.xnor
+bluepower:part.xor
+bluepower:project_table
+bluepower:purple_alloy_ingot
+bluepower:quartz_resonator_tile
+bluepower:red_alloy_ingot
+bluepower:red_doped_wafer
+bluepower:redstone_anode_tile
+bluepower:redstone_cathode_tile
+bluepower:redstone_pointer_tile
+bluepower:redstone_wire_tile
+bluepower:regulator
+bluepower:reinforced_sapphire_glass
+bluepower:relay
+bluepower:retriever
+bluepower:sapphire_glass
+bluepower:screwdriver
+bluepower:screwdriver_handle
+bluepower:silicon_boule
+bluepower:silicon_chip_tile
+bluepower:silicon_wafer
+bluepower:silky_screwdriver
+bluepower:sorting_machine
+bluepower:sortron
+bluepower:stone_bundle
+bluepower:stone_tile
+bluepower:tainted_silicon_chip_tile
+bluepower:teslatite_dust
+bluepower:transposer
+bluepower:tungsten_nugget
+bluepower:zincplate
 cuchaz.cuchazinteractive:listOfSupporters
 cuchaz.cuchazinteractive:shipPlaque
 cuchaz.cuchazinteractive:supporterPlaque
@@ -1323,6 +1739,9 @@ customitems:yellow_stained_clay_pillar
 customitems:yellow_stained_clay_tile
 customitems:yellow_stained_clay_tile_slab
 customitems:yellow_stained_clay_tile_stairs
+lwstfc:item.Bladder
+lwstfc:item.LeatherWaterSac
+lwstfc:item.WaterSacLeather
 minecraft:acacia_stairs
 minecraft:activator_rail
 minecraft:air
@@ -2281,6 +2700,7 @@ plantmegapack:wrapFish
 plantmegapack:wrapPork
 plantmegapack:wrapRice
 plantmegapack:wrapSeaweed
+qmunitylib:qmunitylib.blocks.multipart
 streams:river/ice/-1/-2
 streams:river/ice/-1/2
 streams:river/ice/-2/-1
@@ -2338,6 +2758,7 @@ technodefirmacraft:Dark Oak Mixture
 technodefirmacraft:Jungle Mixture
 technodefirmacraft:Oak Mixture
 technodefirmacraft:Spruce Mixture
+technodefirmacraft:TFCBeacon
 terrafirmacraft:Anvil
 terrafirmacraft:Anvil2
 terrafirmacraft:ArmourStand
@@ -2415,6 +2836,8 @@ terrafirmacraft:LitPumpkin
 terrafirmacraft:LogPile
 terrafirmacraft:Loom
 terrafirmacraft:LooseRock
+terrafirmacraft:MetalBlock
+terrafirmacraft:MetalBlock2
 terrafirmacraft:MetalSheet
 terrafirmacraft:MetalTrapDoor
 terrafirmacraft:Molten
@@ -2785,10 +3208,20 @@ terrafirmacraft:item.CornWhiskey
 terrafirmacraft:item.Cornmeal Dough
 terrafirmacraft:item.Cornmeal Ground
 terrafirmacraft:item.Cranberry
+terrafirmacraft:item.Cupronickel Double Ingot
+terrafirmacraft:item.Cupronickel Double Sheet
+terrafirmacraft:item.Cupronickel Ingot
+terrafirmacraft:item.Cupronickel Sheet
+terrafirmacraft:item.Cupronickel Unshaped
 terrafirmacraft:item.Diamond
 terrafirmacraft:item.Douglas Fir Door
 terrafirmacraft:item.Egg Cooked
 terrafirmacraft:item.Elderberry
+terrafirmacraft:item.Electrum Double Ingot
+terrafirmacraft:item.Electrum Double Sheet
+terrafirmacraft:item.Electrum Ingot
+terrafirmacraft:item.Electrum Sheet
+terrafirmacraft:item.Electrum Unshaped
 terrafirmacraft:item.Emerald
 terrafirmacraft:item.Fertilizer
 terrafirmacraft:item.Fire Brick
@@ -2870,6 +3303,7 @@ terrafirmacraft:item.MM Stone Shovel Head
 terrafirmacraft:item.Mace Mold
 terrafirmacraft:item.Maize Ear
 terrafirmacraft:item.Maple Door
+terrafirmacraft:item.MetalNugget
 terrafirmacraft:item.Mold
 terrafirmacraft:item.Mortar
 terrafirmacraft:item.Mutton
@@ -3222,7 +3656,8 @@ Found creative tab: apiculture
 Found creative tab: forestry
 Found creative tab: arboriculture
 Found creative tab: lepidopterology
-Found creative tab: Hardcore Questing Mode
+Found creative tab: transportation
+Found creative tab: hqm
 Found creative tab: redstone
 Found creative tab: ImmersiveEngineering
 Found creative tab: jabba
@@ -3233,15 +3668,20 @@ Found creative tab: OpenComputers
 Found creative tab: tabPneumaticCraft
 Found creative tab: RPGAdvMod
 Found creative tab: railcraft
-Found creative tab: transportation
-Found creative tab: decorations
-Found creative tab: buildingBlocks
 Found creative tab: combat
+Found creative tab: buildingBlocks
 Found creative tab: sfm
 Found creative tab: steves_production
+Found creative tab: storageDrawers
 Found creative tab: misc
 Found creative tab: materials
 Found creative tab: betterstorage
+Found creative tab: bluepower:machines
+Found creative tab: bluepower:items
+Found creative tab: bluepower:lighting
+Found creative tab: bluepower:blocks
+Found creative tab: bluepower:tools
+Found creative tab: decorations
 Found creative tab: food
 Found creative tab: brewing
 Found creative tab: plants
@@ -3261,12 +3701,6 @@ Setting up ForgeMicroblock Library...
 Loading table of contents for module: custom_nei_filters, 1.0, Author: denoflionsx
 Bootstrap setting found. Loading: Bootstrap.js
 Loading: Mekanism.js
-override called. Params: Mekanism, MachineBlock2, 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
-Regex match found! Mekanism:MachineBlock2 matches Mekanism:MachineBlock2.
-Found ItemStack Mekanism:MachineBlock2. 1xtile.MachineBlock2@0
-override called. Params: Mekanism, GasTank, 100
-Regex match found! Mekanism:GasTank matches Mekanism:GasTank.
-Found ItemStack Mekanism:GasTank. 1xtile.GasTank@0
 override called. Params: Mekanism, *PlasticBlock, 0
 Regex match found! Mekanism:*PlasticBlock matches Mekanism:GlowPlasticBlock.
 Regex match found! Mekanism:*PlasticBlock matches Mekanism:PlasticBlock.
@@ -3575,381 +4009,67 @@ Found ItemStack DecorationsTFC:item.LanternCore.WroughtIron. 1xitem.LanternCore.
 override called. Params: OpenBlocks, tank, 0
 Regex match found! OpenBlocks:tank matches OpenBlocks:tank.
 Found ItemStack OpenBlocks:tank. 64xtile.openblocks.tank@0
-hide called. Params: streams, *
-Regex match found! streams:* matches streams:river/ice/-1/-2.
-Regex match found! streams:* matches streams:river/ice/-1/2.
-Regex match found! streams:* matches streams:river/ice/-2/-1.
-Regex match found! streams:* matches streams:river/ice/-2/-2.
-Regex match found! streams:* matches streams:river/ice/-2/0.
-Regex match found! streams:* matches streams:river/ice/-2/1.
-Regex match found! streams:* matches streams:river/ice/-2/2.
-Regex match found! streams:* matches streams:river/ice/0/-2.
-Regex match found! streams:* matches streams:river/ice/0/0.
-Regex match found! streams:* matches streams:river/ice/0/2.
-Regex match found! streams:* matches streams:river/ice/1/-2.
-Regex match found! streams:* matches streams:river/ice/1/2.
-Regex match found! streams:* matches streams:river/ice/2/-1.
-Regex match found! streams:* matches streams:river/ice/2/-2.
-Regex match found! streams:* matches streams:river/ice/2/0.
-Regex match found! streams:* matches streams:river/ice/2/1.
-Regex match found! streams:* matches streams:river/ice/2/2.
-Regex match found! streams:* matches streams:river/tile.FreshWaterStationary/-1/-2.
-Regex match found! streams:* matches streams:river/tile.FreshWaterStationary/-1/2.
-Regex match found! streams:* matches streams:river/tile.FreshWaterStationary/-2/-1.
-Regex match found! streams:* matches streams:river/tile.FreshWaterStationary/-2/-2.
-Regex match found! streams:* matches streams:river/tile.FreshWaterStationary/-2/0.
-Regex match found! streams:* matches streams:river/tile.FreshWaterStationary/-2/1.
-Regex match found! streams:* matches streams:river/tile.FreshWaterStationary/-2/2.
-Regex match found! streams:* matches streams:river/tile.FreshWaterStationary/0/-2.
-Regex match found! streams:* matches streams:river/tile.FreshWaterStationary/0/0.
-Regex match found! streams:* matches streams:river/tile.FreshWaterStationary/0/2.
-Regex match found! streams:* matches streams:river/tile.FreshWaterStationary/1/-2.
-Regex match found! streams:* matches streams:river/tile.FreshWaterStationary/1/2.
-Regex match found! streams:* matches streams:river/tile.FreshWaterStationary/2/-1.
-Regex match found! streams:* matches streams:river/tile.FreshWaterStationary/2/-2.
-Regex match found! streams:* matches streams:river/tile.FreshWaterStationary/2/0.
-Regex match found! streams:* matches streams:river/tile.FreshWaterStationary/2/1.
-Regex match found! streams:* matches streams:river/tile.FreshWaterStationary/2/2.
-Regex match found! streams:* matches streams:river/tile.LavaStationary/-1/-2.
-Regex match found! streams:* matches streams:river/tile.LavaStationary/-1/2.
-Regex match found! streams:* matches streams:river/tile.LavaStationary/-2/-1.
-Regex match found! streams:* matches streams:river/tile.LavaStationary/-2/-2.
-Regex match found! streams:* matches streams:river/tile.LavaStationary/-2/0.
-Regex match found! streams:* matches streams:river/tile.LavaStationary/-2/1.
-Regex match found! streams:* matches streams:river/tile.LavaStationary/-2/2.
-Regex match found! streams:* matches streams:river/tile.LavaStationary/0/-2.
-Regex match found! streams:* matches streams:river/tile.LavaStationary/0/0.
-Regex match found! streams:* matches streams:river/tile.LavaStationary/0/2.
-Regex match found! streams:* matches streams:river/tile.LavaStationary/1/-2.
-Regex match found! streams:* matches streams:river/tile.LavaStationary/1/2.
-Regex match found! streams:* matches streams:river/tile.LavaStationary/2/-1.
-Regex match found! streams:* matches streams:river/tile.LavaStationary/2/-2.
-Regex match found! streams:* matches streams:river/tile.LavaStationary/2/0.
-Regex match found! streams:* matches streams:river/tile.LavaStationary/2/1.
-Regex match found! streams:* matches streams:river/tile.LavaStationary/2/2.
-Found ItemStack streams:river/ice/-1/-2. 64xtile.ice@0
-Found ItemStack streams:river/ice/-1/2. 64xtile.ice@0
-Found ItemStack streams:river/ice/-2/-1. 64xtile.ice@0
-Found ItemStack streams:river/ice/-2/-2. 64xtile.ice@0
-Found ItemStack streams:river/ice/-2/0. 64xtile.ice@0
-Found ItemStack streams:river/ice/-2/1. 64xtile.ice@0
-Found ItemStack streams:river/ice/-2/2. 64xtile.ice@0
-Found ItemStack streams:river/ice/0/-2. 64xtile.ice@0
-Found ItemStack streams:river/ice/0/0. 64xtile.ice@0
-Found ItemStack streams:river/ice/0/2. 64xtile.ice@0
-Found ItemStack streams:river/ice/1/-2. 64xtile.ice@0
-Found ItemStack streams:river/ice/1/2. 64xtile.ice@0
-Found ItemStack streams:river/ice/2/-1. 64xtile.ice@0
-Found ItemStack streams:river/ice/2/-2. 64xtile.ice@0
-Found ItemStack streams:river/ice/2/0. 64xtile.ice@0
-Found ItemStack streams:river/ice/2/1. 64xtile.ice@0
-Found ItemStack streams:river/ice/2/2. 64xtile.ice@0
-Found ItemStack streams:river/tile.FreshWaterStationary/-1/-2. 64xtile.FreshWaterStationary@0
-Found ItemStack streams:river/tile.FreshWaterStationary/-1/2. 64xtile.FreshWaterStationary@0
-Found ItemStack streams:river/tile.FreshWaterStationary/-2/-1. 64xtile.FreshWaterStationary@0
-Found ItemStack streams:river/tile.FreshWaterStationary/-2/-2. 64xtile.FreshWaterStationary@0
-Found ItemStack streams:river/tile.FreshWaterStationary/-2/0. 64xtile.FreshWaterStationary@0
-Found ItemStack streams:river/tile.FreshWaterStationary/-2/1. 64xtile.FreshWaterStationary@0
-Found ItemStack streams:river/tile.FreshWaterStationary/-2/2. 64xtile.FreshWaterStationary@0
-Found ItemStack streams:river/tile.FreshWaterStationary/0/-2. 64xtile.FreshWaterStationary@0
-Found ItemStack streams:river/tile.FreshWaterStationary/0/0. 64xtile.FreshWaterStationary@0
-Found ItemStack streams:river/tile.FreshWaterStationary/0/2. 64xtile.FreshWaterStationary@0
-Found ItemStack streams:river/tile.FreshWaterStationary/1/-2. 64xtile.FreshWaterStationary@0
-Found ItemStack streams:river/tile.FreshWaterStationary/1/2. 64xtile.FreshWaterStationary@0
-Found ItemStack streams:river/tile.FreshWaterStationary/2/-1. 64xtile.FreshWaterStationary@0
-Found ItemStack streams:river/tile.FreshWaterStationary/2/-2. 64xtile.FreshWaterStationary@0
-Found ItemStack streams:river/tile.FreshWaterStationary/2/0. 64xtile.FreshWaterStationary@0
-Found ItemStack streams:river/tile.FreshWaterStationary/2/1. 64xtile.FreshWaterStationary@0
-Found ItemStack streams:river/tile.FreshWaterStationary/2/2. 64xtile.FreshWaterStationary@0
-Found ItemStack streams:river/tile.LavaStationary/-1/-2. 64xtile.LavaStationary@0
-Found ItemStack streams:river/tile.LavaStationary/-1/2. 64xtile.LavaStationary@0
-Found ItemStack streams:river/tile.LavaStationary/-2/-1. 64xtile.LavaStationary@0
-Found ItemStack streams:river/tile.LavaStationary/-2/-2. 64xtile.LavaStationary@0
-Found ItemStack streams:river/tile.LavaStationary/-2/0. 64xtile.LavaStationary@0
-Found ItemStack streams:river/tile.LavaStationary/-2/1. 64xtile.LavaStationary@0
-Found ItemStack streams:river/tile.LavaStationary/-2/2. 64xtile.LavaStationary@0
-Found ItemStack streams:river/tile.LavaStationary/0/-2. 64xtile.LavaStationary@0
-Found ItemStack streams:river/tile.LavaStationary/0/0. 64xtile.LavaStationary@0
-Found ItemStack streams:river/tile.LavaStationary/0/2. 64xtile.LavaStationary@0
-Found ItemStack streams:river/tile.LavaStationary/1/-2. 64xtile.LavaStationary@0
-Found ItemStack streams:river/tile.LavaStationary/1/2. 64xtile.LavaStationary@0
-Found ItemStack streams:river/tile.LavaStationary/2/-1. 64xtile.LavaStationary@0
-Found ItemStack streams:river/tile.LavaStationary/2/-2. 64xtile.LavaStationary@0
-Found ItemStack streams:river/tile.LavaStationary/2/0. 64xtile.LavaStationary@0
-Found ItemStack streams:river/tile.LavaStationary/2/1. 64xtile.LavaStationary@0
-Found ItemStack streams:river/tile.LavaStationary/2/2. 64xtile.LavaStationary@0
-hide called. Params: terrafirmacraft, FreshWater
-Regex match found! terrafirmacraft:FreshWater matches terrafirmacraft:FreshWater.
-Found ItemStack terrafirmacraft:FreshWater. 64xtile.FreshWater@0
-hide called. Params: terrafirmacraft, FreshWaterStationary
-Regex match found! terrafirmacraft:FreshWaterStationary matches terrafirmacraft:FreshWaterStationary.
-Found ItemStack terrafirmacraft:FreshWaterStationary. 64xtile.FreshWaterStationary@0
-hide called. Params: terrafirmacraft, HotWater
-Regex match found! terrafirmacraft:HotWater matches terrafirmacraft:HotWater.
-Found ItemStack terrafirmacraft:HotWater. 64xtile.HotWater@0
-hide called. Params: terrafirmacraft, HotWaterStationary
-Regex match found! terrafirmacraft:HotWaterStationary matches terrafirmacraft:HotWaterStationary.
-Found ItemStack terrafirmacraft:HotWaterStationary. 64xtile.HotWaterStationary@0
-hide called. Params: terrafirmacraft, Lava
-Regex match found! terrafirmacraft:Lava matches terrafirmacraft:Lava.
-Found ItemStack terrafirmacraft:Lava. 64xtile.Lava@0
-hide called. Params: terrafirmacraft, LavaStationary
-Regex match found! terrafirmacraft:LavaStationary matches terrafirmacraft:LavaStationary.
-Found ItemStack terrafirmacraft:LavaStationary. 64xtile.LavaStationary@0
-hide called. Params: terrafirmacraft, SaltWater
-Regex match found! terrafirmacraft:SaltWater matches terrafirmacraft:SaltWater.
-Found ItemStack terrafirmacraft:SaltWater. 64xtile.SaltWater@0
-hide called. Params: terrafirmacraft, SaltWaterStationary
-Regex match found! terrafirmacraft:SaltWaterStationary matches terrafirmacraft:SaltWaterStationary.
-Found ItemStack terrafirmacraft:SaltWaterStationary. 64xtile.SaltWaterStationary@0
-hide called. Params: minecraft, chainmail_boots
-Regex match found! minecraft:chainmail_boots matches minecraft:chainmail_boots.
-Found ItemStack minecraft:chainmail_boots. 1xitem.bootsChain@0
-hide called. Params: minecraft, chainmail_chestplate
-Regex match found! minecraft:chainmail_chestplate matches minecraft:chainmail_chestplate.
-Found ItemStack minecraft:chainmail_chestplate. 1xitem.chestplateChain@0
-hide called. Params: minecraft, chainmail_helmet
-Regex match found! minecraft:chainmail_helmet matches minecraft:chainmail_helmet.
-Found ItemStack minecraft:chainmail_helmet. 1xitem.helmetChain@0
-hide called. Params: minecraft, chainmail_leggings
-Regex match found! minecraft:chainmail_leggings matches minecraft:chainmail_leggings.
-Found ItemStack minecraft:chainmail_leggings. 1xitem.leggingsChain@0
-hide called. Params: minecraft, diamond
-Regex match found! minecraft:diamond matches minecraft:diamond.
-Found ItemStack minecraft:diamond. 64xitem.diamond@0
-hide called. Params: minecraft, diamond_axe
-Regex match found! minecraft:diamond_axe matches minecraft:diamond_axe.
-Found ItemStack minecraft:diamond_axe. 1xitem.hatchetDiamond@0
-hide called. Params: minecraft, diamond_block
-Regex match found! minecraft:diamond_block matches minecraft:diamond_block.
-Found ItemStack minecraft:diamond_block. 64xtile.blockDiamond@0
-hide called. Params: minecraft, diamond_boots
-Regex match found! minecraft:diamond_boots matches minecraft:diamond_boots.
-Found ItemStack minecraft:diamond_boots. 1xitem.bootsDiamond@0
-hide called. Params: minecraft, diamond_chestplate
-Regex match found! minecraft:diamond_chestplate matches minecraft:diamond_chestplate.
-Found ItemStack minecraft:diamond_chestplate. 1xitem.chestplateDiamond@0
-hide called. Params: minecraft, diamond_helmet
-Regex match found! minecraft:diamond_helmet matches minecraft:diamond_helmet.
-Found ItemStack minecraft:diamond_helmet. 1xitem.helmetDiamond@0
-hide called. Params: minecraft, diamond_hoe
-Regex match found! minecraft:diamond_hoe matches minecraft:diamond_hoe.
-Found ItemStack minecraft:diamond_hoe. 1xitem.hoeDiamond@0
-hide called. Params: minecraft, diamond_leggings
-Regex match found! minecraft:diamond_leggings matches minecraft:diamond_leggings.
-Found ItemStack minecraft:diamond_leggings. 1xitem.leggingsDiamond@0
-hide called. Params: minecraft, diamond_ore
-Regex match found! minecraft:diamond_ore matches minecraft:diamond_ore.
-Found ItemStack minecraft:diamond_ore. 64xtile.oreDiamond@0
-hide called. Params: minecraft, diamond_pickaxe
-Regex match found! minecraft:diamond_pickaxe matches minecraft:diamond_pickaxe.
-Found ItemStack minecraft:diamond_pickaxe. 1xitem.pickaxeDiamond@0
-hide called. Params: minecraft, diamond_shovel
-Regex match found! minecraft:diamond_shovel matches minecraft:diamond_shovel.
-Found ItemStack minecraft:diamond_shovel. 1xitem.shovelDiamond@0
-hide called. Params: minecraft, diamond_sword
-Regex match found! minecraft:diamond_sword matches minecraft:diamond_sword.
-Found ItemStack minecraft:diamond_sword. 1xitem.swordDiamond@0
-hide called. Params: minecraft, dirt
-Regex match found! minecraft:dirt matches minecraft:dirt.
-Found ItemStack minecraft:dirt. 64xtile.dirt@0
-hide called. Params: minecraft, emerald
-Regex match found! minecraft:emerald matches minecraft:emerald.
-Found ItemStack minecraft:emerald. 64xitem.emerald@0
-hide called. Params: minecraft, emerald_ore
-Regex match found! minecraft:emerald_ore matches minecraft:emerald_ore.
-Found ItemStack minecraft:emerald_ore. 64xtile.oreEmerald@0
-hide called. Params: minecraft, farmland
-Regex match found! minecraft:farmland matches minecraft:farmland.
-Found ItemStack minecraft:farmland. 64xtile.farmland@0
-hide called. Params: minecraft, fence
-Regex match found! minecraft:fence matches minecraft:fence.
-Found ItemStack minecraft:fence. 64xtile.fence@0
-hide called. Params: minecraft, fence_gate
-Regex match found! minecraft:fence_gate matches minecraft:fence_gate.
-Found ItemStack minecraft:fence_gate. 64xtile.fenceGate@0
-hide called. Params: minecraft, fishing_rod
-Regex match found! minecraft:fishing_rod matches minecraft:fishing_rod.
-Found ItemStack minecraft:fishing_rod. 1xitem.fishingRod@0
-hide called. Params: minecraft, flowing_lava
-Regex match found! minecraft:flowing_lava matches minecraft:flowing_lava.
-Found ItemStack minecraft:flowing_lava. 64xtile.lava@0
-hide called. Params: minecraft, flowing_water
-Regex match found! minecraft:flowing_water matches minecraft:flowing_water.
-Found ItemStack minecraft:flowing_water. 64xtile.water@0
-hide called. Params: minecraft, golden_axe
-Regex match found! minecraft:golden_axe matches minecraft:golden_axe.
-Found ItemStack minecraft:golden_axe. 1xitem.hatchetGold@0
-hide called. Params: minecraft, golden_boots
-Regex match found! minecraft:golden_boots matches minecraft:golden_boots.
-Found ItemStack minecraft:golden_boots. 1xitem.bootsGold@0
-hide called. Params: minecraft, golden_chestplate
-Regex match found! minecraft:golden_chestplate matches minecraft:golden_chestplate.
-Found ItemStack minecraft:golden_chestplate. 1xitem.chestplateGold@0
-hide called. Params: minecraft, golden_helmet
-Regex match found! minecraft:golden_helmet matches minecraft:golden_helmet.
-Found ItemStack minecraft:golden_helmet. 1xitem.helmetGold@0
-hide called. Params: minecraft, gold_ingot
-Regex match found! minecraft:gold_ingot matches minecraft:gold_ingot.
-Found ItemStack minecraft:gold_ingot. 64xitem.ingotGold@0
-hide called. Params: minecraft, golden_leggings
-Regex match found! minecraft:golden_leggings matches minecraft:golden_leggings.
-Found ItemStack minecraft:golden_leggings. 1xitem.leggingsGold@0
-hide called. Params: minecraft, gold_ore
-Regex match found! minecraft:gold_ore matches minecraft:gold_ore.
-Found ItemStack minecraft:gold_ore. 64xtile.oreGold@0
-hide called. Params: minecraft, golden_pickaxe
-Regex match found! minecraft:golden_pickaxe matches minecraft:golden_pickaxe.
-Found ItemStack minecraft:golden_pickaxe. 1xitem.pickaxeGold@0
-hide called. Params: minecraft, golden_shovel
-Regex match found! minecraft:golden_shovel matches minecraft:golden_shovel.
-Found ItemStack minecraft:golden_shovel. 1xitem.shovelGold@0
-hide called. Params: minecraft, golden_sword
-Regex match found! minecraft:golden_sword matches minecraft:golden_sword.
-Found ItemStack minecraft:golden_sword. 1xitem.swordGold@0
-hide called. Params: minecraft, grass
-Regex match found! minecraft:grass matches minecraft:grass.
-Found ItemStack minecraft:grass. 64xtile.grass@0
-hide called. Params: minecraft, gravel
-Regex match found! minecraft:gravel matches minecraft:gravel.
-Found ItemStack minecraft:gravel. 64xtile.gravel@0
-hide called. Params: minecraft, iron_axe
-Regex match found! minecraft:iron_axe matches minecraft:iron_axe.
-Found ItemStack minecraft:iron_axe. 1xitem.hatchetIron@0
-hide called. Params: minecraft, iron_boots
-Regex match found! minecraft:iron_boots matches minecraft:iron_boots.
-Found ItemStack minecraft:iron_boots. 1xitem.bootsIron@0
-hide called. Params: minecraft, iron_chestplate
-Regex match found! minecraft:iron_chestplate matches minecraft:iron_chestplate.
-Found ItemStack minecraft:iron_chestplate. 1xitem.chestplateIron@0
-hide called. Params: minecraft, iron_helmet
-Regex match found! minecraft:iron_helmet matches minecraft:iron_helmet.
-Found ItemStack minecraft:iron_helmet. 1xitem.helmetIron@0
-hide called. Params: minecraft, iron_hoe
-Regex match found! minecraft:iron_hoe matches minecraft:iron_hoe.
-Found ItemStack minecraft:iron_hoe. 1xitem.hoeIron@0
-hide called. Params: minecraft, iron_ingot
-Regex match found! minecraft:iron_ingot matches minecraft:iron_ingot.
-Found ItemStack minecraft:iron_ingot. 64xitem.ingotIron@0
-hide called. Params: minecraft, iron_leggings
-Regex match found! minecraft:iron_leggings matches minecraft:iron_leggings.
-Found ItemStack minecraft:iron_leggings. 1xitem.leggingsIron@0
-hide called. Params: minecraft, iron_ore
-Regex match found! minecraft:iron_ore matches minecraft:iron_ore.
-Found ItemStack minecraft:iron_ore. 64xtile.oreIron@0
-hide called. Params: minecraft, iron_pickaxe
-Regex match found! minecraft:iron_pickaxe matches minecraft:iron_pickaxe.
-Found ItemStack minecraft:iron_pickaxe. 1xitem.pickaxeIron@0
-hide called. Params: minecraft, iron_shovel
-Regex match found! minecraft:iron_shovel matches minecraft:iron_shovel.
-Found ItemStack minecraft:iron_shovel. 1xitem.shovelIron@0
-hide called. Params: minecraft, iron_sword
-Regex match found! minecraft:iron_sword matches minecraft:iron_sword.
-Found ItemStack minecraft:iron_sword. 1xitem.swordIron@0
-hide called. Params: minecraft, lapis_block
-Regex match found! minecraft:lapis_block matches minecraft:lapis_block.
-Found ItemStack minecraft:lapis_block. 64xtile.blockLapis@0
-hide called. Params: minecraft, lapis_ore
-Regex match found! minecraft:lapis_ore matches minecraft:lapis_ore.
-Found ItemStack minecraft:lapis_ore. 64xtile.oreLapis@0
-hide called. Params: minecraft, lava
-Regex match found! minecraft:lava matches minecraft:lava.
-Found ItemStack minecraft:lava. 64xtile.lava@0
-hide called. Params: minecraft, leather
-Regex match found! minecraft:leather matches minecraft:leather.
-Found ItemStack minecraft:leather. 64xitem.leather@0
-hide called. Params: minecraft, leather_boots
-Regex match found! minecraft:leather_boots matches minecraft:leather_boots.
-Found ItemStack minecraft:leather_boots. 1xitem.bootsCloth@0
-hide called. Params: minecraft, leather_chestplate
-Regex match found! minecraft:leather_chestplate matches minecraft:leather_chestplate.
-Found ItemStack minecraft:leather_chestplate. 1xitem.chestplateCloth@0
-hide called. Params: minecraft, leather_helmet
-Regex match found! minecraft:leather_helmet matches minecraft:leather_helmet.
-Found ItemStack minecraft:leather_helmet. 1xitem.helmetCloth@0
-hide called. Params: minecraft, leather_leggings
-Regex match found! minecraft:leather_leggings matches minecraft:leather_leggings.
-Found ItemStack minecraft:leather_leggings. 1xitem.leggingsCloth@0
-hide called. Params: minecraft, wooden_axe
-Regex match found! minecraft:wooden_axe matches minecraft:wooden_axe.
-Found ItemStack minecraft:wooden_axe. 1xitem.hatchetWood@0
-hide called. Params: minecraft, wooden_hoe
-Regex match found! minecraft:wooden_hoe matches minecraft:wooden_hoe.
-Found ItemStack minecraft:wooden_hoe. 1xitem.hoeWood@0
-hide called. Params: minecraft, wooden_pickaxe
-Regex match found! minecraft:wooden_pickaxe matches minecraft:wooden_pickaxe.
-Found ItemStack minecraft:wooden_pickaxe. 1xitem.pickaxeWood@0
-hide called. Params: minecraft, wooden_shovel
-Regex match found! minecraft:wooden_shovel matches minecraft:wooden_shovel.
-Found ItemStack minecraft:wooden_shovel. 1xitem.shovelWood@0
-hide called. Params: minecraft, wooden_sword
-Regex match found! minecraft:wooden_sword matches minecraft:wooden_sword.
-Found ItemStack minecraft:wooden_sword. 1xitem.swordWood@0
-hide called. Params: minecraft, wooden_pickaxe
-Regex match found! minecraft:wooden_pickaxe matches minecraft:wooden_pickaxe.
-Found ItemStack minecraft:wooden_pickaxe. 1xitem.pickaxeWood@0
-hide called. Params: Mekanism, OreBlock
-Regex match found! Mekanism:OreBlock matches Mekanism:OreBlock.
-Found ItemStack Mekanism:OreBlock. 64xtile.OreBlock@0
-hide called. Params: Railcraft, ore
-Regex match found! Railcraft:ore matches Railcraft:ore.
-Found ItemStack Railcraft:ore. 64xtile.railcraft.ore@0
-hide called. Params: minecraft, wooden_pickaxe
-Regex match found! minecraft:wooden_pickaxe matches minecraft:wooden_pickaxe.
-Found ItemStack minecraft:wooden_pickaxe. 1xitem.pickaxeWood@0
-hide called. Params: minecraft, wooden_pickaxe
-Regex match found! minecraft:wooden_pickaxe matches minecraft:wooden_pickaxe.
-Found ItemStack minecraft:wooden_pickaxe. 1xitem.pickaxeWood@0
-hide called. Params: minecraft, wooden_pickaxe
-Regex match found! minecraft:wooden_pickaxe matches minecraft:wooden_pickaxe.
-Found ItemStack minecraft:wooden_pickaxe. 1xitem.pickaxeWood@0
-hide called. Params: minecraft, wooden_pickaxe
-Regex match found! minecraft:wooden_pickaxe matches minecraft:wooden_pickaxe.
-Found ItemStack minecraft:wooden_pickaxe. 1xitem.pickaxeWood@0
-hide called. Params: minecraft, wooden_pickaxe
-Regex match found! minecraft:wooden_pickaxe matches minecraft:wooden_pickaxe.
-Found ItemStack minecraft:wooden_pickaxe. 1xitem.pickaxeWood@0
-hide called. Params: Forestry, ingotBronze
-Regex match found! Forestry:ingotBronze matches Forestry:ingotBronze.
-Found ItemStack Forestry:ingotBronze. 64xitem.for.ingotBronze@0
-hide called. Params: Forestry, ingotCopper
-Regex match found! Forestry:ingotCopper matches Forestry:ingotCopper.
-Found ItemStack Forestry:ingotCopper. 64xitem.for.ingotCopper@0
-hide called. Params: Forestry, ingotTin
-Regex match found! Forestry:ingotTin matches Forestry:ingotTin.
-Found ItemStack Forestry:ingotTin. 64xitem.for.ingotTin@0
-hide called. Params: Railcraft, ingot
-Regex match found! Railcraft:ingot matches Railcraft:ingot.
-Found ItemStack Railcraft:ingot. 64xitem.railcraft.ingot@0
-Tubestuff:machine:0 has a bad registry name! Attempting to parse and reassemble correctly...
-Parsed bad name into: modid: Tubestuff, name: machine:0. If this is not correct please report it as a bug!
-The mod Tubestuff is registering items or blocks with bad registry names. Names should not contain multiple colons as it breaks the ability to do reverse-lookups through FML. Please tell whoever made this mod that this should be changed!
-hide called. Params: Tubestuff, machine:0
-Tubestuff:machine:1 has a bad registry name! Attempting to parse and reassemble correctly...
-Parsed bad name into: modid: Tubestuff, name: machine:1. If this is not correct please report it as a bug!
-hide called. Params: Tubestuff, machine:1
-Tubestuff:machine:2 has a bad registry name! Attempting to parse and reassemble correctly...
-Parsed bad name into: modid: Tubestuff, name: machine:2. If this is not correct please report it as a bug!
-hide called. Params: Tubestuff, machine:2
-Tubestuff:machine:4 has a bad registry name! Attempting to parse and reassemble correctly...
-Parsed bad name into: modid: Tubestuff, name: machine:4. If this is not correct please report it as a bug!
-hide called. Params: Tubestuff, machine:4
-Tubestuff:machine:6 has a bad registry name! Attempting to parse and reassemble correctly...
-Parsed bad name into: modid: Tubestuff, name: machine:6. If this is not correct please report it as a bug!
-hide called. Params: Tubestuff, machine:6
-Tubestuff:machine:8 has a bad registry name! Attempting to parse and reassemble correctly...
-Parsed bad name into: modid: Tubestuff, name: machine:8. If this is not correct please report it as a bug!
-hide called. Params: Tubestuff, machine:8
-hide called. Params: Tubestuff, uselessItem
-Regex match found! Tubestuff:uselessItem matches Tubestuff:uselessItem.
-Found ItemStack Tubestuff:uselessItem. 1xitem.tubestuff.jammer@0
+override called. Params: minecraft, potion, 0
+Regex match found! minecraft:potion matches minecraft:potion.
+Found ItemStack minecraft:potion. 1xitem.potion@0
+override called. Params: WR-CBE|Logic, wirelessLogic, 0,1
+Regex match found! WR-CBE|Logic:wirelessLogic matches WR-CBE|Logic:wirelessLogic.
+Found ItemStack WR-CBE|Logic:wirelessLogic. 64xitem.wrcbe_logic:wirelesspart@0
+hide called. Params: Forestry, leaves
+Regex match found! Forestry:leaves matches Forestry:leaves.
+Found ItemStack Forestry:leaves. 64xtile.for.leaves@0
 hide called. Params: cuchaz.ships, blockAirRoof
 Regex match found! cuchaz.ships:blockAirRoof matches cuchaz.ships:blockAirRoof.
 Found ItemStack cuchaz.ships:blockAirRoof. 64xtile.cuchaz.ships.airRoof@0
 hide called. Params: cuchaz.ships, blockAirWall
 Regex match found! cuchaz.ships:blockAirWall matches cuchaz.ships:blockAirWall.
 Found ItemStack cuchaz.ships:blockAirWall. 64xtile.cuchaz.ships.airWall@0
+hide called. Params: cuchaz.cuchazinteractive, token
+Regex match found! cuchaz.cuchazinteractive:token matches cuchaz.cuchazinteractive:token.
+Found ItemStack cuchaz.cuchazinteractive:token. 64xitem.cuchaz.cuchazinteractive.token@0
+hide called. Params: cuchaz.cuchazinteractive, listOfSupporters
+Regex match found! cuchaz.cuchazinteractive:listOfSupporters matches cuchaz.cuchazinteractive:listOfSupporters.
+Found ItemStack cuchaz.cuchazinteractive:listOfSupporters. 1xitem.cuchaz.cuchazinteractive.listOfSupporters@0
+hide called. Params: cuchaz.cuchazinteractive, supporterPlaque
+Regex match found! cuchaz.cuchazinteractive:supporterPlaque matches cuchaz.cuchazinteractive:supporterPlaque.
+Found ItemStack cuchaz.cuchazinteractive:supporterPlaque. 1xitem.cuchaz.cuchazinteractive.supporterPlaque@0
+hide called. Params: cuchaz.cuchazinteractive, shipPlaque
+Regex match found! cuchaz.cuchazinteractive:shipPlaque matches cuchaz.cuchazinteractive:shipPlaque.
+Found ItemStack cuchaz.cuchazinteractive:shipPlaque. 1xitem.cuchaz.cuchazinteractive.shipPlaque@0
+hide called. Params: WR-CBE|Addons, triangulator
+Regex match found! WR-CBE|Addons:triangulator matches WR-CBE|Addons:triangulator.
+Found ItemStack WR-CBE|Addons:triangulator. 1xitem.wrcbe_addons:triangulator@0
+hide called. Params: WR-CBE|Addons, sniffer
+Regex match found! WR-CBE|Addons:sniffer matches WR-CBE|Addons:sniffer.
+Found ItemStack WR-CBE|Addons:sniffer. 1xitem.wrcbe_addons:sniffer@0
+hide called. Params: WR-CBE|Addons, empty_map
+Regex match found! WR-CBE|Addons:empty_map matches WR-CBE|Addons:empty_map.
+Found ItemStack WR-CBE|Addons:empty_map. 64xitem.wrcbe_addons:empty_map@0
+hide called. Params: WR-CBE|Addons, map
+Regex match found! WR-CBE|Addons:map matches WR-CBE|Addons:map.
+Found ItemStack WR-CBE|Addons:map. 64xitem.wrcbe_addons:map@0
+hide called. Params: WR-CBE|Addons, tracker
+Regex match found! WR-CBE|Addons:tracker matches WR-CBE|Addons:tracker.
+Found ItemStack WR-CBE|Addons:tracker. 1xitem.wrcbe_addons:tracker@0
+hide called. Params: WR-CBE|Addons, rep
+Regex match found! WR-CBE|Addons:rep matches WR-CBE|Addons:rep.
+Found ItemStack WR-CBE|Addons:rep. 16xitem.wrcbe_addons:rep@0
+hide called. Params: WR-CBE|Addons, psniffer
+Regex match found! WR-CBE|Addons:psniffer matches WR-CBE|Addons:psniffer.
+Found ItemStack WR-CBE|Addons:psniffer. 1xitem.wrcbe_addons:psniffer@0
+hide called. Params: WR-CBE|Core, blazeTransceiver
+Regex match found! WR-CBE|Core:blazeTransceiver matches WR-CBE|Core:blazeTransceiver.
+Found ItemStack WR-CBE|Core:blazeTransceiver. 64xitem.wrcbe_core:blazeTransceiver@0
+hide called. Params: WR-CBE|Core, blazeRecieverDish
+Regex match found! WR-CBE|Core:blazeRecieverDish matches WR-CBE|Core:blazeRecieverDish.
+Found ItemStack WR-CBE|Core:blazeRecieverDish. 64xitem.wrcbe_core:blazeRecieverDish@0
 hide called. Params: weather2, WeatherMachine
 Regex match found! weather2:WeatherMachine matches weather2:WeatherMachine.
 Found ItemStack weather2:WeatherMachine. 64xtile.weather2:WeatherMachine@0
+hide called. Params: weather2, WeatherDeflector
+Regex match found! weather2:WeatherDeflector matches weather2:WeatherDeflector.
+Found ItemStack weather2:WeatherDeflector. 64xtile.weather2:WeatherDeflector@0
+hide called. Params: Forestry, ffarm
+Regex match found! Forestry:ffarm matches Forestry:ffarm.
+Found ItemStack Forestry:ffarm. 64xtile.for.ffarm@0
 Script handler ready. Waiting for a while to ensure all other mods are done messing with NEI.

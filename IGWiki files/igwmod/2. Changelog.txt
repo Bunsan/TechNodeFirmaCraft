@@ -1,10 +1,26 @@
-[prefix{l}]Version 2.19 - Ouch my jetpack[prefix{l}]
+[prefix{l}]Version 2.20 - It's Magic You Know... Never Believe It's Not So[prefix{}]
 
-It's come to our attention that the jetpack is such a useful item that it's recipe is just a wee bit to easy to obtain. So we've gated it a bit to force a little more effort before you get to fly around without a care in the world. Wanted to get this update in before the TNFC Official server starts playing with Osmium :)
+With Bunsan tied up with all sorts of real life stuff, Anode was left to guard the fort and put out an update. Feeling ambitious, well a little ambitious, I added a few little things for fun and shenanigans. 
 
-Changes:
+On the official server we discovered that the PMP Salves don't work in SMP. Which saddens us greatly. To alleviate that, we've added potions! Yes vanilla potions with a TFC twist, thanks to a wonderful MineTweaker script by ciekma on the TFC forums. It gives a good TFC twist to creating potions and will provide some entertainment. Of course the healing potion is still vanilla so it's a little limited in usefulness but still it's better than nothing.
 
-- Updated Mekanism with 2 changed recipes.
+To go along with the potions, I added a TFCified version of the MC Beacon. It's still handing out the usual vanilla MC tweaks, but does provide some entertainment and a resource sink for those rich in blocks of stuff. The Nether Star is apparently obtainable, but was stolen by the dirty denizens of the deep. So you'll have some battles ahead of you to bathe your base in the glorious light of your beacon.
+
+Also have re-enabled and reciped the vanilla MC Anvil. Purely for the purpose of trading blood and xp for renaming things. Why you would want to I'll leave up to you.
+
+Finally, some small little tweaks, taught the Leather Water Sac what Streams fresh water blocks are. Fixed the Mekanism Digital Miners Silk-Touch mode to not make a mess of TFC ores, so its SilkTouch mode is reenabled. Also updated the whole shooting match to the last update to Forge for 1.7.10. 
+
+Details:
+- Updated pack to Forge 10.13.4.1614
+- Update TFCTweaker to 1.0.2
+- Update scripts for new version of TFCTweaker
+- Add MC Anvil for renaming of items. 
+- Add MC potion recipes from:
+http://terrafirmacraft.com/f/topic/9349-mt-scripts-for-potions-in-tfc/#comment-119803
+- Fix Mek tank from putting invalid fluids in barrels (ie: Lava)
+- Fixed Mek Digital Miner for Silk Touch mode.
+- Fixed Leather Water Sac not recognizing Streams water blocks as fillable.
+
 
 [prefix{l}]Version 2.18: I Want A New.... Map![prefix{l}]
 A special edition update to celebrate the launch of a new map for the official TNFC server. It's going to be a wild and woolly weekend as we explore the new world and see what's out there. If you're not joining us, well shame on you, then there are just a couple of bug fixes and the addition of one new optional mod, FTB Utilities.

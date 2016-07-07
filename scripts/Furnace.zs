@@ -11,6 +11,7 @@
 	furnace.remove(<Mekanism:Ingot:4>);
 	furnace.remove(<Mekanism:Ingot:5>);
 	furnace.remove(<Mekanism:Ingot:6>);
+	furnace.remove(<Railcraft:ingot:3>);
     
 // ================================================================================
 //# ADD FURNACE RECIPES
@@ -29,6 +30,7 @@
 	furnace.addRecipe(<terrafirmacraft:item.Copper Ingot>, <ore:oreCopper>);
 	furnace.addRecipe(<terrafirmacraft:item.Gold Ingot>, <ore:oreGold>);
 	furnace.addRecipe(<terrafirmacraft:item.Platinum Ingot>, <ore:orePlatinum>);
+	furnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, <ore:oreIron>);
 	furnace.addRecipe(<terrafirmacraft:item.Silver Ingot>, <ore:oreSilver>);
 	furnace.addRecipe(<terrafirmacraft:item.Tin Ingot>, <ore:oreTin>);
 	furnace.addRecipe(<terrafirmacraft:item.Lead Ingot>, <ore:oreLead>);
@@ -69,7 +71,6 @@
 	furnace.addRecipe(<terrafirmacraft:item.Spindle Head:1>, <terrafirmacraft:item.Spindle Head>);    
 //#Other
 	furnace.addRecipe(<Forestry:canLava>, <Forestry:canSeedOil>);
-	furnace.addRecipe(<terrafirmacraft:item.Electrum Ingot>, <ore:dustElectrum>);
-	furnace.addRecipe(<terrafirmacraft:item.Cupronickel Ingot>, <ore:dustCupronickel>);
-    furnace.addRecipe(<terrafirmacraft:item.Cupronickel Ingot>, <ore:dustConstantan>);
+	furnace.addRecipe(<ImmersiveEngineering:metal:5>, <ImmersiveEngineering:metal:15>);
+	furnace.addRecipe(<ImmersiveEngineering:metal:6>, <ImmersiveEngineering:metal:16>);
 	furnace.addRecipe(<Mekanism:Ingot:1>, <ore:oreOsmium>);

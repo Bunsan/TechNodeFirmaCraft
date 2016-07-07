@@ -18,15 +18,8 @@
 	recipes.remove(<OpenBlocks:itemDropper>);
 	recipes.remove(<OpenBlocks:scaffolding>);
 	recipes.remove(<OpenBlocks:ropeladder>);
-    recipes.remove(<OpenBlocks:path>);
 
 // ================================================================================
-//#ADD SHAPELESS
-
-    recipes.addShapeless(<OpenBlocks:path> * 8, [<ore:stoneCobble>, <ore:blockGravel>]);
-    
-// ================================================================================
-
 //#ADD SHAPED
 	recipes.addShaped(<OpenBlocks:scaffolding> * 2, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, null, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]); 
 	recipes.addShaped(<OpenBlocks:itemDropper>, [[<ore:ingotIron>, <ore:stoneCobble>, <ore:stoneCobble>], [<minecraft:hopper>, <minecraft:redstone>, <ore:stoneCobble>], [<ore:ingotIron>, <ore:stoneCobble>, <ore:stoneCobble>]]);
