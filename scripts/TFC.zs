@@ -187,45 +187,49 @@ import mods.nei.NEI;
 
 //# Barrel
 //#Addition
-	//mods.tfcraft.Barrel.addSealed(Input Item, Input Fluid, Output Item, Output Fluid, Time, Tier, Remove Fluid true/false, allow any stack true/false);
-		for item in <ore:logSappy>.items {
-	mods.tfcraft.Barrel.addSealed(item, <liquid:vinegar> * 625, <minecraft:slime_ball> * 4, <liquid:vinegar> * 625, 8, 1, true, true);
+	//mods.Terrafirmacraft.Barrel.addItemFluidConversion(Input Item, Input Fluid, Output Item, Output Fluid, Time, Tier, Remove Fluid true/false, allow any stack true/false);
+		//Output Stack (Optional), Output Fluid(in mb), Input Stack, Input Fluid(in mb), Min Tech Level (Default: 1, Optional), Sealed (Default: true, Optional), Sealed Time (Default: 8, Optional), Removes Liquid (Default: true, Optional), Allow Any Stack (Default: true, Optional)
+    
+    for item in <ore:logSappy>.items {
+      mods.Terrafirmacraft.Barrel.addItemFluidConversion(item, <liquid:vinegar> * 625, <minecraft:slime_ball> * 4, <liquid:vinegar> * 625, 1, true,8, true, true);
 		}
 	//# Recipes for making tree mix and Forestry Sapling
 	//# Acacia
-	mods.tfcraft.Barrel.addSealed(<TabulaRasa:RasaItem6>, <liquid:freshwater> * 1000, <Forestry:mulch>, <liquid:acaciamix>, 24, 1, false, false);
-	mods.tfcraft.Barrel.addSealed(<terrafirmacraft:item.FruitSapling:1>, <liquid:acaciamix> * 2000, <minecraft:sapling:4>,  <liquid:acaciamix> * 2000, 24, 1, true, false);
+	mods.Terrafirmacraft.Barrel.addItemFluidConversion(<TabulaRasa:RasaItem6>, <liquid:freshwater> * 1000, <Forestry:mulch>, <liquid:acaciamix>, 1, true, 24, false, false);
+	mods.Terrafirmacraft.Barrel.addItemFluidConversion(<terrafirmacraft:item.FruitSapling:1>, <liquid:acaciamix> * 2000, <minecraft:sapling:4>,  <liquid:acaciamix> * 2000,1, true, 24, true, false);
 	//# Birch
-	mods.tfcraft.Barrel.addSealed(<TabulaRasa:RasaItem6:1>, <liquid:freshwater> * 1000, <Forestry:mulch>,  <liquid:birchmix>, 24, 1, false, false);
-	mods.tfcraft.Barrel.addSealed(<terrafirmacraft:sapling:2>, <liquid:birchmix> * 2000, <minecraft:sapling:2>,  <liquid:birchmix> * 2000, 24, 1, true, false);
+	mods.Terrafirmacraft.Barrel.addItemFluidConversion(<TabulaRasa:RasaItem6:1>, <liquid:freshwater> * 1000, <Forestry:mulch>,  <liquid:birchmix>,1, true, 24, false, false);
+	mods.Terrafirmacraft.Barrel.addItemFluidConversion(<terrafirmacraft:sapling:2>, <liquid:birchmix> * 2000, <minecraft:sapling:2>,  <liquid:birchmix> * 2000, 1, true, 24, true, false);
 	//# Dark Oak
-	mods.tfcraft.Barrel.addSealed(<TabulaRasa:RasaItem6:2>, <liquid:freshwater> * 1000, <Forestry:mulch>,  <liquid:darkoakmix>, 24, 1, false, false);
-	mods.tfcraft.Barrel.addSealed(<terrafirmacraft:sapling:3>, <liquid:darkoakmix> * 2000, <minecraft:sapling:5>,  <liquid:darkoakmix> * 2000, 24, 1, true, false);
+	mods.Terrafirmacraft.Barrel.addItemFluidConversion(<TabulaRasa:RasaItem6:2>, <liquid:freshwater> * 1000, <Forestry:mulch>,  <liquid:darkoakmix>, 1, true, 24, false, false);
+	mods.Terrafirmacraft.Barrel.addItemFluidConversion(<terrafirmacraft:sapling:3>, <liquid:darkoakmix> * 2000, <minecraft:sapling:5>,  <liquid:darkoakmix> * 2000, 1, true, 24, true, false);
 	//# Jungle
-	mods.tfcraft.Barrel.addSealed(<TabulaRasa:RasaItem6:3>, <liquid:freshwater> * 1000, <Forestry:mulch>,  <liquid:junglemix>, 24, 1, false, false);
-	mods.tfcraft.Barrel.addSealed(<terrafirmacraft:sapling:4>, <liquid:junglemix> * 2000, <minecraft:sapling:3>,  <liquid:junglemix> * 2000, 24, 1, true, false);
+	mods.Terrafirmacraft.Barrel.addItemFluidConversion(<TabulaRasa:RasaItem6:3>, <liquid:freshwater> * 1000, <Forestry:mulch>,  <liquid:junglemix>, 1, true, 24, false, false);
+	mods.Terrafirmacraft.Barrel.addItemFluidConversion(<terrafirmacraft:sapling:4>, <liquid:junglemix> * 2000, <minecraft:sapling:3>,  <liquid:junglemix> * 2000, 1, true, 24, true, false);
 	//# Oak
-	mods.tfcraft.Barrel.addSealed(<TabulaRasa:RasaItem6:4>, <liquid:freshwater> * 1000, <Forestry:mulch>,  <liquid:oakmix>, 24, 1, false, false);
-	mods.tfcraft.Barrel.addSealed(<terrafirmacraft:sapling>, <liquid:oakmix> * 2000, <minecraft:sapling>,  <liquid:oakmix> * 2000, 24, 1, true, true);
+	mods.Terrafirmacraft.Barrel.addItemFluidConversion(<TabulaRasa:RasaItem6:4>, <liquid:freshwater> * 1000, <Forestry:mulch>,  <liquid:oakmix>, 1, true, 24, false, false);
+	mods.Terrafirmacraft.Barrel.addItemFluidConversion(<terrafirmacraft:sapling>, <liquid:oakmix> * 2000, <minecraft:sapling>,  <liquid:oakmix> * 2000, 1, true, 24, true, true);
 	//# Spruce
-	mods.tfcraft.Barrel.addSealed(<TabulaRasa:RasaItem6:5>, <liquid:freshwater> * 1000, <Forestry:mulch>,  <liquid:sprucemix>, 24, 1, false, false);
-	mods.tfcraft.Barrel.addSealed(<terrafirmacraft:sapling:10>, <liquid:sprucemix> * 2000, <minecraft:sapling:1>,  <liquid:sprucemix> * 2000, 24, 1, true, false);
-	//mods.tfcraft.Barrel.addUnsealed(Input Item, Input Fluid, Output Item, Output Fluid, Time, techLv, Remove Fluid true/false, allow any stack true/false);
-	//mods.tfcraft.Barrel.addFluidtoFluid(Fluid in Barrel, Input Fluid, Output Fluid);
+	mods.Terrafirmacraft.Barrel.addItemFluidConversion(<TabulaRasa:RasaItem6:5>, <liquid:freshwater> * 1000, <Forestry:mulch>,  <liquid:sprucemix>, 1, true, 24, false, false);
+	mods.Terrafirmacraft.Barrel.addItemFluidConversion(<terrafirmacraft:sapling:10>, <liquid:sprucemix> * 2000, <minecraft:sapling:1>,  <liquid:sprucemix> * 2000, 1, true, 24, true, false);
 
 //# Quern
 //#Addition
-	mods.tfcraft.Quern.add(<terrafirmacraft:item.Ore:17>, <DecorationsTFC:item.Powders.Gypsum> * 4);
-	mods.tfcraft.Quern.add(<terrafirmacraft:item.Ore:23>, <minecraft:blaze_powder> * 2);
-	mods.tfcraft.Quern.add(<terrafirmacraft:item.Ore:19>, <minecraft:glowstone_dust> * 2);
-	mods.tfcraft.Quern.add(<terrafirmacraft:item.Ore:33>, <Forestry:fertilizerCompound> * 4);
+	mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraft:item.Ore:17>, <DecorationsTFC:item.Powders.Gypsum> * 4);
+	mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraft:item.Ore:23>, <minecraft:blaze_powder> * 2);
+	mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraft:item.Ore:19>, <minecraft:glowstone_dust> * 2);
+	mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraft:item.Ore:33>, <Forestry:fertilizerCompound> * 4);
 
 //# Heating
-	mods.tfcraft.Heat.add(<customitems:block_of_clay>, 1, 1250, <minecraft:hardened_clay>);
-	mods.tfcraft.Heat.add(<customitems:uncured_hempcrete>, 1, 1250, <ImmersiveEngineering:stoneDecoration>);
+// Output Stack, Input Stack or Input Ore, Melting Temp(Default: 600, Normal Range 0-2000)[Optional], Specific Heat(Default: 1, Normal Range 0-1)[Optional]
+
+	mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:hardened_clay>, <customitems:block_of_clay>, 1250,1);
+	mods.Terrafirmacraft.ItemHeat.addRecipe(<ImmersiveEngineering:stoneDecoration>, <customitems:uncured_hempcrete>, 1250, 1);
 
 //# Loom
-	mods.tfcraft.Loom.add(<ImmersiveEngineering:material:3> * 16, <terrafirmacraft:item.BurlapCloth>, "terrafirmacraft:textures/blocks/Rope.png");
+
+	mods.Terrafirmacraft.Loom.addRecipe(<ImmersiveEngineering:material:3> * 16, <terrafirmacraft:item.BurlapCloth>, "terrafirmacraft:textures/blocks/Rope.png");
 //# Anvil
-	mods.tfcraft.Anvil.add(<terrafirmacraft:item.Black Steel Sheet>, null, "shears", 67, false, 5, <customitems:black_steel_shears>);
+// Output Stack, Input Stack 1, Input Stack 2[Optional], Plan Name, Minimal Anvil Tier (Range 0-7), Crafting Value (Range 0-50)
+	mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:black_steel_shears>, <terrafirmacraft:item.Black Steel Sheet>, null, "shears", 2, 67);
 <customitems:black_steel_shears>.addTooltip(format.gray("Fine Fragile Blade for Delicate Work."));
