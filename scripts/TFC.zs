@@ -187,8 +187,7 @@ import mods.nei.NEI;
 
 //# Barrel
 //#Addition
-	//OLD PARAMS:(Input Item, Input Fluid, Output Item, Output Fluid, Time, Tier, Remove Fluid true/false, allow any stack true/false);
-	//NEW PARAMS: Output Stack (Optional), Output Fluid(in mb), Input Stack, Input Fluid(in mb), Min Tech Level (Default: 1, Optional), Sealed (Default: true, Optional), Sealed Time (Default: 8, Optional), Removes Liquid (Default: true, Optional), Allow Any Stack (Default: true, Optional)
+		//NEW PARAMS: Output Stack (Optional), Output Fluid(in mb), Input Stack, Input Fluid(in mb), Min Tech Level (Default: 1, Optional), Sealed (Default: true, Optional), Sealed Time (Default: 8, Optional), Removes Liquid (Default: true, Optional), Allow Any Stack (Default: true, Optional)
     
     for item in <ore:logSappy>.items {
       mods.Terrafirmacraft.Barrel.addItemFluidConversion(<minecraft:slime_ball> * 4, <liquid:vinegar> * 625, item, <liquid:vinegar> * 625, 1, true,8, true, true);
@@ -215,11 +214,12 @@ import mods.nei.NEI;
 	mods.Terrafirmacraft.Barrel.addItemFluidConversion(<minecraft:sapling:1>,  <liquid:sprucemix> * 2000, <terrafirmacraft:sapling:10>, <liquid:sprucemix> * 2000, 1, true, 24, true, false);
  
 //# Quern
+// Output Stack, Input Stack
 //#Addition
-	mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraft:item.Ore:17>, <DecorationsTFC:item.Powders.Gypsum> * 4);
-	mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraft:item.Ore:23>, <minecraft:blaze_powder> * 2);
-	mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraft:item.Ore:19>, <minecraft:glowstone_dust> * 2);
-	mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraft:item.Ore:33>, <Forestry:fertilizerCompound> * 4);
+	mods.Terrafirmacraft.Quern.addRecipe(<DecorationsTFC:item.Powders.Gypsum> * 4, <terrafirmacraft:item.Ore:17>);
+	mods.Terrafirmacraft.Quern.addRecipe(<minecraft:blaze_powder> * 2, <terrafirmacraft:item.Ore:23>);
+	mods.Terrafirmacraft.Quern.addRecipe(<minecraft:glowstone_dust> * 2, <terrafirmacraft:item.Ore:19>);
+	mods.Terrafirmacraft.Quern.addRecipe(<Forestry:fertilizerCompound> * 4, <terrafirmacraft:item.Ore:33>);
 
 //# Heating
 // Output Stack, Input Stack or Input Ore, Melting Temp(Default: 600, Normal Range 0-2000)[Optional], Specific Heat(Default: 1, Normal Range 0-1)[Optional]
@@ -228,9 +228,11 @@ import mods.nei.NEI;
 	mods.Terrafirmacraft.ItemHeat.addRecipe(<ImmersiveEngineering:stoneDecoration>, <customitems:uncured_hempcrete>, 1250, 1);
 
 //# Loom
+// Output Stack, Input Stack, Image Overlay Location("modID:location")
+// Output Stack, Input Stack, Cosmetic Loom Overlay (Range 1-3: 1-String, 2-Silk, 3-Rope; Default: 1)[Optional]
+	mods.Terrafirmacraft.Loom.addRecipe(<terrafirmacraft:item.BurlapCloth>,<ImmersiveEngineering:material:3> * 16, "terrafirmacraft:textures/blocks/Rope.png");
 
-	mods.Terrafirmacraft.Loom.addRecipe(<ImmersiveEngineering:material:3> * 16, <terrafirmacraft:item.BurlapCloth>, "terrafirmacraft:textures/blocks/Rope.png");
-//# Anvil
+  //# Anvil
 // Output Stack, Input Stack 1, Input Stack 2[Optional], Plan Name, Minimal Anvil Tier (Range 0-7), Crafting Value (Range 0-50)
 	mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:black_steel_shears>, <terrafirmacraft:item.Black Steel Sheet>, null, "shears", 2, 67);
-<customitems:black_steel_shears>.addTooltip(format.gray("Fine Fragile Blade for Delicate Work."));
+  <customitems:black_steel_shears>.addTooltip(format.gray("Fine Fragile Blade for Delicate Work."));
