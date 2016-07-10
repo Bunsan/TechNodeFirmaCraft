@@ -230,7 +230,7 @@ import mods.nei.NEI;
 //# Loom
 // Output Stack, Input Stack, Image Overlay Location("modID:location")
 // Output Stack, Input Stack, Cosmetic Loom Overlay (Range 1-3: 1-String, 2-Silk, 3-Rope; Default: 1)[Optional]
-	mods.Terrafirmacraft.Loom.addRecipe(<terrafirmacraft:item.BurlapCloth>,<ImmersiveEngineering:material:3> * 16, "terrafirmacraft:textures/blocks/Rope.png");
+	mods.Terrafirmacraft.Loom.addRecipe(<terrafirmacraft:item.BurlapCloth>,<ImmersiveEngineering:material:3> * 16, 3);
 
   //# Anvil
 // Output Stack, Input Stack 1, Input Stack 2[Optional], Plan Name, Minimal Anvil Tier (Range 0-7), Crafting Value (Range 0-50)
