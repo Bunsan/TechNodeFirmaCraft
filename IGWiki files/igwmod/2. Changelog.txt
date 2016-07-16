@@ -1,3 +1,21 @@
+[prefix{l}]Version 2.21 - It's Summertime![prefix{}]
+
+With Bunsan still doing actual real-life stuff, it's another Anode update. Not a whole lot in this update, just a bunch of stuff that interested me and thought might be fun. Without further ado:
+
+- Mek Personal Chest now requires a shift-click to place. Got sick of trying to point somewhere into the distance to open the chest from inventory.  Also added a warning if there are issues saving the Personal Chest inventory data. Also the Logistical Sorter click sound has been silenced.
+
+- Cats have been spotted roaming the lands. They are a little skitterish and may be full of odd behaviours. Reports on their activities would be helpful. Expect tweaks to their spawning, breeding and other behaviours in the future.
+
+- It's Summer, let's throw some steak on the grill (grill stack size increased to 160oz).
+
+- Also need to get some music going. Not cheap, not by a long shot. But you can no longer complain that gems are useless :) May be more traditional ways of obtaining records. Also two unique records to the pack. Gotta collect em all!
+
+- The bears have been eating a better diet, leading to them being a more interesting animal to hunt. Your mileage may vary.
+
+- Last updates beacon was a little broken as there were no valid blocks to build underneath it. The beacon now has valid blocks and works in SMP.
+
+- Seaweed now does some limited regen in spring. Very helpful for SMP servers.
+
 [prefix{l}]Version 2.20 - It's Magic You Know... Never Believe It's Not So[prefix{}]
 
 With Bunsan tied up with all sorts of real life stuff, Anode was left to guard the fort and put out an update. Feeling ambitious, well a little ambitious, I added a few little things for fun and shenanigans. 
