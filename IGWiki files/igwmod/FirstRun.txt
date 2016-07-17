@@ -1,4 +1,12 @@
-[prefix{l}]Version 2.21 - It's Summertime![prefix{}]
+[prefix{l}]Version 2.21.1 - It's Summertime![prefix{}]
+
+*** Minor Version Notes:
+- Little fixes. Allows you to properly place the Mek Personal Chest with shift clicking. 
+- Fixed the Ocelots to only spawn in their appropriate places. 
+- The bears aren't quite so bountiful. 
+ - Seaweed respawner has returned. 
+-  Cut a Sequoia and crash a server bug has been fixed. 
+***
 
 With Bunsan still doing actual real-life stuff, it's another Anode update. Not a whole lot in this update, just a bunch of stuff that interested me and thought might be fun. Without further ado:
 
@@ -15,4 +23,3 @@ With Bunsan still doing actual real-life stuff, it's another Anode update. Not a
 - Last updates beacon was a little broken as there were no valid blocks to build underneath it. The beacon now has valid blocks and works in SMP.
 
 - Seaweed now does some limited regen in spring. Very helpful for SMP servers.
-
