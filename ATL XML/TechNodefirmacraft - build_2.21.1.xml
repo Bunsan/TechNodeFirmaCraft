@@ -60,7 +60,7 @@
 <!-- Base Scripts -->
         <!-- Marquee Mods -->
         <mod 
-        name="TerraFirmaCraft" version="0.79.29_tnfc.ab6e61d" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.29.tnfc.ab6e61d.jar" file="[1.7.10]TerraFirmaCraft-0.79.29.tnfc.ab6e61d.jar" md5="91a0a512dd6b86ee1351e61e2d8c170f" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="TerraFirmaCraft" version="0.79.29_tnfc.1fb98a8" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.29.tnfc.1fb98a8.jar" file="[1.7.10]TerraFirmaCraft-0.79.29.tnfc.1fb98a8.jar" md5="82c0cd7e6d298eadc8c0432943b3329e" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod 
         name="TechNodefirmacraft" version="2.21" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]technodefirmacraft-2.21.0.jar" file="[1.7.10]technodefirmacraft-2.21.0.jar" md5="15ef2514b8d71cb5aff7b3818d0c7236" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="AnodeCathode, Bunsan" optional="no" description="Custom integration and features for TechNodefirmacraft modpack" client="yes" server="yes" serveroptional="no"
@@ -402,7 +402,7 @@
         name="Resource Loaders Folder" version="2.10" url="packs/TechNodefirmacraft/files/extract/resources_2.10.zip" file="resources_2.10.zip" md5="33a24c409fe81854c0d3cb4077410357" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="no"
         /> 
         <mod 
-        name="IGWModData" version="2.21.1" url="packs/TechNodefirmacraft/files/extract/igwmod_2.21.1.zip" file="igwmod_2.21.1.zip" md5="c7014e7754fadb9449aad25aede2b367" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
+        name="IGWModData" version="2.21.1" url="packs/TechNodefirmacraft/files/extract/igwmod.21.1.zip" file="igwmod.21.1.zip" md5="3f05a7562e3811a1d4c85b3b2281b675" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
         />
 
     </mods>

@@ -6,6 +6,7 @@
 - The bears aren't quite so bountiful. 
  - Seaweed respawner has returned. 
 -  Cut a Sequoia and crash a server bug has been fixed. 
+-  Taught ocelots how to swim
 ***
 
 With Bunsan still doing actual real-life stuff, it's another Anode update. Not a whole lot in this update, just a bunch of stuff that interested me and thought might be fun. Without further ado:
