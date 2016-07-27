@@ -1,6 +1,13 @@
-[prefix{l}]Version 2.21.1 - It's Summertime![prefix{}]
+[prefix{l}]Version 2.21.6 - It's Summertime![prefix{}]
 
-*** Minor Version Notes:
+Hotfix: 
+
+- A number of Mek recipes didn't get fixed during the Mek 9.1 update. Thanks to _TheVillageIdiot for pointing this out :)
+- A little Mek recipe balance while I was at it. Thanks to PrettyFly4AWifi for the suggestions.
+- Made the jukebox recipe a tiny bit saner and more flexible to build.
+- Little tweak to MapWriter so it doesn't change displayed Marker group when adding markers.
+
+*** Minor Version Notes from 2.21.1:
 - Little fixes. Allows you to properly place the Mek Personal Chest with shift clicking. 
 - Fixed the Ocelots to only spawn in their appropriate places. 
 - The bears aren't quite so bountiful. 
@@ -8,7 +15,6 @@
 -  Cut a Sequoia and crash a server bug has been fixed. 
 -  Taught ocelots how to swim
 ***
-
 With Bunsan still doing actual real-life stuff, it's another Anode update. Not a whole lot in this update, just a bunch of stuff that interested me and thought might be fun. Without further ado:
 
 - Mek Personal Chest now requires a shift-click to place. Got sick of trying to point somewhere into the distance to open the chest from inventory.  Also added a warning if there are issues saving the Personal Chest inventory data. Also the Logistical Sorter click sound has been silenced.

@@ -1,7 +1,7 @@
     <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>2.21.1</version>
+        <version>2.21.6</version>
         <minecraft>1.7.10</minecraft>
         <caseallfiles>lower</caseallfiles>
         <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
@@ -60,10 +60,10 @@
 <!-- Base Scripts -->
         <!-- Marquee Mods -->
         <mod 
-        name="TerraFirmaCraft" version="0.79.29_tnfc.1fb98a8" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.29.tnfc.1fb98a8.jar" file="[1.7.10]TerraFirmaCraft-0.79.29.tnfc.1fb98a8.jar" md5="82c0cd7e6d298eadc8c0432943b3329e" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="TerraFirmaCraft" version="0.79.29_tnfc.9262bea" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.29.tnfc.9262bea.jar" file="[1.7.10]TerraFirmaCraft-0.79.29.tnfc.9262bea.jar" md5="67c515d2c312cf569f7d545f2d5b3ff9" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod 
-        name="TechNodefirmacraft" version="2.21" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]technodefirmacraft-2.21.0.jar" file="[1.7.10]technodefirmacraft-2.21.0.jar" md5="15ef2514b8d71cb5aff7b3818d0c7236" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="AnodeCathode, Bunsan" optional="no" description="Custom integration and features for TechNodefirmacraft modpack" client="yes" server="yes" serveroptional="no"
+        name="TechNodefirmacraft" version="2.21.6" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TechNodefirmacraft-2.21.6.jar" file="[1.7.10]TechNodefirmacraft-2.21.6.jar" md5="7b037dc0103211110b746f1de41ab4d3" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="AnodeCathode, Bunsan" optional="no" description="Custom integration and features for TechNodefirmacraft modpack" client="yes" server="yes" serveroptional="no"
         />
         <mod 
         name="Railcraft" version="9.12.2.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/Railcraft_1.7.10-9.12.2.0.jar" file="Railcraft_1.7.10-9.12.2.0.jar" md5="c259e18bb43599134b3a6f96cba5f26d" download="server" type="mods" website="http://railcraft.info/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/mc-mods/51195-railcraft&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=CovertJaguar%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_return=http://m" authors="CovertJaguar" description="Redefine your rails" client="yes" server="yes" serveroptional="no" 
@@ -72,7 +72,7 @@
         name="Forestry for Minecraft" version="4.2.12.0.tnfc" url="packs/TechNodefirmacraft/files/1.7.10Mods/forestry_1.7.10-4.2.12.0.tnfc.235881b.jar" file="forestry_1.7.10-4.2.12.0.tnfc.235881b.jar" md5="1ddb53ee3a3f9fd5611c7913b59d9a85" download="server" type="mods" website="http://forestry.sengir.net/" authors="SirSengir" description="Trees, bees and more." client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod
-        name="PneumaticCraft" version="1.12.7-150" url="packs/TechNodefirmacraft/files/1.7.10Mods/PneumaticCraft-1.7.10-1.12.7-150-universal.jar" file="PneumaticCraft-1.7.10-1.12.7-150-universal.jar" md5="10fbf105311d04f9060f0546829ca238" download="server" type="mods" website="http://www.minemaarten.com" authors="MineMaarten" description="A technical mod all about pneumatics!" client="yes" optional="no" server="yes" serveroptional="no"
+        name="PneumaticCraft" version="1.12.7-tnfc" url="packs/TechNodefirmacraft/files/1.7.10Mods/PneumaticCraft-1.7.10-1.12.7-tnfc.jar" file="PneumaticCraft-1.7.10-1.12.7-tnfc.jar" md5="32ac4e96c2d308e0079e72bd3b222d0c" download="server" type="mods" website="http://www.minemaarten.com" authors="MineMaarten" description="A technical mod all about pneumatics!" client="yes" optional="no" server="yes" serveroptional="no"
         />        
         <mod
         name="Steve&apos;s Factory Manager" version="A93" url="packs/TechNodefirmacraft/files/1.7.10Mods/StevesFactoryManagerA93.jar" file="StevesFactoryManagerA93.jar" md5="825819de2d82cf7e9118353c0fc821b6" download="server" type="mods" website="http://www.minecraftforum.net/topic/2211439-" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=Z7NBL3BRBCNFC" authors="Vswe" description="Steve&apos;s Factory Manager is a mod which allows you to set up systems that moves and manages items between inventories and machines" client="yes" optional="no" server="yes" serveroptional="no"
@@ -87,10 +87,10 @@
         name="Immersive Engineering" version="0.7.7" url="packs/TechNodefirmacraft/files/1.7.10Mods/ImmersiveEngineering-0.7.7.jar" file="ImmersiveEngineering-0.7.7.jar" md5="24f8212228caf05e2031b1e9221146b5" download="server" type="mods" website="http://www.curseforge.com/projects/231951/" authors="BluSunrize,Damien A.W. Hazard" description="A retro-futuristic tech mod!" client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod
-        name="Mekanism" version="9.0.2.tnfc.28ce52f" url="packs/TechNodefirmacraft/files/1.7.10Mods/Mekanism-1.7.10-9.0.2.tnfc.28ce52f.jar" file="Mekanism-1.7.10-9.0.2.tnfc.28ce52f.jar" md5="8fb177de87205775efe239d0f9dee57c" download="server" type="mods" website="http://universalelectricity.com/mekanism" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=PQH6NGL2C4QWY" authors="aidancbrady" description="Energy, Armor, Tools, Weapons, Machines, Magic." client="yes" optional="no" server="yes" serveroptional="no"
+        name="Mekanism" version="9.1.0.tnfc.caf62f1" url="packs/TechNodefirmacraft/files/1.7.10Mods/Mekanism-1.7.10-9.1.0.tnfc.caf62f1.jar" file="Mekanism-1.7.10-9.1.0.tnfc.caf62f1.jar" md5="de095393c19a03a8888662d12deba781" download="server" type="mods" website="http://universalelectricity.com/mekanism" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=PQH6NGL2C4QWY" authors="aidancbrady" description="Energy, Armor, Tools, Weapons, Machines, Magic." client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod
-        name="MekanismGenerators" version="9.0.2.tnfc.e117e74" url="packs/TechNodefirmacraft/files/1.7.10Mods/MekanismGenerators-1.7.10-9.0.2.tnfc.e117e74.jar" file="MekanismGenerators-1.7.10-9.0.2.tnfc.e117e74.jar" md5="bae5db36026e77090cf4e2e989ab2956" download="server" type="mods" website="http://universalelectricity.com/mekanism" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=PQH6NGL2C4QWY" authors="aidancbrady" description="Generators module of Mekanism."  client="yes" optional="no" server="yes" serveroptional="no"
+        name="MekanismGenerators" version="9.1.0.tnfc.ca462f1" url="packs/TechNodefirmacraft/files/1.7.10Mods/MekanismGenerators-1.7.10-9.1.0.tnfc.ca462f1.jar" file="MekanismGenerators-1.7.10-9.1.0.tnfc.ca462f1.jar" md5="c3b6ea0adda0156752f2ed6d4e95f43c" download="server" type="mods" website="http://universalelectricity.com/mekanism" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=PQH6NGL2C4QWY" authors="aidancbrady" description="Generators module of Mekanism."  client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod
         name="OpenBlocks" version="1.5.1" url="packs/TechNodefirmacraft/files/1.7.10Mods/OpenBlocks-1.7.10-1.5.1.jar" file="OpenBlocks-1.7.10-1.5.1.jar" md5="87633834e62298706da02daafd8fcf22" download="server" type="mods" website="http://www.openperipheral.info" donation="http://www.patreon.com/openmods" authors="Mikee,NeverCast,boq,Lyqyd" description="All the things you never thought you will ever need" client="yes" optional="no" server="yes" serveroptional="no"
@@ -370,7 +370,7 @@
         name="Opis" version="1.2.5_1.7.10" url="packs/TechNodefirmacraft/files/1.7.10Mods/Opis-1.2.5_1.7.10.jar" file="Opis-1.2.5_1.7.10.jar" md5="82e98ab306d952f3371a514333c226b4" download="server" type="mods" website="http://minecraft.curseforge.com/members/ProfMobius/projects" authors="ProfMobius" description="Contextual server profiler" client="yes" optional="yes" colour="yellow" group="minimap" depends="MobiusCore" server="yes" serveroptional="yes" recommended="no"
         />
         <mod
-        name="MapWriter" version="2.1.10" url="packs/TechNodefirmacraft/files/1.7.10Mods/MapWriter-1.7.10-2.1.10.jar" file="MapWriter-1.7.10-2.1.10.jar" md5="5ff02f8a579d3b90804537c6b7767483" download="server" type="mods" website="http://www.minecraftforum.net/topic/1570989-/" authors="mapwriter" description="An open source mini map mod" client="yes" optional="yes" colour="yellow" group="minimap" server="no" recommended="yes"
+        name="MapWriter" version="2.1.11_tnfc" url="packs/TechNodefirmacraft/files/1.7.10Mods/MapWriter-1.7.10-2.1.11_tnfc.jar" file="MapWriter-1.7.10-2.1.11_tnfc.jar" md5="0c4bca093f4cf1cc6b6874968617181e" download="server" type="mods" website="http://www.minecraftforum.net/topic/1570989-/" authors="mapwriter" description="An open source mini map mod" client="yes" optional="yes" colour="yellow" group="minimap" server="no" recommended="yes"
         />
         <mod
         name="VoxelMap" version="1.6.15" url="packs/TechNodefirmacraft/files/1.7.10Mods/mod_voxelMap_1.6.15_for_1.7.10.litemod" file="mod_voxelMap_1.6.15_for_1.7.10.litemod" md5="a941cfa848901dc549ac5e74375c8c2b" download="server" type="mods" website="http://www.curseforge.com/projects/225179/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/mc-mods/225179-voxelmap&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=MamiyaOtaru%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_return=http://mi" authors="Mamiya0taru" description="Minimap and Worldmap.Have an overview of your surroundings, or view the entire world.  Create waypoints." client="yes" optional="yes" colour="yellow" group="minimap" server="no" recommended="no" depends="LiteLoader"
@@ -402,7 +402,7 @@
         name="Resource Loaders Folder" version="2.10" url="packs/TechNodefirmacraft/files/extract/resources_2.10.zip" file="resources_2.10.zip" md5="33a24c409fe81854c0d3cb4077410357" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="no"
         /> 
         <mod 
-        name="IGWModData" version="2.21.1" url="packs/TechNodefirmacraft/files/extract/igwmod.21.1.zip" file="igwmod.21.1.zip" md5="3f05a7562e3811a1d4c85b3b2281b675" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
+        name="IGWModData" version="2.21.6" url="packs/TechNodefirmacraft/files/extract/igwmod.2.21.6.zip" file="igwmod.2.21.6.zip" md5="5e75f9d808a09742368f955fef576f6e" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
         />
 
     </mods>
