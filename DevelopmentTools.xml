@@ -1,13 +1,19 @@
         <!-- Development Tools (REMOVE FOR BUILD) -->
         <mod 
-        name="ForgeNBTEdit" version="1.0.0.test" url="packs/TechNodefirmacraft/files/1.7.10Mods/ForgeNBTEdit-universal-1.0.0.test.jar" file="ForgeNBTEdit-universal-1.0.0.test.jar" md5="e42d4d3a3923e157f5a0edb334183663" download="server" type="mods" website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-tools/1260521-nbtedit" authors="DavidG" description="Ingame NBT Editing" 
+        name="worldeditcui" version="1.7.10_00" url="packs/TechNodefirmacraft/files/devMods/mod_worldeditcui_1.7.10_00_mc1.7.10.litemod" file="mod_worldeditcui_1.7.10_00_mc1.7.10.litemod" md5="efe6e87bcb01a3637fb9c6254f8c659b" download="server" type="mods" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="https://github.com/Bunsan/TechNodeFirmaCraft" depends="LiteLoader"
         />
         <mod 
-        name="worldeditcui" version="1.7.10_00" url="packs/TechNodefirmacraft/files/1.7.10Mods/mod_worldeditcui_1.7.10_00_mc1.7.10.litemod" file="mod_worldeditcui_1.7.10_00_mc1.7.10.litemod" md5="efe6e87bcb01a3637fb9c6254f8c659b" download="server" type="mods" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="https://github.com/Bunsan/TechNodeFirmaCraft"
+        name="WorldEdit" version="6.1.2-TNFC" url="packs/TechNodefirmacraft/files/devMods/worldedit-forge-mc1.7.10-6.1.2-tnfc-dist.jar" file="worldedit-forge-mc1.7.10-6.1.2-tnfc-dist.jar" md5="7fa464f2bd3d1864ce6dfc6a2999ff7f" download="server" type="mods" website="http://wiki.sk89q.com/wiki/WorldEdit" authors="sk89q,wizjany,TomyLobo" description="WorldEdit is an easy-to-use in-game world editor for Minecraft, supporting both single player and multiplayer." 
         />
         <mod 
-        name="WorldEditWrappwer" version="1.2.0_we5.6.2" url="packs/TechNodefirmacraft/files/1.7.10Mods/mod_worldeditwrapper_1.2.0_we5.6.2_mc1.7.10.litemod" file="mod_worldeditwrapper_1.2.0_we5.6.2_mc1.7.10.litemod" md5="51efa990893016bb7cd82c7666497da8" download="server" type="mods" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="https://github.com/Bunsan/TechNodeFirmaCraft" 
+        name="vitzli&apos;s Recipe dumper" version="0.0.6" url="packs/TechNodefirmacraft/files/devMods/vsRecipeDumper-0.0.6.jar" file="vsRecipeDumper-0.0.6.jar" md5="29ef0994540c079573e73c09cb313bb3" download="server" type="mods" website="https://github.com/vitzli/recipedumper" authors="vitzli" description="vitzli&apos;s Recipe dumper - dump recipes and ore dictionary"
         />
         <mod 
-        name="WorldEdit" version="6.1.2-TNFC" url="packs/TechNodefirmacraft/files/1.7.10Mods/worldedit-forge-mc1.7.10-6.1.2-TNFC-dist.jar" file="worldedit-forge-mc1.7.10-6.1.2-TNFC-dist.jar" md5="7fa464f2bd3d1864ce6dfc6a2999ff7f" download="server" type="mods" website="http://wiki.sk89q.com/wiki/WorldEdit" authors="sk89q,wizjany,TomyLobo" description="WorldEdit is an easy-to-use in-game world editor for Minecraft, supporting both single player and multiplayer." 
+        name="MineTweakerRecipeMaker" version="1.1.0.11" url="packs/TechNodefirmacraft/files/devMods/MineTweakerRecipeMaker-1.7.10-1.1.0.11.jar" file="MineTweakerRecipeMaker-1.7.10-1.1.0.11.jar" md5="65dfb8009939ff5e5ac2b6963078b0cb" download="server" type="mods" website="https://github.com/DoubleDoorDevelopment/MineTweakerRecipeMaker" authors="Dries007,Doubledoor team" description="MineTweaker Recipe Maker" 
+        />        
+        <mod 
+        name="ForgeNBTEdit" version="1.0.0.test" url="packs/TechNodefirmacraft/files/devMods/forgenbtedit-universal-1.0.0.test.jar" file="forgenbtedit-universal-1.0.0.test.jar" md5="e42d4d3a3923e157f5a0edb334183663" download="server" type="mods" website="https://github.com/AnodeCathode/NBTEdit" authors="DavidG" description="Ingame NBT Editing"
+        />
+        <mod 
+        name="worldeditcui" version="1.7.10_00" url="packs/TechNodefirmacraft/files/devMods/mod_worldeditcui_1.7.10_00_mc1.7.10.litemod" file="mod_worldeditcui_1.7.10_00_mc1.7.10.litemod" md5="efe6e87bcb01a3637fb9c6254f8c659b" download="server" type="mods" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="https://github.com/Bunsan/TechNodeFirmaCraft" depends="LiteLoader"
         />

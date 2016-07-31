@@ -153,7 +153,7 @@
         name="Tubestuff" version="59.0.4" url="packs/TechNodefirmacraft/files/1.7.10Mods/tubestuff-59.0.4.jar" file="tubestuff-59.0.4.jar" md5="719fd15812ff19b1eef4084b694caced" download="server" type="mods" website="http://www.minecraftforum.net/topic/1001131-110-immibiss-mods-smp/" authors="immibis" description="A collection of blocks that are useful." client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod 
-        name="Ships Mod" version="1.0.4_DLOptional" url="packs/TechNodefirmacraft/files/devMods/shipsMod-v1.7.10-1.0.4_DLOptional.jar" file="shipsMod-v1.7.10-1.0.4_DLOptional.jar" md5="25379c8b5dbd546acbd366ca64554817" download="server" type="mods" website="http://www.curseforge.com/projects/226731/" authors="Cuchaz" description="Build a sailable ship out of blocks" client="yes" optional="no" server="yes" serveroptional="no"
+        name="Ships Mod" version="1.0.4_dloptional" url="packs/TechNodefirmacraft/files/1.7.10Mods/shipsmod-v1.7.10-1.0.4_dloptional.jar" file="shipsmod-v1.7.10-1.0.4_dloptional.jar" md5="25379c8b5dbd546acbd366ca64554817" download="server" type="mods" website="http://www.curseforge.com/projects/226731/" authors="Cuchaz" description="Build a sailable ship out of blocks" client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod 
         name="AnimalCrate" version="0.1" url="packs/TechNodefirmacraft/files/1.7.10Mods/animalcrate-0.1.jar" file="animalcrate-0.1.jar" md5="0fad69e87300d4cafb5496210e76cd7c" download="server" type="mods" website="http://terrafirmacraft.com/f/topic/8687-tfc-07924-animal-crate/" authors="TaeoG" description="Stick that animal in a Box." client="yes" optional="no" server="yes" serveroptional="no"
