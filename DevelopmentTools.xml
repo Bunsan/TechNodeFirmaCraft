@@ -9,9 +9,6 @@
         name="vitzli&apos;s Recipe dumper" version="0.0.6" url="packs/TechNodefirmacraft/files/devMods/vsRecipeDumper-0.0.6.jar" file="vsRecipeDumper-0.0.6.jar" md5="29ef0994540c079573e73c09cb313bb3" download="server" type="mods" website="https://github.com/vitzli/recipedumper" authors="vitzli" description="vitzli&apos;s Recipe dumper - dump recipes and ore dictionary"
         />
         <mod 
-        name="MineTweakerRecipeMaker" version="1.1.0.11" url="packs/TechNodefirmacraft/files/devMods/MineTweakerRecipeMaker-1.7.10-1.1.0.11.jar" file="MineTweakerRecipeMaker-1.7.10-1.1.0.11.jar" md5="65dfb8009939ff5e5ac2b6963078b0cb" download="server" type="mods" website="https://github.com/DoubleDoorDevelopment/MineTweakerRecipeMaker" authors="Dries007,Doubledoor team" description="MineTweaker Recipe Maker" 
-        />        
-        <mod 
         name="ForgeNBTEdit" version="1.0.0.test" url="packs/TechNodefirmacraft/files/devMods/forgenbtedit-universal-1.0.0.test.jar" file="forgenbtedit-universal-1.0.0.test.jar" md5="e42d4d3a3923e157f5a0edb334183663" download="server" type="mods" website="https://github.com/AnodeCathode/NBTEdit" authors="DavidG" description="Ingame NBT Editing"
         />
         <mod 
