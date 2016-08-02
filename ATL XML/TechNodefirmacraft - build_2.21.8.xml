@@ -1,7 +1,7 @@
     <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>2.21.7</version>
+        <version>2.21.8</version>
         <minecraft>1.7.10</minecraft>
         <caseallfiles>lower</caseallfiles>
         <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
@@ -170,7 +170,7 @@
         
         <!-- Pack Customization Mods -->
         <mod
-        name="Scripts" version="2.21.7" url="packs/TechNodefirmacraft/files/extract/scripts.2.21.7.zip" file="scripts.2.21.7.zip" md5="331b7c1091c9fab458aa62fb4e4f99cf" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="Scripts" version="2.21.8" url="packs/TechNodefirmacraft/files/extract/scripts.2.21.8.zip" file="scripts.2.21.8.zip" md5="3a3910ef4f5766c66c1e7e5821df3004" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod
         name="MineTweaker 3" version="3.0.10B" url="packs/TechNodefirmacraft/files/1.7.10Mods/MineTweaker3-1.7.10-3.0.10B.jar" file="MineTweaker3-1.7.10-3.0.10B.jar" md5="884933d1b933e0bd2f93293201569f13" download="server" type="mods" website="http://minetweaker3.powerofbytes.com" authors="Stan Hebben" description="Customize your minecraft experience!" client="yes" optional="no" server="yes" serveroptional="no"
@@ -402,7 +402,7 @@
         name="Resource Loaders Folder" version="2.10" url="packs/TechNodefirmacraft/files/extract/resources_2.10.zip" file="resources_2.10.zip" md5="33a24c409fe81854c0d3cb4077410357" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="no"
         /> 
         <mod 
-        name="IGWModData" version="2.21.6" url="packs/TechNodefirmacraft/files/extract/igwmod.2.21.6.zip" file="igwmod.2.21.6.zip" md5="5e75f9d808a09742368f955fef576f6e" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
+        name="IGWModData" version="2.21.8" url="packs/TechNodefirmacraft/files/extract/igwmod.2.21.8.zip" file="igwmod.2.21.8.zip" md5="756c81ed896217e1e477bbaa63549701" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
         />
 
     </mods>
