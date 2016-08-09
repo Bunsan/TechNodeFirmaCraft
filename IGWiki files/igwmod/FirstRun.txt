@@ -1,4 +1,9 @@
-[prefix{l}]Version 2.21.8 - It's Summer Time![prefix{}] 
+[prefix{l}]Version 2.21.9 - It's Summer Time![prefix{}] 
+
+- A couple of little fixes to Mekanism which should help performance a little. 
+- Ocelots no longer take fall dmg, which is appropriate for cats. Also the nametag function has been fixed so you can name your critters.
+- Berry bushes now have a very rare chance to regen.
+
 
 Hotfix: 
 - Fix ShipsMod scripts.
