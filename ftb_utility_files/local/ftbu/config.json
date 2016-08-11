@@ -4,7 +4,7 @@
     "backups_to_keep": 12,
     "compression_level": 1,
     "display_file_size": true,
-    "enabled": true,
+    "enabled": false,
     "folder": "./backups/",
     "need_online_players": true,
     "use_separate_thread": true
@@ -32,7 +32,7 @@
   },
   "login": {
     "motd": [
-      "Welcome to the server!"
+      "Welcome to TNFC!"
     ],
     "starting_items": [
       "minecraft:sign 4 0"
