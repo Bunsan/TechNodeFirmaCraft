@@ -8,6 +8,7 @@
 	furnace.remove(<Forestry:ingotCopper>);
 	furnace.remove(<ImmersiveEngineering:metal:*>);
 	furnace.remove(<minecraft:stone>);
+	furnace.remove(<Mekanism:Ingot:1>);
 	furnace.remove(<Mekanism:Ingot:4>);
 	furnace.remove(<Mekanism:Ingot:5>);
 	furnace.remove(<Mekanism:Ingot:6>);
@@ -18,15 +19,31 @@
 	furnace.addRecipe(<minecraft:glass>, <ore:blockSand>);
 	furnace.addRecipe(<minecraft:coal:1>, <terrafirmacraft:item.Log:*>);
 	furnace.addRecipe(<minecraft:hardened_clay>, <customitems:block_of_clay>);
+    
 //#TFC Ingots
-	furnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, <Mekanism:Dust>);
-	furnace.addRecipe(<terrafirmacraft:item.Gold Ingot>, <Mekanism:Dust:1>);
-	furnace.addRecipe(<terrafirmacraft:item.Copper Ingot>, <Mekanism:Dust:3>);
-	furnace.addRecipe(<terrafirmacraft:item.Tin Ingot>, <Mekanism:Dust:4>);
-	furnace.addRecipe(<terrafirmacraft:item.Silver Ingot>, <Mekanism:Dust:5>);
-	furnace.addRecipe(<terrafirmacraft:item.Lead Ingot>, <Mekanism:Dust:6>);
-	furnace.addRecipe(<terrafirmacraft:item.Pig Iron Ingot>, <Mekanism:OtherDust:1>);
-	furnace.addRecipe(<terrafirmacraft:item.Copper Ingot>, <ore:oreCopper>);
+    
+    furnace.addRecipe(<terrafirmacraft:item.Bismuth Ingot>, <ore:dustBismuth>);
+    furnace.addRecipe(<terrafirmacraft:item.Copper Ingot>, <ore:dustCopper>);
+	furnace.addRecipe(<terrafirmacraft:item.Gold Ingot>, <ore:dustGold>);
+	//furnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, <ore:dustIron>);    
+    furnace.addRecipe(<terrafirmacraft:item.Lead Ingot>, <ore:dustLead>);
+	furnace.addRecipe(<terrafirmacraft:item.Nickel Ingot>, <ore:dustNickel>);
+  	furnace.addRecipe(<terrafirmacraft:item.Pig Iron Ingot>, <ore:dustPigIron>);
+    furnace.addRecipe(<terrafirmacraft:item.Platinum Ingot>, <ore:dustPlatinum>);
+	furnace.addRecipe(<terrafirmacraft:item.Silver Ingot>, <ore:dustSilver>);    
+    furnace.addRecipe(<terrafirmacraft:item.Tin Ingot>, <ore:dustTin>);
+	furnace.addRecipe(<terrafirmacraft:item.Zinc Ingot>, <ore:dustZinc>);
+	
+	furnace.addRecipe(<terrafirmacraft:item.Bismuth Bronze Ingot>, <ore:dustBismuthBronze>);    
+	furnace.addRecipe(<terrafirmacraft:item.Black Bronze Ingot>, <ore:dustBlackBronze>);
+	furnace.addRecipe(<terrafirmacraft:item.Brass Ingot>, <ore:dustBrass>);
+    furnace.addRecipe(<terrafirmacraft:item.Bronze Ingot>, <ore:dustBronze>);
+	furnace.addRecipe(<terrafirmacraft:item.Rose Gold Ingot>, <ore:dustRoseGold>);
+	furnace.addRecipe(<terrafirmacraft:item.Sterling Silver Ingot>, <ore:dustSterlingSilver>);
+    furnace.addRecipe(<terrafirmacraft:item.Electrum Ingot>, <ore:dustElectrum>);
+	furnace.addRecipe(<terrafirmacraft:item.Cupronickel Ingot>, <ore:dustCupronickel>);
+    
+    furnace.addRecipe(<terrafirmacraft:item.Copper Ingot>, <ore:oreCopper>);
 	furnace.addRecipe(<terrafirmacraft:item.Gold Ingot>, <ore:oreGold>);
 	furnace.addRecipe(<terrafirmacraft:item.Platinum Ingot>, <ore:orePlatinum>);
 	furnace.addRecipe(<terrafirmacraft:item.Silver Ingot>, <ore:oreSilver>);
@@ -35,17 +52,7 @@
 	furnace.addRecipe(<terrafirmacraft:item.Bismuth Ingot>, <ore:oreBismuth>);
 	furnace.addRecipe(<terrafirmacraft:item.Nickel Ingot>, <ore:oreNickel>);
 	furnace.addRecipe(<terrafirmacraft:item.Zinc Ingot>, <ore:oreZinc>);
-	furnace.addRecipe(<terrafirmacraft:item.Platinum Ingot>, <ore:dustPlatinum>);
-	furnace.addRecipe(<terrafirmacraft:item.Bismuth Ingot>, <ore:dustBismuth>);
-	furnace.addRecipe(<terrafirmacraft:item.Nickel Ingot>, <ore:dustNickel>);
-	furnace.addRecipe(<terrafirmacraft:item.Zinc Ingot>, <ore:dustZinc>);
-	furnace.addRecipe(<terrafirmacraft:item.Bronze Ingot>, <TabulaRasa:RasaItem1:4>);
-	furnace.addRecipe(<terrafirmacraft:item.Bismuth Bronze Ingot>, <TabulaRasa:RasaItem1:5>);
-	furnace.addRecipe(<terrafirmacraft:item.Black Bronze Ingot>, <TabulaRasa:RasaItem1:6>);
-	furnace.addRecipe(<terrafirmacraft:item.Brass Ingot>, <TabulaRasa:RasaItem1:7>);
-	furnace.addRecipe(<terrafirmacraft:item.Rose Gold Ingot>, <TabulaRasa:RasaItem1:8>);
-	furnace.addRecipe(<terrafirmacraft:item.Sterling Silver Ingot>, <TabulaRasa:RasaItem1:9>);
-	furnace.addRecipe(<terrafirmacraft:item.Pig Iron Ingot>, <TabulaRasa:RasaItem2:5>);
+	
 //#TFC Clay Items
 	furnace.addRecipe(<terrafirmacraft:item.Mold:1>, <terrafirmacraft:item.Mold>);
 	furnace.addRecipe(<terrafirmacraft:item.Axe Mold:1>, <terrafirmacraft:item.Axe Mold>);
@@ -69,7 +76,3 @@
 	furnace.addRecipe(<terrafirmacraft:item.Spindle Head:1>, <terrafirmacraft:item.Spindle Head>);    
 //#Other
 	furnace.addRecipe(<Forestry:canLava>, <Forestry:canSeedOil>);
-	furnace.addRecipe(<terrafirmacraft:item.Electrum Ingot>, <ore:dustElectrum>);
-	furnace.addRecipe(<terrafirmacraft:item.Cupronickel Ingot>, <ore:dustCupronickel>);
-    furnace.addRecipe(<terrafirmacraft:item.Cupronickel Ingot>, <ore:dustConstantan>);
-	furnace.addRecipe(<Mekanism:Ingot:1>, <ore:oreOsmium>);

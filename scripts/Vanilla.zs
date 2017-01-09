@@ -173,8 +173,6 @@ import minetweaker.item.IItemStack;
 //# TFC ADDITIONS
 
 //# Recipe for vanilla bottles
-	recipes.addShapeless(<minecraft:glass_bottle>, [<terrafirmacraft:item.Glass Bottle>]);
-	recipes.addShapeless(<terrafirmacraft:item.Glass Bottle>, [<minecraft:glass_bottle>]);
 
 	recipes.addShapeless(<terrafirmacraft:item.Diamond:2> * 9, [<ore:blockDiamond>]);
 
@@ -216,7 +214,7 @@ import minetweaker.item.IItemStack;
 //# Blocks
 
 //# Flower Pot
-	recipes.addShaped(<minecraft:flower_pot>, [[<ore:ingotStoneBrick>, <terrafirmacraft:item.Mortar>, <ore:ingotStoneBrick>], [null, <ore:ingotStoneBrick>, null]]);
+	//recipes.addShaped(<minecraft:flower_pot>, [[<ore:ingotStoneBrick>, <terrafirmacraft:item.Mortar>, <ore:ingotStoneBrick>], [null, <ore:ingotStoneBrick>, null]]);
 
 //#Wooden Blocks
 

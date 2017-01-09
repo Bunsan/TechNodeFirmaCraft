@@ -216,7 +216,7 @@ for i in meta {
 	mods.forestry.Fermenter.addRecipe(item, <liquid:for.honey>, 50, 2.4, <liquid:biomass>);
         }
 
-	var fruitTreeTFC =[<terrafirmacraft:item.FruitSapling:0>, <terrafirmacraft:item.FruitSapling:1>, <terrafirmacraft:item.FruitSapling:2>, <terrafirmacraft:item.FruitSapling:3>, <terrafirmacraft:item.FruitSapling:4>, <terrafirmacraft:item.FruitSapling:5>, <terrafirmacraft:item.FruitSapling:6>, <terrafirmacraft:item.FruitSapling:7>, <terrafirmacraft:item.FruitSapling:8>] as IItemStack[];
+	var fruitTreeTFC =[<terrafirmacraft:fruitTreeSapling:0>, <terrafirmacraft:fruitTreeSapling:1>, <terrafirmacraft:fruitTreeSapling:2>, <terrafirmacraft:fruitTreeSapling:3>, <terrafirmacraft:fruitTreeSapling:4>, <terrafirmacraft:fruitTreeSapling:5>, <terrafirmacraft:fruitTreeSapling:6>, <terrafirmacraft:fruitTreeSapling:7>, <terrafirmacraft:fruitTreeSapling:8>] as IItemStack[];
 
         for item in fruitTreeTFC {
 	mods.forestry.Fermenter.addRecipe(item, <liquid:water>, 50, 4, <liquid:biomass>);
