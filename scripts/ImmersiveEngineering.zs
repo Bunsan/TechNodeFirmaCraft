@@ -49,8 +49,11 @@ import minetweaker.item.IIngredient;
     recipes.remove(<ImmersiveEngineering:jerrycan>);
     recipes.remove(<ImmersiveEngineering:material>);
     recipes.remove(<ImmersiveEngineering:material:1>);
+    recipes.remove(<ImmersiveEngineering:metalDevice>);
     recipes.remove(<ImmersiveEngineering:woodenDevice:1>);
+    recipes.remove(<ImmersiveEngineering:metalDevice:2>);
     recipes.remove(<ImmersiveEngineering:metalDevice:3>);
+    recipes.remove(<ImmersiveEngineering:metalDevice:6>);
     recipes.remove(<ImmersiveEngineering:metalDevice:7>);
     recipes.remove(<ImmersiveEngineering:metalDevice:9>);
     recipes.remove(<ImmersiveEngineering:clothDevice>);
@@ -69,6 +72,8 @@ import minetweaker.item.IIngredient;
     recipes.remove(<ImmersiveEngineering:stoneSlab>);
     recipes.remove(<ImmersiveEngineering:stoneSlab:1>);
     recipes.remove(<ImmersiveEngineering:stoneSlab:2>);
+    recipes.remove(<ImmersiveEngineering:metalDevice2>);
+    recipes.remove(<ImmersiveEngineering:metalDevice2:2>);
     recipes.remove(<ImmersiveEngineering:metalDevice2:5>);
     recipes.remove(<ImmersiveEngineering:mold>);
     recipes.remove(<ImmersiveEngineering:mold:1>);
@@ -84,6 +89,7 @@ import minetweaker.item.IIngredient;
     recipes.remove(<ImmersiveEngineering:metal:28>);
     recipes.remove(<ImmersiveEngineering:metal:29>);
     recipes.remove(<ImmersiveEngineering:metalDecoration:8>);
+    recipes.remove(<ImmersiveEngineering:metalDecoration:2>);
     
 
 // ================================================================================
@@ -106,13 +112,23 @@ import minetweaker.item.IIngredient;
     recipes.addShapeless(<ImmersiveEngineering:metalDevice2:5> * 4, [<terrafirmacraft:item.Wrought Iron Sheet>, <ore:itemHammer>]);
 // ================================================================================
 //#MARKER ADD SHAPED
+//LV wire connector
+    recipes.addShaped(<ImmersiveEngineering:metalDevice> * 8, [[<terrafirmastuff:clayStained2>, <ore:ingotCopper>, <terrafirmastuff:clayStained2>], [null, <ore:ingotCopper>, null], [<terrafirmastuff:clayStained2>, <ore:ingotCopper>, <terrafirmastuff:clayStained2>]]);
+    recipes.addShaped(<ImmersiveEngineering:metalDevice:2> * 8, [[<terrafirmastuff:clayStained2>, <ore:ingotIron>, <terrafirmastuff:clayStained2>], [null, <ore:ingotIron>, null], [<terrafirmastuff:clayStained2>, <ore:ingotIron>, <terrafirmastuff:clayStained2>]]);
+    recipes.addShaped(<ImmersiveEngineering:metalDevice:6> * 4, [[<terrafirmastuff:clayStained2>, <ore:ingotAluminum>, <terrafirmastuff:clayStained2>], [<terrafirmastuff:clayStained2>, <ore:ingotAluminum>, <terrafirmastuff:clayStained2>], [<terrafirmastuff:clayStained2>, <ore:ingotAluminum>, <terrafirmastuff:clayStained2>]]);
+    
+    recipes.addShaped(<ImmersiveEngineering:metalDevice2:2>, [[null, <ImmersiveEngineering:tool:2>, null], [<terrafirmastuff:clayStained2>, <ImmersiveEngineering:storage:8>, <terrafirmastuff:clayStained2>], [<ore:ingotIron>, <ImmersiveEngineering:storage:8>, <ore:ingotIron>]]);
 
+//Breaker
+    recipes.addShaped(<ImmersiveEngineering:metalDevice2>, [[null, <minecraft:lever>, null], [<terrafirmastuff:clayStained2>, <ore:ingotCopper>, <terrafirmastuff:clayStained2>]]);
 //Cable Connector
     recipes.addShaped(<ImmersiveEngineering:metalDecoration:8> * 4, [[<ImmersiveEngineering:metalDecoration>], [<ore:ingotSteel>]]);
 //# Crate
     recipes.addShaped(<ImmersiveEngineering:woodenDevice:4>, [[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:blockBlueSteel>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
         recipes.addShaped(<ImmersiveEngineering:woodenDevice:4>, [[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:blockRedSteel>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
-        
+//# Lantern       
+
+    recipes.addShaped(<ImmersiveEngineering:metalDecoration:2>, [[null, <ore:ingotIron>, null], [<minecraft:glass_pane>, <minecraft:glowstone>, <minecraft:glass_pane>], [null, <ore:ingotIron>, null]]);
 //# Balloon
     recipes.addShaped(<ImmersiveEngineering:clothDevice>, [[null, <ImmersiveEngineering:material:4>, null], [<ImmersiveEngineering:material:4>, <ore:blockTorch>, <ImmersiveEngineering:material:4>], [null, <ImmersiveEngineering:woodenDecoration:2>, null]]);
 
@@ -160,7 +176,7 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 2, [<ImmersiveEngineer
 	recipes.addShaped(<ImmersiveEngineering:drillhead>, [[null, <ore:ingotSteel>, null], [null, <ImmersiveEngineering:drillhead>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
 
 //# Jerry Can
-    recipes.addShapedMirrored(<ImmersiveEngineering:jerrycan>, [[<ore:dyeGreen>, <ore:plateBlackSteel>], [<ore:plateBlackSteel>, <minecraft:bucket>]]);
+    recipes.addShapedMirrored(<ImmersiveEngineering:jerrycan>, [[<terrafirmacraft:item.Powder:8>, <ore:plateBlackSteel>], [<ore:plateBlackSteel>, <minecraft:bucket>]]);
 //# Oxidizer Tank
 	recipes.addShaped(<ImmersiveEngineering:toolupgrade>, [[<Forestry:canEmpty>, <ore:dyeBlue>, null], [<ore:dyeBlue>, <Forestry:canEmpty>, <ore:dyeBlue>], [null, <ore:dyeBlue>, <ImmersiveEngineering:material:11>]]);
 
@@ -169,13 +185,13 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 2, [<ImmersiveEngineer
 [<ore:ingotSteel>, <Forestry:canEmpty>, <ore:dyeRed>], [null, <ore:dyeRed>, <Forestry:canEmpty>]]);
 
 //# Insulated Glass
-	recipes.addShaped(<ImmersiveEngineering:stoneDevice:4> * 8, [[<ore:blockGlass>, <ore:dustIron>, <ore:blockGlass>], [<ore:blockGlass>, <ore:dyeGreen>, <ore:blockGlass>], [<ore:blockGlass>, <ore:dustIron>, <ore:blockGlass>]]);
+	recipes.addShaped(<ImmersiveEngineering:stoneDevice:4> * 8, [[<ore:blockGlass>, <ore:dustIron>, <ore:blockGlass>], [<ore:blockGlass>, <terrafirmacraft:item.Powder:8>, <ore:blockGlass>], [<ore:blockGlass>, <ore:dustIron>, <ore:blockGlass>]]);
 
 //# Conveyer
 	recipes.addShaped(<ImmersiveEngineering:metalDevice:11> * 16, [[<ore:materialLeather>, <ore:materialLeather>, <ore:materialLeather>], [<minecraft:redstone>, <ore:plateIron>, <minecraft:redstone>]]);
 
 //# Uncured Hempcrete
-	recipes.addShaped(<customitems:uncured_hempcrete> * 6, [[<customitems:block_of_clay>, <customitems:block_of_clay>, <customitems:block_of_clay>], [<ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>], [<customitems:block_of_clay>, <customitems:block_of_clay>, <customitems:block_of_clay>]]);
+	recipes.addShaped(<customitems:uncured_hempcrete> * 6, [[<terrafirmastuff:clayRaw>, <terrafirmastuff:clayRaw>, <terrafirmastuff:clayRaw>], [<ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>], [<terrafirmastuff:clayRaw>, <terrafirmastuff:clayRaw>, <terrafirmastuff:clayRaw>]]);
 
 //# Hempcrete Slab
     recipes.addShaped(<ImmersiveEngineering:stoneSlab> * 3, [[<ore:itemChisel>, null, <ore:itemHammer>], [<ImmersiveEngineering:stoneDecoration>, <ImmersiveEngineering:stoneDecoration>, <ImmersiveEngineering:stoneDecoration>]]);

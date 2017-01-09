@@ -61,6 +61,7 @@ import minetweaker.item.IItemStack;
   recipes.remove(<minecraft:map>);
   recipes.remove(<minecraft:compass>);
   recipes.remove(<minecraft:brewing_stand>);
+  recipes.remove(<minecraft:stained_hardened_clay:*>);
   
     
     //# REMOVAL of Non-TFC ingots to nugget recipes to clean up NEI

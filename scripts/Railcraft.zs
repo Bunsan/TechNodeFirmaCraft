@@ -592,6 +592,123 @@ recipes.addShaped(<Railcraft:brick.nether:1>, [[<minecraft:netherbrick>, <terraf
 	mods.railcraft.Rolling.addShaped(<Railcraft:post:2> * 12, [[<ore:ingotAnyBronze>, null, <ore:ingotAnyBronze>], [<ore:ingotAnyBronze>,  <ore:ingotAnyBronze>, <ore:ingotAnyBronze>], [<ore:ingotAnyBronze>, null, <ore:ingotAnyBronze>]]);
     	mods.railcraft.Rolling.addShaped(<Railcraft:post:2> * 12, [[<ore:ingotAnyBronze>, <ore:ingotAnyBronze>, <ore:ingotAnyBronze>], [null,  <ore:ingotAnyBronze>, null], [<ore:ingotAnyBronze>, <ore:ingotAnyBronze>, <ore:ingotAnyBronze>]]);
 
+//Ore Piles Stuff
+//Rich to Poor
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore:36> * 3, [[<terrafirmacraft:item.Ore:18>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore:37> * 3, [[<terrafirmacraft:item.Ore:19>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore:38> * 3, [[<terrafirmacraft:item.Ore:20>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore:39> * 3, [[<terrafirmacraft:item.Ore:21>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore:40> * 3, [[<terrafirmacraft:item.Ore:22>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore:41> * 3, [[<terrafirmacraft:item.Ore:23>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore:42> * 3, [[<terrafirmacraft:item.Ore:24>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore:43> * 3, [[<terrafirmacraft:item.Ore:25>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore:44> * 3, [[<terrafirmacraft:item.Ore:26>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore:45> * 3, [[<terrafirmacraft:item.Ore:27>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore:46> * 3, [[<terrafirmacraft:item.Ore:28>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore:47> * 3, [[<terrafirmacraft:item.Ore:29>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore:48> * 3, [[<terrafirmacraft:item.Ore:30>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore:49> * 3, [[<terrafirmacraft:item.Ore:31>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore:50> * 3, [[<terrafirmacraft:item.Ore:32>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore:51> * 3, [[<terrafirmacraft:item.Ore:33>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore:52> * 3, [[<terrafirmacraft:item.Ore:34>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore:53> * 3, [[<terrafirmacraft:item.Ore:35>]]);
+//Poor to Pile
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:0>, [[<terrafirmacraft:item.Ore:36>, <terrafirmacraft:item.Ore:36>], [<terrafirmacraft:item.Ore:36>, <terrafirmacraft:item.Ore:36>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:1>, [[<terrafirmacraft:item.Ore:37>, <terrafirmacraft:item.Ore:37>], [<terrafirmacraft:item.Ore:37>, <terrafirmacraft:item.Ore:37>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:2>, [[<terrafirmacraft:item.Ore:38>, <terrafirmacraft:item.Ore:38>], [<terrafirmacraft:item.Ore:38>, <terrafirmacraft:item.Ore:38>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:3>, [[<terrafirmacraft:item.Ore:39>, <terrafirmacraft:item.Ore:39>], [<terrafirmacraft:item.Ore:39>, <terrafirmacraft:item.Ore:39>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:4>, [[<terrafirmacraft:item.Ore:40>, <terrafirmacraft:item.Ore:40>], [<terrafirmacraft:item.Ore:40>, <terrafirmacraft:item.Ore:40>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:5>, [[<terrafirmacraft:item.Ore:41>, <terrafirmacraft:item.Ore:41>], [<terrafirmacraft:item.Ore:41>, <terrafirmacraft:item.Ore:41>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:6>, [[<terrafirmacraft:item.Ore:42>, <terrafirmacraft:item.Ore:42>], [<terrafirmacraft:item.Ore:42>, <terrafirmacraft:item.Ore:42>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:7>, [[<terrafirmacraft:item.Ore:43>, <terrafirmacraft:item.Ore:43>], [<terrafirmacraft:item.Ore:43>, <terrafirmacraft:item.Ore:43>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:8>, [[<terrafirmacraft:item.Ore:44>, <terrafirmacraft:item.Ore:44>], [<terrafirmacraft:item.Ore:44>, <terrafirmacraft:item.Ore:44>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:9>, [[<terrafirmacraft:item.Ore:45>, <terrafirmacraft:item.Ore:45>], [<terrafirmacraft:item.Ore:45>, <terrafirmacraft:item.Ore:45>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:10>, [[<terrafirmacraft:item.Ore:46>, <terrafirmacraft:item.Ore:46>], [<terrafirmacraft:item.Ore:46>, <terrafirmacraft:item.Ore:46>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:11>, [[<terrafirmacraft:item.Ore:47>, <terrafirmacraft:item.Ore:47>], [<terrafirmacraft:item.Ore:47>, <terrafirmacraft:item.Ore:47>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:12>, [[<terrafirmacraft:item.Ore:48>, <terrafirmacraft:item.Ore:48>], [<terrafirmacraft:item.Ore:48>, <terrafirmacraft:item.Ore:48>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:13>, [[<terrafirmacraft:item.Ore:49>, <terrafirmacraft:item.Ore:49>], [<terrafirmacraft:item.Ore:49>, <terrafirmacraft:item.Ore:49>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:14>, [[<terrafirmacraft:item.Ore:50>, <terrafirmacraft:item.Ore:50>], [<terrafirmacraft:item.Ore:50>, <terrafirmacraft:item.Ore:50>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:15>, [[<terrafirmacraft:item.Ore:51>, <terrafirmacraft:item.Ore:51>], [<terrafirmacraft:item.Ore:51>, <terrafirmacraft:item.Ore:51>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:16>, [[<terrafirmacraft:item.Ore:52>, <terrafirmacraft:item.Ore:52>], [<terrafirmacraft:item.Ore:52>, <terrafirmacraft:item.Ore:52>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:17>, [[<terrafirmacraft:item.Ore:53>, <terrafirmacraft:item.Ore:53>], [<terrafirmacraft:item.Ore:53>, <terrafirmacraft:item.Ore:53>]]);
+//Normal to Pile
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:0>, [[<terrafirmacraft:item.Ore:0>, <terrafirmacraft:item.Ore:0>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:1>, [[<terrafirmacraft:item.Ore:1>, <terrafirmacraft:item.Ore:1>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:2>, [[<terrafirmacraft:item.Ore:2>, <terrafirmacraft:item.Ore:2>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:3>, [[<terrafirmacraft:item.Ore:3>, <terrafirmacraft:item.Ore:3>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:4>, [[<terrafirmacraft:item.Ore:4>, <terrafirmacraft:item.Ore:4>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:5>, [[<terrafirmacraft:item.Ore:5>, <terrafirmacraft:item.Ore:5>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:6>, [[<terrafirmacraft:item.Ore:6>, <terrafirmacraft:item.Ore:6>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:7>, [[<terrafirmacraft:item.Ore:7>, <terrafirmacraft:item.Ore:7>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:8>, [[<terrafirmacraft:item.Ore:8>, <terrafirmacraft:item.Ore:8>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:9>, [[<terrafirmacraft:item.Ore:9>, <terrafirmacraft:item.Ore:9>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:10>, [[<terrafirmacraft:item.Ore:10>, <terrafirmacraft:item.Ore:10>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:11>, [[<terrafirmacraft:item.Ore:11>, <terrafirmacraft:item.Ore:11>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:12>, [[<terrafirmacraft:item.Ore:12>, <terrafirmacraft:item.Ore:12>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:13>, [[<terrafirmacraft:item.Ore:13>, <terrafirmacraft:item.Ore:13>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:14>, [[<terrafirmacraft:item.Ore:14>, <terrafirmacraft:item.Ore:14>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:15>, [[<terrafirmacraft:item.Ore:15>, <terrafirmacraft:item.Ore:15>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:16>, [[<terrafirmacraft:item.Ore:16>, <terrafirmacraft:item.Ore:16>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:17>, [[<terrafirmacraft:item.Ore:17>, <terrafirmacraft:item.Ore:17>]]);
+//Poor + Normal to Pile
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:0>, [[<terrafirmacraft:item.Ore:0>, <terrafirmacraft:item.Ore:36>, <terrafirmacraft:item.Ore:36>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:1>, [[<terrafirmacraft:item.Ore:1>, <terrafirmacraft:item.Ore:37>, <terrafirmacraft:item.Ore:37>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:2>, [[<terrafirmacraft:item.Ore:2>, <terrafirmacraft:item.Ore:38>, <terrafirmacraft:item.Ore:38>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:3>, [[<terrafirmacraft:item.Ore:3>, <terrafirmacraft:item.Ore:39>, <terrafirmacraft:item.Ore:39>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:4>, [[<terrafirmacraft:item.Ore:4>, <terrafirmacraft:item.Ore:40>, <terrafirmacraft:item.Ore:40>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:5>, [[<terrafirmacraft:item.Ore:5>, <terrafirmacraft:item.Ore:41>, <terrafirmacraft:item.Ore:41>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:6>, [[<terrafirmacraft:item.Ore:6>, <terrafirmacraft:item.Ore:42>, <terrafirmacraft:item.Ore:42>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:7>, [[<terrafirmacraft:item.Ore:7>, <terrafirmacraft:item.Ore:43>, <terrafirmacraft:item.Ore:43>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:8>, [[<terrafirmacraft:item.Ore:8>, <terrafirmacraft:item.Ore:44>, <terrafirmacraft:item.Ore:44>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:9>, [[<terrafirmacraft:item.Ore:9>, <terrafirmacraft:item.Ore:45>, <terrafirmacraft:item.Ore:45>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:10>, [[<terrafirmacraft:item.Ore:10>, <terrafirmacraft:item.Ore:46>, <terrafirmacraft:item.Ore:46>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:11>, [[<terrafirmacraft:item.Ore:11>, <terrafirmacraft:item.Ore:47>, <terrafirmacraft:item.Ore:47>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:12>, [[<terrafirmacraft:item.Ore:12>, <terrafirmacraft:item.Ore:48>, <terrafirmacraft:item.Ore:48>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:13>, [[<terrafirmacraft:item.Ore:13>, <terrafirmacraft:item.Ore:49>, <terrafirmacraft:item.Ore:49>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:14>, [[<terrafirmacraft:item.Ore:14>, <terrafirmacraft:item.Ore:50>, <terrafirmacraft:item.Ore:50>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:15>, [[<terrafirmacraft:item.Ore:15>, <terrafirmacraft:item.Ore:51>, <terrafirmacraft:item.Ore:51>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:16>, [[<terrafirmacraft:item.Ore:16>, <terrafirmacraft:item.Ore:52>, <terrafirmacraft:item.Ore:52>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:17>, [[<terrafirmacraft:item.Ore:17>, <terrafirmacraft:item.Ore:53>, <terrafirmacraft:item.Ore:53>]]);
+//Poor + Rich to Pile
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:0>, [[<terrafirmacraft:item.Ore:18>, <terrafirmacraft:item.Ore:36>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:1>, [[<terrafirmacraft:item.Ore:19>, <terrafirmacraft:item.Ore:37>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:2>, [[<terrafirmacraft:item.Ore:20>, <terrafirmacraft:item.Ore:38>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:3>, [[<terrafirmacraft:item.Ore:21>, <terrafirmacraft:item.Ore:39>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:4>, [[<terrafirmacraft:item.Ore:22>, <terrafirmacraft:item.Ore:40>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:5>, [[<terrafirmacraft:item.Ore:23>, <terrafirmacraft:item.Ore:41>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:6>, [[<terrafirmacraft:item.Ore:24>, <terrafirmacraft:item.Ore:42>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:7>, [[<terrafirmacraft:item.Ore:25>, <terrafirmacraft:item.Ore:43>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:8>, [[<terrafirmacraft:item.Ore:26>, <terrafirmacraft:item.Ore:44>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:9>, [[<terrafirmacraft:item.Ore:27>, <terrafirmacraft:item.Ore:45>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:10>, [[<terrafirmacraft:item.Ore:28>, <terrafirmacraft:item.Ore:46>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:11>, [[<terrafirmacraft:item.Ore:29>, <terrafirmacraft:item.Ore:47>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:12>, [[<terrafirmacraft:item.Ore:30>, <terrafirmacraft:item.Ore:48>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:13>, [[<terrafirmacraft:item.Ore:31>, <terrafirmacraft:item.Ore:49>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:14>, [[<terrafirmacraft:item.Ore:32>, <terrafirmacraft:item.Ore:50>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:15>, [[<terrafirmacraft:item.Ore:33>, <terrafirmacraft:item.Ore:51>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:16>, [[<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:52>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:17>, [[<terrafirmacraft:item.Ore:35>, <terrafirmacraft:item.Ore:53>]]);
+//Rich to Pile
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:0> * 3, [[<terrafirmacraft:item.Ore:18>, <terrafirmacraft:item.Ore:18>], [<terrafirmacraft:item.Ore:18>, <terrafirmacraft:item.Ore:18>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:1> * 3, [[<terrafirmacraft:item.Ore:19>, <terrafirmacraft:item.Ore:19>], [<terrafirmacraft:item.Ore:19>, <terrafirmacraft:item.Ore:19>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:2> * 3, [[<terrafirmacraft:item.Ore:20>, <terrafirmacraft:item.Ore:20>], [<terrafirmacraft:item.Ore:20>, <terrafirmacraft:item.Ore:20>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:3> * 3, [[<terrafirmacraft:item.Ore:21>, <terrafirmacraft:item.Ore:21>], [<terrafirmacraft:item.Ore:21>, <terrafirmacraft:item.Ore:21>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:4> * 3, [[<terrafirmacraft:item.Ore:22>, <terrafirmacraft:item.Ore:22>], [<terrafirmacraft:item.Ore:22>, <terrafirmacraft:item.Ore:22>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:5> * 3, [[<terrafirmacraft:item.Ore:23>, <terrafirmacraft:item.Ore:23>], [<terrafirmacraft:item.Ore:23>, <terrafirmacraft:item.Ore:23>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:6> * 3, [[<terrafirmacraft:item.Ore:24>, <terrafirmacraft:item.Ore:24>], [<terrafirmacraft:item.Ore:24>, <terrafirmacraft:item.Ore:24>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:7> * 3, [[<terrafirmacraft:item.Ore:25>, <terrafirmacraft:item.Ore:25>], [<terrafirmacraft:item.Ore:25>, <terrafirmacraft:item.Ore:25>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:8> * 3, [[<terrafirmacraft:item.Ore:26>, <terrafirmacraft:item.Ore:26>], [<terrafirmacraft:item.Ore:26>, <terrafirmacraft:item.Ore:26>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:9> * 3, [[<terrafirmacraft:item.Ore:27>, <terrafirmacraft:item.Ore:27>], [<terrafirmacraft:item.Ore:27>, <terrafirmacraft:item.Ore:27>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:10> * 3, [[<terrafirmacraft:item.Ore:28>, <terrafirmacraft:item.Ore:28>], [<terrafirmacraft:item.Ore:28>, <terrafirmacraft:item.Ore:28>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:11> * 3, [[<terrafirmacraft:item.Ore:29>, <terrafirmacraft:item.Ore:29>], [<terrafirmacraft:item.Ore:29>, <terrafirmacraft:item.Ore:29>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:12> * 3, [[<terrafirmacraft:item.Ore:30>, <terrafirmacraft:item.Ore:30>], [<terrafirmacraft:item.Ore:30>, <terrafirmacraft:item.Ore:30>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:13> * 3, [[<terrafirmacraft:item.Ore:31>, <terrafirmacraft:item.Ore:31>], [<terrafirmacraft:item.Ore:31>, <terrafirmacraft:item.Ore:31>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:14> * 3, [[<terrafirmacraft:item.Ore:32>, <terrafirmacraft:item.Ore:32>], [<terrafirmacraft:item.Ore:32>, <terrafirmacraft:item.Ore:32>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:15> * 3, [[<terrafirmacraft:item.Ore:33>, <terrafirmacraft:item.Ore:33>], [<terrafirmacraft:item.Ore:33>, <terrafirmacraft:item.Ore:33>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:16> * 3, [[<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>], [<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>]]);
+	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Ore Pile:17> * 3, [[<terrafirmacraft:item.Ore:35>, <terrafirmacraft:item.Ore:35>], [<terrafirmacraft:item.Ore:35>, <terrafirmacraft:item.Ore:35>]]);
+//Ingot -> Nugget
+
 //RockCrusher recipes
 
 mods.railcraft.RockCrusher.removeRecipe(<minecraft:bone>);
@@ -684,15 +801,15 @@ mods.railcraft.RockCrusher.removeRecipe(<minecraft:sandstone>);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Tungsten Ingot>,true, false, [<terrafirmacraft:item.MetalDust:14>], [1.0]);
 
 //# Alloy Ingots
-	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Bismuth Bronze Ingot> ,true, false, [<terrafirmacraft:item.MetalDust:15>], [1.0]);
-	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Black Bronze Ingot> ,true, false, [<terrafirmacraft:item.MetalDust:16>], [1.0]);
-	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Brass Ingot> ,true, false, [<terrafirmacraft:item.MetalDust:19>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Bismuth Bronze Ingot>,true, false, [<terrafirmacraft:item.MetalDust:15>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Black Bronze Ingot>,true, false, [<terrafirmacraft:item.MetalDust:16>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Brass Ingot>,true, false, [<terrafirmacraft:item.MetalDust:19>], [1.0]);
     mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Bronze Ingot>,true, false, [<terrafirmacraft:item.MetalDust:20>], [1.0]);
-	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Rose Gold Ingot> ,true, false, [<terrafirmacraft:item.MetalDust:25>], [1.0]);
-	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Sterling Silver Ingot> ,true, false, [<terrafirmacraft:item.MetalDust:26>], [1.0]);
-	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Pig Iron Ingot> ,true, false, [<terrafirmacraft:item.MetalDust:6>], [1.0]);
-	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Electrum Ingot> ,true, false, [<terrafirmacraft:item.MetalDust:30>], [1.0]);
-	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Cupronickel Ingot> ,true, false, [<terrafirmacraft:item.MetalDust:31>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Rose Gold Ingot>,true, false, [<terrafirmacraft:item.MetalDust:25>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Sterling Silver Ingot>,true, false, [<terrafirmacraft:item.MetalDust:26>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Pig Iron Ingot>,true, false, [<terrafirmacraft:item.MetalDust:6>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Electrum Ingot>,true, false, [<terrafirmacraft:item.MetalDust:30>], [1.0]);
+	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Cupronickel Ingot>,true, false, [<terrafirmacraft:item.MetalDust:31>], [1.0]);
 
 //# Kimberlite Diamond Ore, Emerald Ore and Bitumous Coal
     mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.MineralOre:5>, true, false, [ <terrafirmacraft:item.Diamond:0>, <terrafirmacraft:item.Diamond:1>, <terrafirmacraft:item.Diamond:2>, <terrafirmacraft:item.Diamond:3>, <terrafirmacraft:item.Diamond:4>], [1.0, 0.01, 0.005, 0.0035, 0.0015]);

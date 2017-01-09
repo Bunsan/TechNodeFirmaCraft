@@ -182,6 +182,7 @@ import mods.nei.NEI;
     recipes.addShapeless(<terrafirmacraft:item.MetalDust:30>, [<ore:dustGold>, <ore:dustSilver>]);
     recipes.addShapeless(<terrafirmacraft:item.MetalDust:31>, [<ore:dustCopper>, <ore:dustNickel>]);
 	
+//#Piles
 
 // ================================================================================
 //#TFC Custom Machine Recipes
@@ -225,15 +226,90 @@ import mods.nei.NEI;
 //# Heating
 // Output Stack, Input Stack or Input Ore, Melting Temp(Default: 600, Normal Range 0-2000)[Optional], Specific Heat(Default: 1, Normal Range 0-1)[Optional]
 
-	mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:hardened_clay>, <customitems:block_of_clay>, 1250,1);
 	mods.Terrafirmacraft.ItemHeat.addRecipe(<ImmersiveEngineering:stoneDecoration>, <customitems:uncured_hempcrete>, 1250, 1);
 
 //# Loom
 // Output Stack, Input Stack, Image Overlay Location("modID:location")
 // Output Stack, Input Stack, Cosmetic Loom Overlay (Range 1-3: 1-String, 2-Silk, 3-Rope; Default: 1)[Optional]
-	mods.Terrafirmacraft.Loom.addRecipe(<terrafirmacraft:item.BurlapCloth>,<ImmersiveEngineering:material:3> * 16, 3);
+	mods.Terrafirmacraft.Loom.addRecipe(<terrafirmacraft:item.BurlapCloth>,<ImmersiveEngineering:material:3> * 27, 3);
 
   //# Anvil
 // Output Stack, Input Stack 1, Input Stack 2[Optional], Plan Name, Minimal Anvil Tier (Range 0-7), Crafting Value (Range 0-50)
-	mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:black_steel_shears>, <terrafirmacraft:item.Black Steel Sheet>, null, "shears", 2, 67);
+	mods.Terrafirmacraft.Anvil.addAnvilRecipe(<customitems:black_steel_shears>, <terrafirmacraft:item.Black Steel Sheet>, "shears", 5);
   <customitems:black_steel_shears>.addTooltip(format.gray("Fine Fragile Blade for Delicate Work."));
+
+// Fixing Decorations/Merchants anvil issues
+    game.setLocalization("gui.plans.lanterncorefix", "Lantern Core Server Fix");
+    game.setLocalization("gui.plans.flanfix", "Flan Server Fix");
+    game.setLocalization("gui.plans.trusselfix", "Trussel Server Fix");
+    game.setLocalization("gui.plans.diefix", "Anvil Die Server Fix");
+    mods.Terrafirmacraft.Anvil.addPlanRecipe("lanterncorefix", 15, 23, 17);
+    mods.Terrafirmacraft.Anvil.addPlanRecipe("flanfix", 15, 29, 17);
+    mods.Terrafirmacraft.Anvil.addPlanRecipe("trusselfix", 27, 35, 17);
+    mods.Terrafirmacraft.Anvil.addPlanRecipe("diefix", 15, 23, 17);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<DecorationsTFC:item.LanternCore.Copper>, <terrafirmacraft:item.Copper Sheet>, "lanterncorefix", 1);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<DecorationsTFC:item.LanternCore.Bronze>, <terrafirmacraft:item.Bronze Sheet>, "lanterncorefix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<DecorationsTFC:item.LanternCore.Bismuth Bronze>, <terrafirmacraft:item.Bismuth Bronze Sheet>, "lanterncorefix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<DecorationsTFC:item.LanternCore.Black Bronze>, <terrafirmacraft:item.Black Bronze Sheet>, "lanterncorefix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<DecorationsTFC:item.LanternCore.Brass>, <terrafirmacraft:item.Brass Sheet>, "lanterncorefix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<DecorationsTFC:item.LanternCore.Lead>, <terrafirmacraft:item.Lead Sheet>, "lanterncorefix", 1);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<DecorationsTFC:item.LanternCore.Gold>, <terrafirmacraft:item.Gold Sheet>, "lanterncorefix", 1);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<DecorationsTFC:item.LanternCore.Rose Gold>, <terrafirmacraft:item.Rose Gold Sheet>, "lanterncorefix", 1);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<DecorationsTFC:item.LanternCore.Platinum>, <terrafirmacraft:item.Platinum Sheet>, "lanterncorefix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<DecorationsTFC:item.LanternCore.Silver>, <terrafirmacraft:item.Silver Sheet>, "lanterncorefix", 1);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<DecorationsTFC:item.LanternCore.Sterling Silver>, <terrafirmacraft:item.Sterling Silver Sheet>, "lanterncorefix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<DecorationsTFC:item.LanternCore.Wrought Iron>, <terrafirmacraft:item.Wrought Iron Sheet>, "lanterncorefix", 3);
+    
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Flan:0>, <terrafirmacraft:item.Bismuth Ingot>, "flanfix", 1);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Flan:1>, <terrafirmacraft:item.Tin Ingot>, "flanfix", 1);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Flan:2>, <terrafirmacraft:item.Zinc Ingot>, "flanfix", 1);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Flan:3>, <terrafirmacraft:item.Copper Ingot>, "flanfix", 1);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Flan:4>, <terrafirmacraft:item.Bronze Ingot>, "flanfix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Flan:5>, <terrafirmacraft:item.Bismuth Bronze Ingot>, "flanfix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Flan:6>, <terrafirmacraft:item.Black Bronze Ingot>, "flanfix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Flan:7>, <terrafirmacraft:item.Brass Ingot>, "flanfix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Flan:8>, <terrafirmacraft:item.Lead Ingot>, "flanfix", 1);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Flan:9>, <terrafirmacraft:item.Gold Ingot>, "flanfix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Flan:10>, <terrafirmacraft:item.Rose Gold Ingot>, "flanfix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Flan:11>, <terrafirmacraft:item.Silver Ingot>, "flanfix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Flan:12>, <terrafirmacraft:item.Sterling Silver Ingot>, "flanfix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Flan:13>, <terrafirmacraft:item.Platinum Ingot>, "flanfix", 3);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Flan:14>, <terrafirmacraft:item.Wrought Iron Ingot>, "flanfix", 3);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Flan:15>, <terrafirmacraft:item.Nickel Ingot>, "flanfix", 4);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Flan:16>, <terrafirmacraft:item.Steel Ingot>, "flanfix", 4);
+    
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Trussel:0>, <terrafirmacraft:item.Copper Ingot>, "trusselfix", 1);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Trussel:1>, <terrafirmacraft:item.Bronze Ingot>, "trusselfix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Trussel:2>, <terrafirmacraft:item.Bismuth Bronze Ingot>, "trusselfix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Trussel:3>, <terrafirmacraft:item.Black Bronze Ingot>, "trusselfix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Trussel:4>, <terrafirmacraft:item.Brass Ingot>, "trusselfix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Trussel:5>, <terrafirmacraft:item.Lead Ingot>, "trusselfix", 1);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Trussel:6>, <terrafirmacraft:item.Gold Ingot>, "trusselfix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Trussel:7>, <terrafirmacraft:item.Rose Gold Ingot>, "trusselfix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Trussel:8>, <terrafirmacraft:item.Silver Ingot>, "trusselfix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Trussel:9>, <terrafirmacraft:item.Sterling Silver Ingot>, "trusselfix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Trussel:10>, <terrafirmacraft:item.Platinum Ingot>, "trusselfix", 3);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Trussel:11>, <terrafirmacraft:item.Wrought Iron Ingot>, "trusselfix", 3);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Trussel:12>, <terrafirmacraft:item.Nickel Ingot>, "trusselfix", 4);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Trussel:13>, <terrafirmacraft:item.Steel Ingot>, "trusselfix", 4);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Trussel:14>, <terrafirmacraft:item.Black Steel Ingot>, "trusselfix", 5);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Trussel:15>, <terrafirmacraft:item.Blue Steel Ingot>, "trusselfix", 6);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.Trussel:16>, <terrafirmacraft:item.Red Steel Ingot>, "trusselfix", 6);
+    
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.AnvilDie:0>, <terrafirmacraft:item.Copper Double Ingot>, "diefix", 1);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.AnvilDie:1>, <terrafirmacraft:item.Bronze Double Ingot>, "diefix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.AnvilDie:2>, <terrafirmacraft:item.Bismuth Bronze Double Ingot>, "diefix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.AnvilDie:3>, <terrafirmacraft:item.Black Bronze Double Ingot>, "diefix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.AnvilDie:4>, <terrafirmacraft:item.Brass Double Ingot>, "diefix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.AnvilDie:5>, <terrafirmacraft:item.Lead Double Ingot>, "diefix", 1);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.AnvilDie:6>, <terrafirmacraft:item.Gold Double Ingot>, "diefix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.AnvilDie:7>, <terrafirmacraft:item.Rose Gold Double Ingot>, "diefix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.AnvilDie:8>, <terrafirmacraft:item.Silver Double Ingot>, "diefix", 1);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.AnvilDie:9>, <terrafirmacraft:item.Sterling Silver Double Ingot>, "diefix", 2);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.AnvilDie:10>, <terrafirmacraft:item.Platinum Double Ingot>, "diefix", 3);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.AnvilDie:11>, <terrafirmacraft:item.Wrought Iron Double Ingot>, "diefix", 3);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.AnvilDie:12>, <terrafirmacraft:item.Nickel Double Ingot>, "diefix", 4);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.AnvilDie:13>, <terrafirmacraft:item.Steel Double Ingot>, "diefix", 4);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.AnvilDie:14>, <terrafirmacraft:item.Black Steel Double Ingot>, "diefix", 5);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.AnvilDie:15>, <terrafirmacraft:item.Blue Steel Double Ingot>, "diefix", 6);
+    mods.Terrafirmacraft.Anvil.addAnvilRecipe(<MerchantsTFC:item.AnvilDie:16>, <terrafirmacraft:item.Red Steel Double Ingot>, "diefix", 6);
