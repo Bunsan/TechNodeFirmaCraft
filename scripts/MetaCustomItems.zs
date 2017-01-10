@@ -7,13 +7,6 @@ import minetweaker.item.IItemStack;
 // ================================================================================
 //# ADD SHAPED
 
-//# Adding Jet Block
-	recipes.addShaped(<customitems:block_of_jet>, [[<ore:oreJet>, <terrafirmacraft:item.Mortar>, <ore:oreJet>], [<terrafirmacraft:item.Mortar>, <terrafirmacraft:item.dyePowder>, <terrafirmacraft:item.Mortar>], [<ore:oreJet>, <terrafirmacraft:item.Mortar>, <ore:oreJet>]]);
-	recipes.addShaped(<customitems:slab_of_jet> * 3, [[<ore:itemChisel>, null, <ore:itemHammer>], [<customitems:block_of_jet>, <customitems:block_of_jet>, <customitems:block_of_jet>]]);
-	recipes.addShaped(<customitems:chiseled_block_of_jet>, [[<customitems:slab_of_jet>, <ore:itemChisel>], [<customitems:slab_of_jet>, <ore:itemHammer>]]);
-	recipes.addShaped(<customitems:pillar_of_jet> * 2, [[<customitems:block_of_jet>, <ore:itemChisel>], [<customitems:block_of_jet>, <ore:itemHammer>]]);
-	recipes.addShaped(<customitems:jet_stairs> * 6, [[<customitems:block_of_jet>, <ore:itemChisel>, null], [<customitems:block_of_jet>, <customitems:block_of_jet>, <ore:itemHammer>], [<customitems:block_of_jet>,<customitems:block_of_jet>,<customitems:block_of_jet>]]);
-
 //# Fence Recipes
 	recipes.addShaped(<customitems:oak_plank_fence>*2, [[<terrafirmacraft:item.SinglePlank:0>, null , <terrafirmacraft:item.SinglePlank:0>], [<terrafirmacraft:item.SinglePlank:0>, <terrafirmacraft:item.stick>, <terrafirmacraft:item.SinglePlank:0>], [<terrafirmacraft:item.SinglePlank:0>, <terrafirmacraft:item.stick>, <terrafirmacraft:item.SinglePlank:0>]]);
 

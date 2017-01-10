@@ -122,7 +122,7 @@
 	mods.pneumaticcraft.Assembly.removeLaserRecipe(<PneumaticCraft:aphorismTile> * 4);
 //#Addition
 	//InputStack, OutputStack
-	mods.pneumaticcraft.Assembly.addLaserRecipe(<customitems:block_of_jet>, <PneumaticCraft:aphorismTile> * 4);
+	mods.pneumaticcraft.Assembly.addLaserRecipe(<terrafirmastuff:mineralBlock>, <PneumaticCraft:aphorismTile> * 4);
 
 //Assembly Laser Drill Recipes
 //#Removal
