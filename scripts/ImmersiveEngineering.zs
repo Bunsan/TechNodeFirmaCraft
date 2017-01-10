@@ -291,9 +291,9 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 2, [<ImmersiveEngineer
 	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <terrafirmacraft:item.MetalDust:17>, 598);
 	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Blue Steel Ingot>, <terrafirmacraft:item.MetalDust:18>, 598);
 	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Red Steel Ingot>, <terrafirmacraft:item.MetalDust:24>, 598);
-    mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <TabulaRasa:RasaItem0:0>, 1198, <ImmersiveEngineering:material:13>);
-	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Blue Steel Ingot>, <TabulaRasa:RasaItem0:1>, 1198, <ImmersiveEngineering:material:13>);
-	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Red Steel Ingot>, <TabulaRasa:RasaItem0:2>, 1198, <ImmersiveEngineering:material:13>);
+    mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Black Steel Ingot>, <technodefirmacraft:item.amalgam:0>, 1198, <ImmersiveEngineering:material:13>);
+	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Blue Steel Ingot>, <technodefirmacraft:item.amalgam:1>, 1198, <ImmersiveEngineering:material:13>);
+	mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Red Steel Ingot>, <technodefirmacraft:item.amalgam:2>, 1198, <ImmersiveEngineering:material:13>);
     
     mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Osmium Ingot>, <terrafirmacraft:item.Ore Pile:14>, 298, <ImmersiveEngineering:material:13>);
     mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraft:item.Osmium Ingot>, <terrafirmacraft:item.MetalDust:12>, 148);
@@ -717,40 +717,40 @@ mods.immersiveengineering.MetalPress.removeRecipeByMold(<ImmersiveEngineering:mo
     
 //# Molds
 
-    mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem2:15>, <ore:plateDoubleSteel>, <terrafirmacraft:MetalBlock:9>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem2>, <TabulaRasa:RasaItem2:15>, <terrafirmacraft:item.Steel Pick Head>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem2:1>, <TabulaRasa:RasaItem2:15>, <terrafirmacraft:item.Steel ProPick Head>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem2:2>, <TabulaRasa:RasaItem2:15>, <terrafirmacraft:item.Steel Shovel Head>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem2:3>, <TabulaRasa:RasaItem2:15>, <terrafirmacraft:item.Steel Axe Head>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem2:4>, <TabulaRasa:RasaItem2:15>, <terrafirmacraft:item.Steel Hammer Head>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem2:5>, <TabulaRasa:RasaItem2:15>, <terrafirmacraft:item.Steel Chisel Head>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem2:6>, <TabulaRasa:RasaItem2:15>, <terrafirmacraft:item.Steel Hoe Head>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem2:8>, <TabulaRasa:RasaItem2:15>, <terrafirmacraft:item.Steel Javelin Head>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem2:9>, <TabulaRasa:RasaItem2:15>, <terrafirmacraft:item.Steel Saw Blade>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem2:11>, <TabulaRasa:RasaItem2:15>, <terrafirmacraft:item.Steel Scythe Blade>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem2:12>, <TabulaRasa:RasaItem2:15>, <terrafirmacraft:item.Steel Knife Blade>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem2:7>, <TabulaRasa:RasaItem2:15>, <terrafirmacraft:item.Steel Mace Head>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem2:10>, <TabulaRasa:RasaItem2:15>, <terrafirmacraft:item.Steel Sword Blade>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem2:13>, <TabulaRasa:RasaItem2:15>, <terrafirmacraft:item.Steel Tuyere>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem2:14>, <TabulaRasa:RasaItem2:15>, <terrafirmacraft:item.Steel Double Ingot>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem2:16>, <TabulaRasa:RasaItem2:15>, <terrafirmacraft:MetalBlock:9>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem2:17>, <TabulaRasa:RasaItem2:15>, <terrafirmacraft:item.Red Steel Bucket Empty>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem2:17>, <TabulaRasa:RasaItem2:15>, <terrafirmacraft:item.Blue Steel Bucket Empty>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem2:17>, <TabulaRasa:RasaItem2:15>, <minecraft:bucket>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem2:18>, <TabulaRasa:RasaItem2:15>, <terrafirmacraft:Grill>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem2:19>, <TabulaRasa:RasaItem2:15>, <terrafirmacraft:Hopper>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem2:20>, <TabulaRasa:RasaItem2:15>, <terrafirmacraft:item.shears>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<TabulaRasa:RasaItem2:21>, <TabulaRasa:RasaItem2:15>, <DecorationsTFC:item.LanternCore.WroughtIron>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<technodefirmacraft:item.mold:15>, <ore:plateDoubleSteel>, <terrafirmacraft:MetalBlock:9>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<technodefirmacraft:item.mold>, <technodefirmacraft:item.mold:15>, <terrafirmacraft:item.Steel Pick Head>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<technodefirmacraft:item.mold:1>, <technodefirmacraft:item.mold:15>, <terrafirmacraft:item.Steel ProPick Head>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<technodefirmacraft:item.mold:2>, <technodefirmacraft:item.mold:15>, <terrafirmacraft:item.Steel Shovel Head>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<technodefirmacraft:item.mold:3>, <technodefirmacraft:item.mold:15>, <terrafirmacraft:item.Steel Axe Head>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<technodefirmacraft:item.mold:4>, <technodefirmacraft:item.mold:15>, <terrafirmacraft:item.Steel Hammer Head>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<technodefirmacraft:item.mold:5>, <technodefirmacraft:item.mold:15>, <terrafirmacraft:item.Steel Chisel Head>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<technodefirmacraft:item.mold:6>, <technodefirmacraft:item.mold:15>, <terrafirmacraft:item.Steel Hoe Head>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<technodefirmacraft:item.mold:8>, <technodefirmacraft:item.mold:15>, <terrafirmacraft:item.Steel Javelin Head>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<technodefirmacraft:item.mold:9>, <technodefirmacraft:item.mold:15>, <terrafirmacraft:item.Steel Saw Blade>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<technodefirmacraft:item.mold:11>, <technodefirmacraft:item.mold:15>, <terrafirmacraft:item.Steel Scythe Blade>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<technodefirmacraft:item.mold:12>, <technodefirmacraft:item.mold:15>, <terrafirmacraft:item.Steel Knife Blade>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<technodefirmacraft:item.mold:7>, <technodefirmacraft:item.mold:15>, <terrafirmacraft:item.Steel Mace Head>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<technodefirmacraft:item.mold:10>, <technodefirmacraft:item.mold:15>, <terrafirmacraft:item.Steel Sword Blade>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<technodefirmacraft:item.mold:13>, <technodefirmacraft:item.mold:15>, <terrafirmacraft:item.Steel Tuyere>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<technodefirmacraft:item.mold:14>, <technodefirmacraft:item.mold:15>, <terrafirmacraft:item.Steel Double Ingot>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<technodefirmacraft:item.mold:16>, <technodefirmacraft:item.mold:15>, <terrafirmacraft:MetalBlock:9>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<technodefirmacraft:item.mold:17>, <technodefirmacraft:item.mold:15>, <terrafirmacraft:item.Red Steel Bucket Empty>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<technodefirmacraft:item.mold:17>, <technodefirmacraft:item.mold:15>, <terrafirmacraft:item.Blue Steel Bucket Empty>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<technodefirmacraft:item.mold:17>, <technodefirmacraft:item.mold:15>, <minecraft:bucket>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<technodefirmacraft:item.mold:18>, <technodefirmacraft:item.mold:15>, <terrafirmacraft:Grill>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<technodefirmacraft:item.mold:19>, <technodefirmacraft:item.mold:15>, <terrafirmacraft:Hopper>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<technodefirmacraft:item.mold:20>, <technodefirmacraft:item.mold:15>, <terrafirmacraft:item.shears>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<technodefirmacraft:item.mold:21>, <technodefirmacraft:item.mold:15>, <DecorationsTFC:item.LanternCore.WroughtIron>, 2400, 1);
 
-    mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold>, <TabulaRasa:RasaItem2:15>, <terrafirmacraft:item.Steel Sheet>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold:1>, <TabulaRasa:RasaItem2:15>, <Railcraft:part.gear:2>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold:2>, <TabulaRasa:RasaItem2:15>, <ImmersiveEngineering:material:15>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold>, <technodefirmacraft:item.mold:15>, <terrafirmacraft:item.Steel Sheet>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold:1>, <technodefirmacraft:item.mold:15>, <Railcraft:part.gear:2>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:mold:2>, <technodefirmacraft:item.mold:15>, <ImmersiveEngineering:material:15>, 2400, 1);
     
             for i, ingot in oreIngots {        
     var doubleIngot = tfcDoubleIngots[i];
     var sheet = tfcSheets[i];
         
-    mods.immersiveengineering.MetalPress.addRecipe(doubleIngot, ingot, <TabulaRasa:RasaItem2:14>, 4800, 2);
+    mods.immersiveengineering.MetalPress.addRecipe(doubleIngot, ingot, <technodefirmacraft:item.mold:14>, 4800, 2);
     mods.immersiveengineering.MetalPress.addRecipe(sheet * 1, ingot, <ImmersiveEngineering:mold>, 4800, 2);
         }
         
@@ -780,35 +780,35 @@ mods.immersiveengineering.MetalPress.removeRecipeByMold(<ImmersiveEngineering:mo
     var sword = tfcSwordBlades[i];
     var tuyere = tfcTuyeres[i];
         
-    mods.immersiveengineering.MetalPress.addRecipe(pick, ingotTool, <TabulaRasa:RasaItem2>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(proPick, ingotTool, <TabulaRasa:RasaItem2:1>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(shovel, ingotTool, <TabulaRasa:RasaItem2:2>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(axe, ingotTool, <TabulaRasa:RasaItem2:3>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(hammer, ingotTool, <TabulaRasa:RasaItem2:4>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(chisel, ingotTool, <TabulaRasa:RasaItem2:5>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(hoe, ingotTool, <TabulaRasa:RasaItem2:6>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(javelin, ingotTool, <TabulaRasa:RasaItem2:8>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(saw, ingotTool, <TabulaRasa:RasaItem2:9>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(scythe, ingotTool, <TabulaRasa:RasaItem2:11>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(knife, ingotTool, <TabulaRasa:RasaItem2:12>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(mace, ingotTool, <TabulaRasa:RasaItem2:7>, 4800, 2);
-    mods.immersiveengineering.MetalPress.addRecipe(sword, ingotTool, <TabulaRasa:RasaItem2:10>, 4800, 2);
-    mods.immersiveengineering.MetalPress.addRecipe(tuyere, ingotTool, <TabulaRasa:RasaItem2:13>, 9600, 4);
+    mods.immersiveengineering.MetalPress.addRecipe(pick, ingotTool, <technodefirmacraft:item.mold>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(proPick, ingotTool, <technodefirmacraft:item.mold:1>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(shovel, ingotTool, <technodefirmacraft:item.mold:2>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(axe, ingotTool, <technodefirmacraft:item.mold:3>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(hammer, ingotTool, <technodefirmacraft:item.mold:4>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(chisel, ingotTool, <technodefirmacraft:item.mold:5>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(hoe, ingotTool, <technodefirmacraft:item.mold:6>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(javelin, ingotTool, <technodefirmacraft:item.mold:8>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(saw, ingotTool, <technodefirmacraft:item.mold:9>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(scythe, ingotTool, <technodefirmacraft:item.mold:11>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(knife, ingotTool, <technodefirmacraft:item.mold:12>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(mace, ingotTool, <technodefirmacraft:item.mold:7>, 4800, 2);
+    mods.immersiveengineering.MetalPress.addRecipe(sword, ingotTool, <technodefirmacraft:item.mold:10>, 4800, 2);
+    mods.immersiveengineering.MetalPress.addRecipe(tuyere, ingotTool, <technodefirmacraft:item.mold:13>, 9600, 4);
         }
         
       for i, oreDoubleSheet in oreDoubleSheet {
     var block = tfcMetalBlock[i];
-    mods.immersiveengineering.MetalPress.addRecipe(block, oreDoubleSheet, <TabulaRasa:RasaItem2:16>, 4800, 2);
+    mods.immersiveengineering.MetalPress.addRecipe(block, oreDoubleSheet, <technodefirmacraft:item.mold:16>, 4800, 2);
       }
 
 //# Shears + Grill + Hopper
-    mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.shears>, <ore:plateIron>, <TabulaRasa:RasaItem2:20>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:Grill>, <ore:ingotDoubleIron>, <TabulaRasa:RasaItem2:18>, 4800, 2);
-    mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:Hopper>, <ore:blockIron>, <TabulaRasa:RasaItem2:19>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.shears>, <ore:plateIron>, <technodefirmacraft:item.mold:20>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:Grill>, <ore:ingotDoubleIron>, <technodefirmacraft:item.mold:18>, 4800, 2);
+    mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:Hopper>, <ore:blockIron>, <technodefirmacraft:item.mold:19>, 2400, 1);
 
 //# Buckets
-    mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Red Steel Bucket Empty>, <ore:plateRedSteel>, <TabulaRasa:RasaItem2:17>, 2400, 1);
-    mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Blue Steel Bucket Empty>, <ore:plateBlueSteel>, <TabulaRasa:RasaItem2:17>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Red Steel Bucket Empty>, <ore:plateRedSteel>, <technodefirmacraft:item.mold:17>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Blue Steel Bucket Empty>, <ore:plateBlueSteel>, <technodefirmacraft:item.mold:17>, 2400, 1);
     
 //# Aluminum Sheet
     mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:metal:32>, <ore:ingotAluminum>, <ImmersiveEngineering:mold>, 4800, 2);
@@ -826,7 +826,7 @@ mods.immersiveengineering.MetalPress.removeRecipeByMold(<ImmersiveEngineering:mo
 
 for i, ingot in lanternIngot {
 var core = lanternCore[i];
-    mods.immersiveengineering.MetalPress.addRecipe(core, ingot, <TabulaRasa:RasaItem2:21>, 2400, 1);
+    mods.immersiveengineering.MetalPress.addRecipe(core, ingot, <technodefirmacraft:item.mold:21>, 2400, 1);
 }
 
 //# Steel Processing

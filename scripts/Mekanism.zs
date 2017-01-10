@@ -29,7 +29,7 @@ import minetweaker.data.IData;
 	recipes.addShapeless(<Mekanism:GasMask>.withTag({ench: [{lvl: 3 as short, id: 5 as short}, {lvl: 1 as short, id: 6 as short}]}), [<Mekanism:GasMask>, <Mekanism:GasUpgrade>, <Mekanism:SpeedUpgrade>]);	
 //
 //# Diamond Dust Piles
-	recipes.addShaped(<Mekanism:OtherDust>, [[<TabulaRasa:RasaItem0:3>, <TabulaRasa:RasaItem0:3>], [<TabulaRasa:RasaItem0:3>, <TabulaRasa:RasaItem0:3>]]);
+	recipes.addShaped(<Mekanism:OtherDust>, [[<technodefirmacraft:item.tinyDiamondDust>, <technodefirmacraft:item.tinyDiamondDust>], [<technodefirmacraft:item.tinyDiamondDust>, <technodefirmacraft:item.tinyDiamondDust>]]);
 
 // ================================================================================
 //# Custom Machine Recipes
@@ -87,8 +87,8 @@ import minetweaker.data.IData;
     
 //#Addition
 	//InputStack, OutputStack
-	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Diamond:0> * 2, <TabulaRasa:RasaItem0:3>);
-	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Diamond:1>, <TabulaRasa:RasaItem0:3> * 2);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Diamond:0> * 2, <technodefirmacraft:item.tinyDiamondDust>);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Diamond:1>, <technodefirmacraft:item.tinyDiamondDust> * 2);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Diamond:2>, <Mekanism:OtherDust>);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Diamond:3>, <Mekanism:OtherDust> * 2);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.Diamond:4>, <Mekanism:OtherDust> * 4);
@@ -371,9 +371,9 @@ import minetweaker.data.IData;
     mods.mekanism.Purification.removeRecipe(<Mekanism:Clump:8>, <ImmersiveEngineering:ore:4>);
     mods.mekanism.Purification.removeRecipe(<Mekanism:Clump:11>, <ImmersiveEngineering:ore:1>);
 //#Addition
-	mods.mekanism.Purification.addRecipe(<terrafirmacraft:item.MetalDust:21>, <TabulaRasa:RasaItem0>);
-    mods.mekanism.Purification.addRecipe(<terrafirmacraft:item.MetalDust:22>, <TabulaRasa:RasaItem0:1>);
-	mods.mekanism.Purification.addRecipe(<terrafirmacraft:item.MetalDust:23>, <TabulaRasa:RasaItem0:2>);
+	mods.mekanism.Purification.addRecipe(<terrafirmacraft:item.MetalDust:21>, <technodefirmacraft:item.amalgam>);
+    mods.mekanism.Purification.addRecipe(<terrafirmacraft:item.MetalDust:22>, <technodefirmacraft:item.amalgam:1>);
+	mods.mekanism.Purification.addRecipe(<terrafirmacraft:item.MetalDust:23>, <technodefirmacraft:item.amalgam:2>);
 
 //Chemical Injection
 //#Removal
