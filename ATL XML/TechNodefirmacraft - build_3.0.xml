@@ -58,13 +58,13 @@
 <!-- Base Scripts -->
         <!-- Marquee Mods -->
         <mod 
-        name="TerraFirmaCraft" version="0.79.29_tnfc.9d518a7" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.29_tnfc.9d518a7.jar" file="[1.7.10]TerraFirmaCraft-0.79.29_tnfc.9d518a7.jar" md5="6f39b41f7739652340b421b989497802" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="TerraFirmaCraft" version="0.79.29_tnfc.0d1e50e" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.29_tnfc.0d1e50e.jar" file="[1.7.10]TerraFirmaCraft-0.79.29_tnfc.0d1e50e.jar" md5="164d9cd702df6aec8cfa2e1ddaa15edd" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod 
-        name="TechNodefirmacraft" version="3.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TechNodefirmacraft-3.0.jar" file="[1.7.10]TechNodefirmacraft-3.0.jar" md5="eb68857bb11cf48416137cc66e667df6" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="AnodeCathode, Bunsan" optional="no" description="Custom integration and features for TechNodefirmacraft modpack" client="yes" server="yes" serveroptional="no"
+        name="TechNodefirmacraft" version="3.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TechNodefirmacraft-3.0.jar" file="[1.7.10]TechNodefirmacraft-3.0.jar" md5="49ac24d128b243dcdc7e8a857b9152b2" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="AnodeCathode, Bunsan" optional="no" description="Custom integration and features for TechNodefirmacraft modpack" client="yes" server="yes" serveroptional="no"
         />
         <mod 
-        name="TerrafirmaStuff" version="0.2" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]terrafirmastuff-0.2.jar" file="[1.7.10]terrafirmastuff-0.2.jar" md5="64c8c060e7f65d0155afc9c89a62f2ed" download="server" type="mods" website="https://github.com/Bunsan/TerraFirmaStuff" description="Adding blocks to TFC" authors="Bunsan" optional="no" client="yes" server="yes" serveroptional="no"
+        name="TerrafirmaStuff" version="0.2.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]terrafirmastuff-0.2.jar" file="[1.7.10]terrafirmastuff-0.2.jar" md5="45d510680f94a24c441d796f7fa3f9e7" download="server" type="mods" website="https://github.com/Bunsan/TerraFirmaStuff" description="Adding blocks to TFC" authors="Bunsan" optional="no" client="yes" server="yes" serveroptional="no"
         />
         <mod 
         name="Railcraft" version="9.12.2.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/Railcraft_1.7.10-9.12.2.0.jar" file="Railcraft_1.7.10-9.12.2.0.jar" md5="c259e18bb43599134b3a6f96cba5f26d" download="server" type="mods" website="http://railcraft.info/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/mc-mods/51195-railcraft&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=CovertJaguar%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_return=http://m" authors="CovertJaguar" description="Redefine your rails" client="yes" server="yes" serveroptional="no" 
@@ -171,7 +171,7 @@
         
         <!-- Pack Customization Mods -->
         <mod
-        name="Scripts" version="3.0" url="packs/TechNodefirmacraft/files/extract/scriptsDev3.0.zip" file="scriptsDev3.0.zip" md5="d3e17ef8a0bb9781488c875d5080e2a1" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="Scripts" version="3.0" url="packs/TechNodefirmacraft/files/extract/scriptsDev3.0.zip" file="scriptsDev3.0.zip" md5="f3357e41663239fb18c44ad94ab3a4da" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod
         name="MineTweaker 3" version="3.0.10B" url="packs/TechNodefirmacraft/files/1.7.10Mods/MineTweaker3-1.7.10-3.0.10B.jar" file="MineTweaker3-1.7.10-3.0.10B.jar" md5="884933d1b933e0bd2f93293201569f13" download="server" type="mods" website="http://minetweaker3.powerofbytes.com" authors="Stan Hebben" description="Customize your minecraft experience!" client="yes" optional="no" server="yes" serveroptional="no"
@@ -266,7 +266,7 @@
         name="FTBLib" version="1.7.10-1.0.18.2" url="packs/TechNodefirmacraft/files/1.7.10Mods/FTBLib-1.7.10-1.0.18.3.jar" file="FTBLib-1.7.10-1.0.18.3.jar" md5="1753db050335f5725d1ea9e09b8f102b" download="server" type="mods" website="http://minecraft.curseforge.com/projects/ftblib" authors="LatvianModder,Jared" description="FTBLib" client="yes" optional="yes" server="yes" serveroptional="yes" library="yes" recommended="yes"
         />
         <mod
-        name="zTNFCResources" version="3.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/zzz-zTNFCResources-3.0.jar" file="zzz-zTNFCResources-3.0.jar" md5="bb427768be37ac407719b63cb5b1f298" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftResources" description="Provides ore names and textures for custom items." client="yes" server="no" optional="no" 
+        name="zTNFCResources" version="3.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/zzz-zTNFCResources-3.0.jar" file="zzz-zTNFCResources-3.0.jar" md5="9d262ba6e296ff1d631d14a918f5237b" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftResources" description="Provides ore names and textures for custom items." client="yes" server="no" optional="no" 
         />
          <!-- Days per Year Options -->
         <mod
