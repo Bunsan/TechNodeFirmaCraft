@@ -94,7 +94,7 @@ import minetweaker.item.IIngredient;
 
 // ================================================================================
 //#ADD Furnace Recipes
-	furnace.addRecipe(<ImmersiveEngineering:stoneDecoration>, <customitems:uncured_hempcrete>);
+	furnace.addRecipe(<ImmersiveEngineering:stoneDecoration>, <technodefirmacraft:IEBlocks:2>);
 
 // ================================================================================
 //#ADD SHAPELESS
@@ -191,7 +191,7 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 2, [<ImmersiveEngineer
 	recipes.addShaped(<ImmersiveEngineering:metalDevice:11> * 16, [[<ore:materialLeather>, <ore:materialLeather>, <ore:materialLeather>], [<minecraft:redstone>, <ore:plateIron>, <minecraft:redstone>]]);
 
 //# Uncured Hempcrete
-	recipes.addShaped(<customitems:uncured_hempcrete> * 6, [[<terrafirmastuff:clayRaw>, <terrafirmastuff:clayRaw>, <terrafirmastuff:clayRaw>], [<ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>], [<terrafirmastuff:clayRaw>, <terrafirmastuff:clayRaw>, <terrafirmastuff:clayRaw>]]);
+	recipes.addShaped(<technodefirmacraft:IEBlocks:2> * 6, [[<terrafirmastuff:clayRaw>, <terrafirmastuff:clayRaw>, <terrafirmastuff:clayRaw>], [<ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>, <ImmersiveEngineering:material:3>], [<terrafirmastuff:clayRaw>, <terrafirmastuff:clayRaw>, <terrafirmastuff:clayRaw>]]);
 
 //# Hempcrete Slab
     recipes.addShaped(<ImmersiveEngineering:stoneSlab> * 3, [[<ore:itemChisel>, null, <ore:itemHammer>], [<ImmersiveEngineering:stoneDecoration>, <ImmersiveEngineering:stoneDecoration>, <ImmersiveEngineering:stoneDecoration>]]);
@@ -238,9 +238,9 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 2, [<ImmersiveEngineer
 
 //# Coke Oven
 	recipes.addShaped(<ImmersiveEngineering:stoneDecoration:1> * 3, [[<Railcraft:machine.alpha:7>, <Railcraft:machine.alpha:7>, <Railcraft:machine.alpha:7>], [<terrafirmacraft:item.Mortar>, <terrafirmacraft:item.Mortar>, <terrafirmacraft:item.Mortar>], [<Railcraft:machine.alpha:7>, <Railcraft:machine.alpha:7>, <Railcraft:machine.alpha:7>]]);
-	recipes.addShaped(<customitems:blast_furnace_casing>, [[<Railcraft:machine.alpha:12>, <Railcraft:machine.alpha:12>, <Railcraft:machine.alpha:12>], [<terrafirmacraft:FireBrick>, <Railcraft:machine.alpha:12>, <terrafirmacraft:FireBrick>], [<Railcraft:machine.alpha:12>, <Railcraft:machine.alpha:12>, <Railcraft:machine.alpha:12>]]);
-	recipes.addShaped(<customitems:blast_furnace_core>, [[<Railcraft:machine.alpha:12>, <Railcraft:machine.alpha:12>, <Railcraft:machine.alpha:12>], [<ore:plateDoubleBlackSteel>, <ore:plateDoubleBlackSteel>, <ore:plateDoubleBlackSteel>], [<Railcraft:machine.alpha:12>, <Railcraft:machine.alpha:12>, <Railcraft:machine.alpha:12>]]);
-	recipes.addShaped(<ImmersiveEngineering:stoneDecoration:6> * 27, [[null, <customitems:blast_furnace_casing>, null], [<customitems:blast_furnace_casing>, <customitems:blast_furnace_core>, <customitems:blast_furnace_casing>], [null, <customitems:blast_furnace_casing>, null]]);
+	recipes.addShaped(<technodefirmacraft:IEBlocks>, [[<Railcraft:machine.alpha:12>, <Railcraft:machine.alpha:12>, <Railcraft:machine.alpha:12>], [<terrafirmacraft:FireBrick>, <Railcraft:machine.alpha:12>, <terrafirmacraft:FireBrick>], [<Railcraft:machine.alpha:12>, <Railcraft:machine.alpha:12>, <Railcraft:machine.alpha:12>]]);
+	recipes.addShaped(<technodefirmacraft:IEBlocks:1>, [[<Railcraft:machine.alpha:12>, <Railcraft:machine.alpha:12>, <Railcraft:machine.alpha:12>], [<ore:plateDoubleBlackSteel>, <ore:plateDoubleBlackSteel>, <ore:plateDoubleBlackSteel>], [<Railcraft:machine.alpha:12>, <Railcraft:machine.alpha:12>, <Railcraft:machine.alpha:12>]]);
+	recipes.addShaped(<ImmersiveEngineering:stoneDecoration:6> * 27, [[null, <technodefirmacraft:IEBlocks>, null], [<technodefirmacraft:IEBlocks>, <technodefirmacraft:IEBlocks:1>, <technodefirmacraft:IEBlocks>], [null, <technodefirmacraft:IEBlocks>, null]]);
 
 //# Electrode BluePrint
 	recipes.addShaped(<ImmersiveEngineering:blueprint:2>, [[<ore:dustHOPGraphite>, <ore:ingotBlackSteel>, <ore:dustHOPGraphite>], [<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
