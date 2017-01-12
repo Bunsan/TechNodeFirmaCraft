@@ -1,0 +1,21 @@
+{
+  "_name": "minecraft:soul_sand",
+  "stats": {
+    "opacity": 255,
+    "brightness": 0,
+    "hardness": 0.5,
+    "resistance": 2.5,
+    "sound": "sand",
+    "slipperiness": 0.6,
+    "tool_data": [
+      {
+        "tool": "shovel",
+        "level": 0
+      }
+    ]
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

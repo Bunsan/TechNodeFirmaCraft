@@ -1,0 +1,16 @@
+{
+  "_name": "minecraft:iron_door",
+  "stats": {
+    "opacity": 0,
+    "brightness": 0,
+    "hardness": 5.0,
+    "resistance": 25.0,
+    "sound": "metal",
+    "slipperiness": 0.6,
+    "tool_data": []
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

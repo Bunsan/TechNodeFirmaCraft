@@ -1,0 +1,16 @@
+{
+  "_name": "minecraft:red_flower",
+  "stats": {
+    "opacity": 0,
+    "brightness": 0,
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "sound": "grass",
+    "slipperiness": 0.6,
+    "tool_data": []
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

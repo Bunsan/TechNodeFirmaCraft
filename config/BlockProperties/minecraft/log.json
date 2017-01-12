@@ -1,0 +1,21 @@
+{
+  "_name": "minecraft:log",
+  "stats": {
+    "opacity": 255,
+    "brightness": 0,
+    "hardness": 2.0,
+    "resistance": 10.0,
+    "sound": "wood",
+    "slipperiness": 0.6,
+    "tool_data": [
+      {
+        "tool": "axe",
+        "level": 0
+      }
+    ]
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

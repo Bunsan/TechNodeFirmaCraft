@@ -1,0 +1,16 @@
+{
+  "_name": "minecraft:anvil",
+  "stats": {
+    "opacity": 0,
+    "brightness": 0,
+    "hardness": 5.0,
+    "resistance": 6000.0,
+    "sound": "anvil",
+    "slipperiness": 0.6,
+    "tool_data": []
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

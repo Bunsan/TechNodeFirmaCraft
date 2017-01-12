@@ -1,0 +1,21 @@
+{
+  "_name": "minecraft:cobblestone",
+  "stats": {
+    "opacity": 255,
+    "brightness": 0,
+    "hardness": 2.0,
+    "resistance": 30.0,
+    "sound": "piston",
+    "slipperiness": 0.6,
+    "tool_data": [
+      {
+        "tool": "pickaxe",
+        "level": 0
+      }
+    ]
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

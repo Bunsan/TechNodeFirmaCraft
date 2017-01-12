@@ -1,0 +1,21 @@
+{
+  "_name": "minecraft:grass",
+  "stats": {
+    "opacity": 255,
+    "brightness": 0,
+    "hardness": 0.6,
+    "resistance": 3.0,
+    "sound": "grass",
+    "slipperiness": 0.6,
+    "tool_data": [
+      {
+        "tool": "shovel",
+        "level": 0
+      }
+    ]
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

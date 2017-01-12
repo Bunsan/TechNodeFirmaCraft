@@ -1,0 +1,828 @@
+{
+  "_name": "minecraft:fire",
+  "stats": {
+    "opacity": 0,
+    "brightness": 15,
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "sound": "wood",
+    "slipperiness": 0.6,
+    "tool_data": [],
+    "fire_data": [
+      {
+        "_name": "terrafirmacraft:log",
+        "flammability": 5,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:WoodSupportV",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:DoorAspen",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "CarpentersBlocks:blockCarpentersSlope",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "minecraft:wool",
+        "flammability": 60,
+        "spread": 30
+      },
+      {
+        "_name": "minecraft:double_wooden_slab",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:WoodConstruct",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "minecraft:tnt",
+        "flammability": 100,
+        "spread": 15
+      },
+      {
+        "_name": "terrafirmacraft:FuelBlock",
+        "flammability": 10,
+        "spread": 10
+      },
+      {
+        "_name": "CarpentersBlocks:blockCarpentersSafe",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:DoorPine",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "CarpentersBlocks:blockCarpentersBarrier",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:StrawHideBed",
+        "flammability": 20,
+        "spread": 20
+      },
+      {
+        "_name": "minecraft:leaves2",
+        "flammability": 60,
+        "spread": 30
+      },
+      {
+        "_name": "terrafirmacraft:WoodSupportH",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "CarpentersBlocks:blockCarpentersStairs",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "minecraft:yellow_flower",
+        "flammability": 100,
+        "spread": 60
+      },
+      {
+        "_name": "terrafirmacraft:fruitTreeLeaves",
+        "flammability": 20,
+        "spread": 20
+      },
+      {
+        "_name": "CarpentersBlocks:blockCarpentersLadder",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "minecraft:oak_stairs",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:DoorSpruce",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:fruitTreeLeaves2",
+        "flammability": 20,
+        "spread": 20
+      },
+      {
+        "_name": "terrafirmacraft:WoodHoriz",
+        "flammability": 5,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:fruitTreeWood",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:WoodSupportH2",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:DoorSequoia",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "minecraft:log",
+        "flammability": 5,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:WoodVert",
+        "flammability": 5,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:FenceGate2",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:WoodHoriz3",
+        "flammability": 5,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:WoodHoriz2",
+        "flammability": 5,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:WoodHoriz4",
+        "flammability": 5,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:leaves2",
+        "flammability": 20,
+        "spread": 20
+      },
+      {
+        "_name": "minecraft:carpet",
+        "flammability": 20,
+        "spread": 60
+      },
+      {
+        "_name": "minecraft:birch_stairs",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "minecraft:fence",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "minecraft:planks",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "CarpentersBlocks:blockCarpentersBed",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:coalPile",
+        "flammability": 10,
+        "spread": 10
+      },
+      {
+        "_name": "terrafirmacraft:WoodSupportV2",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "minecraft:wooden_slab",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "minecraft:red_flower",
+        "flammability": 100,
+        "spread": 60
+      },
+      {
+        "_name": "terrafirmacraft:DoorWhiteElm",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:DoorDouglasFir",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "CarpentersBlocks:blockCarpentersDaylightSensor",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:LogPile",
+        "flammability": 10,
+        "spread": 10
+      },
+      {
+        "_name": "CarpentersBlocks:blockCarpentersGarageDoor",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "CarpentersBlocks:blockCarpentersFlowerPot",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:DoorMaple",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "CarpentersBlocks:blockCarpentersDoor",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "minecraft:bookshelf",
+        "flammability": 20,
+        "spread": 30
+      },
+      {
+        "_name": "terrafirmacraft:DoorAsh",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "CarpentersBlocks:blockCarpentersButton",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:WoodVert2",
+        "flammability": 5,
+        "spread": 5
+      },
+      {
+        "_name": "minecraft:leaves",
+        "flammability": 60,
+        "spread": 30
+      },
+      {
+        "_name": "terrafirmacraft:DoorWillow",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:DoorBirch",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "minecraft:jungle_stairs",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "minecraft:vine",
+        "flammability": 100,
+        "spread": 15
+      },
+      {
+        "_name": "terrafirmacraft:BerryBush",
+        "flammability": 20,
+        "spread": 20
+      },
+      {
+        "_name": "CarpentersBlocks:blockCarpentersPressurePlate",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:DoorAcacia",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:Barrel",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:Thatch",
+        "flammability": 20,
+        "spread": 20
+      },
+      {
+        "_name": "terrafirmacraft:DoorHickory",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:DoorWhiteCedar",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:DoorOak",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:DoorSycamore",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "CarpentersBlocks:blockCarpentersLever",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "minecraft:hay_block",
+        "flammability": 20,
+        "spread": 60
+      },
+      {
+        "_name": "terrafirmacraft:Chest TFC",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:DoorChestnut",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:planks2",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "minecraft:double_plant",
+        "flammability": 100,
+        "spread": 60
+      },
+      {
+        "_name": "terrafirmacraft:leaves",
+        "flammability": 20,
+        "spread": 20
+      },
+      {
+        "_name": "minecraft:log2",
+        "flammability": 5,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:FenceGate",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:log2",
+        "flammability": 5,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:DoorKapok",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "CarpentersBlocks:blockCarpentersHatch",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "minecraft:tallgrass",
+        "flammability": 100,
+        "spread": 60
+      },
+      {
+        "_name": "minecraft:spruce_stairs",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:Fence2",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:Crops",
+        "flammability": 20,
+        "spread": 20
+      },
+      {
+        "_name": "CarpentersBlocks:blockCarpentersCollapsibleBlock",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "minecraft:coal_block",
+        "flammability": 5,
+        "spread": 5
+      },
+      {
+        "_name": "CarpentersBlocks:blockCarpentersBlock",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:planks",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "CarpentersBlocks:blockCarpentersGate",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "terrafirmacraft:Fence",
+        "flammability": 20,
+        "spread": 5
+      },
+      {
+        "_name": "plantmegapack:bambooAsper",
+        "flammability": 100,
+        "spread":60
+      },
+      {
+        "_name": "plantmegapack:bambooFargesiaRobusta",
+        "flammability": 100,
+        "spread":60
+      },
+      {
+        "_name": "plantmegapack:bambooGiantTimber",
+        "flammability": 100,
+        "spread":60
+      },
+      {
+        "_name": "plantmegapack:bambooGolden",
+        "flammability": 100,
+        "spread":60
+      },
+      {
+        "_name": "plantmegapack:bambooMoso",
+        "flammability": 100,
+        "spread":60
+      },
+      {
+        "_name": "plantmegapack:bambooShortTassled",
+        "flammability": 100,
+        "spread":60
+      },
+      {
+        "_name": "plantmegapack:bambooTimorBlack",
+        "flammability": 100,
+        "spread":60
+      },
+      {
+        "_name": "plantmegapack:bambooTropicalBlue",
+        "flammability": 100,
+        "spread":60
+      },
+      {
+        "_name": "plantmegapack:bambooWetForest",
+        "flammability": 100,
+        "spread":60
+      },
+            {
+        "_name": "plantmegapack:bambooAsperBlock",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooFargesiaRobustaBlock",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooGiantTimberBlock",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooGoldenBlock",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooMosoBlock",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooShortTassledBlock",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooTimorBlackBlock",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooTropicalBlueBlock",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooWetForestBlock",
+        "flammability": 20,
+        "spread":5
+      },
+            {
+        "_name": "plantmegapack:bambooAsperStairs",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooFargesiaRobustaStairs",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooGiantTimberStairs",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooGoldenStairs",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooMosoStairs",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooShortTassledStairs",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooTimorBlackStairs",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooTropicalBlueStairs",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooWetForestStairs",
+        "flammability": 20,
+        "spread":5
+      },
+            {
+        "_name": "plantmegapack:bambooAsperSlab",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooFargesiaRobustaSlab",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooGiantTimberSlab",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooGoldenSlab",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooMosoSlab",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooShortTassledSlab",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooTimorBlackSlab",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooTropicalBlueSlab",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooWetForestSlab",
+        "flammability": 20,
+        "spread":5
+      },
+            {
+        "_name": "plantmegapack:bambooAsperDoor",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooFargesiaRobustaDoor",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooGiantTimberDoor",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooGoldenDoor",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooMosoDoor",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooShortTassledDoor",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooTimorBlackDoor",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooTropicalBlueDoor",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooWetForestDoor",
+        "flammability": 20,
+        "spread":5
+      },
+            {
+        "_name": "plantmegapack:bambooAsperPole",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooFargesiaRobustaPole",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooGiantTimberPole",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooGoldenPole",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooMosoPole",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooShortTassledPole",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooTimorBlackPole",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooTropicalBluePole",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooWetForestPole",
+        "flammability": 20,
+        "spread":5
+      },
+            {
+        "_name": "plantmegapack:bambooAsperFence",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooFargesiaRobustaFence",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooGiantTimberFence",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooGoldenFence",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooMosoFence",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooShortTassledFence",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooTimorBlackFence",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooTropicalBlueFence",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooWetForestFence",
+        "flammability": 20,
+        "spread":5
+      },
+            {
+        "_name": "plantmegapack:bambooAsperLadder",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooFargesiaRobustaLadder",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooGiantTimberLadder",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooGoldenLadder",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooMosoLadder",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooShortTassledLadder",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooTimorBlackLadder",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooTropicalBlueLadder",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooWetForestLadder",
+        "flammability": 20,
+        "spread":5
+      }
+    ]
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

@@ -1,0 +1,16 @@
+{
+  "_name": "minecraft:ender_chest",
+  "stats": {
+    "opacity": 0,
+    "brightness": 7,
+    "hardness": 22.5,
+    "resistance": 3000.0,
+    "sound": "piston",
+    "slipperiness": 0.6,
+    "tool_data": []
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

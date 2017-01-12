@@ -1,0 +1,16 @@
+{
+  "_name": "minecraft:hardened_clay",
+  "stats": {
+    "opacity": 255,
+    "brightness": 0,
+    "hardness": 1.25,
+    "resistance": 21.0,
+    "sound": "piston",
+    "slipperiness": 0.6,
+    "tool_data": []
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

@@ -1,0 +1,16 @@
+{
+  "_name": "minecraft:lit_redstone_lamp",
+  "stats": {
+    "opacity": 255,
+    "brightness": 15,
+    "hardness": 0.3,
+    "resistance": 1.5,
+    "sound": "glass",
+    "slipperiness": 0.6,
+    "tool_data": []
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

@@ -1,0 +1,16 @@
+{
+  "_name": "minecraft:red_mushroom_block",
+  "stats": {
+    "opacity": 255,
+    "brightness": 0,
+    "hardness": 0.2,
+    "resistance": 1.0,
+    "sound": "wood",
+    "slipperiness": 0.6,
+    "tool_data": []
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

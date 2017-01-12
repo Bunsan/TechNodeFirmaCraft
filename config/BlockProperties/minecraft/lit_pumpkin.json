@@ -1,0 +1,21 @@
+{
+  "_name": "minecraft:lit_pumpkin",
+  "stats": {
+    "opacity": 255,
+    "brightness": 15,
+    "hardness": 1.0,
+    "resistance": 5.0,
+    "sound": "wood",
+    "slipperiness": 0.6,
+    "tool_data": [
+      {
+        "tool": "axe",
+        "level": 0
+      }
+    ]
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

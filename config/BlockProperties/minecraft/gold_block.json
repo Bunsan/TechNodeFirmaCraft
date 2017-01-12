@@ -1,0 +1,21 @@
+{
+  "_name": "minecraft:gold_block",
+  "stats": {
+    "opacity": 255,
+    "brightness": 0,
+    "hardness": 3.0,
+    "resistance": 30.0,
+    "sound": "metal",
+    "slipperiness": 0.6,
+    "tool_data": [
+      {
+        "tool": "pickaxe",
+        "level": 2
+      }
+    ]
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

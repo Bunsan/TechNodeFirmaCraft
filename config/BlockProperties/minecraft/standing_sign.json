@@ -1,0 +1,16 @@
+{
+  "_name": "minecraft:standing_sign",
+  "stats": {
+    "opacity": 0,
+    "brightness": 0,
+    "hardness": 1.0,
+    "resistance": 5.0,
+    "sound": "wood",
+    "slipperiness": 0.6,
+    "tool_data": []
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

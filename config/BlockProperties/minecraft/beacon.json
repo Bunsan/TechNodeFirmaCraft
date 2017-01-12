@@ -1,0 +1,16 @@
+{
+  "_name": "minecraft:beacon",
+  "stats": {
+    "opacity": 0,
+    "brightness": 15,
+    "hardness": 3.0,
+    "resistance": 15.0,
+    "sound": "stone",
+    "slipperiness": 0.6,
+    "tool_data": []
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

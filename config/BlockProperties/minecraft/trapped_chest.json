@@ -1,0 +1,16 @@
+{
+  "_name": "minecraft:trapped_chest",
+  "stats": {
+    "opacity": 0,
+    "brightness": 0,
+    "hardness": 2.5,
+    "resistance": 12.5,
+    "sound": "wood",
+    "slipperiness": 0.6,
+    "tool_data": []
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}

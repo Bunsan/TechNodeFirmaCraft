@@ -1,0 +1,16 @@
+{
+  "_name": "minecraft:sandstone_stairs",
+  "stats": {
+    "opacity": 255,
+    "brightness": 0,
+    "hardness": 0.8,
+    "resistance": 4.0,
+    "sound": "piston",
+    "slipperiness": 0.6,
+    "tool_data": []
+  },
+  "break_speed": [],
+  "drops": [],
+  "harvest": [],
+  "xp": []
+}
