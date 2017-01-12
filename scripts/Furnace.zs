@@ -4,6 +4,7 @@
     furnace.remove(<minecraft:iron_ingot>);
 	furnace.remove(<minecraft:gold_ingot>);
     furnace.remove(<minecraft:emerald>);
+    furnace.remove(<minecraft:quartz>);
     furnace.remove(<Forestry:ingotTin>);
 	furnace.remove(<Forestry:ingotCopper>);
 	furnace.remove(<ImmersiveEngineering:metal:*>);

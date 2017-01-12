@@ -311,6 +311,7 @@ import minetweaker.data.IData;
     mods.mekanism.Enrichment.removeRecipe(<terrafirmacraft:item.Ore Pile:*>);    
     mods.mekanism.Enrichment.removeRecipe(<terrafirmacraft:item.Powder:4>);
     mods.mekanism.Enrichment.removeRecipe(<Railcraft:dust:2>);
+    mods.mekanism.Enrichment.removeRecipe(<ore:oreQuartz>);
  
 //#Addition
 //Piles -> Dust

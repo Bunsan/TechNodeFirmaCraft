@@ -242,12 +242,6 @@ import minetweaker.item.IItemStack;
 	recipes.addShaped(<minecraft:stone_slab> * 3, [[<ore:itemChisel>, null, <ore:itemHammer>], [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>]]);
 //# Nether Brick Slabs
     recipes.addShaped(<minecraft:stone_slab:6> * 3, [[<ore:itemChisel>, null, <ore:itemHammer>], [<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>]]);
-//# Quartz Blocks
-	recipes.addShaped(<minecraft:quartz_block>, [[<ore:gemQuartz>, <terrafirmacraft:item.Mortar>, <ore:gemQuartz>], [<terrafirmacraft:item.Mortar>, <terrafirmacraft:item.dyePowder:15>, <terrafirmacraft:item.Mortar>], [<ore:gemQuartz>, <terrafirmacraft:item.Mortar>, <ore:gemQuartz>]]);
-	recipes.addShapedMirrored(<minecraft:stone_slab:7> * 3, [[<ore:itemChisel>, null, <ore:itemHammer>], [<minecraft:quartz_block>, <minecraft:quartz_block>, <minecraft:quartz_block>]]);
-	recipes.addShapedMirrored(<minecraft:quartz_block:1>, [[<minecraft:stone_slab:7>, <ore:itemChisel>], [<minecraft:stone_slab:7>, <ore:itemHammer>]]);
-	recipes.addShapedMirrored(<minecraft:quartz_block:2> * 2, [[<minecraft:quartz_block>, <ore:itemChisel>], [<minecraft:quartz_block>, <ore:itemHammer>]]);
-	recipes.addShapedMirrored(<minecraft:quartz_stairs> * 6, [[<minecraft:quartz_block>, <ore:itemChisel>, null], [<minecraft:quartz_block>, <minecraft:quartz_block>, <ore:itemHammer>], [<minecraft:quartz_block>,<minecraft:quartz_block>,<minecraft:quartz_block>]]);
 
 //# Glowstone/Scapolite block recipe
 	recipes.addShaped(<minecraft:glowstone>, [[<ore:dustGlowstone>, <ore:dustGlowstone>], [<ore:dustGlowstone>, <ore:dustGlowstone>], [<ore:bucketFreshWater>, null]]);

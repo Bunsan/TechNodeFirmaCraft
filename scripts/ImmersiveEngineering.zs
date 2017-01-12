@@ -403,8 +403,7 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 2, [<ImmersiveEngineer
 	//OutputStack, InputStack, Energy, OutputStack2, Chance //Chance in Decimals
 //#Other Mod stuff
     mods.immersiveengineering.Crusher.addRecipe(<ImmersiveEngineering:metal:19>, <ImmersiveEngineering:metal:20>, 3600); //HOP Graphite bar to dust
-	mods.immersiveengineering.Crusher.addRecipe(<minecraft:quartz> * 4, <ore:oreQuartz>, 6000, <minecraft:gunpowder>, 0.25);
-    mods.immersiveengineering.Crusher.addRecipe(<ImmersiveEngineering:metal:18>, <minecraft:quartz>, 3600);
+    mods.immersiveengineering.Crusher.addRecipe(<ImmersiveEngineering:metal:18>, <ore:gemQuartz>, 3600);
 
 //#Ores	
     mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.MetalDust> * 2, <ore:oreBismuth>, 6000, <terrafirmacraft:item.Powder:3>, 0.1);

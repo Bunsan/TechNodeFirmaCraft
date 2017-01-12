@@ -192,9 +192,11 @@ for i in meta {
 //#Removal
 	//InputStack
 	//mods.forestry.Centrifuge.removeRecipe(<Forestry:beeCombs>);
+    mods.forestry.Centrifuge.removeRecipe(<Forestry:beeCombs:16>);
 //#Additon
 	//Time recipe requires (Ticks), InputStack, OutputArray, ChanceArray
 	//mods.forestry.Centrifuge.addRecipe(20, <minecraft:sapling>, [<minecraft:leaves> * 2, <minecraft:stick>, <Forestry:beeCombs>], [100, 80, 20]); 
+    mods.forestry.Centrifuge.addRecipe(20, <Forestry:beeCombs:16>, [<Forestry:honeydew>, <terrafirmacraft:item.MineralOre:24>, <Forestry:beeswax>], [60, 30, 20]);
 
 // Fermenter Recipes
 //#Removal

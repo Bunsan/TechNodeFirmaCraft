@@ -70,28 +70,6 @@
 	recipes.addShapeless(<terrafirmacraft:item.Jasper:3> * 2, [<ore:craftingToolMediumChisel>, <ore:gemExquisiteJasper>, <ore:itemHammer>]);
 
 // ================================================================================
-//#MARKER ADD SHAPED
-
-//# Alloy Dusts
-
-    
-	recipes.addShaped(<terrafirmacraft:item.MetalDust:15> * 9, [[<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>], [<ore:dustZinc>, <ore:dustBismuth>, <ore:dustZinc>], [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>]]);
-	recipes.addShaped(<terrafirmacraft:item.MetalDust:16> * 9, [[<ore:dustCopper>, <ore:dustGold>, <ore:dustCopper>], [<ore:dustSilver>, <ore:dustCopper>, <ore:dustSilver>], [<ore:dustCopper>, <ore:dustGold>, <ore:dustCopper>]]);
-	recipes.addShaped(<terrafirmacraft:item.MetalDust:19> * 9, [[<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>], [<ore:dustCopper>, <ore:dustZinc>, <ore:dustCopper>], [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>]]);
-    recipes.addShaped(<terrafirmacraft:item.MetalDust:20> * 9, [[<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>], [<ore:dustCopper>, <ore:dustTin>, <ore:dustCopper>], [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>]]);
-    recipes.addShapeless(<terrafirmacraft:item.MetalDust:21>, [<terrafirmacraft:item.MetalDust:27>, <terrafirmacraft:item.MetalDust:6>]);
-	recipes.addShapeless(<terrafirmacraft:item.MetalDust:22>, [<terrafirmacraft:item.MetalDust:28>, <terrafirmacraft:item.MetalDust:17>]);
-	recipes.addShapeless(<terrafirmacraft:item.MetalDust:23>, [<terrafirmacraft:item.MetalDust:29>, <terrafirmacraft:item.MetalDust:17>]);
-    recipes.addShaped(<terrafirmacraft:item.MetalDust:25> * 9, [[<ore:dustGold>, <ore:dustGold>, <ore:dustGold>], [<ore:dustCopper>, <ore:dustGold>, <ore:dustCopper>], [<ore:dustGold>, <ore:dustGold>, <ore:dustGold>]]);
-	recipes.addShaped(<terrafirmacraft:item.MetalDust:26> * 9, [[<ore:dustSilver>, <ore:dustSilver>, <ore:dustSilver>], [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>], [<ore:dustSilver>, <ore:dustSilver>, <ore:dustSilver>]]);
-	recipes.addShaped(<terrafirmacraft:item.MetalDus t:27> * 9, [[<ore:dustSteel>, <ore:dustNickel>, <ore:dustSteel>], [<terrafirmacraft:item.MetalDust:16>, <ore:dustSteel>, <terrafirmacraft:item.MetalDust:16>], [<ore:dustSteel>, <ore:dustNickel>, <ore:dustSteel>]]);
-	recipes.addShaped(<terrafirmacraft:item.MetalDust:28> * 9, [[<terrafirmacraft:item.MetalDust:17>, <terrafirmacraft:item.MetalDust:15>, <terrafirmacraft:item.MetalDust:17>], [<ore:dustSteel>, <terrafirmacraft:item.MetalDust:17>, <ore:dustSteel>], [<terrafirmacraft:item.MetalDust:17>, <terrafirmacraft:item.MetalDust:26>, <terrafirmacraft:item.MetalDust:17>]]);	
-    recipes.addShaped(<terrafirmacraft:item.MetalDust:29> * 9, [[<terrafirmacraft:item.MetalDust:17>, <terrafirmacraft:item.MetalDust:19>, <terrafirmacraft:item.MetalDust:17>], [<ore:dustSteel>, <terrafirmacraft:item.MetalDust:17>, <ore:dustSteel>], [<terrafirmacraft:item.MetalDust:17>, <terrafirmacraft:item.MetalDust:25>, <terrafirmacraft:item.MetalDust:17>]]);
-    recipes.addShapeless(<terrafirmacraft:item.MetalDust:30>, [<ore:dustGold>, <ore:dustSilver>]);
-    recipes.addShapeless(<terrafirmacraft:item.MetalDust:31>, [<ore:dustCopper>, <ore:dustNickel>]);
-
-
-// ================================================================================
 //#TFC Custom Machine Recipes
 
 //# Barrel

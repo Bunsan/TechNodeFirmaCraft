@@ -58,13 +58,13 @@
 <!-- Base Scripts -->
         <!-- Marquee Mods -->
         <mod 
-        name="TerraFirmaCraft" version="0.79.29_tnfc.0d1e50e" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.29_tnfc.0d1e50e.jar" file="[1.7.10]TerraFirmaCraft-0.79.29_tnfc.0d1e50e.jar" md5="164d9cd702df6aec8cfa2e1ddaa15edd" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="TerraFirmaCraft" version="0.79.29_tnfc.63b964f"  url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.29_tnfc.63b964f.jar" file="[1.7.10]TerraFirmaCraft-0.79.29_tnfc.63b964f.jar" md5="3b0f80b6e7f8fcb6e1306a71bdb0f6a9" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod 
-        name="TechNodefirmacraft" version="3.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TechNodefirmacraft-3.0.jar" file="[1.7.10]TechNodefirmacraft-3.0.jar" md5="49ac24d128b243dcdc7e8a857b9152b2" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="AnodeCathode, Bunsan" optional="no" description="Custom integration and features for TechNodefirmacraft modpack" client="yes" server="yes" serveroptional="no"
+        name="TechNodefirmacraft" version="3.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TechNodefirmacraft-3.0.jar" file="[1.7.10]TechNodefirmacraft-3.0.jar" md5="4dbbcc6360331a45cc8088520cb3eceb" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="AnodeCathode, Bunsan" optional="no" description="Custom integration and features for TechNodefirmacraft modpack" client="yes" server="yes" serveroptional="no"
         />
         <mod 
-        name="TerrafirmaStuff" version="0.2.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]terrafirmastuff-0.2.jar" file="[1.7.10]terrafirmastuff-0.2.jar" md5="45d510680f94a24c441d796f7fa3f9e7" download="server" type="mods" website="https://github.com/Bunsan/TerraFirmaStuff" description="Adding blocks to TFC" authors="Bunsan" optional="no" client="yes" server="yes" serveroptional="no"
+        name="TerrafirmaStuff" version="0.2.0.tnfc"  url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]terrafirmastuff-0.2.tnfc.jar" file="[1.7.10]terrafirmastuff-0.2.tnfc.jar" md5="32d4ca3e2270d9e86b18743851f99ec8" download="server" type="mods" website="https://github.com/Bunsan/TerraFirmaStuff" description="Adding blocks to TFC" authors="Bunsan" optional="no" client="yes" server="yes" serveroptional="no"
         />
         <mod 
         name="Railcraft" version="9.12.2.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/Railcraft_1.7.10-9.12.2.0.jar" file="Railcraft_1.7.10-9.12.2.0.jar" md5="c259e18bb43599134b3a6f96cba5f26d" download="server" type="mods" website="http://railcraft.info/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/mc-mods/51195-railcraft&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=CovertJaguar%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_return=http://m" authors="CovertJaguar" description="Redefine your rails" client="yes" server="yes" serveroptional="no" 
@@ -171,7 +171,7 @@
         
         <!-- Pack Customization Mods -->
         <mod
-        name="Scripts" version="3.0" url="packs/TechNodefirmacraft/files/extract/scriptsDev3.0.zip" file="scriptsDev3.0.zip" md5="f3357e41663239fb18c44ad94ab3a4da" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="Scripts" version="3.0" url="packs/TechNodefirmacraft/files/extract/scriptsDev3.zip" file="scriptsDev3.zip" md5="a01eee9015a847be260639363368ad72" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod
         name="MineTweaker 3" version="3.0.10B" url="packs/TechNodefirmacraft/files/1.7.10Mods/MineTweaker3-1.7.10-3.0.10B.jar" file="MineTweaker3-1.7.10-3.0.10B.jar" md5="884933d1b933e0bd2f93293201569f13" download="server" type="mods" website="http://minetweaker3.powerofbytes.com" authors="Stan Hebben" description="Customize your minecraft experience!" client="yes" optional="no" server="yes" serveroptional="no"
@@ -190,6 +190,9 @@
         />
         <mod 
         name="Mob Properties" version="1.7.10-1.0.2" url="packs/TechNodefirmacraft/files/1.7.10Mods/MobProperties-1.7.10-1.0.2.jar" file="MobProperties-1.7.10-1.0.2.jar" md5="be02ea47aad31407ff5fa95002c68cb0" download="server" type="mods" website="http://www.minecraftforum.net/topic/1153874-/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/mc-mods/224298-mob-properties&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=father.toast%40hotmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_return=" authors="FatherToast" description="Allows advanced customization options for all mobs&apos; drops, attributes, and NBT data." client="yes" optional="no" server="yes" serveroptional="no"
+        />
+        <mod 
+        name="Block Properties" version="1.7.10-0.1.5" url="packs/TechNodefirmacraft/files/1.7.10Mods/BlockProperties-1.7.10-0.1.5.jar" file="BlockProperties-1.7.10-0.1.5.jar" md5="080d60ef5500d36ec33b6d680dc5b110" download="server" type="mods" website="http://www.minecraftforum.net/topic/1153874-/" donation="https://www.paypal.com/cgi-bin/webscr?return=https://minecraft.curseforge.com/projects/block-properties?gameCategorySlug=mc-mods&amp;projectID=230368&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=father.toast%40hotmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_return=https://minecraft.curseforge.com/projects/block-properties?gameCategorySlug=mc-mods&amp;projectID=230368&amp;lc=US&amp;item_name=Block+Properties+(from+curseforge.com)&amp;cmd=_donations&amp;rm=1&amp;no_shipping=1&amp;currency_code=USD" authors="FatherToast" description="Allows advanced customization options for blocks. Based on Mob Properties." client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod 
         name="Custom Main Menu" version="1.9.2" url="packs/TechNodefirmacraft/files/1.7.10Mods/CustomMainMenu-MC1.7.10-1.9.2.jar" file="CustomMainMenu-MC1.7.10-1.9.2.jar" md5="7d0a3079e02fc07cd19a9558227e878b" download="server" type="mods" website="http://www.curseforge.com/projects/226406/" authors="lumien" description="Allows you to edit the mainmenu using json" client="yes" optional="no" server="no"
@@ -301,9 +304,6 @@
         <mod
         name="Farseek" version="1.0.11" url="packs/TechNodefirmacraft/files/1.7.10Mods/Farseek-1.0.11.jar" file="Farseek-1.0.11.jar" md5="e6deb2987bc0c8feb3de9edd87d89745" download="server" type="mods" website="http://terrafirmacraft.com/f/topic/7850-tfc-07915-streams-real-flowing-rivers/" authors="delvr" description="Streams lib." client="yes" optional="yes" server="yes" serveroptional="yes" library="yes"
         />
-         <mod
-        name="RPG Advanced Mod" version="1.0.0_1.7.10" url="packs/TechNodefirmacraft/files/1.7.10Mods/RPGAdvMod-1.0.0_1.7.10.jar" file="RPGAdvMod-1.0.0_1.7.10.jar" md5="3c4df33d52d556ade11995a580fb3700" download="server" type="mods" website="http://minecraft.curseforge.com/mc-mods/220611-rpg-advanced-mod" authors="ProfMobius,RazzleberryFox,Taelnia,Wulfyk" description="Provides advanced RPG style blocks and features." client="yes" optional="yes" server="yes" serveroptional="yes" colour="cyan" depends="ScriptRPGADV" recommended="yes"
-        />
         <mod name="Streams 0.2 Makes caves" version="0.2" url="packs/TechNodefirmacraft/files/1.7.10Mods/Streams-0.2.jar" file="Streams-0.2.jar" md5="4aefeee9e2c22a11b6f6c8b76ab7a267" download="server" type="mods" website="http://www.curseforge.com/projects/229769/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/streams?gameCategorySlug=mc-mods&amp;projectID=229769&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=delver.delves%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG." authors="delvr" description="This mod introduces real flowing rivers, with a true current, to your Minecraft worlds. Compatible with many terrain generators!" recommended="yes" client="yes" optional="yes" server="yes" serveroptional="yes"  colour="cyan" depends="Farseek"
         />
         <mod 
@@ -392,9 +392,6 @@
         />
         <mod
         name="ScriptHQM" version="HQM_dev_3.0" url="packs/TechNodefirmacraft/files/extract/HQM_scripts_3.0.zip" file="HQM_scripts_3.0.zip" md5="e7b5558f29293b3cbd5fb5c3aa9e8ebb" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Script for HQM" client="yes" optional="yes" server="yes" serveroptional="yes" library="yes"
-        />
-        <mod
-        name="ScriptRPGADV" version="2.12.1" url="packs/TechNodefirmacraft/files/extract/RPGADVscripts_2.16.zip" file="RPGADVscripts_2.16.zip" md5="5e58cc4a14292e19da35338823998780" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Script for RPG Adv mod." client="yes" optional="yes" server="yes" serveroptional="yes" library="yes" 
         />
         <mod 
         name="Resource Loaders Folder" version="2.10" url="packs/TechNodefirmacraft/files/extract/resources_2.10.zip" file="resources_2.10.zip" md5="33a24c409fe81854c0d3cb4077410357" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="no"
