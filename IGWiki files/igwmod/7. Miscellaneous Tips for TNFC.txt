@@ -15,17 +15,13 @@ Slime Balls are renamed Resin and have been recoloured. This is because slimes a
 Conversions
 We've tried the best we could to have only one version of items, however due to hardcoded mods and quirks we've added in some conversion recipes.
  
-Bottles
-
-You can craft TFC bottles and convert them to vanilla bottles. Vanilla bottles are required for non-TFC fluids such as creosote.
- 
 Charcoal
 
 Railcraft and TFC hardcodes the fuels for its furnaces etc. Due to this and need to balance Coke oven, vanilla charcoal is in the pack, although retextured. However it isn't a straight conversion as we've set it to have half the fuel value of TFC charcoal. You can craft TFC charcoal with 2 vanilla and convert it back as well.
  
 Coal Coke
 
-As said Railcraft hardcodes its fuels. Both the RC and IE Coke ovens produce IE coal coke. So it is necessary to convert IE coal coke into RC variety. They can convert both ways.
+As said Railcraft hardcodes its fuels. Both the RC and IE Coke ovens produce RC coal coke. 
  
 Steel Block
 

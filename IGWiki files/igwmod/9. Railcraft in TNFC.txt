@@ -12,7 +12,7 @@ The Railcraft Blast Furnace uses roughly the same amount of coal as the TFC Blas
  
 Rolling Machine
 
-This machine will be on everyone's wish list. It will allow you to mass produce many items that require the anvil. Double ingots, sheets, double sheets, steel processing and more can all be done using cold metal. You will miss out on valuable smithing skill points, but when you need a ton of sheets you will be glad it is there. It is not able to work the highest tier of alloys, you will need to invest in higher tier machines for this.
+This machine will be on everyone's wish list. It will allow you to mass produce many items that require the anvil. Double ingots, sheets, double sheets, steel processing and more can all be done using cold metal. You will miss out on valuable smithing skill points, but when you need a ton of sheets you will be glad it is there. It is not able to work the highest tier of alloys, you will need to invest in higher tier machines for this. They are also useful for automating ore pile creation.
  
 Water Tank
 

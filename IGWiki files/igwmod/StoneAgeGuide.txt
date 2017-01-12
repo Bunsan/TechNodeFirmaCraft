@@ -38,7 +38,8 @@ The tech-tree in TerraFirmaCraft is a complete overhaul of the vanilla progressi
 [prefix{l}]Gravity[prefix{}]
 
 In addition to sand and gravel, dirt, grass and cobblestone are also affected by gravity in TerraFirmaCraft. Unlike in vanilla, gravity-affected blocks are able to fall sideways in addition to straight down. This means that without a proper support system, you will not be able to create walls or ceilings out of these blocks.
-Mob Spawning
+
+[prefix{l}]Mob Spawning[prefix{}]
 
 TerraFirmaCraft implements a hostile mob spawn protection system that prevents mobs from spawning in areas that you have spent a fair amount of time in. Areas with this hostile mob spawn protection will not spawn hostile mobs regardless of the current light level. With the removal of the light-level dependency for mob spawning, TerraFirmaCraft has also implemented the ability for torches to burn out.
 
