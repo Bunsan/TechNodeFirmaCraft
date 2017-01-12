@@ -1,9 +1,12 @@
 [prefix{l}]Version 3.0 - A Whole New World[prefix{}] 
 
+We thought we were finished with this, but... Long story short with no TFC2 imminent I started playing TNFC SSP. A small fix for my own play through led to another and another and well here we are with version 3.0. This update breaks old worlds completely. You must start a new world/map for this update. Many of the changes are for integration within the pack. Adding new TFC'd ores and fixing small issues in TFC that always bugged me. So enjoy this totally unintended new version.
+
 Pack Changes
 
 - Reduced Plant Mega Pack spawn a bit. Reduced Bamboo spawning and set so all types of bamboo will now spawn.
 - Bamboo uses Treecapitator to chop. If broken without an axe only broken block will break. Breaking dirt under bamboo won't break bamboo.
+- Bamboo burns.
 - Ore Piles and associated recipes can be made in the Rolling Machine.
 - Changes to Ropes+ rope recipe.
    - 4 Jute Fibre -> 3 Rope+ ropes.
@@ -14,10 +17,11 @@ Pack Changes
    - 9 Ropes+ ropes - > 1 Burlap cloth. Uses water.
 - Removed crafting recipes for World-gen bees.
 - Added anvil recipes for Decorations and Merchants to fix arrow issue on servers.
+- Removed all custom blocks that are replicated in TerrafirmaStuff.
+- Move all other custom blocks into TNFCmod.
 
 Updated Mods:
 TFC-TNFC
-
 - Added Osmium, Tungsten and Aluminum Ore, Sheets, ingots etc.
 - Added surface chunks for new ores.
 - Set Aluminum Ore to not smelt in crucible. Requires Arc Furnace. Aluminum Metal items an melt in crucible. Config option to allow ore smelting.
@@ -36,6 +40,7 @@ TFC-TNFC
 - Seaweed now drops onto of the gravel block. Less likely to go flying off in random directions.
 - Quern handle is not much more forgiving for clicking.
 - Added Quartz Ore.
+- Tweaked desserts to be just a little bit less rare (rainfall value of 125 will now generate as a desert)
 
 TNFCmod
 - Added our packs Meta:CustomItems and TabulaRasa custom items and blocks.
