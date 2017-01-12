@@ -53,6 +53,14 @@
       "maxStackSize": 32
     },
     {
+      "name": "Forestry:fences",
+      "maxStackSize": 32
+    },
+    {
+      "name": "Forestry:fencesFireproof",
+      "maxStackSize": 32
+    },
+    {
       "name": "minecraft:log",
       "maxStackSize": 16
     },
@@ -120,6 +128,10 @@
       "maxStackSize": 1
     },
     {
+      "name": "plantmegapack:bambooAsperFence",
+      "maxStackSize": 32
+    },
+    {
       "name": "plantmegapack:bambooFargesiaRobusta",
       "maxStackSize": 16,
       "toolClass": "axe",
@@ -145,6 +157,10 @@
     {
       "name": "plantmegapack:bambooFargesiaRobustaDoor",
       "maxStackSize": 1
+    },
+    {
+      "name": "plantmegapack:bambooFargesiaRobustaFence",
+      "maxStackSize": 32
     },
     {
       "name": "plantmegapack:bambooGiantTimber",
@@ -173,6 +189,10 @@
       "maxStackSize": 1
     },
     {
+      "name": "plantmegapack:bambooGiantTimberFence",
+      "maxStackSize": 32
+    },
+    {
       "name": "plantmegapack:bambooGolden",
       "maxStackSize": 16,
       "toolClass": "axe",
@@ -197,6 +217,10 @@
     {
       "name": "plantmegapack:bambooGoldenDoor",
       "maxStackSize": 1
+    },
+    {
+      "name": "plantmegapack:bambooGoldenFence",
+      "maxStackSize": 32
     },
     {
       "name": "plantmegapack:bambooMoso",
@@ -225,6 +249,10 @@
       "maxStackSize": 1
     },
     {
+      "name": "plantmegapack:bambooMosoFence",
+      "maxStackSize": 32
+    },
+    {
       "name": "plantmegapack:bambooShortTassled",
       "maxStackSize": 16,
       "toolClass": "axe",
@@ -249,6 +277,10 @@
     {
       "name": "plantmegapack:bambooShortTassledDoor",
       "maxStackSize": 1
+    },
+    {
+      "name": "plantmegapack:bambooShortTassledFence",
+      "maxStackSize": 32
     },
     {
       "name": "plantmegapack:bambooTimorBlack",
@@ -277,6 +309,10 @@
       "maxStackSize": 1
     },
     {
+      "name": "plantmegapack:bambooTimorBlackFence",
+      "maxStackSize": 32
+    },
+    {
       "name": "plantmegapack:bambooTropicalBlue",
       "maxStackSize": 16,
       "toolClass": "axe",
@@ -303,6 +339,10 @@
       "maxStackSize": 1
     },
     {
+      "name": "plantmegapack:bambooTropicalBlueFence",
+      "maxStackSize": 32
+    },
+    {
       "name": "plantmegapack:bambooWetForest",
       "maxStackSize": 16,
       "toolClass": "axe",
@@ -327,6 +367,10 @@
     {
       "name": "plantmegapack:bambooWetForestDoor",
       "maxStackSize": 1
+    },
+    {
+      "name": "plantmegapack:bambooWetForestFence",
+      "maxStackSize": 32
     }
     ]
 }
