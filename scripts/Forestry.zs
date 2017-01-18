@@ -43,6 +43,8 @@ import minetweaker.item.IItemStack;
     recipes.remove(<Forestry:naturalistHelmet>);
     recipes.remove(<Forestry:frameUntreated>);
     recipes.remove(<Forestry:frameImpregnated>);
+    recipes.remove(<Forestry:habitatLocator>);
+    recipes.remove(<Forestry:factory2:1>);
     
 // ================================================================================
 //#ADD SHAPELESS
@@ -67,7 +69,7 @@ import minetweaker.item.IItemStack;
 	recipes.addShaped(<Forestry:gearBronze> * 2, [[null, <ore:craftingToolHammer>, null], [<Railcraft:part.gear:3>, <ore:plateDoubleAnyBronze>, <Railcraft:part.gear:3>]]);
 
 //#Reinstating a Forestry Sturdy Machine Recipe
-	recipes.addShaped(<Forestry:sturdyMachine>, [[null, <ore:plateAnyBronze>, null], [<ore:plateAnyBronze>, <ore:craftingToolMediumHammer>, <ore:plateAnyBronze>], [null, <ore:plateAnyBronze>, null]]);
+	recipes.addShaped(<Forestry:sturdyMachine>, [[null, <ore:plateAnyBronze>, null], [<ore:plateAnyBronze>, <ore:craftingToolHammer>, <ore:plateAnyBronze>], [null, <ore:plateAnyBronze>, null]]);
 
 //#Stamps
 	recipes.addShaped(<Forestry:stamps> * 9, [[<ore:gemApatite>, <ore:gemApatite>, <ore:gemApatite>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>], [<ore:dropHoney>, <ore:dropHoney>, <ore:dropHoney>]]);
@@ -80,7 +82,8 @@ import minetweaker.item.IItemStack;
 	recipes.addShaped(<Forestry:engine:4>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:itemHammer>, <ore:blockGlassColorless>, <ore:craftingToolChisel>], [<ore:gearCopper>, <ore:craftingPiston>, <minecraft:clock>]]);
 	recipes.addShaped(<Forestry:engine:1>, [[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>], [<ore:itemHammer>, <ore:blockGlassColorless>, <ore:craftingToolChisel>], [<ore:gearCopper>, <ore:craftingPiston>, <ore:gearCopper>]]);
 	recipes.addShaped(<Forestry:engine:2>, [[<ore:plateAnyBronze>, <ore:plateAnyBronze>, <ore:plateAnyBronze>], [<ore:itemHammer>, <ore:blockGlassColorless>, <ore:craftingToolChisel>], [<ore:gearBronze>, <ore:craftingPiston>, <ore:gearBronze>]]);
-
+//#RainTank
+    recipes.addShaped(<Forestry:factory2:1>, [[<ore:stone>, null, <ore:stone>], [<ore:stone>, <Forestry:sturdyMachine>, <ore:stone>], [<ore:stone>, <ore:stone>, <ore:stone>]]);
 //# Carpenter
     recipes.addShaped(<Forestry:factory:1>, [[<ore:ingotAnyBronze>, <ore:blockGlass>, <ore:ingotAnyBronze>], [<ore:ingotAnyBronze>, <Forestry:sturdyMachine>, <ore:ingotAnyBronze>], [<ore:ingotAnyBronze>, <ore:blockGlass>, <ore:ingotAnyBronze>]]);
     

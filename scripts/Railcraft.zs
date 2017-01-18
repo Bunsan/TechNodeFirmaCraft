@@ -57,6 +57,8 @@
 	recipes.remove(<Railcraft:machine.beta:2>);
 	recipes.remove(<Railcraft:machine.beta:14>);
 	recipes.remove(<Railcraft:machine.beta:15>);
+//# Water Tank
+    recipes.remove(<Railcraft:machine.alpha:14>);
 //# Rolling Machine
 	recipes.remove(<Railcraft:machine.alpha:8>);
 //# Steam Oven
@@ -203,7 +205,8 @@
 	recipes.addShaped(<Railcraft:machine.beta:6> * 3, [[<ore:plateSteel>, <minecraft:iron_bars>, <ore:plateSteel>], [<minecraft:iron_bars>, <ore:craftingToolMediumHammer>, <minecraft:iron_bars>], [<ore:plateSteel>, <terrafirmacraft:EarlyBloomery>, <ore:plateSteel>]]);
 //# Solid Fire Box
 	recipes.addShaped(<Railcraft:machine.beta:5> * 3, [[<terrafirmacraft:item.Fire Brick:1>, <ore:plateSteel>, <terrafirmacraft:item.Fire Brick:1>], [<ore:plateSteel>, <ore:craftingToolMediumHammer>, <ore:plateSteel>], [<terrafirmacraft:item.Fire Brick:1>, <terrafirmacraft:EarlyBloomery>, <terrafirmacraft:item.Fire Brick:1>]]);
-
+//# WaterTank
+    recipes.addShaped(<Railcraft:machine.alpha:14> * 9, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:slimeball>, <ore:plateIron>, <ore:slimeball>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 //# Rolling Machine
 	recipes.addShaped(<Railcraft:machine.alpha:8>, [[<ore:plateSteel>, <minecraft:piston>, <ore:plateSteel>], [<minecraft:piston>, <ore:craftingToolMediumHammer>, <minecraft:piston>], [<ore:plateSteel>, <minecraft:piston>, <ore:plateSteel>]]);
 //# Gears
