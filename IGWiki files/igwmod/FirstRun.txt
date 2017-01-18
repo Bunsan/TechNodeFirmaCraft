@@ -1,3 +1,26 @@
+[prefix{l}]Beta Version 3[prefix{l}]
+
+What needs testing. Below there is a preliminary changelog to read, but some key points. 
+
+Worldgen
+- Osmium, Aluminum (Bauxite), Tungsten (Scheelite and Wolframite), Apatite, Strontium, Scapolite and Quartz are their own proper ores. Serpentine and Petrified Wood worldgen have been reinitialised in TFC. Generally the code was reorganised. Generation, WAILA (+tooltip) pro pick and that they actually drop the right thing. 
+- Deserts should be mildly more common. Let me know if you find a desert and what the rainfall value is. 
+- PMP spawn good? Can you find bamboo? Is it rare or easy to find. What biome?
+- Fruit trees are generating.
+- Planting and growth of Fruit trees works.
+
+Machines
+- Ore processing in RC, IE and Mek.
+- Pile creation in RC rolling machine.
+
+New Stuff
+- Coal Piles working properly. 
+- Coke Pits, which are like charcoal pits, but with coal piles. The coal piles must be full to generate Coke block. Block is harvested with hammer. 
+- Osmium and tungsten in TFC forge/crucible. Should need Coke fuel and bellows to get forge/crucible hot enough. 
+- TerrafirmaStuff recipes work. 
+
+**********************************************************************
+
 [prefix{l}]Version 3.0 - A Whole New World[prefix{}] 
 
 We thought we were finished with this, but... Long story short with no TFC2 imminent I started playing TNFC SSP. A small fix for my own play through led to another and another and well here we are with version 3.0. This update breaks old worlds completely. You must start a new world/map for this update. Many of the changes are for integration within the pack. Adding new TFC'd ores and fixing small issues in TFC that always bugged me. So enjoy this totally unintended new version.
@@ -19,6 +42,9 @@ Pack Changes
 - Added anvil recipes for Decorations and Merchants to fix arrow issue on servers.
 - Removed all custom blocks that are replicated in TerrafirmaStuff.
 - Move all other custom blocks into TNFCmod.
+
+HQM
+- Quests cleaned up and minor fixes.
 
 Updated Mods:
 TFC-TNFC
@@ -61,7 +87,6 @@ VoxelMap
 
 BetterFoliage
 
-
 Added Mods:
 TerrafirmaStuff
 - Aesthetic blocks that can be chiselled. Hardened Clay, Stone Blocks, Jet Blocks, Quartz Blocks, Serpentine Blocks and fences.
@@ -72,7 +97,7 @@ Block Properties
 WAILA Harvestability
 - Tells you tool to use to break things. Logs show hammer, as that gives you sticks, but does use axe.
 
-Chat Flow
+Chat Flow ** pending
 
 Removed Mods:
 Tabula Rasa
