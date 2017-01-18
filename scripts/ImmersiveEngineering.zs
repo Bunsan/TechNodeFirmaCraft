@@ -329,7 +329,7 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 2, [<ImmersiveEngineer
 	mods.immersiveengineering.CokeOven.removeRecipe(<ImmersiveEngineering:stoneDecoration:3>);
 //#Addition
 	//OutputStack, FuelOutput, InputStack, Time in Ticks
-	mods.immersiveengineering.CokeOven.addRecipe(<ImmersiveEngineering:material:6>, 500, <terrafirmacraft:item.coal>, 900);
+	mods.immersiveengineering.CokeOven.addRecipe(<Railcraft:fuel.coke>, 500, <terrafirmacraft:item.coal>, 900);
 	mods.immersiveengineering.CokeOven.addRecipe(<Railcraft:cube>, 5000, <minecraft:coal_block>, 8100);
 
 //Crusher
@@ -470,7 +470,7 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 2, [<ImmersiveEngineer
 	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.coal> * 2, <ore:oreCoal>, 6000);
 	mods.immersiveengineering.Crusher.addRecipe(<Railcraft:dust:3>, <minecraft:coal:1>, 3600); //Charcoal Dust from MC
 	mods.immersiveengineering.Crusher.addRecipe(<Railcraft:dust:3> * 2, <terrafirmacraft:item.coal:1>, 3600); //Charcoal Dust from TFC
-	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.coal:2>, <ImmersiveEngineering:material:6>, 3600); //TFC Coke Dust
+	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.coal:2>, <Railcraft:fuel.coke>, 3600); //TFC Coke Dust
 	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:1> * 6, <ore:oreKaolinite>, 3600, <Mekanism:DirtyDust>, 0.1);
 	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:2> * 6, <ore:oreGraphite>, 3600);
 	mods.immersiveengineering.Crusher.addRecipe(<minecraft:blaze_powder> * 3, <ore:oreStrontium>, 3600);
@@ -532,13 +532,10 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 2, [<ImmersiveEngineer
 //Squeezer
 //#Removal
 	//OutputStack
-	//mods.immersiveengineering.Squeezer.removeItemRecipe(<minecraft:wheat_seeds>);
-    //mods.immersiveengineering.Squeezer.removeItemRecipe(<minecraft:pumpkin_seeds>);
-	//mods.immersiveengineering.Squeezer.removeItemRecipe(<minecraft:melon_seeds>);
-	//mods.immersiveengineering.Squeezer.removeItemRecipe(<ImmersiveEngineering:seed>);
-
+    mods.immersiveengineering.Squeezer.removeItemStack(<ImmersiveEngineering:metal:19>);
 	//OutputFluid
 	mods.immersiveengineering.Squeezer.removeFluidRecipe(<liquid:plantoil>);
+    
 //#Addition
 	//OutputStack, OutputFluid, InputStack, Time in Ticks
     mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 40, <ImmersiveEngineering:seed>, 80);
@@ -546,6 +543,8 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 2, [<ImmersiveEngineer
 	mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 180, <Forestry:fruits:1>, 80);
 	mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 240, <Forestry:fruits:2>, 80);
 	mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:lavatfc> * 1000, <Forestry:phosphor>, 100);
+    mods.immersiveengineering.Squeezer.addRecipe(<ImmersiveEngineering:metal:19>, null, <terrafirmacraft:item.coal:2> * 8, 100);
+
 
 //ArcFurnace
 //#Removal
