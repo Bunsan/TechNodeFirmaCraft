@@ -3,81 +3,15 @@
 //# Imports
 import minetweaker.item.IItemStack;
 import minetweaker.item.IIngredient;
+<ImmersiveEngineering:metalMultiblock>.addTooltip(format.red("Does NOT work with Localized Weather mod."));
 // ================================================================================
 //#REMOVE Recipes
-	recipes.remove(<ImmersiveEngineering:tool>);
-	recipes.remove(<ImmersiveEngineering:woodenDecoration:2>);
-	recipes.remove(<ImmersiveEngineering:woodenStairs>);
-	recipes.remove(<ImmersiveEngineering:woodenStairs1>);
-	recipes.remove(<ImmersiveEngineering:woodenStairs2>);
-	recipes.remove(<ImmersiveEngineering:woodenDevice>);
-	recipes.remove(<ImmersiveEngineering:woodenDevice:4>);
-	recipes.remove(<ImmersiveEngineering:stoneDecoration>);
-	recipes.remove(<ImmersiveEngineering:stoneDecoration:1>);
-	recipes.remove(<ImmersiveEngineering:stoneDecoration:2>);
-	recipes.remove(<ImmersiveEngineering:stoneDecoration:4>);
-	recipes.remove(<ImmersiveEngineering:stoneDecoration:5>);
-    recipes.remove(<ImmersiveEngineering:concreteStairs>);
-    recipes.remove(<ImmersiveEngineering:concreteTileStairs>);
-	recipes.remove(<ImmersiveEngineering:stoneDevice:4>);
-	recipes.remove(<ImmersiveEngineering:metalDecoration:4>);
-	recipes.remove(<ImmersiveEngineering:metalDecoration:5>);
-	recipes.remove(<ImmersiveEngineering:metalDecoration:6>);
-	recipes.remove(<ImmersiveEngineering:metalDecoration:7>);
-	recipes.remove(<ImmersiveEngineering:metalDevice:11>);
-	recipes.remove(<ImmersiveEngineering:metalMultiblock:2>);
-	recipes.remove(<ImmersiveEngineering:metalMultiblock:3>);
-	recipes.remove(<ImmersiveEngineering:material:11>);
-	recipes.remove(<ImmersiveEngineering:material:12>);
-	recipes.remove(<ImmersiveEngineering:coil:0>);
-	recipes.remove(<ImmersiveEngineering:coil:1>);
-	recipes.remove(<ImmersiveEngineering:coil:2>);
-	recipes.remove(<ImmersiveEngineering:coil:3>);
-	recipes.remove(<ImmersiveEngineering:coil:4>);
-	recipes.remove(<ImmersiveEngineering:toolupgrade>);
-	recipes.remove(<ImmersiveEngineering:toolupgrade:3>);
-	recipes.remove(<ImmersiveEngineering:drillhead>);
-	recipes.remove(<ImmersiveEngineering:drillhead:1>);
-	recipes.remove(<ImmersiveEngineering:toolupgrade:2>);
-	recipes.remove(<ImmersiveEngineering:toolupgrade:4>);
-	recipes.remove(<ImmersiveEngineering:storageSlab:*>);
-    recipes.remove(<ImmersiveEngineering:metalDecoration:10>);
-    recipes.remove(<ImmersiveEngineering:metalDecoration2>);
-    recipes.remove(<ImmersiveEngineering:metalDecoration2:1>);
-    recipes.remove(<ImmersiveEngineering:metalDecoration2:2>);
-    recipes.remove(<ImmersiveEngineering:metalDevice2:6>);
-    recipes.remove(<ImmersiveEngineering:jerrycan>);
     recipes.remove(<ImmersiveEngineering:material>);
     recipes.remove(<ImmersiveEngineering:material:1>);
-    recipes.remove(<ImmersiveEngineering:metalDevice>);
-    recipes.remove(<ImmersiveEngineering:woodenDevice:1>);
-    recipes.remove(<ImmersiveEngineering:metalDevice:2>);
-    recipes.remove(<ImmersiveEngineering:metalDevice:3>);
-    recipes.remove(<ImmersiveEngineering:metalDevice:6>);
-    recipes.remove(<ImmersiveEngineering:metalDevice:7>);
-    recipes.remove(<ImmersiveEngineering:metalDevice:9>);
-    recipes.remove(<ImmersiveEngineering:clothDevice>);
-    recipes.remove(<ImmersiveEngineering:metalDevice2:7>);
-    recipes.remove(<ImmersiveEngineering:woodenDevice:6>);
-    recipes.remove(<ImmersiveEngineering:metal:27>);
-    recipes.remove(<ImmersiveEngineering:metal:28>);
+    recipes.remove(<ImmersiveEngineering:material:11>);
+	recipes.remove(<ImmersiveEngineering:material:12>);
     recipes.remove(<ImmersiveEngineering:metal:5>);
     recipes.remove(<ImmersiveEngineering:metal:6>);
-    recipes.remove(<ImmersiveEngineering:metal:30>);
-    recipes.remove(<ImmersiveEngineering:metal:32>);
-    recipes.remove(<ImmersiveEngineering:metal:33>);
-    recipes.remove(<ImmersiveEngineering:metal:36>);
-    recipes.remove(<ImmersiveEngineering:metal:38>);
-    recipes.remove(<ImmersiveEngineering:stoneDecoration:6>);
-    recipes.remove(<ImmersiveEngineering:stoneSlab>);
-    recipes.remove(<ImmersiveEngineering:stoneSlab:1>);
-    recipes.remove(<ImmersiveEngineering:stoneSlab:2>);
-    recipes.remove(<ImmersiveEngineering:metalDevice2>);
-    recipes.remove(<ImmersiveEngineering:metalDevice2:2>);
-    recipes.remove(<ImmersiveEngineering:metalDevice2:5>);
-    recipes.remove(<ImmersiveEngineering:mold>);
-    recipes.remove(<ImmersiveEngineering:mold:1>);
-    recipes.remove(<ImmersiveEngineering:mold:2>);
     recipes.remove(<ImmersiveEngineering:metal:16>);
     recipes.remove(<ImmersiveEngineering:metal:21>);
     recipes.remove(<ImmersiveEngineering:metal:22>);
@@ -88,8 +22,79 @@ import minetweaker.item.IIngredient;
     recipes.remove(<ImmersiveEngineering:metal:27>);
     recipes.remove(<ImmersiveEngineering:metal:28>);
     recipes.remove(<ImmersiveEngineering:metal:29>);
-    recipes.remove(<ImmersiveEngineering:metalDecoration:8>);
+    recipes.remove(<ImmersiveEngineering:metal:30>);
+    recipes.remove(<ImmersiveEngineering:metal:32>);
+    recipes.remove(<ImmersiveEngineering:metal:33>);
+    recipes.remove(<ImmersiveEngineering:metal:36>);
+    recipes.remove(<ImmersiveEngineering:metal:38>);
+    recipes.remove(<ImmersiveEngineering:mold>);
+    recipes.remove(<ImmersiveEngineering:mold:1>);
+    recipes.remove(<ImmersiveEngineering:mold:2>);
+	recipes.remove(<ImmersiveEngineering:coil:0>);
+	recipes.remove(<ImmersiveEngineering:coil:1>);
+	recipes.remove(<ImmersiveEngineering:coil:2>);
+	recipes.remove(<ImmersiveEngineering:coil:3>);
+	recipes.remove(<ImmersiveEngineering:coil:4>);
+    recipes.remove(<ImmersiveEngineering:stoneSlab>);
+    recipes.remove(<ImmersiveEngineering:stoneSlab:1>);
+    recipes.remove(<ImmersiveEngineering:stoneSlab:2>);
+	recipes.remove(<ImmersiveEngineering:storageSlab:*>);
+    recipes.remove(<ImmersiveEngineering:tool>);
+	recipes.remove(<ImmersiveEngineering:toolupgrade>);
+	recipes.remove(<ImmersiveEngineering:toolupgrade:2>);
+	recipes.remove(<ImmersiveEngineering:toolupgrade:3>);
+	recipes.remove(<ImmersiveEngineering:toolupgrade:4>);
+	recipes.remove(<ImmersiveEngineering:drillhead>);
+	recipes.remove(<ImmersiveEngineering:drillhead:1>);
+	recipes.remove(<ImmersiveEngineering:woodenDecoration:2>);
+	recipes.remove(<ImmersiveEngineering:stoneDecoration>);
+	recipes.remove(<ImmersiveEngineering:stoneDecoration:1>);
+	recipes.remove(<ImmersiveEngineering:stoneDecoration:2>);
+	recipes.remove(<ImmersiveEngineering:stoneDecoration:4>);
+	recipes.remove(<ImmersiveEngineering:stoneDecoration:5>);
+    recipes.remove(<ImmersiveEngineering:stoneDecoration:6>);
     recipes.remove(<ImmersiveEngineering:metalDecoration:2>);
+    recipes.remove(<ImmersiveEngineering:metalDecoration:4>);
+	recipes.remove(<ImmersiveEngineering:metalDecoration:5>);
+	recipes.remove(<ImmersiveEngineering:metalDecoration:6>);
+	recipes.remove(<ImmersiveEngineering:metalDecoration:7>);
+    recipes.remove(<ImmersiveEngineering:metalDecoration:8>);
+    recipes.remove(<ImmersiveEngineering:metalDecoration:10>);
+    recipes.remove(<ImmersiveEngineering:metalDecoration2>);
+    recipes.remove(<ImmersiveEngineering:metalDecoration2:1>);
+    recipes.remove(<ImmersiveEngineering:metalDecoration2:2>);
+	recipes.remove(<ImmersiveEngineering:woodenDevice>);
+    recipes.remove(<ImmersiveEngineering:woodenDevice:1>);
+	recipes.remove(<ImmersiveEngineering:woodenDevice:4>);
+    recipes.remove(<ImmersiveEngineering:woodenDevice:6>);
+	recipes.remove(<ImmersiveEngineering:stoneDevice:4>);
+    recipes.remove(<ImmersiveEngineering:metalDevice>);
+    recipes.remove(<ImmersiveEngineering:metalDevice:2>);
+    recipes.remove(<ImmersiveEngineering:metalDevice:3>);
+    recipes.remove(<ImmersiveEngineering:metalDevice:6>);
+    recipes.remove(<ImmersiveEngineering:metalDevice:7>);
+    recipes.remove(<ImmersiveEngineering:metalDevice:9>);
+	recipes.remove(<ImmersiveEngineering:metalDevice:11>);
+    recipes.remove(<ImmersiveEngineering:metalDevice2>);
+    recipes.remove(<ImmersiveEngineering:metalDevice2:2>);
+    recipes.remove(<ImmersiveEngineering:metalDevice2:3>);
+    recipes.remove(<ImmersiveEngineering:metalDevice2:4>);
+    recipes.remove(<ImmersiveEngineering:metalDevice2:5>);
+    recipes.remove(<ImmersiveEngineering:metalDevice2:6>);
+    recipes.remove(<ImmersiveEngineering:metalDevice2:7>);
+    recipes.remove(<ImmersiveEngineering:clothDevice>);
+ 	recipes.remove(<ImmersiveEngineering:metalMultiblock:2>);
+	recipes.remove(<ImmersiveEngineering:metalMultiblock:3>);   
+    recipes.remove(<ImmersiveEngineering:concreteStairs>);
+    recipes.remove(<ImmersiveEngineering:concreteTileStairs>);
+    recipes.remove(<ImmersiveEngineering:woodenStairs>);
+	recipes.remove(<ImmersiveEngineering:woodenStairs1>);
+	recipes.remove(<ImmersiveEngineering:woodenStairs2>);
+    recipes.remove(<ImmersiveEngineering:jerrycan>);
+
+
+
+
     
 
 // ================================================================================
@@ -132,6 +137,11 @@ import minetweaker.item.IIngredient;
 //# Balloon
     recipes.addShaped(<ImmersiveEngineering:clothDevice>, [[null, <ImmersiveEngineering:material:4>, null], [<ImmersiveEngineering:material:4>, <ore:blockTorch>, <ImmersiveEngineering:material:4>], [null, <ImmersiveEngineering:woodenDecoration:2>, null]]);
 
+//# Powered Lantern
+    recipes.addShaped(<ImmersiveEngineering:metalDevice2:3> * 2, [[<ore:paneGlass>, <ore:plateSteel>, <ore:paneGlass>], [<ore:paneGlass>, <ore:plateTungsten>, <ore:paneGlass>], [<ore:plateSteel>, <minecraft:redstone>, <ore:plateSteel>]]);
+    
+//# Flood Light
+    recipes.addShaped(<ImmersiveEngineering:metalDevice2:4>, [[<ore:paneGlass>, <ore:plateSteel>, <ore:plateSteel>], [<ore:paneGlass>, <ore:plateDoubleTungsten>, <ImmersiveEngineering:material:12>], [<ore:paneGlass>, <ImmersiveEngineering:storage:8>, <ore:plateSteel>]]);
 //# Treated Wood Slab
 	recipes.addShaped(<ImmersiveEngineering:woodenDecoration:2> * 6, [[null, <ore:itemSaw>, null], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
 

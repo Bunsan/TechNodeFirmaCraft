@@ -375,6 +375,9 @@ import minetweaker.data.IData;
 	mods.mekanism.Purification.addRecipe(<terrafirmacraft:item.MetalDust:21>, <technodefirmacraft:item.amalgam>);
     mods.mekanism.Purification.addRecipe(<terrafirmacraft:item.MetalDust:22>, <technodefirmacraft:item.amalgam:1>);
 	mods.mekanism.Purification.addRecipe(<terrafirmacraft:item.MetalDust:23>, <technodefirmacraft:item.amalgam:2>);
+	mods.mekanism.Purification.addRecipe(<terrafirmacraft:item.Soaked Hide>, <terrafirmacraft:item.Scraped Hide>);
+	mods.mekanism.Purification.addRecipe(<terrafirmacraft:item.Soaked Hide:1>, <terrafirmacraft:item.Scraped Hide:1>);
+	mods.mekanism.Purification.addRecipe(<terrafirmacraft:item.Soaked Hide:2>, <terrafirmacraft:item.Scraped Hide:2>);
 
 //Chemical Injection
 //#Removal
