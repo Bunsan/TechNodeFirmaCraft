@@ -11,7 +11,7 @@ import minetweaker.item.IItemStack;
 //#REMOVE Recipes
 //# VANILLA
 	recipes.remove(<minecraft:ender_chest>);
-  recipes.remove(<minecraft:anvil>);
+    recipes.remove(<minecraft:anvil>);
 	recipes.remove(<minecraft:flower_pot>);
 	recipes.remove(<minecraft:shears>);
 	recipes.remove(<minecraft:emerald_block>);
@@ -179,13 +179,7 @@ import minetweaker.item.IItemStack;
 
 // ================================================================================
 //#MARKER ADD SHAPED
-
-//# Vanilla Anvil
-    recipes.addShaped(<minecraft:anvil>, [[<ore:blockPlatinum>, <ore:blockPlatinum>, <ore:blockPlatinum>], [null, <ore:blockDiamond>, null], [<ore:blockBlueSteel>, <ore:blockBlackSteel>, <ore:blockRedSteel>]]);
-    recipes.addShaped(<minecraft:anvil>, [[<ore:blockPlatinum>, <ore:blockPlatinum>, <ore:blockPlatinum>], [null, <ore:blockDiamond>, null], [<ore:blockRedSteel>, <ore:blockBlackSteel>, <ore:blockBlueSteel>]]);
     
-//# Brewing Stand
-    recipes.addShaped(<minecraft:brewing_stand>, [[null, <ore:oreStrontium>, null], [<Railcraft:brick.bleachedbone>, <Railcraft:brick.bloodstained>, <Railcraft:brick.frostbound>], [<ore:blockRedSteel>, <ore:blockBlackSteel>, <ore:blockBlueSteel>]]);
 //#Maps
     recipes.addShaped(<minecraft:map>, [[null, <minecraft:paper>, null], [<minecraft:paper>, <minecraft:compass>.reuse(), <minecraft:paper>], [null, <minecraft:paper>, null]]);
     recipes.addShaped(<minecraft:compass>, [[<ore:oreSmallIron>], [<minecraft:redstone>], [<terrafirmacraft:item.GoldPan>]]);
