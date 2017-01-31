@@ -4,6 +4,9 @@
 //# Imports
 import minetweaker.item.IItemStack;
 // ================================================================================
+<Forestry:factory:7>.addTooltip(format.red("Does NOT work with Localized Weather mod."));
+<Forestry:factory2:1>.addTooltip(format.red("Does NOT work with Localized Weather mod."));
+// ================================================================================
 //#REMOVE
 //# Farm Blocks (removed because they won't work)
 	recipes.remove(<Forestry:ffarm:5>);
@@ -45,18 +48,21 @@ import minetweaker.item.IItemStack;
     recipes.remove(<Forestry:frameImpregnated>);
     recipes.remove(<Forestry:habitatLocator>);
     recipes.remove(<Forestry:factory2:1>);
+    recipes.remove(<Forestry:scoop>);
     
 // ================================================================================
 //#ADD SHAPELESS
 	recipes.addShapeless(<Forestry:canLava>, [<Forestry:canEmpty>, <terrafirmacraft:item.Blue Steel Bucket Lava>]);
+	recipes.addShapeless(<Forestry:refractoryLava>, [<Forestry:refractoryEmpty>, <terrafirmacraft:item.Blue Steel Bucket Lava>]);
 
 //# ADD Peat Conversion
-	recipes.addShapeless(<terrafirmacraft:Peat>, [<Forestry:peat>, <Forestry:peat>, <Forestry:peat>, <Forestry:peat>]);
-		recipes.addShapeless(<Forestry:peat> * 4, [<terrafirmacraft:Peat>]);
+	recipes.addShapeless(<terrafirmacraft:Peat>, [<Forestry:peat>, <Forestry:peat>, <Forestry:peat>, <Forestry:peat>]);		
+    recipes.addShapeless(<Forestry:peat> * 4, [<terrafirmacraft:Peat>, <ore:itemKnife>]);
 
 // ================================================================================
 //#ADD SHAPED
-
+//# Scoop
+    recipes.addShaped(<Forestry:scoop>, [[<ore:stickWood>, <ore:materialCloth>, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [null, <ore:stickWood>, null]]);
 //# String
 	recipes.addShaped(<minecraft:string>, [[<Forestry:craftingMaterial:2>], [<Forestry:craftingMaterial:2>], [<Forestry:craftingMaterial:2>]]);
 //# Frames
@@ -329,7 +335,7 @@ for i in meta {
     mods.forestry.Squeezer.removeRecipe(<liquid:lava>, [<Forestry:phosphor> * 2, <minecraft:dirt>]);
     mods.forestry.Squeezer.removeRecipe(<liquid:lava>, [<Forestry:phosphor> * 2, <minecraft:sand:*>]);
     mods.forestry.Squeezer.removeRecipe(<liquid:lava>, [<Forestry:phosphor> * 2, <minecraft:cobblestone>]);
-//#Addition* Not Working
+//#Addition
 	//Time recipe requires (Ticks), InputArray, OutputFluid, OutputStack, Chance for OutputStack //The last two are optional
     mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:Sand:*>]);
     mods.forestry.Squeezer.addRecipe(<liquid:lavatfc> * 1600, 250, [<Forestry:phosphor> * 2, <terrafirmacraft:Sand2:*>]);

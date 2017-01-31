@@ -5,7 +5,7 @@
         "function": "if_recently_hit",
         "functions": [
           {
-            "function": "if_past_world_time_4319910",
+            "function": "if_past_world_time_1",
             "functions": [
               {
                 "_comment": "add hempseed drop",

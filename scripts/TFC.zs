@@ -88,6 +88,7 @@
 // Output Stack, Input Stack or Input Ore, Melting Temp(Default: 600, Normal Range 0-2000)[Optional], Specific Heat(Default: 1, Normal Range 0-1)[Optional]
 
 	mods.Terrafirmacraft.ItemHeat.addRecipe(<ImmersiveEngineering:stoneDecoration>, <technodefirmacraft:IEBlocks:2>, 1250, 1);
+    mods.Terrafirmacraft.ItemHeat.addRecipe(<Forestry:canLava>, <Forestry:canSeedOil>, 200, 1);
 
 //# Loom
 // Output Stack, Input Stack, Image Overlay Location("modID:location")

@@ -639,6 +639,51 @@
         "flammability": 20,
         "spread":5
       },
+      {
+                "_name": "plantmegapack:bambooAsperSlabDouble",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooFargesiaRobustaSlabDouble",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooGiantTimberSlabDouble",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooGoldenSlabDouble",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooMosoSlabDouble",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooShortTassledSlabDouble",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooTimorBlackSlabDouble",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooTropicalBlueSlabDouble",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooWetForestSlabDouble",
+        "flammability": 20,
+        "spread":5
+      },
             {
         "_name": "plantmegapack:bambooAsperDoor",
         "flammability": 20,
@@ -771,6 +816,51 @@
       },
       {
         "_name": "plantmegapack:bambooWetForestFence",
+        "flammability": 20,
+        "spread":5
+      },
+                  {
+        "_name": "plantmegapack:bambooAsperGate",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooFargesiaRobustaGate",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooGiantTimberGate",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooGoldenGate",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooMosoGate",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooShortTassledGate",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooTimorBlackGate",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooTropicalBlueGate",
+        "flammability": 20,
+        "spread":5
+      },
+      {
+        "_name": "plantmegapack:bambooWetForestGate",
         "flammability": 20,
         "spread":5
       },

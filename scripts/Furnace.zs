@@ -108,3 +108,4 @@ for i in meta {
 	furnace.addRecipe(<terrafirmacraft:item.Spindle Head:1>, <terrafirmacraft:item.Spindle Head>);    
 //#Other
 	furnace.addRecipe(<Forestry:canLava>, <Forestry:canSeedOil>);
+    furnace.addRecipe(<Forestry:refractoryLava>, <Forestry:refractorySeedOil>);
