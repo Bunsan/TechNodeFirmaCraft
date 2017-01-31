@@ -1,26 +1,3 @@
-[prefix{l}]Beta Version 3[prefix{l}]
-
-What needs testing. Below there is a preliminary changelog to read, but some key points. 
-
-Worldgen
-- Osmium, Aluminum (Bauxite), Tungsten (Scheelite and Wolframite), Apatite, Strontium, Scapolite and Quartz are their own proper ores. Serpentine and Petrified Wood worldgen have been reinitialised in TFC. Generally the code was reorganised. Generation, WAILA (+tooltip) pro pick and that they actually drop the right thing. 
-- Deserts should be mildly more common. Let me know if you find a desert and what the rainfall value is. 
-- PMP spawn good? Can you find bamboo? Is it rare or easy to find. What biome?
-- Fruit trees are generating.
-- Planting and growth of Fruit trees works.
-
-Machines
-- Ore processing in RC, IE and Mek.
-- Pile creation in RC rolling machine.
-
-New Stuff
-- Coal Piles working properly. 
-- Coke Pits, which are like charcoal pits, but with coal piles. The coal piles must be full to generate Coke block. Block is harvested with hammer. 
-- Osmium and tungsten in TFC forge/crucible. Should need Coke fuel and bellows to get forge/crucible hot enough. 
-- TerrafirmaStuff recipes work. 
-
-**********************************************************************
-
 [prefix{l}]Version 3.0 - A Whole New World[prefix{}] 
 
 We thought we were finished with this, but... Long story short with no TFC2 imminent I started playing TNFC SSP. A small fix for my own play through led to another and another and well here we are with version 3.0. This update breaks old worlds completely. You must start a new world/map for this update. Many of the changes are for integration within the pack. Adding new TFC'd ores and fixing small issues in TFC that always bugged me. So enjoy this totally unintended new version.
@@ -38,8 +15,13 @@ Pack Changes
    - 8 Raw Wool -> 4 cloth. Uses water.
    - 8 String -> 1 minecraft web; 3 Web -> 1 Silk cloth. Uses water.
    - 9 Ropes+ ropes - > 1 Burlap cloth. Uses water.
+- Leather can now be processed in carpenter and Mek Enrichment chamber.
+- IE lanterns and lights rebalanced.
+- Forestry rain tank and RC water tank recipes made cheaper.
+- Unified to RC coal coke and added recipe to grind to TFC coal coke dust.
 - Removed crafting recipes for World-gen bees.
 - Added anvil recipes for Decorations and Merchants to fix arrow issue on servers.
+- Removed Vanilla anvil and brewing stands again. Didn't work properly/unneeded.
 - Removed all custom blocks that are replicated in TerrafirmaStuff.
 - Move all other custom blocks into TNFCmod.
 
@@ -53,7 +35,7 @@ TFC-TNFC
 - Set Aluminum Ore to not smelt in crucible. Requires Arc Furnace. Aluminum Metal items an melt in crucible. Config option to allow ore smelting.
 - Added dusts. No built in TFC recipes.
 - Added piles with recipes.
-- Bloomery accepts Ore piles and accepts under 5000 units.
+- Bloomery accepts Ore piles and accepts up to 5000 units.
 - Fixed ProPick to work with new ores and to read meta value of non-TFC blocks added in TFCOres.cfg
 - Added Coal Coke fuel. With burn hotter in forge and can be added to bloomery or blast furnace.
 - Added Coal Pile. Functions like log pile and can be used in Coal Coke Pit, like Charcoal Pit. Coal Piles must be full. Coke Blocks must be broken with hammer. Will drop variable number of coke dust items.
@@ -62,20 +44,25 @@ TFC-TNFC
 - Added config for Seaweed regen, BerryBush regen and stick/rock/ore nugget regen.
 - Made Heat Stroke have status effect with particles.
 - Changed TFC alcohol etc use vanilla glass bottle as there was no reason or advantage to have a TFC item.
+- Alcohol brewing is strict with 40oz for a barrel of water. 40-120oz range was for potency that was not implemented. 
+- Added buckets of Tannin, Limewater, Brine and olive oil.
 - Can drink a milk bottle, 250mb and gives 1/4 of the dairy given by bucket.
 - Seaweed now drops onto of the gravel block. Less likely to go flying off in random directions.
 - Quern handle is not much more forgiving for clicking.
 - Added Quartz Ore.
 - Tweaked desserts to be just a little bit less rare (rainfall value of 125 will now generate as a desert)
+-Bears are more vocal and louder.
 
 TNFCmod
 - Added our packs Meta:CustomItems and TabulaRasa custom items and blocks.
 - Fixes for TFC changes.
+- Potion crafting added as barrel recipes. Craft inactive potion which is then activated with Potion Energizer fluid. Potions can then be Enhanced with Potion Energizer fluid or extended with Potion Extender fluid.
 
 TNFCResourses
 
 Mekanism
 - Integrated TFC ores/metals into Mek_tnfc.
+- Updated with latest changes from Mek 1.7.10 version.
 
 Storage Drawers
 
@@ -92,12 +79,12 @@ TerrafirmaStuff
 - Aesthetic blocks that can be chiselled. Hardened Clay, Stone Blocks, Jet Blocks, Quartz Blocks, Serpentine Blocks and fences.
 
 Block Properties
-- Makes Bamboo blocks burn.
+- Makes Bamboo items from Plant Mega Pack burn.
 
 WAILA Harvestability
 - Tells you tool to use to break things. Logs show hammer, as that gives you sticks, but does use axe.
 
-Chat Flow ** pending
+Presence Footsteps for TFC
 
 Removed Mods:
 Tabula Rasa

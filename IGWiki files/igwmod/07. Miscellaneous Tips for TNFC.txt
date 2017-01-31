@@ -25,4 +25,4 @@ As said Railcraft hardcodes its fuels. Both the RC and IE Coke ovens produce RC 
  
 Steel Block
 
-Because the construction of some IE multi blocks requires steel slabs we've included a recipe for them. TFC Steel blocks chiseled to a slab will not be see as valid.
+Because the construction of some IE multi blocks requires steel slabs we've included a recipe for them. TFC Steel blocks chiseled to a slab will not be seen as valid.
