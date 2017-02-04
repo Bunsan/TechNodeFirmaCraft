@@ -136,6 +136,9 @@
     recipes.remove(<Railcraft:machine.gamma:3>);
 //# Wood Post
     recipes.remove(<Railcraft:post>);
+//# Rail Recipes
+	recipes.remove(<minecraft:golden_rail>);
+	recipes.remove(<minecraft:rail>);
 
 // ================================================================================
 //#REMOVE SHAPED
@@ -146,10 +149,6 @@
 //#Wooden tie recipe with RC cresote containers, to avoid confusion
 	recipes.removeShaped(<Railcraft:part.tie>, [[null, <Railcraft:fluid.creosote.bucket>, null], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
 	recipes.removeShaped(<Railcraft:part.tie>, [[null, <Railcraft:fluid.creosote.bottle>, null], [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
-//# Rail Recipes
-	recipes.removeShaped(<minecraft:golden_rail>, [[<Railcraft:part.rail:1>, null, <Railcraft:part.rail:1>], [<Railcraft:part.rail:1>,<Railcraft:part.railbed>, <Railcraft:part.rail:1>], [<Railcraft:part.rail:1>, <minecraft:redstone>, <Railcraft:part.rail:1>]]);
-	recipes.removeShaped(<minecraft:rail>, [[<Railcraft:part.rail>, null, <Railcraft:part.rail>], [<Railcraft:part.rail>, <Railcraft:part.railbed>, <Railcraft:part.rail>], [<Railcraft:part.rail>, null, <Railcraft:part.rail>]]);
-	recipes.removeShaped(<minecraft:rail>, [[<Mekanism:Ingot:1>, null, <Mekanism:Ingot:1>], [<Mekanism:Ingot:1>, <ore:stickWood>, <Mekanism:Ingot:1>], [<Mekanism:Ingot:1>, null, <Mekanism:Ingot:1>]]);
 
 // ================================================================================
 //#ADD SHAPELESS
@@ -244,6 +243,12 @@
 
 //# Rock Crusher
 	recipes.addShaped(<Railcraft:machine.alpha:15> * 4, [[<minecraft:piston>, <ore:plateSteel>, <minecraft:piston>], [<ore:plateSteel>, <ore:gemDiamond>, <ore:plateSteel>], [<minecraft:piston>, <ore:plateSteel>, <minecraft:piston>]]);
+
+//# Rail Recipes
+	recipes.addShaped(<minecraft:rail> * 64, [[<Railcraft:part.rail>, null, <Railcraft:part.rail>], [<Railcraft:part.rail>, <Railcraft:part.railbed>, <Railcraft:part.rail>], [<Railcraft:part.rail>, null, <Railcraft:part.rail>]]);
+	recipes.addShaped(<minecraft:golden_rail> * 32, [[<Railcraft:part.rail:1>, null, <Railcraft:part.rail:1>], [<Railcraft:part.rail:1>,<Railcraft:part.railbed>, <Railcraft:part.rail:1>], [<Railcraft:part.rail:1>, <minecraft:redstone>, <Railcraft:part.rail:1>]]);
+    recipes.addShaped(<minecraft:rail> * 32, [[<ore:ingotIron>, <ore:stickWood>, <ore:ingotIron>], [<ore:ingotIron>, <ore:stickWood>, <ore:ingotIron>]]);
+    recipes.addShaped(<minecraft:golden_rail> * 32, [[null, <minecraft:redstone>, null], [<ore:ingotGold>, <ore:stickWood>, <ore:ingotGold>], [<ore:ingotGold>, <minecraft:redstone>, <ore:ingotGold>]]);
 
 //# Priming and Disposal tracks Tank Detector, Circuits and age and animal detectors
 	recipes.addShaped(<Railcraft:track:2264>.withTag({track: "railcraft:track.disposal"}) * 1, [[<Railcraft:part.rail>, <Railcraft:part.tie>, <Railcraft:part.rail>], [<Railcraft:part.rail>, <ore:plateSteel>, <Railcraft:part.rail>], [<Railcraft:part.rail>, <Railcraft:part.tie>, <Railcraft:part.rail>]]);

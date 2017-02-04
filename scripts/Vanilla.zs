@@ -129,7 +129,7 @@ import minetweaker.item.IItemStack;
 
 //# Convert Wool/Silk Cloth to Wool Block
 	recipes.addShapeless(<minecraft:wool>, [<ore:materialCloth>]);
-
+    recipes.addShapeless(<ore:materialCloth>, [<minecraft:wool>]);
 //# Convert petrified wood to Netherrack
 	recipes.addShapeless(<minecraft:netherrack>, [<terrafirmacraft:item.Ore:22>]);
 
