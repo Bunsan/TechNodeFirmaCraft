@@ -1,5 +1,5 @@
 //#TFC
-
+<terrafirmacraft:item.Black Steel Shears>.addTooltip(format.gray("Fine Fragile Blade for Delicate Work."));
 // ================================================================================
 //#Fuel Values
     furnace.setFuel(<terrafirmacraft:item.coal:1>, 3200);
@@ -97,8 +97,6 @@
 
   //# Anvil
 // Output Stack, Input Stack 1, Input Stack 2[Optional], Plan Name, Minimal Anvil Tier (Range 0-7), Crafting Value (Range 0-50)
-	mods.Terrafirmacraft.Anvil.addAnvilRecipe(<technodefirmacraft:item.shearsBlackSteel>, <terrafirmacraft:item.Black Steel Sheet>, "shears", 5);
-  <technodefirmacraft:item.shearsBlackSteel>.addTooltip(format.gray("Fine Fragile Blade for Delicate Work."));
 
 // Fixing Decorations/Merchants anvil issues
     game.setLocalization("gui.plans.lanterncorefix", "Lantern Core Server Fix");
