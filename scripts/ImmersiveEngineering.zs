@@ -244,7 +244,7 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 2, [<ImmersiveEngineer
     recipes.addShaped(<ImmersiveEngineering:metalDevice2:6>, [[null, <ore:ingotRedSteel>, null], [<ore:ingotBlueSteel>, <ImmersiveEngineering:material:11>, <ore:ingotBlueSteel>], [<ImmersiveEngineering:metalDevice2:5>, <ImmersiveEngineering:metalDevice2:5>, <ImmersiveEngineering:metalDevice2:5>]]);
     
 //# Engineers Hammer
-	recipes.addShaped(<ImmersiveEngineering:tool>, [[null, <ore:ingotBlackSteel>, <terrafirmacraft:item.Rope>], [null, <ImmersiveEngineering:material>, <ore:ingotBlackSteel>], [<ImmersiveEngineering:material>, null, null]]);
+	recipes.addShaped(<ImmersiveEngineering:tool>, [[null, <terrafirmacraft:item.Black Steel Hammer Head>, <terrafirmacraft:item.Rope>], [null, <ImmersiveEngineering:material>, <terrafirmacraft:item.Black Steel Hammer Head>], [<ImmersiveEngineering:material>, null, null]]);
 
 //# Coke Oven
 	recipes.addShaped(<ImmersiveEngineering:stoneDecoration:1> * 3, [[<Railcraft:machine.alpha:7>, <Railcraft:machine.alpha:7>, <Railcraft:machine.alpha:7>], [<terrafirmacraft:item.Mortar>, <ImmersiveEngineering:tool>, <terrafirmacraft:item.Mortar>], [<Railcraft:machine.alpha:7>, <Railcraft:machine.alpha:7>, <Railcraft:machine.alpha:7>]]);
@@ -844,6 +844,34 @@ var core = lanternCore[i];
     mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Blue Steel Ingot>, <terrafirmacraft:item.HC Blue Steel Ingot>, <terrafirmacraft:MetalBlock:9>, 2400, 1);
     mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraft:item.Red Steel Ingot>, <terrafirmacraft:item.HC Red Steel Ingot>, <terrafirmacraft:MetalBlock:9>, 2400, 1);
 
+//Excavator
+//MineralString, MineralWeight, FailChance, OreStringArray, OreChanceArray, DimensionIDArray, isWhitelistOrBlacklist //true=blacklist; false=whitelist
+//mods.immersiveengineering.Excavator.addMineral("Sediment", 30, 15, ["sand", "sandstone"], [50, 15], [0, 1], false);
+//MineralString
+mods.immersiveengineering.Excavator.removeMineral("Lead");
+//MineralString + OreString
+mods.immersiveengineering.Excavator.getMineral("Coal").removeOre("oreEmerald");
+mods.immersiveengineering.Excavator.getMineral("Copper").removeOre("oreNickel");
+mods.immersiveengineering.Excavator.getMineral("Galena").removeOre("oreSulfur");
+mods.immersiveengineering.Excavator.getMineral("Gold").removeOre("oreCopper");
+mods.immersiveengineering.Excavator.getMineral("Gold").removeOre("oreNickel");
+mods.immersiveengineering.Excavator.getMineral("Iron").removeOre("oreNickel");
+mods.immersiveengineering.Excavator.getMineral("Lapis").removeOre("oreIron");
+mods.immersiveengineering.Excavator.getMineral("Lapis").removeOre("oreSulfur");
+mods.immersiveengineering.Excavator.getMineral("Pyrite").removeOre("oreSulfur");
 
+//MineralString + OreString, Chance
+mods.immersiveengineering.Excavator.getMineral("Bauxite").addOre("orePetrifiedWood", 0.15);
+mods.immersiveengineering.Excavator.getMineral("Cassiterite").addOre("oreBismuth", 0.40);
+mods.immersiveengineering.Excavator.getMineral("Galena").addOre("oreRedstone", 0.10);
+mods.immersiveengineering.Excavator.getMineral("Gold").addOre("oreZinc", 0.25);
+mods.immersiveengineering.Excavator.getMineral("Iron").addOre("oreJet", 0.15);
+mods.immersiveengineering.Excavator.getMineral("Lapis").addOre("dustSulfur", 0.05);
+mods.immersiveengineering.Excavator.getMineral("Platinum").addOre("oreOsmium", 0.40);
+mods.immersiveengineering.Excavator.getMineral("Pyrite").addOre("oreStrontium", 0.40);
+mods.immersiveengineering.Excavator.getMineral("Quartzite").addOre("oreScapolite", 0.20);
+mods.immersiveengineering.Excavator.getMineral("Quartzite").addOre("oreApatite", 0.35);
+mods.immersiveengineering.Excavator.getMineral("Silver").addOre("oreRedstone", 0.15);
+mods.immersiveengineering.Excavator.getMineral("Uranium").addOre("oreSylvite", 0.10);
 
 

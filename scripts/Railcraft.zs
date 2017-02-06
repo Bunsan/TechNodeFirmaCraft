@@ -821,7 +821,6 @@ mods.railcraft.RockCrusher.removeRecipe(<minecraft:sandstone>);
 
 //# Kimberlite Diamond Ore, Emerald Ore and Bitumous Coal
     mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.MineralOre:5>, true, false, [ <terrafirmacraft:item.Diamond:0>, <terrafirmacraft:item.Diamond:1>, <terrafirmacraft:item.Diamond:2>, <terrafirmacraft:item.Diamond:3>, <terrafirmacraft:item.Diamond:4>], [1.0, 0.01, 0.005, 0.0035, 0.0015]);
-    mods.railcraft.RockCrusher.addRecipe(<minecraft:emerald_ore>, true, false, [ <terrafirmacraft:item.Emerald:0>, <terrafirmacraft:item.Emerald:1>, <terrafirmacraft:item.Emerald:2>, <terrafirmacraft:item.Emerald:3>, <terrafirmacraft:item.Emerald:4>], [1.0, 0.01, 0.005, 0.0035, 0.0015]);
     mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.MineralOre:16>, true, false, [<terrafirmacraft:item.coal>, <terrafirmacraft:item.coal>], [1.0, 0.25]);
 	mods.railcraft.RockCrusher.addRecipe(<Railcraft:fuel.coke>, true, false, [<terrafirmacraft:item.coal:2>], [1.0]);
 
