@@ -1,12 +1,14 @@
 [prefix{l}]Version 3.0 - A Whole New World[prefix{}] 
 
-We thought we were finished with this, but... Long story short with no TFC2 imminent I started playing TNFC SSP. A small fix for my own play through led to another and another and well here we are with version 3.0. This update breaks old worlds completely. You must start a new world/map for this update. Many of the changes are for integration within the pack. Adding new TFC'd ores and fixing small issues in TFC that always bugged me. So enjoy this totally unintended new version.
+We thought we were finished with this, but... Long story short with no TFC2 imminent I started playing TNFC SSP. A small fix for my own play through led to another and another and then was told that Pakratt0013's TFC-Tuesday stream group were going to play the pack and well here we are with version 3.0. This update breaks old worlds completely. You must start a new world/map for this update. Many of the changes are for integration within the pack. Adding new TFC'd ores and fixing small issues in TFC that always bugged me. So enjoy this totally unintended new version.
 
 Pack Changes
 
 - Reduced Plant Mega Pack spawn a bit. Reduced Bamboo spawning and set so all types of bamboo will now spawn.
+- Plant Mega Pack plants won't drop items unless you break with a knife, shears, sword or scythe.
 - Bamboo uses Treecapitator to chop. If broken without an axe only broken block will break. Breaking dirt under bamboo won't break bamboo.
 - Bamboo burns.
+- You can craft dyes from PMP flowers.
 - Ore Piles and associated recipes can be made in the Rolling Machine.
 - Changes to Ropes+ rope recipe.
    - 4 Jute Fibre -> 3 Rope+ ropes.
@@ -19,6 +21,7 @@ Pack Changes
 - IE lanterns and lights rebalanced.
 - Forestry rain tank and RC water tank recipes made cheaper.
 - Unified to RC coal coke and added recipe to grind to TFC coal coke dust.
+- Zombies and Creeper might have a few new tricks.
 - Removed crafting recipes for World-gen bees.
 - Added anvil recipes for Decorations and Merchants to fix arrow issue on servers.
 - Removed Vanilla anvil and brewing stands again. Didn't work properly/unneeded.
@@ -27,6 +30,8 @@ Pack Changes
 
 HQM
 - Quests cleaned up and minor fixes.
+- New Work in Progress Quests for Forestry, Railcraft, Immersive Engineering and Mekanism. Rewards now set.
+- Questing is no longer Hardcore by default. Rewards no longer have hearts.
 
 Updated Mods:
 TFC-TNFC
@@ -50,8 +55,9 @@ TFC-TNFC
 - Seaweed now drops onto of the gravel block. Less likely to go flying off in random directions.
 - Quern handle is not much more forgiving for clicking.
 - Added Quartz Ore.
-- Tweaked desserts to be just a little bit less rare (rainfall value of 125 will now generate as a desert)
--Bears are more vocal and louder.
+- Black Steel shears now function as shears, but still just 16 uses. They are 100% drop rate for saplings, even for sequoia, but that uses 4 durability.
+- Tweaked deserts to be just a little bit less rare (rainfall value of 125 will now generate as a desert)
+- Bears are more vocal and louder.
 
 TNFCmod
 - Added our packs Meta:CustomItems and TabulaRasa custom items and blocks.
@@ -80,11 +86,13 @@ TerrafirmaStuff
 
 Block Properties
 - Makes Bamboo items from Plant Mega Pack burn.
+- Stop PMP plants clogging inventory.
 
 WAILA Harvestability
 - Tells you tool to use to break things. Logs show hammer, as that gives you sticks, but does use axe.
 
-Presence Footsteps for TFC
+Special AI
+- Zombies and Creepers are learning new tricks.
 
 Removed Mods:
 Tabula Rasa
