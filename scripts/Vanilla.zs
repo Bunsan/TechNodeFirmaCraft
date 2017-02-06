@@ -20,20 +20,6 @@ import minetweaker.item.IItemStack;
 	recipes.remove(<minecraft:lead>);
 	recipes.remove(<minecraft:golden_apple:1>);
 	recipes.remove(<minecraft:golden_carrot>);
-	recipes.remove(<minecraft:dye:4>);
-	recipes.remove(<minecraft:dye:15>);
-	recipes.remove(<minecraft:dye:3>);
-	recipes.remove(<minecraft:dye:2>);
-	recipes.remove(<minecraft:dye>);
-	recipes.remove(<minecraft:dye:12>);
-	recipes.remove(<minecraft:dye:14>);
-	recipes.remove(<minecraft:dye:13>);
-	recipes.remove(<minecraft:dye:10>);
-	recipes.remove(<minecraft:dye:9>);
-	recipes.remove(<minecraft:dye:8>);
-	recipes.remove(<minecraft:dye:7>);
-	recipes.remove(<minecraft:dye:6>);
-	recipes.remove(<minecraft:dye:5>);
 	recipes.remove(<minecraft:blaze_powder>);
 	recipes.remove(<minecraft:carrot_on_a_stick>);
 	recipes.remove(<minecraft:lapis_block>);
@@ -129,7 +115,7 @@ import minetweaker.item.IItemStack;
 
 //# Convert Wool/Silk Cloth to Wool Block
 	recipes.addShapeless(<minecraft:wool>, [<ore:materialCloth>]);
-    recipes.addShapeless(<ore:materialCloth>, [<minecraft:wool>]);
+    recipes.addShapeless(<terrafirmacraft:item.WoolCloth>, [<minecraft:wool>]);
 //# Convert petrified wood to Netherrack
 	recipes.addShapeless(<minecraft:netherrack>, [<terrafirmacraft:item.Ore:22>]);
 
