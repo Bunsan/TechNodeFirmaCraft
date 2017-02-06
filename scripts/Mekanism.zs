@@ -26,7 +26,7 @@ import minetweaker.data.IData;
 
 //# RE-ADD Armour stuff
 //# Upgrading Gas Mask
-	recipes.addShapeless(<Mekanism:GasMask>.withTag({ench: [{lvl: 3 as short, id: 5 as short}, {lvl: 1 as short, id: 6 as short}]}), [<Mekanism:GasMask>, <Mekanism:GasUpgrade>, <Mekanism:SpeedUpgrade>]);	
+	recipes.addShapeless(<Mekanism:GasMask>.withTag({ench: [{lvl: 2 as short, id: 5 as short}, {lvl: 1 as short, id: 6 as short}]}), [<Mekanism:GasMask>, <Mekanism:GasUpgrade>, <Mekanism:SpeedUpgrade>, <Mekanism:AtomicAlloy>]);	
 //
 //# Diamond Dust Piles
 	recipes.addShaped(<Mekanism:OtherDust>, [[<technodefirmacraft:item.tinyDiamondDust>, <technodefirmacraft:item.tinyDiamondDust>], [<technodefirmacraft:item.tinyDiamondDust>, <technodefirmacraft:item.tinyDiamondDust>]]);

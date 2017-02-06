@@ -306,8 +306,8 @@
 	recipes.addShaped(<Railcraft:cart.undercutter>, [[<ore:dyeYellow>, <minecraft:redstone_lamp>, <ore:dyeYellow>], [<ore:craftingPiston>, <ore:blockSteel>, <ore:craftingPiston>], [<terrafirmacraft:item.Wrought Iron Shovel>.noReturn(), <minecraft:minecart>, <terrafirmacraft:item.Wrought Iron Shovel>.noReturn()]]);
 	recipes.addShaped(<Railcraft:cart.track.relayer>, [[<ore:dyeYellow>, <minecraft:redstone_lamp>, <ore:dyeYellow>], [<ore:oreStrontium>, <ore:blockSteel>, <ore:oreStrontium>], [<terrafirmacraft:item.Wrought Iron Pick>.noReturn(), <minecraft:minecart>, <terrafirmacraft:item.Wrought Iron Pick>.noReturn()]]);
 	recipes.addShaped(<Railcraft:cart.bore>, [[<ore:plateDoubleSteel>, <minecraft:minecart>, <ore:plateDoubleSteel>], [<Railcraft:machine.beta:5>, <minecraft:minecart>, <Railcraft:machine.beta:5>], [null, <ore:chestWood>, null]]);
-	recipes.addShaped(<Railcraft:borehead.steel>, [[null, <ore:plateSteel>, null], [<ore:plateSteel>, <ore:blockSteel>, <ore:plateSteel>], [null, <ore:plateSteel>, null]]);
-	recipes.addShaped(<Railcraft:borehead.diamond>, [[<ore:gemDiamond>, <ore:plateSteel>, <ore:gemDiamond>], [<ore:plateSteel>, <ore:gemDiamond>, <ore:plateSteel>], [<ore:gemDiamond>, <ore:plateSteel>, <ore:gemDiamond>]]);
+	recipes.addShaped(<Railcraft:borehead.steel>, [[<ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>], [<ore:nuggetSteel>, <ore:plateDoubleSteel>, <ore:nuggetSteel>], [<ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>]]);
+	recipes.addShaped(<Railcraft:borehead.diamond>, [[<ore:gemFlawedDiamond>, <ore:gemFlawedDiamond>, <ore:gemFlawedDiamond>], [<ore:gemFlawedDiamond>, <Railcraft:borehead.steel>, <ore:gemFlawedDiamond>], [<ore:gemFlawedDiamond>, <ore:gemFlawedDiamond>, <ore:gemFlawedDiamond>]]);
     recipes.addShaped(<Railcraft:machine.epsilon:3>, [[<ore:plateTin>, <ore:ingotCopper>, <ore:plateTin>], [<ore:ingotCopper>, <ore:blockDiamond>, <ore:ingotCopper>], [<ore:plateTin>, <ore:ingotCopper>, <ore:plateTin>]]);
 
 //# Goggles
