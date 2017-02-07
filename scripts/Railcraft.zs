@@ -833,7 +833,7 @@ mods.railcraft.RockCrusher.removeRecipe(<minecraft:sandstone>);
 	mods.railcraft.BlastFurnace.addRecipe(item, true, false, 1278, <terrafirmacraft:item.Pig Iron Ingot>);
 		}
 	mods.railcraft.BlastFurnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, false, false, 1278, <terrafirmacraft:item.Pig Iron Ingot>);
-	mods.railcraft.BlastFurnace.addRecipe(<terrafirmacraft:item.MetalDust:3>, false, false, 1278, <terrafirmacraft:item.Pig Iron Ingot>);
+	mods.railcraft.BlastFurnace.addRecipe(<terrafirmacraft:item.MetalDust:3>, true, false, 1278, <terrafirmacraft:item.Pig Iron Ingot>);
 	mods.railcraft.BlastFurnace.addRecipe(<Mekanism:DirtyDust>, true, false, 638, <terrafirmacraft:item.Wrought Iron Ingot>);
     
     mods.railcraft.BlastFurnace.addRecipe(<terrafirmacraft:item.Ore Pile:14>, true, false, 638, <terrafirmacraft:item.Osmium Ingot>);

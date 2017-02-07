@@ -53,7 +53,7 @@ TFC-TNFC
 - Added buckets of Tannin, Limewater, Brine and olive oil.
 - Can drink a milk bottle, 250mb and gives 1/4 of the dairy given by bucket.
 - Seaweed now drops onto of the gravel block. Less likely to go flying off in random directions.
-- Quern handle is not much more forgiving for clicking.
+- Quern handle is now much more forgiving for clicking.
 - Added Quartz Ore.
 - Black Steel shears now function as shears, but still just 16 uses. They are 100% drop rate for saplings, even for sequoia, but that uses 4 durability.
 - Tweaked deserts to be just a little bit less rare (rainfall value of 125 will now generate as a desert)

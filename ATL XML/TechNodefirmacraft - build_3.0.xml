@@ -15,7 +15,7 @@
     </delete>
     
     <messages>
-        <update><![CDATA[ATTENTION: This version is NOT compatible with old worlds. This is a major version update which makes major changes to world-gen. You've been warned.]]></update>
+        <update><![CDATA[ATTENTION: This version is NOT compatible with old worlds. This is a major version update which makes major changes to world-gen. You've been warned. This is not the version on official TNFC server.]]></update>
     </messages>
     
     <libraries>
@@ -171,7 +171,7 @@
         
         <!-- Pack Customization Mods -->
         <mod
-        name="Scripts" version="3.0" url="packs/TechNodefirmacraft/files/extract/scripts.3.0.zip" file="scripts.3.0.zip" md5="e8cbc30f963478cd02ef66a6d1148929" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="Scripts" version="3.0.1" url="packs/TechNodefirmacraft/files/extract/scripts.3.0.1.zip" file="scripts.3.0.1.zip" md5="ccade75647299cd0b67bbc1dd861b4c0" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod
         name="MineTweaker 3" version="3.0.10B" url="packs/TechNodefirmacraft/files/1.7.10Mods/MineTweaker3-1.7.10-3.0.10B.jar" file="MineTweaker3-1.7.10-3.0.10B.jar" md5="884933d1b933e0bd2f93293201569f13" download="server" type="mods" website="http://minetweaker3.powerofbytes.com" authors="Stan Hebben" description="Customize your minecraft experience!" client="yes" optional="no" server="yes" serveroptional="no"
@@ -409,7 +409,7 @@
         name="Resource Loaders Folder" version="2.10" url="packs/TechNodefirmacraft/files/extract/resources_2.10.zip" file="resources_2.10.zip" md5="33a24c409fe81854c0d3cb4077410357" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="no"
         /> 
         <mod 
-        name="IGWModData" version="3.0" url="packs/TechNodefirmacraft/files/extract/igwmod.3.0.zip" file="igwmod.3.0.zip" md5="015e42c1a51bfefdaa5bd83e660e1208" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
+        name="IGWModData" version="3.0.1" url="packs/TechNodefirmacraft/files/extract/igwmod.3.0.1.zip" file="igwmod.3.0.1.zip" md5="aa047b51ee45defe00dac3ecefb50759" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
         />
         <mod 
         name="FTBUtilConfig" version="1.0.18.3" url="packs/TechNodefirmacraft/files/extract/ftb_utility_files.zip" file="ftb_utility_files.zip" md5="421de15758b4df7874778eba8285c041" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Config for FTBUtil" depends="FTBLib" client="yes" optional="no" server="yes" serveroptional="no"
