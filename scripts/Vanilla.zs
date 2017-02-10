@@ -117,7 +117,7 @@ import minetweaker.item.IItemStack;
 	recipes.addShapeless(<minecraft:wool>, [<ore:materialCloth>]);
     recipes.addShapeless(<terrafirmacraft:item.WoolCloth>, [<minecraft:wool>]);
 //# Convert petrified wood to Netherrack
-	recipes.addShapeless(<minecraft:netherrack>, [<terrafirmacraft:item.Ore:22>]);
+	recipes.addShapeless(<minecraft:netherrack>, [<terrafirmacraft:item.MineralOre:6>]);
 
 //#Iron Bars
 	recipes.addShapeless(<minecraft:iron_bars> * 6, [<ore:plateIron>, <ore:craftingToolMediumChisel>]);
@@ -158,8 +158,6 @@ import minetweaker.item.IItemStack;
 	recipes.addShapeless(<terrafirmacraft:item.Ore:34> * 9, [<minecraft:lapis_block>]);
 
 //# TFC ADDITIONS
-
-//# Recipe for vanilla bottles
 
 	recipes.addShapeless(<terrafirmacraft:item.Diamond:2> * 9, [<ore:blockDiamond>]);
 
