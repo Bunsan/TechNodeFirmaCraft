@@ -1,6 +1,6 @@
 [prefix{l}]Version 3.1 - Weighing an Update[prefix{l}]
 
-This little update is to make a few non-urgent fixes and to add in the TFC-Scales mod that allows you to cut your food stacks into precise sizes.
+This little update is to make a few non-urgent fixes and to add in the TFC-Scales mod that allows you to cut your food stacks into precise sizes. I also actually removed Tabula Rasa, not just the custom blocks. You will be prompted about this when starting up your world. It is safe to say yes.
 
 Fixes
 - Fixed petrified wood conversion to netherrack and recipes.
