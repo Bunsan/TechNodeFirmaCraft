@@ -1,7 +1,7 @@
     <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>3.0</version>
+        <version>3.1</version>
         <minecraft>1.7.10</minecraft>
         <caseallfiles>lower</caseallfiles>
         <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
@@ -58,10 +58,10 @@
 <!-- Base Scripts -->
         <!-- Marquee Mods -->
         <mod 
-        name="TerraFirmaCraft" version="0.79.29_tnfc.2b38cf2" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.29_tnfc.2b38cf2.jar" file="[1.7.10]TerraFirmaCraft-0.79.29_tnfc.2b38cf2.jar" md5="2d4cf9860cc4eccedf2bce0d2c5ba673" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="TerraFirmaCraft" version="0.79.29_tnfc.26f3e74" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.29_tnfc.26f3e74.jar" file="[1.7.10]TerraFirmaCraft-0.79.29_tnfc.26f3e74.jar" md5="d198e97e044c58123dc05d445e005c4f" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod 
-        name="TechNodefirmacraft" version="3.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TechNodefirmacraft-3.0.jar" file="[1.7.10]TechNodefirmacraft-3.0.jar" md5="759e56dad7bdeea774c45739b1d8b93f" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="AnodeCathode, Bunsan" optional="no" description="Custom integration and features for TechNodefirmacraft modpack" client="yes" server="yes" serveroptional="no"
+        name="TechNodefirmacraft" version="3.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TechNodefirmacraft-3.1.jar" file="[1.7.10]TechNodefirmacraft-3.1.jar" md5="3422f33cbf8ae147f8bef035dcc4a825" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="AnodeCathode, Bunsan" optional="no" description="Custom integration and features for TechNodefirmacraft modpack" client="yes" server="yes" serveroptional="no"
         />
         <mod 
         name="TerrafirmaStuff" version="0.2.0.tnfc" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]terrafirmastuff-0.2_tnfc.jar" file="[1.7.10]terrafirmastuff-0.2_tnfc.jar" md5="4d87b40d0b89874a75e7bd009b548910" download="server" type="mods" website="https://github.com/Bunsan/TerraFirmaStuff" description="Adding blocks to TFC" authors="Bunsan" optional="no" client="yes" server="yes" serveroptional="no"
@@ -163,15 +163,18 @@
         name="PneumaticCrap" version="1.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/1.7.10-pneumaticCrap-1.0.0 .jar" file="1.7.10-pneumaticCrap-1.0.0 .jar" md5="c01541b301a224d1932a630a28713c2e" download="server" type="mods" website="https://github.com/AnodeCathode/PneumaticCrap" description="Extra items for PneumaticCraft" authors="AnodeCathode" client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod
-        name="Blue Power" version="0.2.-tnfc-8136629" url="packs/TechNodefirmacraft/files/1.7.10Mods/BluePower-1.7.10-0.2.-tnfc.8136629.jar" file="BluePower-1.7.10-0.2.-tnfc.8136629.jar" md5="84cde42005d8d42824a09a456bf0ad1c" download="server" type="mods" website="http://minecraft.curseforge.com/mc-mods/223099-blue-power" authors="Quetzi,Zness,MineMaarten,K4Unl,Amadornes" description="Work in progress mod aiming to reintroduce some missing &apos;glue&apos; blocks from prior versions of modded Minecraft" 
+        name="Blue Power" version="0.2.-tnfc-8136629" url="packs/TechNodefirmacraft/files/1.7.10Mods/BluePower-1.7.10-0.2.-tnfc.8136629.jar" file="BluePower-1.7.10-0.2.-tnfc.8136629.jar" md5="84cde42005d8d42824a09a456bf0ad1c" download="server" type="mods" website="http://minecraft.curseforge.com/mc-mods/223099-blue-power" authors="Quetzi,Zness,MineMaarten,K4Unl,Amadornes" description="Work in progress mod aiming to reintroduce some missing &apos;glue&apos; blocks from prior versions of modded Minecraft" client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod
-        name="QmunityLib" version="0.1.114" url="packs/TechNodefirmacraft/files/1.7.10Mods/QmunityLib-1.7.10-0.1.114-universal.jar" file="QmunityLib-1.7.10-0.1.114-universal.jar" md5="decfcdda0fbaa80981d06c0bb00df5d1" download="server" type="mods" website="http://www.curseforge.com/projects/224785/" authors="quetzi,amadornes,K4Unl,MineMaarten" description="Library required by several Qmunity mods" 
+        name="QmunityLib" version="0.1.114" url="packs/TechNodefirmacraft/files/1.7.10Mods/QmunityLib-1.7.10-0.1.114-universal.jar" file="QmunityLib-1.7.10-0.1.114-universal.jar" md5="decfcdda0fbaa80981d06c0bb00df5d1" download="server" type="mods" website="http://www.curseforge.com/projects/224785/" authors="quetzi,amadornes,K4Unl,MineMaarten" description="Library required by several Qmunity mods" client="yes" optional="yes" server="yes" serveroptional="yes"
+        />
+        <mod 
+        name="TFC Scales" version="1.0.2" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TFCScales-1.0.2.jar" file="[1.7.10]TFCScales-1.0.2.jar" md5="27ff14f91de38c88e863efc26900dea8" download="server" type="mods" website="http://terrafirmacraft.com/f/topic/8389-tfc-07923-tfc-scales-divide-your-food-precisely/" authors="Chogata,AcidMaker" description="Scales for precise food dividing in TerraFirmaCraft" client="yes" optional="no" server="yes" serveroptional="no"
         />
         
         <!-- Pack Customization Mods -->
         <mod
-        name="Scripts" version="3.0.1" url="packs/TechNodefirmacraft/files/extract/scripts.3.0.1.zip" file="scripts.3.0.1.zip" md5="ccade75647299cd0b67bbc1dd861b4c0" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="Scripts" version="3.1" url="packs/TechNodefirmacraft/files/extract/scripts.3.1.zip" file="scripts.3.1.zip" md5="498ccaf072d99d86298c5ed2657336aa" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod
         name="MineTweaker 3" version="3.0.10B" url="packs/TechNodefirmacraft/files/1.7.10Mods/MineTweaker3-1.7.10-3.0.10B.jar" file="MineTweaker3-1.7.10-3.0.10B.jar" md5="884933d1b933e0bd2f93293201569f13" download="server" type="mods" website="http://minetweaker3.powerofbytes.com" authors="Stan Hebben" description="Customize your minecraft experience!" client="yes" optional="no" server="yes" serveroptional="no"
@@ -181,9 +184,6 @@
         />
         <mod 
         name="TFC Tweaker" version="0.01.02" url="packs/TechNodefirmacraft/files/1.7.10Mods/TFCTweaker-1.7.10-0.01.02.jar" file="TFCTweaker-1.7.10-0.01.02.jar" md5="ff63111b177fbb7f0123037155dfa771" download="server" type="mods" website="https://github.com/JAWolfe04/TFC-Tweaker" authors="JAWolfe" description="Provides Minetweaker support for Terrafirmacraft 0.79.28+." client="yes" optional="no" server="yes" serveroptional="no"
-        />
-        <mod
-        name="Tabula Rasa" version="1.0.1" url="packs/TechNodefirmacraft/files/1.7.10Mods/TabulaRasa-[1.7.10]1.0.1-3.jar" file="TabulaRasa-[1.7.10]1.0.1-3.jar" md5="e5d300d0166a3dc3340179d8e04e7d1c" download="server" type="mods" website="http://www.teamcofh.com" authors="King Lemming" description="Blank Slate - Blocks and Items! They do nothing, have no textures, and no recipes. Minetweak away." client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod 
         name="Meta Mod: Custom Items" version="1.0.9 beta" url="packs/TechNodefirmacraft/files/1.7.10Mods/customitems-1.0.9_beta_1.7.10.jar" file="customitems-1.0.9_beta_1.7.10.jar" md5="9043081fac029ddca28c56daa89ed0b5" download="server" type="mods" website="https://github.com/0tho/CustomItems" authors="Otho" description="A simple way to add your custom stuff to minecraft." client="yes" optional="no" server="yes" serveroptional="no"
@@ -409,7 +409,7 @@
         name="Resource Loaders Folder" version="2.10" url="packs/TechNodefirmacraft/files/extract/resources_2.10.zip" file="resources_2.10.zip" md5="33a24c409fe81854c0d3cb4077410357" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="no"
         /> 
         <mod 
-        name="IGWModData" version="3.0.1" url="packs/TechNodefirmacraft/files/extract/igwmod.3.0.1.zip" file="igwmod.3.0.1.zip" md5="aa047b51ee45defe00dac3ecefb50759" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
+        name="IGWModData" version="3.1" url="packs/TechNodefirmacraft/files/extract/igwmod.3.1.zip" file="igwmod.3.1.zip" md5="df50511eec2a5e394cfad2380a29518c" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
         />
         <mod 
         name="FTBUtilConfig" version="1.0.18.3" url="packs/TechNodefirmacraft/files/extract/ftb_utility_files.zip" file="ftb_utility_files.zip" md5="421de15758b4df7874778eba8285c041" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Config for FTBUtil" depends="FTBLib" client="yes" optional="no" server="yes" serveroptional="no"

@@ -1,4 +1,19 @@
-[prefix{l}]Version 3.0 - A Whole New World[prefix{}] 
+[prefix{l}]Version 3.1 - Weighing an Update[prefix{l}]
+
+This little update is to make a few non-urgent fixes and to add in the TFC-Scales mod that allows you to cut your food stacks into precise sizes.
+
+Fixes
+- Fixed petrified wood conversion to netherrack and recipes.
+- Changed leathersac to use either string or wool yarn.
+
+Updated Mods
+- TNFCmod -fixed oreDictionary for peterified wood.
+Mods Added
+- TFC-Scales by Chogata and AcidMaker
+
+***************************************
+
+[prefix{l}]Version 3.0 - A Whole New World[prefix{l}]
 
 We thought we were finished with this, but... Long story short with no TFC2 imminent I started playing TNFC SSP. A small fix for my own play through led to another and another and then was told that Pakratt0013's TFC-Tuesday stream group were going to play the pack and well here we are with version 3.0. This update breaks old worlds completely. You must start a new world/map for this update. Many of the changes are for integration within the pack. Adding new TFC'd ores and fixing small issues in TFC that always bugged me. So enjoy this totally unintended new version.
 
