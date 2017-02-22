@@ -1,7 +1,7 @@
     <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>3.1</version>
+        <version>3.2</version>
         <minecraft>1.7.10</minecraft>
         <caseallfiles>lower</caseallfiles>
         <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
@@ -15,7 +15,7 @@
     </delete>
     
     <messages>
-        <update><![CDATA[ATTENTION: This 3.X version of pack and is NOT compatible with old worlds.]]></update>
+        <update><![CDATA[ATTENTION: This is a 3.X version of pack and is NOT compatible with old worlds.]]></update>
     </messages>
     
     <libraries>
@@ -58,13 +58,13 @@
 <!-- Base Scripts -->
         <!-- Marquee Mods -->
         <mod 
-        name="TerraFirmaCraft" version="0.79.29_tnfc.26f3e74" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.29_tnfc.26f3e74.jar" file="[1.7.10]TerraFirmaCraft-0.79.29_tnfc.26f3e74.jar" md5="d198e97e044c58123dc05d445e005c4f" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="TerraFirmaCraft" version="0.79.29_tnfc.18abf2f" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.29_tnfc.18abf2f.jar" file="[1.7.10]TerraFirmaCraft-0.79.29_tnfc.18abf2f.jar" md5="14d83b19e521585ee551770ed78c4c5f" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod 
         name="TechNodefirmacraft" version="3.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TechNodefirmacraft-3.1.jar" file="[1.7.10]TechNodefirmacraft-3.1.jar" md5="3422f33cbf8ae147f8bef035dcc4a825" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="AnodeCathode, Bunsan" optional="no" description="Custom integration and features for TechNodefirmacraft modpack" client="yes" server="yes" serveroptional="no"
         />
         <mod 
-        name="TerrafirmaStuff" version="0.2.0.tnfc" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]terrafirmastuff-0.2_tnfc.jar" file="[1.7.10]terrafirmastuff-0.2_tnfc.jar" md5="4d87b40d0b89874a75e7bd009b548910" download="server" type="mods" website="https://github.com/Bunsan/TerraFirmaStuff" description="Adding blocks to TFC" authors="Bunsan" optional="no" client="yes" server="yes" serveroptional="no"
+        name="TerrafirmaStuff" version="0.2.1.tnfc" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]terrafirmastuff-0.2.1_tnfc.jar" file="[1.7.10]terrafirmastuff-0.2.1_tnfc.jar" md5="e011ee0030136032499578ea21483233" download="server" type="mods" website="https://github.com/Bunsan/TerraFirmaStuff" description="Adding blocks to TFC" authors="Bunsan" optional="no" client="yes" server="yes" serveroptional="no"
         />
         <mod 
         name="Railcraft" version="9.12.2.0" url="packs/TechNodefirmacraft/files/1.7.10Mods/Railcraft_1.7.10-9.12.2.0.jar" file="Railcraft_1.7.10-9.12.2.0.jar" md5="c259e18bb43599134b3a6f96cba5f26d" download="server" type="mods" website="http://railcraft.info/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/mc-mods/51195-railcraft&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=CovertJaguar%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_return=http://m" authors="CovertJaguar" description="Redefine your rails" client="yes" server="yes" serveroptional="no" 
@@ -166,7 +166,7 @@
         name="Blue Power" version="0.2.-tnfc-8136629" url="packs/TechNodefirmacraft/files/1.7.10Mods/BluePower-1.7.10-0.2.-tnfc.8136629.jar" file="BluePower-1.7.10-0.2.-tnfc.8136629.jar" md5="84cde42005d8d42824a09a456bf0ad1c" download="server" type="mods" website="http://minecraft.curseforge.com/mc-mods/223099-blue-power" authors="Quetzi,Zness,MineMaarten,K4Unl,Amadornes" description="Work in progress mod aiming to reintroduce some missing &apos;glue&apos; blocks from prior versions of modded Minecraft" client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod
-        name="QmunityLib" version="0.1.114" url="packs/TechNodefirmacraft/files/1.7.10Mods/QmunityLib-1.7.10-0.1.114-universal.jar" file="QmunityLib-1.7.10-0.1.114-universal.jar" md5="decfcdda0fbaa80981d06c0bb00df5d1" download="server" type="mods" website="http://www.curseforge.com/projects/224785/" authors="quetzi,amadornes,K4Unl,MineMaarten" description="Library required by several Qmunity mods" client="yes" optional="yes" server="yes" serveroptional="yes"
+        name="QmunityLib" version="0.1.114" url="packs/TechNodefirmacraft/files/1.7.10Mods/QmunityLib-1.7.10-0.1.114-universal.jar" file="QmunityLib-1.7.10-0.1.114-universal.jar" md5="decfcdda0fbaa80981d06c0bb00df5d1" download="server" type="mods" website="http://www.curseforge.com/projects/224785/" authors="quetzi,amadornes,K4Unl,MineMaarten" description="Library required by several Qmunity mods" client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod 
         name="TFC Scales" version="1.0.2" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TFCScales-1.0.2.jar" file="[1.7.10]TFCScales-1.0.2.jar" md5="27ff14f91de38c88e863efc26900dea8" download="server" type="mods" website="http://terrafirmacraft.com/f/topic/8389-tfc-07923-tfc-scales-divide-your-food-precisely/" authors="Chogata,AcidMaker" description="Scales for precise food dividing in TerraFirmaCraft" client="yes" optional="no" server="yes" serveroptional="no"
@@ -276,13 +276,13 @@
         />
          <!-- Days per Year Options -->
         <mod
-        name="360 Days (Recommended for SMP)" version="2.15" url="packs/TechNodefirmacraft/files/extract/360justTFCconfig.2.15.zip" file="360justTFCconfig.2.15.zip" md5="abb41ef710a6ad216eb754b43c744a9f" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="TFC config for length of year" client="yes" optional="yes" server="yes" serveroptional="yes" colour="green" recommended="yes" group="yearlength"
+        name="360 Days (Recommended for SMP)" version="3.2" url="packs/TechNodefirmacraft/files/extract/360justTFCconfig.3.2.zip" file="360justTFCconfig.3.2.zip" md5="96b4eae02ff150e0b3d26c7a13c1802d" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="TFC config for length of year" client="yes" optional="yes" server="yes" serveroptional="yes" colour="green" recommended="yes" group="yearlength"
         />
         <mod
-        name="192 Days" version="2.15" url="packs/TechNodefirmacraft/files/extract/192justTFCconfig.2.15.zip" file="192justTFCconfig.2.15.zip" md5="ce2bcd8cedd84645c9840cee13562dee" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="TFC config for length of year" client="yes" optional="yes" server="yes" serveroptional="yes" colour="green" recommended="no" group="yearlength"
+        name="192 Days" version="3.2" url="packs/TechNodefirmacraft/files/extract/192justTFCconfig_3.2.zip" file="192justTFCconfig_3.2.zip" md5="b40d77814cc9e06618940cbafe43e7c6" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="TFC config for length of year" client="yes" optional="yes" server="yes" serveroptional="yes" colour="green" recommended="no" group="yearlength"
         />
         <mod
-        name="96 Days(Recommended for SSP)" version="2.15" url="packs/TechNodefirmacraft/files/extract/96justTFCconfig_2.15.zip" file="96justTFCconfig_2.15.zip" md5="7a8a5886b7d3c6f5881eb139697d8175" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="TFC config for length of year" client="yes" optional="yes" server="yes" serveroptional="yes" colour="green" recommended="no" group="yearlength"
+        name="96 Days(Recommended for SSP)" version="3.2" url="packs/TechNodefirmacraft/files/extract/96justTFCconfig_3.2.zip" file="96justTFCconfig_3.2.zip" md5="9fb04c71ea3d524623bcb86a0c78c98b" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="TFC config for length of year" client="yes" optional="yes" server="yes" serveroptional="yes" colour="green" recommended="no" group="yearlength"
         />
         <!-- Optional Mods -->
         <mod
