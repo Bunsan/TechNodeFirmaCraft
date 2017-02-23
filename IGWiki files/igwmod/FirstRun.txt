@@ -1,118 +1,23 @@
-[prefix{l}]Version 3.1 - Weighing an Update[prefix{l}]
+[prefix{l}]Version 3.2 - Squishy Bugs[prefix{l}]
 
-This little update is to make a few non-urgent fixes and to add in the TFC-Scales mod that allows you to cut your food stacks into precise sizes. I also actually removed Tabula Rasa, not just the custom blocks. You will be prompted about this when starting up your world. It is safe to say yes.
+This update is just to fix/refine a few things in the pack. A few little bugs and fixes. Nothing too dramatic.
 
-Fixes
-- Fixed petrified wood conversion to netherrack and recipes.
-- Changed leathersac to use either string or wool yarn.
+Bug Fixes:
 
-Updated Mods
-- TNFCmod -fixed oreDictionary for peterified wood.
-Mods Added
-- TFC-Scales by Chogata and AcidMaker
-
-***************************************
-
-[prefix{l}]Version 3.0 - A Whole New World[prefix{l}]
-
-We thought we were finished with this, but... Long story short with no TFC2 imminent I started playing TNFC SSP. A small fix for my own play through led to another and another and then was told that Pakratt0013's TFC-Tuesday stream group were going to play the pack and well here we are with version 3.0. This update breaks old worlds completely. You must start a new world/map for this update. Many of the changes are for integration within the pack. Adding new TFC'd ores and fixing small issues in TFC that always bugged me. So enjoy this totally unintended new version.
-
-Pack Changes
-
-- Reduced Plant Mega Pack spawn a bit. Reduced Bamboo spawning and set so all types of bamboo will now spawn.
-- Plant Mega Pack plants won't drop items unless you break with a knife, shears, sword or scythe.
-- Bamboo uses Treecapitator to chop. If broken without an axe only broken block will break. Breaking dirt under bamboo won't break bamboo.
-- Bamboo burns.
-- You can craft dyes from PMP flowers.
-- Ore Piles and associated recipes can be made in the Rolling Machine.
-- Changes to Ropes+ rope recipe.
-   - 4 Jute Fibre -> 3 Rope+ ropes.
-   - 9 Hemp Fibre -> 3 Rope+ ropes.
-- Loom recipes can now be crafted in carpenter. 
-   - 8 Raw Wool -> 4 cloth. Uses water.
-   - 8 String -> 1 minecraft web; 3 Web -> 1 Silk cloth. Uses water.
-   - 9 Ropes+ ropes - > 1 Burlap cloth. Uses water.
-- Leather can now be processed in carpenter and Mek Enrichment chamber.
-- IE lanterns and lights rebalanced.
-- Forestry rain tank and RC water tank recipes made cheaper.
-- Unified to RC coal coke and added recipe to grind to TFC coal coke dust.
-- Zombies and Creeper might have a few new tricks.
-- Removed crafting recipes for World-gen bees.
-- Added anvil recipes for Decorations and Merchants to fix arrow issue on servers.
-- Removed Vanilla anvil and brewing stands again. Didn't work properly/unneeded.
-- Removed all custom blocks that are replicated in TerrafirmaStuff.
-- Move all other custom blocks into TNFCmod.
-
-HQM
-- Quests cleaned up and minor fixes.
-- New Work in Progress Quests for Forestry, Railcraft, Immersive Engineering and Mekanism. Rewards now set.
-- Questing is no longer Hardcore by default. Rewards no longer have hearts.
-
-Updated Mods:
 TFC-TNFC
-- Added Osmium, Tungsten and Aluminum Ore, Sheets, ingots etc.
-- Added surface chunks for new ores.
-- Set Aluminum Ore to not smelt in crucible. Requires Arc Furnace. Aluminum Metal items an melt in crucible. Config option to allow ore smelting.
-- Added dusts. No built in TFC recipes.
-- Added piles with recipes.
-- Bloomery accepts Ore piles and accepts up to 5000 units.
-- Fixed ProPick to work with new ores and to read meta value of non-TFC blocks added in TFCOres.cfg
-- Added Coal Coke fuel. With burn hotter in forge and can be added to bloomery or blast furnace.
-- Added Coal Pile. Functions like log pile and can be used in Coal Coke Pit, like Charcoal Pit. Coal Piles must be full. Coke Blocks must be broken with hammer. Will drop variable number of coke dust items.
-- Fruit trees now are planted as saplings which convert in time to fruit tree log. Can be picked up and placed in flowerpots.
-- Farmland now drops a dirt block when broken.
-- Added config for Seaweed regen, BerryBush regen and stick/rock/ore nugget regen.
-- Made Heat Stroke have status effect with particles.
-- Changed TFC alcohol etc use vanilla glass bottle as there was no reason or advantage to have a TFC item.
-- Alcohol brewing is strict with 40oz for a barrel of water. 40-120oz range was for potency that was not implemented. 
-- Added buckets of Tannin, Limewater, Brine and olive oil.
-- Can drink a milk bottle, 250mb and gives 1/4 of the dairy given by bucket.
-- Seaweed now drops onto of the gravel block. Less likely to go flying off in random directions.
-- Quern handle is now much more forgiving for clicking.
-- Added Quartz Ore.
-- Black Steel shears now function as shears, but still just 16 uses. They are 100% drop rate for saplings, even for sequoia, but that uses 4 durability.
-- Tweaked deserts to be just a little bit less rare (rainfall value of 125 will now generate as a desert)
-- Bears are more vocal and louder.
+- Acacia saplings no longer drop (they would have grown into oak trees anyways)
+- Fixed some issues with mob sounds.
+- Bleed and Heat Stroke potion effects have config option to avoid ID conflicts.
+- Few fixes for TFCConfig. Debris, berry and seaweed regeneration is true by default.
 
-TNFCmod
-- Added our packs Meta:CustomItems and TabulaRasa custom items and blocks.
-- Fixes for TFC changes.
-- Potion crafting added as barrel recipes. Craft inactive potion which is then activated with Potion Energizer fluid. Potions can then be Enhanced with Potion Energizer fluid or extended with Potion Extender fluid.
+General Fixes:
+- Trapdoors and gates no longer broken by zombies.
+- TFC Jack-o-lanterns now work with dynamic lights.
+- Iron axe works with treecapitator
+- Horizontal area effected by treecapitator is reduced, should reduce amount of floating bamboo growing.
 
-TNFCResourses
-
-Mekanism
-- Integrated TFC ores/metals into Mek_tnfc.
-- Updated with latest changes from Mek 1.7.10 version.
-
-Storage Drawers
-
-OpenComputers
-
-OpenEye
-
-VoxelMap
-
-BetterFoliage
-
-Added Mods:
-TerrafirmaStuff
-- Aesthetic blocks that can be chiselled. Hardened Clay, Stone Blocks, Jet Blocks, Quartz Blocks, Serpentine Blocks and fences.
-
-Block Properties
-- Makes Bamboo items from Plant Mega Pack burn.
-- Stop PMP plants clogging inventory.
-
-WAILA Harvestability
-- Tells you tool to use to break things. Logs show hammer, as that gives you sticks, but does use axe.
-
-Special AI
-- Zombies and Creepers are learning new tricks.
-
-Removed Mods:
-Tabula Rasa
-- All items moved into TNFCmod etc.
-Another One Bites the Dust
-- Added TFC ores/metals into Mek_tnfc
-Advanced RPG mod
-- Removed due to memory leak that I can't fix.
+Mod Updates:
+TerrafirmaStuff:
+- Chisel mode no longer cheaty. Won't work if more than 2 raw stone on top of block.
+Farseek
+Voxel Map

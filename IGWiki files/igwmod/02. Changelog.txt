@@ -1,3 +1,27 @@
+[prefix{l}]Version 3.2 - Squishy Bugs[prefix{l}]
+
+This update is just to fix/refine a few things in the pack. A few little bugs and fixes. Nothing too dramatic.
+
+Bug Fixes:
+
+TFC-TNFC
+- Acacia saplings no longer drop (they would have grown into oak trees anyways)
+- Fixed some issues with mob sounds.
+- Bleed and Heat Stroke potion effects have config option to avoid ID conflicts.
+- Few fixes for TFCConfig. Debris, berry and seaweed regeneration is true by default.
+
+General Fixes:
+- Trapdoors and gates no longer broken by zombies.
+- TFC Jack-o-lanterns now work with dynamic lights.
+- Iron axe works with treecapitator
+- Horizontal area effected by treecapitator is reduced, should reduce amount of floating bamboo growing.
+
+Mod Updates:
+TerrafirmaStuff:
+- Chisel mode no longer cheaty. Won't work if more than 2 raw stone on top of block.
+Farseek
+Voxel Map
+
 [prefix{l}]Version 3.1 - Weighing an Update[prefix{l}]
 
 This little update is to make a few non-urgent fixes and to add in the TFC-Scales mod that allows you to cut your food stacks into precise sizes. I also actually removed Tabula Rasa, not just the custom blocks. You will be prompted about this when starting up your world. It is safe to say yes.
