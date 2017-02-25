@@ -253,7 +253,7 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 2, [<ImmersiveEngineer
 	recipes.addShaped(<ImmersiveEngineering:stoneDecoration:6> * 27, [[null, <technodefirmacraft:IEBlocks>, null], [<technodefirmacraft:IEBlocks>, <technodefirmacraft:IEBlocks:1>, <technodefirmacraft:IEBlocks>], [null, <technodefirmacraft:IEBlocks>, null]]);
 
 //# Electrode BluePrint
-	recipes.addShaped(<ImmersiveEngineering:blueprint:2>, [[<ore:dustHOPGraphite>, <ore:ingotBlackSteel>, <ore:dustHOPGraphite>], [<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
+	recipes.addShaped(<ImmersiveEngineering:blueprint:2>, [[<ore:dustHOPGraphite>, <ore:ingotBlackSteel>, <ore:dustHOPGraphite>], [<terrafirmacraft:item.MineralOre:19>, <terrafirmacraft:item.MineralOre:19>, <terrafirmacraft:item.MineralOre:19>], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
 
 //# Concrete
 	recipes.addShaped(<ImmersiveEngineering:stoneDecoration:4> * 4, [[<ore:itemSlag>, <ore:lumpClay>, <ore:itemSlag>], [<ore:blockGravel>, <ore:itemSlag>, <ore:blockGravel>], [<ore:itemSlag>, <ore:lumpClay>, <ore:itemSlag>]]);
@@ -509,7 +509,7 @@ recipes.addShapeless(<terrafirmacraft:item.Steel Sheet> * 2, [<ImmersiveEngineer
 	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:8> * 4, <terrafirmacraft:item.Ore:9>, 1000);
 	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:8> * 6, <terrafirmacraft:item.Ore:27>, 1000);
 	//# Lapis
-	//mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:6> * 4, <terrafirmacraft:item.Ore:34>, 1000);
+	//mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.Powder:6> * 4, <terrafirmacraft:item.MineralOre:19>, 1000);
 	//# Bones
 //	mods.immersiveengineering.Crusher.addRecipe(<terrafirmacraft:item.dyePowder:15> * 2, <minecraft:bone>, 1000);
 

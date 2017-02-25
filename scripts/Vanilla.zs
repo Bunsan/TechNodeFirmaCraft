@@ -155,7 +155,7 @@ import minetweaker.item.IItemStack;
 	recipes.addShapeless(<terrafirmacraft:item.dyePowder>, [<minecraft:dye>]);
 
 //# REPLACE Lapis Block to lapis with TFC lapis
-	recipes.addShapeless(<terrafirmacraft:item.Ore:34> * 9, [<minecraft:lapis_block>]);
+	recipes.addShapeless(<terrafirmacraft:item.MineralOre:19> * 9, [<minecraft:lapis_block>]);
 
 //# TFC ADDITIONS
 
@@ -225,7 +225,7 @@ import minetweaker.item.IItemStack;
 	recipes.addShaped(<minecraft:glowstone>, [[<ore:dustGlowstone>, <ore:dustGlowstone>], [<ore:dustGlowstone>, <ore:dustGlowstone>], [<ore:bucketFreshWater>, null]]);
 
 //# Replace Lapis and Diamond Blocks
-	recipes.addShaped(<minecraft:lapis_block>, [[<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>], [<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>], [<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>]]);
+	recipes.addShaped(<minecraft:lapis_block>, [[<terrafirmacraft:item.MineralOre:19>, <terrafirmacraft:item.MineralOre:19>, <terrafirmacraft:item.MineralOre:19>], [<terrafirmacraft:item.MineralOre:19>, <terrafirmacraft:item.MineralOre:19>, <terrafirmacraft:item.MineralOre:19>], [<terrafirmacraft:item.MineralOre:19>, <terrafirmacraft:item.MineralOre:19>, <terrafirmacraft:item.MineralOre:19>]]);
 	recipes.addShaped(<minecraft:diamond_block>, [[<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>], [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>], [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>]]);
 
 //# Redstone Devices

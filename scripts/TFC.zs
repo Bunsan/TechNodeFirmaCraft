@@ -79,7 +79,7 @@
 //# Quern
 // Output Stack, Input Stack
 //#Addition
-	mods.Terrafirmacraft.Quern.addRecipe(<DecorationsTFC:item.Powders.Gypsum> * 4, <terrafirmacraft:item.Ore:17>);
+	mods.Terrafirmacraft.Quern.addRecipe(<DecorationsTFC:item.Powders.Gypsum> * 4, <terrafirmacraft:item.MineralOre:1>);
 	mods.Terrafirmacraft.Quern.addRecipe(<minecraft:blaze_powder> * 2, <terrafirmacraft:item.MineralOre:23>);
 	mods.Terrafirmacraft.Quern.addRecipe(<minecraft:glowstone_dust> * 2, <terrafirmacraft:item.MineralOre:22>);
 	mods.Terrafirmacraft.Quern.addRecipe(<Forestry:fertilizerCompound> * 4, <terrafirmacraft:item.MineralOre:21>);
