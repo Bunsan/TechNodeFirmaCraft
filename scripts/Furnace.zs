@@ -19,38 +19,6 @@
 
 	furnace.addRecipe(<minecraft:glass>, <ore:blockSand>);
 	furnace.addRecipe(<minecraft:coal:1>, <terrafirmacraft:item.Log:*>);
-	furnace.addRecipe(<terrafirmastuff:clayStained2>, <terrafirmastuff:clayRaw>);
-    
-    var meta = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16] as int[];
-
-for i in meta {
-
-	var rawClay = <terrafirmastuff:clayRawColor>.definition.makeStack(i);
-	var stainedClay = <terrafirmastuff:clayStained>.definition.makeStack(i);
-    var rawBrick = <terrafirmastuff:item.clayRawBrick>.definition.makeStack(i);
-    var stainedBrick = <terrafirmastuff:item.clayBrick>.definition.makeStack(i);
-    
-    furnace.addRecipe(stainedClay, rawClay);
-    furnace.addRecipe(stainedBrick, rawBrick);
-    }
-
-    
-    //furnace.addRecipe(<terrafirmastuff:clayRawColor:0>, <terrafirmastuff:clayStained:0>);
-    //furnace.addRecipe(<terrafirmastuff:clayRawColor:1>, <terrafirmastuff:clayStained:1>);
-    //furnace.addRecipe(<terrafirmastuff:clayRawColor:2>, <terrafirmastuff:clayStained:2>);
-    //furnace.addRecipe(<terrafirmastuff:clayRawColor:3>, <terrafirmastuff:clayStained:3>);
-    //furnace.addRecipe(<terrafirmastuff:clayRawColor:4>, <terrafirmastuff:clayStained:4>);
-    //furnace.addRecipe(<terrafirmastuff:clayRawColor:5>, <terrafirmastuff:clayStained:5>);
-    //furnace.addRecipe(<terrafirmastuff:clayRawColor:6>, <terrafirmastuff:clayStained:6>);
-    //furnace.addRecipe(<terrafirmastuff:clayRawColor:7>, <terrafirmastuff:clayStained:7>);
-    //furnace.addRecipe(<terrafirmastuff:clayRawColor:8>, <terrafirmastuff:clayStained:8>);
-    //furnace.addRecipe(<terrafirmastuff:clayRawColor:9>, <terrafirmastuff:clayStained:9>);
-    //furnace.addRecipe(<terrafirmastuff:clayRawColor:10>, <terrafirmastuff:clayStained:10>);
-    //furnace.addRecipe(<terrafirmastuff:clayRawColor:11>, <terrafirmastuff:clayStained:11>);
-    //furnace.addRecipe(<terrafirmastuff:clayRawColor:12>, <terrafirmastuff:clayStained:12>);
-    //furnace.addRecipe(<terrafirmastuff:clayRawColor:13>, <terrafirmastuff:clayStained:13>);
-    //furnace.addRecipe(<terrafirmastuff:clayRawColor:14>, <terrafirmastuff:clayStained:14>);
-    //furnace.addRecipe(<terrafirmastuff:clayRawColor:15>, <terrafirmastuff:clayStained:15>);
     
 //#TFC Ingots
     
