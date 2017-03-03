@@ -453,7 +453,9 @@ recipes.addShaped(<Railcraft:brick.nether:1>, [[<minecraft:netherbrick>, <terraf
 //# Railcraft add/Remove Machine Recipes
 //Rolling machine recipes
 //OutputStack, Input ingredients
-
+//# Bloom Processing
+    mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Wrought Iron Ingot>, [[<terrafirmacraft:item.Iron Bloom:100>]]);
+    
 //# Steel Processing
 	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.Steel Ingot>, [[<terrafirmacraft:item.HC Steel Ingot>]]);
 	mods.railcraft.Rolling.addShaped(<terrafirmacraft:item.HC Steel Ingot>, [[<terrafirmacraft:item.Pig Iron Ingot>]]);

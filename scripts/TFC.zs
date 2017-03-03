@@ -68,7 +68,9 @@
 	recipes.addShapeless(<terrafirmacraft:item.Jasper:1> * 2, [<ore:craftingToolMediumChisel>, <ore:gemJasper>, <ore:itemHammer>]);
 	recipes.addShapeless(<terrafirmacraft:item.Jasper:2> * 2, [<ore:craftingToolMediumChisel>, <ore:gemFlawlessJasper>, <ore:itemHammer>]);
 	recipes.addShapeless(<terrafirmacraft:item.Jasper:3> * 2, [<ore:craftingToolMediumChisel>, <ore:gemExquisiteJasper>, <ore:itemHammer>]);
-
+    
+    recipes.addShaped(<terrafirmastuff:StickBundle>, [[<terrafirmastuff:item.stickBunch>, <terrafirmastuff:item.stickBunch>, <terrafirmastuff:item.stickBunch>], [<terrafirmastuff:item.stickBunch>, <ImmersiveEngineering:material:3>, <terrafirmastuff:item.stickBunch>], [<terrafirmastuff:item.stickBunch>, <terrafirmastuff:item.stickBunch>, <terrafirmastuff:item.stickBunch>]]);
+    
 // ================================================================================
 //#TFC Custom Machine Recipes
 
