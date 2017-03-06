@@ -1,27 +1,20 @@
-[prefix{l}]Version 3.2 - Squishy Bugs[prefix{l}]
+[prefix{l}]Version 3.3 - Small Bugfix isn't enough for an Update. So here's some Stuff.[prefix{l}]
 
-This update is just to fix/refine a few things in the pack. A few little bugs and fixes. Nothing too dramatic.
+Since I had to do a bug fix for a crash I decided to add a bit more to my TerrafirmaStuff add-on.  Also know there are issues with HQM recognising some items. We are at a loss as to why this is. We'll look into it but no promises.
 
-Bug Fixes:
+Pack Changes
+- 100 Unit Refined blooms can be processed with rolling machine.
 
+Mod Updates
 TFC-TNFC
-- Acacia saplings no longer drop (they would have grown into oak trees anyways)
-- Booze and Vinegar use 40-45oz and 100-105oz respectively.
-- Booze and Vinegar recipes won't work if too much if too much decay. Decay amount on seal and when recipe completes matters. 10% max decay for booze and 5% max decay for vinegar.
-- Fixed some issues with mob sounds.
-- Bleed and Heat Stroke potion effects have config option to avoid ID conflicts.
-- Few fixes for TFCConfig. Debris, berry and seaweed regeneration is true by default.
+- Small bug fixes nothing major.
 
-General Fixes:
-- Trapdoors and gates no longer broken by zombies.
-- TFC Jack-o-lanterns now work with dynamic lights.
-- Iron axe works with treecapitator
-- Horizontal area effected by treecapitator is reduced, should reduce amount of floating bamboo growing.
-- Fixed some missed recipes that used lapis and other minerals.
+TerrafirmaStuff
+- Fixed crash TFS was causing when looking at furnace recipes.
+- Added oil lamps for all TFC-TNFC metal/alloys.
+- Added Bunch and Bundle of Sticks. Bundles are placable in world.
+- Added Twine which is crafted from Jute fibre. Can be used in some recipes that use hemp fibre.
 
-Mod Updates:
-TerrafirmaStuff:
-- Chisel mode no longer cheaty. Won't work if more than 2 raw stone on top of block.
-Farseek
-- This hopefully fixes some worldgen occurring far from players.
-Voxel Map
+OpenBlocks + OpenModLibs
+- The changelog says hang glider behaviour changed to have features of real life.
+- Building guide optimisations.

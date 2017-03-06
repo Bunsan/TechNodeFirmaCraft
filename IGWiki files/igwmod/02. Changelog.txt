@@ -1,3 +1,24 @@
+[prefix{l}]Version 3.3 - Small Bugfix isn't enough for an Update. So here's some Stuff.[prefix{l}]
+
+Since I had to do a bug fix for a crash I decided to add a bit more to my TerrafirmaStuff add-on.  Also know there are issues with HQM recognising some items. We are at a loss as to why this is. We'll look into it but no promises.
+
+Pack Changes
+- 100 Unit Refined blooms can be processed with rolling machine.
+
+Mod Updates
+TFC-TNFC
+- Small bug fixes nothing major.
+
+TerrafirmaStuff
+- Fixed crash TFS was causing when looking at furnace recipes.
+- Added oil lamps for all TFC-TNFC metal/alloys.
+- Added Bunch and Bundle of Sticks. Bundles are placable in world.
+- Added Twine which is crafted from Jute fibre. Can be used in some recipes that use hemp fibre.
+
+OpenBlocks + OpenModLibs
+- The changelog says hang glider behaviour changed to have features of real life.
+- Building guide optimisations.
+
 [prefix{l}]Version 3.2 - Squishy Bugs[prefix{l}]
 
 This update is just to fix/refine a few things in the pack. A few little bugs and fixes. Nothing too dramatic.
