@@ -25,7 +25,7 @@
     furnace.addRecipe(<terrafirmacraft:item.Bismuth Ingot>, <ore:dustBismuth>);
     furnace.addRecipe(<terrafirmacraft:item.Copper Ingot>, <ore:dustCopper>);
 	furnace.addRecipe(<terrafirmacraft:item.Gold Ingot>, <ore:dustGold>);
-	//furnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, <ore:dustIron>);    
+	furnace.addRecipe(<terrafirmacraft:item.Wrought Iron Ingot>, <ore:dustIron>);    
     furnace.addRecipe(<terrafirmacraft:item.Lead Ingot>, <ore:dustLead>);
 	furnace.addRecipe(<terrafirmacraft:item.Nickel Ingot>, <ore:dustNickel>);
   	furnace.addRecipe(<terrafirmacraft:item.Pig Iron Ingot>, <ore:dustPigIron>);
