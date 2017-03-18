@@ -1,20 +1,13 @@
-[prefix{l}]Version 3.3 - Small Bugfix isn't enough for an Update. So here's some Stuff.[prefix{l}]
+[prefix{l}]Version 3.4: Knick-Knack Paddywhack[prefix{l}]
 
-Since I had to do a bug fix for a crash I decided to add a bit more to my TerrafirmaStuff add-on.  Also know there are issues with HQM recognising some items. We are at a loss as to why this is. We'll look into it but no promises.
+Some more tweaks for you to brighten your mods. Wolves/Dogs have been tweaked to cause crushing damage and changed them to be weak to crushing damage and resistant to piercing damage. They always were so useless I figured we should give the dog a bone.
 
-Pack Changes
-- 100 Unit Refined blooms can be processed with rolling machine.
+Pack Updates:
+- Iron dust can now be processed in more ways to give wrought iron. Smelting of the dust was reinstated as the reasons for its removal had be remedied. You can also cook it in the arc furnace without coke to produce iron.
+- Arc furnace now properly uses TFC coke dust.
+- Plant Mega Pack blocks have been removed from Tornado grab list to prevent players building with bamboo blocks having their bases ruined. We will be reworking the grab list in the near future to make them more interesting without ruining player bases.
+- Fixed Sim Speed for servers when no players are online to 1000x slower instead of default 100x.
 
-Mod Updates
-TFC-TNFC
-- Small bug fixes nothing major.
-
-TerrafirmaStuff
-- Fixed crash TFS was causing when looking at furnace recipes.
-- Added oil lamps for all TFC-TNFC metal/alloys.
-- Added Bunch and Bundle of Sticks. Bundles are placable in world.
-- Added Twine which is crafted from Jute fibre. Can be used in some recipes that use hemp fibre.
-
-OpenBlocks + OpenModLibs
-- The changelog says hang glider behaviour changed to have features of real life.
-- Building guide optimisations.
+Updated Mods:
+- TFC-TNFC
+- Carpenter's Block - Custom Beadspreads were also added from the TFC-Tuesday streaming group.
