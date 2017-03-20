@@ -1,0 +1,25 @@
+Forestry WIP
+
+Forestry is partly unlocked in the Bronze Age allowing you to get a start on bees. The integration of Forestry into a TFC world is quite challenging. We've integrated most functions, but unfortunately multi farms do not work in the pack. We are continually working on improving integration, but fully functional Forestry will likely never be achievable in TFC packs. Many crafting recipes have been changed to work. Forestry is predominantly early-mid game mod.
+
+Carpenter
+
+The carpenter is a valuable machine allowing the automation of cloth and leather.
+ 
+Bees
+
+Bees do work in the pack... mostly. As TFC does not use the normal biome system we've had to disable the temperature and humidity. This allows all the beehives to spawn in world, however spawning is random. Bees will recognise TFC flowers as well as Plant Mega Pack flowers. One tip is that vanilla cactus can be crafted, but can only be planted in a flowerpot. This is to compensate for the insane rarity of TFC deserts. As biomes don't function properly we've introduced custom recipes for bees that need certain biomes to get mutation and for unavailable flowers (dragon egg, netherwart etc.). Some recipes accept any queen, but others require a specific queen. NEI is unable to show the exact bee so use the image provided to the correct recipes.
+ 
+Many people feel bees are useless without Binnie's mod or gendustry. You won't find ore producing bees, but bees are still very useful. On servers bees provide ability to use the the forestry mail system, which is extremely useful for long distance trading. Bees will provide players with a source of ender pearl, which are otherwise a limited resource. Nether Bees can be crafted and provide a source of lava. Although lava isn't exactly limited, it is far less prevalent compared to vanilla without even considering the nether. Bees are also the only source of vanilla sugar which is needed for salves and open computers grog.
+ 
+Trees
+
+Forestry trees are breed able in pack, but do require the crafting of vanilla base trees to start. To craft the trees you will need to craft some black steel shears. These are low durability and are designed only for use in crafting. Using the black steel shears you can craft various mulches, which can be soaked in a barrel to produce a mix that will mutate specific TFC trees to a vanilla variety. NEI does lie a mulch will produce 1 bucket of mix, not 1mb. These then can be used as normal in tree breeding, just run them through the treeanalyzer to convert them to Forestry Trees. We also include treecapitator for your forestry tree chopping needs.
+ 
+General crafting
+
+The crafting of forestry items is fairly straight forward with a few tricks. First IE hemp will be your source of seed oil. Later you can unlock better sources of seed oil via tree breeding. Second is that TFC sand is not recognised by the thermionic fabricator, you will need to use glass.
+ 
+Power
+
+The forestry engines are a nice early game energy source. The clockwork engine works well, but does require frequent player interactions. The peat engine is very useful if you locate peat (forestry peat can be crafted from TFC peat). The biomass engine can also be used to great effect. Forestry Ethanol and seed oil is also integrated into IE as ingredients for biodiesel. Also forestry fruit and nuts can be used for oil and ethanol production in IE.

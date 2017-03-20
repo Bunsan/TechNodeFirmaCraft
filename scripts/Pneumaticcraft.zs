@@ -73,7 +73,7 @@
 	recipes.addShaped(<PneumaticCraft:machineUpgrade:2>, [[<ore:oreLapis>, <ore:treeSapling>, <ore:oreLapis>], [<ore:treeSapling>, <minecraft:clock>, <ore:treeSapling>], [<ore:oreLapis>, <ore:treeSapling>, <ore:oreLapis>]]);
 	recipes.addShaped(<PneumaticCraft:machineUpgrade:1>, [[<ore:oreLapis>, <ore:oreJet>, <ore:oreLapis>], [<ore:oreJet>, <minecraft:dispenser:*>, <ore:oreJet>], [<ore:oreLapis>, <ore:oreJet>, <ore:oreLapis>]]);
 	recipes.addShaped(<PneumaticCraft:machineUpgrade>, [[<ore:oreLapis>, <ore:ingotIronCompressed>, <ore:oreLapis>], [<ore:ingotIronCompressed>, <PneumaticCraft:airCanister:*>, <ore:ingotIronCompressed>], [<ore:oreLapis>, <ore:ingotIronCompressed>, <ore:oreLapis>]]);
-	recipes.addShaped(<PneumaticCraft:machineUpgrade:5>, [[<ore:oreLapis>, <terrafirmacraft:item.Vodka>, <ore:oreLapis>], [<terrafirmacraft:item.Vodka>, <PneumaticCraft:lubricantBucket>, <terrafirmacraft:item.Vodka>], [<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Vodka>, <ore:oreLapis>]]);
+	recipes.addShaped(<PneumaticCraft:machineUpgrade:5>, [[<ore:oreLapis>, <terrafirmacraft:item.Vodka>, <ore:oreLapis>], [<terrafirmacraft:item.Vodka>, <PneumaticCraft:lubricantBucket>, <terrafirmacraft:item.Vodka>], [<ore:oreLapis>, <terrafirmacraft:item.Vodka>, <ore:oreLapis>]]);
 	recipes.addShaped(<PneumaticCraft:gpsTool>, [[null, <minecraft:redstone_torch>, null], [<PneumaticCraft:plastic:1>, <ore:paneGlassColorless>, <PneumaticCraft:plastic:1>], [<PneumaticCraft:plastic:1>, <ore:gemDiamond>, <PneumaticCraft:plastic:1>]]);
 	recipes.addShaped(<PneumaticCraft:advancedLiquidCompressor>, [[<PneumaticCraft:plastic:4>, <PneumaticCraft:plastic:4>, <PneumaticCraft:plastic:4>], [<PneumaticCraft:plastic:4>, <terrafirmacraft:item.Blue Steel Bucket Empty>, <PneumaticCraft:advancedPressureTube>], [<PneumaticCraft:plastic:4>, <PneumaticCraft:liquidCompressor>, <PneumaticCraft:plastic:4>]]);
 	recipes.addShaped(<PneumaticCraft:assemblyDrill>, [[<ore:gemDiamond>, <PneumaticCraft:pneumaticCilinder>, <PneumaticCraft:pneumaticCilinder>], [null, null, <PneumaticCraft:pneumaticCilinder>], [<ore:ingotIronCompressed>, <PneumaticCraft:printedCircuitBoard>, <ore:ingotIronCompressed>]]);
@@ -122,7 +122,7 @@
 	mods.pneumaticcraft.Assembly.removeLaserRecipe(<PneumaticCraft:aphorismTile> * 4);
 //#Addition
 	//InputStack, OutputStack
-	mods.pneumaticcraft.Assembly.addLaserRecipe(<customitems:block_of_jet>, <PneumaticCraft:aphorismTile> * 4);
+	mods.pneumaticcraft.Assembly.addLaserRecipe(<terrafirmastuff:mineralBlock>, <PneumaticCraft:aphorismTile> * 4);
 
 //Assembly Laser Drill Recipes
 //#Removal

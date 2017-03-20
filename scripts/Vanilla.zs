@@ -11,7 +11,7 @@ import minetweaker.item.IItemStack;
 //#REMOVE Recipes
 //# VANILLA
 	recipes.remove(<minecraft:ender_chest>);
-  recipes.remove(<minecraft:anvil>);
+    recipes.remove(<minecraft:anvil>);
 	recipes.remove(<minecraft:flower_pot>);
 	recipes.remove(<minecraft:shears>);
 	recipes.remove(<minecraft:emerald_block>);
@@ -20,20 +20,6 @@ import minetweaker.item.IItemStack;
 	recipes.remove(<minecraft:lead>);
 	recipes.remove(<minecraft:golden_apple:1>);
 	recipes.remove(<minecraft:golden_carrot>);
-	recipes.remove(<minecraft:dye:4>);
-	recipes.remove(<minecraft:dye:15>);
-	recipes.remove(<minecraft:dye:3>);
-	recipes.remove(<minecraft:dye:2>);
-	recipes.remove(<minecraft:dye>);
-	recipes.remove(<minecraft:dye:12>);
-	recipes.remove(<minecraft:dye:14>);
-	recipes.remove(<minecraft:dye:13>);
-	recipes.remove(<minecraft:dye:10>);
-	recipes.remove(<minecraft:dye:9>);
-	recipes.remove(<minecraft:dye:8>);
-	recipes.remove(<minecraft:dye:7>);
-	recipes.remove(<minecraft:dye:6>);
-	recipes.remove(<minecraft:dye:5>);
 	recipes.remove(<minecraft:blaze_powder>);
 	recipes.remove(<minecraft:carrot_on_a_stick>);
 	recipes.remove(<minecraft:lapis_block>);
@@ -61,6 +47,7 @@ import minetweaker.item.IItemStack;
   recipes.remove(<minecraft:map>);
   recipes.remove(<minecraft:compass>);
   recipes.remove(<minecraft:brewing_stand>);
+  recipes.remove(<minecraft:stained_hardened_clay:*>);
   
     
     //# REMOVAL of Non-TFC ingots to nugget recipes to clean up NEI
@@ -128,9 +115,9 @@ import minetweaker.item.IItemStack;
 
 //# Convert Wool/Silk Cloth to Wool Block
 	recipes.addShapeless(<minecraft:wool>, [<ore:materialCloth>]);
-
+    recipes.addShapeless(<terrafirmacraft:item.WoolCloth>, [<minecraft:wool>]);
 //# Convert petrified wood to Netherrack
-	recipes.addShapeless(<minecraft:netherrack>, [<terrafirmacraft:item.Ore:22>]);
+	recipes.addShapeless(<minecraft:netherrack>, [<terrafirmacraft:item.MineralOre:6>]);
 
 //#Iron Bars
 	recipes.addShapeless(<minecraft:iron_bars> * 6, [<ore:plateIron>, <ore:craftingToolMediumChisel>]);
@@ -168,25 +155,15 @@ import minetweaker.item.IItemStack;
 	recipes.addShapeless(<terrafirmacraft:item.dyePowder>, [<minecraft:dye>]);
 
 //# REPLACE Lapis Block to lapis with TFC lapis
-	recipes.addShapeless(<terrafirmacraft:item.Ore:34> * 9, [<minecraft:lapis_block>]);
+	recipes.addShapeless(<terrafirmacraft:item.MineralOre:19> * 9, [<minecraft:lapis_block>]);
 
 //# TFC ADDITIONS
-
-//# Recipe for vanilla bottles
-	recipes.addShapeless(<minecraft:glass_bottle>, [<terrafirmacraft:item.Glass Bottle>]);
-	recipes.addShapeless(<terrafirmacraft:item.Glass Bottle>, [<minecraft:glass_bottle>]);
 
 	recipes.addShapeless(<terrafirmacraft:item.Diamond:2> * 9, [<ore:blockDiamond>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
-
-//# Vanilla Anvil
-    recipes.addShaped(<minecraft:anvil>, [[<ore:blockPlatinum>, <ore:blockPlatinum>, <ore:blockPlatinum>], [null, <ore:blockDiamond>, null], [<ore:blockBlueSteel>, <ore:blockBlackSteel>, <ore:blockRedSteel>]]);
-    recipes.addShaped(<minecraft:anvil>, [[<ore:blockPlatinum>, <ore:blockPlatinum>, <ore:blockPlatinum>], [null, <ore:blockDiamond>, null], [<ore:blockRedSteel>, <ore:blockBlackSteel>, <ore:blockBlueSteel>]]);
     
-//# Brewing Stand
-    recipes.addShaped(<minecraft:brewing_stand>, [[null, <ore:oreStrontium>, null], [<Railcraft:brick.bleachedbone>, <Railcraft:brick.bloodstained>, <Railcraft:brick.frostbound>], [<ore:blockRedSteel>, <ore:blockBlackSteel>, <ore:blockBlueSteel>]]);
 //#Maps
     recipes.addShaped(<minecraft:map>, [[null, <minecraft:paper>, null], [<minecraft:paper>, <minecraft:compass>.reuse(), <minecraft:paper>], [null, <minecraft:paper>, null]]);
     recipes.addShaped(<minecraft:compass>, [[<ore:oreSmallIron>], [<minecraft:redstone>], [<terrafirmacraft:item.GoldPan>]]);
@@ -216,7 +193,7 @@ import minetweaker.item.IItemStack;
 //# Blocks
 
 //# Flower Pot
-	recipes.addShaped(<minecraft:flower_pot>, [[<ore:ingotStoneBrick>, <terrafirmacraft:item.Mortar>, <ore:ingotStoneBrick>], [null, <ore:ingotStoneBrick>, null]]);
+	//recipes.addShaped(<minecraft:flower_pot>, [[<ore:ingotStoneBrick>, <terrafirmacraft:item.Mortar>, <ore:ingotStoneBrick>], [null, <ore:ingotStoneBrick>, null]]);
 
 //#Wooden Blocks
 
@@ -243,18 +220,12 @@ import minetweaker.item.IItemStack;
 	recipes.addShaped(<minecraft:stone_slab> * 3, [[<ore:itemChisel>, null, <ore:itemHammer>], [<ore:stoneSmooth>, <ore:stoneSmooth>, <ore:stoneSmooth>]]);
 //# Nether Brick Slabs
     recipes.addShaped(<minecraft:stone_slab:6> * 3, [[<ore:itemChisel>, null, <ore:itemHammer>], [<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>]]);
-//# Quartz Blocks
-	recipes.addShaped(<minecraft:quartz_block>, [[<ore:gemQuartz>, <terrafirmacraft:item.Mortar>, <ore:gemQuartz>], [<terrafirmacraft:item.Mortar>, <terrafirmacraft:item.dyePowder:15>, <terrafirmacraft:item.Mortar>], [<ore:gemQuartz>, <terrafirmacraft:item.Mortar>, <ore:gemQuartz>]]);
-	recipes.addShapedMirrored(<minecraft:stone_slab:7> * 3, [[<ore:itemChisel>, null, <ore:itemHammer>], [<minecraft:quartz_block>, <minecraft:quartz_block>, <minecraft:quartz_block>]]);
-	recipes.addShapedMirrored(<minecraft:quartz_block:1>, [[<minecraft:stone_slab:7>, <ore:itemChisel>], [<minecraft:stone_slab:7>, <ore:itemHammer>]]);
-	recipes.addShapedMirrored(<minecraft:quartz_block:2> * 2, [[<minecraft:quartz_block>, <ore:itemChisel>], [<minecraft:quartz_block>, <ore:itemHammer>]]);
-	recipes.addShapedMirrored(<minecraft:quartz_stairs> * 6, [[<minecraft:quartz_block>, <ore:itemChisel>, null], [<minecraft:quartz_block>, <minecraft:quartz_block>, <ore:itemHammer>], [<minecraft:quartz_block>,<minecraft:quartz_block>,<minecraft:quartz_block>]]);
 
 //# Glowstone/Scapolite block recipe
 	recipes.addShaped(<minecraft:glowstone>, [[<ore:dustGlowstone>, <ore:dustGlowstone>], [<ore:dustGlowstone>, <ore:dustGlowstone>], [<ore:bucketFreshWater>, null]]);
 
 //# Replace Lapis and Diamond Blocks
-	recipes.addShaped(<minecraft:lapis_block>, [[<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>], [<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>], [<terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>, <terrafirmacraft:item.Ore:34>]]);
+	recipes.addShaped(<minecraft:lapis_block>, [[<terrafirmacraft:item.MineralOre:19>, <terrafirmacraft:item.MineralOre:19>, <terrafirmacraft:item.MineralOre:19>], [<terrafirmacraft:item.MineralOre:19>, <terrafirmacraft:item.MineralOre:19>, <terrafirmacraft:item.MineralOre:19>], [<terrafirmacraft:item.MineralOre:19>, <terrafirmacraft:item.MineralOre:19>, <terrafirmacraft:item.MineralOre:19>]]);
 	recipes.addShaped(<minecraft:diamond_block>, [[<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>], [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>], [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>]]);
 
 //# Redstone Devices

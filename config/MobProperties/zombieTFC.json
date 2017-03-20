@@ -5,7 +5,7 @@
         "function": "if_recently_hit",
         "functions": [
           {
-            "function": "if_past_world_time_4319910",
+            "function": "if_past_world_time_1",
             "functions": [
               {
                 "_comment": "add hempseed drop",
@@ -98,7 +98,7 @@
                     },
                     {
                       "function": "potion",
-                      "id": "4",
+                      "id": "potion.digSlowDown",
                       "ambient": true,
                       "duration": 2400,
                       "override": true
@@ -179,7 +179,7 @@
                     },
                     {
                       "function": "potion",
-                      "id": "8",
+                      "id": "potion.jump",
                       "ambient": true,
                       "duration": 2400,
                       "override": true
@@ -244,7 +244,7 @@
                     },
                     {
                       "function": "potion",
-                      "id": "13",
+                      "id": "potion.waterBreathing",
                       "ambient": true,
                       "duration": 2400,
                       "override": true
@@ -323,7 +323,7 @@
                       },
                       {
                         "function": "potion",
-                        "id": "16",
+                        "id": "potion.nightVision",
                         "ambient": true,
                         "duration": 2400,
                         "override": true
@@ -412,7 +412,7 @@
                           },
                           {
                             "function": "potion",
-                            "id": "5",
+                            "id": "potion.damageBoost",
                             "ambient": true,
                             "override": true
                           }
@@ -468,7 +468,7 @@
                           },
                           {
                             "function": "potion",
-                            "id": "1",
+                            "id": "potion.moveSpeed",
                             "ambient": true,
                             "override": true
                           }

@@ -1,0 +1,17 @@
+Osmium spawns in Chalk, Chert, Claystone, Conglomerate, Dolomite, Limestone, Rock Salt, Shale rock at a rate of 1 in 100 chunks.
+
+Apatite spawns in Chalk, Conglomerate, Limestone and Shale at a rate of 1 in 200 chunks.
+
+Petrified Wood, which is the TFC name. It spawns in Chert, Claystone, Conglomerate, Shale and Limestone rock at a rate of 1 in 120 chunks. Which is used for Netherrack.
+
+Strontium spawns in Chalk, Chert, Claystone, Conglomerate, Dolomite, Limestone, Rock Salt, Shale rock at a rate of 1 in 150 chunks. It is used to produce blaze powder.
+
+Scapolite spawns in Gabbro, Diorite, Gneiss and Limestone at a rate of 1 in 120 chunks. It is used to produce glowstone dust.
+
+Quartz spawns in Rhyolite, Granite, Shale, Schist, Gneiss, Quartzite
+
+Scheelite (tungsten) spawns in Diorite, Gabbro and Granite rock at a rate of 1 in 150 chunks and on surface at higher y level in granite at rate of 1 in 120 chunks.
+
+Wolframite (tungsten) spans in igneous intrusive rock at a rate of 1 in 120 chunks.
+
+Bauxite (aluminum) spawns in Gneiss, Granite, Basalt and Shale at a rate of 1 in 120 chunks. It will be used for Immersive Engineering.

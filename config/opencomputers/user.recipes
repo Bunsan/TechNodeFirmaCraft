@@ -260,7 +260,7 @@ cpu3 {
 }
 rawCircuitBoard {
   type: shapeless
-  input: ["oc:materialCuttingWire", "customitems:block_of_clay", dyeGreen]
+  input: ["oc:materialCuttingWire", "terrafirmastuff:clayRaw", dyeGreen]
 }
 circuitBoard {
   type: furnace

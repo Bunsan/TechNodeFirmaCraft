@@ -1,0 +1,16 @@
+{
+  "_name": "plantmegapack:leafyStingingNettle",
+  "stats": {
+    "opacity": 0,
+    "brightness": 0,
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "sound": "grass",
+    "slipperiness": 0.6,
+    "tool_data": []
+  },
+  "break_speed": [],
+  "drops": [     {       "function": "!if_can_harvest_minecraft:web",       "functions": [         {         "function": "default",         "value": "false"         }       ]     }   ],
+  "harvest": [],
+  "xp": []
+}
