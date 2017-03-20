@@ -10,4 +10,5 @@ Pack Updates:
 
 Updated Mods:
 - TFC-TNFC
+- TNFCmod - Fixed ore dictionary for digital miner.
 - Carpenter's Block - Custom Beadspreads were also added from the TFC-Tuesday streaming group.
