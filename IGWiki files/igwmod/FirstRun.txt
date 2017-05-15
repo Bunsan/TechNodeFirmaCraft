@@ -1,14 +1,6 @@
-[prefix{l}]Version 3.4: Knick-Knack Paddywhack[prefix{l}]
+[prefix{l}]Version 3.5: Blow Me Down[prefix{l}]
 
-Some more tweaks for you to brighten your mods. Wolves/Dogs have been tweaked to cause crushing damage and changed them to be weak to crushing damage and resistant to piercing damage. They always were so useless I figured we should give the dog a bone.
-
-Pack Updates:
-- Iron dust can now be processed in more ways to give wrought iron. Smelting of the dust was reinstated as the reasons for its removal had be remedied. You can also cook it in the arc furnace without coke to produce iron.
-- Arc furnace now properly uses TFC coke dust.
-- Plant Mega Pack blocks have been removed from Tornado grab list to prevent players building with bamboo blocks having their bases ruined. We will be reworking the grab list in the near future to make them more interesting without ruining player bases.
-- Fixed Sim Speed for servers when no players are online to 1000x slower instead of default 100x.
+Update to the Tornado grab list. Wooden fences, gates, ladders and all leaves (except TFC fruit trees) will be tossed about now. There were a few bug fixes and refinements. Additional methods for making jet and serpentine powder were added. Processing of iron/steel/pig iron in Arc furnace was fixed/refined. Oak mulch recipe was fixed.
 
 Updated Mods:
-- TFC-TNFC
-- TNFCmod - Fixed ore dictionary for digital miner.
-- Carpenter's Block - Custom Beadspreads were also added from the TFC-Tuesday streaming group.
+- TNFCmod
