@@ -1,7 +1,7 @@
     <version>
     <pack>
         <!-- TechNodefirmacraft ATLauncher XML -->
-        <version>3.4</version>
+        <version>3.5</version>
         <minecraft>1.7.10</minecraft>
         <caseallfiles>lower</caseallfiles>
         <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
@@ -14,7 +14,6 @@
       <folder base="root" target="resources%s%" />
     </delete>
     
-      
 <!--     <messages>
         <update><![CDATA[ATTENTION: This is a 3.X version of pack and is NOT compatible with old worlds.]]></update>
     </messages> -->
@@ -62,7 +61,7 @@
         name="TerraFirmaCraft" version="0.79.29_tnfc.fa32739" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.29_tnfc.b83f4d1.jar" file="[1.7.10]TerraFirmaCraft-0.79.29_tnfc.b83f4d1.jar" md5="29ef2813b92324bc63b6552829456b3b" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod 
-        name="TechNodefirmacraft" version="3.4" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TechNodefirmacraft-3.4.jar" file="[1.7.10]TechNodefirmacraft-3.4.jar" md5="dc8460ad5107d9cff7ed0288137e5539" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="AnodeCathode, Bunsan" optional="no" description="Custom integration and features for TechNodefirmacraft modpack" client="yes" server="yes" serveroptional="no"
+        name="TechNodefirmacraft" version="3.5" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TechNodefirmacraft-3.5.jar" file="[1.7.10]TechNodefirmacraft-3.5.jar" md5="9715df02a2022a4d5bb3d47bc339de60" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="AnodeCathode, Bunsan" optional="no" description="Custom integration and features for TechNodefirmacraft modpack" client="yes" server="yes" serveroptional="no"
         />
         <mod 
         name="TerrafirmaStuff" version="0.2.3_tnfc" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]terrafirmastuff-0.2.3_tnfc.jar" file="[1.7.10]terrafirmastuff-0.2.3_tnfc.jar" md5="c4a53484232b22c79f6813d584930b82" download="server" type="mods" website="https://github.com/Bunsan/TerraFirmaStuff" description="Adding blocks to TFC" authors="Bunsan" optional="no" client="yes" server="yes" serveroptional="no"
@@ -178,7 +177,7 @@
         
         <!-- Pack Customization Mods -->
         <mod
-        name="Scripts" version="3.4" url="packs/TechNodefirmacraft/files/extract/scripts_3.4.zip" file="scripts_3.4.zip" md5="91d822bbc749f6a376580017cf348d19" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="Scripts" version="3.5" url="packs/TechNodefirmacraft/files/extract/scripts_3.5.zip" file="scripts_3.5.zip" md5="afa24f2a73dc38049c846e703750aeab" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod
         name="MineTweaker 3" version="3.0.10B" url="packs/TechNodefirmacraft/files/1.7.10Mods/MineTweaker3-1.7.10-3.0.10B.jar" file="MineTweaker3-1.7.10-3.0.10B.jar" md5="884933d1b933e0bd2f93293201569f13" download="server" type="mods" website="http://minetweaker3.powerofbytes.com" authors="Stan Hebben" description="Customize your minecraft experience!" client="yes" optional="no" server="yes" serveroptional="no"
@@ -416,7 +415,7 @@
         name="Resource Loaders Folder" version="2.10" url="packs/TechNodefirmacraft/files/extract/resources_2.10.zip" file="resources_2.10.zip" md5="33a24c409fe81854c0d3cb4077410357" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Resources" client="yes" server="no"
         /> 
         <mod 
-        name="IGWModData" version="3.4" url="packs/TechNodefirmacraft/files/extract/igwmod_3.4.zip" file="igwmod_3.4.zip" md5="886233475a2d1031327744fb7b5e972c" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
+        name="IGWModData" version="3.5" url="packs/TechNodefirmacraft/files/extract/igwmod_3.5.zip" file="igwmod_3.5.zip" md5="d69961ca016d20806d0b8a4b820b5da3" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
         />
         <mod 
         name="FTBUtilConfig" version="1.0.18.3" url="packs/TechNodefirmacraft/files/extract/ftb_utility_files.zip" file="ftb_utility_files.zip" md5="421de15758b4df7874778eba8285c041" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Config for FTBUtil" depends="FTBLib" client="yes" optional="no" server="yes" serveroptional="no"
