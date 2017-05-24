@@ -95,6 +95,8 @@ import minetweaker.data.IData;
     mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.MineralOre:0>, <terrafirmacraft:item.Powder:1> * 6);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.MineralOre:1>, <DecorationsTFC:item.Powders.Gypsum> * 6);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.MineralOre:4>, <terrafirmacraft:item.Powder:2> * 6);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.MineralOre:8>, <terrafirmastuff:item.powder> * 3);
+	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.MineralOre:14>, <terrafirmastuff:item.powder:1> * 3);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.MineralOre:16>, <terrafirmacraft:item.Powder> * 8);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.MineralOre:20>, <terrafirmacraft:item.Fertilizer> * 6);
 	mods.mekanism.Crusher.addRecipe(<terrafirmacraft:item.MineralOre:21>, <Forestry:fertilizerCompound> * 8);
