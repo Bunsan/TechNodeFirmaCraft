@@ -1,3 +1,13 @@
+[prefix{l}]Version 3.6: Slice and Dice[prefix{l}]
+
+Just a wee update to fix a couple of problems we couldn't just ignore. 
+
+Pack Updates
+- Fixed ability to micro block certain TFC and TerrafirmaStuff blocks.
+Updated Mods:
+- TFC-TNFC: Fixed behaviour of dusts and piles in the crucible.
+- TerrafirmaStuff: Oil lamps are craftable now.
+
 [prefix{l}]Version 3.5: Blow Me Down[prefix{l}]
 
 Update to the Tornado grab list. Wooden fences, gates, ladders and all leaves (except TFC fruit trees) will be tossed about now. There were a few bug fixes and refinements. Additional methods for making jet and serpentine powder were added. Processing of iron/steel/pig iron in Arc furnace was fixed/refined. Oak mulch recipe was fixed.
