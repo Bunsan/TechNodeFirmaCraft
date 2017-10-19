@@ -5,29 +5,6 @@
       "function": "if_past_world_time_4319910",
       "functions": [
         {
-          "function": "if_below_60",
-          "functions": [
-            {
-              "function": "add",
-              "count": 0.1,
-              "id": "ImmersiveEngineering:shaderBag",
-              "item_stats": [
-                {
-                  "function": "nbt",
-                  "tags": [
-                    {
-                      "name": "rarity",
-                      "function": "string",
-                      "value": "rare"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-
           "_comment": "add blueprint drop",
           "function": "if_moon_phase_1",
           "functions": [
@@ -43,7 +20,927 @@
               ]
             }  
           ]
-        }  
+        },
+        {
+          "_comment": "Low Down check",
+          "function": "if_recently_hit",
+          "functions": [
+            {
+              "function": "if_below_45",
+              "functions": [
+                {
+                  "function": "!if_can_see_sky",
+                  "count": 0.25,
+                  "functions": [
+                    {
+                      "_comment": "Spawn Bronze tier Skeleton",
+                      "function": "spawn",
+                      "id": "skeletonTFC",
+                      "count": 1,
+                      "stats": [
+                        {
+                          "function": "nbt",
+                          "tags": [
+                            {
+                              "function": "byte",
+                              "name": "SkeletonType",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "function": "equip",
+                          "id": "terrafirmacraft:item.Black Bronze Javelin",
+                          "override": true,
+                          "slot": 0,
+                          "drop_chance": 0
+                        },
+                        {
+                          "function": "equip",
+                          "id": "terrafirmacraft:item.Black Bronze Boots",
+                          "override": true,
+                          "slot": 1,
+                          "drop_chance": 0
+                        },
+                        {
+                          "function": "equip",
+                          "id": "terrafirmacraft:item.Black Bronze Greaves",
+                          "override": true,
+                          "slot": 2,
+                          "drop_chance": 0
+                        },
+                        {
+                          "function": "equip",
+                          "id": "terrafirmacraft:item.Black Bronze Chestplate",
+                          "override": true,
+                          "slot": 3,
+                          "drop_chance": 0
+                        },
+                        {
+                          "function": "equip",
+                          "id": "terrafirmacraft:item.Black Bronze Helmet",
+                          "override": true,
+                          "slot": 4,
+                          "drop_chance": 0
+                        },
+                        {
+                          "function": "potion",
+                          "id": "potion.digSlowDown",
+                          "ambient": true,
+                          "duration": 2400,
+                          "override": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "_comment": "Checking Skeleton Tier",
+                  "function": "if_has_potion_4",
+                  "count": 0.5,
+                  "functions": [
+                    {
+                      "function": "choose",
+                      "functions": [
+                        {
+                          "weight": 1,
+                          "function": "add",
+                          "id": "terrafirmacraft:item.Bronze Ingot",
+                          "count" : 0.1
+                        },
+                        {
+                          "weight": 1,
+                          "function": "add",
+                          "id": "terrafirmacraft:item.Bismuth Bronze Ingot",
+                          "count" : 0.1
+                        },
+                        {
+                          "weight": 1,
+                          "function": "add",
+                          "id": "terrafirmacraft:item.Black Bronze Ingot",
+                          "count" : 0.1
+                        }
+                      ]
+                    },
+                    {
+                      "_comment": "Spawn Iron tier Skeleton",
+                      "function": "spawn",
+                      "id": "skeletonTFC",
+                      "count": 1,
+                      "stats": [
+                        {
+                          "function": "nbt",
+                          "tags": [
+                            {
+                              "function": "byte",
+                              "name": "SkeletonType",
+                              "value": 1
+                            }
+                          ]
+                        },
+                        {
+                          "function": "equip",
+                          "id": "terrafirmacraft:item.Wrought Iron Javelin",
+                          "override": true,
+                          "slot": 0,
+                          "drop_chance": 0
+                        },
+                        {
+                          "function": "equip",
+                          "id": "terrafirmacraft:item.Wrought Iron Boots",
+                          "override": true,
+                          "slot": 1,
+                          "drop_chance": 0
+                        },
+                        {
+                          "function": "equip",
+                          "id": "terrafirmacraft:item.Wrought Iron Greaves",
+                          "override": true,
+                          "slot": 2,
+                          "drop_chance": 0
+                        },
+                        {
+                          "function": "equip",
+                          "id": "terrafirmacraft:item.Wrought Iron Chestplate",
+                          "override": true,
+                          "slot": 3,
+                          "drop_chance": 0
+                        },
+                        {
+                          "function": "equip",
+                          "id": "terrafirmacraft:item.Wrought Iron Helmet",
+                          "override": true,
+                          "slot": 4,
+                          "drop_chance": 0
+                        },
+                        {
+                          "function": "potion",
+                          "id": "potion.jump",
+                          "ambient": true,
+                          "duration": 2400,
+                          "override": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "function": "if_recently_hit",
+                  "functions": [
+                    {
+                      "_comment": "Checking Skeleton Tier",
+                      "function": "if_has_potion_8",
+                      "count": 0.6,
+                      "functions": [
+                        {
+                          "function": "add",
+                          "id": "terrafirmacraft:item.Wrought Iron Ingot",
+                          "count" : 0.15
+                        },
+                        {
+                          "_comment": "Spawn Steel tier Skeleton",
+                          "function": "spawn",
+                          "id": "skeletonTFC",
+                          "count": 1,
+                          "stats": [
+                            {
+                              "function": "nbt",
+                              "tags": [
+                                {
+                                  "function": "byte",
+                                  "name": "SkeletonType",
+                                  "value": 1
+                                }
+                              ]
+                            },
+                            {
+                              "function": "equip",
+                              "id": "terrafirmacraft:item.Steel Javelin",
+                              "override": true,
+                              "slot": 0,
+                              "drop_chance": 0
+                            },
+                            {
+                              "function": "equip",
+                              "id": "terrafirmacraft:item.Steel Boots",
+                              "override": true,
+                              "slot": 1,
+                              "drop_chance": 0
+                            },
+                            {
+                              "function": "equip",
+                              "id": "terrafirmacraft:item.Steel Greaves",
+                              "override": true,
+                              "slot": 2,
+                              "drop_chance": 0
+                            },
+                            {
+                              "function": "equip",
+                              "id": "terrafirmacraft:item.Steel Chestplate",
+                              "override": true,
+                              "slot": 3,
+                              "drop_chance": 0
+                            },
+                            {
+                              "function": "equip",
+                              "id": "terrafirmacraft:item.Steel Helmet",
+                              "override": true,
+                              "slot": 4,
+                              "drop_chance": 0
+                            },
+                            {
+                              "function": "potion",
+                              "id": "potion.waterBreathing",
+                              "ambient": true,
+                              "duration": 2400,
+                              "override": true
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "_comment": "Checking Skeleton Tier",
+                      "function": "if_has_potion_13",
+                      "count": 0.6,
+                      "functions": [
+                        {
+                          "function": "add",
+                          "id": "terrafirmacraft:item.Pig Iron Ingot",
+                          "count" : 0.4
+                        },
+                        {
+                          "_comment": "Spawn Black Steel tier Skeleton",
+                          "function": "spawn",
+                          "id": "skeletonTFC",
+                          "count": 1,
+                          "stats": [
+                            {
+                              "function": "nbt",
+                              "tags": [
+                                {
+                                  "function": "byte",
+                                  "name": "SkeletonType",
+                                  "value": 1
+                                }
+                              ]
+                            },
+                            {
+                              "function": "equip",
+                              "id": "terrafirmacraft:item.Black Steel Javelin",
+                              "override": true,
+                              "slot": 0,
+                              "drop_chance": 0
+                            },
+                            {
+                              "function": "equip",
+                              "id": "terrafirmacraft:item.Black Steel Boots",
+                              "override": true,
+                              "slot": 1,
+                              "drop_chance": 0
+                            },
+                            {
+                              "function": "equip",
+                              "id": "terrafirmacraft:item.Black Steel Greaves",
+                              "override": true,
+                              "slot": 2,
+                              "drop_chance": 0
+                            },
+                            {
+                              "function": "equip",
+                              "id": "terrafirmacraft:item.Black Steel Chestplate",
+                              "override": true,
+                              "slot": 3,
+                              "drop_chance": 0
+                            },
+                            {
+                              "function": "equip",
+                              "id": "terrafirmacraft:item.Black Steel Helmet",
+                              "override": true,
+                              "slot": 4,
+                              "drop_chance": 0
+                            },
+                            {
+                              "function": "potion",
+                              "id": "potion.nightVision",
+                              "ambient": true,
+                              "duration": 2400,
+                              "override": true
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "_comment": "Checking Skeleton Tier",
+                      "function": "if_has_potion_16",
+                      "count": 0.75,
+                      "functions": [
+                        {
+                          "function": "add",
+                          "id": "terrafirmacraft:item.Weak Steel Ingot",
+                          "count" : 0.3
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:web",
+                          "x": 1,
+                          "y": -1,
+                          "z": 0,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:web",
+                          "x": 1,
+                          "y": -1,
+                          "z": 1,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:web",
+                          "x": 1,
+                          "y": -1,
+                          "z": -1,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:web",
+                          "x": 0,
+                          "y": -1,
+                          "z": 0,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:web",
+                          "x": 0,
+                          "y": -1,
+                          "z": 1,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:web",
+                          "x": 0,
+                          "y": -1,
+                          "z": -1,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:web",
+                          "x": -1,
+                          "y": -1,
+                          "z": 0,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:web",
+                          "x": -1,
+                          "y": -1,
+                          "z": 1,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:web",
+                          "x": -1,
+                          "y": -1,
+                          "z": -1,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": 1,
+                          "y": 0,
+                          "z": 0,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": 1,
+                          "y": 0,
+                          "z": 1,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": 1,
+                          "y": 0,
+                          "z": -1,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": 0,
+                          "y": 0,
+                          "z": 0,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": 0,
+                          "y": 0,
+                          "z": 1,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": 0,
+                          "y": 0,
+                          "z": -1,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": -1,
+                          "y": 0,
+                          "z": 0,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": -1,
+                          "y": 0,
+                          "z": 1,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": -1,
+                          "y": 0,
+                          "z": -1,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": 1,
+                          "y": 1,
+                          "z": 0,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": 1,
+                          "y": 1,
+                          "z": -1,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": 0,
+                          "y": 1,
+                          "z": 0,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": 0,
+                          "y": 1,
+                          "z": 1,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": 0,
+                          "y": 1,
+                          "z": -1,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": -1,
+                          "y": 1,
+                          "z": 0,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": -1,
+                          "y": 1,
+                          "z": 1,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": -1,
+                          "y": 1,
+                          "z": -1,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": 1,
+                          "y": 2,
+                          "z": 0,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": 1,
+                          "y": 2,
+                          "z": 1,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": 1,
+                          "y": 2,
+                          "z": -1,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": 0,
+                          "y": 2,
+                          "z": 0,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": 0,
+                          "y": 2,
+                          "z": 1,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": 0,
+                          "y": 2,
+                          "z": -1,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": -1,
+                          "y": 2,
+                          "z": 0,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": -1,
+                          "y": 2,
+                          "z": 1,
+                          "override": true
+                        },
+                        {
+                          "function": "set_block",
+                          "id": "minecraft:air",
+                          "x": -1,
+                          "y": 2,
+                          "z": -1,
+                          "override": true
+                        },
+                        {
+                          "function": "choose",
+                          "functions": [
+                            {
+                              "_comment": "Spawn Blue Steel tier Skeleton",
+                              "weight": 1,
+                              
+                              "function": "spawn",
+                              "id": "skeletonTFC",
+                              "count": 1,
+                              "stats": [
+                                {
+                                  "function": "nbt",
+                                  "tags": [
+                                    {
+                                      "function": "byte",
+                                      "name": "SkeletonType",
+                                      "value": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "function": "modifier",
+                                  "attribute": "generic.knockbackResistance",
+                                  "value": 0.75,
+                                  "override": true
+                                },
+                                {
+                                  "function": "equip",
+                                  "id": "terrafirmacraft:item.Blue Steel Javelin",
+                                  "override": true,
+                                  "slot": 0,
+                                  "drop_chance": 0
+                                },
+                                {
+                                  "function": "equip",
+                                  "id": "terrafirmacraft:item.Blue Steel Boots",
+                                  "override": true,
+                                  "slot": 1,
+                                  "drop_chance": 0
+                                },
+                                {
+                                  "function": "equip",
+                                  "id": "terrafirmacraft:item.Blue Steel Greaves",
+                                  "override": true,
+                                  "slot": 2,
+                                  "drop_chance": 0
+                                },
+                                {
+                                  "function": "equip",
+                                  "id": "terrafirmacraft:item.Blue Steel Chestplate",
+                                  "override": true,
+                                  "slot": 3,
+                                  "drop_chance": 0
+                                },
+                                {
+                                  "function": "equip",
+                                  "id": "terrafirmacraft:item.Blue Steel Helmet",
+                                  "override": true,
+                                  "slot": 4,
+                                  "drop_chance": 0
+                                },
+                                {
+                                  "function": "potion",
+                                  "id": "potion.damageBoost",
+                                  "ambient": true,
+                                  "override": true
+                                },
+                                {
+                                  "function": "riding",
+                                  "id": "spiderTFC"
+                                }
+                              ]
+                            },
+                            {
+                              "_comment": "Spawn Red Steel tier Skeleton",
+                              "weight": 1,
+                              "function": "spawn",
+                              "id": "skeletonTFC",
+                              "count": 1,
+                              "stats": [
+                                {
+                                  "function": "nbt",
+                                  "tags": [
+                                    {
+                                      "function": "byte",
+                                      "name": "SkeletonType",
+                                      "value": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "function": "modifier",
+                                  "attribute": "generic.knockbackResistance",
+                                  "value": 0.75,
+                                  "override": true
+                                },
+                                {
+                                  "function": "equip",
+                                  "id": "terrafirmacraft:item.Red Steel Javelin",
+                                  "override": true,
+                                  "slot": 0,
+                                  "drop_chance": 0
+                                },
+                                {
+                                  "function": "equip",
+                                  "id": "terrafirmacraft:item.Red Steel Boots",
+                                  "override": true,
+                                  "slot": 1,
+                                  "drop_chance": 0
+                                },
+                                {
+                                  "function": "equip",
+                                  "id": "terrafirmacraft:item.Red Steel Greaves",
+                                  "override": true,
+                                  "slot": 2,
+                                  "drop_chance": 0
+                                },
+                                {
+                                  "function": "equip",
+                                  "id": "terrafirmacraft:item.Red Steel Chestplate",
+                                  "override": true,
+                                  "slot": 3,
+                                  "drop_chance": 0
+                                },
+                                {
+                                  "function": "equip",
+                                  "id": "terrafirmacraft:item.Red Steel Helmet",
+                                  "override": true,
+                                  "slot": 4,
+                                  "drop_chance": 0
+                                },
+                                {
+                                  "function": "potion",
+                                  "id": "potion.moveSpeed",
+                                  "ambient": true,
+                                  "override": true
+                                },
+                                {
+                                  "function": "riding",
+                                  "id": "spiderTFC"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "_comment": "Uses potion effect to determine which skeleton has been killed",
+                      "function": "if_has_potion_5",
+                      "functions": [
+                        {
+                          "function": "choose",
+                          "functions": [
+                            {
+                              "_comment": "Drop Exquisite Sapphire or Weak Blue Steel Ingot",
+                              "weight": 10,
+                              "function": "add",
+                              "id": "terrafirmacraft:item.Sapphire",
+                              "damage": 4
+                            },
+                            {
+                              "_comment": "Drop Exquisite Sapphire or Weak Blue Steel Ingot",
+                              "weight": 25,
+                              "function": "add",
+                              "id": "terrafirmacraft:item.Sapphire",
+                              "damage": 3
+                            },
+                            {
+                              "weight": 50,
+                              "function": "add",
+                              "id": "terrafirmacraft:item.Sapphire",
+                              "damage": 2
+                            }
+                          ]
+                        },
+                        {
+                          "function": "add",
+                          "id": "terrafirmacraft:item.Weak Blue Steel Ingot",
+                          "count" : 1.0
+                        }
+                      ]
+                    },
+                    {
+                      "_comment": "Uses potion effect to determine which skeleton has been killed",
+                      "function": "if_has_potion_1",
+                      "functions": [
+                        {
+                          "function": "choose",
+                          "functions": [
+                            {
+                              "_comment": "Drop Exquisite Ruby or Weak Red Steel Ingot",
+                              "weight": 10,
+                              "function": "add",
+                              "id": "terrafirmacraft:item.Ruby",
+                              "damage": 4
+                            },
+                            {
+                              "_comment": "Drop Exquisite Ruby or Weak Red Steel Ingot",
+                              "weight": 25,
+                              "function": "add",
+                              "id": "terrafirmacraft:item.Ruby",
+                              "damage": 3
+                            },
+                            {
+                              "weight": 50,
+                              "function": "add",
+                              "id": "terrafirmacraft:item.Ruby",
+                              "damage": 2
+                            }
+                          ]
+                        },
+                        {
+                          "function": "add",
+                          "id": "terrafirmacraft:item.Weak Red Steel Ingot",
+                          "count" : 1.0
+                        }
+                      ]
+                    },
+                    {
+                      "_comment": "Checking Skeleton potion",
+                      "function": "if_has_potion_1",
+                      "count": 0.75,
+                      "functions": [
+                        {
+                          "_comment": "Spawn Wither",
+                          "function": "spawn",
+                          "id": "witherTFC",
+                          "count": 1,
+                          "stats": [
+                                {
+                                  "function": "equip",
+                                  "id": "terrafirmacraft:item.Blue Steel Boots",
+                                  "override": true,
+                                  "slot": 1,
+                                  "drop_chance": 0
+                                },
+                                {
+                                  "function": "equip",
+                                  "id": "terrafirmacraft:item.Blue Steel Greaves",
+                                  "override": true,
+                                  "slot": 2,
+                                  "drop_chance": 0
+                                },
+                                {
+                                  "function": "equip",
+                                  "id": "terrafirmacraft:item.Blue Steel Chestplate",
+                                  "override": true,
+                                  "slot": 3,
+                                  "drop_chance": 0
+                                },
+                                {
+                                  "function": "equip",
+                                  "id": "terrafirmacraft:item.Bluet Steel Helmet",
+                                  "override": true,
+                                  "slot": 4,
+                                  "drop_chance": 0
+                                }
+                            ]
+                        }
+                      ]
+                    },
+                    {
+                      "_comment": "Checking Skeleton potion",
+                      "function": "if_has_potion_5",
+                      "count": 0.75,
+                      "functions": [
+                        {
+                          "_comment": "Spawn Wither",
+                          "function": "spawn",
+                          "id": "witherTFC",
+                          "count": 1,
+                          "stats": [
+                                {
+                                  "function": "equip",
+                                  "id": "terrafirmacraft:item.Red Steel Boots",
+                                  "override": true,
+                                  "slot": 1,
+                                  "drop_chance": 0
+                                },
+                                {
+                                  "function": "equip",
+                                  "id": "terrafirmacraft:item.Red Steel Greaves",
+                                  "override": true,
+                                  "slot": 2,
+                                  "drop_chance": 0
+                                },
+                                {
+                                  "function": "equip",
+                                  "id": "terrafirmacraft:item.Red Steel Chestplate",
+                                  "override": true,
+                                  "slot": 3,
+                                  "drop_chance": 0
+                                },
+                                {
+                                  "function": "equip",
+                                  "id": "terrafirmacraft:item.Red Steel Helmet",
+                                  "override": true,
+                                  "slot": 4,
+                                  "drop_chance": 0
+                                }
+                            ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       ]
     }
   ],

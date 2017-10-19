@@ -34,6 +34,7 @@ import minetweaker.item.IItemStack;
 	recipes.remove(<minecraft:magma_cream>);
 	recipes.remove(<minecraft:sponge>);
 	recipes.remove(<minecraft:diamond>);
+    recipes.remove(<minecraft:dye:4>);
 	recipes.remove(<minecraft:quartz_block:1>);
 	recipes.remove(<minecraft:quartz_block:2>);
 	recipes.remove(<minecraft:quartz_stairs>);
