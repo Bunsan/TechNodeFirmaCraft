@@ -1,9 +1,10 @@
-[prefix{l}]Version 3.6: Slice and Dice[prefix{l}]
+[prefix{l}]Version 3.7: This Thing isn't a Thing so don't expect more Things from this Thing.[prefix{l}]
 
-Just a wee update to fix a couple of problems we couldn't just ignore. 
+So I got the itch to play this old pack and needed to rebuild my instance to add in a few fixes. So I thought I might as well push this stuff out as an update. Contains a few recipe fixes, performance fixes and even some new content.
 
-Pack Updates
-- Fixed ability to micro block certain TFC and TerrafirmaStuff blocks.
-Updated Mods:
-- TFC-TNFC: Fixed behaviour of dusts and piles in the crucible.
-- TerrafirmaStuff: Oil lamps are craftable now.
+TFC-TNFC
+- Dries' performance fixes we didn't already have.
+- Some secret skeleton friends for our zombies... hint, hint... say no more...
+
+Merchants mod
+- Food fix.
