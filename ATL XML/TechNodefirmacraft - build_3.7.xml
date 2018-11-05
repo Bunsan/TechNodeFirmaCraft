@@ -58,7 +58,7 @@
 <!-- Base Scripts -->
         <!-- Marquee Mods -->
         <mod 
-        name="TerraFirmaCraft" version="0.79.29_tnfc.1d6176e"  url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TerraFirmaCraft-0.79.29_tnfc.1d6176e.jar" file="[1.7.10]TerraFirmaCraft-0.79.29_tnfc.1d6176e.jar" md5="1555718c02da79b9c88c9f02aba5b347" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="TerraFirmaCraft" version="0.79.30.tnfc" url="packs/TechNodefirmacraft/files/1.7.10Mods/1.7.10-TerraFirmaCraft-0.79.30_tnfc.jar" file="1.7.10-TerraFirmaCraft-0.79.30_tnfc.jar" md5="fa813a8e047b27be099f0ead003d05bd" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod 
         name="TechNodefirmacraft" version="3.5" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]TechNodefirmacraft-3.5.jar" file="[1.7.10]TechNodefirmacraft-3.5.jar" md5="9715df02a2022a4d5bb3d47bc339de60" download="server" type="mods" website="https://github.com/AnodeCathode/TechNodefirmacraftMod" authors="AnodeCathode, Bunsan" optional="no" description="Custom integration and features for TechNodefirmacraft modpack" client="yes" server="yes" serveroptional="no"
@@ -136,7 +136,7 @@
         name="Flat Signs" version="2.1.0.19" url="packs/TechNodefirmacraft/files/1.7.10Mods/FlatSigns-1.7.10-universal-2.1.0.19.jar" file="FlatSigns-1.7.10-universal-2.1.0.19.jar" md5="836efa16b25141b15b5db3dd157e155b" download="server" type="mods" website="http://smarturl.it/FlatSigns" authors="Myrathi" description="FlatSigns provides new sign functionality allowing signs to be placed flat on the ceiling or the floor (via sneak click). You can also make sponges to edit existing signs." client="yes" optional="no" server="yes" serveroptional="no"
         />
         <mod
-        name="Merchants" version="1.1.4" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]Merchants-1.1.4.jar" file="[1.7.10]Merchants-1.1.4.jar" md5="5fd60fe9b6b8244f938965270fc388d2" download="server" type="mods" website="http://terrafirmacraft.com/f/topic/7563-tfc-07913merchants-addon-for-tfc/" authors="Aleksey Terzi" description="Merchants Addon for TFC." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="Merchants" version="1.1.5" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]Merchants-1.1.5.jar" file="[1.7.10]Merchants-1.1.5.jar" md5="57019e602a5c21b953b34bfafbe95ea2" download="server" type="mods" website="http://terrafirmacraft.com/f/topic/7563-tfc-07913merchants-addon-for-tfc/" authors="Aleksey Terzi" description="Merchants Addon for TFC." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod 
         name="Leather Water Sac" version="3.9.B79_tnfc" url="packs/TechNodefirmacraft/files/1.7.10Mods/[1.7.10]LeatherWaterSac-3.9.B79_tnfc.jar" file="[1.7.10]LeatherWaterSac-3.9.B79_tnfc.jar" md5="0125e8a39547e57b24363a76275d228f" download="server" type="mods" website="http://terrafirmacraft.com/f/topic/3460-tfc-07923-leather-water-sac-for-tfc/" authors="Emris_Morath" description="It&apos;s a water sac made out of leather for TerraFirmaCraft" client="yes" optional="no" server="yes" serveroptional="no"
@@ -177,7 +177,7 @@
         
         <!-- Pack Customization Mods -->
         <mod
-        name="Scripts" version="3.5" url="packs/TechNodefirmacraft/files/extract/scripts_3.5.zip" file="scripts_3.5.zip" md5="afa24f2a73dc38049c846e703750aeab" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
+        name="Scripts" version="3.7" url="packs/TechNodefirmacraft/files/extract/scripts_3.7.zip" file="scripts_3.7.zip" md5="28ee33b3d8ddc83b3914d109a68b5f93" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="MineTweaker scripts to glue the whole thing together." client="yes" optional="no" server="yes" serveroptional="no" 
         />
         <mod
         name="MineTweaker 3" version="3.0.10B" url="packs/TechNodefirmacraft/files/1.7.10Mods/MineTweaker3-1.7.10-3.0.10B.jar" file="MineTweaker3-1.7.10-3.0.10B.jar" md5="884933d1b933e0bd2f93293201569f13" download="server" type="mods" website="http://minetweaker3.powerofbytes.com" authors="Stan Hebben" description="Customize your minecraft experience!" client="yes" optional="no" server="yes" serveroptional="no"
@@ -418,7 +418,7 @@
         name="IGWModData" version="3.6" url="packs/TechNodefirmacraft/files/extract/igwmod_3.6.zip" file="igwmod_3.6.zip" md5="914a01d8f75ee9795791ebb5f11c238a" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="InGame Wiki Data for TechNodefirmaCraft pack" client="yes" server="no"
         />
         <mod 
-        name="FTBUtilConfig" version="1.0.18.3" url="packs/TechNodefirmacraft/files/extract/ftb_utility_files.zip" file="ftb_utility_files.zip" md5="421de15758b4df7874778eba8285c041" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Config for FTBUtil" depends="FTBLib" client="yes" optional="no" server="yes" serveroptional="no"
+        name="FTBUtilConfig" version="1.0.18.3" url="packs/TechNodefirmacraft/files/extract/ftb_utility_files_3.7.zip" file="ftb_utility_files_3.7.zip" md5="e041b5f9fd73f0d9bbfeea59e9f2e884" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TechNodeFirmaCraft" description="Config for FTBUtil" depends="FTBLib" client="yes" optional="no" server="yes" serveroptional="no"
         />
 
     </mods>
