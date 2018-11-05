@@ -35,7 +35,6 @@
       "Welcome to TNFC!"
     ],
     "starting_items": [
-      "minecraft:sign 4 0"
     ]
   },
   "permissions_admin": {

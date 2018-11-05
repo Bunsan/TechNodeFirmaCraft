@@ -789,6 +789,7 @@ mods.railcraft.RockCrusher.removeRecipe(<minecraft:sandstone>);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore Pile:6>, true, false, [<terrafirmacraft:item.MetalDust:4>, <terrafirmacraft:item.MetalDust:4>, <terrafirmacraft:item.MetalDust:8>], [1.0, 0.50, 0.05]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore Pile:7>, true, false, [<terrafirmacraft:item.MetalDust>, <terrafirmacraft:item.MetalDust>, <terrafirmacraft:item.Powder:3>], [1.0, 0.50, 0.10]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore Pile:8>, true, false, [<terrafirmacraft:item.MetalDust:5>, <terrafirmacraft:item.MetalDust:5>], [1.0, 0.50]);
+    mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore Pile:9>, true, false, [<terrafirmacraft:item.MetalDust:1>, <terrafirmacraft:item.MetalDust:1>], [1.0, 0.50]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore Pile:10>, true, false, [<Mekanism:DirtyDust>, <Mekanism:DirtyDust>], [1.0, 0.50]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore Pile:11>, true, false, [<Mekanism:DirtyDust>, <Mekanism:DirtyDust>, <terrafirmacraft:item.Powder:7>], [1.0, 0.50, 0.10]);
 	mods.railcraft.RockCrusher.addRecipe(<terrafirmacraft:item.Ore Pile:12>, true, false, [<terrafirmacraft:item.MetalDust:11>, <terrafirmacraft:item.MetalDust:11>, <Mekanism:DirtyDust>], [1.0, 0.50, 0.05]);
