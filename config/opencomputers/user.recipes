@@ -49,6 +49,10 @@ microcontrollerCase2 {
           [blockRedstone, chestWood, blockRedstone]
           [nuggetGold, "oc:materialCircuitBoardPrinted", nuggetGold]]
 }
+diskDriveMountable {
+  input: [[obsidian, "oc:circuitChip1", obsidian]
+          [fenceIron, "oc:diskDrive", fenceIron]
+          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
 server1 {
   input: [[obsidian, "oc:ram4", obsidian]
           ["oc:circuitChip1", "oc:circuitChip2", "oc:circuitChip1"]
@@ -62,6 +66,11 @@ server2 {
 server3 {
   input: [[obsidian, "oc:ram6", obsidian]
           ["oc:circuitChip3", "oc:circuitChip3", "oc:circuitChip3"]
+          [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
+}
+terminalServer {
+  input: [[obsidian, "oc:wlanCard", obsidian]
+          ["oc:wlanCard", "oc:circuitChip3", "oc: wlanCard"]
           [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
 }
 hdd1 {
@@ -183,6 +192,11 @@ tankControllerUpgrade {
           [dispenser, "oc:circuitChip2", craftingPiston]
           [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
 }
+tradingUpgrade {
+  input: [[ingotGold, chest, ingotGold]
+          [craftingToolHardHammer, "oc:circuitChip2", craftingToolHardChisel]
+          [dropper, "oc:materialCircuitBoardPrinted", craftingPiston]]
+}
 cardContainer1 {
   input: [[plateIron, "oc:circuitChip1", plateIron]
           [craftingPiston, chestWood, ""]
@@ -213,6 +227,12 @@ upgradeContainer3 {
           [craftingPiston, chestWood, ""]
           [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
 }
+
+# Note: ingot/gem <-> nugget recipes are *only* registered if no other mod
+# already provides the same functionality.
+nuggetIron =false
+ingotIron =false
+chipDiamond = false
 cuttingWire {
   input: [[stickWood, nuggetIron, stickWood]]
 }
