@@ -353,7 +353,7 @@ powerDistributor {
           ["oc:cable", "oc:circuitChip1", "oc:cable"]
           [craftingToolHardHammer, "oc:materialCircuitBoardPrinted", craftingToolHardChisel]]
 }
-serverRack {
+rack {
   input: [["oc:circuitChip3", "oc:wlanCard", "oc:circuitChip3"]
           [fenceIron, chestWood, fenceIron]
           ["oc:relay", "oc:materialCircuitBoardPrinted", "oc:powerDistributor"]]

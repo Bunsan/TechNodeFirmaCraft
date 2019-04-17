@@ -164,6 +164,9 @@ import minetweaker.item.IItemStack;
 
 // ================================================================================
 //#MARKER ADD SHAPED
+
+//# String
+	recipes.addShaped(<minecraft:string>, [[<Forestry:craftingMaterial:2>], [<Forestry:craftingMaterial:2>], [<Forestry:craftingMaterial:2>]]);
     
 //#Maps
     recipes.addShaped(<minecraft:map>, [[null, <minecraft:paper>, null], [<minecraft:paper>, <minecraft:compass>.reuse(), <minecraft:paper>], [null, <minecraft:paper>, null]]);

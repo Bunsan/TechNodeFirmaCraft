@@ -63,8 +63,6 @@ import minetweaker.item.IItemStack;
 //#ADD SHAPED
 //# Scoop
     recipes.addShaped(<Forestry:scoop>, [[<ore:stickWood>, <ore:materialCloth>, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [null, <ore:stickWood>, null]]);
-//# String
-	recipes.addShaped(<minecraft:string>, [[<Forestry:craftingMaterial:2>], [<Forestry:craftingMaterial:2>], [<Forestry:craftingMaterial:2>]]);
 //# Frames
     recipes.addShaped(<Forestry:frameImpregnated>, [[<Forestry:oakStick>, <Forestry:oakStick>, <Forestry:oakStick>], [<Forestry:oakStick>, <ore:materialString>, <Forestry:oakStick>], [<Forestry:oakStick>, <Forestry:oakStick>, <Forestry:oakStick>]]);
     recipes.addShaped(<Forestry:frameUntreated>, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, <ore:materialString>, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
