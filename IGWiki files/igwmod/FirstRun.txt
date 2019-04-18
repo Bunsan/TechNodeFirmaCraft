@@ -1,10 +1,10 @@
-[prefix{l}]Version 3.7: This Thing isn't a Thing so don't expect more Things from this Thing.[prefix{l}]
+[prefix{l}]Version 3.7: This Thing isn't a Thing so don't expect more Things from this Thing.
 
-So I got the itch to play this old pack and needed to rebuild my instance to add in a few fixes. So I thought I might as well push this stuff out as an update. Contains a few recipe fixes, performance fixes and even some new content.
+So I had an itch to play this old pack a bit ago and needed to rebuild my instance to add in a few fixes. Then I've had a few reports of little issues. So I thought I might as well make the fixes and push this stuff out as an update. Contains a few recipe fixes, performance fixes and even some new content. Back up your worlds before updating as it has been a while so there may be some issues.
 
 TFC-TNFC
 - Dries' performance fixes we didn't already have.
 - Some secret skeleton friends for our zombies... hint, hint... say no more...
 
-Merchants mod
-- Food fix.
+Merchants mod food fix
+Various crafting recipe fixes
