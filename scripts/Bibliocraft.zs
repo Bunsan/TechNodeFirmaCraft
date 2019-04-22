@@ -10,6 +10,8 @@ import minetweaker.item.IItemStack;
     recipes.remove(<BiblioWoodsTFC:BiblioWoodPaneler:*>);
     recipes.remove(<BiblioCraft:item.FramingSheet>);
     recipes.remove(<BiblioCraft:item.FramingBoard>);
+    recipes.remove(<BiblioCraft:BiblioPotionShelf>);
+    recipes.remove(<BiblioWoodsTFC:BiblioWoodpotshelf:*>);
 
 // ================================================================================
 //#ADD SHAPELESS
@@ -27,8 +29,17 @@ var biblioLumber = [<terrafirmacraft:item.SinglePlank:0>, <terrafirmacraft:item.
 
 var biblioPaneler = [<BiblioCraft:BiblioPaneler>, <BiblioWoodsTFC:BiblioWoodPaneler:0>, <BiblioWoodsTFC:BiblioWoodPaneler:1>, <BiblioWoodsTFC:BiblioWoodPaneler:2>, <BiblioWoodsTFC:BiblioWoodPaneler:3>, <BiblioWoodsTFC:BiblioWoodPaneler:4>, <BiblioWoodsTFC:BiblioWoodPaneler:5>, <BiblioWoodsTFC:BiblioWoodPaneler:6>, <BiblioWoodsTFC:BiblioWoodPaneler:7>, <BiblioWoodsTFC:BiblioWoodPaneler:8>, <BiblioWoodsTFC:BiblioWoodPaneler:9>, <BiblioWoodsTFC:BiblioWoodPaneler:10>, <BiblioWoodsTFC:BiblioWoodPaneler:11>, <BiblioWoodsTFC:BiblioWoodPaneler:12>, <BiblioWoodsTFC:BiblioWoodPaneler:13>, <BiblioWoodsTFC:BiblioWoodPaneler:14>, <BiblioWoodsTFC:BiblioWoodPaneler:15>] as IItemStack[];
 
+var biblioPotShelf = [<BiblioCraft:BiblioPotionShelf>, <BiblioWoodsTFC:BiblioWoodpotshelf:0>, <BiblioWoodsTFC:BiblioWoodpotshelf:1>, <BiblioWoodsTFC:BiblioWoodpotshelf:2>, <BiblioWoodsTFC:BiblioWoodpotshelf:3>, <BiblioWoodsTFC:BiblioWoodpotshelf:4>, <BiblioWoodsTFC:BiblioWoodpotshelf:5>, <BiblioWoodsTFC:BiblioWoodpotshelf:6>, <BiblioWoodsTFC:BiblioWoodpotshelf:7>, <BiblioWoodsTFC:BiblioWoodpotshelf:8>, <BiblioWoodsTFC:BiblioWoodpotshelf:9>, <BiblioWoodsTFC:BiblioWoodpotshelf:10>, <BiblioWoodsTFC:BiblioWoodpotshelf:11>, <BiblioWoodsTFC:BiblioWoodpotshelf:12>, <BiblioWoodsTFC:BiblioWoodpotshelf:13>, <BiblioWoodsTFC:BiblioWoodpotshelf:14>, <BiblioWoodsTFC:BiblioWoodpotshelf:15>] as IItemStack[];
+
 		for i, paneler in biblioPaneler {
 	var plank = biblioPlank[i];
     var lumber = biblioLumber[i];
 	recipes.addShaped(paneler, [[<ore:plateIron>, <ore:itemAxe>, <ore:plateIron>], [lumber, lumber, lumber], [plank, plank, plank]]);
       }
+      
+      for i, potshelf in biblioPotShelf {
+      var plank = biblioPlank[i];
+      var lumber = biblioLumber[i];
+      recipes.addShaped(potshelf, [[lumber, lumber, lumber], [plank, <minecraft:glass_bottle>, plank], [lumber, lumber, lumber]]);
+      }
+    recipes.addShaped(<BiblioCraft:BiblioPotionShelf>, [[<minecraft:wooden_slab>, <minecraft:wooden_slab>, <minecraft:wooden_slab>], [<minecraft:planks>, <minecraft:glass_bottle>, <minecraft:planks>], [<minecraft:wooden_slab>, <minecraft:wooden_slab>, <minecraft:wooden_slab>]]);
